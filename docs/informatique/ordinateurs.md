@@ -16,7 +16,7 @@ Des ordinateurs en libre-service sont à la disposition de tous les utilisateurs
 
 [Consulter la liste des logiciels offerts](logiciels)  
 :::info
-Vous cherchez un ordinateur puissant pour vos travaux vidéos ou graphiques? Consultez la page [Postes d'édition](postes-edition.md).
+Vous cherchez un ordinateur puissant pour vos travaux vidéos ou graphiques? Consultez la page [Postes d'édition](#).
 :::
 
 ---

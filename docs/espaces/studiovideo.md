@@ -43,7 +43,7 @@ Les studios d'enregistrement sont ouverts **du lundi au vendredi, de 9h à 17h**
 
 De la documentation est disponible pour vous aider à utiliser le studio :
 
-[Consulter la documentation](../medias/video/guide-video.md)
+[Consulter la documentation](#)
 
 ---
 
