@@ -1,0 +1,358 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0057ac;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.main-wrapper {
+  max-width: 1440px;
+  margin: auto;
+  width: 100%;
+}
+
+.docs-wrapper .navbar .navbar__toggle {
+  margin-right: 0.8rem;
+}
+
+.theme-doc-sidebar-container .menu {
+  padding: 1.15rem 1.15rem 2rem 1.15rem;
+  font-weight: 400;
+}
+
+.theme-doc-sidebar-container .menu ul.menu__list .menu__list-item > a {
+  padding: 6px 12px 6px 12px;
+}
+
+.theme-doc-sidebar-container .menu ul.menu__list .menu__list-item.menu__list-item-collapsible > a {
+  font-weight: 500;
+  color: var(--ifm-heading-color);
+}
+
+.theme-doc-sidebar-container .menu ul.menu__list .menu__list-item .menu__link--sublist-caret:after,
+.theme-doc-sidebar-container .menu ul.menu__list .menu__list-item .menu__caret:before {
+  background-size: 1.3rem;
+}
+
+.container {
+  margin-bottom: 42px;
+  padding-left: 42px;
+  padding-right: 42px;
+  margin-top: 22px;
+}
+
+.tabs {
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+.tabs__item {
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.tabs__item--active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+pre {
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.card {
+  border-radius: 32px;
+}
+
+
+
+
+.card--clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #00407f;
+}
+
+
+
+
+
+
+
+html[data-theme="light"] {
+  --navbar-link-c: var(--c-indigo-80);
+  --navbar-separator-bg-c: var(--c-indigo-40);
+  --ifm-dropdown-background-color: var(--token-secondary-bg-c);
+  --navbar-icon-link-c: var(--c-indigo-60);
+  --navbar-text-color: #5a5f66;
+  --navbar-active-border-color: #000000;
+  --search-kbd-color: #5a5f66;
+}
+
+html[data-theme="dark"] {
+  --navbar-link-c: var(--c-gray-0);
+  --navbar-separator-bg-c: var(--c-carbon-80);
+  --navbar-icon-link-c: var(--c-white);
+  --navbar-text-color: var(--ifm-color-emphasis-500);
+  --navbar-active-border-color: var(--ifm-color-emphasis-900);
+  --search-kbd-color: var(--ifm-color-emphasis-700);
+}
+
+:root {
+  --navbar-dropdown-icon: var(--ifm-menu-link-sublist-icon);
+}
+
+/* Navbar styles */
+#__docusaurus .navbar {
+  padding: 0 16px;
+  font-size: 14px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#__docusaurus .navbar__inner {
+  width: initial;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  max-width: 1400px;
+}
+
+#__docusaurus .navbar__items {
+  min-width: auto;
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link {
+  display: none;
+}
+
+@media (min-width: 996px) {
+  #__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link {
+    display: flex;
+  }
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link:not(.cta) {
+  align-self: stretch;
+  align-items: center;
+  position: relative;
+  color: var(--navbar-text-color) !important;
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link:not(.cta)::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  left: var(--ifm-navbar-item-padding-horizontal);
+  right: var(--ifm-navbar-item-padding-horizontal);
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background-color 0.2s ease-out;
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link--active {
+  color: var(--navbar-active-border-color) !important;
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link--active::after {
+  background: var(--ifm-link-color);
+  background-color: var(--navbar-active-border-color) !important;
+}
+
+/* DocSearch styles */
+#__docusaurus .navbar__items .DocSearch-Button {
+  border-radius: 3px !important;
+}
+
+#__docusaurus .navbar__items .DocSearch-Button .DocSearch-Search-Icon {
+  width: 16px;
+  margin-top: -1px;
+}
+
+#__docusaurus .navbar__items .DocSearch-Button .DocSearch-Button-Keys {
+  border: none;
+}
+
+#__docusaurus .navbar__items .DocSearch-Button .DocSearch-Button-Keys .DocSearch-Button-Key:first-child {
+  color: var(--search-kbd-color) !important;
+  font-size: 18px;
+}
+
+#__docusaurus .navbar__items .DocSearch-Button .DocSearch-Button-Keys .DocSearch-Button-Key:last-child {
+  color: var(--search-kbd-color) !important;
+  font-size: 12px;
+}
+
+#__docusaurus .navbar__link {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 17px;
+  white-space: nowrap;
+  color: var(--navbar-link-c);
+}
+
+
+.navbar__logo img {
+  height: 160%;
+  margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+/* Barre de recherche */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Filtre par catégorie */
+.category-filter {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Logiciels */
+.logiciel {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.logiciel h3 {
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.tag--libre {
+  background-color: #28a745; /* Vert */
+}
+
+.tag--telechargement {
+  background-color: #007bff; /* Bleu */
+}
+
+.tag--distance {
+  background-color: #ffc107; /* Jaune */
+}
+
+.tag:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card__header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card__body {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.card__footer {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+.button {
+  
+  display: inline-flex; /* Flex pour centrer facilement */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  padding: 0.8rem 1.6rem; /* Espacement interne */
+  border-radius: 24px; /* Bords arrondis */
+  font-size: 1rem; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  text-align: center; /* Centre le texte */
+  text-decoration: none; /* Pas de soulignement */
+  cursor: pointer; /* Curseur pointer */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transitions pour hover */
+  background-color: #0057ac; /* Couleur de fond */
+  color: #ffffff; /* Couleur du texte */
+  border: none; /* Supprime la bordure par défaut */
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  border: none;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.button--block {
+  display: block;
+  width: 100%;
+}
+
+.button p {
+  margin: 0; /* Supprime toutes les marges */
+}
+
+.pagination-nav {
+  display: none;
+  }
