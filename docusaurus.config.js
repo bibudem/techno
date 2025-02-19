@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'Lien1',
-                to: '/docs/intro',
+                to: '/#',
               },
             ],
           },
@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: 'Lien1',
-                to: '/blog',
+                to: '/#',
               },
               {
                 label: 'Lien2',
