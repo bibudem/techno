@@ -1,0 +1,27 @@
+{
+  "id": "espaces/visualisation",
+  "title": "Laboratoire de visualisation",
+  "description": "<img",
+  "source": "@site/docs/espaces/visualisation.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/visualisation",
+  "permalink": "/espaces/visualisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "visualisation",
+    "title": "Laboratoire de visualisation",
+    "image": "/img/cover/labvisu.jpg"
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Laboratoire informatique",
+    "permalink": "/espaces/laboformation"
+  },
+  "next": {
+    "title": "Salle de visionnement",
+    "permalink": "/espaces/salledevisio"
+  }
+}

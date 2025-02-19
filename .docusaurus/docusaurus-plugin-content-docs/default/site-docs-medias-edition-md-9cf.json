@@ -1,0 +1,23 @@
+{
+  "id": "medias/edition",
+  "title": "edition",
+  "description": "",
+  "source": "@site/docs/medias/edition.md",
+  "sourceDirName": "medias",
+  "slug": "/medias/edition",
+  "permalink": "/medias/edition",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "mediasSidebar",
+  "previous": {
+    "title": "video",
+    "permalink": "/medias/video"
+  },
+  "next": {
+    "title": "infographie",
+    "permalink": "/medias/infographie"
+  }
+}

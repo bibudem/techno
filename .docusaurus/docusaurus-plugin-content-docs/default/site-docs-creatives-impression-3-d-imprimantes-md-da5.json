@@ -1,0 +1,23 @@
+{
+  "id": "creatives/impression3d/imprimantes",
+  "title": "imprimantes",
+  "description": "",
+  "source": "@site/docs/creatives/impression3d/imprimantes.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/impression3d/imprimantes",
+  "permalink": "/creatives/impression3d/imprimantes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Introduction à l'impression 3D",
+    "permalink": "/introduction-impression-3d"
+  },
+  "next": {
+    "title": "modeles3d",
+    "permalink": "/creatives/impression3d/modeles3d"
+  }
+}

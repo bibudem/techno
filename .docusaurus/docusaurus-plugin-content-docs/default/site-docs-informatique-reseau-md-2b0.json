@@ -1,0 +1,20 @@
+{
+  "id": "informatique/reseau",
+  "title": "Réseau sans fil",
+  "description": "Guide pour se connecter aux réseaux sans fil de l'Université de Montréal.",
+  "source": "@site/docs/informatique/reseau.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/reseau",
+  "permalink": "/informatique/reseau",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Réseau sans fil",
+    "description": "Guide pour se connecter aux réseaux sans fil de l'Université de Montréal.",
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "informatiqueSidebar"
+}

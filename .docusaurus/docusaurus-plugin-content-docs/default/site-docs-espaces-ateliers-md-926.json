@@ -1,0 +1,28 @@
+{
+  "id": "espaces/ateliers",
+  "title": "Ateliers de fabrication",
+  "description": "Impression 3D, électronique et plus encore!",
+  "source": "@site/docs/espaces/ateliers.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/ateliers",
+  "permalink": "/espaces/ateliers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ateliers",
+    "title": "Ateliers de fabrication",
+    "description": "Impression 3D, électronique et plus encore!",
+    "image": "/img/cover/ateliers.jpg"
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Amphithéâtre",
+    "permalink": "/espaces/amphitheatre"
+  },
+  "next": {
+    "title": "Laboratoire informatique",
+    "permalink": "/espaces/laboformation"
+  }
+}

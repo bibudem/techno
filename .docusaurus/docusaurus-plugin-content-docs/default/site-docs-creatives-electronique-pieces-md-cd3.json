@@ -1,0 +1,23 @@
+{
+  "id": "creatives/electronique/pieces",
+  "title": "pieces",
+  "description": "",
+  "source": "@site/docs/creatives/electronique/pieces.md",
+  "sourceDirName": "creatives/electronique",
+  "slug": "/creatives/electronique/pieces",
+  "permalink": "/creatives/electronique/pieces",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "ido",
+    "permalink": "/creatives/electronique/ido"
+  },
+  "next": {
+    "title": "Découpeuse",
+    "permalink": "/creatives/decoupeuse"
+  }
+}

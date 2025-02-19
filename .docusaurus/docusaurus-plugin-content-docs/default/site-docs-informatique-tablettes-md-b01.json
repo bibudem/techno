@@ -1,0 +1,19 @@
+{
+  "id": "informatique/tablettes",
+  "title": "Tablettes iPad",
+  "description": "Nous offrons un service de prêt de tablettes iPad pour la communauté UdeM. Vous avez également la possibilité d'ajouter vos propres applications en utilisant votre identifiant Apple ID.",
+  "source": "@site/docs/informatique/tablettes.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/tablettes",
+  "permalink": "/informatique/tablettes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tablettes iPad",
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "informatiqueSidebar"
+}

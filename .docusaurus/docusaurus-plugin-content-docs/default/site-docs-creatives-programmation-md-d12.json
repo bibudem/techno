@@ -1,0 +1,26 @@
+{
+  "id": "creatives/programmation",
+  "title": "Programmation",
+  "description": "",
+  "source": "@site/docs/creatives/programmation.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/programmation",
+  "permalink": "/creatives/programmation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "programmation",
+    "title": "Programmation"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Art textile",
+    "permalink": "/creatives/art-textile"
+  },
+  "next": {
+    "title": "Robots (accessoires didactiques)",
+    "permalink": "/creatives/robots"
+  }
+}

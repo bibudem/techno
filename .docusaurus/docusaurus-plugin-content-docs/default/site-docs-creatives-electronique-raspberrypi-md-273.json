@@ -1,0 +1,23 @@
+{
+  "id": "creatives/electronique/raspberrypi",
+  "title": "raspberrypi",
+  "description": "",
+  "source": "@site/docs/creatives/electronique/raspberrypi.md",
+  "sourceDirName": "creatives/electronique",
+  "slug": "/creatives/electronique/raspberrypi",
+  "permalink": "/creatives/electronique/raspberrypi",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "arduino",
+    "permalink": "/creatives/electronique/arduino"
+  },
+  "next": {
+    "title": "ido",
+    "permalink": "/creatives/electronique/ido"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "informatique/logiciels-distance",
+  "title": "Connexion à distance aux logiciels",
+  "description": "Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS depuis chez vous? Utilisez nos postes publics à distance.",
+  "source": "@site/docs/informatique/logiciels-distance.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/logiciels-distance",
+  "permalink": "/informatique/logiciels-distance",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Connexion à distance aux logiciels"
+  }
+}

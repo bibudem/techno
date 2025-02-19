@@ -1,0 +1,20 @@
+{
+  "id": "a-propos/mission",
+  "title": "Mission",
+  "description": "Notre mission",
+  "source": "@site/docs/a-propos/mission.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/mission",
+  "permalink": "/a-propos/mission",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mission",
+    "title": "Mission",
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "aboutSidebar"
+}

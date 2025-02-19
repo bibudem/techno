@@ -1,0 +1,18 @@
+{
+  "id": "informatique/proxy/macos-13-et-plus",
+  "title": "Configuration du serveur mandataire (proxy) macOS 13, 14 et 15",
+  "description": "!!! Warning \"Il est recommandé d'utiliser le navigateur Chrome ou Firefox.\"",
+  "source": "@site/docs/informatique/proxy/macos-13-et-plus.md",
+  "sourceDirName": "informatique/proxy",
+  "slug": "/informatique/proxy/macos-13-et-plus",
+  "permalink": "/informatique/proxy/macos-13-et-plus",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration du serveur mandataire (proxy) macOS 13, 14 et 15",
+    "pagination_next": null,
+    "pagination_prev": null
+  }
+}

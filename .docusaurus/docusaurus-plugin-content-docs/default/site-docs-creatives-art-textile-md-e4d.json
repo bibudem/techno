@@ -1,0 +1,26 @@
+{
+  "id": "creatives/art-textile",
+  "title": "Art textile",
+  "description": "",
+  "source": "@site/docs/creatives/art-textile.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/art-textile",
+  "permalink": "/creatives/art-textile",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "art-textile",
+    "title": "Art textile"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "brother",
+    "permalink": "/creatives/decoupeuse/brother"
+  },
+  "next": {
+    "title": "Programmation",
+    "permalink": "/creatives/programmation"
+  }
+}

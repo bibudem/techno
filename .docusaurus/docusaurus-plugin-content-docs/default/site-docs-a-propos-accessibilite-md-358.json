@@ -1,0 +1,20 @@
+{
+  "id": "a-propos/accessibilite",
+  "title": "Accessibilité",
+  "description": "Access",
+  "source": "@site/docs/a-propos/accessibilite.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/accessibilite",
+  "permalink": "/a-propos/accessibilite",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "accessibilite",
+    "title": "Accessibilité",
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "aboutSidebar"
+}

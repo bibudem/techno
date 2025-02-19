@@ -1,0 +1,23 @@
+{
+  "id": "creatives/vr/catalogue",
+  "title": "catalogue",
+  "description": "",
+  "source": "@site/docs/creatives/vr/catalogue.md",
+  "sourceDirName": "creatives/vr",
+  "slug": "/creatives/vr/catalogue",
+  "permalink": "/creatives/vr/catalogue",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "metaquest3",
+    "permalink": "/creatives/vr/metaquest3"
+  },
+  "next": {
+    "title": "Électronique",
+    "permalink": "/creatives/electronique"
+  }
+}

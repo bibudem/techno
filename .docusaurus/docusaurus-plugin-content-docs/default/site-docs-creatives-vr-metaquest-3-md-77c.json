@@ -1,0 +1,23 @@
+{
+  "id": "creatives/vr/metaquest3",
+  "title": "metaquest3",
+  "description": "",
+  "source": "@site/docs/creatives/vr/metaquest3.md",
+  "sourceDirName": "creatives/vr",
+  "slug": "/creatives/vr/metaquest3",
+  "permalink": "/creatives/vr/metaquest3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Réalité virtuelle",
+    "permalink": "/creatives/vr"
+  },
+  "next": {
+    "title": "catalogue",
+    "permalink": "/creatives/vr/catalogue"
+  }
+}

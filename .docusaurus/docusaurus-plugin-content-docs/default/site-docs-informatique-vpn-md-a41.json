@@ -1,0 +1,21 @@
+{
+  "id": "informatique/vpn",
+  "title": "Installer le VPN",
+  "description": "Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM.",
+  "source": "@site/docs/informatique/vpn.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/vpn",
+  "permalink": "/informatique/vpn",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installer le VPN",
+    "description": "Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM.",
+    "pagination_next": null,
+    "pagination_prev": null,
+    "hide_table_of_contents": true
+  },
+  "sidebar": "informatiqueSidebar"
+}

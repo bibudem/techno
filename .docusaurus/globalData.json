@@ -1,0 +1,350 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "espaces/index",
+          "docs": [
+            {
+              "id": "a-propos/accessibilite",
+              "path": "/a-propos/accessibilite",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/contribuer",
+              "path": "/a-propos/contribuer",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/equipe",
+              "path": "/a-propos/equipe",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/index",
+              "path": "/a-propos/",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/mission",
+              "path": "/a-propos/mission",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/reglements",
+              "path": "/a-propos/reglements",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "creatives/art-textile",
+              "path": "/creatives/art-textile",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse",
+              "path": "/creatives/decoupeuse",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse/brother",
+              "path": "/creatives/decoupeuse/brother",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse/cameo",
+              "path": "/creatives/decoupeuse/cameo",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse/cricut",
+              "path": "/creatives/decoupeuse/cricut",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique",
+              "path": "/creatives/electronique",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/arduino",
+              "path": "/creatives/electronique/arduino",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/ido",
+              "path": "/creatives/electronique/ido",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/pieces",
+              "path": "/creatives/electronique/pieces",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/raspberrypi",
+              "path": "/creatives/electronique/raspberrypi",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d",
+              "path": "/creatives/impression3d",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/imprimantes",
+              "path": "/creatives/impression3d/imprimantes",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/introduction",
+              "path": "/introduction-impression-3d",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/modeles3d",
+              "path": "/creatives/impression3d/modeles3d",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/techniques",
+              "path": "/creatives/impression3d/techniques",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/index",
+              "path": "/creatives/",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/programmation",
+              "path": "/creatives/programmation",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/realisations",
+              "path": "/creatives/realisations",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/robots",
+              "path": "/creatives/robots",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr",
+              "path": "/creatives/vr",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr/catalogue",
+              "path": "/creatives/vr/catalogue",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr/metaquest3",
+              "path": "/creatives/vr/metaquest3",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "espaces/amphitheatre",
+              "path": "/espaces/amphitheatre",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/ateliers",
+              "path": "/espaces/ateliers",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/index",
+              "path": "/espaces/",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/laboformation",
+              "path": "/espaces/laboformation",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/salledevisio",
+              "path": "/espaces/salledevisio",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/studioaudio",
+              "path": "/espaces/studioaudio",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/studiovideo",
+              "path": "/espaces/studiovideo",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/visualisation",
+              "path": "/espaces/visualisation",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "informatique/accessoires",
+              "path": "/informatique/accessoires",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/authentification",
+              "path": "/informatique/authentification",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/ava",
+              "path": "/informatique/ava",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/consultation",
+              "path": "/informatique/consultation",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/hors-campus",
+              "path": "/informatique/hors-campus",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/impression",
+              "path": "/informatique/impression",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/index",
+              "path": "/informatique/",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels",
+              "path": "/informatique/logiciels",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels-distance",
+              "path": "/informatique/logiciels-distance"
+            },
+            {
+              "id": "informatique/numerisation",
+              "path": "/informatique/numerisation",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/ordinateurs",
+              "path": "/informatique/ordinateurs",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/proxy",
+              "path": "/informatique/proxy",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/proxy/macos-13-et-plus",
+              "path": "/informatique/proxy/macos-13-et-plus"
+            },
+            {
+              "id": "informatique/reseau",
+              "path": "/informatique/reseau",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/tablettes",
+              "path": "/informatique/tablettes",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/vinyle",
+              "path": "/informatique/vinyle",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/vpn",
+              "path": "/informatique/vpn",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "medias/audio",
+              "path": "/medias/audio",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/edition",
+              "path": "/medias/edition",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/index",
+              "path": "/medias/",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/infographie",
+              "path": "/medias/infographie",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/postes-edition",
+              "path": "/medias/postes-edition",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/video",
+              "path": "/medias/video",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/visualisation",
+              "path": "/medias/visualisation",
+              "sidebar": "mediasSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "espacesSidebar": {
+              "link": {
+                "path": "/espaces/",
+                "label": "Espaces"
+              }
+            },
+            "informatiqueSidebar": {
+              "link": {
+                "path": "/informatique/",
+                "label": "Ressources informatiques"
+              }
+            },
+            "creativesSidebar": {
+              "link": {
+                "path": "/creatives/",
+                "label": "Technologies créatives"
+              }
+            },
+            "mediasSidebar": {
+              "link": {
+                "path": "/medias/",
+                "label": "Productions médias"
+              }
+            },
+            "aboutSidebar": {
+              "link": {
+                "path": "/a-propos/",
+                "label": "À propos"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

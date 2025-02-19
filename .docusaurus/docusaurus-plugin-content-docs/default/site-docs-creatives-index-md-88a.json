@@ -1,0 +1,19 @@
+{
+  "id": "creatives/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/creatives/index.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/",
+  "permalink": "/creatives/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "next": {
+    "title": "Impression 3D",
+    "permalink": "/creatives/impression3d"
+  }
+}

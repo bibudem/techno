@@ -1,0 +1,28 @@
+{
+  "id": "espaces/amphitheatre",
+  "title": "Amphithéâtre",
+  "description": "Salle de projection de films",
+  "source": "@site/docs/espaces/amphitheatre.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/amphitheatre",
+  "permalink": "/espaces/amphitheatre",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "amphitheatre",
+    "title": "Amphithéâtre",
+    "description": "Salle de projection de films",
+    "image": "/img/cover/amphi.jpg"
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Espaces",
+    "permalink": "/espaces/"
+  },
+  "next": {
+    "title": "Ateliers de fabrication",
+    "permalink": "/espaces/ateliers"
+  }
+}

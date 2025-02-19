@@ -1,0 +1,20 @@
+{
+  "id": "informatique/index",
+  "title": "Ressources informatiques",
+  "description": "<CardGrid",
+  "source": "@site/docs/informatique/index.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/",
+  "permalink": "/informatique/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Ressources informatiques",
+    "hide_table_of_contents": true,
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "informatiqueSidebar"
+}
