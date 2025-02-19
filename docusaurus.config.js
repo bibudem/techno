@@ -11,7 +11,7 @@ const config = {
   url: 'https://techno.bib.umontreal.ca',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/techno/',
+  baseUrl: '/',
 
   organizationName: 'bibudem', // Usually your GitHub org/user name.
   projectName: 'techno', // Usually your repo name.

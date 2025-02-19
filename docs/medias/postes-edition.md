@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 # Postes d'édition
 
-Nos postes d'édition numérique offrent la possibilité de créer, éditer et publier des productions vidéo, sonores et graphiques. Nous mettons à disposition une large gamme de logiciels spécialisés, notamment la suite **Adobe Creative Cloud**.
+Nos postes d'édition numérique offrent la possibilité de créer, éditer et publier des productions vidéo, sonores et graphiques. Nous mettons à disposition une large gamme de logiciels spécialisés, notamment la suite Adobe Creative Cloud et DaVinci Resolve Studio.
 
 [Consulter la liste des logiciels offerts](../informatique/logiciels.md)
 
