@@ -5,8 +5,6 @@ hide_table_of_contents: true
 tags:
   - authentification
 sidebar_position: 1
-pagination_next: null
-pagination_prev: null
 ---
 
 # Authentification
