@@ -1,9 +1,22 @@
 ---
 title: Postes AVA
-description: Information sur les postes AVA disponibles dans les bibliothèques UdeM.
-pagination_next: null
-pagination_prev: null
+description: Information sur les postes AVA (Apportez Vos Appareils) disponibles dans les bibliothèques UdeM.
+image: "/img/cover/ordinateurs.jpg"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Postes Apportez Votre Appareil (AVA)
 
@@ -11,7 +24,7 @@ Les bibliothèques UdeM mettent à votre disposition des postes **Apportez Votre
 
 ---
 
-## Comment ça marche ?
+## Comment ça marche?
 
 1. Trouvez un poste AVA disponible dans [les bibliothèques participantes](#disponibilite).
 2. Branchez votre ordinateur portable à l'écran à l'aide du câble **HDMI** ou **USB-C** fourni.
@@ -22,20 +35,28 @@ Les bibliothèques UdeM mettent à votre disposition des postes **Apportez Votre
 
 ## Disponibilité
 
-### Bibliothèque des lettres et sciences humaines
-- **7 postes** : disponibles à tous les étages.
+<details>
+  <summary>**Bibliothèque des lettres et sciences humaines**</summary>
+   - 7 postes : disponibles à tous les étages.
+</details>
 
-### Bibliothèque Hubert-Reeves
-- **6 postes** : 
+<details>
+<summary>**Bibliothèque Hubert-Reeves**</summary>
+- 6 postes :
   - 5 à la cartothèque.
   - 1 à l'entrée A.
+</details>
 
-### Bibliothèque de mathématiques et informatique
-- **6 postes** : situés dans la zone de silence.
+<details>
+  <summary>**Bibliothèque de mathématiques et informatique**</summary>
+  - 6 postes : situés dans la zone de silence.
+</details>
 
-### Bibliothèque de droit
-- **11 postes** : 
-  - 10 dans les salles de travail pour cycles supérieurs.
+<details>
+  <summary>**Bibliothèque de droit**</summary>
+  - 11 postes : 
+    - 10 dans les salles de travail pour cycles supérieurs.
+</details>
 
 ---
 

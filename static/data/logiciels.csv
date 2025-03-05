@@ -1,0 +1,66 @@
+nom,categorie,description,libre,telechargement,distance,lien
+Abbyy FineReader,Accessibilité,Reconnaissance optique de caractères,Non,Non,Non,
+Adobe Acrobat Pro,Bureautique,Création et modification de fichiers PDF,Non,Non,Oui,/docs/acrobat
+Adobe After Effects,Création et édition,Effets spéciaux et animation,Non,Non,Oui,/docs/adobe
+Adobe Animate,Création et édition,Animation,Non,Non,Oui,/docs/adobe
+Adobe Audition,Création et édition,Montage et mixage audio,Non,Non,Oui,/docs/adobe
+Adobe Character Animator,Création et édition,Animation de personnages,Non,Non,Oui,/docs/adobe
+Adobe Encoder,Création et édition,Compression vidéo,Non,Non,Oui,/docs/adobe
+Adobe Illustrator,Création et édition,Dessin vectoriel,Non,Non,Oui,/docs/adobe
+Adobe InCopy,Bureautique,Traitement de texte,Non,Non,Oui,/docs/adobe
+Adobe InDesign,Création et édition,Mise en page,Non,Non,Oui,/docs/adobe
+Adobe Lightroom & Lightroom Classic,Création et édition,Retouche photo,Non,Non,Oui,/docs/adobe
+Adobe Photoshop,Création et édition,Retouche photo et création graphique,Non,Non,Oui,/docs/adobe
+Adobe Premiere Pro,Création et édition,Montage vidéo,Non,Non,Oui,/docs/adobe
+Adobe Premiere Rush,Création et édition,Montage vidéo,Non,Non,Oui,/docs/adobe
+Anaconda,Traitement de données,Distribution de Python,Oui,Oui,Non,
+ArcGIS & ArcGIS Pro,Système dʼinformation géographique,Cartographie,Non,Non,Oui,/docs/arcgis
+Antidote,Correction grammaticale et orthographique,Correction grammaticale et orthographique,Non,Non,Oui,/docs/antidote
+AutoCAD,Bureautique,Logiciel de conception assistée par ordinateur (CAO),Non,Non,Oui,
+Balabolka,Accessibilité,Synthèse vocale,Non,Non,Oui,
+Beyond 20/20,Analyse de données,Analyse de données statistiques,Non,Non,Non,
+Bureau à distance,Accessibilité,Accès à distance aux ordinateurs,Non,Non,Oui,/docs/bureaudistance
+Caris Easy View,Système dʼinformation géographique,Visualisation de données géographiques,Non,Non,Oui,
+ChemDraw,Sciences,Dessin de structures chimiques,Non,Non,Oui,/docs/chemdraw
+CmapTools,Visualisation de données,Cartes conceptuelles,Non,Non,Oui,
+DaVinci Resolve,Création et édition,Montage vidéo et correction colorimétrique,Non,Oui,Non,
+Dragon Naturally Speaking,Accessibilité,Reconnaissance vocale,Non,Non,Non,
+Duxbury Braille Translator,Accessibilité,Traduction de texte en braille,Non,Non,Non,
+EndNote,Gestion bibliographique,Gestion de références bibliographiques,Non,Oui,Oui,/docs/endnote
+Finale NotePad,Création et édition,Édition de partitions musicales,Non,Non,Non,
+Gaussian 16,Sciences,Calculs de chimie quantique,Non,Non,Non,
+Gimp 2,Création et édition,Édition d'images,Oui,Oui,Non,/docs/gimp
+Google Earth Pro,Système dʼinformation géographique,Visualisation de la Terre,Oui,Non,Non,/docs/earthpro
+HyperChem,Sciences,Modélisation moléculaire,Non,Non,Non,
+Inkscape,Création et édition,Dessin vectoriel,Oui,Oui,Non,
+JabRef,Gestion bibliographique,Gestion de références bibliographiques,Non,Non,Non,
+JAWS,Accessibilité,Lecteur d'écran pour les personnes aveugles ou malvoyantes,Non,Non,Non,
+Krita,Création et édition,Dessin et peinture numérique,Oui,Oui,Non,
+Lexibar LP5,Accessibilité,Clavier virtuel pour les personnes avec des besoins spécifiques,Non,Non,Non,
+Mathematica,Traitement de données,Calcul formel et symbolique,Non,Non,Oui,/docs/mathematica
+Meshroom,Création et édition,Reconstruction 3D à partir de photos,Non,Oui,Non,
+Microsoft Access,Bureautique,Gestion de bases de données relationnelles,Non,Oui,Oui,/docs/office
+Microsoft Excel,Bureautique,Tableur pour la gestion de données et calculs,Non,Oui,Oui,/docs/office
+Microsoft Office 365,Bureautique,Suite bureautique en ligne,Non,Oui,Oui,/docs/office
+Microsoft OneDrive,Bureautique,Stockage en ligne et partage de fichiers,Non,Oui,Oui,/docs/office
+Microsoft OneNote,Bureautique,Prise de notes et organisation,Non,Non,Oui,/docs/office
+Microsoft Powerpoint,Bureautique,Présentation et création de diaporamas,Non,Oui,Oui,/docs/office
+Microsoft Teams,Bureautique,Plateforme de communication et de collaboration,Non,Oui,Oui,/docs/office
+Microsoft Word,Bureautique,Traitement de texte pour la création de documents,Non,Oui,Oui,/docs/office
+MuseScore,Création et édition,Composition musicale et notation,Non,Non,Non,
+Natural Reader,Accessibilité,Synthèse vocale,Non,Non,Oui,
+OpenRefine,Traitement de données,Nettoyage et transformation de données,Oui,Oui,Non,
+Microsoft Publisher,Bureautique,Création de publications et de supports marketing,Non,Oui,Oui,/docs/office
+PyMOL,Sciences,Visualisation et analyse de structures moléculaires en 3D,Non,Non,Non,
+QTGrace,Traitement de données,Création et édition de graphiques scientifiques,Non,Non,Non,
+QDA Miner,Traitement de données,Analyse de données qualitatives,Non,Non,Non,
+QGIS,Système dʼinformation géographique,Cartographie et analyse spatiale,Non,Oui,Non,
+R & R Studio,Analyse statistique,Environnement de développement intégré (IDE) pour R,Non,Oui,Oui,
+Reaper,Création et édition,Enregistrement audio multipiste et production musicale,Non,Non,Oui,
+SAS,Analyse statistique,Logiciel d'analyse de données statistiques,Non,Non,Oui,
+STATA,Analyse statistique,Logiciel d'analyse statistique pour la recherche et les études,Non,Non,Oui,
+TexMaker,Bureautique,Éditeur LaTeX pour la création de documents scientifiques,Non,Non,Oui,
+WordStat 8,Traitement de données,Analyse de texte pour la recherche qualitative,Non,Non,Oui,
+Zotero,Gestion bibliographique,Gestionnaire de références bibliographiques,Oui,Oui,Non,
+Zoom,Communication,Plateforme de visioconférence,Non,Oui,Non,
+Zoomtext,Accessibilité,Logiciel d'agrandissement d'écran et de lecture pour les personnes malvoyantes,Oui,Non,Non,

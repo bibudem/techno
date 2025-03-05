@@ -1,21 +1,41 @@
 ---
 title: Ordinateurs
 description: Informations sur les ordinateurs en libre-service et les portables en prêt dans les bibliothèques UdeM.
-hide_table_of_contents: true
-pagination_next: null
-pagination_prev: null
+hide_table_of_contents: false
+image: "/img/cover/ordinateurs1.jpg"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
+import Link from '@docusaurus/Link';
 
 ## Libre-service
 
 Des ordinateurs en libre-service sont à la disposition de tous les utilisateurs et utilisatrices. L’accès se fait via un code d’accès et un mot de passe.
 
-[Consulter la liste des logiciels offerts](logiciels)  
-:::info
+<Link to="logiciels" className="button button--primary">
+  Consulter la liste des logiciels offerts
+</Link>
+
+---
+
+:::info Le saviez-vous?
 Vous cherchez un ordinateur puissant pour vos travaux vidéos ou graphiques? Consultez la page [Postes d'édition](#).
 :::
 

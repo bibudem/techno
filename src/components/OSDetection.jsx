@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const OSDetection = () => {
   const [osInfo, setOsInfo] = useState({ osName: "", osVersion: "" });
-  const [docLink, setDocLink] = useState("/docs/default-documentation");
+  const [docLink, setDocLink] = useState("/informatique/proxy");
 
   useEffect(() => {
     const detectOS = () => {
@@ -22,7 +22,7 @@ const OSDetection = () => {
         if (macVersionMatch) {
           const macVersion = macVersionMatch[1].replace('_', '.');
           const majorVersion = parseInt(macVersion.split('.')[1]);
-          osVersion = majorVersion >= 14 ? "13 ou ultérieurs" : "13 ou antérieurs";
+          osVersion = majorVersion >= 14 ? "13 et ultérieurs" : "12 et antérieurs";
         }
       } else if (userAgent.includes("CrOS")) {
         osName = "ChromeOS";
@@ -38,25 +38,30 @@ const OSDetection = () => {
     };
 
     const generateLink = (osInfo) => {
-      const baseUrl = "/informatique/proxy/";
+      const baseUrl = "/informatique/proxy"; // La page contenant les tabs
+      let tabValue = ""; // Valeur du tab à sélectionner
+
       switch (osInfo.osName) {
         case "Windows":
-          return `${baseUrl}windows-${osInfo.osVersion}-documentation`;
-          case "macOS":
-            return osInfo.osVersion === "13 ou ultérieurs"
-              ? `${baseUrl}macos-13-et-plus`
-              : `${baseUrl}macos-12-et-moins`;
-        case "ChromeOS":
-          return `${baseUrl}chromeos-documentation`;
+          tabValue = `Windows${osInfo.osVersion}`;
+          break;
+        case "macOS":
+          tabValue = osInfo.osVersion;
+          break;
         case "iOS":
-          return `${baseUrl}ios-documentation`;
-        case "Linux":
-          return `${baseUrl}linux-documentation`;
+          tabValue = "iOS";
+          break;
         case "Android":
-          return `${baseUrl}android-documentation`;
+          tabValue = "Android";
+          break;
         default:
-          return `${baseUrl}default-documentation`;
+          return baseUrl;
       }
+
+      // Met à jour le localStorage pour que Docusaurus sélectionne l'onglet
+      localStorage.setItem("docusaurus.tab.os-tabs", JSON.stringify(tabValue));
+
+      return baseUrl;
     };
 
     const detectedOS = detectOS();
@@ -66,11 +71,15 @@ const OSDetection = () => {
 
   return (
     <div>
+      <center>
       <small>Votre système d'exploitation est : {osInfo.osName} {osInfo.osVersion}</small>
       <br />
+
       <a href={docLink} className="button button--primary">
         Accéder à la documentation pour {osInfo.osName}
       </a>
+      <br /><br />
+      </center>
     </div>
   );
 };

@@ -4,6 +4,7 @@ title : Laboratoire de visualisation
 image : "/img/cover/labvisu.jpg"
 ---
 
+import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import StudioCard from '@site/src/components/StudioCard';
 
@@ -36,3 +37,14 @@ Le laboratoire peut accueillir un maximum de 30 personnes.
     reserveLink="https://forms.office.com/r/9zPS89SY16"
     reserveText="Prendre un rendez-vous"
 />
+---
+
+## Guide et soutien
+
+Consulter le guide d'utilisation du Laboratoire de visualisation pour en savoir plus sur les modes d'affichage et les connexions sans fil. Si vous avez des questions ou besoin d'aide, contactez-nous à sphere@bib.umontreal.ca
+
+<Link to="./guide/visualisation" className="button button--primary">
+  Guide d'utilisation
+</Link>
+
+

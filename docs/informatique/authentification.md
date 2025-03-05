@@ -1,10 +1,7 @@
 ---
 title: Authentification
 description: Accédez aux services informatiques de l'Université de Montréal grâce à l'authentification par code d'accès et mot de passe.
-hide_table_of_contents: true
-tags:
-  - authentification
-sidebar_position: 1
+hide_table_of_contents: false
 ---
 
 # Authentification

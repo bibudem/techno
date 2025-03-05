@@ -8,12 +8,26 @@ const sidebars = {
     {
       type: 'category',
       label: 'Espaces',
+      collapsed: true, 
+      collapsible: true,
       link: { type: 'doc', id: 'espaces/index' }, 
       items: [
         'espaces/amphitheatre',
         'espaces/ateliers',
         'espaces/laboformation',
-        'espaces/visualisation',
+        {
+          type: 'category',
+          label: 'Laboratoire de visualisation',
+          link: { type: 'doc', id: 'espaces/visualisation' },
+          collapsible: false, // Empêche la catégorie de s’ouvrir, donc plus de flèche
+          items: [
+            {
+              type: 'doc',
+              id: 'espaces/guide/visualisation',
+              className: 'hidden', // Garde la page d’aide cachée
+            },
+          ],
+        },
         'espaces/salledevisio',
         'espaces/studioaudio',
         'espaces/studiovideo',
@@ -27,6 +41,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Ressources informatiques',
+      collapsed: true, 
+      collapsible: true,
       link: { type: 'doc', id: 'informatique/index' }, 
       items: [
         'informatique/authentification',
@@ -34,8 +50,9 @@ const sidebars = {
         {
           type: "category",
           label: "Accès hors campus",
+          collapsible: true,
           link: { type: 'doc', id: 'informatique/hors-campus' }, 
-          collapsed: true,
+          collapsed: true, 
           items: [
             "informatique/proxy",
             "informatique/vpn",
@@ -45,8 +62,10 @@ const sidebars = {
         {
           type: "category",
           label: "Numérisation",
+          collapsed: true, 
+          collapsible: true,
           link: { type: 'doc', id: 'informatique/numerisation' }, 
-          collapsed: true,
+
           items: [
             "informatique/vinyle",
           ],
@@ -55,7 +74,16 @@ const sidebars = {
         'informatique/ava',
         'informatique/tablettes',
         'informatique/consultation',
-        'informatique/logiciels',
+        {
+          type: "category",
+          label: "Logiciels",
+          collapsed: true, 
+          collapsible: true,
+          link: { type: 'doc', id: 'informatique/Logiciels' }, 
+          items: [
+            "informatique/connexion-distance",
+          ],
+        },
         'informatique/accessoires',
       ],
     },
@@ -146,7 +174,7 @@ const sidebars = {
         'a-propos/equipe',
         'a-propos/contribuer',
         'a-propos/accessibilite',
-        'a-propos/reglements',
+        'a-propos/politique',
       ],
     },
   ],

@@ -1,9 +1,23 @@
 ---
 title: Réseau sans fil
 description: Guide pour se connecter aux réseaux sans fil de l'Université de Montréal.
-pagination_next: null
-pagination_prev: null
+image: "/img/cover/reseau.jpg"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

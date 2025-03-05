@@ -1,21 +1,35 @@
 ---
 title: Impression
 description: Guide sur les services d'impression, de photocopie et de numérisation offerts par l'UdeM.
-pagination_next: null
-pagination_prev: null
+image: "/img/cover/impression.jpg"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
+import Link from '@docusaurus/Link';
 
 # Impression
 
 Le Service d'Impression de l'UdeM (SIUM) offre des services d'impression, de photocopie et de numérisation dans les bibliothèques de l'UdeM, accessibles depuis les ordinateurs publics ou les appareils personnels.
 
-<Admonition type="note" title="Note">
-  Ce service est payant.
-</Admonition>
+:::info Ce service est payant.
+:::
 
 ---
 
@@ -23,7 +37,11 @@ Le Service d'Impression de l'UdeM (SIUM) offre des services d'impression, de pho
 
 Le compte électronique d'impression permet d'ajouter des fonds ou de demander un remboursement en cas de problème d'impression, ainsi que de lancer des impressions ou de consulter l'historique.
 
-[Accéder à mon compte électronique d'impression](https://sium.umontreal.ca/compte-cei.html)
+<Link to="https://sium.umontreal.ca/compte-cei.html" className="button button--primary">
+  Accéder à mon compte électronique d'impression
+</Link>
+
+
 
 ### Ajouter des fonds à son compte électronique d'impression
 

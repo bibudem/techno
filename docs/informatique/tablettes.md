@@ -10,18 +10,18 @@ Nous offrons un service de prêt de tablettes iPad pour la communauté UdeM. Vou
 
 Le prêt est d'une durée de **7 jours**. Le renouvellement est automatique à moins que la tablette ait été réservée par une autre personne. Les tablettes sont prêtées avec étui, mallette, fil USB et chargeur.
 
-## Localisation
+<details>
+  <summary>**Localisation des tablettes iPad**</summary>
+  - Campus Laval
+  - Droit
+  - Lettres et sciences humaines
+  - Marguerite-d'Youville
+  - Mathématiques et informatique
+  - Santé
+  - Hubert-Reeves
+  - Thérèse-Gouin-Décarie
+</details>
 
-| Localisation                |
-|-----------------------------|
-| Campus Laval                |
-| Droit                       |
-| Lettres et sciences humaines|
-| Marguerite-d'Youville       |
-| Mathématiques et informatique|
-| Santé                       |
-| Hubert-Reeves                   |
-| Thérèse-Gouin-Décarie       |
 
 ## Aide
 

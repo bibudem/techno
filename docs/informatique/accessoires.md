@@ -1,8 +1,21 @@
 ---
 title : Accessoires
-pagination_next: null
-pagination_prev: null
+image: "/img/cover/usb.jpg"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 Vous manquez de batterie? Votre ordinateur a besoin d'un adaptateur? N'hésitez pas à nous demander, nous avons peut-être ce qu'il vous faut!
 

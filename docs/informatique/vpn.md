@@ -1,9 +1,7 @@
 ---
 title: Installer le VPN
 description: Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM.
-pagination_next: null
-pagination_prev: null
-hide_table_of_contents: true
+
 ---
 
 import Tabs from '@theme/Tabs';

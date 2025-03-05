@@ -31,6 +31,7 @@ const config = {
       ({
         docs: {
           sidebarCollapsible: true,
+          
           sidebarPath: './sidebars.js',
             routeBasePath: '/', // Cela met les documents à la racine
             path: './docs', // Chemin local du répertoire docs
@@ -53,7 +54,9 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-
+      sidebar: {
+        autoCollapseCategories: true, // Active l'effet accordéon
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '',
@@ -144,6 +147,8 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      
+      
     }),
 };
 

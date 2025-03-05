@@ -1,9 +1,23 @@
 ---
 title: Numérisation de vinyles
 description: Guide pour la numérisation de vinyles à la Bibliothèque de musique de l'UdeM.
-pagination_next: null
-pagination_prev: null
+image: "/img/cover/vinyle.jpg"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
+
 
 # Numérisation de vinyles
 
