@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "@docusaurus/router"; // Import pour la navigation dans Docusaurus
 import Papa from "papaparse";
+import { PlugsConnected, LockOpen } from "@phosphor-icons/react"; // Import des icônes Phosphor
+
 
 // Composant pour afficher un logiciel
-const Logiciel = ({ nom, categorie, description, libre, telechargement, distance, lien }) => {
+const Logiciel = ({ nom, categorie, description, libre, distance, lien }) => {
   const history = useHistory(); // Utilisation de useHistory pour la navigation
 
   const handleDistanceClick = () => {
@@ -21,22 +23,24 @@ const Logiciel = ({ nom, categorie, description, libre, telechargement, distance
       <p>{description}</p>
 
       <div className="tags">
-        {/* Tag non cliquable */}
-        <span className={`tag ${libre === "Oui" ? "tag--libre" : "tag--non"}`}>
-          {libre === "Oui" ? "Logiciel Libre" : ""}
-        </span>
-
-        {/* Tag non cliquable */}
-        <span className={`tag ${telechargement === "Oui" ? "tag--telechargement" : "tag--non"}`}>
-          {telechargement === "Oui" ? "Télécharger le logiciel" : ""}
-        </span>
+        {/* Tag cliquable pour "Logiciel Libre" (mais sans action) */}
+        {libre === "Oui" && (
+          <span className="tag tag--libre tag--clickable">
+            <LockOpen size={16} weight="bold" className="icon" />
+            Logiciel Libre
+          </span>
+        )}
 
         {/* Tag cliquable uniquement pour "Accès à Distance" */}
-        <span className={`tag ${distance === "Oui" ? "tag--distance tag--clickable" : "tag--non"}`} 
-              onClick={handleDistanceClick}
-              style={{ cursor: distance === "Oui" ? "pointer" : "default" }}>
-          {distance === "Oui" ? "🌍 Accès à Distance" : ""}
-        </span>
+        {distance === "Oui" && (
+          <span 
+            className="tag tag--distance tag--clickable" 
+            onClick={handleDistanceClick} 
+            style={{ cursor: "pointer" }}
+          ><PlugsConnected size={16} weight="bold" className="icon" />
+            Accès à Distance
+          </span>
+        )}
       </div>
     </div>
   );
@@ -78,7 +82,6 @@ const LogicielCatalogue = () => {
 
   return (
     <div className="catalogue">
-      <h2>Catalogue des Logiciels</h2>
       <p>Recherchez un logiciel ou filtrez par catégorie :</p>
 
       <div className="filter-container">

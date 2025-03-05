@@ -384,28 +384,50 @@ html[data-theme="dark"] {
   gap: 0px;
 }
 
+
+
+
+
+
+
+
+/* Styles de base des tags */
 .tag {
-  padding: 6px;
-  border-radius: 12px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 20px;
   font-size: 14px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
-  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  white-space: nowrap;
 }
 
-/* Tags non cliquables */
-.tag--libre, .tag--telechargement, .tag--non {
-  cursor: default;
+/* Tag cliquable */
+.tag--clickable {
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tag--clickable:hover {
   opacity: 0.8;
 }
 
-/* Tag "Accès à Distance" cliquable */
+/* Style pour "Accès à Distance" */
 .tag--distance {
-  background: #e0effc;
-  cursor: pointer;
+  background-color: #e6f2ff;  /* Bleu */
+  color: #101010;
 }
 
-.tag--distance:hover {
-  background: #fffaf3;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+/* Style pour "Logiciel Libre" */
+.tag--libre {
+  background-color: #28a144; /* Vert */
+  color: #fff;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 6px;
 }
