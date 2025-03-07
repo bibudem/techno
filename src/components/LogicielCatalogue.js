@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { useHistory } from "@docusaurus/router"; // Import pour la navigation dans Docusaurus
+import { useHistory } from "@docusaurus/router"; 
 import Papa from "papaparse";
-import { PlugsConnected, LockOpen } from "@phosphor-icons/react"; // Import des icônes Phosphor
+import { PlugsConnected, LockOpen, MapPin, BuildingOffice, CaretDown, CaretUp  } from "@phosphor-icons/react";
 
 
 // Composant pour afficher un logiciel
-const Logiciel = ({ nom, categorie, description, libre, distance, lien }) => {
-  const history = useHistory(); // Utilisation de useHistory pour la navigation
+const Logiciel = ({ nom, categorie, description, libre, distance, lien, bibliotheques = "" }) => {
+  const history = useHistory();
+  const [isOpen, setIsOpen] = useState(false); // État pour ouvrir/fermer l'accordéon
 
   const handleDistanceClick = () => {
     if (distance === "Oui") {
-      history.push("connexion-distance"); // Redirection correcte en Docusaurus
+      history.push("connexion-distance"); 
     }
   };
 
@@ -23,7 +24,7 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien }) => {
       <p>{description}</p>
 
       <div className="tags">
-        {/* Tag cliquable pour "Logiciel Libre" (mais sans action) */}
+        {/* Tag cliquable pour "Logiciel Libre" */}
         {libre === "Oui" && (
           <span className="tag tag--libre tag--clickable">
             <LockOpen size={16} weight="bold" className="icon" />
@@ -31,15 +32,34 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien }) => {
           </span>
         )}
 
-        {/* Tag cliquable uniquement pour "Accès à Distance" */}
+        {/* Tag cliquable pour "Accès à Distance" */}
         {distance === "Oui" && (
           <span 
             className="tag tag--distance tag--clickable" 
             onClick={handleDistanceClick} 
             style={{ cursor: "pointer" }}
-          ><PlugsConnected size={16} weight="bold" className="icon" />
+          >
+            <PlugsConnected size={16} weight="bold" className="icon" />
             Accès à Distance
           </span>
+        )}
+      </div>
+
+      {/* Accordéon pour afficher les bibliothèques */}
+      <div className="bibliotheques">
+        <button className="accordion-button" onClick={() => setIsOpen(!isOpen)}>
+          <strong><BuildingOffice size={24} className="icon" /> Localisation</strong>
+          {isOpen ? <CaretUp size={16} className="icon" /> : <CaretDown size={16} className="icon" />}
+                  </button>
+
+        {isOpen && (
+          <div className="bibliotheques-list">
+            {bibliotheques.split(";").map((biblio, i) => (
+              <span key={i} className="biblio-tag">
+                <MapPin size={14} className="icon" /> {biblio.trim()}
+              </span>
+            ))}
+          </div>
         )}
       </div>
     </div>

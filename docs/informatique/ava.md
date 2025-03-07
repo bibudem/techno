@@ -26,14 +26,14 @@ Les bibliothèques UdeM mettent à votre disposition des postes **Apportez Votre
 
 ## Comment ça marche?
 
-1. Trouvez un poste AVA disponible dans [les bibliothèques participantes](#disponibilite).
+1. Trouvez un poste AVA disponible dans [les bibliothèques participantes](#localisation).
 2. Branchez votre ordinateur portable à l'écran à l'aide du câble **HDMI** ou **USB-C** fourni.
 3. Connectez le clavier et la souris à l'aide de l'**USB-A** ou **USB-C** fourni.
 4. **Commencez à travailler !**
 
 ---
 
-## Disponibilité
+## Localisation
 
 <details>
   <summary>**Bibliothèque des lettres et sciences humaines**</summary>

@@ -35,7 +35,8 @@ const config = {
           sidebarPath: './sidebars.js',
             routeBasePath: '/', // Cela met les documents à la racine
             path: './docs', // Chemin local du répertoire docs
-
+            showLastUpdateTime: true, // Active la date de dernière mise à jour
+            showLastUpdateAuthor: false, // Optionnel : affiche l'auteur du dernier commit Git
 
         },
         theme: {

@@ -36,9 +36,15 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
         7. Cliquer **OK** ensuite **Appliquer** (si demandé).
 
         Pour désinstaller le Proxy, refaire les étapes précédentes puis à l'étape 5, désactiver **Configuration de serveur mandataire automatique**, ensuite **OK** et **Appliquer**.
+
+        ---
+        **Tutoriel vidéo**
+        
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qy5FlukamTM?si=ENXzfHv6WT5ycf_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       </TabItem>
 
-      <TabItem value="macOS13" label="macOS 13 et ultérieurs">
+  <TabItem value="macOS13" label="macOS 13 et ultérieurs">
         
         :::warning
         Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
@@ -51,6 +57,10 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
         5. Activer **Configuration de serveur mandataire automatique**.
         6. Dans la case URL, taper au complet et sans espace <CopyToClipboardButton text="http://proxy.umontreal.ca"/> ![Fenêtre macOS pour activer le serveur mandataire](/img/docs/proxy-macos.png)
         7. Cliquer **OK** ensuite **Appliquer** (si demandé).
+---
+**Tutoriel vidéo**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D5VeqdvUNdM?si=ipPQXeShKmE16XVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       </TabItem>
     </Tabs>
   </TabItem>
@@ -64,9 +74,14 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
         4. Activer seulement **Utiliser un script d'installation** ![Fenêtre Windows 10 pour activer le serveur mandataire](/img/docs/proxy-win10-adresse.png) 
         5. Dans **Adresse du script**, taper sans espace <CopyToClipboardButton text="http://proxy.umontreal.ca"/>
         6. Cliquer sur **Enregistrer**
+---
+**Tutoriel vidéo**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dk1oUdLo84Y?si=Il8DKNZr3YV2ZAtv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       </TabItem>
       
-      <TabItem value="Windows11" label="Windows 11">
+  <TabItem value="Windows11" label="Windows 11">
+
         1. Cliquer sur le bouton **Démarrer**, puis sur **Paramètres**
         2. Cliquer sur **Réseau & Internet**
         3. Cliquer sur **Proxy**
@@ -76,6 +91,12 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
         7. Dans **Adresse du script**, taper sans espace <CopyToClipboardButton text="http://proxy.umontreal.ca"/>
         ![Fenêtre Windows 11 pour activer le serveur mandataire](/img/docs/proxy-w11-utiliser-script.jpg)
         8. Cliquer sur **Enregistrer**
+  ---
+  **Tutoriel vidéo**
+
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IApth7W-yzw?si=WRf2kNG-3J2qbuQZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
       </TabItem>
     </Tabs>
   </TabItem>

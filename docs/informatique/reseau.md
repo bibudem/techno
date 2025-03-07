@@ -118,6 +118,14 @@ Le réseau sans fil **eduroam** est disponible pour les visiteurs d’un autre �
 
 ---
 
+## UdeM visiteurs
+
+Le réseau sans fil **UdeM visiteurs** est destiné aux invités de l'Université de Montréal. Il est accessible pour une durée de 24h et ne permet pas l'accès aux ressources électroniques des bibliothèques ou l'impression. Ce réseau n'est pas sécurisé.
+
+(détailler les étapes pour se connecter)
+
+---
+
 ## Dépannage
 
 En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous pour oublier ou retirer un réseau et vous y reconnecter.

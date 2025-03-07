@@ -4,7 +4,7 @@ title : Amphithéâtre
 description : Salle de projection de films
 image: "/img/cover/amphi.jpg"
 ---
-
+import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img 
@@ -40,7 +40,11 @@ import StudioCard from "@site/src/components/StudioCard";
 
 ---
 
-## Documentation et soutien
+## Guide et soutien
+
+<Link to="./guide/amphitheatre" className="button button--primary">
+  Guide d'utilisation
+</Link>
 
 ---
 

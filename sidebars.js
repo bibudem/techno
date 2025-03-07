@@ -12,7 +12,19 @@ const sidebars = {
       collapsible: true,
       link: { type: 'doc', id: 'espaces/index' }, 
       items: [
-        'espaces/amphitheatre',
+        {
+          type: 'category',
+          label: 'Amphithéâtre',
+          link: { type: 'doc', id: 'espaces/amphitheatre' },
+          collapsible: false, // Empêche la catégorie de s’ouvrir, donc plus de flèche
+          items: [
+            {
+              type: 'doc',
+              id: 'espaces/guide/amphitheatre',
+              className: 'hidden', // Garde la page d’aide cachée
+            },
+          ],
+        },
         'espaces/ateliers',
         'espaces/laboformation',
         {
@@ -82,7 +94,194 @@ const sidebars = {
           link: { type: 'doc', id: 'informatique/Logiciels' }, 
           items: [
             "informatique/connexion-distance",
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/acrobat',
+              className: 'hidden',
+            },
+            
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/office',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/arcgis',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/anaconda',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/antidote',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/autocad',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/adobe',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/accessibilite',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/beyond2020',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/cariseasyview',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/chemdraw',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/cmaptools',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/davinciresolve',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/endnote',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/gaussian',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/gimp',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/hyperchem',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/inkscape',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/jabref',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/jaws',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/krita',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/mathematica',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/meshroom',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/musescore',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/openrefine',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/pymol',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/qtgrace',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/qdaminor',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/qgis',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/rstudio',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/reaper',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/sas',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/stata',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/texmaker',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/wordstat',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/zotero',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
+              id: 'informatique/logiciels/zoom',
+              className: 'hidden',
+            },
           ],
+
         },
         'informatique/accessoires',
       ],
