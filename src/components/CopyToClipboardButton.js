@@ -5,7 +5,7 @@ export default function CopyToClipboardButton({ text }) {
   const [hover, setHover] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(`\`${text}\``).then(() => {
+    navigator.clipboard.writeText(text).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
@@ -13,12 +13,27 @@ export default function CopyToClipboardButton({ text }) {
 
   return (
     <span
-      style={{ position: "relative", cursor: "pointer" }}
+      style={{ 
+        position: "relative", 
+        cursor: "pointer", 
+        display: "inline-block", 
+        maxWidth: "100%" 
+      }}
       onClick={handleCopy}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <code style={{ backgroundColor: "#f5f5f5", padding: "3px 6px", borderRadius: "4px" }}>
+      <code 
+        style={{ 
+          backgroundColor: "#f5f5f5", 
+          padding: "3px 6px", 
+          borderRadius: "4px", 
+          wordBreak: "break-word", 
+          overflowWrap: "anywhere", 
+          display: "inline-block",
+          maxWidth: "100%"
+        }}
+      >
         {text}
       </code>
 

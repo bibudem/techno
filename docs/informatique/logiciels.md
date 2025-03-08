@@ -31,5 +31,6 @@ L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'Univer
 
 ---
 
+Sélectionnez un logiciel pour afficher sa description, ses emplacements d’utilisation et, si disponible, ses guides d’aide. Certains logiciels peuvent être téléchargés sur un ordinateur personnel via un lien dédié.
 
 <LogicielCatalogue />

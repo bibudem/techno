@@ -127,6 +127,11 @@ const sidebars = {
             },
             {
               type: 'doc',
+              id: 'informatique/logiciels/spss',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
               id: 'informatique/logiciels/adobe',
               className: 'hidden',
             },
