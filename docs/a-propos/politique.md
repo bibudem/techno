@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 ## Conditions pour les ordinateurs en libre-service
 
-- L'accès aux ordinateurs en libre-service est donné priorité aux membres de la communauté UdeM mais l’accès est aussi possible pour des usagers et usagères de l’extérieur sous certaines conditions et pour certains usages. Pour plus d’informations à ce sujet, demander l’aide du personnel des bibliothèques.
+- L'accès aux ordinateurs en libre-service est donné priorité aux membres de la communauté UdeM. L’accès est aussi possible pour des usagers et usagères de l’extérieur sous certaines conditions et pour certains usages. Pour plus d’informations à ce sujet, demander l’aide du personnel des bibliothèques.
 - Interdictions :
   - Jeux dans un cadre autre qu’universitaire.
   - Modifier la configuration des ordinateurs.

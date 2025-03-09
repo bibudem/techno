@@ -22,7 +22,7 @@ Pour activer Zotero dans Safari, ouvrir Safari, aller dans le menu **Safari** �
 ### Sauvegarder dans l’infonuage de Zotero.
 Dans Zotero, sous **Préférences** → **Synchronisation**, cliquer sur **Créer un compte** et compléter le formulaire d’inscription. Valider le courriel de confirmation. Revenir dans Zotero sous **Préférences** → **Synchronisation** pour inscrire votre nom d’utilisateur et votre mot de passe et cliquer sur le bouton **Régler la synchronisation**.
 
-:::note
+:::note Note
 Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de décocher :
 - L’option Synchroniser le texte intégral des pièces jointes indexées.
 - Les deux options dans Synchronisation des fichiers.

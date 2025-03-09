@@ -120,11 +120,7 @@ const sidebars = {
               id: 'informatique/logiciels/antidote',
               className: 'hidden',
             },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/autocad',
-              className: 'hidden',
-            },
+           
             {
               type: 'doc',
               id: 'informatique/logiciels/spss',
