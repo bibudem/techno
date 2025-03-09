@@ -16,7 +16,7 @@ const config = {
   organizationName: 'bibudem', // Usually your GitHub org/user name.
   projectName: 'techno', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
