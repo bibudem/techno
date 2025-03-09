@@ -23,7 +23,7 @@ Utilisateurs déjà inscrits : vous pourriez avoir à vous inscrire à nouveau.
    1. Copier le code d’activation de *Chemdraw Professionnal*, vous en aurez besoin plus tard.
    2. Cliquer sur *Download Now* pour télécharger le logiciel.
 
-![La page List Entitlements de ChemDraw](/img/docs/chemdraw2.png)
+![La page List Entitlements de ChemDraw](/img/docs/chemdraw2.webp)
 
 5. Cliquer *ChemDraw Professionnal*.
 

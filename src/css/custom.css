@@ -316,10 +316,15 @@ html[data-theme="dark"] {
 }
 
 
+/* Cacher le TOC s'il ne contient qu'un seul élément */
+.theme-doc-toc-desktop ul {
+  display: none;
+}
 
-
-
-
+/* Afficher le TOC seulement s'il a plus d'un élément */
+.theme-doc-toc-desktop ul:has(li:nth-child(2)) {
+  display: block;
+}
 
 .catalogue {
   /* max-width: 800px; */

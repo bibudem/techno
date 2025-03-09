@@ -17,25 +17,25 @@ Une borne tactile est disponible à l'entrée pour choisir un mode d'affichage.
 
 ### Mode #1
 
-![](/img/docs/labovisu-mode1.png)
+![](/img/docs/labovisu-mode1.webp)
 
 Le poste maître couvre les 27 écrans.
 
 ### Mode #2
 
-![](/img/docs/labovisu-mode2.png)
+![](/img/docs/labovisu-mode2.webp)
 
 Le mur vidéo se divise en 3 : le poste maître et 2 connexions sans fil.
 
 ### Mode #3
 
-![](/img/docs/labovisu-mode3.png)
+![](/img/docs/labovisu-mode3.webp)
 
 Le mur vidéo se divise en 2 : le poste maître sur le ⅔ et 1 connexion sans fil.
 
 ### Mode #4
 
-![](/img/docs/labovisu-mode4.png)
+![](/img/docs/labovisu-mode4.webp)
 
 Le mur vidéo se divise en 3, permettant à 3 périphériques de se connecter sans fil simultanément.
 
@@ -64,16 +64,16 @@ Lors de la connexion du Air Media et au moment où le logiciel demande le code N
 
 1. Cliquer sur l’icône du **Centre de contrôle** (en haut à droite du macOS) **> Recopie de l’écran.** 
     
-    ![](/img/docs/labovisu-wifi1.png)
+    ![](/img/docs/labovisu-wifi1.webp)
     
 
 1. cliquer sur l’identifiant de l’écran sans fil.
     
-    ![](/img/docs/labovisu-wifi2.png)
+    ![](/img/docs/labovisu-wifi2.webp)
     
 2. Entrer les 4 chiffres (NIP) affichés sur l’écran du mur de visualisation. 
     
-    ![](/img/docs/labovisu-wifi3.png)
+    ![](/img/docs/labovisu-wifi3.webp)
     
 
 ## Son
@@ -86,7 +86,7 @@ Des modèles sont disponibles pour vous aider à créer du contenu compatible av
 
 ### Adobe Photoshop
 
-![](/img/docs/labovisu-photoshop.png)
+![](/img/docs/labovisu-photoshop.webp)
 
 [Télécharger le gabarit Photoshop](../assets/gabarit-lv.psd)
 
