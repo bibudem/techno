@@ -2,7 +2,7 @@
 id: studioaudio
 title: Studios audio
 description : Balados, présentations et entretiens.
-image: "/img/cover/studiolsh.jpg"
+image: "/img/cover/studiolsh.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

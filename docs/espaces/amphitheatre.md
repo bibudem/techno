@@ -2,7 +2,7 @@
 id : amphitheatre
 title : Amphithéâtre
 description : Salle de projection de films
-image: "/img/cover/amphi.jpg"
+image: "/img/cover/amphi.webp"
 ---
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';

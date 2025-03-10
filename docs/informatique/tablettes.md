@@ -1,8 +1,21 @@
 ---
 title : Tablettes iPad
-pagination_next: null
-pagination_prev: null
+image: "/img/cover/tablette.webp"
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 Nous offrons un service de prêt de tablettes iPad pour la communauté UdeM. Vous avez également la possibilité d'ajouter vos propres applications en utilisant votre identifiant Apple ID.
 

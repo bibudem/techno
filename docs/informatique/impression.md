@@ -1,7 +1,7 @@
 ---
 title: Impression
 description: Guide sur les services d'impression, de photocopie et de numérisation offerts par l'UdeM.
-image: "/img/cover/impression.jpg"
+image: "/img/cover/impression.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

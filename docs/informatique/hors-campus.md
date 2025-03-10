@@ -2,7 +2,7 @@
 title: Accès hors campus
 description: Accès aux ressources électroniques des bibliothèques UdeM via le proxy ou VPN.
 hide_table_of_contents: false
-image: "/img/cover/horscampus.jpg"
+image: "/img/cover/horscampus.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

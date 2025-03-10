@@ -1,7 +1,7 @@
 ---
 id : vr
 title : Réalité virtuelle
-image: "/img/cover/vr.jpg"
+image: "/img/cover/vr.webp"
 
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

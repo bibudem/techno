@@ -1,6 +1,6 @@
 ---
 title : Connexion à distance
-image: "/img/cover/distance.jpg"
+image: "/img/cover/distance.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

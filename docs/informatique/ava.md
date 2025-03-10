@@ -1,7 +1,7 @@
 ---
 title: Postes AVA
 description: Information sur les postes AVA (Apportez Vos Appareils) disponibles dans les bibliothèques UdeM.
-image: "/img/cover/ordinateurs.jpg"
+image: "/img/cover/ordinateurs.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

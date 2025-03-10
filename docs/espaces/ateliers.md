@@ -2,7 +2,7 @@
 id: ateliers
 title: Ateliers de fabrication
 description : Impression 3D, électronique et plus encore!
-image: "/img/cover/ateliers.jpg"
+image: "/img/cover/ateliers.webp"
 
 ---
 

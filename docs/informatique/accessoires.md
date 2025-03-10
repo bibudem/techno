@@ -1,6 +1,6 @@
 ---
 title : Accessoires
-image: "/img/cover/usb.jpg"
+image: "/img/cover/usb.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

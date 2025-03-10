@@ -1,7 +1,7 @@
 ---
 id : visualisation
 title : Laboratoire de visualisation
-image : "/img/cover/labvisu.jpg"
+image : "/img/cover/labvisu.webp"
 ---
 
 import Link from '@docusaurus/Link';
