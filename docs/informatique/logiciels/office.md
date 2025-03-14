@@ -13,7 +13,7 @@ La suite **Microsoft Office 365** est offerte gratuitement à toute la communaut
 L'offre comprend les services en ligne et logiciels suivants :
 
 - **Courriel institutionnel** `@umontreal.ca`
-- **Espace de stockage OneDrive** : 10 Go pour les étudiants et 100 Go pour les employés.
+- **Espace de stockage OneDrive** : 10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés.
 - **Logiciels de productivité** : Word, Excel, PowerPoint, OneNote
 - **Communication et réunions** : Teams, Outlook
 
