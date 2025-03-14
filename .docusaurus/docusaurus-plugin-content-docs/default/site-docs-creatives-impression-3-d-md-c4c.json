@@ -1,0 +1,29 @@
+{
+  "id": "creatives/impression3d",
+  "title": "Impression 3D",
+  "description": "Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.",
+  "source": "@site/docs/creatives/impression3d.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/impression3d",
+  "permalink": "/creatives/impression3d",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1741975648000,
+  "frontMatter": {
+    "id": "impression3d",
+    "title": "Impression 3D",
+    "description": "Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "index",
+    "permalink": "/creatives/"
+  },
+  "next": {
+    "title": "Introduction à l'impression 3D",
+    "permalink": "/introduction-impression-3d"
+  }
+}

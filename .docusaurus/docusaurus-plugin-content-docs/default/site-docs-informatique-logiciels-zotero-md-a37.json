@@ -1,0 +1,26 @@
+{
+  "id": "informatique/logiciels/zotero",
+  "title": "Zotero",
+  "description": "Zotero est un logiciel de gestion bibliographique au code source libre et gratuit. Il permet de créer et gérer une base",
+  "source": "@site/docs/informatique/logiciels/zotero.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/zotero",
+  "permalink": "/informatique/logiciels/zotero",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1741975648000,
+  "frontMatter": {
+    "title": "Zotero"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "wordstat",
+    "permalink": "/informatique/logiciels/wordstat"
+  },
+  "next": {
+    "title": "zoom",
+    "permalink": "/informatique/logiciels/zoom"
+  }
+}
