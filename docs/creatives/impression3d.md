@@ -2,8 +2,6 @@
 id: impression3d
 title: Impression 3D
 description: Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.
-
-hide_table_of_contents: true
 ---
 
 # Impression 3D

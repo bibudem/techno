@@ -17,7 +17,7 @@ L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D
 
 L’acide polylactique (PLA) est un thermoplastique fabriqué à partir de ressources renouvelables comme l’amidon de maïs, les racines de tapioca ou la canne à sucre. Contrairement à l’ABS (plastique dérivé du pétrole), le PLA est plus écologique mais aussi plus fragile et sensible à la chaleur. Il est cependant très facile à imprimer et idéal pour le prototypage rapide.
 
-!!! note "À savoir"
+:::note Note
     Le PLA n’est pas recommandé pour les objets en contact avec des aliments, car les bactéries peuvent s’infiltrer dans les interstices des couches d’impression.
 
 ### PVA
@@ -34,13 +34,10 @@ Les températures recommandées sont inscrites sur les bobines de filament et sa
 
 Le bon stockage des bobines de filament est important, puisqu’à l’air libre, le filament a tendance à absorber l’humidité ambiante, ce qui peut causer des problèmes d’impression.
 
-Bloquez le bout du filament dans un des trous de la bobine afin d’éviter de mêler les filaments entre eux.
-
-Coupez en diagonale le bout du filament avec une pince coupante afin de faciliter l’insertion dans l’imprimante.
-
-Toujours mettre la bobine non utilisée dans un sac d'emballage hermétique avec un petit sac de gel de silice afin d’absorber l’humidité.
-
-Entreposez les bobines dans une boîte fermée pour éviter l’exposition prolongée à la lumière.
+- Bloquez le bout du filament dans un des trous de la bobine afin d’éviter de mêler les filaments entre eux.
+- Coupez en diagonale le bout du filament avec une pince coupante afin de faciliter l’insertion dans l’imprimante.
+- Toujours mettre la bobine non utilisée dans un sac d'emballage hermétique avec un petit sac de gel de silice afin d’absorber l’humidité.
+- Entreposez les bobines dans une boîte fermée pour éviter l’exposition prolongée à la lumière.
 
 Pour vérifier si un filament est encore utilisable, prenez un bout d’environ 5 cm et essayez de le tordre. Il ne doit pas se casser facilement.
 
@@ -52,7 +49,7 @@ Lorsqu’un filament a absorbé trop d’humidité, un séchoir à filament peut
 
 La première étape consiste à trouver un modèle 3D ou à le concevoir soi-même.
 - **Depuis Internet** : [Où trouver des modèles 3D ?](#)
-- **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D.
+- **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D. Voir la section [Logiciels de modélisation](#).
 
 ### Découpe du modèle
 
@@ -68,8 +65,7 @@ Il existe plusieurs logiciels de découpe, la plupart sont libre et à code sour
 
 - **Cura** : Pour les imprimantes Ultimaker.
 - **PrusaSlicer** : Pour les imprimantes Prusa.
--
--
+- **BambuStudio** : Pour les imprimantes BambuLab.
 
 ### Utilisation des profils
 
@@ -81,8 +77,6 @@ Les profils sont un ensemble de paramètres prédéfinis dans le *Slicer*. Ils p
   ![Une vue macro de trois impressions 3D](#)
   <figcaption>de gauche à droite : 0.05mm, 0.20mm et 0.30mm. </figcaption> [Source ](https://www.hubs.com/knowledge-base/impact-layer-height-3d-print/)
 </figure>
-
-
 
 L’épaisseur d’une couche est habituellement de 0,2 mm. Il est possible de descendre jusqu’à 0,1 mm si l’objet est très détaillé ou s’il subira des forces parallèles aux couches. Si tel est le cas, il est recommandé de revoir le sens d’impression pour que les forces soient exercées perpendiculairement aux couches d’impressions. Notez que la durée d’impression sera deux fois plus longue à 0,1 mm qu’à 0,2 mm.
 
@@ -101,13 +95,11 @@ Le remplissage agit sur la solidité et, dans une moindre mesure, sur la vitesse
   <figcaption>À gauche un remplissage à 40% avec le motif Grille (Grid) et à droite un remplissage à 20% avec le motif Nid d’abeille (Honeycomb)</figcaption>
 </figure>
 
-!!! note "Ressources en ligne"
-
-    [Tout ce que vous avez besoin de savoir sur les remplissages - Prusa Printers ](https://blog.prusaprinters.org/fr/tout-ce-que-vous-avez-besoin-de-savoir-sur-les-remplissages_43579/)
-    [Optimisation du remplissage des impressions 3D - Makershop ](https://www.makershop.fr/blog/optimisation-remplissage-impressions-3d/)
-
-    [Comment optimiser le remplissage de vos impressions 3D ? ](https://5d-impression.com/blog/comment-optimiser-le-remplissage-de-vos-impressions-3d-b53.html)
-
+:::note Ressources en ligne
+- [Tout ce que vous avez besoin de savoir sur les remplissages - Prusa Printers ](https://blog.prusaprinters.org/fr/tout-ce-que-vous-avez-besoin-de-savoir-sur-les-remplissages_43579/)
+- [Optimisation du remplissage des impressions 3D - Makershop ](https://www.makershop.fr/blog/optimisation-remplissage-impressions-3d/)
+- [Comment optimiser le remplissage de vos impressions 3D ? ](https://5d-impression.com/blog/comment-optimiser-le-remplissage-de-vos-impressions-3d-b53.html)
+:::
 
 #### Support
 
@@ -118,14 +110,15 @@ Le support est utilisé pour imprimer les porte-à-faux. L’impression doit obl
   <figcaption>À gauche, une pièce sans support. À droite, une pièce avec du support (en jaune)</figcaption>
 </figure>
 
-!!! warning "Choses à savoir"
-    - Rajouter du support augmente la durée de l'impression.
-    - Il est possible d'imprimer avec du support soluble dans l'eau (le PVA).
-    - Il faut prévoir un post-traitement pour retirer le support et nettoyer la pièce imprimée.
+:::warning Bon à savoir
+- Rajouter du support augmente la durée de l'impression.
+- Il est possible d'imprimer avec du support soluble dans l'eau (le PVA).
+- Il faut prévoir un post-traitement pour retirer le support et nettoyer la pièce imprimée.
+:::
 
-!!! tip "Ressources en ligne"
-
-    [Peindre du support - Prusa 3D ](#)
+:::note Ressources en ligne
+- [Peindre du support - Prusa 3D ](#)
+:::
 
 #### Adhérence
 
