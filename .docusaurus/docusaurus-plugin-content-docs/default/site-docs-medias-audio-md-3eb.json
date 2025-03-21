@@ -1,0 +1,24 @@
+{
+  "id": "medias/audio",
+  "title": "audio",
+  "description": "",
+  "source": "@site/docs/medias/audio.md",
+  "sourceDirName": "medias",
+  "slug": "/medias/audio",
+  "permalink": "/medias/audio",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1742589369000,
+  "frontMatter": {},
+  "sidebar": "mediasSidebar",
+  "previous": {
+    "title": "Postes d'édition",
+    "permalink": "/medias/postes-edition"
+  },
+  "next": {
+    "title": "video",
+    "permalink": "/medias/video"
+  }
+}

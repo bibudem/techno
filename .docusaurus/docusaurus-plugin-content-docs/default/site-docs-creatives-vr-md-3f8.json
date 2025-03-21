@@ -1,0 +1,28 @@
+{
+  "id": "creatives/vr",
+  "title": "Réalité virtuelle",
+  "description": "<img",
+  "source": "@site/docs/creatives/vr.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/vr",
+  "permalink": "/creatives/vr",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1742589369000,
+  "frontMatter": {
+    "id": "vr",
+    "title": "Réalité virtuelle",
+    "image": "/img/cover/vr.webp"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "techniques",
+    "permalink": "/creatives/impression3d/techniques"
+  },
+  "next": {
+    "title": "guide",
+    "permalink": "/creatives/vr/guide"
+  }
+}
