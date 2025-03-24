@@ -46,7 +46,8 @@ Pour activer Zotero dans Safari, ouvrir Safari, aller dans le menu **Safari** �
 
 ### Sauvegarder dans l’infonuage de Zotero.
 Dans Zotero, sous **Édition** → **Paramètres** → **Synchronisation**, cliquer sur **Créer un compte** et compléter le formulaire d’inscription. Valider le courriel de confirmation. Revenir dans Zotero sous **Édition** → **Paramètres**  → **Synchronisation** pour inscrire votre nom d’utilisateur et votre mot de passe et cliquer sur le bouton **Régler la synchronisation**.
-[Options à décocher](/img/docs/zotero_synchroniser_infonuage.webp)
+
+![Options à décocher](/img/docs/zotero_synchroniser_infonuage_350.webp)
 
 :::note Note
 Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de décocher :
@@ -69,6 +70,8 @@ Il est recommandé d’installer l’extension Zutilo pour bénéficier de fonct
 
 ### Sauvegarder dans l’infonuage de Zotero.
 Dans Zotero, sous **Préférences** → **Synchronisation**, cliquer sur **Créer un compte** et compléter le formulaire d’inscription. Valider le courriel de confirmation. Revenir dans Zotero sous **Préférences** → **Synchronisation** pour inscrire votre nom d’utilisateur et votre mot de passe et cliquer sur le bouton **Régler la synchronisation**.
+
+![Options à décocher](/img/docs/zotero_synchroniser_infonuage_350.webp)
 
 :::note Note
 Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de décocher :
