@@ -74,7 +74,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 <Tabs>
   <TabItem value="windows" label="Windows">
   
-  1. Installer le VPN.
+  1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.
   2. Sélectionner un poste actuellement disponible.  
   3. Ouvrir le fichier téléchargé et cliquer **Connexion**.  
   4. S’authentifier de la façon suivante :  
@@ -89,7 +89,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
   <TabItem value="macos" label="macOS">
   
-  1. Installer le VPN.  
+  1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
   2. Installer **Windows App** depuis [l'App Store](https://apps.apple.com/ca/app/microsoft-remote-desktop-10/id1295203466?mt=12).  
   3. Sélectionner un poste actuellement disponible.  
   4. Ouvrir le fichier téléchargé et cliquer **Connexion**.  
@@ -101,7 +101,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
   <TabItem value="chromebook" label="Chromebook">
   
-  1. Installer le VPN.  
+  1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
   2. Installer **Microsoft Remote Desktop** depuis le [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx)
   3. Sélectionner un poste actuellement disponible.  
   4. Cliquer **Afficher le dossier**.  
@@ -114,7 +114,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
   <TabItem value="linux" label="Linux">
   
-  1. Installer le VPN.  
+  1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
   2. Ouvrir **Remmina** (pré-installé dans la plupart des distributions Linux).  
   3. Entrer l'adresse complète du poste voulu dans la barre d’adresse de Remmina (ex. `ssp314-bib.fil.umontreal.ca`) et taper la touche **Entrée**
   4. S’authentifier de la façon suivante :  
@@ -126,7 +126,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
   <TabItem value="ios" label="iOS">
   
-  1. Installer le VPN.  
+  1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
   2. Installer **Windows App Mobile** depuis [l'App Store](https://apps.apple.com/ca/app/windows-app-mobile/id714464092?l=fr-CA)  
   3. Sélectionner un poste actuellement disponible, télécharger le fichier associé.
       *Si une fenêtre intitulée Ignorer s'affiche, répéter l'étape 3.*
@@ -142,7 +142,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
 ## Les fois suivantes
 
-1. Se connecter au VPN UdeM Campus (ou UdeM SAM si vous avez un statut d'étudiant et employé)
+1. Se connecter au **VPN UdeM Campus** (ou UdeM SAM si vous avez un statut d'étudiant et employé)
 2. Cliquer sur un poste actuellement disponible.
 
 :::warning Attention
