@@ -1,0 +1,24 @@
+{
+  "id": "creatives/vr/catalogue",
+  "title": "catalogue",
+  "description": "",
+  "source": "@site/docs/creatives/vr/catalogue.md",
+  "sourceDirName": "creatives/vr",
+  "slug": "/creatives/vr/catalogue",
+  "permalink": "/creatives/vr/catalogue",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743193333000,
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "guide",
+    "permalink": "/creatives/vr/guide"
+  },
+  "next": {
+    "title": "Électronique",
+    "permalink": "/creatives/electronique"
+  }
+}
