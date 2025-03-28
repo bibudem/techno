@@ -38,10 +38,6 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 - Sauvegarde : Sauvegardez vos documents avant de quitter, ils seront supprimés après la session.
 - Déconnexion : Déconnectez-vous dès que vous avez terminé pour libérer le poste.
 
-:::warning Attention
-Il est actuellement impossible pour les personnes utilisant Mac OS X de se connecter à distance aux postes publics des bibliothèques à partir du réseau des employés. Cela inclut les postes des membres du personnel sur le campus et les accès par VPN avec un compte employé. Les étudiants avec statut d’employé doivent se déconnecter de VPN UdeM Campus et plutôt ajouter une connexion. Voir la procédure « Étudiants avec statut d’employé » en dernière page de la marche à suivre.
-:::
-
 ---
 
 ## Postes actuellement disponibles
@@ -79,7 +75,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   3. Ouvrir le fichier téléchargé et cliquer **Connexion**.  
   4. S’authentifier de la façon suivante :  
        - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
-       - **Mot de passe** : votre mot de passe (UNIP)
+       - **Mot de passe** : votre mot de passe
   5. Dans la fenêtre qui s'ouvre, cloqier **Oui**
     :::info Astuce
     Si on vous demande d’entrer uniquement votre mot de passe, cliquez sur **Plus d’options**, ensuite **Utiliser un autre compte**, puis authentifiez-vous.
@@ -95,7 +91,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   4. Ouvrir le fichier téléchargé et cliquer **Connexion**.  
   5. S’authentifier de la façon suivante :  
      - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)   
-     - **Mot de passe** : votre mot de passe (UNIP)
+     - **Mot de passe** : votre mot de passe
   6. Cliquer **Continue**
   </TabItem>
 
@@ -108,7 +104,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   5. Cliquer droit sur le fichier téléchargé → **Ouvrir avec** → **RD Client**.  
   6. S’authentifier de la façon suivante :  
      - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
-     - **Mot de passe** : votre mot de passe (UNIP)
+     - **Mot de passe** : votre mot de passe
   7. Cliquer **CONNECT**
   </TabItem>
 
@@ -119,7 +115,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   3. Entrer l'adresse complète du poste voulu dans la barre d’adresse de Remmina (ex. `ssp314-bib.fil.umontreal.ca`) et taper la touche **Entrée**
   4. S’authentifier de la façon suivante :  
      - **Nom d’utilisateur** : `Votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
-     - **Mot de passe** : votre mot de passe (UNIP)
+     - **Mot de passe** : votre mot de passe
      - **Domaine** : `sim`  
   5. Cliquer **Ok**
   </TabItem>
@@ -132,8 +128,8 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
       *Si une fenêtre intitulée Ignorer s'affiche, répéter l'étape 3.*
   4. Toucher le cercle en haut à droite dans Safari pour **Ouvrir le fichier téléchargé**.  
   5. S’authentifier de la façon suivante :  
-     - **Nom** : `sim\votre code d’accès` (ex. `sim\p1234567` ou `sim\ab12345`)  
-     - **Mot de passe** : votre mot de passe (UNIP)
+     - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`) 
+     - **Mot de passe** : votre mot de passe
 
   </TabItem>
 </Tabs>
@@ -165,6 +161,10 @@ Veuillez noter que votre session sera fermée automatiquement après 15 minutes 
 
 1. Se connecter au **VPN UdeM Etudiant**
 2.  Cliquer sur un poste actuellement disponible.
+
+:::warning Attention
+Il est actuellement impossible pour les personnes utilisant Mac OS X de se connecter à distance aux postes publics des bibliothèques à partir du réseau des employés. Cela inclut les postes des membres du personnel sur le campus et les accès par VPN avec un compte employé. Les étudiants avec statut d’employé doivent se déconnecter de VPN UdeM Campus et plutôt ajouter une connexion. Voir la procédure « Étudiants avec statut d’employé » en dernière page de la marche à suivre.
+:::
 
 :::warning Attention
 Veuillez noter que votre session sera fermée automatiquement après 15 minutes d’inactivité.
