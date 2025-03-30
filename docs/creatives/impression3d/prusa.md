@@ -19,8 +19,8 @@ Avant de faire votre première impression, lisez l'[introduction à l'impression
 | Hauteur des couches | 0.05 - 0.30 mm |
 | Diamètre du filament | 1.75 mm |
 | Matériaux supportés | PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres. |
-| Surface d'impression | Feuille d'acier magnétique amovible(*) avec différentes finitions de surface |
-| Impression multi-filament | Possible en modifiant le gcode, ou en ajoutant le module MMU2S |
+| Surface d'impression | Feuille d'acier magnétique amovible |
+| Impression multi-filament | Possible en modifiant le gcode, ou en ajoutant le module MMU2S (Disponible à la Bibliothèque mathématiques et informatique) |
 | Logiciel de découpe (*slicer*) | PrusaSlicer |
 
 Chaque imprimante a été montée par l'équipe des bibliothèques et quelques unes par la communauté étudiante. Toutes les parties en plastique ont été fabriquées par des imprimantes 3D, de sorte que ces pièces peuvent facilement être remplacées. Ce principe est appelé RepRap.
