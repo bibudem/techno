@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "@docusaurus/router"; 
 import Papa from "papaparse";
-import { PlugsConnected, LockOpen, MapPin, BuildingOffice, CaretDown, CaretUp  } from "@phosphor-icons/react";
-
+import {
+  PlugsConnected,
+  LockOpen,
+  MapPin,
+  BuildingOffice,
+  CaretDown,
+  CaretUp,
+  LinkSimple
+} from "@phosphor-icons/react";
 
 // Composant pour afficher un logiciel
 const Logiciel = ({ nom, categorie, description, libre, distance, lien, bibliotheques = "" }) => {
   const history = useHistory();
-  const [isOpen, setIsOpen] = useState(false); // État pour ouvrir/fermer l'accordéon
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleDistanceClick = () => {
     if (distance === "Oui") {
@@ -17,14 +24,11 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
 
   return (
     <div className="logiciel">
-      <h3>
-        <a href={lien || "#"}>{nom}</a>
-      </h3>
+      <h3>{nom}</h3>
       <p><strong>Catégorie :</strong> {categorie}</p>
       <p>{description}</p>
 
       <div className="tags">
-        {/* Tag cliquable pour "Logiciel Libre" */}
         {libre === "Oui" && (
           <span className="tag tag--libre tag--clickable">
             <LockOpen size={16} weight="bold" className="icon" />
@@ -32,7 +36,6 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
           </span>
         )}
 
-        {/* Tag cliquable pour "Accès à Distance" */}
         {distance === "Oui" && (
           <span 
             className="tag tag--distance tag--clickable" 
@@ -43,14 +46,35 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
             Accès à Distance
           </span>
         )}
+
+        {lien && (
+          <a
+            className="tag tag--lien tag--clickable"
+            href={lien}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              backgroundColor: "#e0f0ff",
+              color: "#005ea2",
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.4em",
+              textDecoration: "none",
+              borderRadius: "4px",
+              padding: "0.2em 0.6em"
+            }}
+          >
+            <LinkSimple size={16} weight="bold" />
+            Guide
+          </a>
+        )}
       </div>
 
-      {/* Accordéon pour afficher les bibliothèques */}
       <div className="bibliotheques">
         <button className="accordion-button" onClick={() => setIsOpen(!isOpen)}>
           <strong><BuildingOffice size={24} className="icon" /> Localisation</strong>
           {isOpen ? <CaretUp size={16} className="icon" /> : <CaretDown size={16} className="icon" />}
-                  </button>
+        </button>
 
         {isOpen && (
           <div className="bibliotheques-list">
