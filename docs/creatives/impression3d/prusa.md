@@ -31,7 +31,7 @@ Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
 
 :::info
 Ressources en ligne
-[Original Prusa i3 MK3S+ | Original Prusa 3D printers directly from Josef Prusa](https://www.prusa3d.com/fr/categorie/original-prusa-i3-mk3s/){target="_blank"}
+[Original Prusa i3 MK3S+ | Original Prusa 3D printers directly from Josef Prusa](https://www.prusa3d.com/fr/categorie/original-prusa-i3-mk3s/)
 :::
 
 ## 2 - Changement de filament
@@ -73,7 +73,7 @@ En aucun cas, vous ne devriez forcer, au risque d’endommager l’imprimante. D
 
 :::info
 Ressources en ligne
-[Prusa Printer: Changing Filament](https://youtu.be/12bYIGgkqIQ){target="_blank"}
+[Prusa Printer: Changing Filament](https://youtu.be/12bYIGgkqIQ)
 :::
 
 ## 3 - Configuration PrusaSlicer
@@ -116,11 +116,11 @@ Utilisez la souris ainsi que la molette pour tourner autour de l’objet et zoom
 - Clic gauche = rotation du plateau
 - Clic droit = translation de la caméra
 
-![video](require('../../assets/videos/prusa-navigation.mp4)
+![video]
 
 ### Échelle et taille
 
-<iframe src="https://www.loom.com/embed/29067cbd8b81407e8654aa351f4e1bae?sid=4e94255e-4769-4d11-8cb3-324126842408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<iframe src="https://www.loom.com/embed/29067cbd8b81407e8654aa351f4e1bae?sid=4e94255e-4769-4d11-8cb3-324126842408" frameborder="0"></iframe>
 
 Redimensionnez la pièce en utilisant la fonction **Redimensionner** (menu de droite). Vous pouvez aussi changer les valeurs de l’échelle et de la taille à droite de l’écran. 
 
@@ -145,7 +145,7 @@ Le logiciel passe en mode aperçu. Vous pouvez basculer entre ce mode et celui d
 
 Vous pouvez visualiser couche par couche votre impression ainsi que le déplacement de la tête d’impression.
 
-<iframe src="https://www.loom.com/embed/ab9b7c819ce14d368849dd36c28d04c9?sid=1af70922-02c7-4f59-afd9-2af3720c1ec6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<iframe src="https://www.loom.com/embed/ab9b7c819ce14d368849dd36c28d04c9?sid=1af70922-02c7-4f59-afd9-2af3720c1ec6" frameborder="0"></iframe>
 
 Si jamais vous changez un réglage, la pièce disparait de l’écran. Vous devez soit revenir à la vue d’édition 3D ou découper la pièce à nouveau. 
 
@@ -164,9 +164,9 @@ Avant de lancer l’impression ou de changer le filament, vous devez nettoyer le
 
 :::info
 Ressources en ligne
-[Première impression avec PrusaSlicer](https://help.prusa3d.com/fr/article/premiere-impression-avec-prusaslicer_1753){target="_blank"}
-[Prusa Knowledge Base](https://help.prusa3d.com/fr/article/supports_1698){target="_blank"}
-[Menu LCD i3 (pré firmware 3.9.0) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/menu-lcd-i3-pre-firmware-3-9-0_1876){target="_blank"}
+[Première impression avec PrusaSlicer](https://help.prusa3d.com/fr/article/premiere-impression-avec-prusaslicer_1753)
+[Prusa Knowledge Base](https://help.prusa3d.com/fr/article/supports_1698)
+[Menu LCD i3 (pré firmware 3.9.0) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/menu-lcd-i3-pre-firmware-3-9-0_1876)
 :::
 
 ## 5 - Modifier la buse
@@ -189,8 +189,8 @@ Ressources en ligne
 
 :::info
 Ressources en ligne
-[Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364){target="_blank"}
-[Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069){target="_blank"}
+[Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364)
+[Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069)
 :::
 
 ## 6 - Paramètres avancés PrusaSlicer

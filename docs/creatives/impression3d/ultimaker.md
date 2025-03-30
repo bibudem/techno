@@ -1,4 +1,7 @@
-# Ultimaker
+---
+id : ultimaker
+Title : Ultimaker
+---
 
 :::info
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
@@ -29,7 +32,7 @@ Le *feeder* se trouve à l’arrière de l’imprimante et le filament passe par
 
 :::info
 Ressources en ligne
-[Site officiel Ultimaker](https://ultimaker.com/3d-printers/s-series/ultimaker-s3/){target="_blank"}
+[Site officiel Ultimaker](https://ultimaker.com/3d-printers/s-series/ultimaker-s3/)
 :::
 
 ## 2 - Configuration Cura
@@ -172,10 +175,10 @@ Pour l’Ultimaker, il faut imbiber une lingette de nettoyant à vitre et nettoy
 
 ## 5 - Pour en savoir plus
 
-- [Ultimaker Cura](https://support.ultimaker.com/hc/en-us/sections/360003548339-Ultimaker-Cura){target="_blank"}
+- [Ultimaker Cura](https://support.ultimaker.com/hc/en-us/sections/360003548339-Ultimaker-Cura)
 
-- [Blog sur l'impression 3D | Ultimaker](https://ultimaker.com/fr/learn/blog){target="_blank"}
+- [Blog sur l'impression 3D | Ultimaker](https://ultimaker.com/fr/learn/blog)
 
-- [Loading materials on the Ultimaker S5](https://support.ultimaker.com/hc/en-us/articles/360011427140){target="_blank"}
+- [Loading materials on the Ultimaker S5](https://support.ultimaker.com/hc/en-us/articles/360011427140)
 
-- [Change the Ultimaker S5 configuration](https://support.ultimaker.com/hc/en-us/articles/360011544619-Change-the-Ultimaker-S5-configuration){target="_blank"}
+- [Change the Ultimaker S5 configuration](https://support.ultimaker.com/hc/en-us/articles/360011544619-Change-the-Ultimaker-S5-configuration)
