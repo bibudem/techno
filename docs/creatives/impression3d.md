@@ -1,5 +1,4 @@
 ---
-id: impression3d
 title: Impression 3D
 description: Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.
 ---
@@ -34,7 +33,7 @@ Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
 ## Informations complémentaires
 
 - Pour utiliser les imprimantes 3D, vous pouvez suivre une formation ou prendre un rendez-vous pour une consultation. Pour plus d'informations, consultez la section [Formations](#).
-- Pour obtenir de l'aide ou des conseils, vous pouvez contacter un membre de l'équipe des ateliers de fabrication numérique de votre bibliothèque par courriel ou en personne.
+- Pour obtenir de l'aide ou des conseils, vous pouvez contacter un membre de l'équipe des ateliers de fabrication de votre bibliothèque par courriel ou en personne.
 - L'impression 3D est un service gratuit offert par les bibliothèques uniquement pour les membres de la communauté UdeM.
 - Pour connaître les règles d'utilisation des imprimantes 3D, consultez la section [Règles d'utilisation](#).
 
@@ -43,8 +42,6 @@ Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
 ## Ressources
 
 ### Guides sur l'impression 3D
-
-
 
 ---
 

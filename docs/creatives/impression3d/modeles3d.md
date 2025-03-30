@@ -1,12 +1,12 @@
 ---
-Title : Modèles 3D pour l'impression
+Title : Modèles 3D
 Description : Logiciels et ressources pour concevoir des modèles 3D pour l'impression.
 ---
 
 import React from 'react';
 import DataTable from '@site/src/components/DataTable';
 
-# Modèles 3D pour l'impression
+# Modèles 3D
 
 Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi qu'une collection de ressources en ligne pour télécharger des modèles 3D prêts à imprimer.
 

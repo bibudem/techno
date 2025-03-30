@@ -1,9 +1,10 @@
 ---
-id: introduction
-title: Introduction à l'impression 3D
+title: Introduction
 description: Tout apprendre sur l'impression 3D
-slug: /introduction-impression-3d
+slug: /creatives/introduction-impression-3d
 ---
+
+# Introduction à l'impression 3D
 
 ## Qu’est-ce que l’impression 3D ?
 
@@ -19,6 +20,7 @@ L’acide polylactique (PLA) est un thermoplastique fabriqué à partir de resso
 
 :::note Note
     Le PLA n’est pas recommandé pour les objets en contact avec des aliments, car les bactéries peuvent s’infiltrer dans les interstices des couches d’impression.
+:::
 
 ### PVA
 
