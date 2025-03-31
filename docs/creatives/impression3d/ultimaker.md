@@ -17,7 +17,7 @@ Avant de faire votre première impression, lisez l'[introduction à l'impression
 |Diamètre du filament|	2.85 mm|
 |Matériaux supportés|	PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres.|
 |Surface d'impression|	Vitre|
-|Impression multi-filament|	Possible grâce aux deux extrudeurs|
+|Impression multi-filament|	Possible grâce aux deux extrudeurs |
 |Logiciel de découpe (*slicer*)|	Cura|
 
 L’imprimante Ultimaker S3 est prête à l’emploi aussitôt sortie de sa boite. L’avantage de cette imprimante 3D est qu’elle ne nécessite pas de calibration poussée : il n’est pas nécessaire de régler la hauteur de la première couche, contrairement à la [Prusa MK3S+](prusa). Tous ces réglages se font automatiquement par l’imprimante.
@@ -44,11 +44,6 @@ Lien vers le téléchargement : [https://ultimaker.com/fr/software/ultimaker-cur
 Version utilisée dans ce tutoriel : 5.1.1
 
 Compatible avec : Windows, macOS et Linux
-
-:::warning
-Compatibilité
-Le logiciel **n'est pas encore entièrement compatible** avec la puce M1 d'Apple. (nov 2021) [Consultez le support Ultimaker pour en savoir plus.](https://support.ultimaker.com/hc/en-us/articles/360018141480)
-:::
 
 ### Instructions
 
@@ -106,8 +101,6 @@ L’imprimante va tirer le filament jusqu’à l’extrudeur et commencer à fai
 Pour changer la langue de l’interface, cliquez sur **Préférences** > **Configurer Cura** et dans l’onglet **Général**, choisissez la langue de votre choix. 
 
 - À l’ouverture du logiciel de découpe Cura, il faut s’assurer qu’on a la bonne configuration. Assurez-vous que l’imprimante Ultimaker S3 est sélectionnée en haut à gauche de l’écran.
-
-![Capture d’écran 2022-04-26 123139.webp](require('https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44c344f5-efe3-48ad-a7d1-573adfc0c61a/Capture_dcran_2022-04-26_123139.webp)
 
 ### Ajouter un modèle 3D au logiciel
 
