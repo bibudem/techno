@@ -8,29 +8,9 @@ slug: /creatives/introduction-impression-3d
 
 ## Qu’est-ce que l’impression 3D ?
 
-L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D conçu par ordinateur. Cet objet tridimensionnel est créé par un dépôt successif de couches de matériaux.
+L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D conçu par ordinateur. Cet objet tridimensionnel est créé par un dépôt successif de couches de matériaux. Différents matériaux peuvent être utilisé, du plastique, mais aussi du chocolat ou du béton. 
 
-À partir d’un modèle numérique conçu en 3D, un logiciel appelé *Slicer* découpe le modèle en plusieurs couches selon un paramétrage choisi. L’extrudeur de l’imprimante chauffe le plastique et le dépose couche par couche en suivant les instructions établies par le *Slicer*. Un système de ventilation refroidit instantanément le plastique déposé pour le solidifier. C’est ce qu’on appelle la fabrication additive.
-
-## Matériaux
-
-### PLA (acide polylactique)
-
-L’acide polylactique (PLA) est un thermoplastique fabriqué à partir de ressources renouvelables comme l’amidon de maïs, les racines de tapioca ou la canne à sucre. Contrairement à l’ABS (plastique dérivé du pétrole), le PLA est plus écologique mais aussi plus fragile et sensible à la chaleur. Il est cependant très facile à imprimer et idéal pour le prototypage rapide.
-
-:::note Note
-    Le PLA n’est pas recommandé pour les objets en contact avec des aliments, car les bactéries peuvent s’infiltrer dans les interstices des couches d’impression.
-:::
-
-### PVA
-
-L'alcool polyvinylique (PVA) est un polymère synthétique soluble dans l'eau, souvent utilisé pour imprimer des supports sur des modèles complexes. Il est très sensible à l'humidité.
-
-### Températures
-
-Les températures recommandées sont inscrites sur les bobines de filament et sauvegardées dans le logiciel de découpe. En général :
-- **PLA** : 190°C - 230°C
-- **Plateau chauffant** : 50°C - 70°C pour optimiser l’adhésion.
+Un logiciel appelé *Slicer* découpe le modèle 3D en plusieurs couches selon un paramétrage choisi. L’extrudeur de l’imprimante chauffe le plastique et le dépose couche par couche en suivant les instructions établies par le *Slicer*. Un système de ventilation refroidit instantanément le plastique déposé pour le solidifier. C’est ce qu’on appelle la fabrication additive.
 
 ## Entreposage des filaments
 
@@ -43,7 +23,7 @@ Le bon stockage des bobines de filament est important, puisqu’à l’air libre
 
 Pour vérifier si un filament est encore utilisable, prenez un bout d’environ 5 cm et essayez de le tordre. Il ne doit pas se casser facilement.
 
-Lorsqu’un filament a absorbé trop d’humidité, un séchoir à filament peut être utilisé pour restaurer ses propriétés. Voici une indication des temps de séchage recommandés :
+Lorsqu’un filament a absorbé trop d’humidité, un séchoir à filament peut être utilisé pour restaurer ses propriétés.
 
 ## Les grandes étapes
 
@@ -55,14 +35,8 @@ La première étape consiste à trouver un modèle 3D ou à le concevoir soi-mê
 
 ### Découpe du modèle
 
-Le *Slicer* découpe le modèle en couches et génère un fichier **.GCODE** contenant les instructions pour l’imprimante.
+Le *Slicer* transforme un modèle au format **.STL** en un fichier **.GCODE** contenant les instructions pour l’imprimante.
 
-```mermaid
-graph LR
-    A[Modèle 3D .stl ou .obj] --> B[Découpage du modèle]
-    B --> C[Fichier .gcode]
-    C --> D[Impression de l’objet]
-```
 Il existe plusieurs logiciels de découpe, la plupart sont libre et à code source ouvert. Les entreprises de fabrication d'imprimante 3D proposent leurs propres logiciels de découpe afin d'offrir des fonctionnalités propres à leurs imprimantes. Certaines utilisent **.GCODE** comme extension du fichier de sortie, d'autres dans un format propriétaire. Voici quelques exemples de logiciels de découpe :
 
 - **Cura** : Pour les imprimantes Ultimaker.
@@ -71,7 +45,7 @@ Il existe plusieurs logiciels de découpe, la plupart sont libre et à code sour
 
 ### Utilisation des profils
 
-Les profils sont un ensemble de paramètres prédéfinis dans le *Slicer*. Ils peuvent être modifiés à loisir. Des profils par défaut sont configurés, mais il faut tout de même vérifier les paramètres et les mouvements de l’extrudeur avant d’enregistrer le fichier sur le périphérique de stockage.
+Les profils sont un ensemble de paramètres prédéfinis dans le *Slicer*. Ils peuvent être modifiés à loisir. Des profils par défaut sont configurés, mais il faut toujours vérifier les paramètres et les mouvements de l’extrudeur avant d’enregistrer le fichier sur le périphérique de stockage de l'imprimante.
 
 #### Épaisseur
 
