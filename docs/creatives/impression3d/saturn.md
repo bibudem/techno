@@ -13,7 +13,7 @@
 |Technologie| Stéréolithographie MSLA|
 |Épaisseur de couche| 0,01 - 0,2 mm|
 |Vitesse d'impression| MAX 150 mm/h|
-|Surface d'impression| Removable magnetic steel sheets(*) with different surface finishes|
+|Surface d'impression| Removable magnetic steel sheets with different surface finishes|
 |Volume de construction| 218,88 mm (L) * 122,88 mm (l) * 260 mm (H)|
 |Dimensions de l'imprimante| 305,9 mm (L) * 273 mm (l) * 562,5 mm (H)|
 
