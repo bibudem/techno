@@ -7,6 +7,10 @@ image: "/img/cover/ateliers.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import StudioCard from '@site/src/components/StudioCard';
+import Link from '@docusaurus/Link';
+import CardGrid from "@site/src/components/CardGrid";
+
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -34,23 +38,69 @@ Ce sont des espaces d’expérimentation et de partage qui rassemblent une commu
 
 ## Localisation et accès
 
-Les ateliers de fabrication sont accessibles à toute la communauté UdeM. L'horaire affiché est sujet à changement en fonction de la disponibilité du personnel.
+Les ateliers de fabrication sont accessibles à toute la communauté UdeM.
 
-(lister les ateliers et leur localisation)
+<div
+  className="grid grid--3"
+  style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}
+>
+  <StudioCard
+    title="Bibliothèque Hubert Reeves"
+    location="Campus MIL, Aile A, local XXXX"
+    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
+    description=""
+    reserveLink=""
+    reserveText=""
+  />
+  <StudioCard
+    title="Bibliothèque Thérèse-Gouin-Décarie"
+    location="2ème étage, local XXXX"
+    mapLink="#"
+    description=""
+    reserveLink=""
+    reserveText=""
+  />
+  <StudioCard
+    title="Bibliothèque Mathématiques et informatique"
+    location="Pavillon André-Aisenstadt, local 2477"
+    mapLink="https://maps.app.goo.gl/jJ4E8nj2TeAJJc3C7"
+    description=""
+    reserveLink=""
+    reserveText=""
+  />
+</div>
 
 ---
 
-## Documentation et équipements
+## Documentation
 
-De la documentation et la liste des équipements sont disponibles pour vous aider à utiliser les ateliers :
+De la documentation est disponible pour vous aider à utiliser les équipements des ateliers :
+
+<Link to="/creatives" className="button button--primary">
+  Consultez la section Technologies Créatives
+</Link>
 
 ---
 
 ## Formations et soutien
 
-Vous pouvez réserver une consultation avec un ou une membre de l’équipe. Celle-ci est recommandée avant une première visite aux ateliers ou une première utilisation des équipements. Le service de consultation est réservé aux membres de la communauté UdeM.
+Envie de créer, tester, apprendre? On vous ouvre la porte!
+Réservez une rencontre avec notre équipe ou plongez dans une formation pratique. On est là pour vous guider, pas à pas.
 
----
+<CardGrid
+  items={[
+    {
+      title: "Réservez une consultation",
+      description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre projet. Ce service est offert à la communauté UdeM.",
+      link: "#",
+    },
+    {
+      title: "Participez à une formation",
+      description: "Des formations pratiques sont aussi offertes tout au long de l’année pour vous familiariser avec les équipements et logiciels disponibles dans nos espaces. Ces formations sont accessibles gratuitement pour la communauté UdeM.",
+      link: "#",
+    },
+  ]}
+/>
 
 ## Visite 360°
 
