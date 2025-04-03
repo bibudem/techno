@@ -1,7 +1,5 @@
 ---
 title : Ressources informatiques
-hide_table_of_contents: true
-
 ---
 
 import CardGrid from "@site/src/components/CardGrid";

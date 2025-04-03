@@ -28,7 +28,7 @@ Les ateliers de fabrication offrent à la communauté la possibilité de dévelo
 
 Ce sont des espaces d’expérimentation et de partage qui rassemblent une communauté de pratique. On y trouve notamment les technologies liées à :
 
-- L'impression et la numérisation 3D;
+- L'impression 3D;
 - L'électronique comme les Raspberry Pi, Arduino et l’Internet des Objets;
 - La couture, avec une machine à coudre et une brodeuse numérique;
 - La découpe vinyle;
@@ -69,6 +69,12 @@ Les ateliers de fabrication sont accessibles à toute la communauté UdeM.
     reserveText=""
   />
 </div>
+---
+
+:::tip Vous chercher une imprimante 3D?
+Des imprimantes 3D sont disponibles dans nos ateliers, mais aussi dans plusieurs autres bibliothèques UdeM!
+Pour trouver celle qui vous convient, consultez la page [Impression 3D](/creatives/impression3d).
+:::
 
 ---
 
