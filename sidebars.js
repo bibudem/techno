@@ -307,7 +307,7 @@ const sidebars = {
                 "creatives/impression3d/prusa",
                 "creatives/impression3d/ultimaker",
                 "creatives/impression3d/saturn",
-                "creatives/impression3d/techniques",
+                // "creatives/impression3d/techniques",
               ]
             
 
@@ -346,7 +346,7 @@ const sidebars = {
           ],
         },
         'creatives/art-textile',
-        'creatives/programmation',
+        // 'creatives/programmation',
         'creatives/robots',
         'creatives/realisations',
       ],
