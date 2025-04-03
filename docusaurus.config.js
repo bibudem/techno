@@ -4,8 +4,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'techno·bib',
-  tagline: 'Bibliothèque UdeM',
+  title: 'studio·bib',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   url: 'https://techno.bib.umontreal.ca',

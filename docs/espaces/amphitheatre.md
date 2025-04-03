@@ -25,7 +25,7 @@ L’amphithéâtre offre un espace moderne et équipé pour la projection de fil
 
 ## Localisation et accès
 
-Les membres de la communauté UdeM peuvent inviter des non-membres à assister aux événements, mais seuls les membres peuvent réserver l'amphithéâtre et bénéficier des services de consultation et de soutien technique.
+Les membres de la communauté UdeM peuvent inviter des non-membres à assister aux événements, mais seuls les membres peuvent réserver l'amphithéâtre.
 
 import StudioCard from "@site/src/components/StudioCard";
 

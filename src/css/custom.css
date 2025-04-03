@@ -130,10 +130,16 @@ html[data-theme="dark"] {
 /* Navbar styles */
 #__docusaurus .navbar {
   padding: 0 16px;
-  font-size: 14px;
+  font-size: 18px;
   /* width: 100%; */
   display: flex;
   justify-content: center;
+}
+
+#__docusaurus .navbar__link {
+  font-weight: 500;
+  font-size: 1rem!important;
+  color: var(--navbar-link-c);
 }
 
 #__docusaurus .navbar__inner {
@@ -206,14 +212,6 @@ html[data-theme="dark"] {
 #__docusaurus .navbar__items .DocSearch-Button .DocSearch-Button-Keys .DocSearch-Button-Key:last-child {
   color: var(--search-kbd-color) !important;
   font-size: 12px;
-}
-
-#__docusaurus .navbar__link {
-  font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 17px;
-  white-space: nowrap;
-  color: var(--navbar-link-c);
 }
 
 
