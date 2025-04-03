@@ -1,6 +1,6 @@
 ---
 title : Technologies créatives
-hide_table_of_contents: true
+# hide_table_of_contents: true
 
 ---
 
@@ -35,18 +35,13 @@ import CardGrid from "@site/src/components/CardGrid";
       link: "art-textile",
     },
     {
-      title: "Programmation",
-      description: "Apprenez à coder.",
-      link: "programmation",
-    },
-    {
       title: "Robots (accessoires didactiques)",
       description: "",
       link: "robots",
     },
     {
-      title: "Réalisations étudiantes",
-      description: "Découvrez les projets créatifs des étudiants de l'Université de Montréal.",
+      title: "Réalisations",
+      description: "Découvrez les projets créatifs de la communauté UdeM",
       link: "realisations",
     },
   ]}
