@@ -12,37 +12,37 @@ import CardGrid from "@site/src/components/CardGrid";
     {
       title: "Impression 3D",
       description: "Créez des objets en trois dimensions à partir de modèles numériques.",
-      link: "impression3d",
+      link: "/creatives/impression3d",
     },
     {
       title: "Réalité virtuelle",
       description: "Explorez des mondes virtuels et des expériences immersives.",
-      link: "vr",
+      link: "/creatives/vr",
     },
     {
       title: "Électronique",
       description: "Apprenez à concevoir et à fabriquer des circuits électroniques.",
-      link: "electronique",
+      link: "/creatives/electronique",
     },
     {
       title: "Découpeuse",
       description: "Découpez des matériaux pour vos projets de création.",
-      link: "decoupeuse",
+      link: "/creatives/decoupeuse",
     },
     {
       title: "Art textile",
       description: "Créez des œuvres textiles avec nos équipements spécialisés.",
-      link: "art-textile",
+      link: "/creatives/art-textile",
     },
     {
       title: "Robots (accessoires didactiques)",
       description: "",
-      link: "robots",
+      link: "/creatives/robots",
     },
     {
       title: "Réalisations",
       description: "Découvrez les projets créatifs de la communauté UdeM",
-      link: "realisations",
+      link: "/creatives/realisations",
     },
   ]}
 />
