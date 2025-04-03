@@ -19,7 +19,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   }}
 >
   <a
-    href="cameo.md"
+    href="decoupeuse/cameo"
     className="card card--clickable"
     style={{
       backgroundColor: "#0057ac",
@@ -39,7 +39,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   </a>
 
   <a
-    href="cricut.md"
+    href="decoupeuse/cricut"
     className="card card--clickable"
     style={{
       backgroundColor: "#0057ac",
@@ -59,7 +59,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   </a>
 
   <a
-    href="brother.md"
+    href="decoupeuse/brother"
     className="card card--clickable"
     style={{
       backgroundColor: "#0057ac",
