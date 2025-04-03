@@ -99,51 +99,7 @@ const config = {
 
         ],
       },
-      footer: {
-        style: 'light',
-        links: [
-          {
-            title: 'Titre1',
-            items: [
-              {
-                label: 'Lien1',
-                to: '/#',
-              },
-            ],
-          },
-          {
-            title: 'Titre2',
-            items: [
-              {
-                label: 'Lien1',
-                href: '#',
-              },
-              {
-                label: 'Lien2',
-                href: '#',
-              },
-              {
-                label: 'Lien3',
-                href: '#',
-              },
-            ],
-          },
-          {
-            title: 'Titre3',
-            items: [
-              {
-                label: 'Lien1',
-                to: '/#',
-              },
-              {
-                label: 'Lien2',
-                href: '#',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Les bibliothèques de l'Université de Montréal`,
-      },
+      
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
