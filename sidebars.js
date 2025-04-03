@@ -320,6 +320,7 @@ const sidebars = {
           items: [
             "creatives/vr/guide",
             "creatives/vr/catalogue",
+            "creatives/vr/mise-en-garde",
           ],
         },
         {
