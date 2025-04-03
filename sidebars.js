@@ -298,7 +298,7 @@ const sidebars = {
         {
           type: "category",
           label: "Impression 3D",
-          collapsed: false,
+          collapsed: true,
           link: { type: 'doc', id: 'creatives/impression3d' }, 
           items: [
                 "creatives/impression3d/introduction",
