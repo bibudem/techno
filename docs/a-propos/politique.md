@@ -1,7 +1,6 @@
 ---
 id : politique
 title : Politique d'utilisation des équipements
-hide_table_of_contents: true
 ---
 
 ## Conditions générales
@@ -17,3 +16,25 @@ hide_table_of_contents: true
 - Interdictions :
   - Jeux dans un cadre autre qu’universitaire.
   - Modifier la configuration des ordinateurs.
+
+---
+
+## Conditions pour les équipements de fabrication numérique
+
+Il faut:
+
+- Respecter le Code de conduite des usagers des bibliothèques de l’Université de Montréal;
+- Limiter l'utilisation des ateliers et de leurs équipements aux activités d'enseignement, d'apprentissage et de recherche à l'Université;
+- Utiliser les équipements de façon sécuritaire et appropriée;
+- Respecter la propriété intellectuelle;
+- Replacer le matériel et les outils et vous assurer que l’espace est propre avant de quitter.
+
+Pour l'impression 3D, il est requis d' :
+
+- Utiliser l'imprimante de façon sécuritaire et appropriée;
+- Utiliser un design adapté à l’impression et ne pouvant endommager l’imprimante;
+- Utiliser l'impression pour usage académique et de prototypage seulement;
+- Utiliser uniquement les filaments PLA fournis par les bibliothèques/UdeM;
+- Aviser les membres de l'équipe des bibliothèques/UdeM présents si le temps prévu de l'impression dépasse l'heure d'ouverture des services.
+
+Le personnel des bibliothèques se réserve le droit de refuser un accès aux ateliers et/ou d'arrêter une impression ne respectant pas ces règles.

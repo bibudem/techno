@@ -41,7 +41,7 @@ Le laboratoire peut accueillir un maximum de 30 personnes.
 
 ## Guide et soutien
 
-Consulter le guide d'utilisation du Laboratoire de visualisation pour en savoir plus sur les modes d'affichage et les connexions sans fil. Si vous avez des questions ou besoin d'aide, contactez-nous à sphere@bib.umontreal.ca
+Consulter le guide d'utilisation du Laboratoire de visualisation pour en savoir plus sur les modes d'affichage et les connexions sans fil. Si vous avez des questions ou besoin d'aide, contactez-nous à studio@bib.umontreal.ca
 
 <Link to="./guide/visualisation" className="button button--primary">
   Guide d'utilisation
