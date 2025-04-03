@@ -7,7 +7,7 @@ title : Mission
 
 ## Notre mission
 
-Le site techno·bib et les espaces rattachés sont conçus pour inspirer et accompagner les membres de la communauté universitaire dans leur exploration des technologies, leur apprentissage des arts numériques, et le développement de projets créatifs. Ces lieux favorisent l’innovation, la collaboration et la transmission des savoirs dans un cadre inclusif et accessible.
+Le site studio·bib et les espaces rattachés sont conçus pour inspirer et accompagner les membres de la communauté universitaire dans leur exploration des technologies, leur apprentissage des arts numériques, et le développement de projets créatifs. Ces lieux favorisent l’innovation, la collaboration et la transmission des savoirs dans un cadre inclusif et accessible.
 
 ## Nos objectifs
 
