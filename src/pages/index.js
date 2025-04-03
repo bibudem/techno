@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Les bibliothèques UdeM - ${siteConfig.title}`}
+      description="Un site pour découvrir les ressources et services offerts par les bibliothèques de l'Université de Montréal.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
