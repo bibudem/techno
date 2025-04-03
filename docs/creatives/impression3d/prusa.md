@@ -67,7 +67,6 @@ Diamètre des filaments de la Prusa i3 MK3S+ : **1.75mm**
 ![Menu de la Prusa](/img/docs/prusa-filament-5.webp)
 
 :::warning
-Attention
 En aucun cas, vous ne devriez forcer, au risque d’endommager l’imprimante. Dans le doute, demandez de l’aide.
 :::
 
@@ -95,7 +94,7 @@ Compatible avec : Windows, MacOS et Linux.
 3. À l’étape **Prusa Research**, cochez uniquement la case **0.4 mm buse** au dessous de **Original Prusa i3 MK3s & MK3s+**, sous **Famille MK3**.
 4. Cliquez sur **Fin**.
 
-![Assistant configuration PrusaSlicer](/img/docs/prusa-installation.webp)
+![Assistant configuration PrusaSlicer](/img/docs/prusa-installation.png)
 
 ## 4 - Première impression
 
@@ -129,7 +128,7 @@ Redimensionnez la pièce en utilisant la fonction **Redimensionner** (menu de dr
 ![Interface du logiciel PrusaSlicer](/img/docs/prusa-impression-3.webp)
 
 - **Réglages d’impression** : Sélectionnez la hauteur de la couche. 0.10mm pour une impression de précision, 0,20mm pour une impression normale et 0,30mm pour des tests ou des pièces qui n’ont pas besoin d’être de qualité.
-- **Filament** : Sélectionnez **Generic PLA***.* Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215c pour l’extrudeur, 60c pour le plateau).
+- **Filament** : Sélectionnez **Generic PLA**. Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215c pour l’extrudeur, 60c pour le plateau).
 - **Imprimante** : Assurez-vous que le bon modèle est sélectionné.
 - **Supports** : Si une partie de votre modèle commence dans les airs et n'est supportée par aucun élément en dessous, vous devez ajouter une structure de support pour réussir une impression. Plusieurs options s’offrent à vous. Si votre modèle n’a pas besoin de support, sélectionnez **Aucun**. Si un support est nécessaire, sélectionnez **Support sur le plateau uniquement**, qui va créer des supports qui ont leur base au niveau du plateau.
 - **Remplissage** : Indiquez le pourcentage de remplissage. Il n’est pas nécessaire de faire un remplissage au-delà de 30%.
@@ -169,6 +168,7 @@ Ressources en ligne
 [Menu LCD i3 (pré firmware 3.9.0) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/menu-lcd-i3-pre-firmware-3-9-0_1876)
 :::
 
+<!-- J'ai envie d'enlever toute cette partie, c'est vraiment pas souhaitable d'un usager change la buse.
 ## 5 - Modifier la buse
 
 ![Outil spécial pour modifier la buse.](/img/docs/prusa-buse-1.webp)
@@ -192,8 +192,9 @@ Ressources en ligne
 [Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364)
 [Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069)
 :::
+-->
 
-## 6 - Paramètres avancés PrusaSlicer
+## 5 - Paramètres avancés PrusaSlicer
 
 Dans cette section, vous trouverez la marche à suivre pour paramétrer différents réglages d’impressions (hauteur de couche, remplissage, etc.) sur un objet dans le logiciel PrusaSlicer.
 
