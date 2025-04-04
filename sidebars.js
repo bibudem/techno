@@ -361,6 +361,8 @@ const sidebars = {
       link: { type: 'doc', id: 'medias/index' }, 
       items: [
         'medias/postes-edition',
+        'medias/balado',
+        'medias/rodecaster',
         'medias/audio',
         'medias/video',
         'medias/edition',
