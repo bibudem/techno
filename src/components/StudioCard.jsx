@@ -13,34 +13,41 @@ const StudioCard = ({ title, location, description, mapLink, reserveLink, reserv
     <div className="card__header">
       <h3>{title}</h3>
     </div>
+
     <div className="card__body">
-      <p>
-        <strong>{location}</strong>
-      </p>
-      <p>
+      {location && (
+        <p>
+          <strong>{location}</strong>
+        </p>
+      )}
+
+      {mapLink && (
+        <p>
+          <a
+            href={mapLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#0057ac", textDecoration: "none" }}
+          >
+            Localiser sur Google Maps
+          </a>
+        </p>
+      )}
+
+      {description && <p>{description}</p>}
+    </div>
+
+    {reserveLink && reserveText && (
+      <div className="card__footer">
         <a
-          href={mapLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#0057ac", textDecoration: "none" }}
+          href={reserveLink}
+          className="button button--primary button--block"
+          style={{ marginTop: "1rem" }}
         >
-          Localiser sur Google Maps
+          {reserveText}
         </a>
-      </p>
-      <p>
-      {description}
-      </p>
-     
-    </div>
-    <div className="card__footer">
-      <a
-        href={reserveLink}
-        className="button button--primary button--block"
-        style={{ marginTop: "1rem" }}
-      >
-        {reserveText}
-      </a>
-    </div>
+      </div>
+    )}
   </div>
 );
 
