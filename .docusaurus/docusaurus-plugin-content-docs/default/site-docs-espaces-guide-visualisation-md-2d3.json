@@ -1,0 +1,29 @@
+{
+  "id": "espaces/guide/visualisation",
+  "title": "Aide du Laboratoire de visualisation",
+  "description": "Documentation du Laboratoire de visualisation",
+  "source": "@site/docs/espaces/guide/visualisation.md",
+  "sourceDirName": "espaces/guide",
+  "slug": "/espaces/guide/visualisation",
+  "permalink": "/espaces/guide/visualisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Aide du Laboratoire de visualisation",
+    "description": "Documentation du Laboratoire de visualisation",
+    "toc_max_heading_level": 2,
+    "breadcrumbs": true
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Laboratoire de visualisation",
+    "permalink": "/espaces/visualisation"
+  },
+  "next": {
+    "title": "Salle de visionnement",
+    "permalink": "/espaces/salledevisio"
+  }
+}

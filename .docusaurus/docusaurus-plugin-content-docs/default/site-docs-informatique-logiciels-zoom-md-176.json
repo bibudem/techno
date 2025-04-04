@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/zoom",
+  "title": "zoom",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/zoom.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/zoom",
+  "permalink": "/informatique/logiciels/zoom",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Zotero",
+    "permalink": "/informatique/logiciels/zotero"
+  },
+  "next": {
+    "title": "Accessoires",
+    "permalink": "/informatique/accessoires"
+  }
+}

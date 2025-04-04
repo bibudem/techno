@@ -1,0 +1,27 @@
+{
+  "id": "informatique/vpn",
+  "title": "Installer le VPN",
+  "description": "Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM.",
+  "source": "@site/docs/informatique/vpn.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/vpn",
+  "permalink": "/informatique/vpn",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Installer le VPN",
+    "description": "Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM."
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Configurer le serveur mandataire (proxy)",
+    "permalink": "/informatique/proxy"
+  },
+  "next": {
+    "title": "Impression",
+    "permalink": "/informatique/impression"
+  }
+}

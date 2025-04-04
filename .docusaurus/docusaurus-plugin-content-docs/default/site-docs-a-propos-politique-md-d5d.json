@@ -1,0 +1,23 @@
+{
+  "id": "a-propos/politique",
+  "title": "Politique d'utilisation des équipements",
+  "description": "Conditions générales",
+  "source": "@site/docs/a-propos/politique.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/politique",
+  "permalink": "/a-propos/politique",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "politique",
+    "title": "Politique d'utilisation des équipements"
+  },
+  "sidebar": "aboutSidebar",
+  "previous": {
+    "title": "Accessibilité",
+    "permalink": "/a-propos/accessibilite"
+  }
+}

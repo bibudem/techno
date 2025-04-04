@@ -1,0 +1,24 @@
+{
+  "id": "creatives/decoupeuse/brother",
+  "title": "brother",
+  "description": "",
+  "source": "@site/docs/creatives/decoupeuse/brother.md",
+  "sourceDirName": "creatives/decoupeuse",
+  "slug": "/creatives/decoupeuse/brother",
+  "permalink": "/creatives/decoupeuse/brother",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Cricut",
+    "permalink": "/creatives/decoupeuse/cricut"
+  },
+  "next": {
+    "title": "Art textile",
+    "permalink": "/creatives/art-textile"
+  }
+}

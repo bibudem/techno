@@ -1,0 +1,17 @@
+{
+  "id": "creatives/impression3d/imprimantes3d",
+  "title": "Imprimantes 3D",
+  "description": "<CardGrid",
+  "source": "@site/docs/creatives/impression3d/imprimantes3d.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/impression3d/imprimantes3d",
+  "permalink": "/creatives/impression3d/imprimantes3d",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Imprimantes 3D"
+  }
+}

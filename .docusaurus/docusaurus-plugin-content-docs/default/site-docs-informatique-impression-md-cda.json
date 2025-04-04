@@ -1,0 +1,28 @@
+{
+  "id": "informatique/impression",
+  "title": "Impression",
+  "description": "Guide sur les services d'impression, de photocopie et de numérisation offerts par l'UdeM.",
+  "source": "@site/docs/informatique/impression.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/impression",
+  "permalink": "/informatique/impression",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Impression",
+    "description": "Guide sur les services d'impression, de photocopie et de numérisation offerts par l'UdeM.",
+    "image": "/img/cover/impression.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Installer le VPN",
+    "permalink": "/informatique/vpn"
+  },
+  "next": {
+    "title": "Numérisation",
+    "permalink": "/informatique/numerisation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "creatives/electronique",
+  "title": "Électronique",
+  "description": "Cette section est destinée à vous aider à mieux comprendre les technologies des microcontrôleurs et des ordinateurs monocartes, notamment les Arduinos, les Raspberry Pi, le Makey Makey et l'Internet des objets (IoT). Ces technologies sont utilisées dans de nombreux domaines, tels que la robotique, l'automatisation industrielle, les systèmes embarqués, la domotique et les projets personnels d'électronique.",
+  "source": "@site/docs/creatives/electronique.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/electronique",
+  "permalink": "/creatives/electronique",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "electronique",
+    "title": "Électronique"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Mises en garde",
+    "permalink": "/creatives/vr/mise-en-garde"
+  },
+  "next": {
+    "title": "arduino",
+    "permalink": "/creatives/electronique/arduino"
+  }
+}

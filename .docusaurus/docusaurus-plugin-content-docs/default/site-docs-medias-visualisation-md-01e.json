@@ -1,0 +1,20 @@
+{
+  "id": "medias/visualisation",
+  "title": "visualisation",
+  "description": "",
+  "source": "@site/docs/medias/visualisation.md",
+  "sourceDirName": "medias",
+  "slug": "/medias/visualisation",
+  "permalink": "/medias/visualisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "mediasSidebar",
+  "previous": {
+    "title": "infographie",
+    "permalink": "/medias/infographie"
+  }
+}

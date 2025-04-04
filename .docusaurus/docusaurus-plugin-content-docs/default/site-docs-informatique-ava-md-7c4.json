@@ -1,0 +1,28 @@
+{
+  "id": "informatique/ava",
+  "title": "Postes AVA",
+  "description": "Information sur les postes AVA (Apportez Vos Appareils) disponibles dans les bibliothèques UdeM.",
+  "source": "@site/docs/informatique/ava.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/ava",
+  "permalink": "/informatique/ava",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Postes AVA",
+    "description": "Information sur les postes AVA (Apportez Vos Appareils) disponibles dans les bibliothèques UdeM.",
+    "image": "/img/cover/ordinateurs.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Ordinateurs",
+    "permalink": "/informatique/ordinateurs"
+  },
+  "next": {
+    "title": "Tablettes iPad",
+    "permalink": "/informatique/tablettes"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/reaper",
+  "title": "reaper",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/reaper.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/reaper",
+  "permalink": "/informatique/logiciels/reaper",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "rstudio",
+    "permalink": "/informatique/logiciels/rstudio"
+  },
+  "next": {
+    "title": "sas",
+    "permalink": "/informatique/logiciels/sas"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/accessibilite",
+  "title": "accessibilite",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/accessibilite.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/accessibilite",
+  "permalink": "/informatique/logiciels/accessibilite",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Adobe Creative Cloud",
+    "permalink": "/informatique/logiciels/adobe"
+  },
+  "next": {
+    "title": "beyond2020",
+    "permalink": "/informatique/logiciels/beyond2020"
+  }
+}

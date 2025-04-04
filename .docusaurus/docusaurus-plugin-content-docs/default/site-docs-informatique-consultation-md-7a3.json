@@ -1,0 +1,21 @@
+{
+  "id": "informatique/consultation",
+  "title": "Équipements de consultation",
+  "description": "d",
+  "source": "@site/docs/informatique/consultation.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/consultation",
+  "permalink": "/informatique/consultation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Équipements de consultation",
+    "description": "d",
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "informatiqueSidebar"
+}

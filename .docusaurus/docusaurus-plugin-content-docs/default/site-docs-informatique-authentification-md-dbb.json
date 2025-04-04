@@ -1,0 +1,28 @@
+{
+  "id": "informatique/authentification",
+  "title": "Authentification",
+  "description": "Accédez aux services informatiques de l'Université de Montréal grâce à l'authentification par code d'accès et mot de passe.",
+  "source": "@site/docs/informatique/authentification.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/authentification",
+  "permalink": "/informatique/authentification",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Authentification",
+    "description": "Accédez aux services informatiques de l'Université de Montréal grâce à l'authentification par code d'accès et mot de passe.",
+    "image": "/img/cover/authentification.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Ressources informatiques",
+    "permalink": "/informatique/"
+  },
+  "next": {
+    "title": "Réseau sans fil",
+    "permalink": "/informatique/reseau"
+  }
+}

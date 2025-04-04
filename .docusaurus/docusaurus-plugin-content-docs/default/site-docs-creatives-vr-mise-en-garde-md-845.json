@@ -1,0 +1,24 @@
+{
+  "id": "creatives/vr/mise-en-garde",
+  "title": "Mises en garde",
+  "description": "La réalité virtuelle est une expérience immersive qui peut être intense, surtout si on l'essaye pour la première fois. Voici quelques recommandations :",
+  "source": "@site/docs/creatives/vr/mise-en-garde.md",
+  "sourceDirName": "creatives/vr",
+  "slug": "/creatives/vr/mise-en-garde",
+  "permalink": "/creatives/vr/mise-en-garde",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "catalogue",
+    "permalink": "/creatives/vr/catalogue"
+  },
+  "next": {
+    "title": "Électronique",
+    "permalink": "/creatives/electronique"
+  }
+}

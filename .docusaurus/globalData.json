@@ -1,0 +1,578 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "espaces/index",
+          "docs": [
+            {
+              "id": "a-propos/accessibilite",
+              "path": "/a-propos/accessibilite",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/contribuer",
+              "path": "/a-propos/contribuer",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/equipe",
+              "path": "/a-propos/equipe",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/index",
+              "path": "/a-propos/",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/mission",
+              "path": "/a-propos/mission",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "a-propos/politique",
+              "path": "/a-propos/politique",
+              "sidebar": "aboutSidebar"
+            },
+            {
+              "id": "creatives/art-textile",
+              "path": "/creatives/art-textile",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse",
+              "path": "/creatives/decoupeuse",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse/brother",
+              "path": "/creatives/decoupeuse/brother",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse/cameo",
+              "path": "/creatives/decoupeuse/cameo",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/decoupeuse/cricut",
+              "path": "/creatives/decoupeuse/cricut",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique",
+              "path": "/creatives/electronique",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/arduino",
+              "path": "/creatives/electronique/arduino",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/ido",
+              "path": "/creatives/electronique/ido",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/pieces",
+              "path": "/creatives/electronique/pieces",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/electronique/raspberrypi",
+              "path": "/creatives/electronique/raspberrypi",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d",
+              "path": "/creatives/impression3d",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/bambu",
+              "path": "/creatives/impression3d/bambu",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/imprimantes3d",
+              "path": "/creatives/impression3d/imprimantes3d"
+            },
+            {
+              "id": "creatives/impression3d/introduction",
+              "path": "/creatives/introduction-impression-3d",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/modeles3d",
+              "path": "/creatives/impression3d/modeles3d",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/prusa",
+              "path": "/creatives/impression3d/prusa",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/saturn",
+              "path": "/creatives/impression3d/saturn",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/impression3d/techniques",
+              "path": "/creatives/impression3d/techniques"
+            },
+            {
+              "id": "creatives/impression3d/ultimaker",
+              "path": "/creatives/impression3d/ultimaker",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/index",
+              "path": "/creatives/",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/programmation",
+              "path": "/creatives/programmation"
+            },
+            {
+              "id": "creatives/realisations",
+              "path": "/creatives/realisations",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/robots",
+              "path": "/creatives/robots",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr",
+              "path": "/creatives/vr",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr/catalogue",
+              "path": "/creatives/vr/catalogue",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr/guide",
+              "path": "/creatives/vr/guide",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "creatives/vr/mise-en-garde",
+              "path": "/creatives/vr/mise-en-garde",
+              "sidebar": "creativesSidebar"
+            },
+            {
+              "id": "espaces/amphitheatre",
+              "path": "/espaces/amphitheatre",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/ateliers",
+              "path": "/espaces/ateliers",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/guide/amphitheatre",
+              "path": "/espaces/guide/amphitheatre",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/guide/visualisation",
+              "path": "/espaces/guide/visualisation",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/index",
+              "path": "/espaces/",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/laboformation",
+              "path": "/espaces/laboformation",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/salledevisio",
+              "path": "/espaces/salledevisio",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/studioaudio",
+              "path": "/espaces/studioaudio",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/studiovideo",
+              "path": "/espaces/studiovideo",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "espaces/visualisation",
+              "path": "/espaces/visualisation",
+              "sidebar": "espacesSidebar"
+            },
+            {
+              "id": "informatique/accessoires",
+              "path": "/informatique/accessoires",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/authentification",
+              "path": "/informatique/authentification",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/ava",
+              "path": "/informatique/ava",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/connexion-distance",
+              "path": "/informatique/connexion-distance",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/consultation",
+              "path": "/informatique/consultation",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/hors-campus",
+              "path": "/informatique/hors-campus",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/impression",
+              "path": "/informatique/impression",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/index",
+              "path": "/informatique/",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/Logiciels",
+              "path": "/informatique/Logiciels",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/accessibilite",
+              "path": "/informatique/logiciels/accessibilite",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/acrobat",
+              "path": "/informatique/logiciels/acrobat",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/adobe",
+              "path": "/informatique/logiciels/adobe",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/anaconda",
+              "path": "/informatique/logiciels/anaconda",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/antidote",
+              "path": "/informatique/logiciels/antidote",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/arcgis",
+              "path": "/informatique/logiciels/arcgis",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/beyond2020",
+              "path": "/informatique/logiciels/beyond2020",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/cariseasyview",
+              "path": "/informatique/logiciels/cariseasyview",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/chemdraw",
+              "path": "/informatique/logiciels/chemdraw",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/cmaptools",
+              "path": "/informatique/logiciels/cmaptools",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/davinciresolve",
+              "path": "/informatique/logiciels/davinciresolve",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/endnote",
+              "path": "/informatique/logiciels/endnote",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/gaussian",
+              "path": "/informatique/logiciels/gaussian",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/gimp",
+              "path": "/informatique/logiciels/gimp",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/hyperchem",
+              "path": "/informatique/logiciels/hyperchem",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/inkscape",
+              "path": "/informatique/logiciels/inkscape",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/jabref",
+              "path": "/informatique/logiciels/jabref",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/jaws",
+              "path": "/informatique/logiciels/jaws",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/krita",
+              "path": "/informatique/logiciels/krita",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/mathematica",
+              "path": "/informatique/logiciels/mathematica",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/meshroom",
+              "path": "/informatique/logiciels/meshroom",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/musescore",
+              "path": "/informatique/logiciels/musescore",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/office",
+              "path": "/informatique/logiciels/office",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/openrefine",
+              "path": "/informatique/logiciels/openrefine",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/pymol",
+              "path": "/informatique/logiciels/pymol",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/qdaminor",
+              "path": "/informatique/logiciels/qdaminor",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/qgis",
+              "path": "/informatique/logiciels/qgis",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/qtgrace",
+              "path": "/informatique/logiciels/qtgrace",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/reaper",
+              "path": "/informatique/logiciels/reaper",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/rstudio",
+              "path": "/informatique/logiciels/rstudio",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/sas",
+              "path": "/informatique/logiciels/sas",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/spss",
+              "path": "/informatique/logiciels/spss",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/stata",
+              "path": "/informatique/logiciels/stata",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/texmaker",
+              "path": "/informatique/logiciels/texmaker",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/wordstat",
+              "path": "/informatique/logiciels/wordstat",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/zoom",
+              "path": "/informatique/logiciels/zoom",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/zotero",
+              "path": "/informatique/logiciels/zotero",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/logiciels/zotero1",
+              "path": "/informatique/logiciels/zotero1"
+            },
+            {
+              "id": "informatique/numerisation",
+              "path": "/informatique/numerisation",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/ordinateurs",
+              "path": "/informatique/ordinateurs",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/proxy",
+              "path": "/informatique/proxy",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/reseau",
+              "path": "/informatique/reseau",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/tablettes",
+              "path": "/informatique/tablettes",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/vinyle",
+              "path": "/informatique/vinyle",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "informatique/vpn",
+              "path": "/informatique/vpn",
+              "sidebar": "informatiqueSidebar"
+            },
+            {
+              "id": "medias/audio",
+              "path": "/medias/audio",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/balado",
+              "path": "/medias/balado",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/edition",
+              "path": "/medias/edition",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/index",
+              "path": "/medias/",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/infographie",
+              "path": "/medias/infographie",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/postes-edition",
+              "path": "/medias/postes-edition",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/rodecaster",
+              "path": "/medias/rodecaster",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/video",
+              "path": "/medias/video",
+              "sidebar": "mediasSidebar"
+            },
+            {
+              "id": "medias/visualisation",
+              "path": "/medias/visualisation",
+              "sidebar": "mediasSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "espacesSidebar": {
+              "link": {
+                "path": "/espaces/",
+                "label": "Espaces"
+              }
+            },
+            "informatiqueSidebar": {
+              "link": {
+                "path": "/informatique/",
+                "label": "Ressources informatiques"
+              }
+            },
+            "creativesSidebar": {
+              "link": {
+                "path": "/creatives/",
+                "label": "Technologies créatives"
+              }
+            },
+            "mediasSidebar": {
+              "link": {
+                "path": "/medias/",
+                "label": "Productions médias"
+              }
+            },
+            "aboutSidebar": {
+              "link": {
+                "path": "/a-propos/",
+                "label": "À propos"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

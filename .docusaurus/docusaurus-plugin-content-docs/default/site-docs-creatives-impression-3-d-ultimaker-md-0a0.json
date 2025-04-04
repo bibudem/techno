@@ -1,0 +1,27 @@
+{
+  "id": "creatives/impression3d/ultimaker",
+  "title": "ultimaker",
+  "description": "Avant de faire votre première impression, lisez l'introduction à l'impression 3D",
+  "source": "@site/docs/creatives/impression3d/ultimaker.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/impression3d/ultimaker",
+  "permalink": "/creatives/impression3d/ultimaker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "ultimaker",
+    "Title": "Ultimaker"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Prusa i3 Mk3s+",
+    "permalink": "/creatives/impression3d/prusa"
+  },
+  "next": {
+    "title": "Elegoo Saturn 3 Ultra 12K",
+    "permalink": "/creatives/impression3d/saturn"
+  }
+}

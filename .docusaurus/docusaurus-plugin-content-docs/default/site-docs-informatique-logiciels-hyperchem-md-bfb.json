@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/hyperchem",
+  "title": "hyperchem",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/hyperchem.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/hyperchem",
+  "permalink": "/informatique/logiciels/hyperchem",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "gimp",
+    "permalink": "/informatique/logiciels/gimp"
+  },
+  "next": {
+    "title": "inkscape",
+    "permalink": "/informatique/logiciels/inkscape"
+  }
+}

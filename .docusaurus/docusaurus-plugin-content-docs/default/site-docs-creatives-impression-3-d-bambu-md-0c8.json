@@ -1,0 +1,27 @@
+{
+  "id": "creatives/impression3d/bambu",
+  "title": "BambuLab X1C",
+  "description": "Avant de faire votre première impression, lisez l'introduction à l'impression 3D",
+  "source": "@site/docs/creatives/impression3d/bambu.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/impression3d/bambu",
+  "permalink": "/creatives/impression3d/bambu",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "bambu",
+    "title": "BambuLab X1C"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Modèles 3D",
+    "permalink": "/creatives/impression3d/modeles3d"
+  },
+  "next": {
+    "title": "Prusa i3 Mk3s+",
+    "permalink": "/creatives/impression3d/prusa"
+  }
+}

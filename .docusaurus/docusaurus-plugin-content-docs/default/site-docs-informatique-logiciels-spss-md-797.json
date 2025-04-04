@@ -1,0 +1,26 @@
+{
+  "id": "informatique/logiciels/spss",
+  "title": "SPSS",
+  "description": "L’université fournit gratuitement le logiciel d’analyse statistique à tous les membres de sa communauté. Le logiciel peut être installé sur un ordinateur personnel.",
+  "source": "@site/docs/informatique/logiciels/spss.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/spss",
+  "permalink": "/informatique/logiciels/spss",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "SPSS"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "antidote",
+    "permalink": "/informatique/logiciels/antidote"
+  },
+  "next": {
+    "title": "Adobe Creative Cloud",
+    "permalink": "/informatique/logiciels/adobe"
+  }
+}

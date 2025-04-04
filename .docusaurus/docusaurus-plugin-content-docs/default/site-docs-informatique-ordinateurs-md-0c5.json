@@ -1,0 +1,29 @@
+{
+  "id": "informatique/ordinateurs",
+  "title": "Ordinateurs",
+  "description": "Informations sur les ordinateurs en libre-service et les portables en prêt dans les bibliothèques UdeM.",
+  "source": "@site/docs/informatique/ordinateurs.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/ordinateurs",
+  "permalink": "/informatique/ordinateurs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Ordinateurs",
+    "description": "Informations sur les ordinateurs en libre-service et les portables en prêt dans les bibliothèques UdeM.",
+    "hide_table_of_contents": false,
+    "image": "/img/cover/ordinateurs1.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Numérisation de vinyles",
+    "permalink": "/informatique/vinyle"
+  },
+  "next": {
+    "title": "Postes AVA",
+    "permalink": "/informatique/ava"
+  }
+}

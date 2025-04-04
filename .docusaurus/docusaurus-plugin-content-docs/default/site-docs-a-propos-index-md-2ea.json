@@ -1,0 +1,23 @@
+{
+  "id": "a-propos/index",
+  "title": "À propos",
+  "description": "",
+  "source": "@site/docs/a-propos/index.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/",
+  "permalink": "/a-propos/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "index",
+    "title": "À propos"
+  },
+  "sidebar": "aboutSidebar",
+  "next": {
+    "title": "Mission",
+    "permalink": "/a-propos/mission"
+  }
+}

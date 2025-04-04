@@ -1,0 +1,27 @@
+{
+  "id": "informatique/logiciels/davinciresolve",
+  "title": "davinciresolve",
+  "description": "DaVinci Resolve Studio est un logiciel de montage vidéo et d'étalonnage professionnel.",
+  "source": "@site/docs/informatique/logiciels/davinciresolve.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/davinciresolve",
+  "permalink": "/informatique/logiciels/davinciresolve",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "titre": "DaVinci Resolve Studio",
+    "description": "DaVinci Resolve Studio est un logiciel de montage vidéo et d'étalonnage professionnel."
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "cmaptools",
+    "permalink": "/informatique/logiciels/cmaptools"
+  },
+  "next": {
+    "title": "EndNote",
+    "permalink": "/informatique/logiciels/endnote"
+  }
+}

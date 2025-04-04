@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/acrobat",
+  "title": "acrobat",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/acrobat.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/acrobat",
+  "permalink": "/informatique/logiciels/acrobat",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Connexion à distance",
+    "permalink": "/informatique/connexion-distance"
+  },
+  "next": {
+    "title": "Office 365",
+    "permalink": "/informatique/logiciels/office"
+  }
+}

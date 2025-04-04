@@ -1,0 +1,17 @@
+{
+  "id": "creatives/impression3d/techniques",
+  "title": "Techniques",
+  "description": "",
+  "source": "@site/docs/creatives/impression3d/techniques.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/impression3d/techniques",
+  "permalink": "/creatives/impression3d/techniques",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Techniques"
+  }
+}

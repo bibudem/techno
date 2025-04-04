@@ -1,0 +1,29 @@
+{
+  "id": "espaces/studioaudio",
+  "title": "Studios audio",
+  "description": "Balados, présentations et entretiens.",
+  "source": "@site/docs/espaces/studioaudio.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/studioaudio",
+  "permalink": "/espaces/studioaudio",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "studioaudio",
+    "title": "Studios audio",
+    "description": "Balados, présentations et entretiens.",
+    "image": "/img/cover/studiolsh.webp"
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Salle de visionnement",
+    "permalink": "/espaces/salledevisio"
+  },
+  "next": {
+    "title": "Studios vidéo",
+    "permalink": "/espaces/studiovideo"
+  }
+}

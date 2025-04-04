@@ -1,0 +1,29 @@
+{
+  "id": "informatique/hors-campus",
+  "title": "Accès hors campus",
+  "description": "Accès aux ressources électroniques des bibliothèques UdeM via le proxy ou VPN.",
+  "source": "@site/docs/informatique/hors-campus.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/hors-campus",
+  "permalink": "/informatique/hors-campus",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Accès hors campus",
+    "description": "Accès aux ressources électroniques des bibliothèques UdeM via le proxy ou VPN.",
+    "hide_table_of_contents": false,
+    "image": "/img/cover/horscampus.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Réseau sans fil",
+    "permalink": "/informatique/reseau"
+  },
+  "next": {
+    "title": "Configurer le serveur mandataire (proxy)",
+    "permalink": "/informatique/proxy"
+  }
+}

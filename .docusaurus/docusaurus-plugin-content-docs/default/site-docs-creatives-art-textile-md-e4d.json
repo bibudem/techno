@@ -1,0 +1,27 @@
+{
+  "id": "creatives/art-textile",
+  "title": "Art textile",
+  "description": "",
+  "source": "@site/docs/creatives/art-textile.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/art-textile",
+  "permalink": "/creatives/art-textile",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "art-textile",
+    "title": "Art textile"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "brother",
+    "permalink": "/creatives/decoupeuse/brother"
+  },
+  "next": {
+    "title": "Robots (accessoires didactiques)",
+    "permalink": "/creatives/robots"
+  }
+}

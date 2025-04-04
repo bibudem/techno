@@ -1,0 +1,26 @@
+{
+  "id": "creatives/robots",
+  "title": "Robots (accessoires didactiques)",
+  "description": "Les bibliothèques du campus de Laval et Thérèse-Gouin-Décarie offrent le prêt de robots dans le but de permettre aux futurs enseignantes et enseignants de se familiariser avec ces nouveaux outils pédagogiques et de développer des compétences d'enseignement grâce au numérique.",
+  "source": "@site/docs/creatives/robots.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/robots",
+  "permalink": "/creatives/robots",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "robots"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Art textile",
+    "permalink": "/creatives/art-textile"
+  },
+  "next": {
+    "title": "Réalisations",
+    "permalink": "/creatives/realisations"
+  }
+}

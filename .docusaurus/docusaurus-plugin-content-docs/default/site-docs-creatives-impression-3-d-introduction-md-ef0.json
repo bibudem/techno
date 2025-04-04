@@ -1,0 +1,28 @@
+{
+  "id": "creatives/impression3d/introduction",
+  "title": "Introduction",
+  "description": "Tout apprendre sur l'impression 3D",
+  "source": "@site/docs/creatives/impression3d/introduction.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/introduction-impression-3d",
+  "permalink": "/creatives/introduction-impression-3d",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Tout apprendre sur l'impression 3D",
+    "slug": "/creatives/introduction-impression-3d"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Impression 3D",
+    "permalink": "/creatives/impression3d"
+  },
+  "next": {
+    "title": "Modèles 3D",
+    "permalink": "/creatives/impression3d/modeles3d"
+  }
+}

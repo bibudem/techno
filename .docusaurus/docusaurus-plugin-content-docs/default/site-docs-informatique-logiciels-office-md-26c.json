@@ -1,0 +1,27 @@
+{
+  "id": "informatique/logiciels/office",
+  "title": "Office 365",
+  "description": "Informations sur l'accès et l'installation d'Office 365 pour la communauté UdeM.",
+  "source": "@site/docs/informatique/logiciels/office.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/office",
+  "permalink": "/informatique/logiciels/office",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Office 365",
+    "description": "Informations sur l'accès et l'installation d'Office 365 pour la communauté UdeM."
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "acrobat",
+    "permalink": "/informatique/logiciels/acrobat"
+  },
+  "next": {
+    "title": "arcgis",
+    "permalink": "/informatique/logiciels/arcgis"
+  }
+}

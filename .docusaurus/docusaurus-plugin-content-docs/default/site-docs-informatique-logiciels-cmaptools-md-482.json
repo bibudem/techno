@@ -1,0 +1,27 @@
+{
+  "id": "informatique/logiciels/cmaptools",
+  "title": "cmaptools",
+  "description": "cMapTools est un logiciel de création de cartes conceptuelles.",
+  "source": "@site/docs/informatique/logiciels/cmaptools.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/cmaptools",
+  "permalink": "/informatique/logiciels/cmaptools",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "titre": "cMapTools",
+    "description": "cMapTools est un logiciel de création de cartes conceptuelles."
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "ChemDraw",
+    "permalink": "/informatique/logiciels/chemdraw"
+  },
+  "next": {
+    "title": "davinciresolve",
+    "permalink": "/informatique/logiciels/davinciresolve"
+  }
+}

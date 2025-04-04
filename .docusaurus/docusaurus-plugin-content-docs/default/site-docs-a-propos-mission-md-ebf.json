@@ -1,0 +1,27 @@
+{
+  "id": "a-propos/mission",
+  "title": "Mission",
+  "description": "Notre mission",
+  "source": "@site/docs/a-propos/mission.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/mission",
+  "permalink": "/a-propos/mission",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "mission",
+    "title": "Mission"
+  },
+  "sidebar": "aboutSidebar",
+  "previous": {
+    "title": "À propos",
+    "permalink": "/a-propos/"
+  },
+  "next": {
+    "title": "Équipe",
+    "permalink": "/a-propos/equipe"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/musescore",
+  "title": "musescore",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/musescore.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/musescore",
+  "permalink": "/informatique/logiciels/musescore",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "meshroom",
+    "permalink": "/informatique/logiciels/meshroom"
+  },
+  "next": {
+    "title": "openrefine",
+    "permalink": "/informatique/logiciels/openrefine"
+  }
+}

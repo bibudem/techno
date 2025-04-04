@@ -1,0 +1,22 @@
+{
+  "id": "espaces/index",
+  "title": "Espaces",
+  "description": "<CardGrid",
+  "source": "@site/docs/espaces/index.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/",
+  "permalink": "/espaces/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Espaces"
+  },
+  "sidebar": "espacesSidebar",
+  "next": {
+    "title": "Amphithéâtre",
+    "permalink": "/espaces/amphitheatre"
+  }
+}

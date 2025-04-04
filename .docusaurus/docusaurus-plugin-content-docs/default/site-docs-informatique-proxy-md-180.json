@@ -1,0 +1,27 @@
+{
+  "id": "informatique/proxy",
+  "title": "Configurer le serveur mandataire (proxy)",
+  "description": "Guide pour configurer le serveur mandataire (proxy) afin d'accéder aux ressources électroniques.",
+  "source": "@site/docs/informatique/proxy.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/proxy",
+  "permalink": "/informatique/proxy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Configurer le serveur mandataire (proxy)",
+    "description": "Guide pour configurer le serveur mandataire (proxy) afin d'accéder aux ressources électroniques."
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Accès hors campus",
+    "permalink": "/informatique/hors-campus"
+  },
+  "next": {
+    "title": "Installer le VPN",
+    "permalink": "/informatique/vpn"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "espaces/studiovideo",
+  "title": "Studios vidéo",
+  "description": "Enregistrer des vidéos de qualité professionnelle.",
+  "source": "@site/docs/espaces/studiovideo.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/studiovideo",
+  "permalink": "/espaces/studiovideo",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "studiovideo",
+    "title": "Studios vidéo",
+    "description": "Enregistrer des vidéos de qualité professionnelle."
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Studios audio",
+    "permalink": "/espaces/studioaudio"
+  }
+}

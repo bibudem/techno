@@ -1,0 +1,29 @@
+{
+  "id": "informatique/Logiciels",
+  "title": "Logiciels",
+  "description": "<img",
+  "source": "@site/docs/informatique/logiciels.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/Logiciels",
+  "permalink": "/informatique/Logiciels",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Logiciels",
+    "id": "Logiciels",
+    "hide_table_of_contents": true,
+    "image": "/img/cover/logiciels.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Équipements de consultation",
+    "permalink": "/informatique/consultation"
+  },
+  "next": {
+    "title": "Connexion à distance",
+    "permalink": "/informatique/connexion-distance"
+  }
+}

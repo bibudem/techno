@@ -1,0 +1,27 @@
+{
+  "id": "a-propos/accessibilite",
+  "title": "Accessibilité",
+  "description": "Access",
+  "source": "@site/docs/a-propos/accessibilite.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/accessibilite",
+  "permalink": "/a-propos/accessibilite",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "accessibilite",
+    "title": "Accessibilité"
+  },
+  "sidebar": "aboutSidebar",
+  "previous": {
+    "title": "Contribuer",
+    "permalink": "/a-propos/contribuer"
+  },
+  "next": {
+    "title": "Politique d'utilisation des équipements",
+    "permalink": "/a-propos/politique"
+  }
+}

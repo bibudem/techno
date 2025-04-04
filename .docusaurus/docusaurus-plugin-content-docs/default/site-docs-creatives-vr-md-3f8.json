@@ -1,0 +1,28 @@
+{
+  "id": "creatives/vr",
+  "title": "Réalité virtuelle",
+  "description": "<img",
+  "source": "@site/docs/creatives/vr.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/vr",
+  "permalink": "/creatives/vr",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "vr",
+    "title": "Réalité virtuelle",
+    "image": "/img/cover/vr.webp"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Elegoo Saturn 3 Ultra 12K",
+    "permalink": "/creatives/impression3d/saturn"
+  },
+  "next": {
+    "title": "guide",
+    "permalink": "/creatives/vr/guide"
+  }
+}

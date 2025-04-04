@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/qdaminor",
+  "title": "qdaminor",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/qdaminor.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/qdaminor",
+  "permalink": "/informatique/logiciels/qdaminor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "qtgrace",
+    "permalink": "/informatique/logiciels/qtgrace"
+  },
+  "next": {
+    "title": "qgis",
+    "permalink": "/informatique/logiciels/qgis"
+  }
+}

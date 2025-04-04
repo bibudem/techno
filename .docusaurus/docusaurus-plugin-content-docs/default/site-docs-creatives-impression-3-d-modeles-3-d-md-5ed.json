@@ -1,0 +1,27 @@
+{
+  "id": "creatives/impression3d/modeles3d",
+  "title": "Modèles 3D",
+  "description": "Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi qu'une collection de ressources en ligne pour télécharger des modèles 3D prêts à imprimer.",
+  "source": "@site/docs/creatives/impression3d/modeles3d.md",
+  "sourceDirName": "creatives/impression3d",
+  "slug": "/creatives/impression3d/modeles3d",
+  "permalink": "/creatives/impression3d/modeles3d",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "Title": "Modèles 3D",
+    "Description": "Logiciels et ressources pour concevoir des modèles 3D pour l'impression."
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/creatives/introduction-impression-3d"
+  },
+  "next": {
+    "title": "BambuLab X1C",
+    "permalink": "/creatives/impression3d/bambu"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "informatique/numerisation",
+  "title": "Numérisation",
+  "description": "Guide pour utiliser les services de numérisation offerts par les bibliothèques de l'Université de Montréal.",
+  "source": "@site/docs/informatique/numerisation.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/numerisation",
+  "permalink": "/informatique/numerisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Numérisation",
+    "description": "Guide pour utiliser les services de numérisation offerts par les bibliothèques de l'Université de Montréal.",
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "informatiqueSidebar"
+}

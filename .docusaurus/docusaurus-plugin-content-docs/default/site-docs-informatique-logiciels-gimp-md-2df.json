@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/gimp",
+  "title": "gimp",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/gimp.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/gimp",
+  "permalink": "/informatique/logiciels/gimp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "gaussian",
+    "permalink": "/informatique/logiciels/gaussian"
+  },
+  "next": {
+    "title": "hyperchem",
+    "permalink": "/informatique/logiciels/hyperchem"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "informatique/logiciels/adobe",
+  "title": "Adobe Creative Cloud",
+  "description": "La suite Adobe Creative Cloud propose un ensemble de logiciels de création graphique, vidéo et audio. Les Bibliothèques UdeM offre l'accès à ces logiciels sur quelques ordinateurs.",
+  "source": "@site/docs/informatique/logiciels/adobe.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/adobe",
+  "permalink": "/informatique/logiciels/adobe",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "adobe"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "SPSS",
+    "permalink": "/informatique/logiciels/spss"
+  },
+  "next": {
+    "title": "accessibilite",
+    "permalink": "/informatique/logiciels/accessibilite"
+  }
+}

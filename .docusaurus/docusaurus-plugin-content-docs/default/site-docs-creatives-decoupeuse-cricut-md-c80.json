@@ -1,0 +1,26 @@
+{
+  "id": "creatives/decoupeuse/cricut",
+  "title": "Cricut",
+  "description": "Guide de découpe",
+  "source": "@site/docs/creatives/decoupeuse/cricut.md",
+  "sourceDirName": "creatives/decoupeuse",
+  "slug": "/creatives/decoupeuse/cricut",
+  "permalink": "/creatives/decoupeuse/cricut",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Cricut"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "Silhouette Cameo 4",
+    "permalink": "/creatives/decoupeuse/cameo"
+  },
+  "next": {
+    "title": "brother",
+    "permalink": "/creatives/decoupeuse/brother"
+  }
+}

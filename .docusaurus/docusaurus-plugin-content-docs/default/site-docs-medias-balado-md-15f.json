@@ -1,0 +1,26 @@
+{
+  "id": "medias/balado",
+  "title": "Baladodiffusion",
+  "description": "Prenez le micro et faites résonner vos idées!",
+  "source": "@site/docs/medias/balado.md",
+  "sourceDirName": "medias",
+  "slug": "/medias/balado",
+  "permalink": "/medias/balado",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Baladodiffusion"
+  },
+  "sidebar": "mediasSidebar",
+  "previous": {
+    "title": "Postes d'édition",
+    "permalink": "/medias/postes-edition"
+  },
+  "next": {
+    "title": "RODECaster Pro II",
+    "permalink": "/medias/rodecaster"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "informatique/logiciels/sas",
+  "title": "sas",
+  "description": "",
+  "source": "@site/docs/informatique/logiciels/sas.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/sas",
+  "permalink": "/informatique/logiciels/sas",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {},
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "reaper",
+    "permalink": "/informatique/logiciels/reaper"
+  },
+  "next": {
+    "title": "stata",
+    "permalink": "/informatique/logiciels/stata"
+  }
+}

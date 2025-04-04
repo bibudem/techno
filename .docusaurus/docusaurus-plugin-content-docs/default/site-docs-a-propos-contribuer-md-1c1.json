@@ -1,0 +1,27 @@
+{
+  "id": "a-propos/contribuer",
+  "title": "Contribuer",
+  "description": "",
+  "source": "@site/docs/a-propos/contribuer.md",
+  "sourceDirName": "a-propos",
+  "slug": "/a-propos/contribuer",
+  "permalink": "/a-propos/contribuer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "contribuer",
+    "title": "Contribuer"
+  },
+  "sidebar": "aboutSidebar",
+  "previous": {
+    "title": "Équipe",
+    "permalink": "/a-propos/equipe"
+  },
+  "next": {
+    "title": "Accessibilité",
+    "permalink": "/a-propos/accessibilite"
+  }
+}

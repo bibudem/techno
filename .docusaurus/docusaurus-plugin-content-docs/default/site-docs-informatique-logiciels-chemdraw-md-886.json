@@ -1,0 +1,27 @@
+{
+  "id": "informatique/logiciels/chemdraw",
+  "title": "ChemDraw",
+  "description": "ChemDraw est un logiciel de dessin de structures chimiques.",
+  "source": "@site/docs/informatique/logiciels/chemdraw.md",
+  "sourceDirName": "informatique/logiciels",
+  "slug": "/informatique/logiciels/chemdraw",
+  "permalink": "/informatique/logiciels/chemdraw",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "ChemDraw",
+    "description": "ChemDraw est un logiciel de dessin de structures chimiques."
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "cariseasyview",
+    "permalink": "/informatique/logiciels/cariseasyview"
+  },
+  "next": {
+    "title": "cmaptools",
+    "permalink": "/informatique/logiciels/cmaptools"
+  }
+}

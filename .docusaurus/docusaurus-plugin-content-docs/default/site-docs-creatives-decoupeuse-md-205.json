@@ -1,0 +1,27 @@
+{
+  "id": "creatives/decoupeuse",
+  "title": "Découpeuse",
+  "description": "Les découpeuses numériques permettent de créer des motifs 2D sur divers matériaux. Les utilisations les plus fréquentes sont la découpe de vinyle et de tissu variés. Il est également possible de graver du métal et de dessiner sur du papier ou du carton.",
+  "source": "@site/docs/creatives/decoupeuse.md",
+  "sourceDirName": "creatives",
+  "slug": "/creatives/decoupeuse",
+  "permalink": "/creatives/decoupeuse",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "decoupeuse",
+    "title": "Découpeuse"
+  },
+  "sidebar": "creativesSidebar",
+  "previous": {
+    "title": "pieces",
+    "permalink": "/creatives/electronique/pieces"
+  },
+  "next": {
+    "title": "Silhouette Cameo 4",
+    "permalink": "/creatives/decoupeuse/cameo"
+  }
+}

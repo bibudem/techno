@@ -1,0 +1,27 @@
+{
+  "id": "informatique/connexion-distance",
+  "title": "Connexion à distance",
+  "description": "<img",
+  "source": "@site/docs/informatique/connexion-distance.md",
+  "sourceDirName": "informatique",
+  "slug": "/informatique/connexion-distance",
+  "permalink": "/informatique/connexion-distance",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "title": "Connexion à distance",
+    "image": "/img/cover/distance.webp"
+  },
+  "sidebar": "informatiqueSidebar",
+  "previous": {
+    "title": "Logiciels",
+    "permalink": "/informatique/Logiciels"
+  },
+  "next": {
+    "title": "acrobat",
+    "permalink": "/informatique/logiciels/acrobat"
+  }
+}

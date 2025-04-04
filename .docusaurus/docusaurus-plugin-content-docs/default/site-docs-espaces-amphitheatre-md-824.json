@@ -1,0 +1,29 @@
+{
+  "id": "espaces/amphitheatre",
+  "title": "Amphithéâtre",
+  "description": "Salle de projection de films",
+  "source": "@site/docs/espaces/amphitheatre.md",
+  "sourceDirName": "espaces",
+  "slug": "/espaces/amphitheatre",
+  "permalink": "/espaces/amphitheatre",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1743795522000,
+  "frontMatter": {
+    "id": "amphitheatre",
+    "title": "Amphithéâtre",
+    "description": "Salle de projection de films",
+    "image": "/img/cover/amphi.webp"
+  },
+  "sidebar": "espacesSidebar",
+  "previous": {
+    "title": "Espaces",
+    "permalink": "/espaces/"
+  },
+  "next": {
+    "title": "Aide de l'amphithéâtre",
+    "permalink": "/espaces/guide/amphitheatre"
+  }
+}
