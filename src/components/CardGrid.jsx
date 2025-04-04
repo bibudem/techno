@@ -7,6 +7,24 @@ import {
   Scissors,
   Robot,
   Slideshow,
+  FilmReel,
+  Desktop,
+  Microphone,
+  VideoCamera,
+  MonitorPlay,
+  TreeStructure,
+  Password,
+  WifiHigh,
+  Network,
+  Printer,
+  Scan,
+  Laptop,
+  Monitor,
+  DeviceTablet,
+  FilmStrip,
+  AppWindow,
+  Headphones,
+
 } from "@phosphor-icons/react";
 
 const iconMap = {
@@ -17,6 +35,23 @@ const iconMap = {
   Scissors,
   Robot,
   Slideshow,
+  FilmReel,
+  Desktop,
+  Microphone,
+  VideoCamera,
+  MonitorPlay,
+  TreeStructure,
+  Password,
+  WifiHigh,
+  Network,
+  Printer,
+  Scan,
+  Laptop,
+  Monitor,
+  DeviceTablet,
+  FilmStrip,
+  AppWindow,
+  Headphones,
 };
 
 const CardGrid = ({ items }) => {
