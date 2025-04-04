@@ -6690,11 +6690,6 @@ path-type@^4.0.0:
   resolved "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-"phosphor-react@github:phosphor-icons/phosphor-react":
-  version "2.1.7"
-  resolved "git+ssh://git@github.com/phosphor-icons/phosphor-react.git"
-  integrity sha512-z0vrw3S2Tp8vnn+JdUpFZ45rZ1AsidG7We4PvK20ZWHrsYeTlhJ8woovB3dk4GxWRqNV/HcypTdFZlZIX983nQ==
-
 picocolors@^1.0.0, picocolors@^1.0.1, picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"

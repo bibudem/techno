@@ -19,37 +19,37 @@ import CardGrid from "@site/src/components/CardGrid";
       title: "Réalité virtuelle",
       description: "Explorez des mondes virtuels et des expériences immersives.",
       link: "/creatives/vr",
-      icon: "Cube",
+      icon: "VirtualReality",
     },
     {
       title: "Électronique",
       description: "Apprenez à concevoir et à fabriquer des circuits électroniques.",
       link: "/creatives/electronique",
-      icon : "Cube",
+      icon : "Circuitry",
     },
     {
       title: "Découpeuse",
       description: "Découpez des matériaux pour vos projets de création.",
       link: "/creatives/decoupeuse",
-      icon : "Cube",
+      icon : "Nut",
     },
     {
       title: "Art textile",
       description: "Créez des œuvres textiles avec nos équipements spécialisés.",
       link: "/creatives/art-textile",
-      icon : "Cube",
+      icon : "Scissors",
     },
     {
       title: "Robots",
       description: "Accessoires didactiques.",
       link: "/creatives/robots",
-      icon : "Cube",
+      icon : "Robot",
     },
     {
       title: "Réalisations",
       description: "Découvrez les projets créatifs de la communauté UdeM",
       link: "/creatives/realisations",
-      icon : "Cube",
+      icon : "Slideshow",
     },
   ]}
 />
