@@ -8,7 +8,7 @@ import {
   YoutubeLogo,
   LinkedinLogo,
   BellRinging,
-} from 'phosphor-react';
+} from "@phosphor-icons/react";
 
 const contactLinks = [
   { label: 'Clavarder avec nous', icon: <ChatCircleDots size={24} />, href: '#' },
