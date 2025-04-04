@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt={frontMatter.title} 
+  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
   style={{
     width: "100%",
     maxWidth: "1200px",
@@ -203,4 +203,6 @@ Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
 
 ---
 
-
+<p style={{ fontSize: '0.8em' }}>
+  Crédit photo : Gloria Obeid, étudiante au baccalauréat en architecture (2023)
+</p>
