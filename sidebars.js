@@ -361,12 +361,40 @@ const sidebars = {
       link: { type: 'doc', id: 'medias/index' }, 
       items: [
         'medias/postes-edition',
-        'medias/balado',
-        'medias/rodecaster',
-        'medias/audio',
-        'medias/video',
-        // 'medias/edition',
-        'medias/infographie',
+        {
+          type: "category",
+          label: "Production audio",
+          collapsed: true,
+          link: { type: 'doc', id: 'medias/audio' }, 
+          items: [
+            "medias/balado",
+            "medias/rodecaster",
+            "medias/audacity",
+          ],
+        },
+        {
+          type: "category",
+          label: "Production vidéo",
+          collapsed: true,
+          link: { type: 'doc', id: 'medias/video' }, 
+          items: [
+            "medias/studiovideo",
+            "medias/adoberush",
+            "medias/obs",
+
+          ],
+        },
+        {
+          type: "category",
+          label: "Infographie",
+          collapsed: true,
+          link: { type: 'doc', id: 'medias/infographie' }, 
+          items: [
+            "medias/tabgraphique",
+            "medias/creationsvg",
+          ],
+        },
+
         // 'medias/visualisation',
       ],
     },
