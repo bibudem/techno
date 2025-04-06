@@ -1,6 +1,6 @@
 ---
 id : ultimaker
-Title : Ultimaker
+title : Ultimaker
 ---
 
 :::info

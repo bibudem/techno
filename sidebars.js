@@ -391,7 +391,7 @@ const sidebars = {
           link: { type: 'doc', id: 'medias/infographie' }, 
           items: [
             "medias/tabgraphique",
-            "medias/creationsvg",
+            // "medias/creationsvg",
           ],
         },
 
