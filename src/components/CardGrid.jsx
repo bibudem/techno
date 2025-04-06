@@ -24,6 +24,13 @@ import {
   FilmStrip,
   AppWindow,
   Headphones,
+  DesktopTower,
+  BookOpenText,
+  FileAudio,
+  Waveform,
+  FileVideo,
+  Record,
+  PencilSimpleLine,
 
 } from "@phosphor-icons/react";
 
@@ -52,6 +59,13 @@ const iconMap = {
   FilmStrip,
   AppWindow,
   Headphones,
+  DesktopTower,
+  BookOpenText,
+  FileAudio,
+  Waveform,
+  FileVideo,
+  Record,
+  PencilSimpleLine,
 };
 
 const CardGrid = ({ items }) => {

@@ -365,7 +365,7 @@ const sidebars = {
           type: "category",
           label: "Production audio",
           collapsed: true,
-          link: { type: 'doc', id: 'medias/audio' }, 
+          link: undefined, 
           items: [
             "medias/balado",
             "medias/rodecaster",
@@ -376,7 +376,7 @@ const sidebars = {
           type: "category",
           label: "Production vidéo",
           collapsed: true,
-          link: { type: 'doc', id: 'medias/video' }, 
+          link: undefined, 
           items: [
             "medias/studiovideo",
             "medias/adoberush",
@@ -388,7 +388,7 @@ const sidebars = {
           type: "category",
           label: "Infographie",
           collapsed: true,
-          link: { type: 'doc', id: 'medias/infographie' }, 
+          link: undefined, 
           items: [
             "medias/tabgraphique",
             // "medias/creationsvg",
