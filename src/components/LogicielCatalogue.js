@@ -1,31 +1,29 @@
 import React, { useState, useEffect } from "react";
-import { useHistory } from "@docusaurus/router"; 
+import { useHistory } from "@docusaurus/router";
 import Papa from "papaparse";
 import {
   PlugsConnected,
   LockOpen,
   MapPin,
   BuildingOffice,
-  CaretDown,
-  CaretUp,
   LinkSimple
 } from "@phosphor-icons/react";
+import "./LogicielCatalogue.css";
 
 // Composant pour afficher un logiciel
 const Logiciel = ({ nom, categorie, description, libre, distance, lien, bibliotheques = "" }) => {
   const history = useHistory();
-  const [isOpen, setIsOpen] = useState(false);
 
   const handleDistanceClick = () => {
     if (distance === "Oui") {
-      history.push("connexion-distance"); 
+      history.push("connexion-distance");
     }
   };
 
   return (
     <div className="logiciel">
-      <h3>{nom}</h3>
-      <p><strong>Catégorie :</strong> {categorie}</p>
+     <h3>{nom}</h3>
+     <p className="categorie-label">{categorie}</p>
       <p>{description}</p>
 
       <div className="tags">
@@ -37,10 +35,9 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
         )}
 
         {distance === "Oui" && (
-          <span 
-            className="tag tag--distance tag--clickable" 
-            onClick={handleDistanceClick} 
-            style={{ cursor: "pointer" }}
+          <span
+            className="tag tag--distance tag--clickable"
+            onClick={handleDistanceClick}
           >
             <PlugsConnected size={16} weight="bold" className="icon" />
             Accès à Distance
@@ -49,43 +46,26 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
 
         {lien && (
           <a
-            className="tag tag--lien tag--clickable"
+            className="tag tag--lien tag--clickable guide-link"
             href={lien}
             target="_blank"
             rel="noopener noreferrer"
-            style={{
-              backgroundColor: "#e0f0ff",
-              color: "#005ea2",
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.4em",
-              textDecoration: "none",
-              borderRadius: "4px",
-              padding: "0.2em 0.6em"
-            }}
           >
             <LinkSimple size={16} weight="bold" />
-            Guide
+            Guides
           </a>
         )}
       </div>
 
-      <div className="bibliotheques">
-        <button className="accordion-button" onClick={() => setIsOpen(!isOpen)}>
-          <strong><BuildingOffice size={24} className="icon" /> Localisation</strong>
-          {isOpen ? <CaretUp size={16} className="icon" /> : <CaretDown size={16} className="icon" />}
-        </button>
-
-        {isOpen && (
-          <div className="bibliotheques-list">
-            {bibliotheques.split(";").map((biblio, i) => (
-              <span key={i} className="biblio-tag">
-                <MapPin size={14} className="icon" /> {biblio.trim()}
-              </span>
-            ))}
-          </div>
-        )}
-      </div>
+      {bibliotheques && (
+        <div className="bibliotheques-list">
+          {bibliotheques.split(";").map((biblio, i) => (
+            <span key={i} className="biblio-tag">
+              <MapPin size={14} className="icon" /> {biblio.trim()}
+            </span>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
@@ -96,10 +76,9 @@ const LogicielCatalogue = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Toutes");
 
-  // Charger le fichier CSV
   useEffect(() => {
-    fetch("/data/logiciels.csv") 
-      .then(response => response.text()) 
+    fetch("/data/logiciels.csv")
+      .then(response => response.text())
       .then(csv => {
         Papa.parse(csv, {
           header: true,
@@ -112,15 +91,12 @@ const LogicielCatalogue = () => {
       .catch(error => console.error("❌ Erreur lors du chargement du CSV :", error));
   }, []);
 
-  // Extraire les catégories uniques
   const categories = ["Toutes", ...new Set(logiciels.map(l => l.categorie))];
 
-  // Filtrer les logiciels
   const filteredLogiciels = logiciels.filter(logiciel => {
     const matchesSearch = logiciel.nom?.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           logiciel.description?.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesCategory = selectedCategory === "Toutes" || logiciel.categorie === selectedCategory;
-
     return matchesSearch && matchesCategory;
   });
 
@@ -129,7 +105,6 @@ const LogicielCatalogue = () => {
       <p>Recherchez un logiciel ou filtrez par catégorie :</p>
 
       <div className="filter-container">
-        {/* Barre de recherche */}
         <input
           type="text"
           placeholder="Rechercher un logiciel..."
@@ -138,7 +113,6 @@ const LogicielCatalogue = () => {
           className="search-bar"
         />
 
-        {/* Sélecteur de catégorie */}
         <select
           value={selectedCategory}
           onChange={e => setSelectedCategory(e.target.value)}
@@ -150,7 +124,6 @@ const LogicielCatalogue = () => {
         </select>
       </div>
 
-      {/* Liste des logiciels */}
       <div className="logiciel-list">
         {filteredLogiciels.length > 0 ? (
           filteredLogiciels.map((logiciel, index) => <Logiciel key={index} {...logiciel} />)
