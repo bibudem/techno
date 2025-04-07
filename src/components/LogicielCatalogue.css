@@ -13,7 +13,7 @@
   
   .search-bar,
   .category-filter {
-    flex: 1 1 250px;
+    flex: 1 1 ;
     min-width: 200px;
     padding: 0.5em;
     font-size: 1em;
@@ -50,8 +50,12 @@
   }
   
   .tag--distance {
-    background-color: #f0f9ff;
-    color: #055160;
+    background-color: #f4dfe1;
+    color: #121212;
+  }
+
+  .tag--distance:hover {
+    text-decoration: underline;
   }
   
   .tag--clickable {
@@ -75,7 +79,7 @@
   .biblio-tag {
     display: inline-flex;
     align-items: center;
-    background-color: #e2e2e2;
+    background-color: #eeebc3;
     padding: 0.3em 0.6em;
     border-radius: 4px;
     font-size: 0.9em;

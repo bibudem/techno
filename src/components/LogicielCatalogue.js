@@ -28,10 +28,10 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
 
       <div className="tags">
         {libre === "Oui" && (
-          <span className="tag tag--libre tag--clickable">
-            <LockOpen size={16} weight="bold" className="icon" />
-            Logiciel Libre
-          </span>
+          <span className="tag tag--libre">
+          <LockOpen size={16} weight="bold" className="icon" />
+          Logiciel Libre
+        </span>
         )}
 
         {distance === "Oui" && (
@@ -46,10 +46,8 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
 
         {lien && (
           <a
-            className="tag tag--lien tag--clickable guide-link"
+            className="tag tag--clickable guide-link"
             href={lien}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <LinkSimple size={16} weight="bold" />
             Guides
