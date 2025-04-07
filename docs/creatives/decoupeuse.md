@@ -19,7 +19,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   }}
 >
   <a
-    href="cameo.md"
+    href="decoupeuse/cameo"
     className="card card--clickable"
     style={{
       backgroundColor: "#0057ac",
@@ -39,7 +39,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   </a>
 
   <a
-    href="cricut.md"
+    href="decoupeuse/cricut"
     className="card card--clickable"
     style={{
       backgroundColor: "#0057ac",
@@ -58,23 +58,23 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
     </div>
   </a>
 
-  <a
-    href="brother.md"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0057ac",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Brother SDX225</h3>
-    </div>
-    <div className="card__body">
-      
-    </div>
-  </a>
-</div>
+    <a
+      href="decoupeuse/brother"
+      className="card card--clickable"
+      style={{
+        backgroundColor: "#0057ac",
+        color: "#fff",
+        borderRadius: "8px",
+        padding: "1rem",
+        textDecoration: "none",
+        transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+      }}
+    >
+      <div className="card__header">
+        <h3>Brother SDX225</h3>
+      </div>
+      <div className="card__body">
+        
+      </div>
+    </a>
+  </div>

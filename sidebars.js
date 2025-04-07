@@ -301,11 +301,16 @@ const sidebars = {
           collapsed: true,
           link: { type: 'doc', id: 'creatives/impression3d' }, 
           items: [
-            "creatives/impression3d/introduction",
-            "creatives/impression3d/imprimantes",
-            "creatives/impression3d/modeles3d",
-            "creatives/impression3d/techniques",
-          ],
+                "creatives/impression3d/introduction",
+                "creatives/impression3d/modeles3d",
+                "creatives/impression3d/bambu",
+                "creatives/impression3d/prusa",
+                "creatives/impression3d/ultimaker",
+                "creatives/impression3d/saturn",
+                // "creatives/impression3d/techniques",
+              ]
+            
+
         },
         {
           type: "category",
@@ -315,6 +320,7 @@ const sidebars = {
           items: [
             "creatives/vr/guide",
             "creatives/vr/catalogue",
+            "creatives/vr/mise-en-garde",
           ],
         },
         {
@@ -341,7 +347,7 @@ const sidebars = {
           ],
         },
         'creatives/art-textile',
-        'creatives/programmation',
+        // 'creatives/programmation',
         'creatives/robots',
         'creatives/realisations',
       ],
@@ -355,11 +361,41 @@ const sidebars = {
       link: { type: 'doc', id: 'medias/index' }, 
       items: [
         'medias/postes-edition',
-        'medias/audio',
-        'medias/video',
-        'medias/edition',
-        'medias/infographie',
-        'medias/visualisation',
+        {
+          type: "category",
+          label: "Production audio",
+          collapsed: true,
+          link: undefined, 
+          items: [
+            "medias/balado",
+            "medias/rodecaster",
+            "medias/audacity",
+          ],
+        },
+        {
+          type: "category",
+          label: "Production vidéo",
+          collapsed: true,
+          link: undefined, 
+          items: [
+            "medias/studiovideo",
+            "medias/adoberush",
+            "medias/obs",
+
+          ],
+        },
+        {
+          type: "category",
+          label: "Infographie",
+          collapsed: true,
+          link: undefined, 
+          items: [
+            "medias/tabgraphique",
+            // "medias/creationsvg",
+          ],
+        },
+
+        // 'medias/visualisation',
       ],
     },
   ],

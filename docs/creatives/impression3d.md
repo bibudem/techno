@@ -1,20 +1,31 @@
 ---
-id: impression3d
 title: Impression 3D
 description: Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.
+<<<<<<< HEAD
+=======
+image: "/img/cover/impression3d.jpg"
+>>>>>>> df6202ac85c124d62191a6ee7b2ea1e717a92e65
 ---
+
+import CardGrid from "@site/src/components/CardGrid";
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Impression 3D
 
-Donnez vie à vos idées en 3D!
-
 Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM l'accès à plusieurs imprimantes 3D, idéales pour créer des prototypes, des modèles, des pièces uniques, et bien plus encore.
-
-Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
-
-- **Formations** pour maîtriser les bases de l'impression 3D, explorer les différents types d'imprimantes et de logiciels, et découvrir les meilleures pratiques pour des résultats impeccables.
-- **Soutien technique** pour résoudre les défis que vous pourriez rencontrer en cours de route.
-- **Accompagnement personnalisé** pour concrétiser vos projets d'impression 3D.
 
 ---
 
@@ -31,22 +42,170 @@ Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
 
 ---
 
+## Documentation
+
+De la documentation est disponible pour vous aider à utiliser les imprimantes 3D :
+
+<div
+  className="grid grid--4"
+  style={{
+    display: "grid",
+    gap: "1rem",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+  }}
+>
+<a
+    href="/creatives/impression3d/introduction"
+    className="card card--clickable"
+    style={{
+      backgroundColor: "#0B113A",
+      color: "#fff",
+      borderRadius: "8px",
+      padding: "1rem",
+      textDecoration: "none",
+      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+    }}
+  >
+    <div className="card__header">
+      <h3>Introduction à l'impression 3D</h3>
+    </div>
+    <div className="card__body">
+      
+    </div>
+  </a>
+
+  <a
+    href="/creatives/impression3d/modeles3d"
+    className="card card--clickable"
+    style={{
+      backgroundColor: "#0B113A",
+      color: "#fff",
+      borderRadius: "8px",
+      padding: "1rem",
+      textDecoration: "none",
+      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+    }}
+  >
+    <div className="card__header">
+      <h3>Les modèles 3D</h3>
+    </div>
+    <div className="card__body">
+      
+    </div>
+  </a>
+
+
+  <a
+    href="/creatives/impression3d/prusa"
+    className="card card--clickable"
+    style={{
+      backgroundColor: "#0057ac",
+      color: "#fff",
+      borderRadius: "8px",
+      padding: "1rem",
+      textDecoration: "none",
+      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+    }}
+  >
+    <div className="card__header">
+      <h3>Prusa i3 Mk3s+</h3>
+    </div>
+    <div className="card__body">
+      
+    </div>
+  </a>
+
+  <a
+    href="/creatives/impression3d/ultimaker"
+    className="card card--clickable"
+    style={{
+      backgroundColor: "#0057ac",
+      color: "#fff",
+      borderRadius: "8px",
+      padding: "1rem",
+      textDecoration: "none",
+      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+    }}
+  >
+    <div className="card__header">
+      <h3>Ultimaker</h3>
+    </div>
+    <div className="card__body">
+      
+    </div>
+  </a>
+
+<a
+    href="/creatives/impression3d/bambu"
+      className="card card--clickable"
+      style={{
+        backgroundColor: "#0057ac",
+        color: "#fff",
+        borderRadius: "8px",
+        padding: "1rem",
+        textDecoration: "none",
+        transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+      }}
+    >
+      <div className="card__header">
+        <h3>BambuLab X1C</h3>
+      </div>
+      <div className="card__body">
+    </div>
+    </a>
+
+<a
+    href="/creatives/impression3d/saturn"
+      className="card card--clickable"
+      style={{
+        backgroundColor: "#0057ac",
+        color: "#fff",
+        borderRadius: "8px",
+        padding: "1rem",
+        textDecoration: "none",
+        transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
+      }}
+    >
+      <div className="card__header">
+        <h3>Elegoo Saturn 3 Ultra 12K</h3>
+      </div>
+      <div className="card__body">
+    </div>
+    </a>
+
+  </div>
+
+
+---
+
+## Formations et soutien
+
+Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
+
+<CardGrid
+  items={[
+    {
+      title: "Réservez une consultation",
+      description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre impression. Ce service est offert à la communauté UdeM.",
+      link: "#",
+    },
+    {
+      title: "Participez à une formation",
+      description: "Des formations pratiques sont aussi offertes tout au long de l’année pour vous familiariser avec les imprimantes 3D. Ces formations sont accessibles gratuitement pour la communauté UdeM.",
+      link: "#",
+    },
+  ]}
+/>
+
+---
+
 ## Informations complémentaires
 
-- Pour utiliser les imprimantes 3D, vous pouvez suivre une formation ou prendre un rendez-vous pour une consultation. Pour plus d'informations, consultez la section [Formations](#).
-- Pour obtenir de l'aide ou des conseils, vous pouvez contacter un membre de l'équipe des ateliers de fabrication numérique de votre bibliothèque par courriel ou en personne.
 - L'impression 3D est un service gratuit offert par les bibliothèques uniquement pour les membres de la communauté UdeM.
-- Pour connaître les règles d'utilisation des imprimantes 3D, consultez la section [Règles d'utilisation](#).
+- Pour connaître les règles d'utilisation des imprimantes 3D, consultez la section [Règles d'utilisation](../a-propos/politique.md).
 
 ---
 
-## Ressources
-
-### Guides sur l'impression 3D
-
-
-
----
-
-### Autres ressources
-
+<p style={{ fontSize: '0.8em' }}>
+  Crédit photo : Gloria Obeid, étudiante au baccalauréat en architecture (2023)
+</p>
