@@ -10,7 +10,6 @@ slug: /creatives/introduction-impression-3d
 
 L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D conçu par ordinateur. Cet objet tridimensionnel est créé par un dépôt successif de couches de matériaux. Différents matériaux peuvent être utilisé, du plastique, mais aussi du chocolat ou du béton. 
 
-<<<<<<< HEAD
 À partir d’un modèle numérique conçu en 3D, un logiciel appelé *Slicer* découpe le modèle en plusieurs couches selon un paramétrage choisi. L’extrudeur de l’imprimante chauffe le plastique et le dépose couche par couche en suivant les instructions établies par le *Slicer*. Un système de ventilation refroidit instantanément le plastique déposé pour le solidifier. C’est ce qu’on appelle la fabrication additive.
 
 ## Matériaux
@@ -31,9 +30,7 @@ L'alcool polyvinylique (PVA) est un polymère synthétique soluble dans l'eau, s
 Les températures recommandées sont inscrites sur les bobines de filament et sauvegardées dans le logiciel de découpe. En général :
 - **PLA** : 190°C - 230°C
 - **Plateau chauffant** : 50°C - 70°C pour optimiser l’adhésion.
-=======
 Un logiciel appelé *Slicer* découpe le modèle 3D en plusieurs couches selon un paramétrage choisi. L’extrudeur de l’imprimante chauffe le plastique et le dépose couche par couche en suivant les instructions établies par le *Slicer*. Un système de ventilation refroidit instantanément le plastique déposé pour le solidifier. C’est ce qu’on appelle la fabrication additive.
->>>>>>> df6202ac85c124d62191a6ee7b2ea1e717a92e65
 
 ## Entreposage des filaments
 

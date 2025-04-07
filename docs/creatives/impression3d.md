@@ -1,10 +1,7 @@
 ---
 title: Impression 3D
 description: Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.
-<<<<<<< HEAD
-=======
 image: "/img/cover/impression3d.jpg"
->>>>>>> df6202ac85c124d62191a6ee7b2ea1e717a92e65
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
