@@ -21,6 +21,15 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 | **Bibliothèque Thérèse-Gouin-Décarie** | 2ème étage. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/spaces?lid=2139&gid=6636). Deux postes sont aussi disponibles **sans réservation** dans [l'Atelier de fabrication](../espaces/ateliers.md) |
 | **Bibliothèque de mathématiques et informatique** | Local A-xxx. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) |  |
 
+:::important Équipements spécifiques à la BLSH
+
+Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH) est équipé de deux périphériques supplémentaires :
+
+- **DaVinci Resolve Speed Editor**
+- **DaVinci Resolve Micro Color Panel**
+
+Il offre également l’accès à la version complète de **DaVinci Resolve Studio**.
+:::
 ---
 
 ## Postes à distance
