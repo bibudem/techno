@@ -54,7 +54,7 @@ PyMOL,Sciences,Visualisation et analyse de structures moléculaires en 3D,Non,No
 QTGrace,Traitement de données,Création et édition de graphiques scientifiques,Non,Non,Non,
 QDA Miner,Traitement de données,Analyse de données qualitatives,Non,Non,Non,
 QGIS,Système dʼinformation géographique,Cartographie et analyse spatiale,Non,Oui,Non,
-R & R Studio,Analyse statistique,Environnement de développement intégré (IDE) pour R,Non,Oui,Oui,,Tous les postes informatiques des bibliothèques
+R & R Studio,Analyse statistique,Environnement de développement intégré (IDE) pour R,Non,Oui,Oui,/informatique/logiciels/rstudio,Tous les postes informatiques des bibliothèques
 Reaper,Création et édition,Enregistrement audio multipiste et production musicale,Non,Non,Oui, Hubert-Reeves
 SAS,Analyse statistique,Logiciel d'analyse de données statistiques,Non,Non,Oui,
 STATA,Analyse statistique,Logiciel d'analyse statistique pour la recherche et les études,Non,Non,Oui,
