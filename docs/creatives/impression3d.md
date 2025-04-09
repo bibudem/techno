@@ -30,12 +30,12 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 | **Bibliothèque**                        | **Localisation** | **Modèles disponibles** |
 |-----------------------------------------|-----------------|-------------------------|
-| **Bibliothèque mathématiques et informatique** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/FHefa6pkavN4qBug6) | Prusa i3 MK3s+, Ultimaker S3 |
-| **Bibliothèque Hubert-Reeves**        | [Atelier de fabrication](../espaces/ateliers.md), local A-x. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Prusa i3 MK3s+, Ultimaker S3 |
-| **Bibliothèque Thérèse-Gouin-Décarie** | [Atelier de fabrication](../espaces/ateliers.md), local A-x. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Prusa i3 MK3s+, Ultimaker 2 & S3, Elegoo Saturn 3 Ultra |
-| **Bibliothèque de la santé**         | 7ème étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Ultimaker S3 |
-| **Bibliothèque Marguerite d'Youville**         | [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | BambuLab X1C |
-| **Bibliothèque aménagement**         | [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | BambuLab X1C |
+| **Mathématiques et informatique** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/FHefa6pkavN4qBug6) | Prusa i3 MK3s+, Ultimaker S3 |
+| **Hubert-Reeves**        | [Atelier de fabrication](../espaces/ateliers.md), local A-x. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Prusa i3 MK3s+, Ultimaker S3 |
+| **Thérèse-Gouin-Décarie** | [Atelier de fabrication](../espaces/ateliers.md), local A-x. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Prusa i3 MK3s+, Ultimaker 2 & S3, Elegoo Saturn 3 Ultra |
+| **Santé**         | 7ème étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Ultimaker S3 |
+| **Marguerite d'Youville**         | [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | BambuLab X1C |
+| **Aménagement**         | [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | BambuLab X1C |
 
 ---
 
