@@ -233,7 +233,7 @@ const sidebars = {
             },
             {
               type: 'doc',
-              id: 'informatique/logiciels/qdaminor',
+              id: 'informatique/logiciels/qdaminer',
               className: 'hidden',
             },
             {
