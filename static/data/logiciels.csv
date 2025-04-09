@@ -53,13 +53,13 @@ Microsoft Publisher,Bureautique,Création de publications et de supports marketi
 PyMOL,Sciences,Visualisation et analyse de structures moléculaires en 3D,Non,Non,Non,,Hubert-Reeves
 QTGrace,Traitement de données,Création et édition de graphiques scientifiques,Non,Non,Non,
 QDA Miner,Traitement de données,Analyse de données qualitatives,Non,Non,Non,/informatique/logiciels/qdaminer,Tous les postes informatiques des bibliothèques
-QGIS,Système dʼinformation géographique,Cartographie et analyse spatiale,Non,Oui,Non,
+QGIS,Système dʼinformation géographique,Cartographie et analyse spatiale,Non,Oui,Non,,
 R & R Studio,Analyse statistique,Environnement de développement intégré (IDE) pour R,Non,Oui,Oui,/informatique/logiciels/rstudio,Tous les postes informatiques des bibliothèques
 Reaper,Création et édition,Enregistrement audio multipiste et production musicale,Non,Non,Oui, Hubert-Reeves
-SAS,Analyse statistique,Logiciel d'analyse de données statistiques,Non,Non,Oui,
-STATA,Analyse statistique,Logiciel d'analyse statistique pour la recherche et les études,Non,Non,Oui,
-TexMaker,Bureautique,Éditeur LaTeX pour la création de documents scientifiques,Non,Non,Oui,
-WordStat 8,Traitement de données,Analyse de texte pour la recherche qualitative,Non,Non,Oui,
-Zotero,Gestion bibliographique,Gestionnaire de références bibliographiques,Oui,Oui,Non,,Tous les postes informatiques des bibliothèques
-Zoom,Communication,Plateforme de visioconférence,Non,Oui,Non,/informatique/logiciels/zotero,Tous les postes informatiques des bibliothèques
-Zoomtext,Accessibilité,Logiciel d'agrandissement d'écran et de lecture pour les personnes malvoyantes,Oui,Non,Non,
+SAS,Analyse statistique,Logiciel d'analyse de données statistiques,Non,Non,Oui,,Lettres et sciences humaines ordinateurs identifiés «Données statistiques» du 3e étage
+STATA,Analyse statistique,Logiciel d'analyse statistique pour la recherche et les études,Non,Non,Oui,,Lettres et sciences humaines ordinateurs identifiés «Données statistiques» du 3e étage
+TexMaker,Bureautique,Éditeur LaTeX pour la création de documents scientifiques,Non,Non,Oui,,Hubert-Reeves;Mathématiques et informatique local 2486
+WordStat 8,Traitement de données,Analyse de texte pour la recherche qualitative,Non,Non,Oui,,Tous les postes informatiques des bibliothèques
+Zotero,Gestion bibliographique,Gestionnaire de références bibliographiques,Oui,Oui,Non,/informatique/logiciels/zotero,Tous les postes informatiques des bibliothèques
+Zoom,Communication,Plateforme de visioconférence,Non,Oui,Non,,Tous les postes informatiques des bibliothèques
+Zoomtext,Accessibilité,Logiciel d'agrandissement d'écran et de lecture pour les personnes malvoyantes,Oui,Non,Non,,Lettres et sciences humaines (service accessibilité);Bibliothèque du Campus de Laval;Thérèse-Gouin-Décarie
