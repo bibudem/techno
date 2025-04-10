@@ -323,3 +323,7 @@ html[data-theme="dark"] {
 .theme-doc-toc-desktop ul:has(li:nth-child(2)) {
   display: block;
 }
+
+.theme-admonition {
+  margin-top: 2em;
+}
