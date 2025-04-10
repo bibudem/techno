@@ -327,3 +327,70 @@ html[data-theme="dark"] {
 .theme-admonition {
   margin-top: 2em;
 }
+
+
+/* Grille verticale */
+.support-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  margin-top: 2rem;
+}
+
+/* Carte de soutien */
+.support-card {
+  background-color: #0057ac; /* bleu UdeM */
+  color: #ffffff;
+  border-radius: var(--ifm-global-radius);
+  padding: 1.5rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: transform 0.2s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Titre */
+.support-card h3 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* Icône + titre centré */
+.support-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Liens */
+.support-card a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.support-card a:hover {
+  text-decoration: none;
+}
+
+/* Texte et listes */
+.support-card p,
+.support-card li {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Titres secondaires */
+.support-card strong {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  color: #ffffff;
+}
+

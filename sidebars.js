@@ -406,6 +406,7 @@ const sidebars = {
       label: 'À propos',
       link: { type: 'doc', id: 'a-propos/index' }, 
       items: [
+        'a-propos/nous-joindre',
         'a-propos/mission',
         'a-propos/equipe',
         'a-propos/contribuer',
