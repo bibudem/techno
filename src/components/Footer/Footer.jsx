@@ -83,9 +83,9 @@ const Footer = () => {
       </div>
 
       <div className={styles.bottomBar}>
-        <span>© Université de Montréal, 2025. Tous droits réservés</span>
+        <span>Les bibliothèques de l'Université de Montréal, 2025. Le contenu du site est sous <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">licence CC BY 4.0</a></span>
         <span>|</span>
-        <a href="#">Confidentialité</a>
+        <a href="https://vie-privee.umontreal.ca/confidentialite/">Confidentialité</a>
         <span>|</span>
         <a href="#">Condition d’utilisation</a>
         <span>|</span>
