@@ -101,7 +101,7 @@ Vous pouvez aussi changer la taille des sources dans le canevas :
 
 ![](/img/docs/obs12.gif)
 
-## **Enregistrement et exportation**
+## Enregistrement et exportation
 
 Pour commencer à enregistrer, cliquer sur le bouton **Démarrer l’enregistrement** dans l’onglet Commandes en bas à droite. Vous avez par la suite la possibilité de faire des pauses ou d’arrêter l’enregistrement. Par défaut, les vidéos vont être enregistrées dans le dossier **/*Username*/Vidéos.** Vous pouvez changer le chemin de destination dans **Paramètres > Sortie > Enregistrement > Chemin d’accès de l’enregistrement**. 
 
