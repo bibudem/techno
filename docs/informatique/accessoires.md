@@ -4,6 +4,7 @@ image: "/img/cover/usb.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Retroaction from '@site/src/components/Retroaction';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -27,3 +28,5 @@ On ne peut pas tout énumérer ici, mais on a pensé à (presque) tout :
 - Adaptateurs pour ordinateurs portables (diverses connectiques).
 - Câbles et clés USB.
 - Casques audio... et bien plus encore!
+
+<Retroaction />
