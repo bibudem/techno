@@ -26,7 +26,7 @@ const sidebars = {
           ],
         },
         'espaces/ateliers',
-        'espaces/laboformation',
+        // 'espaces/laboformation',
         {
           type: 'category',
           label: 'Laboratoire de visualisation',
