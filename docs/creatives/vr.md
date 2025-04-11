@@ -22,6 +22,8 @@ Les bibliothèques de l’Université de Montréal mettent à la disposition de 
 
 Le tout a été réalisé grâce au Fonds d'amélioration de la vie étudiante (FAVE) et des Frais d'amélioration des services technologiques et informatiques et des collections des bibliothèques (STIC).
 
+---
+
 ## Localisation
 
 Présentez-vous au comptoir des bibliothèques suivante pour emprunter un casque:
@@ -40,6 +42,7 @@ Le prêt, réservé à la communauté UdeM, est de 7 jours et renouvelable autom
 
 [La réservation est possible par Sofia](https://umontreal.on.worldcat.org/search?lang=fr&_gl=1*1ucja2n*_ga*MTAxODY1ODI3MS4xNzM2OTU2ODMz*_ga_V8J6YFFD4F*MTc0MTIwNTQyNC44Ni4xLjE3NDEyMDY0OTkuMC4wLjA.&queryString=casque%20r%C3%A9alit%C3%A9%20virtuelle&clusterResults=true&groupVariantRecords=false&bookReviews=off&format=Object&changedFacet=format).
 
+---
 
 <CardGrid
   items={[

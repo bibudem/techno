@@ -8,9 +8,10 @@ La tablette graphique est un outil alternatif de la souris d’ordinateur. Elle 
 
 La tablette graphique est utilisée pour le dessin numérique, la modélisation 3D, le retouche d’image ou photo, l’animation graphique et les logiciels d’architecture. 
 
----
 
+:::note 
 Vous voulez emprunter la tablette graphique? Vérifiez la disponibilité dans Sofia et présentez-vous au comptoir de la Bibliothèque mathématique et informatique pour l’emprunter.
+:::
 
 ---
 
