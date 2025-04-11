@@ -17,9 +17,13 @@ OBS est un logiciel gratuit et libre pour enregistrer des vidéos et même diffu
 - Outil puissant et fiable pour la capture.
 - Création de contenu avec plusieurs scènes différentes, sans perte de temps en post-production.
 
+---
+
 ## Télécharger et installer le logiciel
 
 OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la dernière version depuis le site officiel](https://obsproject.com/fr). 
+
+---
 
 ## Première configuration
 
@@ -42,6 +46,7 @@ OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la 
     
     ![](/img/docs/obs3.png)
     
+---
 
 ## Ajouter des sources
 
@@ -75,6 +80,8 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
     ![](/img/docs/obs8.png)
     
 
+---
+
 ## Ajouter une source sonore
 
 Par défaut, OBS capture le micro du système, c’est à dire que si votre PC portable est équipé d’un micro interne, c’est le micro qui va être utilisé. 
@@ -87,9 +94,13 @@ Ne pas oublier de baisser le volume dans le **Mélangeur audio** de la source **
 
 ![](/img/docs/obs10.png)
 
+---
+
 ## Capturer l’écran
 
 Toujours dans Sources, vous avez le choix de capturer tout l’écran (**Capture d’écran**) ou seulement la fenêtre d’une application (**Capture de fenêtre**).
+
+---
 
 ## Modifier l’ordre et la disposition des sources
 
@@ -100,6 +111,8 @@ Dans l’onglet **Sources**, vous pouvez glisser/déposer les entrées afin de c
 Vous pouvez aussi changer la taille des sources dans le canevas :
 
 ![](/img/docs/obs12.gif)
+
+---
 
 ## Enregistrement et exportation
 

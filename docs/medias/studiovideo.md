@@ -20,9 +20,8 @@ Les studios d’enregistrement vidéo des bibliothèques des Lettres et sciences
 - Laissez du temps au module pour faire le transfert sur la clé USB, jusqu'à ce que la lumière verte ne clignote plus.
 - Le cadrage de la caméra est présélectionné. Il est possible d’utiliser le zoom.
 
-💡
 
-:::note **Votre clé USB ne démarre pas le studio?**
+:::tip **Votre clé USB ne démarre pas le studio?**
 
 Formatez-la (n'oubliez pas de sauvegarder vos données d'abord!).
 
@@ -50,11 +49,11 @@ Formatez-la (n'oubliez pas de sauvegarder vos données d'abord!).
 
 4 différents modes d’enregistrement sont disponibles pour créer votre vidéo. Le panneau de sélection des 4 sources se trouve au mur.
 
-### **Source 1 : Présentation standard avec ou sans écran mobile**
+### Source 1 : Présentation standard avec ou sans écran mobile
 
 #### Avec écran mobile
 
-![Séquence 4.Still016.jpg](/img/docs/studiovideo2.jpg)
+![](/img/docs/studiovideo2.jpg)
 
 #### Sur le grand écran, il est recommandé
 
@@ -63,19 +62,21 @@ Formatez-la (n'oubliez pas de sauvegarder vos données d'abord!).
 - Préconiser des mots-clés
 - Utiliser un fond d’écran clair
 
-![écranmobileBlanc.png](/img/docs/studiovideo3.png)
+![](/img/docs/studiovideo3.png)
 
 #### Sans écran mobile
 
-![Séquence 01.00_01_36_29.Still006.jpg](/img/docs/studiovideo4.jpg)
+![](/img/docs/studiovideo4.jpg)
 
-![simpleBlanc.png](/img/docs/studiovideo5.png)
+![](/img/docs/studiovideo5.png)
 
-### **Source 2 : Présentation avec tableau lumineux transparent**
+---
 
-![Séquence 01.00_07_29_07.Still001.jpg](/img/docs/studiovideo6.jpg)
+### Source 2 : Présentation avec tableau lumineux transparent
 
-![tableauBlanc.png](/img/docs/studiovideo7.png)
+![](/img/docs/studiovideo6.jpg)
+
+![](/img/docs/studiovideo7.png)
 
 - Une inversion d’image est nécessaire en post-production, grâce aux logiciels de montage Adobe Premiere Pro, Adobe Premier Rush ou Davinci Resolve.
 
@@ -88,27 +89,31 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 ---
 
 
-### **Source 3 : Présentation sur fond vert**
+### Source 3 : Présentation sur fond vert
 
-![MicrosoftTeams-image.png](/img/docs/studiovideo8.png)
+![](/img/docs/studiovideo8.png)
 
-![fondvertBlanc.png](/img/docs/studiovideo9.png)
+![](/img/docs/studiovideo9.png)
 
 - Ne porter aucun vêtement vert.
 - Utiliser une image de fond neutre ou générale.
 - Tirer le rideau noir pour faire place au mur vert (à la Bibliothèque Thérèse-Gouin-Décarie) ou au rideau métallique (Bibliothèque des lettres et sciences humaines).
 - L’incrustation d’image se fait en post-production, grâce aux logiciels de montage tel Adobe Premiere Pro ou Davinci Resolve.
 
-### **Source 4 : Table de présentation vue de haut**
+---
+
+### Source 4 : Table de présentation vue de haut
 
 :::info
-Ce mode n’est disponibles qu’à la Bibliothèque Thérèse-Gouin-Décarie
+Ce mode n’est disponible qu’à la Bibliothèque Thérèse-Gouin-Décarie
 :::
 
 
-![Séquence 01.00_00_35_25.Still001.jpg](/img/docs/studiovideo10.jpg)
+![](/img/docs/studiovideo10.jpg)
 
-![plongéeBlanc.png](/img/docs/studiovideo11.png)
+![](/img/docs/studiovideo11.png)
+
+---
 
 ## Bon à savoir
 
@@ -116,18 +121,18 @@ Utilisez la télécommande de la caméra pour obtenir les cadrages de caméra d�
 
 - **Bibliothèque des lettres et sciences humaines**
     
-    ![Commande datavideovf.jpg](/img/docs/studiovideo12.jpg)
+    ![](/img/docs/studiovideo12.jpg)
     
 
 - **Bibliothèque Thérèse-Gouin-Décarie**
     
-    ![remote  TGD zoom.jpeg](/img/docs/studiovideo13.jpeg)
+    ![](/img/docs/studiovideo13.jpeg)
     
     **Bibliothèque Thérèse-Gouin-Décarie** : 
     
     Utilisez les boutons de la télécommande pour la **caméra du haut**.
     
-    ![photo remote 5.jpeg](/img/docs/studiovideo14.jpeg)
+    ![](/img/docs/studiovideo14.jpeg)
     
 - Un ordinateur relié à l'écran mobile est mis à votre disposition pour diffuser des images.
 - Des fiches murales permettent de transférer des fichiers vers l’ordinateur.
@@ -144,4 +149,4 @@ SVP, replacer tout mobilier qui a été déplacé au cours de la session.
 
 ## Édition
 
-[Des postes d'édition](postes-edition) sont mis à votre disposition avec une suite de logicielle pour faire du montage. Vous trouverez aussi des tutoriels pour vous aider à utiliser ces logiciels.
+[Des postes d'édition](postes-edition) sont mis à votre disposition avec une suite de logicielle pour faire du montage.
