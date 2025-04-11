@@ -103,9 +103,9 @@ Certains environnements sont moins propices à une bonne prise de son. Pour éli
     
     ![](/img/docs/rush5.png)
     
-    1. Sélectionner l’icône de son à la droite de l’interface.
-    2. Activer **Voix** et les diverses options se trouvant juste dessous. 
-    3. À l’écoute, évaluer les options qui procurent une plus grande richesse de la voix.  
+2. Sélectionner l’icône de son à la droite de l’interface.
+3. Activer **Voix** et les diverses options se trouvant juste dessous. 
+4. À l’écoute, évaluer les options qui procurent une plus grande richesse de la voix.  
     
     ![](/img/docs/rush6.png)
 
