@@ -36,7 +36,7 @@ Des ordinateurs en libre-service sont à la disposition de tous les utilisateurs
 ---
 
 :::info Le saviez-vous?
-Vous cherchez un ordinateur puissant pour vos travaux vidéos ou graphiques? Consultez la page [Postes d'édition](#).
+Vous cherchez un ordinateur puissant pour vos travaux vidéos ou graphiques? Consultez la page [Postes d'édition](../medias/postes-edition.md).
 :::
 
 ---
