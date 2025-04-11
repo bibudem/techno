@@ -79,7 +79,7 @@ Ce service de soutien, qui est optionnel, est réservé aux membres de la commun
 
 En plus des consultations, des formations sont offertes aux studios. Pour les détails et les dates, consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier).
 
-Pour toute question ou demande particulière, n'hésitez pas à nous écrire à creanum@bib.umontreal.ca
+Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
 
 ## Visite 360
 
