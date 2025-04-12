@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
+import { ThumbsUp, ThumbsDown } from '@phosphor-icons/react';
+import styles from './Retroaction.module.css';
 
 const Retroaction = () => {
   const [vote, setVote] = useState(null);
   const [comment, setComment] = useState('');
-  const [status, setStatus] = useState('initial'); // 'initial' | 'submitting' | 'submitted' | 'error'
+  const [status, setStatus] = useState('initial');
 
   const formId = 43784;
   const voteFieldId = 1582731;
   const commentFieldId = 1582733;
   const apiBase = 'https://umontreal.libwizard.com/api/v1/submission';
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const submitVote = async (voteValue, commentValue = '') => {
     setStatus('submitting');
 
     try {
-      // Obtenir un GUID de soumission
       const res = await fetch(`${apiBase}/getguid`);
       if (!res.ok) throw new Error('GUID fetch failed');
       const { guid } = await res.json();
@@ -33,7 +33,7 @@ const Retroaction = () => {
             formId,
             fieldId: voteFieldId,
             type: 'control_radio',
-            data: vote,
+            data: voteValue,
             hidden: false,
             flags: 0
           },
@@ -41,7 +41,7 @@ const Retroaction = () => {
             formId,
             fieldId: commentFieldId,
             type: 'control_multi',
-            data: comment,
+            data: commentValue,
             hidden: false,
             flags: 0
           }
@@ -50,7 +50,6 @@ const Retroaction = () => {
         arrive: new Date().toISOString().substring(0, 19).replace('T', ' ')
       };
 
-      // Envoyer la soumission
       await fetch(`${apiBase}/insertSubmission`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -64,10 +63,38 @@ const Retroaction = () => {
     }
   };
 
+  const handleOuiClick = () => {
+    setVote('oui');
+    submitVote('oui');
+  };
+
+  const handleNonClick = () => {
+    setVote('non');
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    submitVote('non', comment);
+  };
+
   if (status === 'submitted') {
     return (
-      <div style={{ marginTop: '1rem', background: '#e6ffed', padding: '1rem', borderRadius: '8px' }}>
-        <p>✅ Merci, nous avons bien reçu vos commentaires.</p>
+      <div
+        style={{
+          marginTop: '1rem',
+          background: '#e6ffed',
+          padding: '1rem',
+          borderRadius: '8px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          textAlign: 'center',
+        }}
+      >
+        <p style={{ margin: 0 }}>
+          Votre avis a bien été reçu. Merci pour votre contribution.
+        </p>
       </div>
     );
   }
@@ -75,33 +102,48 @@ const Retroaction = () => {
   if (status === 'error') {
     return (
       <div style={{ marginTop: '1rem', background: '#ffecec', padding: '1rem', borderRadius: '8px' }}>
-        <p>❌ Une erreur est survenue. Veuillez réessayer plus tard.</p>
+        <p>Une erreur est survenue. Veuillez réessayer plus tard.</p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} style={{ marginTop: '2rem', borderTop: '1px solid #ccc', paddingTop: '1rem' }}>
-      <p>Cette page vous a-t-elle été utile&nbsp;?</p>
-      <div>
-        <button type="button" onClick={() => setVote('oui')} style={{ marginRight: '0.5rem', background: vote === 'oui' ? '#d0f0c0' : undefined }}>
-          👍 Oui
+    <form onSubmit={handleFormSubmit} className={styles.wrapper}>
+      <p>L’information sur cette page vous a-t-elle été utile ?</p>
+
+      <div className={styles.buttons}>
+        <button
+          type="button"
+          data-type="oui"
+          onClick={handleOuiClick}
+          className={`${styles.button} ${vote === 'oui' ? styles.selectedOui : ''}`}
+        >
+          <ThumbsUp size={20} /> Oui
         </button>
-        <button type="button" onClick={() => setVote('non')} style={{ background: vote === 'non' ? '#fcdcdc' : undefined }}>
-          👎 Non
+        <button
+          type="button"
+          data-type="non"
+          onClick={handleNonClick}
+          className={`${styles.button} ${vote === 'non' ? styles.selectedNon : ''}`}
+        >
+          <ThumbsDown size={20} /> Non
         </button>
+
+        {/* <a href="/signaler-un-probleme" className={styles.link}>
+          Signaler un problème
+        </a> */}
       </div>
 
-      {vote && (
+      {vote === 'non' && (
         <>
           <textarea
-            placeholder="Laissez un commentaire (optionnel)"
+            className={styles.textarea}
             value={comment}
             onChange={(e) => setComment(e.target.value)}
+            placeholder="Faites-nous savoir ce que nous pouvons faire mieux (optionnel)"
             rows={3}
-            style={{ display: 'block', width: '100%', marginTop: '1rem' }}
           />
-          <button type="submit" style={{ marginTop: '0.5rem' }} disabled={status === 'submitting'}>
+          <button type="submit" className={styles.submitButton} disabled={status === 'submitting'}>
             {status === 'submitting' ? 'Envoi en cours…' : 'Envoyer'}
           </button>
         </>

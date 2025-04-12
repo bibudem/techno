@@ -2,8 +2,7 @@
 id: salledevisio
 title: Salle de visionnement
 description : Visionner des contenus médias en groupe.
-pagination_next: null
-pagination_prev: null
+retroaction : false
 ---
 
 # Salle de visionnement
