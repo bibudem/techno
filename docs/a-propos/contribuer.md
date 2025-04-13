@@ -35,8 +35,8 @@ Le contenu du site est hébergé sur GitHub : [bibudem/techno](https://github.co
 
 Vous pouvez :
 
-- cloner le dépôt ;
-- modifier les fichiers Markdown (`.md`) ou images ;
+- cloner le dépôt;
+- modifier les fichiers Markdown (`.md`) ou images;
 - proposer une PR avec vos changements.
 
 Si votre contribution est acceptée, elle sera intégrée au site après révision.

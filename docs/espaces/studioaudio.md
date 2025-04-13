@@ -6,6 +6,7 @@ image: "/img/cover/studiolsh.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -61,11 +62,17 @@ import StudioCard from '@site/src/components/StudioCard';
   />
 </div>
 
+---
+
 ## Documentation
 
 De la documentation est disponible pour vous aider à utiliser le studio :
 
- **Consulter la documentation**](../medias/audio/guide-balado.md)
+<Link to=".././medias/rodecaster" className="button button--primary">
+  Consulter la documentation
+</Link>
+
+---
 
 ## Formation et soutien
 
@@ -73,13 +80,18 @@ Sur rendez-vous, un service de soutien avec un membre de l'équipe des biblioth�
 
 Ce service de soutien, qui est optionnel, est réservé aux membres de la communauté UdeM.
 
-[**Obtenir du soutien**](https://outlook.office365.com/owa/calendar/StudiodenregistrementdeBLSHTGD@Udemontreal.onmicrosoft.com/bookings/?skipRedirect=1)
+<Link to=".././medias/rodecaster" className="button button--primary">
+  Obtenir du soutien
+</Link>
 
-!!! Info "Le studio d'enregistrement doit aussi être réservé pour obtenir du soutien."
+:::warning Le studio d'enregistrement doit aussi être réservé pour obtenir du soutien.
+:::
 
 En plus des consultations, des formations sont offertes aux studios. Pour les détails et les dates, consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier).
 
 Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
+
+---
 
 ## Visite 360
 

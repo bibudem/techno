@@ -39,7 +39,7 @@ Envie d’enregistrer dans le confort de chez vous? Ou d’enregistrer des ambia
 
 ## Post-production
 
-C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](#), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou [Reaper](../informatique/logiciels/reaper.md). [Ces logiciels sont offerts en bibliothèques](../informatique/logiciels.md).
+C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](./audacity), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou [Reaper](../informatique/logiciels/reaper.md). [Ces logiciels sont offerts en bibliothèques](../informatique/logiciels.md).
 
 ---
 

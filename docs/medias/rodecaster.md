@@ -5,6 +5,10 @@ import Link from '@docusaurus/Link';
 
 Ce guide vous permet une première prise en main de la console d’enregistrement **RODECaster Pro II**.
 
+:::tip Vous débutez en baladodiffusion?
+ Consultez aussi notre [guide d’introduction à la baladodiffusion](./balado) pour bien planifier votre enregistrement avant d'utiliser le RØDECaster Pro II.
+:::
+
 :::warning Attention
     Veuillez ne pas modifier la configuration depuis le menu de la console de mixage.
 :::
@@ -105,7 +109,7 @@ Une fois l'exportation terminée, vous trouverez plusieurs fichiers WAV dans le 
 
 N'oubliez pas d'éteindre la console après utilisation.
 
-:::warning "Attention" 
+:::warning Attention
     - Si vous voulez écouter les fichiers sur votre ordinateur, débrancher le câble USB qui a servi pour le transfert, sinon, le son risque de ne pas se faire entendre.
     - Si votre ordinateur passe en veille, le transfert risque d’être interrompu. 
     - On vous recommande fortement de faire aussi une copie de vos fichiers dans un espace infonuagique (par exemple OneDrive).
