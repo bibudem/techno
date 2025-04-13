@@ -1,7 +1,6 @@
 ---
 title : Technologies créatives
-# hide_table_of_contents: true
-
+retroaction : false
 ---
 
 import CardGrid from "@site/src/components/CardGrid";

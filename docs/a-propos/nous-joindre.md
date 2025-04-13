@@ -1,6 +1,7 @@
 ---
 title : Nous joindre
 description : Contactez-nous pour toute question ou information supplémentaire.
+retroaction : false
 ---
 
 import { Desktop, MicrophoneStage } from "@phosphor-icons/react"

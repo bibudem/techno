@@ -1,6 +1,7 @@
 ---
 id : accessibilite
 title : Accessibilité
+retroaction : false
 ---
 
 Nous nous efforçons de rendre ce site accessible au plus grand nombre, conformément aux [normes WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/WAI/standards-guidelines/wcag/) et aux standards du gouvernement du Québec [SGQRI 008 2.0 (PDF 142 Ko)](https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/cybersecurite_numerique/Standard_sur_l_accessibilite/standard-access-web.pdf).

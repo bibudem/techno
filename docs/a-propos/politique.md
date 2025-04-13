@@ -1,6 +1,7 @@
 ---
 id : politique
 title : Politique d'utilisation des équipements
+retroaction : false
 ---
 
 ## Conditions générales

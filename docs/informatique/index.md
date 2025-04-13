@@ -1,5 +1,6 @@
 ---
 title : Ressources informatiques
+retroaction : false
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
