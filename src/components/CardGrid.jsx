@@ -31,6 +31,7 @@ import {
   FileVideo,
   Record,
   PencilSimpleLine,
+  CubeFocus,
 
 } from "@phosphor-icons/react";
 
@@ -66,6 +67,7 @@ const iconMap = {
   FileVideo,
   Record,
   PencilSimpleLine,
+  CubeFocus,
 };
 
 const CardGrid = ({ items }) => {
