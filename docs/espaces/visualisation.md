@@ -27,7 +27,6 @@ Ce mur permet de projeter des images et d'interagir avec des concepts de recherc
 Le laboratoire peut accueillir un maximum de 30 personnes.
 
 ---
-## Localisation et accès
 
 <StudioCard
     title="Bibliothèque Hubert-Reeves"
@@ -36,15 +35,13 @@ Le laboratoire peut accueillir un maximum de 30 personnes.
     description="Une formation en présentiel obligatoire de 30 minutes avec un ou une membre de notre équipe est exigée afin d'utiliser le laboratoire. Veuillez remplir ce formulaire de prise de rendez-vous."
     reserveLink="https://forms.office.com/r/9zPS89SY16"
     reserveText="Prendre un rendez-vous"
+    secondaryLinks={[
+    { href: "./guide/visualisation", text: "Guide d'utilisation" },
+  ]}
 />
 ---
 
-## Guide et soutien
+Si vous avez des questions ou besoin d'aide, contactez-nous à studio@bib.umontreal.ca
 
-Consulter le guide d'utilisation du Laboratoire de visualisation pour en savoir plus sur les modes d'affichage et les connexions sans fil. Si vous avez des questions ou besoin d'aide, contactez-nous à studio@bib.umontreal.ca
-
-<Link to="./guide/visualisation" className="button button--primary">
-  Guide d'utilisation
-</Link>
 
 

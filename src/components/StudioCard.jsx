@@ -1,6 +1,14 @@
 import React from 'react';
 
-const StudioCard = ({ title, location, description, mapLink, reserveLink, reserveText }) => (
+const StudioCard = ({
+  title,
+  location,
+  description,
+  mapLink,
+  reserveLink,
+  reserveText,
+  secondaryLinks = [],
+}) => (
   <div
     className="card"
     style={{
@@ -37,15 +45,32 @@ const StudioCard = ({ title, location, description, mapLink, reserveLink, reserv
       {description && <p>{description}</p>}
     </div>
 
-    {reserveLink && reserveText && (
-      <div className="card__footer" style={{ textAlign: "center", marginTop: "1rem" }} >  
-        <a
-          href={reserveLink}
-          className="button button--primary"
-          style={{ marginTop: "1rem", padding: "0.8rem 4rem" }}
-        >
-          {reserveText}
-        </a>
+    {(reserveLink || secondaryLinks.length > 0) && (
+      <div
+        className="card__footer"
+        style={{
+          marginTop: "1rem",
+          display: "flex",
+          justifyContent: "center",
+          gap: "1rem",
+          flexWrap: "wrap",
+        }}
+      >
+        {reserveLink && reserveText && (
+          <a href={reserveLink} className="button button--primary">
+            {reserveText}
+          </a>
+        )}
+
+        {secondaryLinks.slice(0, 2).map(({ href, text }, index) => (
+          <a
+            key={index}
+            href={href}
+            className="button button--secondary"
+          >
+            {text}
+          </a>
+        ))}
       </div>
     )}
   </div>

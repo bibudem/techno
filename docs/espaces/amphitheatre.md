@@ -23,8 +23,6 @@ L’amphithéâtre offre un espace moderne et équipé pour la projection de fil
 
 ---
 
-## Localisation et accès
-
 Les membres de la communauté UdeM peuvent inviter des non-membres à assister aux événements, mais seuls les membres peuvent réserver l'amphithéâtre.
 
 import StudioCard from "@site/src/components/StudioCard";
@@ -36,15 +34,10 @@ import StudioCard from "@site/src/components/StudioCard";
     description="À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller l'amphithéâtre."
     reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
     reserveText="Réserver"
+    secondaryLinks={[
+    { href: "./guide/amphitheatre", text: "Guide d'utilisation" },
+  ]}
 />
-
----
-
-## Guide et soutien
-
-<Link to="./guide/amphitheatre" className="button button--secondary">
-  Guide d'utilisation
-</Link>
 
 ---
 
