@@ -42,7 +42,7 @@ import StudioCard from "@site/src/components/StudioCard";
 
 ## Guide et soutien
 
-<Link to="./guide/amphitheatre" className="button button--primary">
+<Link to="./guide/amphitheatre" className="button button--secondary">
   Guide d'utilisation
 </Link>
 

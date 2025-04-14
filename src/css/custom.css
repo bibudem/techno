@@ -260,8 +260,6 @@ html[data-theme="dark"] {
   text-decoration: none; /* Pas de soulignement */
   cursor: pointer; /* Curseur pointer */
   transition: background-color 0.3s ease, transform 0.2s ease; /* Transitions pour hover */
-  background-color: #0057ac; /* Couleur de fond */
-  color: #ffffff; /* Couleur du texte */
   border: none; /* Supprime la bordure par défaut */
 }
 
@@ -282,6 +280,20 @@ html[data-theme="dark"] {
 
 .button p {
   margin: 0; /* Supprime toutes les marges */
+}
+
+.button.button--secondary {
+  background-color: #f9f9f9; 
+  color: #0057ac; 
+  border: 2px solid #0057ac;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.button.button--secondary:hover {
+  color: #0b113a;
+  border-color: #004080;
+  color : #0b113a;
+  
 }
 
 .pagination-nav {

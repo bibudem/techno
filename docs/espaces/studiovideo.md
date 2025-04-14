@@ -6,6 +6,7 @@ description : Enregistrer des vidéos de qualité professionnelle.
 
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
+import Link from '@docusaurus/Link';
 
 Le studio d’enregistrement vidéo propose à la communauté UdeM la possibilité de concevoir des productions vidéo de qualité sous 5 différents modes de présentation. Son environnement technique simplifié permet de produire des enregistrements sans se soucier des détails techniques. Conçue pour favoriser la pleine autonomie de l'utilisateur, seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone.
 
@@ -13,7 +14,8 @@ Le studio d’enregistrement vidéo propose à la communauté UdeM la possibilit
 
 ## Localisation et accès
 
-Les studios d'enregistrement sont ouverts **du lundi au vendredi, de 9h à 17h**, et l'accès est possible sur réservation par blocs maximaux de 3 heures.
+Les studios d'enregistrement sont ouverts **du lundi au vendredi, de 9h à 17h**.
+L'accès est possible sur réservation par bloc maximal de 3 heures.
 
 <div
   className="grid grid--2"
@@ -38,6 +40,7 @@ Les studios d'enregistrement sont ouverts **du lundi au vendredi, de 9h à 17h**
 ## Documentation
 
 De la documentation est disponible pour vous aider à utiliser le studio :
+
 
 [Consulter la documentation](#)
 
