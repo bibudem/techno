@@ -45,7 +45,7 @@ Discutez avec un technicien en direct **par clavardage** ou **sur place** à la 
 - Questions sur les outils numériques UdeM
 
 <HoraireSemaine codeBib="ss" />
-Consultez la section [Ressources informatiques](../informatique/index.md)
+Consultez la section [Ressources informatiques](../informatique/index.md).
 
 ---
 
@@ -77,4 +77,4 @@ Nous offrons aussi du soutien pour vos projets créatifs et vos productions mult
 
 
 
-Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md)
+Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
