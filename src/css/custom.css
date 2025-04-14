@@ -274,8 +274,7 @@ html[data-theme="dark"] {
 }
 
 .button--block {
-  display: block;
-  width: 100%;
+  display: inline-block;
 }
 
 .button p {

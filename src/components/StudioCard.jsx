@@ -38,11 +38,11 @@ const StudioCard = ({ title, location, description, mapLink, reserveLink, reserv
     </div>
 
     {reserveLink && reserveText && (
-      <div className="card__footer">
+      <div className="card__footer" style={{ textAlign: "center", marginTop: "1rem" }} >  
         <a
           href={reserveLink}
-          className="button button--primary button--block"
-          style={{ marginTop: "1rem" }}
+          className="button button--primary"
+          style={{ marginTop: "1rem", padding: "0.8rem 4rem" }}
         >
           {reserveText}
         </a>
