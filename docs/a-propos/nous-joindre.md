@@ -5,6 +5,9 @@ retroaction : false
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
+import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
+
+
 
 ## Vous avez besoin d'aide?
 
@@ -31,12 +34,7 @@ Besoin d’un coup de main? Que ce soit pour l’informatique ou la création, n
 
 ## Soutien informatique
 
-### Clavardage
-Discutez en direct avec un technicien via notre service de clavardage.
-
-### Sur place
-- Lieu : Bibliothèque des lettres et sciences humaines (BLSH)
-- Lundi au vendredi, de 9 h à 17 h
+Discutez avec un technicien en direct **par clavardage** ou **sur place** à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ### Exemples d’aide offerte
 - Configuration du proxy ou du VPN pour accéder aux ressources UdeM  
@@ -46,21 +44,37 @@ Discutez en direct avec un technicien via notre service de clavardage.
 - Accès aux logiciels à distance  
 - Questions sur les outils numériques UdeM
 
+<HoraireSemaine codeBib="ss" />
 Consultez la section [Ressources informatiques](../informatique/index.md)
 
 ---
 
 ## Soutien création et médias
 
-### Par courriel
-[studio@bib.umontreal.ca](mailto:studio@bib.umontreal.ca)
-
-### Sur rendez-vous
-[Rencontrer un membre de l’équipe](./equipe.md#équipe-technologies-créatives-et-médias)
+Nous offrons aussi du soutien pour vos projets créatifs et vos productions multimédias. Notre équipe est là pour vous accompagner!
 
 ### Exemples d’aide offerte
-- Soutien pour les studios  
-- Initiation à l'impression 3D, etc.  
+- Soutien pour les studios
+- Initiation à l'impression 3D, etc.
 - Conseils techniques ou créatifs
+
+<CardGrid
+  items={[
+    {
+      title: "Par courriel",
+      description: "studio@bib.umontreal.ca",
+      link: "mailto:studio@bib.umontreal.ca",
+      icon : "Desktop",
+    },
+    {
+      title: "Sur rendez-vous",
+      description: "Rencontrer un membre de l’équipe.",
+      link: "#",
+      icon : "CubeFocus",
+    },
+    ]}
+/>
+
+
 
 Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md)
