@@ -64,30 +64,26 @@ import StudioCard from '@site/src/components/StudioCard';
 
 ---
 
-## Documentation
+## Documentation et soutien
 
-De la documentation est disponible pour vous aider à utiliser le studio :
+De la documentation est disponible pour vous aider à utiliser le studio en toute autonomie.
 
-<Link to=".././medias/rodecaster" className="button button--primary">
+Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement. Ce service de soutien, qui est optionnel, est réservé aux membres de la communauté UdeM.
+
+En plus des consultations, des formations sont offertes aux studios. Pour les détails et les dates, consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier).
+
+<Link to=".././medias/rodecaster" className="button button--secondary">
   Consulter la documentation
 </Link>
 
----
-
-## Formation et soutien
-
-Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement du studio.
-
-Ce service de soutien, qui est optionnel, est réservé aux membres de la communauté UdeM.
-
-<Link to=".././medias/rodecaster" className="button button--primary">
+<Link to="../a-propos/nous-joindre" className="button button--secondary">
   Obtenir du soutien
 </Link>
 
-:::warning Le studio d'enregistrement doit aussi être réservé pour obtenir du soutien.
+:::warning Le studio d'enregistrement doit aussi être réservé à la même heure pour obtenir du soutien.
 :::
 
-En plus des consultations, des formations sont offertes aux studios. Pour les détails et les dates, consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier).
+---
 
 Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
 

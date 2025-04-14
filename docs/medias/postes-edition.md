@@ -2,13 +2,31 @@
 id: postes-edition
 title: Postes d'édition
 description: Accédez aux postes d'édition numérique pour la création, l'édition et la publication de contenus vidéo, sonores et graphiques.
+image: "/img/cover/edition.jpg"
 ---
+
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Postes d'édition
 
 Nos postes d'édition numérique offrent la possibilité de créer, éditer et publier des productions vidéo, sonores et graphiques. Nous mettons à disposition une large gamme de logiciels spécialisés, notamment la suite Adobe Creative Cloud et DaVinci Resolve Studio.
 
-[Consulter la liste des logiciels offerts](../informatique/logiciels.md)
+<Link to="../informatique/logiciels" className="button button--secondary">
+  Consulter la liste des logiciels offerts
+</Link>
 
 ---
 
@@ -23,13 +41,16 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 
 :::important Équipements spécifiques à la BLSH
 
-Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH) est équipé de deux périphériques supplémentaires :
+Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH) est équipé de périphériques supplémentaires :
 
 - **DaVinci Resolve Speed Editor**
 - **DaVinci Resolve Micro Color Panel**
+- 2 Casques audio Sennheiser HD 280 Pro
+- Écran *widescreen* 34p
 
 Il offre également l’accès à la version complète de **DaVinci Resolve Studio**.
 :::
+
 ---
 
 ## Postes à distance

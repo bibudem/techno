@@ -37,38 +37,34 @@ L'accès est possible sur réservation par bloc maximal de 3 heures.
   />
 </div>
 
-## Documentation
-
-De la documentation est disponible pour vous aider à utiliser le studio :
-
-
-[Consulter la documentation](#)
-
 ---
 
-## Consultation et soutien
+## Documentation et soutien
 
-Un service de soutien est offert pour aider les utilisateurs à se familiariser avec l’équipement. Ce service, réservé aux membres de la communauté UdeM, est optionnel et nécessite une réservation préalable.
+De la documentation est disponible pour vous aider à utiliser le studio en toute autonomie.
 
-[Obtenir du soutien](https://outlook.office365.com/owa/calendar/StudiodenregistrementdeBLSHTGD@Udemontreal.onmicrosoft.com/bookings/?skipRedirect=1)
+Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement. Ce service de soutien, qui est optionnel, est réservé aux membres de la communauté UdeM.
 
-:::info
-Le studio d'enregistrement doit également être réservé pour obtenir du soutien.
+<Link to=".././medias/studiovideo" className="button button--secondary">
+  Consulter la documentation
+</Link>
+
+<Link to="../a-propos/nous-joindre" className="button button--secondary">
+  Obtenir du soutien
+</Link>
+
+:::warning Le studio d'enregistrement doit aussi être réservé à la même heure pour obtenir du soutien.
 :::
-
-Pour toute question ou demande particulière, écrivez-nous à **[tech@bib.umontreal.ca](mailto:tech@bib.umontreal.ca)**.
-
----
-
-## Formations
-
-Des formations sont également offertes pour utiliser les studios. Consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier) pour les détails et les dates.
 
 ---
 
 ## Post-production
 
 Les bibliothèques offrent des **postes de montage vidéo** pour finaliser vos productions. Consultez la section [Postes d'édition](../medias/postes-edition.md) pour plus d'informations.
+
+---
+
+Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
 
 ---
 
