@@ -14,7 +14,7 @@ export default function CardBib({
   onMouseLeave,
 }) {
   const sizes = {
-    small: { height: 300 },
+    small: { height: 260 },
     large: { height: 400 },
   };
 
