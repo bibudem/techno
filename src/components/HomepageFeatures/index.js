@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css';
 import CardBib from '@site/src/components/CardBib';
 import CardRow from '@site/src/components/CardRow';
-import { Cube, VideoCamera, Microphone, PaintBrush } from '@phosphor-icons/react';
+import { Cube, AppWindow, VideoCamera, Network, Microphone, PaintBrush } from '@phosphor-icons/react';
 
 export default function HomepageFeatures() {
   return (
@@ -27,60 +27,37 @@ export default function HomepageFeatures() {
       title="Studio Balado"
       Icon={Microphone}
       href="#"
-      moreText="Explorer"
+      moreText=""
       small
+      color="jaune"
     />
     <CardBib
       title="Impression 3D"
       Icon={Cube}
       href="#"
-      moreText="Explorer"
+      moreText=""
       small
+      color="jaune"
     />
     <CardBib
-      title="Accès à distance"
-      Icon={Cube}
+      title="Accès à distance aux logiciels"
+      Icon={AppWindow}
       href="#"
-      moreText="Explorer"
+      moreText=""
       small
+      color="jaune"
     />
     <CardBib
       title="Accès hors campus (Proxy et VPN)"
-      Icon={Cube}
+      Icon={Network}
       href="#"
-      moreText="Explorer"
+      moreText=""
       small
+      color="jaune"
     />
   </CardRow>
-</section>
 
-      <section className={styles.spacesSection}>
-        <div className={styles.spacesContainer}>
-          <div className={styles.spacesText}>
-            <h2 className={styles.spacesTitle}>
-              Un lieu pour chaque projet,<br /> une idée pour chaque espace.
-            </h2>
-            <p className={styles.spacesDescription}>
-              Chaque espace est conçu pour stimuler la créativité, l’apprentissage
-              et l’innovation. Que ce soit pour expérimenter des technologies
-              émergentes, collaborer sur des projets ou explorer de nouvelles idées,
-              chaque lieu offre une opportunité d’inventer, de créer et de partager.
-            </p>
-            <a href="/espaces" className={styles.spacesButton}>
-              Découvrir nos espaces →
-            </a>
-          </div>
-          <div className={styles.spacesImages}>
-            {["/img/espace-1.jpg", "/img/espace-2.jpg", "/img/espace-3.jpg"].map((src, idx) => (
-              <div key={idx} className={styles.spacesImageWrapper}>
-                <img src={src} alt="" className={styles.spacesImage} />
-                <div className={styles.spacesOverlay} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+  </section>
       <section className={styles.cardsSection}>
         <div className={styles.cardsContainer}>
           <div className={styles.cardVR}>
@@ -122,6 +99,35 @@ export default function HomepageFeatures() {
             <div className={styles.cardFooter}>
               <a href="#" className={styles.cardMore}>Voir tous les ateliers →</a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section className={styles.spacesSection}>
+        <div className={styles.spacesContainer}>
+          <div className={styles.spacesText}>
+            <h2 className={styles.spacesTitle}>
+              Un lieu pour chaque projet,<br /> une idée pour chaque espace.
+            </h2>
+            <p className={styles.spacesDescription}>
+              Chaque espace est conçu pour stimuler la créativité, l’apprentissage
+              et l’innovation. Que ce soit pour expérimenter des technologies
+              émergentes, collaborer sur des projets ou explorer de nouvelles idées,
+              chaque lieu offre une opportunité d’inventer, de créer et de partager.
+            </p>
+            <a href="/espaces" className={styles.spacesButton}>
+              Découvrir nos espaces →
+            </a>
+          </div>
+          <div className={styles.spacesImages}>
+            {["/img/espace-1.jpg", "/img/espace-2.jpg", "/img/espace-3.jpg"].map((src, idx) => (
+              <div key={idx} className={styles.spacesImageWrapper}>
+                <img src={src} alt="" className={styles.spacesImage} />
+                <div className={styles.spacesOverlay} />
+              </div>
+            ))}
           </div>
         </div>
       </section>

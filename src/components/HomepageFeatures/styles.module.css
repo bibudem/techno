@@ -80,7 +80,7 @@
 .spacesSection {
   background-color: #0d0c2b;
   color: #fff;
-  padding: 4rem 1rem;
+  padding: 6rem 1rem;
 }
 
 .spacesContainer {
@@ -163,7 +163,7 @@
 /* === Section Cartes VR + Ateliers === */
 .cardsSection {
   background-color: #fff;
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
 }
 
 .cardsContainer {
@@ -176,13 +176,13 @@
 }
 
 .cardVR {
-  flex: 1 1 560px;
+  flex: 1 1 40%;
   position: relative;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("/img/home-vr.png");
   background-size: cover;
   background-position: center;
   border-radius: 16px;
-  height: clamp(250px, 30vw, 280px);
+  height: clamp(280px, 30vw, 350px);
   color: #fff;
   padding: 2rem;
   display: flex;

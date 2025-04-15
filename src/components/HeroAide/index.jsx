@@ -1,0 +1,20 @@
+import React from 'react';
+import styles from './HeroAide.module.css';
+import Link from '@docusaurus/Link';
+import { Question } from '@phosphor-icons/react';
+
+export default function HeroAide() {
+  return (
+    <section className={styles.heroSection}>
+        <Question size={128} color="#ffca40" weight="duotone" className={styles.heroIcon} />
+      <h2 className={styles.heroTitle}>Nous sommes là pour vous aider</h2>
+      <p className={styles.heroText}>
+  Besoin d’un coup de main? Que ce soit pour l’informatique ou la création,<br />
+  notre équipe est là pour vous soutenir.
+</p>
+      <Link className={styles.heroButton} to="/a-propos/contact">
+        Nous joindre
+      </Link>
+    </section>
+  );
+}

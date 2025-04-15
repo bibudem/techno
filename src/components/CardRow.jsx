@@ -36,7 +36,7 @@ export default function CardRow({ children, gap = 32, minCardWidth = 300, maxCar
     >
      {React.Children.map(children, (child, index) => {
   const isHovered = index === hoveredIndex;
-  const flexGrow = isHovered ? 1.15 : 1;
+  const flexGrow = isHovered ? 1.1 : 1;
   return React.cloneElement(child, {
     style: {
       flexGrow,

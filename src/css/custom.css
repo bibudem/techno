@@ -408,7 +408,7 @@ html[data-theme="dark"] {
 
 
 .homepage-section {
-  margin: 2rem auto;
+  margin-top: 2rem;
   max-width: 100%;
   /* display: flex; */
   /* flex-direction: column; */
