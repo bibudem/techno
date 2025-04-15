@@ -24,8 +24,8 @@ export default function HomepageFeatures() {
       <section className="homepage-section">
   <CardRow>
     <CardBib
-      title="Postes Apportez Votre Appareil (AVA)"
-      Icon={Cube}
+      title="Studio Balado"
+      Icon={Microphone}
       href="#"
       moreText="Explorer"
       small
@@ -38,8 +38,8 @@ export default function HomepageFeatures() {
       small
     />
     <CardBib
-      title="Studio Balado"
-      Icon={Microphone}
+      title="Accès à distance"
+      Icon={Cube}
       href="#"
       moreText="Explorer"
       small
