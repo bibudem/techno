@@ -1,0 +1,54 @@
+.cardLink {
+  min-width: 260px;
+  max-width: 100%;
+}
+
+.cardRoot {
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardIcon {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.cardTitle {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
+}
+
+.cardSpacer {
+  flex-grow: 1;
+}
+
+.cardMore {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: white;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.cardArrow {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

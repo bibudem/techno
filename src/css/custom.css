@@ -405,3 +405,12 @@ html[data-theme="dark"] {
   color: #ffffff;
 }
 
+
+
+.homepage-section {
+  margin: 2rem auto;
+  max-width: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
