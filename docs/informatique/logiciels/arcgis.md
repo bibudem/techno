@@ -7,8 +7,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
-ArcGIS Pro est une application qui permet d’explorer, visualiser et analyser des données ainsi que créer
-des cartes 2D et des scènes 3D.
+ArcGIS Pro est une application qui permet d’explorer, visualiser et analyser des données ainsi que créer des cartes 2D et des scènes 3D.
 
 ## Préalables
 
