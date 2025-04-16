@@ -9,21 +9,23 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Contribuer
 
-**Nous encourageons le partage de connaissances et vos contributions sont les bienvenues!** 
-
-## Notion
-
-Nous avons mis en place un espace collaboratif sur Notion pour la communauté UdeM. Vous pouvez y partager vos projets, idées ou ressources. La page Zone collaboration est ouverte à l’édition : une fois votre compte créé, ajoutez simplement une entrée dans la base de données.
-
-<Link to="#" className="button button--primary">
-  Allez vers la Zone collaboration
-</Link>
+**Vos contributions sont les bienvenues!** 
 
 ---
 
 ## Rétroaction 
 
 Si vous voulez proposer des corrections ou nous suggérer des précisions à ajouter pour une section, vous pouvez utiliser la fonction de rétroaction en bas de chaque page en laissant un commentaire.
+
+---
+
+## Notion
+
+Nous avons mis en place un espace collaboratif sur Notion pour la communauté UdeM. Vous pouvez y partager vos projets, idées ou ressources en lien avec les sections **Technologies créatives** et **Productions médias**. La page Zone collaboration est ouverte à l’édition : une fois votre compte créé, ajoutez simplement une entrée dans la base de données.
+
+<Link to="#" className="button button--primary">
+  Accéder à la Zone collaboration
+</Link>
 
 ---
 
@@ -40,6 +42,10 @@ Vous pouvez :
 - proposer une PR avec vos changements.
 
 Si votre contribution est acceptée, elle sera intégrée au site après révision.
+
+:::warning 
+La contribution via GitHub est actuellement limitée à la section **Technologies créatives** et **Productions médias** du site.
+:::
 
 ---
 
