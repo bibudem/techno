@@ -407,8 +407,8 @@ const sidebars = {
       link: { type: 'doc', id: 'a-propos/index' }, 
       items: [
         'a-propos/nous-joindre',
-        'a-propos/mission',
-        'a-propos/equipe',
+        // 'a-propos/mission',
+        // 'a-propos/equipe',
         'a-propos/contribuer',
         'a-propos/accessibilite',
         'a-propos/politique',
