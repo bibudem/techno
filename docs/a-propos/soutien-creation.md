@@ -1,0 +1,39 @@
+---
+title : Soutien création et médias
+id : soutien-creation
+description : Contactez-nous pour toute question ou information supplémentaire.
+retroaction : false
+---
+
+import CardGrid from "@site/src/components/CardGrid";
+import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
+
+Nous offrons du soutien pour vos projets créatifs et vos productions multimédias. Notre équipe est là pour vous accompagner!
+
+### Exemples d’aide offerte
+- Soutien pour les studios
+- Initiation à l'impression 3D, etc.
+- Conseils techniques ou créatifs
+
+<CardGrid
+  items={[
+    {
+      title: "Par courriel",
+      description: "studio@bib.umontreal.ca",
+      link: "mailto:studio@bib.umontreal.ca",
+      icon : "Desktop",
+    },
+    {
+      title: "Sur rendez-vous",
+      description: "Rencontrer un membre de l’équipe.",
+      link: "#",
+      icon : "CubeFocus",
+    },
+    ]}
+/>
+
+
+
+Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
+
+

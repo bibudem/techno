@@ -406,7 +406,25 @@ const sidebars = {
       label: 'À propos',
       link: { type: 'doc', id: 'a-propos/index' }, 
       items: [
-        'a-propos/nous-joindre',
+        {
+          type: 'category',
+          label: 'Nous joindre',
+          link: { type: 'doc', id: 'a-propos/nous-joindre' },
+          collapsible: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'a-propos/soutien-informatique',
+              className: 'hidden', // Garde la page d’aide cachée
+            },
+            {
+              type: 'doc',
+              id: 'a-propos/soutien-creation',
+              className: 'hidden', // Garde la page d’aide cachée
+            },
+          ],
+        },
+        
         // 'a-propos/mission',
         // 'a-propos/equipe',
         'a-propos/contribuer',
