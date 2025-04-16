@@ -29,7 +29,7 @@ export default function ProchainsAteliers() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://api.bib.umontreal.ca/formations/discipline/mi')
+    fetch('https://api.bib.umontreal.ca/formations/discipline/art-cinema-musique')
       .then(res => res.json())
       .then(data => {
         const àVenir = data
@@ -78,7 +78,7 @@ export default function ProchainsAteliers() {
         )}
       </ul>
       <div className={styles.cardFooter}>
-        <a href="https://calendrier.bib.umontreal.ca/calendar/formations" className={styles.cardMore}>
+        <a href="https://calendrier.bib.umontreal.ca/calendar" className={styles.cardMore}>
           Voir tous les ateliers →
         </a>
       </div>
