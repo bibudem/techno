@@ -12,9 +12,9 @@ export default function HeroAide() {
   Besoin d’un coup de main? Que ce soit pour l’informatique ou la création,<br />
   notre équipe est là pour vous soutenir.
 </p>
-      <Link className={styles.heroButton} to="/a-propos/contact">
-        Nous joindre
-      </Link>
+<Link className="button button--primary" to="/a-propos/nous-joindre">
+  Nous joindre
+</Link>
     </section>
   );
 }

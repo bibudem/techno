@@ -91,9 +91,9 @@ export default function PageAccueil() {
               émergentes, collaborer sur des projets ou explorer de nouvelles idées,
               chaque lieu offre une opportunité d’inventer, de créer et de partager.
             </p>
-            <a href="/espaces" className={styles.spacesButton}>
-              Découvrir nos espaces →
-            </a>
+            <a href="/espaces" className="button button--secondary">
+  Découvrir nos espaces →
+</a>
           </div>
           <div className={styles.spacesImages}>
             {["/img/espace-1.jpg", "/img/espace-2.jpg", "/img/espace-3.jpg"].map((src, idx) => (
