@@ -22,12 +22,6 @@ import CardGrid from "@site/src/components/CardGrid";
       icon : "Cube",
     },
     {
-      title: "Laboratoire informatique",
-      description: "Postes informatiques équipés de logiciels spécialisés pour la formation et la recherche.",
-      link: "laboformation",
-      icon : "Desktop",
-    },
-    {
       title: "Studios audio",
       description: "Enregistrez des balados, des entretiens et des présentations avec du matériel professionnel.",
       link: "studioaudio",
