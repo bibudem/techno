@@ -2,6 +2,7 @@
   min-width: 260px;
   max-width: 100%;
   text-decoration: none;
+
 }
 
 .cardRoot {
@@ -11,6 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
 }
 
 .cardIcon {
@@ -58,4 +60,18 @@
 .cardLink:hover,
 .cardLink:focus {
   text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+  .cardRoot {
+    border-radius: 0;
+  }
+
+  .cardLink {
+    margin-bottom: 1rem;
+  }
+
+  .card-row {
+    gap: 1rem !important;
+  }
 }

@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './styles.module.css';
 import CardBib from '@site/src/components/CardBib';
 import CardRow from '@site/src/components/CardRow';
-import { Cube, AppWindow, VideoCamera, Network, Microphone, PaintBrush } from '@phosphor-icons/react';
+import ProchainsAteliers from '@site/src/components/ProchainsAteliers';
+import { Cube, AppWindow, VideoCamera, Network, Microphone, PaintBrush, ArrowRight } from '@phosphor-icons/react';
 
-export default function HomepageFeatures() {
+export default function PageAccueil() {
   return (
     <>
       <section className={styles.introSection}>
@@ -24,9 +25,9 @@ export default function HomepageFeatures() {
       <section className="homepage-section">
   <CardRow>
     <CardBib
-      title="Studio Balado"
+      title="Studios Audio"
       Icon={Microphone}
-      href="#"
+      href="/espaces/studioaudio"
       moreText=""
       small
       color="jaune"
@@ -34,7 +35,7 @@ export default function HomepageFeatures() {
     <CardBib
       title="Impression 3D"
       Icon={Cube}
-      href="#"
+      href="/creatives/impression3d"
       moreText=""
       small
       color="jaune"
@@ -42,7 +43,7 @@ export default function HomepageFeatures() {
     <CardBib
       title="Accès à distance aux logiciels"
       Icon={AppWindow}
-      href="#"
+      href="/informatique/connexion-distance"
       moreText=""
       small
       color="jaune"
@@ -50,7 +51,7 @@ export default function HomepageFeatures() {
     <CardBib
       title="Accès hors campus (Proxy et VPN)"
       Icon={Network}
-      href="#"
+      href="/informatique/hors-campus"
       moreText=""
       small
       color="jaune"
@@ -67,39 +68,12 @@ export default function HomepageFeatures() {
                 Immersion totale,<br /> expérience ultime.
               </p>
             </div>
-            <div className={styles.cardArrow}>→</div>
-          </div>
-
-          <div className={styles.cardWorkshops}>
-            <div className={styles.cardHeader}>Prochains ateliers</div>
-            <ul className={styles.cardList}>
-              {[{
-                date: '11 mars 2025',
-                title: 'Création de balado',
-                location: 'Bibliothèque mathématiques et informatique',
-              }, {
-                date: '18 mars 2025',
-                title: 'Initiation à l’impression 3D',
-                location: 'Bibliothèque Marguerite d’Youville',
-              }, {
-                date: '18 mars 2025',
-                title: 'Découpeuse numérique',
-                location: 'Bibliothèque Thérèse-Gouin-Décarie',
-              }].map(({ date, title, location }, idx) => (
-                <li key={idx} className={styles.cardItem}>
-                  <div className={styles.cardItemTop}>
-                    <span className={styles.cardDate}>{date}</span>
-                    <span> — </span>
-                    <a href="#" className={styles.cardTitle}>{title}</a>
-                  </div>
-                  <div className={styles.cardLocation}>{location}</div>
-                </li>
-              ))}
-            </ul>
-            <div className={styles.cardFooter}>
-              <a href="#" className={styles.cardMore}>Voir tous les ateliers →</a>
+            <div className={styles.cardArrow}>
+              <ArrowRight size={24} weight="light" color="#000" />
             </div>
           </div>
+
+          <ProchainsAteliers />
         </div>
       </section>
 

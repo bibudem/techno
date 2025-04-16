@@ -178,7 +178,7 @@
 .cardVR {
   flex: 1 1 40%;
   position: relative;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("/img/home-vr.png");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/home-vr.png");
   background-size: cover;
   background-position: center;
   border-radius: 16px;
@@ -188,6 +188,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.cardVR::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2); /* couleur de superposition */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  border-radius: 16px;
+}
+
+.cardVR:hover::after {
+  opacity: 1;
+}
+
+.cardVR > * {
+  position: relative;
+  z-index: 1;
 }
 
 .cardVRTitle {
@@ -202,20 +225,23 @@
 
 .cardArrow {
   align-self: flex-end;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 999px;
+  background-color: #FFCA40;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
-  font-weight: bold;
-  font-size: 1.2rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cardVR:hover .cardArrow {
+  transform: translateX(0.2rem);
+  background-color: #FFDC81;
 }
 
 .cardWorkshops {
-  flex: 1 1 340px;
+  flex: 1 1 575px;
   background-color: #f9fafb;
   border-radius: 16px;
   overflow: hidden;
