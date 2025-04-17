@@ -14,8 +14,8 @@ function initGA() {
     window.dataLayer = window.dataLayer || [];
     function gtag(){ window.dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-XXXX');
-    console.log('✅ GA chargé');
+    gtag('config', 'G-R5SGXR9DKM');
+    console.log('GA chargé');
   });
 }
 
@@ -25,7 +25,7 @@ function initClarity() {
     t=l.createElement(r); t.async=1; t.src="https://www.clarity.ms/tag/"+i;
     y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
   })(window, document, "clarity", "script", "r5bxj4q7vj");
-  console.log('✅ Clarity chargé');
+  console.log('Clarity chargé');
 }
 
 if (ExecutionEnvironment.canUseDOM) {
