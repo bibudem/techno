@@ -161,18 +161,33 @@
 }
 
 /* === Section Cartes VR + Ateliers === */
+
 .cardsSection {
   background-color: #fff;
-  padding: 2rem 0rem;
+  padding: 2rem 0;
 }
 
 .cardsContainer {
-  max-width: 100%;
-  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-between;
+  align-items: flex-start;  /* aligne en haut */
+  flex-wrap: wrap;          /* passe en colonne si l’écran est étroit */
+}
+
+/* Colonne de gauche : empilement vertical des cartes */
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;                  /* prend l’espace disponible */
+  min-width: 280px;         /* pour ne pas trop rétrécir */
+}
+
+/* Colonne de droite : ProchainsAteliers */
+.rightColumn {
+  flex: 1;                  /* même largeur que la colonne de gauche */
+  min-width: 280px;
 }
 
 .cardWorkshops {

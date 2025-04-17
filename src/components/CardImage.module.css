@@ -20,7 +20,7 @@
 .cardImageOverlay {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  z-index: 1;              /* sous la flèche */
+  z-index: 2;              /* sous la flèche */
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -63,7 +63,7 @@
   top: 75%;
   right: 2rem;             /* aligné avec le padding */
   transform: translateY(-50%);
-  z-index: 2;              /* au‑dessus de l’overlay */
+  z-index: 3;              /* au‑dessus de l’overlay */
   background-color: #FFCA40;
   width: 3.125rem;
   height: 3.125rem;

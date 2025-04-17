@@ -63,14 +63,23 @@ export default function PageAccueil() {
   </section>
   <section className={styles.cardsSection}>
   <div className={styles.cardsContainer}>
-    
-  <CardImage
-  to="/creatives/vr"
-  title="Réalité virtuelle"
-  description="Immersion totale,<br /> expérience ultime."
-  image="/img/home-vr.png"
-/>
-    <ProchainsAteliers />
+    <div className={styles.leftColumn}>
+      <CardImage
+        to="/creatives/vr"
+        title="Réalité virtuelle"
+        description="Immersion totale,<br /> expérience ultime."
+        image="/img/home-vr.png"
+      />
+      <CardImage
+        to="/informatique/ava"
+        title="Postes AVA"
+        description="Étendez votre horizon de travail<br /> avec un grand affichage."
+        image="/img/home-ava.jpg"
+      />
+    </div>
+    <div className={styles.rightColumn}>
+      <ProchainsAteliers />
+    </div>
   </div>
 </section>
 
