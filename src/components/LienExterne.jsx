@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowSquareOut } from '@phosphor-icons/react';
+import { useLocation } from '@docusaurus/router';
 
 const estLienExterne = (href) => {
   try {
@@ -15,6 +16,8 @@ const estLienExterne = (href) => {
 };
 
 export default function LienExterne() {
+  const location = useLocation();
+
   useEffect(() => {
     const liens = document.querySelectorAll('a[href]');
 
@@ -28,7 +31,7 @@ export default function LienExterne() {
       ) {
         lien.dataset.lienExterne = 'true';
 
-        // les liens s'ouvrent dans le même onglet
+        // comportement : même onglet
         lien.removeAttribute('target');
         lien.removeAttribute('rel');
 
@@ -42,7 +45,7 @@ export default function LienExterne() {
         createRoot(wrapper).render(<ArrowSquareOut size={16} />);
       }
     });
-  }, []);
+  }, [location.pathname]); // 🔁 déclenché à chaque navigation
 
   return null;
 }
