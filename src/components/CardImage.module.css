@@ -1,0 +1,80 @@
+/* CardImage.module.css */
+
+.cardImage {
+  flex: 1 1 40%;
+  position: relative;      /* pour position absolute de la flèche */
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  height: 200px;           /* hauteur fixe */
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.cardImageOverlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;              /* sous la flèche */
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Contenu (titre, texte) derrière l’overlay, sauf la flèche */
+.cardImage > *:not(.cardImageOverlay):not(.cardImageArrow) {
+  position: relative;
+  z-index: 1;
+}
+
+.cardImage::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  border-radius: 16px;
+}
+
+.cardImage:hover::after {
+  opacity: 1;
+}
+
+.cardImageTitle {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardImageText {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Flèche positionnée absolument et centrée verticalement */
+.cardImageArrow {
+  position: absolute;
+  top: 75%;
+  right: 2rem;             /* aligné avec le padding */
+  transform: translateY(-50%);
+  z-index: 2;              /* au‑dessus de l’overlay */
+  background-color: #FFCA40;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cardImage:hover .cardImageArrow {
+  transform: translate(0.2rem, -50%);
+  background-color: #FFDC81;
+}

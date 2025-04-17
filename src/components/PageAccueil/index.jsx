@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import CardBib from '@site/src/components/CardBib';
 import CardRow from '@site/src/components/CardRow';
 import ProchainsAteliers from '@site/src/components/ProchainsAteliers';
+import CardImage from '@site/src/components/CardImage';
 import { Cube, AppWindow, VideoCamera, Network, Microphone, PaintBrush, ArrowRight } from '@phosphor-icons/react';
 
 export default function PageAccueil() {
@@ -62,23 +63,13 @@ export default function PageAccueil() {
   </section>
   <section className={styles.cardsSection}>
   <div className={styles.cardsContainer}>
-    <div className={styles.cardVR}>
-      <Link
-        to="/creatives/vr"
-        className={styles.cardOverlay}
-        aria-label="Accéder à la page Réalité virtuelle"
-      />
-      <div>
-        <h3 className={styles.cardVRTitle}>Réalité virtuelle</h3>
-        <p className={styles.cardVRText}>
-          Immersion totale,<br /> expérience ultime.
-        </p>
-      </div>
-      <div className={styles.cardArrow}>
-        <ArrowRight size={24} weight="light" color="#000" />
-      </div>
-    </div>
-
+    
+  <CardImage
+  to="/creatives/vr"
+  title="Réalité virtuelle"
+  description="Immersion totale,<br /> expérience ultime."
+  image="/img/home-vr.png"
+/>
     <ProchainsAteliers />
   </div>
 </section>
