@@ -30,7 +30,7 @@ export default function PageAccueil() {
       title="Studios Audio"
       Icon={Microphone}
       href="/espaces/studioaudio"
-      moreText=""
+      moreText="Enregistrer des balados"
       small
       color="jaune"
     />
@@ -38,7 +38,7 @@ export default function PageAccueil() {
       title="Impression 3D"
       Icon={Cube}
       href="/creatives/impression3d"
-      moreText=""
+      moreText="Imprimer vos objets"
       small
       color="jaune"
     />
@@ -46,15 +46,15 @@ export default function PageAccueil() {
       title="Accès à distance aux logiciels"
       Icon={AppWindow}
       href="/informatique/connexion-distance"
-      moreText=""
+      moreText="En savoir plus"
       small
       color="jaune"
     />
     <CardBib
-      title="Accès hors campus (Proxy et VPN)"
+      title="Accès hors campus"
       Icon={Network}
       href="/informatique/hors-campus"
-      moreText=""
+      moreText="Grâce aux Proxy et VPN"
       small
       color="jaune"
     />
