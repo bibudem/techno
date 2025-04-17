@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styles from './HoraireSoutien.module.css';
 
+// ✅ Version locale de formatDateStr — plus de toISOString()
 function formatDateStr(d) {
-  return d.toISOString().split('T')[0]; // "YYYY-MM-DD"
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 function formatDateLocale(d) {
@@ -13,10 +17,9 @@ function formatDateLocale(d) {
   });
 }
 
-function getLundi(offset = 0) {
-  const today = new Date();
-  const lundi = new Date(today);
-  lundi.setDate(today.getDate() - today.getDay() + 1 + offset * 7);
+function getLundi(offset = 0, baseDate = new Date()) {
+  const lundi = new Date(baseDate);
+  lundi.setDate(baseDate.getDate() - baseDate.getDay() + 1 + offset * 7);
   return lundi;
 }
 
@@ -26,9 +29,10 @@ export function HoraireSemaine({ codeBib = "ss" }) {
   const todayStr = formatDateStr(new Date());
 
   useEffect(() => {
-    const lundi0 = getLundi(0);
+    const base = new Date();
+    const lundi0 = getLundi(0, base);
     const dimanche7 = new Date(lundi0);
-    dimanche7.setDate(lundi0.getDate() + 55); // 8 semaines * 7 - 1 = 55
+    dimanche7.setDate(lundi0.getDate() + 55);
 
     fetch(
       `https://api.bib.umontreal.ca/horaires?bibs=${codeBib}&debut=${formatDateStr(
@@ -40,7 +44,7 @@ export function HoraireSemaine({ codeBib = "ss" }) {
         const map = new Map();
 
         for (let i = 0; i < 8; i++) {
-          const lundi = getLundi(i);
+          const lundi = getLundi(i, base);
           const dimanche = new Date(lundi);
           dimanche.setDate(lundi.getDate() + 6);
 
@@ -48,12 +52,15 @@ export function HoraireSemaine({ codeBib = "ss" }) {
           const dimancheStr = formatDateStr(dimanche);
 
           const semaine = data.evenements
-            .filter(
-              (evt) =>
+            .filter((evt) => {
+              const dateLocal = new Date(evt.date);
+              const dateStr = formatDateStr(dateLocal);
+              return (
                 evt.service === "soutien-informatique" &&
-                evt.date.slice(0, 10) >= lundiStr &&
-                evt.date.slice(0, 10) <= dimancheStr
-            )
+                dateStr >= lundiStr &&
+                dateStr <= dimancheStr
+              );
+            })
             .sort((a, b) => a.date.localeCompare(b.date));
 
           map.set(i, semaine);
@@ -63,19 +70,20 @@ export function HoraireSemaine({ codeBib = "ss" }) {
       });
   }, [codeBib]);
 
-  const lundi = getLundi(offsetSemaine);
+  const baseDate = new Date();
+  const lundi = getLundi(offsetSemaine, baseDate);
   const dimanche = new Date(lundi);
   dimanche.setDate(lundi.getDate() + 6);
 
   const joursSemaine = Array.from({ length: 7 }, (_, i) => {
     const d = new Date(lundi);
-    d.setDate(d.getDate() + i);
+    d.setDate(lundi.getDate() + i);
     return d;
   });
 
   const horaires = horairesParSemaine.get(offsetSemaine) || [];
   const horairesMap = Object.fromEntries(
-    horaires.map((h) => [h.date.slice(0, 10), h.sommaire])
+    horaires.map((h) => [formatDateStr(new Date(h.date)), h.sommaire])
   );
 
   return (
