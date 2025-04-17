@@ -413,3 +413,7 @@ html[data-theme="dark"] {
   /* flex-direction: column; */
   /* align-items: center; */
 }
+
+#udem_cookie_consent_toggle {
+  display: none !important;
+}

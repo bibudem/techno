@@ -24,6 +24,11 @@ const config = {
     locales: ['fr'],
   },
 
+  clientModules: [
+    require.resolve('./src/clientModules/udemCookieConsent.js'),
+    require.resolve('./src/clientModules/trackerLoader.js'),
+  ],
+
   presets: [
     [
       'classic',

@@ -194,3 +194,19 @@ footer img {
   display: inline-block;
   vertical-align: middle;
 }
+
+.cookieSettings {
+  display: inline-block;
+  margin-left: 0.25rem;
+  /* Hérite du même style que vos autres liens */
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cookieSettingsLink {
+  color: inherit;           /* hérite de ta couleur de texte */
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 0.25rem;     /* petite marge pour espacer du “|” */
+}
