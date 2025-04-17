@@ -193,6 +193,24 @@
   transition: box-shadow 0.3s ease;
 }
 
+.cardOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2; /* S'assurer qu'il est devant le contenu */
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Met le contenu de .cardVR derrière le lien */
+.cardVR > *:not(.cardOverlay) {
+  position: relative;
+  z-index: 1;
+}
+
 .cardVR::after {
   content: '';
   position: absolute;
@@ -206,11 +224,6 @@
 
 .cardVR:hover::after {
   opacity: 1;
-}
-
-.cardVR > * {
-  position: relative;
-  z-index: 1;
 }
 
 .cardVRTitle {
@@ -300,3 +313,4 @@
   font-size: 0.9rem;
   text-decoration: none;
 }
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 import CardBib from '@site/src/components/CardBib';
 import CardRow from '@site/src/components/CardRow';
 import ProchainsAteliers from '@site/src/components/ProchainsAteliers';
@@ -59,23 +60,28 @@ export default function PageAccueil() {
   </CardRow>
 
   </section>
-      <section className={styles.cardsSection}>
-        <div className={styles.cardsContainer}>
-          <div className={styles.cardVR}>
-            <div>
-              <h3 className={styles.cardVRTitle}>Réalité virtuelle</h3>
-              <p className={styles.cardVRText}>
-                Immersion totale,<br /> expérience ultime.
-              </p>
-            </div>
-            <div className={styles.cardArrow}>
-              <ArrowRight size={24} weight="light" color="#000" />
-            </div>
-          </div>
+  <section className={styles.cardsSection}>
+  <div className={styles.cardsContainer}>
+    <div className={styles.cardVR}>
+      <Link
+        to="/creatives/vr"
+        className={styles.cardOverlay}
+        aria-label="Accéder à la page Réalité virtuelle"
+      />
+      <div>
+        <h3 className={styles.cardVRTitle}>Réalité virtuelle</h3>
+        <p className={styles.cardVRText}>
+          Immersion totale,<br /> expérience ultime.
+        </p>
+      </div>
+      <div className={styles.cardArrow}>
+        <ArrowRight size={24} weight="light" color="#000" />
+      </div>
+    </div>
 
-          <ProchainsAteliers />
-        </div>
-      </section>
+    <ProchainsAteliers />
+  </div>
+</section>
 
       
 
