@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   Cube,
   VirtualReality,
@@ -32,7 +32,6 @@ import {
   Record,
   PencilSimpleLine,
   CubeFocus,
-
 } from "@phosphor-icons/react";
 
 const iconMap = {
@@ -70,7 +69,10 @@ const iconMap = {
   CubeFocus,
 };
 
-const CardGrid = ({ items }) => {
+export default function CardGrid({ items }) {
+  // on stocke l'index de la carte survolée
+  const [hovered, setHovered] = useState(null);
+
   return (
     <div
       className="grid"
@@ -82,19 +84,17 @@ const CardGrid = ({ items }) => {
     >
       {items.map((item, index) => {
         const Icon = item.icon && iconMap[item.icon];
-
-        if (item.icon && !Icon) {
-          console.warn(`Icône "${item.icon}" introuvable dans iconMap`);
-        }
-
         return (
           <a
             key={index}
             href={item.link}
             className="card card--clickable"
+            onMouseEnter={() => setHovered(index)}
+            onMouseLeave={() => setHovered(null)}
             style={{
-              backgroundColor: "#0057ac",
-              color: "#fff",
+              backgroundColor:
+                hovered === index ? "#FFDC81" : "#FFCA40",
+              color: "#000",
               borderRadius: "8px",
               padding: "1rem",
               textDecoration: "none",
@@ -105,9 +105,15 @@ const CardGrid = ({ items }) => {
           >
             <div
               className="card__header"
-              style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+              }}
             >
-              {Icon && <Icon size={24} />}
+              {Icon && (
+                <Icon size={24} color="#BC8800" />
+              )}
               <h3 style={{ margin: 0 }}>{item.title}</h3>
             </div>
             <div className="card__body">
@@ -118,6 +124,4 @@ const CardGrid = ({ items }) => {
       })}
     </div>
   );
-};
-
-export default CardGrid;
+}

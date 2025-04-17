@@ -2,6 +2,7 @@
 id : electronique
 title : Électronique
 ---
+import CardGrid from '@site/src/components/CardGrid';
 
 # Électroniques
 
@@ -9,98 +10,32 @@ Cette section est destinée à vous aider à mieux comprendre les technologies d
 
 ---
 
-<div
-  className="grid grid--1"
-  style={{
-    display: "grid",
-    gap: "1rem",
-    gridTemplateColumns: "1fr",
-  }}
->
-  {/* Carte Arduino */}
-  <a
-    href="#"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0057ac",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Arduino</h3>
-    </div>
-    <div className="card__body">
-      <img
-        src="#"
-        alt="une carte Arduino"
-        style={{ width: "100%", borderRadius: "4px", marginBottom: "1rem" }}
-      />
-      Arduino est une plateforme de développement *open-source* populaire pour les projets électroniques. Elle se compose d'une carte électronique programmable et d'un environnement de développement (Arduino IDE) qui permet aux utilisateurs de créer des projets interactifs en contrôlant les entrées et les sorties. Les cartes Arduino sont faciles à utiliser, abordables et peuvent être personnalisées pour répondre à des besoins spécifiques.
-    </div>
-    <div style={{ marginTop: "1rem" }}>
-      [Découvrir Arduino](#)
-    </div>
-  </a>
 
-  {/* Carte Raspberry Pi */}
-  <a
-    href="#"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0057ac",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Raspberry Pi</h3>
-    </div>
-    <div className="card__body">
-      <img
-        src="#"
-        alt="une carte Raspberry Pi"
-        style={{ width: "100%", borderRadius: "4px", marginBottom: "1rem" }}
-      />
-      Le Raspberry Pi est un ordinateur monocarte abordable et polyvalent qui a été développé pour encourager l'apprentissage de l'informatique et de l'électronique. Il dispose d'un processeur puissant, de ports USB, de ports Ethernet, d'un port HDMI, d'un connecteur pour une caméra et de broches GPIO pour la connexion de périphériques électroniques.
-    </div>
-    <div style={{ marginTop: "1rem" }}>
-      [Découvrir Raspberry Pi](#)
-    </div>
-  </a>
-
-  {/* Carte Internet des Objets */}
-  <a
-    href="#"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0057ac",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Internet des Objets</h3>
-    </div>
-    <div className="card__body">
-      <img
-        src="#"
-        alt="Une carte ESP8266"
-        style={{ width: "100%", borderRadius: "4px", marginBottom: "1rem" }}
-      />
-      L'Internet des Objets (*IoT*) est une technologie en constante évolution qui permet la connexion de différents types d'objets à internet, allant des appareils domestiques tels que les thermostats et les lumières, aux équipements industriels tels que les capteurs de température et les systèmes de surveillance. L'ESP8266 est un microcontrôleur qui est souvent utilisé dans les projets *IoT* en raison de sa connectivité Wi-Fi intégrée et de sa faible consommation d'énergie.
-    </div>
-    <div style={{ marginTop: "1rem" }}>
-      [Découvrir l'Internet des Objets](#)
-    </div>
-  </a>
-</div>
+<CardGrid
+  items={[
+    {
+      title: "Arduino",
+      description: `![Arduino](URL_DE_VOTRE_IMAGE "Arduino")
+      
+Arduino est une plateforme de développement _open‑source_ populaire pour les projets électroniques. Elle se compose d'une carte programmable et d'un IDE (Arduino IDE) permettant de créer des montages interactifs. Facile à prendre en main et personnalisable selon vos besoins.`,
+      link: "/creatives/impression3d/arduino",
+      icon: "Circuitry",
+    },
+    {
+      title: "Raspberry Pi",
+      description: `![Raspberry Pi](URL_DE_VOTRE_IMAGE "Raspberry Pi")
+      
+Le Raspberry Pi est un ordinateur monocarte abordable et polyvalent, pensé pour l'apprentissage de l'informatique et de l’électronique. Il embarque un processeur, des ports USB, Ethernet, HDMI et des broches GPIO pour vos montages.`,
+      link: "/creatives/impression3d/raspberry-pi",
+      icon: "DesktopTower",
+    },
+    {
+      title: "Internet des Objets",
+      description: `![ESP8266](URL_DE_VOTRE_IMAGE "ESP8266")
+      
+L’Internet des Objets (_IoT_) connecte objets domestiques et industriels au réseau. L’ESP8266, microcontrôleur à faible consommation, est largement utilisé pour piloter capteurs et actionneurs en Wi‑Fi.`,
+      link: "/creatives/impression3d/iot",
+      icon: "WifiHigh",
+    },
+  ]}
+/>

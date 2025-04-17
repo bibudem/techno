@@ -43,134 +43,46 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 De la documentation est disponible pour vous aider à utiliser les imprimantes 3D :
 
-<div
-  className="grid grid--4"
-  style={{
-    display: "grid",
-    gap: "1rem",
-    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-  }}
->
-<a
-    href="/creatives/impression3d/introduction"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0B113A",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Introduction à l'impression 3D</h3>
-    </div>
-    <div className="card__body">
-      
-    </div>
-  </a>
-
-  <a
-    href="/creatives/impression3d/modeles3d"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0B113A",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Les modèles 3D</h3>
-    </div>
-    <div className="card__body">
-      
-    </div>
-  </a>
-
-
-  <a
-    href="/creatives/impression3d/prusa"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0057ac",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Prusa i3 Mk3s+</h3>
-    </div>
-    <div className="card__body">
-      
-    </div>
-  </a>
-
-  <a
-    href="/creatives/impression3d/ultimaker"
-    className="card card--clickable"
-    style={{
-      backgroundColor: "#0057ac",
-      color: "#fff",
-      borderRadius: "8px",
-      padding: "1rem",
-      textDecoration: "none",
-      transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-    }}
-  >
-    <div className="card__header">
-      <h3>Ultimaker</h3>
-    </div>
-    <div className="card__body">
-      
-    </div>
-  </a>
-
-<a
-    href="/creatives/impression3d/bambu"
-      className="card card--clickable"
-      style={{
-        backgroundColor: "#0057ac",
-        color: "#fff",
-        borderRadius: "8px",
-        padding: "1rem",
-        textDecoration: "none",
-        transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-      }}
-    >
-      <div className="card__header">
-        <h3>BambuLab X1C</h3>
-      </div>
-      <div className="card__body">
-    </div>
-    </a>
-
-<a
-    href="/creatives/impression3d/saturn"
-      className="card card--clickable"
-      style={{
-        backgroundColor: "#0057ac",
-        color: "#fff",
-        borderRadius: "8px",
-        padding: "1rem",
-        textDecoration: "none",
-        transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s",
-      }}
-    >
-      <div className="card__header">
-        <h3>Elegoo Saturn 3 Ultra 12K</h3>
-      </div>
-      <div className="card__body">
-    </div>
-    </a>
-
-  </div>
+<CardGrid
+  items={[
+    {
+      title: "Introduction à l'impression 3D",
+      description: "",
+      link: "/creatives/impression3d/introduction",
+      icon: "CubeFocus",
+    },
+    {
+      title: "Les modèles 3D",
+      description: "",
+      link: "/creatives/impression3d/modeles3d",
+      icon: "Cube",
+    },
+    {
+      title: "Prusa i3 Mk3s+",
+      description: "",
+      link: "/creatives/impression3d/prusa",
+      icon: "",
+    },
+    {
+      title: "Ultimaker",
+      description: "",
+      link: "/creatives/impression3d/ultimaker",
+      icon: "",
+    },
+    {
+      title: "BambuLab X1C",
+      description: "",
+      link: "/creatives/impression3d/bambu",
+      icon: "",
+    },
+    {
+      title: "Elegoo Saturn 3 Ultra 12K",
+      description: "",
+      link: "/creatives/impression3d/saturn",
+      icon: "",
+    },
+  ]}
+/>
 
 
 ---

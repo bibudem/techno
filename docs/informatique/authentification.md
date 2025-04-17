@@ -4,6 +4,7 @@ description: Accédez aux services informatiques de l'Université de Montréal g
 image: "/img/cover/authentification.webp"
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import CardGrid from '@site/src/components/CardGrid';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -22,36 +23,33 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
 
 ## Ressources
 
-<div className="grid grid--3" style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}>
-
-<a href="https://wiki.umontreal.ca/x/HJeUBw" target="_blank" rel="noopener noreferrer" className="card card--clickable" style={{ backgroundColor: "#0057ac", color: "#fff", borderRadius: "8px", padding: "1rem", textDecoration: "none", transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s" }}>
-  <div className="card__header">
-    <h3>Wiki des Technologies de l'information (TI)</h3>
-  </div>
-  <div className="card__body">
-    Accédez à la documentation officielle sur les services informatiques de l'université.
-  </div>
-</a>
-
-<a href="https://ti.umontreal.ca/offre-de-services/services-par-categorie/comptes-et-mots-de-passe/authentification-code-dacces-unip/" target="_blank" rel="noopener noreferrer" className="card card--clickable" style={{ backgroundColor: "#0057ac", color: "#fff", borderRadius: "8px", padding: "1rem", textDecoration: "none", transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s" }}>
-  <div className="card__header">
-    <h3>Code d'accès ou mot de passe oublié?</h3>
-  </div>
-  <div className="card__body">
-    Découvrez comment récupérer votre code d'accès ou réinitialiser votre mot de passe.
-  </div>
-</a>
-
-<a href="https://wiki.umontreal.ca/pages/viewpage.action?pageId=184126772" target="_blank" rel="noopener noreferrer" className="card card--clickable" style={{ backgroundColor: "#0057ac", color: "#fff", borderRadius: "8px", padding: "1rem", textDecoration: "none", transition: "transform 0.2s, box-shadow 0.2s, background-color 0.2s" }}>
-  <div className="card__header">
-    <h3>L'authentification à deux facteurs (A2F)</h3>
-  </div>
-  <div className="card__body">
-    Protégez vos accès avec une couche de sécurité supplémentaire grâce à l'A2F.
-  </div>
-</a>
-
-</div>
+<CardGrid
+  items={[
+    {
+      title: "Wiki des Technologies de l'information (TI)",
+      description:
+        "Accédez à la documentation officielle sur les services informatiques de l'université.",
+      link: "https://wiki.umontreal.ca/x/HJeUBw",
+      icon: "BookOpenText",
+    },
+    {
+      title: "Code d'accès ou mot de passe oublié ?",
+      description:
+        "Découvrez comment récupérer votre code d'accès ou réinitialiser votre mot de passe.",
+      link:
+        "https://ti.umontreal.ca/offre-de-services/services-par-categorie/comptes-et-mots-de-passe/authentification-code-dacces-unip/",
+      icon: "Password",
+    },
+    {
+      title: "Authentification à deux facteurs (A2F)",
+      description:
+        "Protégez vos accès avec une couche de sécurité supplémentaire grâce à l'A2F.",
+      link:
+        "https://wiki.umontreal.ca/pages/viewpage.action?pageId=184126772",
+      icon: "Network",
+    },
+  ]}
+/>
 
 
 ---
