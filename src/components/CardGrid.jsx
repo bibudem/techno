@@ -114,7 +114,7 @@ export default function CardGrid({ items }) {
               {Icon && (
                 <Icon size={24} color="#BC8800" />
               )}
-              <h3 style={{ margin: 0 }}>{item.title}</h3>
+              <h3 style={{ margin: 0, fontWeight: 500 }}>{item.title}</h3>
             </div>
             <div className="card__body">
               <p>{item.description}</p>
