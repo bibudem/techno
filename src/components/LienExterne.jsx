@@ -1,4 +1,6 @@
-import { useEffect } from 'react';
+// src/components/LienExterne.jsx
+
+import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowSquareOut } from '@phosphor-icons/react';
 import { useLocation } from '@docusaurus/router';
@@ -22,8 +24,12 @@ export default function LienExterne() {
     const liens = document.querySelectorAll('a[href]');
 
     liens.forEach((lien) => {
-      const href = lien.getAttribute('href');
+      // Si le lien est à l'intérieur d'un card, on n'y ajoute pas l'icône
+      if (lien.closest('.cardbib, .card, .cardGrid, .cardImage')) {
+        return;
+      }
 
+      const href = lien.getAttribute('href');
       if (
         estLienExterne(href) &&
         !lien.dataset.lienExterne &&
@@ -31,7 +37,7 @@ export default function LienExterne() {
       ) {
         lien.dataset.lienExterne = 'true';
 
-        // comportement : même onglet
+        // On force même onglet, pas de target/_blank
         lien.removeAttribute('target');
         lien.removeAttribute('rel');
 
@@ -39,13 +45,13 @@ export default function LienExterne() {
         wrapper.className = 'icone-externe';
         wrapper.style.marginLeft = '0.25em';
         wrapper.style.display = 'inline-flex';
-        wrapper.style.verticalAlign = 'center';
+        wrapper.style.verticalAlign = 'middle';
 
         lien.appendChild(wrapper);
         createRoot(wrapper).render(<ArrowSquareOut size={16} />);
       }
     });
-  }, [location.pathname]); // 🔁 déclenché à chaque navigation
+  }, [location.pathname]);
 
   return null;
 }
