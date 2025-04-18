@@ -54,7 +54,7 @@ export default function PageAccueil() {
       title="Accès hors campus"
       Icon={Network}
       href="/informatique/hors-campus"
-      moreText="Grâce aux Proxy et VPN"
+      moreText="Configuration Proxy et VPN"
       small
       color="jaune"
     />

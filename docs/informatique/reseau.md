@@ -2,6 +2,7 @@
 title: Réseau sans fil
 description: Guide pour se connecter aux réseaux sans fil de l'Université de Montréal.
 image: "/img/cover/reseau.webp"
+help: info
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

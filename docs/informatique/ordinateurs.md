@@ -3,6 +3,7 @@ title: Ordinateurs
 description: Informations sur les ordinateurs en libre-service et les portables en prêt dans les bibliothèques UdeM.
 hide_table_of_contents: false
 image: "/img/cover/ordinateurs1.webp"
+help: info
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -2,6 +2,7 @@
 id: studiovideo
 title: Studios vidéo
 description : Enregistrer des vidéos de qualité professionnelle.
+help : crea
 ---
 
 import React from 'react';

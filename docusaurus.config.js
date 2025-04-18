@@ -1,6 +1,7 @@
 
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkInsertHelp from './src/utils/remark-insert-help.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -42,7 +43,7 @@ const config = {
             path: './docs', // Chemin local du répertoire docs
             showLastUpdateTime: true, // Active la date de dernière mise à jour
             showLastUpdateAuthor: false, // Optionnel : affiche l'auteur du dernier commit Git
-
+            remarkPlugins: [remarkInsertHelp],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

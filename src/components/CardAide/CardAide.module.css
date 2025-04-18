@@ -1,0 +1,107 @@
+:root {
+  --gris: #383838;
+  --gris-hover: #292929;
+  --white: #ffffff;
+  --yellow: #ffca40;
+  --yellow-hover: #ffd86a;
+}
+
+.cardAide {
+  position: relative;               /* pour position absolute de la flèche */
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  background-color: var(--gris);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cardAide:hover,
+.cardAide:focus {
+  background-color: var(--gris-hover);
+  text-decoration: none !important;
+}
+
+.iconContainer {
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  color: var(--yellow);
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  margin: 0 0 1rem;
+  color: var(--yellow);
+  font-size: 1.5rem;
+}
+
+.text {
+  margin: 0 0 1rem;
+  color: var(--white);
+  line-height: 1.5;
+  white-space: pre-line;
+  max-width: 80%;
+}
+
+
+.arrowContainer {
+  position: absolute;                
+  top: 50%;                          
+  right: 1.5rem;                     
+  transform: translateY(-50%);       
+  z-index: 2;                        
+  background-color: var(--yellow);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:                          
+    transform 0.3s ease,
+    background-color 0.3s ease-in-out;
+}
+
+.cardAide:hover .arrowContainer {
+  background-color: var(--yellow-hover);
+  transform: translate(0.2rem, -50%);
+}
+
+.arrowContainer svg {
+  color: var(--gris);
+}
+
+@media (max-width: 768px) {
+  /* Mettre la carte en colonne et centrer tout */
+  .cardAide {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Supprimer la flèche */
+  .arrowContainer {
+    display: none;
+  }
+
+  /* Espace entre icône et contenu */
+  .iconContainer {
+    margin: 0 0 1rem;
+  }
+
+  /* Centrer le titre et le paragraphe */
+  .title,
+  .text {
+    text-align: center;
+    max-width: none;
+  }
+}

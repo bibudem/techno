@@ -1,8 +1,7 @@
 ---
 title: Numérisation
 description: Guide pour utiliser les services de numérisation offerts par les bibliothèques de l'Université de Montréal.
-pagination_next: null
-pagination_prev: null
+help: info
 ---
 
 import Tabs from '@theme/Tabs';

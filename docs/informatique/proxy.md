@@ -1,6 +1,7 @@
 ---
 title: Configurer le serveur mandataire (proxy)
 description: Guide pour configurer le serveur mandataire (proxy) afin d'accéder aux ressources électroniques.
+help: info
 ---
 
 import React from 'react';

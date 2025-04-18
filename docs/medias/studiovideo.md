@@ -1,5 +1,6 @@
 ---
 title : Guide du studio vidéo
+help : crea
 ---
 
 Les studios d’enregistrement vidéo des bibliothèques des Lettres et sciences humaines (BLSH) et Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Seule une clé USB est requise. Idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!

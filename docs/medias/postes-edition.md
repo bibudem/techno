@@ -3,6 +3,7 @@ id: postes-edition
 title: Postes d'édition
 description: Accédez aux postes d'édition numérique pour la création, l'édition et la publication de contenus vidéo, sonores et graphiques.
 image: "/img/cover/edition.jpg"
+help : crea
 ---
 
 import Link from '@docusaurus/Link';

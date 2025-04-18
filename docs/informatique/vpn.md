@@ -1,7 +1,7 @@
 ---
 title: Installer le VPN
 description: Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM.
-
+help: info
 ---
 
 import Tabs from '@theme/Tabs';

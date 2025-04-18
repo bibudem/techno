@@ -1,5 +1,7 @@
 ---
 title : Adobe Premiere Rush
+description: Tutoriel d'initiation à Adobe Premiere Rush
+help : crea
 ---
 
 ## Création d’un projet de montage sur Adobe Premiere Rush
@@ -116,3 +118,4 @@ Certains environnements sont moins propices à une bonne prise de son. Pour éli
 [Initiation à Premiere Rush](https://helpx.adobe.com/ca_fr/premiere-rush/tutorials.html)
 
 [Adobe Rush Tutorial [UPDATED] - How to Edit Videos with Premiere Rush](https://www.youtube.com/watch?v=YsGQ_Bwi6Zg&t=730s)
+

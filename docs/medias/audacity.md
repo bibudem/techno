@@ -1,5 +1,6 @@
 ---
 title : Audacity
+help : crea
 ---
 
 # Les bases du montage audio avec Audacity
