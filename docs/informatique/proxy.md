@@ -206,4 +206,4 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
   </TabItem>
 </Tabs>
 
-Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  
+Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  ”
