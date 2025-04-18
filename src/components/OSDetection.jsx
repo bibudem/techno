@@ -1,87 +1,50 @@
-import React, { useEffect, useState } from "react";
+// src/components/OSDetection.jsx
+import React, { useLayoutEffect, useState } from 'react';
 
-const OSDetection = () => {
-  const [osInfo, setOsInfo] = useState({ osName: "", osVersion: "" });
-  const [docLink, setDocLink] = useState("/informatique/proxy");
+export default function OSDetection() {
+  const [os, setOs] = useState({ name: '', version: '' });
 
-  useEffect(() => {
-    const detectOS = () => {
-      const userAgent = window.navigator.userAgent;
-      let osName = "Inconnu";
-      let osVersion = "";
+  useLayoutEffect(() => {
+    if (typeof window === 'undefined') return;
 
-      if (userAgent.includes("Windows NT 10.0")) {
-        osName = "Windows";
-        osVersion = "10";
-      } else if (userAgent.includes("Windows NT 11.0") || (userAgent.includes("Windows NT 10.0") && navigator.userAgentData?.platformVersion?.split('.')[0] >= 13)) {
-        osName = "Windows";
-        osVersion = "11";
-      } else if (userAgent.includes("Mac OS X")) {
-        osName = "macOS";
-        const macVersionMatch = userAgent.match(/Mac OS X (\d+[_|\.\d]+)/);
-        if (macVersionMatch) {
-          const macVersion = macVersionMatch[1].replace('_', '.');
-          const majorVersion = parseInt(macVersion.split('.')[1]);
-          osVersion = majorVersion >= 14 ? "13 et ultérieurs" : "12 et antérieurs";
-        }
-      } else if (userAgent.includes("CrOS")) {
-        osName = "ChromeOS";
-      } else if (/iPad|iPhone|iPod/.test(userAgent)) {
-        osName = "iOS";
-      } else if (userAgent.includes("Linux")) {
-        osName = "Linux";
-      } else if (userAgent.includes("Android")) {
-        osName = "Android";
+    const ua = navigator.userAgent;
+    let name = 'macOS';
+    let version = '12 et antérieurs';
+
+    if (ua.includes('Windows NT 11.0')) {
+      name = 'Windows'; version = '11';
+    } else if (ua.includes('Windows NT 10.0')) {
+      name = 'Windows'; version = '10';
+    } else if (ua.includes('Mac OS X')) {
+      name = 'macOS';
+      const m = ua.match(/Mac OS X (\d+[_\.]\d+)/);
+      if (m) {
+        const raw = m[1].replace('_','.');
+        const major = parseInt(raw.split('.')[1], 10);
+        version = major >= 14 ? '13 et ultérieurs' : '12 et antérieurs';
       }
+    } else if (/iPad|iPhone|iPod/.test(ua)) {
+      name = 'iOS'; version = 'iOS';
+    } else if (ua.includes('Android')) {
+      name = 'Android'; version = 'Android';
+    }
 
-      return { osName, osVersion };
-    };
+    // stocke simplement la chaîne, pas JSON
+    localStorage.setItem('docusaurus.tab.os-tabs', name);
+    localStorage.setItem(`docusaurus.tab.${name}`, name === 'Windows' ? `Windows${version}` : version);
 
-    const generateLink = (osInfo) => {
-      const baseUrl = "/informatique/proxy"; // La page contenant les tabs
-      let tabValue = ""; // Valeur du tab à sélectionner
-
-      switch (osInfo.osName) {
-        case "Windows":
-          tabValue = `Windows${osInfo.osVersion}`;
-          break;
-        case "macOS":
-          tabValue = osInfo.osVersion;
-          break;
-        case "iOS":
-          tabValue = "iOS";
-          break;
-        case "Android":
-          tabValue = "Android";
-          break;
-        default:
-          return baseUrl;
-      }
-
-      // Met à jour le localStorage pour que Docusaurus sélectionne l'onglet
-      localStorage.setItem("docusaurus.tab.os-tabs", JSON.stringify(tabValue));
-
-      return baseUrl;
-    };
-
-    const detectedOS = detectOS();
-    setOsInfo(detectedOS);
-    setDocLink(generateLink(detectedOS));
+    setOs({ name, version });
   }, []);
 
-  return (
-    <div>
-      <center>
-      <small>Votre système d'exploitation est : {osInfo.osName} {osInfo.osVersion}</small>
-      <br />
+  if (!os.name) return null;
 
-      <a href={docLink} className="button button--primary">
-        Accéder à la documentation pour {osInfo.osName}
+  return (
+    <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
+      <small>Votre système d’exploitation : {os.name} {os.version}</small>
+      <br />
+      <a href="/informatique/proxy" className="button button--primary">
+        Accéder à la documentation pour {os.name}
       </a>
-      <br /><br />
-      </center>
     </div>
   );
-};
-
-export default OSDetection;
+}
