@@ -37,7 +37,9 @@ Les bibliothèques UdeM mettent à votre disposition des postes **Apportez Votre
 
 <details>
   <summary>**Bibliothèque des lettres et sciences humaines**</summary>
-   - 7 postes : disponibles à tous les étages.
+  - 6 postes :
+    - 3 au 5e étage.
+    - 3 au 6e étage.
 </details>
 
 <details>
