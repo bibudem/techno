@@ -1,3 +1,18 @@
+<p align="center">
+  <img src="static/img/logo-tb.svg" alt="logo techno·bib" width="200" />
+</p>
+
+<p align="center">
+  <a href="https://studio.bib.umontreal.ca/" target="_blank" rel="noopener">
+    https://studio.bib.umontreal.ca/
+  </a>
+</p>
+
+![Licence](https://img.shields.io/static/v1?label=Licence&message=MIT&color=blue)
+![Statut – En construction](https://img.shields.io/static/v1?label=Statut&message=En%20construction&color=orange)
+[![Dernier commit](https://img.shields.io/github/last-commit/bibudem/techno?label=Dernier%20commit&color=blue&style=flat-square)](https://github.com/bibudem/techno/commits)
+[![Docusaurus version](https://img.shields.io/npm/v/@docusaurus/core?label=Docusaurus&logo=docusaurus&color=527FFF&style=flat-square)](https://www.npmjs.com/package/@docusaurus/core)
+
 # À propos
 
 
