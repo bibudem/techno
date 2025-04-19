@@ -3,7 +3,7 @@
   --color-text: #c3ccd5;
   --color-link: #cce2f3;
   --color-background: var(--bleu-700);
-  --color-background-alt:var(--bleu-500);
+  --color-background-alt: var(--bleu-500);
   --color-accent: var(--jaune);
   --space-md: 1rem;
   --space-lg: 1.5rem;
@@ -16,36 +16,35 @@
   font-family: var(--font-base);
   background-color: var(--color-background);
   color: var(--color-text);
-  /* padding: var(--space-xl) var(--space-md) 0; */
   min-height: 320px;
 }
 
-.footer .contactLink:hover {
-  color: var(--color-accent);
-  text-decoration: none;
+/* Nouveau titre */
+.footerTitle {
+  margin: 0;
+  padding: var(--space-md) var(--space-md) 0;
+  font-size: 1.25rem;
+  color: var(--color-link);
+  text-align: center;
 }
 
+/* Contenu principal */
 .content {
   display: flex;
-  justify-content: space-between;  /* contact à gauche, logo à droite */
-  align-items: center;
-  flex: 1 0 auto;                  /* pousse la bottomBar en bas */
-  
-  width: 100%;                      /* ← obliger à occuper toute la largeur */
-  max-width: 1200px;                /* puis limiter à votre design */
-  margin: 0 auto;                   /* centrer le container dans le footer */
-  
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8rem;
   padding: var(--space-xl) var(--space-md);
-  gap: var(--space-lg);
-  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Colonne Contact */
 .contact {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
+  gap: var(--space-md);
   min-width: 200px;
-  align-self: flex-start;
 }
 
 .contact h3 {
@@ -60,28 +59,53 @@
   gap: 0.5rem;
   color: var(--color-link);
   font-size: 0.975rem;
+  text-decoration: none;
 }
 
-.contactLink:hover {
+.contactLink:hover,
+.contactLink:focus {
+  color: var(--color-accent);
   text-decoration: underline;
 }
 
-.social {
-  display: flex;
-  gap: var(--space-md);
+/* Séparateur vertical */
+.divider {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-self: stretch;
 }
 
-.social a {
+/* Colonne Liens rapides */
+.linkSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  min-width: 200px;
+}
+
+.linkSection h3 {
+  margin: 0;
+  font-size: 1.25rem;
   color: var(--color-link);
 }
 
-.social a:hover {
-  color: var(--color-accent);
+.linkItem {
+  color: var(--color-link);
+  font-size: 0.975rem;
+  text-decoration: none;
 }
 
+.linkItem:hover,
+.linkItem:focus {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Logo + icônes sociales */
 .logoContainer {
-  flex: 0 0 auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -90,13 +114,27 @@
   object-fit: contain;
 }
 
+.socialBelowLogo {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.socialBelowLogo a {
+  color: var(--color-link);
+}
+
+.socialBelowLogo a:hover {
+  color: var(--color-accent);
+}
+
+/* Barre légale */
 .bottomBar {
   margin-top: auto;
   background-color: var(--color-background-alt);
   padding: 0.75rem var(--space-md);
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: var(--space-md);
   font-size: 0.875rem;
@@ -105,39 +143,31 @@
 
 .bottomBar a {
   color: #fff;
+  text-decoration: none;
 }
 
-.bottomBar a:hover {
+.bottomBar a:hover,
+.bottomBar a:focus {
   color: var(--color-accent);
   text-decoration: underline;
 }
 
+/* Adaptation mobile */
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: var(--space-lg);
-    padding: var(--space-xl) var(--space-md);
+    text-align: center;
+    gap : 2rem;
   }
-
-  /* Annulez le margin-left sur mobile */
+  .divider {
+    display: none;
+  }
   .logoContainer {
-    margin-left: 0;
+    margin-top: var(--space-lg);
   }
-
-  /* Centre le bloc contact et ses enfants */
-  .contact {
+  .contact,
+  .linkSection {
     align-items: center;
-    align-self: center;   
-  }
-
-  /* Centre explicitement les icônes sociales */
-  .social {
-    justify-content: center;
-  }
-
-  .logo {
-    margin-top: var(--space-md);
   }
 }
