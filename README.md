@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/img/logo-tb.svg" alt="logo techno·bib" width="200" />
+  <img src="static/img/logo-tb.svg" alt="logo techno·bib" width="500" />
 </p>
 
 <p align="center">
