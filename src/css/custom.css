@@ -99,7 +99,20 @@ pre {
 }
 
 
+#__docusaurus .navbar__items:not(.navbar__items--right)
+  .navbar__link:not(.cta):hover {
+  color: var(--ifm-color-primary) !important;
+}
 
+/* trait soulignement qui apparaît au survol */
+#__docusaurus .navbar__items:not(.navbar__items--right)
+  .navbar__link:not(.cta):hover::after {
+  background-color: var(--ifm-color-primary) !important;
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link--active {
+  font-weight: 700 !important;
+}
 
 
 
