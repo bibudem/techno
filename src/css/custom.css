@@ -7,8 +7,8 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #0057ac;
-  --ifm-color-primary-dark: #0b113a;
+  --ifm-color-primary:var(--bleu-500);
+  --ifm-color-primary-dark: var(--bleu-700);
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -283,15 +283,15 @@ html[data-theme="dark"] {
 
 .button.button--secondary {
   background-color: #f9f9f9; 
-  color: #0057ac; 
-  border: 2px solid #0057ac;
+  color:var(--bleu-500); 
+  border: 2px solidvar(--bleu-500);
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 .button.button--secondary:hover {
-  color: #0b113a;
+  color: var(--bleu-700);
   border-color: #004080;
-  color : #0b113a;
+  color : var(--bleu-700);
   
 }
 
@@ -350,7 +350,7 @@ html[data-theme="dark"] {
 
 /* Carte de soutien */
 .support-card {
-  background-color: #0057ac; /* bleu UdeM */
+  background-color:var(--bleu-500); /* bleu UdeM */
   color: #ffffff;
   border-radius: var(--ifm-global-radius);
   padding: 1.5rem;

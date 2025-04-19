@@ -65,7 +65,7 @@
 }
 
 .linkButton {
-  background-color: #0057ac;
+  background-color:var(--bleu-500);
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 10px;

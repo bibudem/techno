@@ -2,7 +2,7 @@
   --gris: #383838;
   --gris-hover: #292929;
   --white: #ffffff;
-  --yellow: #ffca40;
+  --yellow: var(--jaune);
   --yellow-hover: #ffd86a;
 }
 

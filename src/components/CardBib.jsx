@@ -30,7 +30,7 @@ export default function CardBib({
       linkIconColor: '#fff',
     },
     jaune: {
-      bg: '#FFCA40',
+      bg: 'var(--jaune)',
       hoverBg: '#FFDC81',
       iconColor: '#BC8800',
       linkIconColor: '#473F2C',

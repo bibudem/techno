@@ -1,0 +1,36 @@
+:root {
+  /* ——— Palette Principale ——— */
+  --bleu-700: #0B113A;
+  --bleu-600: #00407F;
+  --bleu-500: #0057ac;
+  --bleu-400: #2380D1;
+  --bleu-300: #6BA5D1;
+  --bleu-200: #CCE2F3;
+  --bleu-100: #E5F0F8;
+  --bleu-50:  #EEF4F7;
+
+  /* ——— Palette Secondaire ——— */
+  --rouge-orange-600: #B72600;
+  --rouge-orange-500: #F04E24;
+  --rose-500:         #F4BDB7;
+  --rose-300:         #FEE1DE;
+  --rose-100:         #FCF3F1;
+  --vert-fonce:       #024244;
+  --vert-pale:        #52B782;
+  --jaune:            #FFCA40;
+  --jaune-pale:       #FFE8AC;
+
+  /* ——— Palette Tertiaire ——— */
+  --vert-500:  #4CBD37;
+  --jaune-700: #D4A300;
+
+  /* ——— Palette Neutre ——— */
+  --gris-700: #37424D;
+  --gris-600: #475A6B;
+  --gris-500: #607386;
+  --gris-400: #7A94A9;
+  --gris-300: #9DB0BF;
+  --gris-200: #C3CCD5;
+  --gris-100: #E7EBEE;
+  --gris-50:  #F7F8F9;
+}

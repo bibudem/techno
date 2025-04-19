@@ -27,7 +27,7 @@ export default function HeroAide() {
       <HandWaving
         ref={iconRef}
         size={128}
-        color="#ffca40"
+        color="var(--jaune)"
         weight="duotone"
         className={styles.heroIcon}
       />

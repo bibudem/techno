@@ -93,7 +93,7 @@ export default function CardGrid({ items }) {
             onMouseLeave={() => setHovered(null)}
             style={{
               backgroundColor:
-                hovered === index ? "#FFDC81" : "#FFCA40",
+                hovered === index ? "#FFDC81" : "var(--jaune)",
               color: "#000",
               borderRadius: "8px",
               padding: "1rem",

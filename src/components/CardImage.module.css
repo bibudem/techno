@@ -64,7 +64,7 @@
   right: 2rem;             /* aligné avec le padding */
   transform: translateY(-50%);
   z-index: 3;              /* au‑dessus de l’overlay */
-  background-color: #FFCA40;
+  background-color: var(--jaune);
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 50%;

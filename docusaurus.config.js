@@ -26,11 +26,17 @@ const config = {
   },
 
   clientModules: [
+    require.resolve('./src/css/palette.css'),
     require.resolve('./src/clientModules/udemCookieConsent.js'),
     require.resolve('./src/clientModules/trackerLoader.js'),
   ],
-
+  stylesheets: [
+    {
+      href: '/css/palette.css',
+    },
+  ],
   presets: [
+    
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
