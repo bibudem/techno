@@ -23,9 +23,9 @@ Les contenus et fonctionnalités développés à partir du 29 avril 2024 respect
 
 ## Technologies utilisées
 
-Le site est développé avec [Docusaurus](https://docusaurus.io/), utilise HTML5, CSS et JavaScript modernes, et sépare clairement contenu et présentation.
+Le site est développé avec [Docusaurus](https://docusaurus.io/), utilise HTML5, CSS et JavaScript modernes, et sépare clairement contenu et présentation. Le code source est ouvert et consultable sur [GitHub](https://github.com/bibudem/techno).
 
 ## Besoin d’aide?
 
-Si vous rencontrez une barrière à l’accessibilité ou si vous avez besoin d’assistance pour accéder à certains contenus, n’hésitez pas à nous contacter. Nous ferons tout notre possible pour vous aider rapidement.
+Si vous rencontrez une barrière à l’accessibilité ou si vous avez besoin d’assistance pour accéder à certains contenus, [n’hésitez pas à nous contacter](./nous-joindre). Nous ferons tout notre possible pour vous aider rapidement.
 
