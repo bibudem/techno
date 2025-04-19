@@ -5,6 +5,10 @@ retroaction : false
 
 import CardGrid from "@site/src/components/CardGrid";
 
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
+
+<HideLastUpdated/>
+
 
 <CardGrid
   items={[

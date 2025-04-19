@@ -6,7 +6,9 @@ retroaction : false
 
 import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
+<HideLastUpdated/>
 
 
 ## Vous avez besoin d'aide?

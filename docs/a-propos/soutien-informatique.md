@@ -5,6 +5,10 @@ description : Contactez-nous pour toute question ou information supplémentaire.
 retroaction : false
 ---
 
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
+
+<HideLastUpdated/>
+
 import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 

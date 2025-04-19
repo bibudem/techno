@@ -3,6 +3,9 @@ id : politique
 title : Politique d'utilisation des équipements
 retroaction : false
 ---
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
+
+<HideLastUpdated/>
 
 ## Conditions générales
 

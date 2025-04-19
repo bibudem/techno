@@ -3,6 +3,10 @@ title: Espaces
 retroaction : false
 ---
 
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
+
+<HideLastUpdated/>
+
 # Espaces
 
 import CardGrid from "@site/src/components/CardGrid";

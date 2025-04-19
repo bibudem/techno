@@ -6,6 +6,9 @@ retroaction : false
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
+
+<HideLastUpdated/>
 
 # Contribuer
 
