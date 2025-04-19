@@ -25,6 +25,7 @@
   --jaune-700: #D4A300;
 
   /* ——— Palette Neutre ——— */
+  --gris-800: #23292f;
   --gris-700: #37424D;
   --gris-600: #475A6B;
   --gris-500: #607386;
@@ -33,4 +34,8 @@
   --gris-200: #C3CCD5;
   --gris-100: #E7EBEE;
   --gris-50:  #F7F8F9;
+
+  --black: #000000;
+  --white: #FFFFFF;
 }
+

@@ -1,9 +1,5 @@
 :root {
-  --gris: #383838;
-  --gris-hover: #292929;
-  --white: #ffffff;
-  --yellow: var(--jaune);
-  --yellow-hover: #ffd86a;
+
 }
 
 .cardAide {
@@ -11,7 +7,7 @@
   text-decoration: none !important;
   display: flex;
   align-items: center;
-  background-color: var(--gris);
+  background-color: var(--gris-700);
   border-radius: 8px;
   padding: 1.5rem;
   transition: background-color 0.3s ease-in-out;
@@ -19,7 +15,7 @@
 
 .cardAide:hover,
 .cardAide:focus {
-  background-color: var(--gris-hover);
+  background-color: var(--gris-800);
   text-decoration: none !important;
 }
 
@@ -31,7 +27,7 @@
 }
 
 .icon {
-  color: var(--yellow);
+  color: var(--jaune);
 }
 
 .content {
@@ -40,7 +36,7 @@
 
 .title {
   margin: 0 0 1rem;
-  color: var(--yellow);
+  color: var(--jaune);
   font-size: 1.5rem;
 }
 
@@ -59,7 +55,7 @@
   right: 1.5rem;                     
   transform: translateY(-50%);       
   z-index: 2;                        
-  background-color: var(--yellow);
+  background-color: var(--jaune);
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
@@ -72,12 +68,12 @@
 }
 
 .cardAide:hover .arrowContainer {
-  background-color: var(--yellow-hover);
+  background-color: var(--jaune-pale);
   transform: translate(0.2rem, -50%);
 }
 
 .arrowContainer svg {
-  color: var(--gris);
+  color: var(--gris-700);
 }
 
 @media (max-width: 768px) {
