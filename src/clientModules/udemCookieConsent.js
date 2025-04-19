@@ -21,7 +21,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
   // Injection du script UdeM
   const s = document.createElement('script');
-  s.src = 'https://secretariatgeneral.umontreal.ca/udem_consentement_temoins.js';
+  s.src = 'https://secretariatgeneral.umontreal.ca/udem_consentement_temoins.js?lg=fr';
   s.async = true;
   s.onload = () => {
     // Supprime le lien injecté par défaut
