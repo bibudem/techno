@@ -3,6 +3,7 @@
     display: flex;
     align-items: flex-start;
     border-radius: 8px;
+    overflow: hidden;
     padding: 1.5rem;
     text-decoration: none !important;
     transition: transform 0.3s ease, background 0.3s ease;
@@ -10,8 +11,31 @@
     flex: 1;                
     flex-direction: column;
     justify-content: flex-start;
+    background-position: center;    
+    background-size: cover;         
+    background-repeat: no-repeat;
   }
   
+  .cardMedia img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;              
+    object-position: center;        
+  }
+
+  .cardMedia::before {
+    content: "";
+    position: absolute;
+    inset: 0;                       
+    background: transparent;
+    transition: background 0.3s ease-in-out;
+    pointer-events: none;          
+  }
+  
+  .cardMedia:hover::before {
+    background: rgba(0, 0, 0, 0.1); 
+  }
+
   .content {
     flex: 1;
     z-index: 1;
