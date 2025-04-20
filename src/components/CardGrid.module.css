@@ -1,9 +1,11 @@
+/* ──────────── Grille des cartes ──────────── */
 .grid {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+/* ──────────── Style de la carte ──────────── */
 .card {
   background-color: var(--jaune);
   color: var(--gris-700);
@@ -18,7 +20,6 @@
     box-shadow 0.3s ease-in-out;
 }
 
-/* suppression du soulignement au hover/focus-visible */
 .card:hover,
 .card:focus-visible {
   text-decoration: none;
@@ -35,6 +36,7 @@
   outline-offset: 2px;
 }
 
+/* ──────────── En‑tête de la carte ──────────── */
 .header {
   display: flex;
   align-items: center;
@@ -42,30 +44,56 @@
   margin-bottom: 1.5rem;
 }
 
-/* Icône toujours en BC8800 */
 .icon {
   color: #BC8800;
-  /* on retire toute transition sur icône si pas nécessaire */
 }
 
+/* ───────── Ligne animée sous le titre ───────── */
 .titleContainer {
+  position: relative;
   flex: 1;
-  border-bottom: 3px solid #BC8800; /* trait toujours en BC8800 */
   padding-bottom: 0.5rem;
-  /* plus de transition de couleur de bordure */
+  overflow: hidden;
 }
 
+.titleContainer::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #BC8800,
+    transparent
+  );
+  background-size: 200% 100%;
+  background-position: -200% 0;
+}
+
+/* balayage gauche→droite */
+@keyframes sweep-line {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* déclenche le balayage uniquement au hover de la carte */
+.card:hover .titleContainer::after {
+  animation: sweep-line 9s ease-in-out infinite;
+}
+
+/* ──────────── Titre et description ──────────── */
 .title {
   margin: 0;
   font-weight: 500;
   color: var(--gris-700);
   transition: color 0.3s ease-in-out;
-}
-
-/* on garde seulement le changement de couleur du titre si voulu */
-.card:hover .title,
-.card:focus-visible .title {
-  color: var(--gris-600);
 }
 
 .description {
@@ -75,7 +103,12 @@
   transition: color 0.3s ease-in-out;
 }
 
+.card:hover .title,
+.card:focus-visible .title {
+  color: var(--gris-800);
+}
+
 .card:hover .description,
 .card:focus-visible .description {
-  color: var(--gris-600);
+  color: var(--gris-700);
 }
