@@ -67,9 +67,9 @@ import StudioCard from '@site/src/components/StudioCard';
 
 ## Documentation et soutien
 
-De la documentation est disponible pour vous aider à utiliser le studio en toute autonomie.
+Une documentation complète est à votre disposition pour vous familiariser avec le studio en toute autonomie.
 
-Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement. Ce service de soutien, qui est optionnel, est réservé aux membres de la communauté UdeM.
+Sur simple rendez‑vous, un membre de l’équipe des bibliothèques de l’UdeM vous accompagne lors d’une prise en main initiale de l’équipement. Ce service optionnel, réservé aux membres de la communauté UdeM, n’inclut toutefois pas une présence continue d’un technicien pendant vos séances d’enregistrement, que vous menez ensuite de façon autonome.
 
 En plus des consultations, des formations sont offertes aux studios. Pour les détails et les dates, consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier).
 
@@ -81,7 +81,8 @@ En plus des consultations, des formations sont offertes aux studios. Pour les d�
   Obtenir du soutien
 </Link>
 
-:::warning Le studio d'enregistrement doit aussi être réservé à la même heure pour obtenir du soutien.
+:::warning Note
+Le studio d'enregistrement doit aussi être réservé à la même heure pour obtenir du soutien.
 :::
 
 ---
