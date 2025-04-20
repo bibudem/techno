@@ -85,7 +85,7 @@ export default function CardBib({
         <div className={styles.cardIcon}>
           <Icon size={55} color={_color.iconColor} />
         </div>
-        <div className={styles.cardTitle}>{title}</div>
+        <h2 className={styles.cardTitle}>{title}</h2>
         <div className={styles.cardSpacer}></div>
         <div className={styles.cardFooter}>
           <div className={styles.cardMore}>{moreText}</div>

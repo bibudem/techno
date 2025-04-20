@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../PageAccueil/styles.module.css';
 
-// Fonction utilitaire pour convertir "23 avr. 2025" → Date JS
 function parseDateFr(dateStr) {
   const mois = {
     'janv.': '01',
@@ -52,7 +51,7 @@ export default function ProchainsAteliers() {
 
   return (
     <div className={styles.cardWorkshops}>
-      <div className={styles.cardHeader}>Prochains ateliers</div>
+      <h2 className={styles.cardHeader}>Prochains ateliers</h2>
       <ul className={styles.cardList}>
         {loading ? (
           <li>Chargement...</li>
@@ -63,10 +62,9 @@ export default function ProchainsAteliers() {
             <li key={idx} className={styles.cardItem}>
               <div className={styles.cardItemTop}>
                 <span className={styles.cardDate}>{date}</span>
-                <span> — </span>
-                <a href={url} className={styles.cardTitle} target="_blank" rel="noopener noreferrer">
-                  {titre}
-                </a>
+                <h3 className={styles.cardTitle}>
+                  <a href={url} target="_blank" rel="noopener noreferrer">{titre}</a>
+                </h3>
               </div>
               <div className={styles.cardLocation}>
                 {typeLocalisation === 'en-ligne'

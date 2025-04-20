@@ -23,7 +23,7 @@ export default function CardImage({ to, title, description, image }) {
         aria-label={`Accéder à la page ${title}`}
       />
       <div>
-        <h3 className={styles.cardImageTitle}>{title}</h3>
+        <h2 className={styles.cardImageTitle}>{title}</h2>
         <p
           className={styles.cardImageText}
           dangerouslySetInnerHTML={{ __html: description }}
