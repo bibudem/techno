@@ -172,22 +172,35 @@
   display: flex;
   gap: 2rem;
   justify-content: space-between;
-  align-items: flex-start;  /* aligne en haut */
-  flex-wrap: wrap;          /* passe en colonne si l’écran est étroit */
+  align-items: stretch;   /* ← stretch au lieu de flex-start */
+  flex-wrap: wrap;
 }
 
 /* Colonne de gauche : empilement vertical des cartes */
+.cardsContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: stretch; 
+  flex-wrap: wrap;
+}
+
 .leftColumn {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  flex: 1;                  /* prend l’espace disponible */
-  min-width: 280px;         /* pour ne pas trop rétrécir */
+  row-gap: 2rem; 
+  flex: 1;                 
+  min-width: 280px;
 }
 
-/* Colonne de droite : ProchainsAteliers */
+.leftColumn :global(.cardMedia) {
+  flex: 1;                 
+  display: flex;
+  flex-direction: column;  
+}
+
 .rightColumn {
-  flex: 1;                  /* même largeur que la colonne de gauche */
+  flex: 1;                  
   min-width: 280px;
 }
 
