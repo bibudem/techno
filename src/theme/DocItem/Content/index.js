@@ -5,7 +5,7 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import Heading from '@theme/Heading';
 import MDXContent from '@theme/MDXContent';
-import Retroaction from '@site/src/components/Retroaction/Retroaction';
+import Retroaction from '@site/src/components/Retroaction';
 // 1) Import de votre composant d’aide
 import CardAide from '@site/src/components/CardAide';
 
