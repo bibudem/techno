@@ -20,12 +20,16 @@ export default function LienExterne() {
 
   useEffect(() => {
     document.querySelectorAll('a[href]').forEach((lien) => {
-      // 1) on ignore tout lien dans <footer>
-      if (lien.closest('footer')) return;
-      // 2) on ignore tout lien qui ne contient qu’une image
-      if (lien.querySelector('img') && !lien.textContent.trim()) return;
-      // 3) on ignore vos cards perso
-      if (lien.closest('.cardbib, .card, .cardGrid, .cardImage')) return;
+
+      if (lien.closest('[data-ignore-external]')) return;
+
+      if (lien.closest('footer')) {
+        return;
+      }
+
+      if (lien.querySelector('img') && !lien.textContent.trim()) {
+        return;
+      }
 
       const href = lien.getAttribute('href');
       if (

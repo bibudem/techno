@@ -88,6 +88,7 @@ export default function CardGrid({ items }) {
             key={idx}
             href={item.link}
             className={styles.card}
+            data-ignore-external="true"
             role="listitem"
             aria-labelledby={titleId}
             aria-describedby={descId}
