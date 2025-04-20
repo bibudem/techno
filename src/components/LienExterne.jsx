@@ -1,5 +1,3 @@
-// src/components/LienExterne.jsx
-
 import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowSquareOut } from '@phosphor-icons/react';
@@ -18,13 +16,19 @@ const estLienExterne = (href) => {
 };
 
 export default function LienExterne() {
-  const location = useLocation();
+  const { pathname } = useLocation();
 
   useEffect(() => {
-    const liens = document.querySelectorAll('a[href]');
-
-    liens.forEach((lien) => {
-      // Si le lien est à l'intérieur d'un card, on n'y ajoute pas l'icône
+    document.querySelectorAll('a[href]').forEach((lien) => {
+      // 1) on ignore tout lien situé dans une vraie balise <footer>
+      if (lien.closest('footer')) {
+        return;
+      }
+      // 2) on ignore tout lien composé STRICTEMENT d’une image (vos logos)
+      if (lien.querySelector('img') && !lien.textContent.trim()) {
+        return;
+      }
+      // 3) on ignore vos cards/custom
       if (lien.closest('.cardbib, .card, .cardGrid, .cardImage')) {
         return;
       }
@@ -36,8 +40,6 @@ export default function LienExterne() {
         !lien.querySelector('.icone-externe')
       ) {
         lien.dataset.lienExterne = 'true';
-
-        // On force même onglet, pas de target/_blank
         lien.removeAttribute('target');
         lien.removeAttribute('rel');
 
@@ -51,7 +53,7 @@ export default function LienExterne() {
         createRoot(wrapper).render(<ArrowSquareOut size={16} />);
       }
     });
-  }, [location.pathname]);
+  }, [pathname]);
 
   return null;
 }

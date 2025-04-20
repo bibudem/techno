@@ -1,5 +1,4 @@
 :root {
-  --font-base: 'Figtree', sans-serif;
   --color-text: #c3ccd5;
   --color-link: #cce2f3;
   --color-background: var(--bleu-700);
@@ -22,7 +21,7 @@
 /* Nouveau titre */
 .footerTitle {
   margin: 0;
-  padding: var(--space-md) var(--space-md) 0;
+  padding: var(--space-xl) var(--space-xl) 0;
   font-size: 1.25rem;
   color: var(--color-link);
   text-align: center;

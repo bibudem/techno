@@ -60,15 +60,15 @@ export default function Footer() {
             className={styles.logo}
           />
           <div className={styles.socialBelowLogo}>
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/umontreal/" aria-label="Instagram">
               <InstagramLogo size={24} />
             </a>
-            <a href="#" aria-label="YouTube">
+            <a href="https://www.youtube.com/@BibliothequesUdeM" aria-label="YouTube">
               <YoutubeLogo size={24} />
             </a>
-            <a href="#" aria-label="LinkedIn">
+            {/* <a href="#" aria-label="LinkedIn">
               <LinkedinLogo size={24} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
