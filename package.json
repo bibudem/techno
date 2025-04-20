@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",
+    "@docusaurus/plugin-ideal-image": "^3.7.0",
     "@docusaurus/preset-classic": "^3.7.0",
     "@mdx-js/react": "^3.0.0",
     "@phosphor-icons/react": "^2.1.7",
@@ -30,6 +31,8 @@
     "remark-mdx": "^3.1.0",
     "remark-parse": "^11.0.0",
     "remark-stringify": "^11.0.0",
+    "responsive-loader": "^3.1.2",
+    "sharp": "^0.34.1",
     "unified": "^11.0.5"
   },
   "browserslist": {

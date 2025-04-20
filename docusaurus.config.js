@@ -1,7 +1,6 @@
-
-
 import {themes as prismThemes} from 'prism-react-renderer';
 import remarkInsertHelp from './src/utils/remark-insert-help.js';
+import webpPlugin from './plugins/docusaurus-plugin-webp/index.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,12 +9,10 @@ const config = {
   favicon: 'img/favicon.svg',
 
   url: 'https://techno.bib.umontreal.ca',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  organizationName: 'bibudem', // Usually your GitHub org/user name.
-  projectName: 'techno', // Usually your repo name.
+  organizationName: 'bibudem',
+  projectName: 'techno',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -35,21 +32,20 @@ const config = {
       href: '/css/palette.css',
     },
   ],
+
   presets: [
-    
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarCollapsible: true,
-          
           sidebarPath: './sidebars.js',
-            routeBasePath: '/', // Cela met les documents à la racine
-            path: './docs', // Chemin local du répertoire docs
-            showLastUpdateTime: true, // Active la date de dernière mise à jour
-            showLastUpdateAuthor: false, // Optionnel : affiche l'auteur du dernier commit Git
-            remarkPlugins: [remarkInsertHelp],
+          routeBasePath: '/',
+          path: './docs',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          remarkPlugins: [remarkInsertHelp],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,8 +54,18 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      './plugins/docusaurus-plugin-webp',
+      { quality: 70, max: 1030, min: 640, steps: 2, disableInDev: true },
+    ],
+    [webpPlugin,
+      {
+        id: 'webp-local',  
+      },],
+  ],
+
   themeConfig:
-  
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
@@ -68,7 +74,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       sidebar: {
-        autoCollapseCategories: true, // Active l'effet accordéon
+        autoCollapseCategories: true,
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -78,46 +84,17 @@ const config = {
           src: 'img/logo-tb.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'espacesSidebar',
-            position: 'left',
-            label: 'Espaces',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'informatiqueSidebar',
-            position: 'left',
-            label: 'Ressources informatiques',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'creativesSidebar',
-            position: 'left',
-            label: 'Technologies créatives',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'mediasSidebar',
-            position: 'left',
-            label: 'Productions médias',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'aboutSidebar',
-            position: 'left',
-            label: 'À propos',
-          },
-
+          { type: 'docSidebar', sidebarId: 'espacesSidebar', position: 'left', label: 'Espaces' },
+          { type: 'docSidebar', sidebarId: 'informatiqueSidebar', position: 'left', label: 'Ressources informatiques' },
+          { type: 'docSidebar', sidebarId: 'creativesSidebar', position: 'left', label: 'Technologies créatives' },
+          { type: 'docSidebar', sidebarId: 'mediasSidebar', position: 'left', label: 'Productions médias' },
+          { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
         ],
       },
-      
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      
-      
     }),
 };
 
