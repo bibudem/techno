@@ -11,22 +11,27 @@ import { getStored } from '@site/src/utils/localStorage';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Le serveur mandataire agit comme un canal facilitant l'accès aux ressources électroniques des bibliothèques UdeM, permettant ainsi la consultation de bases de données, de revues électroniques et de livres numériques, indépendamment du lieu de connexion.
+export const osOptions = ['macOS', 'Windows', 'iOS', 'Android'];
+export const macosOptions = ['12 et antérieurs', '13 et ultérieurs'];
+export const windowsOptions = ['Windows10', 'Windows11'];
+
+export function resolveDefault(key, fallback, options) {
+  const raw = getStored(key, fallback);
+  return options.includes(raw) ? raw : fallback;
+}
 
 <OSDetection />
 
 <Tabs
   groupId="os-tabs"
-  defaultValue={getStored('docusaurus.tab.os-tabs', 'macOS')}
+  defaultValue={resolveDefault('docusaurus.tab.os-tabs', 'macOS', osOptions)}
 >
-  {/* macOS */}
   <TabItem value="macOS" label="macOS">
     <Tabs
       groupId="macOS"
-      defaultValue={getStored('docusaurus.tab.macOS', '12 et antérieurs')}
+      defaultValue={resolveDefault('docusaurus.tab.macOS', '12 et antérieurs', macosOptions)}
     >
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs">
-        
         :::warning
         Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
         :::
@@ -38,7 +43,7 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
         5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>  
         6. Cliquer **OK**, puis **Appliquer**.
 
-        Pour désinstaller le proxy, refaire les étapes et désactiver **Automatique** à l’étape 4.
+        Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Automatique** à l’étape 4.
 
         **Tutoriel vidéo**  
         <iframe
@@ -54,7 +59,6 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
       </TabItem>
 
       <TabItem value="13 et ultérieurs" label="macOS 13 et ultérieurs">
-        
         :::warning
         Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
         :::
@@ -81,11 +85,10 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
     </Tabs>
   </TabItem>
 
-  {/* Windows */}
   <TabItem value="Windows" label="Windows">
     <Tabs
       groupId="Windows"
-      defaultValue={getStored('docusaurus.tab.Windows', 'Windows10')}
+      defaultValue={resolveDefault('docusaurus.tab.Windows', 'Windows10', windowsOptions)}
     >
       <TabItem value="Windows10" label="Windows 10">
         1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
@@ -105,11 +108,11 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
           allowFullScreen
         />
       </TabItem>
-      
+
       <TabItem value="Windows11" label="Windows 11">
         1. **Démarrer → Paramètres → Réseau & Internet → Proxy**.  
         2. Désactiver **Détecter automatiquement les paramètres**.  
-        3. Dans **Utiliser un script d’installation**, cliquer **Configurer**.  
+        3. Sous **Utiliser un script d’installation**, cliquer **Configurer**.  
         4. Activer **Utiliser un script de configuration**.  
         5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
         6. Cliquer **Enregistrer**.
@@ -129,19 +132,17 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
     </Tabs>
   </TabItem>
 
-  {/* iOS */}
   <TabItem value="iOS" label="iOS">
     :::warning
-    La configuration du proxy sur iOS est disponible pour les connexions Wi‑Fi seulement, pas cellulaire.
+    La configuration du proxy sur iOS est disponible pour les connexions Wi‑Fi seulement, pas cellulaires.
     :::
-    
+
     1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
     2. Sous **Serveur mandataire HTTP**, sélectionner **Automatique**.  
     3. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
     4. **Enregistrer**.
   </TabItem>
 
-  {/* Android */}
   <TabItem value="Android" label="Android">
     1. Glisser le doigt du haut vers le bas (2 fois) et toucher le Wi‑Fi.  
     2. **Plus de paramètres → Modifier le réseau → Options avancées**.  
@@ -165,46 +166,26 @@ Le serveur mandataire agit comme un canal facilitant l'accès aux ressources él
 
 <Tabs>
   <TabItem value="Tous navigateurs" label="Tous les navigateurs">
-    - [Vérifier le statut des services TI](https://ti.umontreal.ca/etat-des-services/)  
-    - Pour Edge/IE, préfixer le code d’accès par `sim\ab12345`  
-    - Désactiver antivirus, VPN ou bloqueurs de pub  
-    - Vider le cache (voir l’onglet suivant)  
+  - [Vérifier le statut des services TI](https://ti.umontreal.ca/etat-des-services/)  
+  - Pour Edge/IE, préfixer le code d’accès par `sim\ab12345`  
+  - Désactiver antivirus, VPN ou bloqueurs de pub  
+  - Vider le cache (voir l’onglet suivant)  
   </TabItem>
 
   <TabItem value="ViderCache" label="Vider le cache">
     <Tabs>
       <TabItem value="Chrome" label="Chrome">
-        **PC/Mac :** Menu → Plus d’outils → Effacer les données de navigation → Cocher **Images et fichiers en cache** → Effacer  
-        **Android :** Historique → Effacer cache → Effacer
+      **PC/Mac :** Menu → Plus d’outils → Effacer les données de navigation → Cocher **Images et fichiers en cache** → Effacer  
+      **Android :** Historique → Effacer cache → Effacer
       </TabItem>
       <TabItem value="Firefox" label="Firefox">
-        **Options → Vie privée & sécurité** → Effacer Cookies & cache  
+      **Options → Vie privée & sécurité** → Effacer Cookies & cache  
       </TabItem>
       <TabItem value="Safari" label="Safari">
-        **Menu Développement → Vider les caches**  
+      **Menu Développement → Vider les caches**  
       </TabItem>
     </Tabs>
   </TabItem>
 </Tabs>
 
----
-
-## Effacer la mémoire cache du navigateur {#effacer-cache}
-
-<Tabs>
-  <TabItem value="Chrome" label="Chrome">
-    **PC/Mac :** Menu → Plus d’outils → Effacer les données de navigation → Cocher **Images et fichiers mis en cache** → Effacer  
-    **Android :** Historique → Effacer cache → Effacer
-  </TabItem>
-  <TabItem value="Edge" label="Edge">
-    **PC :** Menu → Paramètres → Confidentialité & sécurité → Effacer cache  
-  </TabItem>
-  <TabItem value="Firefox" label="Firefox">
-    **Options → Vie privée & sécurité** → Effacer Cookies & cache  
-  </TabItem>
-  <TabItem value="Safari" label="Safari">
-    **Menu Développement → Vider les caches**  
-  </TabItem>
-</Tabs>
-
-Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  ”
+Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  

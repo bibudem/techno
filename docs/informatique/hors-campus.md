@@ -38,12 +38,12 @@ import CardGrid from "@site/src/components/CardGrid";
     {
       title: "Configurer le serveur mandataire (proxy)",
       description: "Configurez votre accès au serveur mandataire pour accéder aux ressources électroniques.",
-      link: "proxy",
+      link: "/informatique/proxy",
     },
     {
       title: "Installer le VPN",
       description: "Installez le VPN pour une connexion sécurisée aux ressources électroniques.",
-      link: "vpn",
+      link: "/informatique/vpn",
     },
   ]}
 />
