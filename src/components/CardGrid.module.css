@@ -1,0 +1,81 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  background-color: var(--jaune);
+  color: var(--gris-700);
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 160px;
+  text-decoration: none;
+  display: block;
+  transition:
+    background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+/* suppression du soulignement au hover/focus-visible */
+.card:hover,
+.card:focus-visible {
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: var(--jaune-pale);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card:focus-visible {
+  outline: 3px solid var(--gris-600);
+  outline-offset: 2px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Icône toujours en BC8800 */
+.icon {
+  color: #BC8800;
+  /* on retire toute transition sur icône si pas nécessaire */
+}
+
+.titleContainer {
+  flex: 1;
+  border-bottom: 3px solid #BC8800; /* trait toujours en BC8800 */
+  padding-bottom: 0.5rem;
+  /* plus de transition de couleur de bordure */
+}
+
+.title {
+  margin: 0;
+  font-weight: 500;
+  color: var(--gris-700);
+  transition: color 0.3s ease-in-out;
+}
+
+/* on garde seulement le changement de couleur du titre si voulu */
+.card:hover .title,
+.card:focus-visible .title {
+  color: var(--gris-600);
+}
+
+.description {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.card:hover .description,
+.card:focus-visible .description {
+  color: var(--gris-600);
+}
