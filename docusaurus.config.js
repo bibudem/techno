@@ -27,11 +27,6 @@ const config = {
     require.resolve('./src/clientModules/udemCookieConsent.js'),
     require.resolve('./src/clientModules/trackerLoader.js'),
   ],
-  stylesheets: [
-    {
-      href: '/css/palette.css',
-    },
-  ],
 
   presets: [
     [
