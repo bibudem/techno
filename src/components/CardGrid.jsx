@@ -105,9 +105,9 @@ export default function CardGrid({ items }) {
                 />
               )}
               <div className={styles.titleContainer}>
-                <h3 id={titleId} className={styles.title}>
+                <h2 id={titleId} className={styles.title}>
                   {item.title}
-                </h3>
+                </h2>
               </div>
             </div>
             <p id={descId} className={styles.description}>

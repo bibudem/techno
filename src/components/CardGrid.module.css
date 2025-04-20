@@ -83,7 +83,6 @@
   }
 }
 
-/* déclenche le balayage uniquement au hover de la carte */
 .card:hover .titleContainer::after {
   animation: sweep-line 9s ease-in-out infinite;
 }
@@ -93,6 +92,7 @@
   margin: 0;
   font-weight: 500;
   color: var(--gris-700);
+  font-size: 1.4rem;
   transition: color 0.3s ease-in-out;
 }
 
