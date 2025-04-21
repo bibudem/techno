@@ -265,6 +265,7 @@
 .homepage-section {
   margin-top: 2rem;
   max-width: 100%;
+  display: block;
   
   /* display: flex; */
   /* flex-direction: column; */
