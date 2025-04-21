@@ -95,9 +95,15 @@
     color: inherit;
   }
 
-  
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .cardMedia {
       flex-direction: column;
+      border-radius: 0 !important;
+    }
+    .card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
   }

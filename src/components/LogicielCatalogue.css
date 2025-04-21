@@ -86,7 +86,16 @@
   }
   
 
-  @media (max-width: 600px) {
+
+
+  .categorie-label {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: -1em;
+    margin-bottom: 0.5em;
+  }
+
+  @media screen and (max-width: 600px) {
     .filter-container {
       flex-direction: column;
     }
@@ -104,23 +113,14 @@
     .biblio-tag {
       font-size: 0.85em;
     }
-  }
-
-  .logiciel-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5em;
+  
+    .logiciel-list {
+      grid-template-columns: 1fr;
+    }
   }
   
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .logiciel-list {
       grid-template-columns: 1fr 1fr;
     }
-  }
-
-  .categorie-label {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: -1em;
-    margin-bottom: 0.5em;
   }

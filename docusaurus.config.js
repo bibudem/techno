@@ -23,7 +23,6 @@ const config = {
   },
 
   clientModules: [
-    require.resolve('./src/css/palette.css'),
     require.resolve('./src/clientModules/udemCookieConsent.js'),
     require.resolve('./src/clientModules/trackerLoader.js'),
   ],
@@ -43,7 +42,10 @@ const config = {
           remarkPlugins: [remarkInsertHelp],
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: [
+            require.resolve("./src/css/custom.css"),
+            require.resolve("./src/css/palette.css"),
+          ],
         },
       }),
     ],

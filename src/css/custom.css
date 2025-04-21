@@ -166,16 +166,6 @@ html[data-theme="dark"] {
   min-width: auto;
 }
 
-#__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link {
-  display: none;
-}
-
-@media (min-width: 996px) {
-  #__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link {
-    display: flex;
-  }
-}
-
 #__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link:not(.cta) {
   align-self: stretch;
   align-items: center;
@@ -421,15 +411,35 @@ html[data-theme="dark"] {
   color: #ffffff;
 }
 
-.homepage-section {
-  margin-top: 2rem;
-  max-width: 100%;
-  
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-}
+
 
 #udem_cookie_consent_toggle {
   display: none !important;
+}
+
+@media screen and (max-width: 996px) {
+
+}
+
+@media screen and (min-width: 996px) {
+  .navbar__items:not(.navbar__items--right) .navbar__link {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .linksSection {
+    gap: 0 !important;
+    margin: 0 !important;
+    margin-top: 0 !important;
+  }
 }

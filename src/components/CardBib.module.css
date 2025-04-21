@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
 }
 
 .cardIcon {
@@ -72,6 +71,54 @@
   }
 
   .card-row {
-    gap: 1rem !important;
+    gap: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cardLink {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;       
+    padding: 0;  
+    margin-bottom: 0;  
+    border-radius: 0;   
+  }
+
+  .cardRoot {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    max-height: 220px;
+    min-height: height 180px;
+    height:auto;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .cardFooter {
+    display: none;
+  }
+  .cardIcon {
+    height: 40px;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardMore {
+    font-size: 0.9rem;
+  }
+
+  .cardArrow {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .card-row {
+    gap: 0 !important;
   }
 }

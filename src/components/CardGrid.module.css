@@ -1,9 +1,12 @@
 /* ──────────── Grille des cartes ──────────── */
 .grid {
   display: grid;
-  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
 }
+
+
 
 /* ──────────── Style de la carte ──────────── */
 .card {
@@ -111,4 +114,10 @@
 .card:hover .description,
 .card:focus-visible .description {
   color: var(--gris-700);
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    gap: 0.5rem;
+  }
 }
