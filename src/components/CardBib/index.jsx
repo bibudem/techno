@@ -7,7 +7,7 @@ export default function CardBib({
   Icon,
   moreText,
   href,
-  color = 'bleu',
+  color = 'jaune',
   small = false,
   style = {},
   onMouseEnter,

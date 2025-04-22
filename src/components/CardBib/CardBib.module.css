@@ -1,8 +1,8 @@
 .cardLink {
-  min-width: 260px;
   max-width: 100%;
   text-decoration: none;
-
+  display: block;
+  height: 100%;
 }
 
 .cardRoot {
@@ -12,6 +12,20 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  transition: background-color 0.3s ease;
+  background-color: var(--bg-color);
+}
+
+.cardLink:hover .cardRoot,
+.cardLink:focus .cardRoot {
+  background-color: var(--hover-bg-color);
+}
+
+.cardLink,
+.cardLink:hover,
+.cardLink:focus,
+.cardLink:visited {
+  text-decoration: none !important;
 }
 
 .cardIcon {
@@ -53,14 +67,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--hover-bg-color);
 }
 
-.cardLink:visited,
-.cardLink:hover,
-.cardLink:focus {
-  text-decoration: none;
+.cardArrow svg {
+  color: var(--link-icon-color);
 }
 
+/* === Thème jaune === */
+.jaune {
+  --bg-color: var(--jaune);
+  --hover-bg-color: #FFDC81;
+  --icon-color: #BC8800;
+  --link-icon-color: #473F2C;
+}
+
+.jaune .cardIcon svg {
+  color: var(--icon-color);
+}
+
+/* Responsive */
 @media screen and (max-width: 550px) {
   .cardRoot {
     border-radius: 0;
@@ -75,10 +101,10 @@
   .cardLink {
     display: flex;
     flex-direction: column;
-    height: auto !important;       
-    padding: 0;  
-    margin-bottom: 0;  
-    border-radius: 0;   
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    height: auto;
   }
 
   .cardRoot {
@@ -88,16 +114,17 @@
     justify-content: space-between;
     padding: 1rem;
     max-height: 220px;
-    min-height: height 180px;
-    height:auto;
+    height: auto;
     border-radius: 0;
     border-bottom: 1px solid #000;
     align-items: flex-start;
     gap: 1rem;
   }
+
   .cardFooter {
     display: none;
   }
+
   .cardIcon {
     height: 40px;
   }
@@ -114,6 +141,7 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+
   .card-row {
     gap: 0 !important;
   }
