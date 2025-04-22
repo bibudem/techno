@@ -16,6 +16,7 @@
   background-color: var(--color-background);
   color: var(--color-text);
   min-height: 320px;
+  border-radius: 16px 16px 0 0;
 }
 
 /* Nouveau titre */
@@ -167,5 +168,8 @@
   .contact,
   .linkSection {
     align-items: center;
+  }
+  .footer {
+    border-radius: 0;
   }
 }

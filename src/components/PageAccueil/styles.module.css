@@ -83,6 +83,7 @@
   background-color: #0d0c2b;
   color: #fff;
   padding: 6rem 1rem;
+  border-radius: 16px;
 }
 
 .spacesContainer {
@@ -313,6 +314,7 @@
   }
   .spacesSection {
     padding: 2rem 0;
+    border-radius: 0;
   }
   #bouton-espaces {
     display: block !important;
