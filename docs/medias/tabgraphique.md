@@ -17,15 +17,15 @@ Vous voulez emprunter la tablette graphique? Vérifiez la disponibilité dans So
 
 ## Présentation de l’équipement
 
-![materiel.png](/img/docs/tab-materiel.png)
+![materiel.png](/img/docs/tab-materiel.webp)
 
 ### Présentation des fonctions de la tablette
 
-![Sans-titre-2023-04-21-1459.png](/img/docs/tab-tab.png)
+![Sans-titre-2023-04-21-1459.png](/img/docs/tab-tab.webp)
 
 ### Présentation des fonctions du stylet
 
-![stylo_num.png](/img/docs/tab-stylo_num.png)
+![stylo_num.png](/img/docs/tab-stylo_num.webp)
 
 ---
 
@@ -33,13 +33,13 @@ Vous voulez emprunter la tablette graphique? Vérifiez la disponibilité dans So
 
 [Branchement avec ordinateur](https://support.huion.com/en/support/solutions/articles/44001928444-kamvas-13-cable-connections)
 
-![image.png](/img/docs/tab-image.png)
+![image.png](/img/docs/tab-image.webp)
 
 ---
 
 [Branchement avec appareil portable](https://support.huion.com/en/support/solutions/articles/44002011028-how-do-i-connect-the-huion-kamvas-12-13-16-2021-to-my-phone-)
 
-![tablette_co.png](/img/docs/tab-tablette_co.png)
+![tablette_co.png](/img/docs/tab-tablette_co.webp)
 
 ---
 
@@ -69,17 +69,17 @@ Vous voulez emprunter la tablette graphique? Vérifiez la disponibilité dans So
 
 ### Personnaliser les raccourcis sur les touches de la tablette
 
-![configTouch.png](/img/docs/tab-configTouch.png)
+![configTouch.png](/img/docs/tab-configTouch.webp)
 
-![configTouch2.png](/img/docs/tab-configTouch2.png)
+![configTouch2.png](/img/docs/tab-configTouch2.webp)
 
 ### Configuration de l’espace de travail
 
-![ecran-2.png](/img/docs/tab-ecran-2.png)
+![ecran-2.png](/img/docs/tab-ecran-2.webp)
 
 **Choisir votre espace de travail**
 
-![ecran.png](/img/docs/tab-ecran.png)
+![ecran.png](/img/docs/tab-ecran.webp)
 
 L’espace de travail consiste à définir la relation entre le mouvement du stylet sur l'appareil et le mouvement du curseur sur l'écran du moniteur choisi.
 
@@ -89,9 +89,9 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ### Personnaliser les raccourcis des boutons du stylet numérique
 
-![stylet.png](/img/docs/tab-stylet.png)
+![stylet.png](/img/docs/tab-stylet.webp)
 
-![stylet2.png](/img/docs/tab-stylet2.png)
+![stylet2.png](/img/docs/tab-stylet2.webp)
 
 ---
 
@@ -99,9 +99,9 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 [Pour plus d’information sur le réglage](https://www.huion.com/fr/index.php?m=content&c=index&a=manual&id=490)
 
-![pression.png](/img/docs/tab-pression.png)
+![pression.png](/img/docs/tab-pression.webp)
 
-![oui2.png](/img/docs/tab-oui2.png)
+![oui2.png](/img/docs/tab-oui2.webp)
 
 **1)** Tableau de personnalisation de la sensibilité à la pression. 
 
@@ -113,7 +113,7 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ### Importer et exporter les paramètres
 
-![sauvConfig.png](/img/docs/tab-sauvConfig.png)
+![sauvConfig.png](/img/docs/tab-sauvConfig.webp)
 
 :::warning
 L’ordinateur de l’atelier fait une réinitialisation tous les jours. Il est important d’exporter votre fichier de configuration dans un espace infonuagique ou sur une mémoire externe.
@@ -129,7 +129,7 @@ Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plu
 
 ### Méthode 1 : Directement avec la tablette graphique
 
-![OSD.png](/img/docs/tab-OSD.png)
+![OSD.png](/img/docs/tab-OSD.webp)
 
 **K2 [AUTO]** : Appuyer pour le retour au menu précédent.
 
@@ -157,6 +157,6 @@ Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plu
 
 ### Méthode 2 : Directement avec l’application de la tablette graphique
 
-![image-1.png](/img/docs/tab-image-1.png)
+![image-1.png](/img/docs/tab-image-1.webp)
 
-![image-2.png](/img/docs/tab-image-2.png)
+![image-2.png](/img/docs/tab-image-2.webp)

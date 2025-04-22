@@ -14,7 +14,7 @@ Les studios d’enregistrement vidéo des bibliothèques des Lettres et sciences
 - Sélectionner la source désirée.
 - Au besoin, placer le mobilier (écran mobile, tableau lumineux, etc) selon les pictogrammes au sol.
 
-![IMG_2673-1920x1080.jpg](/img/docs/studiovideo1.jpg)
+![IMG_2673-1920x1080.jpg](/img/docs/studiovideo1.webp)
 
 - Appuyer sur le bouton **Record** du module.
 - Pour arrêter l'enregistrement, appuyer sur **STOP**.
@@ -54,7 +54,7 @@ Formatez-la (n'oubliez pas de sauvegarder vos données d'abord!).
 
 #### Avec écran mobile
 
-![](/img/docs/studiovideo2.jpg)
+![](/img/docs/studiovideo2.webp)
 
 #### Sur le grand écran, il est recommandé
 
@@ -63,21 +63,21 @@ Formatez-la (n'oubliez pas de sauvegarder vos données d'abord!).
 - Préconiser des mots-clés
 - Utiliser un fond d’écran clair
 
-![](/img/docs/studiovideo3.png)
+![](/img/docs/studiovideo3.webp)
 
 #### Sans écran mobile
 
-![](/img/docs/studiovideo4.jpg)
+![](/img/docs/studiovideo4.webp)
 
-![](/img/docs/studiovideo5.png)
+![](/img/docs/studiovideo5.webp)
 
 ---
 
 ### Source 2 : Présentation avec tableau lumineux transparent
 
-![](/img/docs/studiovideo6.jpg)
+![](/img/docs/studiovideo6.webp)
 
-![](/img/docs/studiovideo7.png)
+![](/img/docs/studiovideo7.webp)
 
 - Une inversion d’image est nécessaire en post-production, grâce aux logiciels de montage Adobe Premiere Pro, Adobe Premier Rush ou Davinci Resolve.
 
@@ -92,9 +92,9 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 
 ### Source 3 : Présentation sur fond vert
 
-![](/img/docs/studiovideo8.png)
+![](/img/docs/studiovideo8.webp)
 
-![](/img/docs/studiovideo9.png)
+![](/img/docs/studiovideo9.webp)
 
 - Ne porter aucun vêtement vert.
 - Utiliser une image de fond neutre ou générale.
@@ -110,9 +110,9 @@ Ce mode n’est disponible qu’à la Bibliothèque Thérèse-Gouin-Décarie
 :::
 
 
-![](/img/docs/studiovideo10.jpg)
+![](/img/docs/studiovideo10.webp)
 
-![](/img/docs/studiovideo11.png)
+![](/img/docs/studiovideo11.webp)
 
 ---
 
@@ -122,18 +122,18 @@ Utilisez la télécommande de la caméra pour obtenir les cadrages de caméra d�
 
 - **Bibliothèque des lettres et sciences humaines**
     
-    ![](/img/docs/studiovideo12.jpg)
+    ![](/img/docs/studiovideo12.webp)
     
 
 - **Bibliothèque Thérèse-Gouin-Décarie**
     
-    ![](/img/docs/studiovideo13.jpeg)
+    ![](/img/docs/studiovideo13.webp)
     
     **Bibliothèque Thérèse-Gouin-Décarie** : 
     
     Utilisez les boutons de la télécommande pour la **caméra du haut**.
     
-    ![](/img/docs/studiovideo14.jpeg)
+    ![](/img/docs/studiovideo14.webp)
     
 - Un ordinateur relié à l'écran mobile est mis à votre disposition pour diffuser des images.
 - Des fiches murales permettent de transférer des fichiers vers l’ordinateur.

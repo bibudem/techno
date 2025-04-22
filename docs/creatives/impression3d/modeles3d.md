@@ -16,7 +16,7 @@ Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi q
 - [Documentation](https://www.tinkercad.com/learn)
 
 Tinkercad est une application sur navigateur développé par Autodesk, permettant de modéliser des objets très facilement. Tinkercad permet également de réaliser des montages électroniques ainsi que programmer à l’aide de bloc. Créez vous un compte gratuitement et réaliser votre objet en combinant des formes géométriques de base. Cette application est la plus facile à prendre en main de cette liste.
-![Interface du logiciel en ligne Tinkercad](/img/docs/tinkercad.png)
+![Interface du logiciel en ligne Tinkercad](/img/docs/tinkercad.webp)
 
 ### OpenSCAD
 
@@ -24,7 +24,7 @@ Tinkercad est une application sur navigateur développé par Autodesk, permettan
 - [Documentation](https://www.openscad.org/documentation.html)
 
 **OpenSCAD** est un logiciel libre de modélisation paramétrique et compatible Windows, Linux et Mac. La conception des objets se fait grâce à un langage de programmation. Contrairement aux logiciels de modélisation comme Blender, il ne se concentre pas sur les aspects artistiques, mais plus sur les aspects *Computer-aided design* (ou en français, conception assistée par ordinateur)
-![Interface du logiciel OpenSCAD](/img/docs/openscad.png)
+![Interface du logiciel OpenSCAD](/img/docs/openscad.webp)
 
 <iframe title="Impression et modélisation 3D" width="560" height="315" src="https://classe.iro.umontreal.ca/videos/embed/7967ad16-f87c-49ea-b5e6-519cb6e8a7bb" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
@@ -34,7 +34,7 @@ Tinkercad est une application sur navigateur développé par Autodesk, permettan
 - [Documentation](https://docs.blender.org/manual/fr/latest/)
 
 **Blender** est un logiciel de modélisation gratuit et open-source. Il permet de modéliser, d’animer, faire des simulations, et compositing. Il est utilisé par des professionnels du cinéma aux jeux vidéo. Ce logiciel possède une grande communauté de pratique, on retrouve beaucoup de tutoriel sur internet.
-![Interface du logiciel Blender](/img/docs/blender.jpg)
+![Interface du logiciel Blender](/img/docs/blender.webp)
 
 ### Fusion 360
 
@@ -43,7 +43,7 @@ Tinkercad est une application sur navigateur développé par Autodesk, permettan
 
 Ce logiciel de modélisation de la compagnie Autodesk existe en version payante et en version gratuite plus limitée. La version gratuite est amplement suffisante pour modéliser des objets en vu de l’impression 3D. Fusion 360 est à privilégié pour modéliser des objets ayant des dimensions précises à respecter. Il permet de faire des formes géométriques plus ou moins complexe.
 
-![Interface du logiciel Fusion 360](/img/docs/fusion360.png)
+![Interface du logiciel Fusion 360](/img/docs/fusion360.webp)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Izh99EnGLGw?si=8j24WWbEMVnVKnv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

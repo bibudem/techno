@@ -74,13 +74,13 @@ export default function PageAccueil() {
               to="/creatives/vr"
               title="Réalité virtuelle"
               text="Immersion totale, expérience ultime."
-              imageUrl="/img/home-vr.png"
+              imageUrl="/img/home-vr.webp"
             />
             <CardMedia
               to="/informatique/ava"
               title="Postes AVA"
               text="Étendez votre horizon de travail avec un grand affichage."
-              imageUrl="/img/home-ava.jpg"
+              imageUrl="/img/home-ava.webp"
             />
           </div>
           <div className={styles.rightColumn}>
@@ -106,7 +106,7 @@ export default function PageAccueil() {
 </a>
           </div>
           <div className={styles.spacesImages}>
-            {['/img/espace-1.jpg', '/img/espace-2.jpg', '/img/espace-3.jpg'].map(
+            {['/img/espace-1.webp', '/img/espace-2.webp', '/img/espace-3.webp'].map(
               (src, idx) => (
                 <div key={idx} className={styles.spacesImageWrapper}>
                   <img src={src} alt="" className={styles.spacesImage} />

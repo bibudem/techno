@@ -49,11 +49,11 @@ Tout d’abord, il faut choisir une image! Dans ce guide l’image source provie
 ![Untitled](/img/docs/cricut8.webp)
 
 Vous avez ensuite la possibilité de modifier (effacer, dessiner).
-![Untitled](/img/docs/cricut58.png)
+![Untitled](/img/docs/cricut58.webp)
 
 4.5. Sélectionner **Monocalque**, puis continuer.
 
-![Untitled](/img/docs/cricut59.png)
+![Untitled](/img/docs/cricut59.webp)
 
 4.6 Sélectionner l’image téléchargée et cliquer sur **Ajouter à la toile.**
 

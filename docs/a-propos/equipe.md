@@ -14,7 +14,7 @@ Pour des questions d'ordre général, écrivez-nous à studio@bib.umontreal.ca
 
 ----------------
 
-![](/img/team/personne.jpg)
+![](/img/team/personne.webp)
 
 ### Eric Romano, technicien en soutien de laboratoire informatique
 
@@ -27,7 +27,7 @@ eric.romano@umontreal.ca
 
 ----------------
 
-![](/img/team/personne.jpg)
+![](/img/team/personne.webp)
 
 ### Thierry Caballero, technicien en soutien de laboratoire informatique
 
@@ -40,7 +40,7 @@ thierry.caballero@umontreal.ca
 
 ----------------
 
-![](/img/team/personne.jpg)
+![](/img/team/personne.webp)
 
 ### Wassif Cheikh, technicien de soutien de laboratoire informatique
 
@@ -55,7 +55,7 @@ wassif.cheikh@umontreal.ca
 
 ## Équipe Technologies créatives et médias
 
-![](/img/team/eve.jpg)
+![](/img/team/eve.webp)
 
 ### Eve Baribeau Marchand, technicienne en documentation
 
@@ -70,7 +70,7 @@ eve.baribeau.marchand@umontreal.ca
 
 ----------------
 
-![](/img/team/guy.jpg)
+![](/img/team/guy.webp)
 
 ### Guy Blondeau, technicien soutien laboratoire de médiatisation
 
@@ -86,7 +86,7 @@ guy.blondeau@umontreal.ca
 
 ----------------
 
-![](/img/team/indiana.jpg)
+![](/img/team/indiana.webp)
 
 ### Indiana Delsart, bibliothécaire
 
@@ -102,7 +102,7 @@ indiana.delsart@umontreal.ca
 
 ----------------
 
-![](/img/team/jason.jpg)
+![](/img/team/jason.webp)
 
 ### Jason Madooray, technicien en documentation
 
@@ -118,7 +118,7 @@ jason.madooray@umontreal.ca
 
 ----------------
 
-![](/img/team/jeremy.jpg)
+![](/img/team/jeremy.webp)
 
 ### Jérémy Prime, technicien en documentation
 
@@ -134,7 +134,7 @@ jeremy.prime@umontreal.ca
 
 ----------------
 
-![](/img/team/melanie.jpg)
+![](/img/team/melanie.webp)
 
 ### Mélanie Lachapelle, technicienne en documentation
 
@@ -152,7 +152,7 @@ Venez me rencontrer pour apprendre à utiliser nos appareils ou pour discuter de
 
 ----------------
 
-![](/img/team/yan.jpg)
+![](/img/team/yan.webp)
 
 ### Yan Vallée, technicien en documentation
 

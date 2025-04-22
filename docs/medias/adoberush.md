@@ -32,7 +32,7 @@ help : crea
 - Cliquer sur l’icône **Ciseau** située à gauche de la Timeline.
 - Sélectionner l’élément encadrée en jaune et cliquer sur l’Icône de la corbeille.
 
-![](/img/docs/rush1.png)
+![](/img/docs/rush1.webp)
 
 :::tip
 Il est possible de déplacer l’ordre des médias sur la Timeline. Il suffit de cliquer sur le média et de le faire glisser à l’emplacement désiré.
@@ -62,7 +62,7 @@ Adobe Premiere Rush n’offre pas l’effet Incrustation sur fond de couleur.
 2. Ouvrir le logiciel Adobe Premiere Pro. 
 3. À gauche au bas de l’interface, cliquer sur **Ouvrir un projet Premiere Rush**.
     
-    ![](/img/docs/rush2.png)
+    ![](/img/docs/rush2.webp)
     
 4. Sélectionner votre projet sur fond vert. 
 5. L’interface de montage de Premiere Pro s’ouvre automatiquement. 
@@ -82,7 +82,7 @@ Sélectionner votre projet.
 4. Cliquer sur **Exporter.**
 5. Une fois l’exportation complétée, cliquer sur **Terminer.**
 
-![](/img/docs/rush3.png)
+![](/img/docs/rush3.webp)
 
 ---
 
@@ -93,7 +93,7 @@ Sélectionner votre projet.
 1. Adobe Premiere Rush conserve localement les projets. Ceux-ci s’affichent à l’ouverture de l’application.
 2. Lors de sa création, le projet se synchronise dans votre compte Creative Cloud. Il devient accessible sur tablette, téléphone intelligent ou autre ordinateur afin de poursuivre un montage.
     
-    ![](/img/docs/rush4.png)
+    ![](/img/docs/rush4.webp)
     
 ---
 
@@ -103,13 +103,13 @@ Certains environnements sont moins propices à une bonne prise de son. Pour éli
 
 1. Sur la Timeline, cliquer sur la piste sonore. Un encadré jaune s’inscrit.
     
-    ![](/img/docs/rush5.png)
+    ![](/img/docs/rush5.webp)
     
 2. Sélectionner l’icône de son à la droite de l’interface.
 3. Activer **Voix** et les diverses options se trouvant juste dessous. 
 4. À l’écoute, évaluer les options qui procurent une plus grande richesse de la voix.  
     
-    ![](/img/docs/rush6.png)
+    ![](/img/docs/rush6.webp)
 
 ---
 

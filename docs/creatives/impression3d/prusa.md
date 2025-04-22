@@ -94,7 +94,7 @@ Compatible avec : Windows, MacOS et Linux.
 3. À l’étape **Prusa Research**, cochez uniquement la case **0.4 mm buse** au dessous de **Original Prusa i3 MK3s & MK3s+**, sous **Famille MK3**.
 4. Cliquez sur **Fin**.
 
-![Assistant configuration PrusaSlicer](/img/docs/prusa-installation.png)
+![Assistant configuration PrusaSlicer](/img/docs/prusa-installation.webp)
 
 ## 4 - Première impression
 

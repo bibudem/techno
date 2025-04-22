@@ -29,7 +29,7 @@ CHITUBOX Basic est un logiciel gratuit d'impression 3D conçu pour simplifier le
 
 Si ce n’est pas déjà fait, vous devriez ajouter l'imprimante. Cliquez sur le bouton ajouter sur la barre de gestion de la machine, et sélectionnez ELEGOO Saturn Ultra dans la liste.
 
-![](/img/docs/chitubox-1.png)
+![](/img/docs/chitubox-1.webp)
 
 ### Importation du modèle
 
@@ -46,17 +46,17 @@ Pour connaître les types de fichiers 3D pris en charge, [consultez ce lien](htt
 Les supports sont des structures temporaires qui aident à maintenir les parties du modèle en place pendant l'impression.
 Il est peu probable que le modèle puisse être imprimé avec succès sans l'ajout de supports. Dans notre exemple, il ne présente qu'un seul point de contact sur la plaque de construction, ce qui le rend instable, étant donné que son centre de gravité se situe au-dessus de ce point. Pour remédier à cette situation, vous pouvez cliquer sur l'icône de support située en haut à droite de la fenêtre principale afin d'accéder à la fenêtre de gestion des supports. 
 
-![](/img/docs/chitubox-2.png)
+![](/img/docs/chitubox-2.webp)
 
 Pour plus de simplicité, vous pouvez choisir de générer du support automatiquement. Cliquer sur le bouton **Soutien automatique** (*Auto support*).
 
-![](/img/docs/chitubox-3.png)
+![](/img/docs/chitubox-3.webp)
 
 ### Découpe du modèle
 
 Pour retourner à la fenêtre principale, Cliquer sur le bouton de configuration du fichier situé dans le coin supérieur droit.
 
-![](/img/docs/chitubox-4.png)
+![](/img/docs/chitubox-4.webp)
 
 Appuyez ensuite sur le bouton **Trancher** situé dans le coin inférieur droit pour découper le modèle. Cette opération prendra un certain temps en fonction de la taille et de la complexité du modèle, ainsi que des supports. Elle permet de convertir le fichier 3D en un fichier imprimable compatible avec l'imprimante.
 

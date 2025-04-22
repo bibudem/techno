@@ -30,7 +30,7 @@ OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la 
 
 - Au lancement du logiciel la première fois, la fenêtre **Assistant de configuration automatique** apparait. Sélectionner **Optimiser pour l’enregistrement, je ne diffuse pas** et cliquer sur **Suivant.**
     
-    ![](/img/docs/obs1.png)
+    ![](/img/docs/obs1.webp)
     
 :::note
     Si la fenêtre ne s’affiche pas au démarrage, vous pouvez lancer l’assistant en cliquant dans le menu en haut sur **Outils → Assistant de configuration automatique.**
@@ -39,13 +39,13 @@ OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la 
 
 - Dans **Paramètres vidéo**, choisir **Garder tel quel** et sélectionner **30** dans le **débit d’images (FPS)**. Cliquer sur **Suivant** puis **Appliquer les paramètres**.
     
-    ![](/img/docs/obs2.png)
+    ![](/img/docs/obs2.webp)
     
 
 - Au lancement de l’interface, cliquer sur **Paramètres** en bas à droite.
 - Dans l’onglet **Avancé**, cocher la case **Convertir automatiquement en MP4** dans la section Enregistrement puis sur **OK** en bas de la fenêtre.
     
-    ![](/img/docs/obs3.png)
+    ![](/img/docs/obs3.webp)
     
 ---
 
@@ -57,16 +57,16 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
 
 - Dans **Sources**, appuyer sur le bouton **+** pour ajouter une source au canevas.
     
-    ![](/img/docs/obs4.png)
+    ![](/img/docs/obs4.webp)
     
 
 - Sélectionner **Périphériques de capture vidéo**
     
-    ![](/img/docs/obs5.png)
+    ![](/img/docs/obs5.webp)
     
 - Sélectionner **Créer/Sélectionner une source** et choisir un nom.
     
-    ![](/img/docs/obs6.png)
+    ![](/img/docs/obs6.webp)
     
 - Voici les paramètres à changer dans les propriétés :
     - **Périphériques** : Sélectionner votre caméra.
@@ -74,11 +74,11 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
     - **Résolution** : Choisir 1920x1080
     - **FPS** : identique à la sortie
         
-        ![](/img/docs/obs7.png)
+        ![](/img/docs/obs7.webp)
         
 - Une fois validé, voici à quoi ressemblerait l’interface :
     
-    ![](/img/docs/obs8.png)
+    ![](/img/docs/obs8.webp)
     
 
 ---
@@ -89,11 +89,11 @@ Par défaut, OBS capture le micro du système, c’est à dire que si votre PC p
 
 Afin de changer cela, vous devez rajouter dans **Sources > Capture Audio (Entrée)** et sélectionner votre périphérique de capture sonore. 
 
-![](/img/docs/obs9.png)
+![](/img/docs/obs9.webp)
 
 Ne pas oublier de baisser le volume dans le **Mélangeur audio** de la source **Mic/Aux** et de **Caméra** à **0** afin de ne capturer que l’entrée que vous avez choisie. 
 
-![](/img/docs/obs10.png)
+![](/img/docs/obs10.webp)
 
 ---
 
