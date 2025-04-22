@@ -6,6 +6,7 @@ image: "/img/cover/amphi.webp"
 ---
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -41,6 +42,9 @@ import StudioCard from "@site/src/components/StudioCard";
 
 ---
 
-## Visite 360°
+## Visite virtuelle
 
-<iframe src="https://bibumontreal.h5p.com/content/1292277650474974088/embed" aria-label="BLSH - Amphithéâtre" width="100%" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://bibumontreal.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script> 
+<Pano360
+  image="/img/pano/test360.jpg"
+  legende="Test 360°"
+/>

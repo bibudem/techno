@@ -19,6 +19,7 @@
     "@docusaurus/preset-classic": "^3.7.0",
     "@mdx-js/react": "^3.0.0",
     "@phosphor-icons/react": "^2.1.7",
+    "@photo-sphere-viewer/core": "^5.13.2",
     "clsx": "^2.0.0",
     "papaparse": "^5.5.2",
     "prism-react-renderer": "^2.3.0",
