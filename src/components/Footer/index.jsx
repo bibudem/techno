@@ -8,15 +8,19 @@ import {
   InstagramLogo,
   YoutubeLogo,
   LinkedinLogo,
+  CubeFocus,
+  VideoCamera,
+  Cube,
+  Desktop,
 } from "@phosphor-icons/react";
 import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <h3 className={styles.footerTitle}>
+      <h2 className={styles.footerTitle}>
         Les bibliothèques de l'Université de Montréal • studio·bib
-      </h3>
+      </h2>
 
       <div className={styles.content}>
         {/* Colonne À propos */}
@@ -45,12 +49,24 @@ export default function Footer() {
 
         {/* Colonne Liens rapides */}
         <div className={styles.linkSection}>
-          <h3>Liens rapides</h3>
-          <Link to="/" className={styles.linkItem}>Espaces</Link>
-          <Link to="/informatique" className={styles.linkItem}>Ressources informatiques</Link>
-          <Link to="/creatives" className={styles.linkItem}>Technologies créatives</Link>
-          <Link to="/medias" className={styles.linkItem}>Productions médias</Link>
-        </div>
+  <h3>Liens rapides</h3>
+  <Link to="/espaces" className={styles.linkItem}>
+    <Cube size={20} />
+    <span>Espaces</span>
+  </Link>
+  <Link to="/informatique" className={styles.linkItem}>
+    <Desktop size={20} />
+    <span>Ressources informatiques</span>
+  </Link>
+  <Link to="/creatives" className={styles.linkItem}>
+    <CubeFocus size={20} />
+    <span>Technologies créatives</span>
+  </Link>
+  <Link to="/medias" className={styles.linkItem}>
+    <VideoCamera size={20} />
+    <span>Productions médias</span>
+  </Link>
+</div>
 
         {/* Logo + Icônes sociales */}
         <div className={styles.logoContainer}>

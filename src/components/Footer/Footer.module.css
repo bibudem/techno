@@ -1,6 +1,6 @@
 :root {
-  --color-text: #c3ccd5;
-  --color-link: #cce2f3;
+  --color-text: #f5f5f5;
+  --color-link: var(--bleu-100);
   --color-background: var(--bleu-700);
   --color-background-alt: var(--bleu-500);
   --color-accent: var(--jaune);
@@ -90,6 +90,9 @@
 }
 
 .linkItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   color: var(--color-link);
   font-size: 0.975rem;
   text-decoration: none;
