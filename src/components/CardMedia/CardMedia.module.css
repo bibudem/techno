@@ -106,4 +106,7 @@
       flex-direction: column;
       justify-content: space-between;
     }
+    .arrowContainer {
+      display: none;
+    }
   }
