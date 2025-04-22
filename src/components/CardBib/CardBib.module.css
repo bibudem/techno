@@ -66,10 +66,6 @@
     border-radius: 0;
   }
 
-  .cardLink {
-    margin-bottom: 1rem;
-  }
-
   .card-row {
     gap: 0rem !important;
   }
