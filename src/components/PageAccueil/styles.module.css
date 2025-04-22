@@ -138,7 +138,7 @@
 
 .spacesImageWrapper {
   position: relative;
-  width: clamp(110px, 9vw, 160px);
+  width: clamp(100px, 9vw, 160px);
   height: clamp(250px, 38vw, 350px);
   border-radius: 16px;
   flex-shrink: 0;
@@ -199,10 +199,22 @@
   min-width: 280px;
 }
 
+.cardDate, .cardLocation {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #333;
+}
+
+.icon {
+  flex-shrink: 0;
+  color: inherit;
+}
+
 .cardWorkshops {
   flex: 1 1 575px;
   background-color: #f9fafb;
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -224,7 +236,7 @@
 }
 
 .cardItem {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .cardItemTop {
@@ -232,13 +244,38 @@
   margin-bottom: 0.25rem;
 }
 
+.cardMeta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+
 .cardDate {
-  color: #b91c1c;
-  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--gris-800);
+}
+
+.cardLocation {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--rouge-orange-600);
+}
+
+.icon {
+  flex-shrink: 0;
+  color: inherit;
 }
 
 .cardTitle {
-  margin: 0;
+  margin-left: 1.45rem;
+
   font-size: clamp(0.95rem, 2.5vw, 1.1rem);
   font-weight: 400;
   /* color: var(--gris-700); */
@@ -246,10 +283,7 @@
   line-height: 1.3;
 }
 
-.cardLocation {
-  font-size: 0.85rem;
-  color: #4b5563;
-}
+
 
 .cardFooter {
   padding: 0.75rem 1.25rem;
@@ -321,6 +355,12 @@
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center !important;
+  }
+  .spacesImages {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
   }
 }
 

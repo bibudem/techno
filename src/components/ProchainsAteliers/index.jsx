@@ -1,20 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../PageAccueil/styles.module.css';
+import { CalendarBlank, MapPin, Monitor } from '@phosphor-icons/react';
 
 function parseDateFr(dateStr) {
   const mois = {
-    'janv.': '01',
-    'févr.': '02',
-    'mars': '03',
-    'avr.': '04',
-    'mai': '05',
-    'juin': '06',
-    'juil.': '07',
-    'août': '08',
-    'sept.': '09',
-    'oct.': '10',
-    'nov.': '11',
-    'déc.': '12',
+    'janv.': '01', 'févr.': '02', 'mars': '03', 'avr.': '04',
+    'mai': '05', 'juin': '06', 'juil.': '07', 'août': '08',
+    'sept.': '09', 'oct.': '10', 'nov.': '11', 'déc.': '12',
   };
 
   const [jour, moisAbrégé, année] = dateStr.split(' ');
@@ -32,10 +24,7 @@ export default function ProchainsAteliers() {
       .then(res => res.json())
       .then(data => {
         const àVenir = data
-          .map(f => ({
-            ...f,
-            isoDate: parseDateFr(f.date),
-          }))
+          .map(f => ({ ...f, isoDate: parseDateFr(f.date) }))
           .filter(f => f.isoDate && f.isoDate >= new Date())
           .sort((a, b) => a.isoDate - b.isoDate)
           .slice(0, 4);
@@ -61,22 +50,40 @@ export default function ProchainsAteliers() {
           formations.map(({ date, titre, typeLocalisation, url, lieu }, idx) => (
             <li key={idx} className={styles.cardItem}>
               <div className={styles.cardItemTop}>
-                <span className={styles.cardDate}>{date}</span>
+                <div className={styles.cardMeta}>
+                  <span className={styles.cardDate}>
+                    <CalendarBlank size={16} className={styles.icon} />
+                    {date}
+                  </span>
+                  <span className={styles.cardLocation}>
+                    {typeLocalisation === 'en-ligne' ? (
+                      <>
+                        <Monitor size={16} className={styles.icon} />
+                        En ligne
+                      </>
+                    ) : (
+                      <>
+                        <MapPin size={16} className={styles.icon} />
+                        {lieu || 'Lieu non précisé'}
+                      </>
+                    )}
+                  </span>
+                </div>
                 <h3 className={styles.cardTitle}>
-                  <a href={url} target="_blank" rel="noopener noreferrer">{titre}</a>
+                  <a href={url} target="_blank" rel="noopener noreferrer">
+                    {titre}
+                  </a>
                 </h3>
-              </div>
-              <div className={styles.cardLocation}>
-                {typeLocalisation === 'en-ligne'
-                  ? 'En ligne'
-                  : lieu || 'Lieu non précisé'}
               </div>
             </li>
           ))
         )}
       </ul>
       <div className={styles.cardFooter}>
-        <a href="https://calendrier.bib.umontreal.ca/calendar" className={styles.cardMore}>
+        <a
+          href="https://calendrier.bib.umontreal.ca/calendar"
+          className={styles.cardMore}
+        >
           Voir tous les ateliers →
         </a>
       </div>
