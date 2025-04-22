@@ -26,6 +26,8 @@ import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 import Link from '@docusaurus/Link';
 
+# Ordinateurs
+
 ## Libre-service
 
 Des ordinateurs en libre-service sont à la disposition de tous les utilisateurs et utilisatrices. L’accès se fait via un code d’accès et un mot de passe.
