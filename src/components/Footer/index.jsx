@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <h2 className={styles.footerTitle}>
-        Les bibliothèques de l'Université de Montréal • studio·bib
+        Les bibliothèques de l'Université de Montréal - studio•bib
       </h2>
 
       <div className={styles.content}>
