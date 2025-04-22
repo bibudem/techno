@@ -417,14 +417,12 @@ html[data-theme="dark"] {
   display: none !important;
 }
 
-@media screen and (max-width: 996px) {
-
-}
-
 @media screen and (min-width: 996px) {
   .navbar__items:not(.navbar__items--right) .navbar__link {
     display: flex;
   }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -434,6 +432,11 @@ html[data-theme="dark"] {
     flex-direction: column;
     justify-content: space-between;
   }
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
 }
 
 @media screen and (max-width: 550px) {
