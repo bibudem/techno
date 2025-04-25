@@ -13,10 +13,26 @@ import {
   Microphone,
 } from '@phosphor-icons/react';
 
+
+const images = [
+  '/img/homepage1.webp',
+  '/img/homepage2.webp',
+];
+
 export default function PageAccueil() {
+  const randomImage = images[Math.floor(Math.random() * images.length)];
   return (
     <>
-      <section className={styles.introSection}>
+      <section
+        className={styles.introSection}
+        style={{
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), #111), url(${randomImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          borderRadius: '0 0 12px 12px',
+          color: '#fff',
+        }}
+      >
         <div className={styles.introContainer}>
           <h1 className={styles.introTitle}>
             <span className={styles.introLight}>studio</span>

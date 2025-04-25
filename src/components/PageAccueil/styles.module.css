@@ -1,7 +1,6 @@
 /* === Intro Section === */
 .introSection {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), #111), url("/img/homepage.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
