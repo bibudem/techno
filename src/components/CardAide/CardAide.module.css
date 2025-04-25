@@ -3,7 +3,7 @@
   text-decoration: none !important;
   display: flex;
   align-items: center;
-  background-color: var(--gris-700);
+  background-color: var(--bleu-700);
   border-radius: 8px;
   padding: 1.5rem;
   transition: background-color 0.3s ease-in-out;
@@ -72,6 +72,17 @@
   color: var(--gris-700);
 }
 
+@keyframes wave {
+  0%   { transform: rotate(0deg); }
+  50%  { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate {
+  animation: wave 0.8s ease-in-out 2 forwards;
+  transform-origin: 50% 50%;
+}
+
 @media (max-width: 768px) {
   /* Mettre la carte en colonne et centrer tout */
   .cardAide {
@@ -81,9 +92,9 @@
   }
 
   /* Supprimer la flèche */
-  .arrowContainer {
+  /* .arrowContainer {
     display: none;
-  }
+  } */
 
   /* Espace entre icône et contenu */
   .iconContainer {
@@ -120,6 +131,6 @@
   }
 
   .cardAide {
-    border-radius: 0 !important;
+    /* border-radius: 0 !important; */
   }
 }
