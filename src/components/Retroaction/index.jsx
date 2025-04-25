@@ -93,7 +93,7 @@ const Retroaction = () => {
         }}
       >
         <p style={{ margin: 0 }}>
-          Votre avis a bien été reçu. Merci pour votre contribution.
+        Nous avons bien reçu votre avis. Merci de contribuer à l’amélioration de nos services.
         </p>
       </div>
     );
@@ -136,11 +136,17 @@ const Retroaction = () => {
 
       {vote === 'non' && (
         <>
+        <div style={{ marginTop: '1rem' }}>
+      <strong>Faites-nous part de vos commentaires.</strong><br />
+      <span style={{ fontSize: '0.9rem' }}>
+        Merci de ne pas inclure de renseignements personnels. Vous ne recevrez pas de réponse, mais vos commentaires seront pris en compte.
+      </span>
+    </div>
           <textarea
             className={styles.textarea}
             value={comment}
             onChange={(e) => setComment(e.target.value)}
-            placeholder="Faites-nous savoir ce que nous pouvons faire mieux (optionnel)"
+            placeholder="Votre message..."
             rows={3}
           />
           <button type="submit" className={styles.submitButton} disabled={status === 'submitting'}>
