@@ -13,11 +13,11 @@ import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
 
-Discutez avec un technicien en direct **par clavardage** ou **sur place** à la Bibliothèque des lettres et sciences humaines (BLSH).
+Discutez avec un technicien en soutien de laboratoire informatique en direct [**par clavardage**](https://bib.umontreal.ca/nous-joindre/clavarder/) ou [**sur place**](https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines) à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ### Exemples d’aide offerte
 - Configuration du proxy ou du VPN pour accéder aux ressources UdeM  
-- Installation de logiciels (Zotero, Office, etc.)  
+- Installation de logiciels (Zotero, EndNote, Office 365, SPSS, QDA Miner, etc.)  
 - Aide Word (modèle de thèse), PowerPoint, etc.  
 - Conversion de documents en PDF  
 - Accès aux logiciels à distance  
