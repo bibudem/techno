@@ -1,6 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import remarkInsertHelp from './src/utils/remark-insert-help.js';
-import webpPlugin from './plugins/docusaurus-plugin-webp/index.js';
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -51,16 +51,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      './plugins/docusaurus-plugin-webp',
-      { quality: 70, max: 1030, min: 640, steps: 2, disableInDev: true },
-    ],
-    [webpPlugin,
-      {
-        id: 'webp-local',  
-      },],
-  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
