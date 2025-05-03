@@ -94,19 +94,19 @@ Le réseau sans fil **eduroam** est disponible pour les visiteurs d’un autre �
   <TabItem value="visitors" label="Visiteurs à l'UdeM">
     | Université                | Code d'accès (exemple)    | Mot de passe (exemple)         |
     |---------------------------|---------------------------|---------------------------------|
-    | HEC                      | prenom.nom@hec.ca        | Mot de passe courriel HEC      |
-    | ETS                      | dtremblay@etsmtl.ca      | Mot de passe                   |
-    | Polytechnique            | Code_Usager@polymtl.ca   | Mot de passe                   |
-    |Université Laval |IDUL@ulaval.ca |Votre NIP|
-        |UQAM Étudiants | CodeMS@ens.uqam.ca|ABC12345|
-        |UQAM Employés | nom.prenom@uqam.ca|ABC12345|
-        |University of Toronto | utorid@utoronto.ca  | UTORid password|
-        |Concordia University |netname@concordia.ca |Password (same as MyConcordia portal)|
-        |McGill Étudiants | first.last@mail.mcgill.ca|McGill Password
-        |McGill Employés | first.last@mcgill.ca|McGill Password
-        |Université de Sherbrooke | votreCIP@usherbrooke.ca |Mot de passe|
-        |Université d’Ottawa Étudiants |adressedecourriel@uottawa.ca | Mot de passe uoAccès |
-        | Université d’Ottawa Employés | adressedecourriel@uottawa.ca | Mot de passe Exchange |
+    | HEC                      | `prenom.nom@hec.ca`        | Mot de passe courriel HEC      |
+    | ETS                      | `dtremblay@etsmtl.ca`      | Mot de passe                   |
+    | Polytechnique            | `Code_Usager@polymtl.ca`   | Mot de passe                   |
+    |Université Laval |`IDUL@ulaval.ca` |Votre NIP|
+        |UQAM Étudiants | `CodeMS@ens.uqam.ca`|ABC12345|
+        |UQAM Employés | `nom.prenom@uqam.ca`|ABC12345|
+        |University of Toronto | `utorid@utoronto.ca`  | UTORid password|
+        |Concordia University |`netname@concordia.ca` |Password (same as MyConcordia portal)|
+        |McGill Étudiants | `first.last@mail.mcgill.ca`|McGill Password
+        |McGill Employés | `first.last@mcgill.ca`|McGill Password
+        |Université de Sherbrooke | `votreCIP@usherbrooke.ca` |Mot de passe|
+        |Université d’Ottawa Étudiants |`adressedecourriel@uottawa.ca` | Mot de passe uoAccès |
+        | Université d’Ottawa Employés | `adressedecourriel@uottawa.ca` | Mot de passe Exchange |
   </TabItem>
 
   <TabItem value="udem-visiting" label="Communauté UdeM en visite ailleurs">
