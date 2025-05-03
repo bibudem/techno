@@ -245,25 +245,27 @@ html[data-theme="dark"] {
 
 
 
+p {
+  margin-top: 1rem;
+}
 
-
-
+/* Boutons */
 
 
 .button {
   
-  display: inline-flex; /* Flex pour centrer facilement */
-  align-items: center; /* Centre verticalement */
-  justify-content: center; /* Centre horizontalement */
-  padding: 0.8rem 1.6rem; /* Espacement interne */
-  border-radius: 24px; /* Bords arrondis */
-  font-size: 1rem; /* Taille du texte */
-  font-weight: bold; /* Texte en gras */
-  text-align: center; /* Centre le texte */
-  text-decoration: none; /* Pas de soulignement */
-  cursor: pointer; /* Curseur pointer */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Transitions pour hover */
-  border: none; /* Supprime la bordure par défaut */
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 0.8rem 1.6rem; 
+  border-radius: 24px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  text-align: center; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  border: none; 
 }
 
 .button--primary {
