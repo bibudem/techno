@@ -8,6 +8,7 @@ help : crea
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
+import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -91,8 +92,11 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 
 ---
 
-## Visite 360
+## Visite virtuelle
 
-### Bibliothèque des lettres et sciences humaines (BLSH)
-
-<iframe src="https://bibumontreal.h5p.com/content/1292278507800175298/embed" aria-label="BLSH - Studio d'enregistrement audio" width="100%" height="637" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://bibumontreal.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<Pano360
+  image="/img/pano/studioaudio.jpg"
+  legende="Vue en 360° du Studio audio"
+  title="Studio audio"
+  alt="Vue en 360° du Studio audio"
+/>
