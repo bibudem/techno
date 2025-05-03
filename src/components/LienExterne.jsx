@@ -6,10 +6,12 @@ import { useLocation } from '@docusaurus/router';
 const estLienExterne = (href) => {
   try {
     const url = new URL(href, window.location.href);
-    return (
-      url.origin !== window.location.origin &&
-      !url.hostname.endsWith('bib.umontreal.ca')
-    );
+    const hostname = url.hostname;
+
+    // Considérer bib.umontreal.ca et ses sous-domaines comme internes
+    const estUdem = hostname === 'bib.umontreal.ca' || hostname.endsWith('.bib.umontreal.ca');
+
+    return url.origin !== window.location.origin && !estUdem;
   } catch {
     return false;
   }
@@ -20,16 +22,9 @@ export default function LienExterne() {
 
   useEffect(() => {
     document.querySelectorAll('a[href]').forEach((lien) => {
-
       if (lien.closest('[data-ignore-external]')) return;
-
-      if (lien.closest('footer')) {
-        return;
-      }
-
-      if (lien.querySelector('img') && !lien.textContent.trim()) {
-        return;
-      }
+      if (lien.closest('footer')) return;
+      if (lien.querySelector('img') && !lien.textContent.trim()) return;
 
       const href = lien.getAttribute('href');
       if (
@@ -39,11 +34,11 @@ export default function LienExterne() {
       ) {
         lien.dataset.lienExterne = 'true';
 
-        // Retirer target/_blank / rel existants
+        // Retirer target/_blank et rel
         lien.removeAttribute('target');
         lien.removeAttribute('rel');
 
-        // Si c'est un PDF, insérer le label "(PDF)"
+        // Si c'est un PDF, ajouter (PDF)
         const isPdf = href.toLowerCase().endsWith('.pdf');
         if (isPdf) {
           const pdfLabel = document.createElement('span');
@@ -54,7 +49,7 @@ export default function LienExterne() {
           lien.appendChild(pdfLabel);
         }
 
-        // Puis ajouter l'icône externe
+        // Ajouter l'icône externe
         const wrapper = document.createElement('span');
         wrapper.className = 'icone-externe';
         wrapper.style.marginLeft = '0.25em';
