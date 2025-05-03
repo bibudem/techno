@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
 
-/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary:var(--bleu-500);
   --ifm-color-primary-dark: var(--bleu-700);
@@ -19,7 +13,6 @@
   --ifm-font-family-base: "Figtree", sans-serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -242,15 +235,11 @@ html[data-theme="dark"] {
   font-size: 1rem;
 }
 
-
-
-
 p {
   margin-top: 1rem;
 }
 
 /* Boutons */
-
 
 .button {
   
