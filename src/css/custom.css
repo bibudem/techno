@@ -148,6 +148,12 @@ html[data-theme="dark"] {
   color: var(--navbar-link-c);
 }
 
+@media screen and (max-width: 1210px) {
+  #__docusaurus .navbar__link {
+    font-size: 0.85rem !important;
+  }
+}
+
 #__docusaurus .navbar__inner {
   width: initial;
   flex-grow: 1;
