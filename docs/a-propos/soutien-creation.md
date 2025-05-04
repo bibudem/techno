@@ -19,6 +19,8 @@ Nous offrons du soutien pour vos projets créatifs et vos productions multimédi
 - Initiation à l'impression 3D, etc.
 - Conseils techniques ou créatifs
 
+Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
+
 <CardGrid
   items={[
     {
@@ -30,7 +32,7 @@ Nous offrons du soutien pour vos projets créatifs et vos productions multimédi
     {
       title: "Sur rendez-vous",
       description: "Rencontrer un membre de l’équipe.",
-      link: "#",
+      link: "https://outlook.office.com/owa/calendar/studiobib@umontreal.ca/bookings/?ismsaljsauthenabled",
       icon : "CubeFocus",
     },
     ]}
@@ -38,6 +40,5 @@ Nous offrons du soutien pour vos projets créatifs et vos productions multimédi
 
 
 
-Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
 
 

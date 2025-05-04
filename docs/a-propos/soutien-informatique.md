@@ -23,7 +23,8 @@ Discutez avec un technicien en soutien de laboratoire informatique en direct [**
 - Accès aux logiciels à distance  
 - Questions sur les outils numériques UdeM
 
-<HoraireSemaine codeBib="ss" />
 Consultez la section [Ressources informatiques](../informatique/index.md).
+
+<HoraireSemaine codeBib="ss" />
 
 ---
