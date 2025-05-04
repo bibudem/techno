@@ -7,6 +7,7 @@ help: info
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Disponibilite from '@site/src/components/Disponibilite';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -52,17 +53,29 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
   <TabItem value="pret-6h" label="Prêt 6 heures">
     - **Aucune réservation**
     - **Un renouvellement** est possible via votre dossier Sofia.
-    - **Disponibilité :**
-        - Aménagement*
-        - Campus de Laval
-        - Droit
-        - Lettres et sciences humaines
-        - Hubert-Reeves
-        - Thérèse-Gouin-Décarie
+    - Disponible en ce moment :
+  
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+    gap: "1rem",
+    marginTop: "1.5rem"
+  }}
+>
+  <Disponibilite label="Aménagement" oclc="1194592312" />
+  <Disponibilite label="Droit" oclc="1287017409" />
+  <Disponibilite label="Campus Laval" oclc="1287017250" />
+  <Disponibilite label="Hubert-Reeves" oclc="1240170705" />
+  <Disponibilite label="Lettres et sciences humaines" oclc="1287018067" />
+  <Disponibilite label="Thérèse-Gouin-Décarie" oclc="1287023040" />
+</div>
 
     Adressez-vous au comptoir de prêt des bibliothèques concernées.
 
-    *La Bibliothèque d'aménagement offre le prêt d'ordinateurs Surface Book 2 qui allient la polyvalence d’un ordinateur portable, d’une tablette et d’un studio portable. Ils sont équipés d’un stylet et ont une licence Adobe Creative Cloud. Ces ordinateurs doivent être utilisés à l'intérieur de la Bibliothèque d'aménagement.
+    :::note Surface Book 2
+    La Bibliothèque d'aménagement offre le prêt d'ordinateurs Surface Book 2 qui allient la polyvalence d’un ordinateur portable, d’une tablette et d’un studio portable. Ils sont équipés d’un stylet et ont une licence Adobe Creative Cloud. Ces ordinateurs doivent être utilisés à l'intérieur de la Bibliothèque d'aménagement.
+    :::
   </TabItem>
 
   <TabItem value="pret-7j" label="Prêt 7 jours">
@@ -74,10 +87,12 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
     - **Réservation obligatoire**.  
     - Durée du prêt : **7 jours**.  
     - Le renouvellement est automatique, sauf si l'ordinateur est réservé par une autre personne. Si tel est le cas, des frais de **5$ par jour de retard** s'appliqueront.
+    - Disponible en ce moment :
+  <Disponibilite label="Bibliothèque de médecine vétérinaire" oclc="1230477391" />
 
     **Pour réserver un portable :**
-    1. Accéder à la notice **Portables de la Faculté de médecine vétérinaire** dans l'outil de recherche Sofia.  
-    2. Cliquer sur le bouton **Obtenir**.  
+    1. Accéder à la notice [Portables de la Faculté de médecine vétérinaire](https://umontreal.on.worldcat.org/oclc/1230477391).  
+    2. Cliquer sur le bouton **Obtenir**.
     3. Préciser dans le formulaire : « J'ai besoin de n’importe quel exemplaire ».  
     4. Un courriel sera envoyé lorsque le portable sera disponible pour l’emprunt.
   </TabItem>
@@ -90,11 +105,15 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
     - **Réservation obligatoire**.  
     - Le renouvellement est automatique, sauf si l'ordinateur est réservé par une autre personne.  
     - Si le portable est réservé par une autre personne, des frais de **5$ par jour de retard** s'appliqueront.
+    - Disponible en ce moment :
+  <Disponibilite label="Bibliothèque des lettres et sciences humaines" oclc="1135196766" />
 
     **Pour réserver un portable :**
-    1. Accéder à la notice [Portables des bibliothèques UdeM](https://umontreal.on.worldcat.org/oclc/1135196766?_gl=1*my8gyu*_ga*NDkwNjAwMjE2LjE2OTY5MDQ4NTM.*_ga_V8J6YFFD4F*MTcwOTE4NTYyMi40MS4xLjE3MDkxODg5ODUuMC4wLjA.) dans l'outil de recherche Sofia.  
-    2. Cliquer sur le bouton **Obtenir**.  
+    1. Accéder à la notice [Portables des bibliothèques UdeM](https://umontreal.on.worldcat.org/oclc/1135196766?_gl=1*my8gyu*_ga*NDkwNjAwMjE2LjE2OTY5MDQ4NTM.*_ga_V8J6YFFD4F*MTcwOTE4NTYyMi40MS4xLjE3MDkxODg5ODUuMC4wLjA.).  
+    2. Cliquer sur le bouton **Obtenir**.
     3. Préciser dans le formulaire : « J'ai besoin de n’importe quel exemplaire ».  
     4. Un courriel sera envoyé lorsque le portable sera disponible pour l’emprunt.
   </TabItem>
 </Tabs>
+
+---
