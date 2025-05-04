@@ -49,7 +49,7 @@ Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH
 - 2 Casques audio Sennheiser HD 280 Pro
 - Écran *widescreen* 34p
 
-Il offre également l’accès à la version complète de **DaVinci Resolve Studio**.
+Le poste donne également accès à la version complète de **DaVinci Resolve Studio**.
 :::
 
 ---
