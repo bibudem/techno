@@ -3,8 +3,8 @@ id : vr
 title : Réalité virtuelle
 image: "/img/cover/vr.webp"
 help : crea
-
 ---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import CardGrid from "@site/src/components/CardGrid";
 import Disponibilite from '@site/src/components/Disponibilite';
@@ -52,9 +52,6 @@ Disponible en ce moment :
   <Disponibilite label="Santé" oclc="1472198745" />
   <Disponibilite label="Thérèse-Gouin-Décarie" oclc="1246168559" />
 </div>
-
-
-
 
 ---
 

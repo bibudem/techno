@@ -12,7 +12,6 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
-
 Discutez avec un technicien en soutien de laboratoire informatique en direct [**par clavardage**](https://bib.umontreal.ca/nous-joindre/clavarder/) ou [**sur place**](https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines) à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ### Exemples d’aide offerte

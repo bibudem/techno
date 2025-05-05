@@ -1,5 +1,6 @@
 ---
 title : Cricut
+help : crea
 ---
 
 ## Guide de découpe
@@ -240,7 +241,7 @@ Conçu pour les découpes de matériaux résistants
 - Cuir
 - Textile avec durcisseur
 
-### Le fabricgrip
+### Le fabric grip
 
 <!-- ![Untitled](/img/docs/cricut41.webp) -->
 
@@ -435,40 +436,8 @@ Cet outil permet d'effectuer des rainures sur les matériaux. Ceci permet ensuit
 
 <!-- ![Untitled](/img/docs/cricut55.webp) -->
 
-#### Pointe de rainures / stries (unique et double) - Indisponible
-
-Ces embouts permettent d'effectuer des rainures jusqu'à 10 fois plus prononcées que le crayon. Cela permet de plier des matériaux plus facilement. L'embout double est nécessaire pour les matériaux plus résistants.
-
-<!-- ![Untitled](/img/docs/cricut56.webp) -->
-
-#### Lame de perforation - Indisponible
-
-*Vous avez un projet en tête nécessitant ce type de lame? Faites-nous en part! studio@bib.umontreal.ca*
-
-Permet la coupe en pointillé afin de facilité la déchirure (par exemple des billets de tombola)
-
-- Acetate
-- Mousse
-- Papier
-- Papier cartonné
-    
-<!-- ![Untitled](/img/docs/cricut57.webp) -->
-
-#### Lame vaguée - Indisponible
-
-*Vous avez un projet en tête nécessitant ce type de lame? Faites-nous en part! studio@bib.umontreal.ca*
-
-Permet une découpe ondulée
-
-- Coton
-- Carton ondulé
-- Denim
-- Flannel
-- Kraft Board
-- Lainage
-- Papier cartonné épais
-- Papier de construction
-
 :::info "Ressources en ligne"
     [Blades, Tools and Accessories -  Cricut Design](https://help.cricut.com/hc/en-us/categories/360000821854-Blades-Tools-and-Accessories)
 :::
+
+---
