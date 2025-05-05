@@ -21,41 +21,44 @@ export default function LienExterne() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    document.querySelectorAll('a[href]').forEach((lien) => {
+    // Cibler seulement la zone de contenu principal
+    const zonePrincipale = document.querySelector('.theme-doc-markdown, .markdown');
+
+    if (!zonePrincipale) return;
+
+    const liens = zonePrincipale.querySelectorAll('a[href]');
+
+    liens.forEach((lien) => {
       if (lien.closest('[data-ignore-external]')) return;
       if (lien.closest('footer')) return;
+      if (lien.dataset.lienExterne === 'true') return;
       if (lien.querySelector('img') && !lien.textContent.trim()) return;
 
       const href = lien.getAttribute('href');
-      if (
-        estLienExterne(href) &&
-        !lien.dataset.lienExterne &&
-        !lien.querySelector('.icone-externe')
-      ) {
-        lien.dataset.lienExterne = 'true';
+      if (!href || !estLienExterne(href)) return;
 
-        // Retirer target/_blank et rel
-        lien.removeAttribute('target');
-        lien.removeAttribute('rel');
+      lien.dataset.lienExterne = 'true'; // marquer comme traité
+      lien.removeAttribute('target');
+      lien.removeAttribute('rel');
 
-        // Si c'est un PDF, ajouter (PDF)
-        const isPdf = href.toLowerCase().endsWith('.pdf');
-        if (isPdf) {
-          const pdfLabel = document.createElement('span');
-          pdfLabel.textContent = '(PDF)';
-          pdfLabel.className = 'link-pdf-label';
-          pdfLabel.style.fontStyle = 'regular';
-          pdfLabel.style.marginLeft = '0.25em';
-          lien.appendChild(pdfLabel);
-        }
+      // Ajouter (PDF)
+      if (href.toLowerCase().endsWith('.pdf')) {
+        const pdfLabel = document.createElement('span');
+        pdfLabel.textContent = ' (PDF)';
+        pdfLabel.className = 'link-pdf-label';
+        pdfLabel.style.marginLeft = '0.25em';
+        lien.appendChild(pdfLabel);
+      }
 
-        // Ajouter l'icône externe
-        const wrapper = document.createElement('span');
-        wrapper.className = 'icone-externe';
-        wrapper.style.marginLeft = '0.25em';
-        wrapper.style.display = 'inline-flex';
-        wrapper.style.verticalAlign = 'middle';
+      // Ajouter icône externe
+      const wrapper = document.createElement('span');
+      wrapper.className = 'icone-externe';
+      wrapper.style.marginLeft = '0.25em';
+      wrapper.style.display = 'inline-flex';
+      wrapper.style.verticalAlign = 'middle';
 
+      // Protection contre le double rendu
+      if (!lien.querySelector('.icone-externe')) {
         lien.appendChild(wrapper);
         createRoot(wrapper).render(<ArrowSquareOut size={16} />);
       }
