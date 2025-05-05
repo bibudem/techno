@@ -3,7 +3,7 @@ title: Guide d'utilisation de l'amphithéâtre
 breadcrumbs: true
 ---
 
-:::info Projecteur 16mm
+:::info Utilisation du projecteur 16mm
 Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [guide d'utilisation du projecteur 16mm (PDF)](/pdf/E61-local-2078-documentation-16mm.pdf).
 ::: 
 
