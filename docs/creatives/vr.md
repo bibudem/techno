@@ -6,6 +6,7 @@ image: "/img/cover/vr.webp"
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import CardGrid from "@site/src/components/CardGrid";
+import Disponibilite from '@site/src/components/Disponibilite';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -24,9 +25,31 @@ Le tout a été réalisé grâce au Fonds d'amélioration de la vie étudiante (
 
 ---
 
-## Localisation
+## Disponibilité
 
-Présentez-vous au comptoir des bibliothèques suivante pour emprunter un casque:
+Présentez-vous au comptoir des bibliothèques suivante pour emprunter un casque.
+Vous pouvez aussi réserver un casque à l'avance en cliquant sur les liens ci-dessous.
+
+Disponible en ce moment : 
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+    gap: "1rem",
+    marginTop: "1.5rem"
+  }}
+>
+  <Disponibilite label="Aménagement" oclc="1472198755" /> 
+  <Disponibilite label="Hubert-Reeves" oclc="1246168952" />
+  <Disponibilite label="Lettres et sciences humaines" oclc="1472212538" />
+  <Disponibilite label="Marguerite d’Youville" oclc="1135196039" />
+  <Disponibilite label="Médecine vétérinaire" oclc="1472214011" />
+  <Disponibilite label="Mathématiques et informatique" oclc="1472141341" />
+  <Disponibilite label="Musique" oclc="1135201148" />
+  <Disponibilite label="Santé" oclc="1472198745" />
+  <Disponibilite label="Thérèse-Gouin-Décarie" oclc="1246168559" />
+</div>
 
 - Aménagement : 2
 - Hubert-Reeves : 2
