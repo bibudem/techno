@@ -46,24 +46,24 @@ Les ateliers de fabrication sont accessibles à toute la communauté UdeM.
 >
   <StudioCard
     title="Bibliothèque Hubert Reeves"
-    location="Campus MIL, Aile A, local XXXX"
-    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
+    location="Campus MIL, Aile A, local A-0724.4"
+    mapLink="https://maps.app.goo.gl/T6E9TaKNk6dDgrds9"
     description=""
     reserveLink=""
     reserveText=""
   />
   <StudioCard
     title="Bibliothèque Thérèse-Gouin-Décarie"
-    location="2ème étage, local XXXX"
-    mapLink="#"
+    location="2ème étage, local G-305-10"
+    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
     description=""
     reserveLink=""
     reserveText=""
   />
   <StudioCard
     title="Bibliothèque Mathématiques et informatique"
-    location="Pavillon André-Aisenstadt, local 2477"
-    mapLink="https://maps.app.goo.gl/jJ4E8nj2TeAJJc3C7"
+    location="Pavillon André-Aisenstadt, local 2432"
+    mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
     description=""
     reserveLink=""
     reserveText=""

@@ -41,7 +41,7 @@ import StudioCard from '@site/src/components/StudioCard';
   <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location="Pavillon Samuel-Bronfman, 2e étage, local 2076-2"
-    mapLink="https://maps.app.goo.gl/BwmR9ty8qfqYiKAK7"
+    mapLink="https://calendrier.bib.umontreal.ca/space/27462"
     description="À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller le studio."
     reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
     reserveText="Réserver"
@@ -49,17 +49,17 @@ import StudioCard from '@site/src/components/StudioCard';
   <StudioCard
     title="Bibliothèque Hubert-Reeves"
     location="Campus MIL, Aile A, local A-1549"
-    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
+    mapLink="https://maps.app.goo.gl/gfkfKFy2avjhq4BD7"
     description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel puisse vous déverrouiller le studio."
-    reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
+    reserveLink="https://calendrier.bib.umontreal.ca/space/20179"
     reserveText="Réserver"
   />
   <StudioCard
     title="Bibliothèque Mathématiques et informatique"
     location="Pavillon André-Aisenstadt, local 2477"
-    mapLink="https://maps.app.goo.gl/jJ4E8nj2TeAJJc3C7"
+    mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
     description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel puisse vous déverrouiller le studio."
-    reserveLink="https://calendrier.bib.umontreal.ca/space/24357"
+    reserveLink="https://calendrier.bib.umontreal.ca/spaces?lid=2020&gid=6221"
     reserveText="Réserver"
   />
 </div>
