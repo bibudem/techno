@@ -10,6 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import StudioCard from '@site/src/components/StudioCard';
 import Link from '@docusaurus/Link';
 import CardGrid from "@site/src/components/CardGrid";
+import Pano360 from '@site/src/components/Pano360';
 
 
 <img 
@@ -108,9 +109,14 @@ Réservez une rencontre avec notre équipe ou plongez dans une formation pratiqu
   ]}
 />
 
-## Visite 360°
+## Visite virtuelle
 
 ### Bibliothèque Thérèse-Gouin-Décarie
 
-<iframe src="https://bibumontreal.h5p.com/content/1292266434691659678/embed" aria-label="Bibliothèque Thérèse-Gouin-Décarie - Atelier de fabrication" width="800" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://bibumontreal.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script> 
+<Pano360
+  image="/img/pano/ateliertgd.jpg"
+  legende="Vue en 360° de l'atelier de fabrication"
+  title="Atelier de fabrication"
+  alt="Vue en 360° de l'atelier de fabrication"
+/>
 
