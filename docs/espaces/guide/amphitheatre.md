@@ -29,7 +29,7 @@ Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [g
 
   </div>
 
-  <img src="/img/docs/panneau.jpg" alt="Amphithéâtre" style={{ width: '200px', maxWidth: '100%', height: 'auto', flexShrink: 0 }} />
+  <img src="/img/docs/panneau.webp" alt="Amphithéâtre" style={{ width: '200px', maxWidth: '100%', height: 'auto', flexShrink: 0 }} />
 
 </div>
 

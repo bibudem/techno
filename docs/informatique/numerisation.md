@@ -1,7 +1,7 @@
 ---
 title: Numérisation
 description: Guide pour utiliser les services de numérisation offerts par les bibliothèques de l'Université de Montréal.
-image: "/img/cover/numeriseur.jpg"
+image: "/img/cover/numeriseur.webp"
 help: info
 ---
 

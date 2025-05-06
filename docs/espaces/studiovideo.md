@@ -75,7 +75,7 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 ### Bibliothèque des lettres et sciences humaines (BLSH)
 
 <Pano360
-  image="/img/pano/studiovideolsh.jpg"
+  image="/img/pano/studiovideolsh.webp"
   legende="Vue en 360° du Studio vidéo"
   title="Studio vidéo"
   alt="Vue en 360° du Studio vidéo"
@@ -84,7 +84,7 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 ### Bibliothèque Thérèse-Gouin-Décarie (TGD)
 
 <Pano360
-  image="/img/pano/studiovideotgd.jpg"
+  image="/img/pano/studiovideotgd.webp"
   legende="Vue en 360° du Studio vidéo"
   title="Studio vidéo"
   alt="Vue en 360° du Studio vidéo"

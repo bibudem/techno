@@ -45,7 +45,7 @@ import StudioCard from "@site/src/components/StudioCard";
 ## Visite virtuelle
 
 <Pano360
-  image="/img/pano/amphi.jpg"
+  image="/img/pano/amphi.webp"
   legende="Vue en 360° de l'amphithéâtre"
   title="Amphithéâtre"
   alt="vue en 360° de l'amphithéâtre"
