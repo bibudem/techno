@@ -124,8 +124,8 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux visiteurs de l'Universit
  1. Sélectionner le réseau sans fil **UdeM-Visiteurs**.
  2. Ouvrir votre navigateur.
  *Remarque : Si la page d'authentification ne s'affiche pas, ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser, exemple : www.google.cz*
- 3. Cliquer **Ou faites ubne demande d'accèes en tant qu'invité**.
- 4. Entrer vos informations ety cliquer **Enregistrer**.
+ 3. Cliquer **Ou faites une demande d'accèes en tant qu'invité**.
+ 4. Entrer vos informations et cliquer **Enregistrer**.
  5. Lire et accepter les conditions générales.
  6. Cliquer **Accepter** et **Continiuer**. 
 
@@ -187,7 +187,7 @@ Solution : Obtenir les DNS automatiquement.
 
 <Tabs groupId="os-troubleshoot-2">
   <TabItem value="macos" label="macOS">
-    1. Cliquer **Wi-Fi** (en haut èa droite de l'écran).   
+    1. Cliquer **Wi-Fi** (en haut à droite de l'écran).   
     2. Cliquer **Réglages Wi-Fi** (ou Préférences réseau)
     3. Cliquer **Avancé** (ou Détails)
     4. Cliquer **DNS**
