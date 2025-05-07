@@ -1,5 +1,4 @@
 ---
-id : amphitheatre
 title : Amphithéâtre
 description : Salle de projection de films
 image: "/img/cover/amphi.webp"
