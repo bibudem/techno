@@ -7,6 +7,15 @@ breadcrumbs: true
 Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [guide d'utilisation du projecteur 16mm (PDF)](/pdf/E61-local-2078-documentation-16mm.pdf).
 ::: 
 
+## Équipements
+- **Projecteur 4K** : Epson Pro Cinema LS12000
+- **Son** : 7.1, amplificateur Denon X4800H, enceintes POLK AUDIO Signature Elite.
+- **Lecteur de DVD/Blu-ray** : SONY UBP-X800M2
+- **Lecteur VHS**
+- **Projecteur 16mm**
+- **Écran** : 16:9, toile fixe au mur, 135 pouces.
+- **Ordinateur local**
+
 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', flexWrap: 'wrap' }}>
 
   <div style={{ flex: '1 1 300px' }}>
