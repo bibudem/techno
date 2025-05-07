@@ -8,6 +8,7 @@ help : crea
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
 import Link from '@docusaurus/Link';
+import Pano360 from '@site/src/components/Pano360';
 
 Le studio d’enregistrement vidéo propose à la communauté UdeM la possibilité de concevoir des productions vidéo de qualité sous 5 différents modes de présentation. Son environnement technique simplifié permet de produire des enregistrements sans se soucier des détails techniques. Conçue pour favoriser la pleine autonomie de l'utilisateur, seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone.
 
@@ -69,28 +70,22 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 
 ---
 
-## Visite 360
+## Visite virtuelle
 
 ### Bibliothèque des lettres et sciences humaines (BLSH)
 
-<iframe
-  src="https://bibumontreal.h5p.com/content/1292280056091824628/embed"
-  aria-label="BLSH - Studio d'enregistrement vidéo"
-  width="100%"
-  style={{ height: "500px", overflow: "hidden", border: "none", display: "block" }}
-  frameBorder="0"
-  scrolling="no"
-  allowFullScreen
-></iframe>
+<Pano360
+  image="/img/pano/studiovideolsh.webp"
+  legende="Vue en 360° du Studio vidéo"
+  title="Studio vidéo"
+  alt="Vue en 360° du Studio vidéo"
+/>
 
 ### Bibliothèque Thérèse-Gouin-Décarie (TGD)
 
-<iframe
-  src="https://bibumontreal.h5p.com/content/1292270591587691388/embed"
-  aria-label="Bibliothèque Thérèse-Gouin-Décarie - Studio d'enregistrement vidéo"
-  width="100%"
-  style={{ height: "500px", overflow: "hidden", border: "none", display: "block" }}
-  frameBorder="0"
-  scrolling="no"
-  allowFullScreen
-></iframe>
+<Pano360
+  image="/img/pano/studiovideotgd.webp"
+  legende="Vue en 360° du Studio vidéo"
+  title="Studio vidéo"
+  alt="Vue en 360° du Studio vidéo"
+/>

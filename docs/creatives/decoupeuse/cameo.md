@@ -1,5 +1,6 @@
 ---
 title : "Silhouette Cameo 4"
+help : crea
 ---
 
 ## Guide de découpe 
@@ -150,3 +151,6 @@ Pour assurer une bonne adhérence du matériau à graver, utilisez le tapis de c
 Cet outil doit être inséré dans le chariot numéro 1.
 
 ![une pointe de gravure installé sur la Cameo 4](/img/docs/cameo17.webp)
+
+---
+

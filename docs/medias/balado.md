@@ -60,7 +60,7 @@ Avez-vous entendu parler des audiogrammes? C’est une vidéo avec un extrait so
 
 ## Partager votre création
 
-Nous serions ravis d’écouter votre création et de la mettre en avant dans la section [Réalisations](../creatives/realisations.md). Vous aurez aussi l’occasion d’y découvrir les productions enregistrées dans nos studios par la communauté UdeM. N’hésitez pas à nous envoyer le lien sur studio@bib.umontreal.ca.
+Nous serions ravis d’écouter votre création et de la mettre en avant dans la section [Projets](../creatives/projets.md). Vous aurez aussi l’occasion d’y découvrir les productions enregistrées dans nos studios par la communauté UdeM. N’hésitez pas à nous envoyer le lien sur studio@bib.umontreal.ca.
 
 ---
 

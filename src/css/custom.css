@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
 
-/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary:var(--bleu-500);
   --ifm-color-primary-dark: var(--bleu-700);
@@ -19,7 +13,6 @@
   --ifm-font-family-base: "Figtree", sans-serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -155,6 +148,12 @@ html[data-theme="dark"] {
   color: var(--navbar-link-c);
 }
 
+@media screen and (max-width: 1210px) {
+  #__docusaurus .navbar__link {
+    font-size: 0.8rem !important;
+  }
+}
+
 #__docusaurus .navbar__inner {
   width: initial;
   flex-grow: 1;
@@ -242,28 +241,26 @@ html[data-theme="dark"] {
   font-size: 1rem;
 }
 
+p {
+  margin-top: 1rem;
+}
 
-
-
-
-
-
-
+/* Boutons */
 
 .button {
   
-  display: inline-flex; /* Flex pour centrer facilement */
-  align-items: center; /* Centre verticalement */
-  justify-content: center; /* Centre horizontalement */
-  padding: 0.8rem 1.6rem; /* Espacement interne */
-  border-radius: 24px; /* Bords arrondis */
-  font-size: 1rem; /* Taille du texte */
-  font-weight: bold; /* Texte en gras */
-  text-align: center; /* Centre le texte */
-  text-decoration: none; /* Pas de soulignement */
-  cursor: pointer; /* Curseur pointer */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Transitions pour hover */
-  border: none; /* Supprime la bordure par défaut */
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 0.8rem 1.6rem; 
+  border-radius: 24px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  text-align: center; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  border: none; 
 }
 
 .button--primary {
@@ -444,5 +441,44 @@ html[data-theme="dark"] {
     gap: 0 !important;
     margin: 0 !important;
     margin-top: 0 !important;
+  }
+}
+
+
+
+/* Lien vers le site des bibliothèques */
+
+.external-highlight-link {
+  font-size: 90% !important;
+  font-weight: 600;
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #0057ac !important;
+}
+
+.external-highlight-link::after {
+  content: '';
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 256 256'%3E%3Cpath d='M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: 0.1em; */
+  vertical-align: middle;
+
+  /* Animation */
+  transition: transform 0.2s ease;
+}
+
+.external-highlight-link:hover::after {
+  transform: translateX(3px);
+}
+
+@media screen and (max-width: 768px) {
+  .external-highlight-link::after, .external-highlight-link {
+    display: none;
   }
 }

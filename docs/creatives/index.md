@@ -47,9 +47,9 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       icon : "Robot",
     },
     {
-      title: "Réalisations",
+      title: "Projets",
       description: "Découvrez les projets créatifs de la communauté UdeM",
-      link: "/creatives/realisations",
+      link: "/creatives/projets",
       icon : "Slideshow",
     },
   ]}

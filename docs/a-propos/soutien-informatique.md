@@ -12,7 +12,6 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
-
 Discutez avec un technicien en soutien de laboratoire informatique en direct [**par clavardage**](https://bib.umontreal.ca/nous-joindre/clavarder/) ou [**sur place**](https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines) à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ### Exemples d’aide offerte
@@ -23,7 +22,8 @@ Discutez avec un technicien en soutien de laboratoire informatique en direct [**
 - Accès aux logiciels à distance  
 - Questions sur les outils numériques UdeM
 
-<HoraireSemaine codeBib="ss" />
 Consultez la section [Ressources informatiques](../informatique/index.md).
+
+<HoraireSemaine codeBib="ss" />
 
 ---

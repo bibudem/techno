@@ -12,6 +12,7 @@ import {
   VideoCamera,
   Cube,
   Desktop,
+  HouseLine,
 } from "@phosphor-icons/react";
 import styles from './Footer.module.css';
 
@@ -26,6 +27,7 @@ export default function Footer() {
         {/* Colonne À propos */}
         <div className={styles.contact}>
           <h3>À propos</h3>
+          
           <Link to="/a-propos/nous-joindre" className={styles.contactLink}>
             <ChatCircleDots size={20} />
             <span>Nous joindre</span>
@@ -50,6 +52,15 @@ export default function Footer() {
         {/* Colonne Liens rapides */}
         <div className={styles.linkSection}>
   <h3>Liens rapides</h3>
+  <a
+    href="https://bib.umontreal.ca"
+    className={styles.contactLink}
+    // target="_blank"
+    rel="noopener noreferrer"
+  >
+    <HouseLine size={20} />
+    <span>Site des bibliothèques</span>
+  </a>
   <Link to="/espaces" className={styles.linkItem}>
     <Cube size={20} />
     <span>Espaces</span>
@@ -67,14 +78,22 @@ export default function Footer() {
     <span>Productions médias</span>
   </Link>
 </div>
-
+{/* Séparateur vertical */}
+<div className={styles.divider} />
         {/* Logo + Icônes sociales */}
         <div className={styles.logoContainer}>
-          <img
-            src="/img/sceaubib.svg"
-            alt="Logo des bibliothèques"
-            className={styles.logo}
-          />
+        <a
+    href="https://bib.umontreal.ca"
+    // target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Page d'accueil des bibliothèques"
+  >
+    <img
+      src="/img/sceaubib.svg"
+      alt="Logo des bibliothèques"
+      className={styles.logo}
+    />
+  </a>
           <div className={styles.socialBelowLogo}>
             <a href="https://www.instagram.com/umontreal/" aria-label="Instagram">
               <InstagramLogo size={24} />

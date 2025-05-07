@@ -76,6 +76,13 @@ const config = {
           { type: 'docSidebar', sidebarId: 'creativesSidebar', position: 'left', label: 'Technologies créatives' },
           { type: 'docSidebar', sidebarId: 'mediasSidebar', position: 'left', label: 'Productions médias' },
           { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
+          {
+            to: 'https://bib.umontreal.ca',
+            label: 'bib.umontreal.ca',
+            position: 'right',
+            className: 'external-highlight-link',
+            external : false,
+          },
         ],
       },
       prism: {

@@ -4,15 +4,32 @@ import { CalendarBlank, MapPin, Monitor } from '@phosphor-icons/react';
 
 function parseDateFr(dateStr) {
   const mois = {
-    'janv.': '01', 'févr.': '02', 'mars': '03', 'avr.': '04',
-    'mai': '05', 'juin': '06', 'juil.': '07', 'août': '08',
-    'sept.': '09', 'oct.': '10', 'nov.': '11', 'déc.': '12',
+    janv: '01',
+    févr: '02',
+    mars: '03',
+    avr: '04',
+    mai: '05',
+    juin: '06',
+    juil: '07',
+    août: '08',
+    sept: '09',
+    oct: '10',
+    nov: '11',
+    déc: '12',
   };
 
-  const [jour, moisAbrégé, année] = dateStr.split(' ');
-  const moisNum = mois[moisAbrégé];
+  if (!dateStr) return null;
+
+  const [jourStr, moisStr, annéeStr] = dateStr
+    .trim()
+    .replace(/\./g, '') // enlève les points (ex. "févr." -> "févr")
+    .split(/\s+/); // découpe par espaces multiples
+
+  const moisNum = mois[moisStr.toLowerCase()];
   if (!moisNum) return null;
-  return new Date(`${année}-${moisNum}-${jour.padStart(2, '0')}`);
+
+  const jour = jourStr.padStart(2, '0');
+  return new Date(`${annéeStr}-${moisNum}-${jour}`);
 }
 
 export default function ProchainsAteliers() {
@@ -20,12 +37,17 @@ export default function ProchainsAteliers() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://api.bib.umontreal.ca/formations/discipline/art-cinema-musique')
+    fetch('https://api.bib.umontreal.ca/formations/discipline/informatique-creation-medias')
       .then(res => res.json())
       .then(data => {
         const àVenir = data
           .map(f => ({ ...f, isoDate: parseDateFr(f.date) }))
-          .filter(f => f.isoDate && f.isoDate >= new Date())
+          .filter(f => {
+            if (!f.isoDate) return false;
+            const aujourdHui = new Date();
+            aujourdHui.setHours(0, 0, 0, 0); // date à minuit
+            return f.isoDate >= aujourdHui;
+          })
           .sort((a, b) => a.isoDate - b.isoDate)
           .slice(0, 4);
 

@@ -8,6 +8,7 @@ help : crea
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
+import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -40,7 +41,7 @@ import StudioCard from '@site/src/components/StudioCard';
   <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location="Pavillon Samuel-Bronfman, 2e étage, local 2076-2"
-    mapLink="https://maps.app.goo.gl/BwmR9ty8qfqYiKAK7"
+    mapLink="https://calendrier.bib.umontreal.ca/space/27462"
     description="À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller le studio."
     reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
     reserveText="Réserver"
@@ -48,17 +49,17 @@ import StudioCard from '@site/src/components/StudioCard';
   <StudioCard
     title="Bibliothèque Hubert-Reeves"
     location="Campus MIL, Aile A, local A-1549"
-    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
+    mapLink="https://maps.app.goo.gl/gfkfKFy2avjhq4BD7"
     description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel puisse vous déverrouiller le studio."
-    reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
+    reserveLink="https://calendrier.bib.umontreal.ca/space/20179"
     reserveText="Réserver"
   />
   <StudioCard
     title="Bibliothèque Mathématiques et informatique"
     location="Pavillon André-Aisenstadt, local 2477"
-    mapLink="https://maps.app.goo.gl/jJ4E8nj2TeAJJc3C7"
+    mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
     description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel puisse vous déverrouiller le studio."
-    reserveLink="https://calendrier.bib.umontreal.ca/space/24357"
+    reserveLink="https://calendrier.bib.umontreal.ca/spaces?lid=2020&gid=6221"
     reserveText="Réserver"
   />
 </div>
@@ -91,8 +92,11 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 
 ---
 
-## Visite 360
+## Visite virtuelle
 
-### Bibliothèque des lettres et sciences humaines (BLSH)
-
-<iframe src="https://bibumontreal.h5p.com/content/1292278507800175298/embed" aria-label="BLSH - Studio d'enregistrement audio" width="100%" height="637" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://bibumontreal.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<Pano360
+  image="/img/pano/studioaudio.webp"
+  legende="Vue en 360° du Studio audio"
+  title="Studio audio"
+  alt="Vue en 360° du Studio audio"
+/>

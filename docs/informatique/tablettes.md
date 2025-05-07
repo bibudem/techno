@@ -5,6 +5,7 @@ image: "/img/cover/tablette.webp"
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import CardGrid from '@site/src/components/CardGrid';
+import Disponibilite from '@site/src/components/Disponibilite';
 
 
 <img 
@@ -26,17 +27,26 @@ Nous offrons un service de prêt de tablettes iPad pour la communauté UdeM. Vou
 
 Le prêt est d'une durée de **7 jours**. Le renouvellement est automatique à moins que la tablette ait été réservée par une autre personne. Les tablettes sont prêtées avec étui, mallette, fil USB et chargeur.
 
-<details>
-  <summary>**Localisation des tablettes iPad**</summary>
-  - Campus Laval
-  - Droit
-  - Lettres et sciences humaines
-  - Marguerite-d'Youville
-  - Mathématiques et informatique
-  - Santé
-  - Hubert-Reeves
-  - Thérèse-Gouin-Décarie
-</details>
+## Disponible en ce moment
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+    gap: "1rem",
+    marginTop: "1.5rem"
+  }}
+>
+  <Disponibilite label="Campus Laval" oclc="1245965028" />
+  <Disponibilite label="Droit" oclc="1245964868" />
+  <Disponibilite label="Hubert-Reeves" oclc="1135290920" />
+  <Disponibilite label="Lettres et sciences humaines" oclc="1135189358" />
+  <Disponibilite label="Marguerite-d'Youville" oclc="1135265589" />
+  <Disponibilite label="Mathématiques et informatique" oclc="1245966991" />
+  <Disponibilite label="Santé" oclc="1240172331" />
+  <Disponibilite label="Thérèse-Gouin-Décarie" oclc="1245965122" />
+</div>
+
 
 
 ## Aide

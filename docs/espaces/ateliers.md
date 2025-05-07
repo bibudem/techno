@@ -10,6 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import StudioCard from '@site/src/components/StudioCard';
 import Link from '@docusaurus/Link';
 import CardGrid from "@site/src/components/CardGrid";
+import Pano360 from '@site/src/components/Pano360';
 
 
 <img 
@@ -46,24 +47,24 @@ Les ateliers de fabrication sont accessibles à toute la communauté UdeM.
 >
   <StudioCard
     title="Bibliothèque Hubert Reeves"
-    location="Campus MIL, Aile A, local XXXX"
-    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
+    location="Campus MIL, Aile A, local A-0724.4"
+    mapLink="https://maps.app.goo.gl/T6E9TaKNk6dDgrds9"
     description=""
     reserveLink=""
     reserveText=""
   />
   <StudioCard
     title="Bibliothèque Thérèse-Gouin-Décarie"
-    location="2ème étage, local XXXX"
-    mapLink="#"
+    location="2ème étage, local G-305-10"
+    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
     description=""
     reserveLink=""
     reserveText=""
   />
   <StudioCard
     title="Bibliothèque Mathématiques et informatique"
-    location="Pavillon André-Aisenstadt, local 2477"
-    mapLink="https://maps.app.goo.gl/jJ4E8nj2TeAJJc3C7"
+    location="Pavillon André-Aisenstadt, local 2432"
+    mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
     description=""
     reserveLink=""
     reserveText=""
@@ -108,9 +109,14 @@ Réservez une rencontre avec notre équipe ou plongez dans une formation pratiqu
   ]}
 />
 
-## Visite 360°
+## Visite virtuelle
 
 ### Bibliothèque Thérèse-Gouin-Décarie
 
-<iframe src="https://bibumontreal.h5p.com/content/1292266434691659678/embed" aria-label="Bibliothèque Thérèse-Gouin-Décarie - Atelier de fabrication" width="800" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://bibumontreal.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script> 
+<Pano360
+  image="/img/pano/ateliertgd.webp"
+  legende="Vue en 360° de l'atelier de fabrication"
+  title="Atelier de fabrication"
+  alt="Vue en 360° de l'atelier de fabrication"
+/>
 

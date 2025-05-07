@@ -349,7 +349,7 @@ const sidebars = {
         'creatives/art-textile',
         // 'creatives/programmation',
         'creatives/robots',
-        'creatives/realisations',
+        'creatives/projets',
       ],
     },
   ],

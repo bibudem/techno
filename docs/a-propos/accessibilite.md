@@ -8,7 +8,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
 
-Nous nous efforçons de rendre ce site accessible au plus grand nombre, conformément aux [normes WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/WAI/standards-guidelines/wcag/) et aux standards du gouvernement du Québec [SGQRI 008 2.0 (PDF 142 Ko)](https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/cybersecurite_numerique/Standard_sur_l_accessibilite/standard-access-web.pdf).
+Nous nous efforçons de rendre ce site accessible au plus grand nombre, conformément aux [normes WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/WAI/standards-guidelines/wcag/) et aux standards du gouvernement du Québec [SGQRI 008 2.0](https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/cybersecurite_numerique/Standard_sur_l_accessibilite/standard-access-web.pdf).
 
 Les contenus et fonctionnalités développés à partir du 29 avril 2024 respectent la version 3.0 du [Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)](https://www.quebec.ca/gouvernement/ministere/cybersecurite-numerique/publications/standard-accessibilite-sites-web).
 
