@@ -28,4 +28,4 @@ La salle 2076-1, située à la Bibliothèque des lettres et sciences humaines, e
   Réserver la salle
 </Link>
 
-À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller la salle.
+À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse déverrouiller la porte de la salle.

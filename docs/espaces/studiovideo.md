@@ -10,14 +10,11 @@ import StudioCard from '@site/src/components/StudioCard';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
 
-Le studio d’enregistrement vidéo propose à la communauté UdeM la possibilité de concevoir des productions vidéo de qualité sous 5 différents modes de présentation. Son environnement technique simplifié permet de produire des enregistrements sans se soucier des détails techniques. Conçue pour favoriser la pleine autonomie de l'utilisateur, seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone.
+Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous 5 différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone!
 
 ---
 
 ## Localisation et accès
-
-Les studios d'enregistrement sont ouverts **du lundi au vendredi, de 9h à 17h**.
-L'accès est possible sur réservation par bloc maximal de 3 heures.
 
 <div
   className="grid grid--2"
@@ -45,7 +42,7 @@ L'accès est possible sur réservation par bloc maximal de 3 heures.
 
 De la documentation est disponible pour vous aider à utiliser le studio en toute autonomie.
 
-Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement. Ce service de soutien, qui est optionnel, est réservé aux membres de la communauté UdeM.
+Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement.
 
 <Link to=".././medias/studiovideo" className="button button--secondary">
   Consulter la documentation
@@ -55,14 +52,15 @@ Sur rendez-vous, un service de soutien avec un membre de l'équipe des biblioth�
   Obtenir du soutien
 </Link>
 
-:::warning Le studio d'enregistrement doit aussi être réservé à la même heure pour obtenir du soutien.
+:::warning Note
+Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez réserver vous-même le studio d’enregistrement pour l’heure de votre rendez-vous. 
 :::
 
 ---
 
 ## Post-production
 
-Les bibliothèques offrent des **postes de montage vidéo** pour finaliser vos productions. Consultez la section [Postes d'édition](../medias/postes-edition.md) pour plus d'informations.
+Les bibliothèques offrent des postes de montage vidéo pour finaliser vos productions. Consultez la section [Postes d'édition](../medias/postes-edition.md) pour plus d'informations.
 
 ---
 

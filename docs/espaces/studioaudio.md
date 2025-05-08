@@ -22,13 +22,13 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-Les studios d'enregistrement audio des bibliothèques UdeM offrent des équipements de qualité pour enregistrer divers projets comme des balados, présentations et entretiens. Ce service aide à développer les compétences en communication et médiation scientifique.
+Les studios d'enregistrement audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
 
 ---
 
 ## Localisation et accès
 
-Les studios d'enregistrement audio sont gratuits et réservés à la communauté UdeM. Seuls les membres peuvent les réserver et accéder aux services de consultation et de soutien technique, mais ils peuvent inviter des non-membres à participer aux enregistrements.
+Seuls les membres peuvent réserver les studios audio et accéder aux services de consultation et de soutien technique, mais ils peuvent inviter des non-membres à participer aux enregistrements.
 
 
 import React from 'react';
@@ -42,7 +42,7 @@ import StudioCard from '@site/src/components/StudioCard';
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location="Pavillon Samuel-Bronfman, 2e étage, local 2076-2"
     mapLink="https://calendrier.bib.umontreal.ca/space/27462"
-    description="À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller le studio."
+    description="À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel vous déverrouille le studio."
     reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
     reserveText="Réserver"
   />
@@ -50,15 +50,15 @@ import StudioCard from '@site/src/components/StudioCard';
     title="Bibliothèque Hubert-Reeves"
     location="Campus MIL, Aile A, local A-1549"
     mapLink="https://maps.app.goo.gl/gfkfKFy2avjhq4BD7"
-    description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel puisse vous déverrouiller le studio."
+    description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel vous déverrouille le studio."
     reserveLink="https://calendrier.bib.umontreal.ca/space/20179"
     reserveText="Réserver"
   />
   <StudioCard
-    title="Bibliothèque Mathématiques et informatique"
+    title="Bibliothèque de mathématiques et informatique"
     location="Pavillon André-Aisenstadt, local 2477"
     mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
-    description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel puisse vous déverrouiller le studio."
+    description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel vous déverrouille le studio."
     reserveLink="https://calendrier.bib.umontreal.ca/spaces?lid=2020&gid=6221"
     reserveText="Réserver"
   />
@@ -70,9 +70,9 @@ import StudioCard from '@site/src/components/StudioCard';
 
 Une documentation complète est à votre disposition pour vous familiariser avec le studio en toute autonomie.
 
-Sur simple rendez‑vous, un membre de l’équipe des bibliothèques de l’UdeM vous accompagne lors d’une prise en main initiale de l’équipement. Ce service optionnel, réservé aux membres de la communauté UdeM, n’inclut toutefois pas une présence continue d’un technicien pendant vos séances d’enregistrement, que vous menez ensuite de façon autonome.
+Sur rendez vous, un membre de l’équipe des bibliothèques de l’UdeM vous accompagne lors d’une prise en main initiale de l’équipement. Ce service optionnel, réservé aux membres de la communauté UdeM, n’inclut toutefois pas une présence continue d’un technicien pendant vos séances d’enregistrement, que vous devez mener de façon autonome.
 
-En plus des consultations, des formations sont offertes aux studios. Pour les détails et les dates, consultez le [calendrier des formations des Bibliothèques](https://bib.umontreal.ca/formations/calendrier).
+En plus des consultations, des formations sont offertes sur l’utilisation des studios. Pour les détails et les dates, consultez le  [calendrier des formations des bibliothèques](https://bib.umontreal.ca/formations/calendrier).
 
 <Link to=".././medias/rodecaster" className="button button--secondary">
   Consulter la documentation
@@ -83,7 +83,7 @@ En plus des consultations, des formations sont offertes aux studios. Pour les d�
 </Link>
 
 :::warning Note
-Le studio d'enregistrement doit aussi être réservé à la même heure pour obtenir du soutien.
+Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez réserver vous-même le studio d’enregistrement pour l’heure de votre rendez-vous. 
 :::
 
 ---

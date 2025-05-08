@@ -15,13 +15,13 @@ import CardGrid from "@site/src/components/CardGrid";
   items={[
     {
       title: "Amphithéâtre",
-      description: "Espace de projection équipé pour des films, conférences et présentations.",
+      description: "Espace de projection équipé pour visionnements de films, des conférences et des présentations.",
       link: "amphitheatre",
       icon : "FilmReel",
     },
     {
       title: "Ateliers de fabrication",
-      description: "Un espace dédié à l'impression 3D, à l’électronique et à la fabrication numérique.",
+      description: "Un espace pour s'initier à l'impression 3D, à l’électronique et à la fabrication numérique.",
       link: "ateliers",
       icon : "Cube",
     },
@@ -33,7 +33,7 @@ import CardGrid from "@site/src/components/CardGrid";
     },
     {
       title: "Studios vidéo",
-      description: "Filmez des vidéos simplement.",
+      description: "Un espace équipé pour filmer des vidéos facilement.",
       link: "studiovideo",
       icon : "VideoCamera",
     },
@@ -45,7 +45,7 @@ import CardGrid from "@site/src/components/CardGrid";
     },
         {
       title: "Laboratoire de visualisation",
-      description: "Un environnement propice pour interagir avec des données visuelles.",
+      description: "Un environnement pour interagir avec des données visuelles sur grand écran.",
       link: "visualisation",
       icon : "TreeStructure",
     },

@@ -19,13 +19,15 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-L’amphithéâtre offre un espace moderne et équipé pour la projection de films, avec une capacité de 40 places, un projecteur 4K cinéma pour une qualité d’image optimale et une installation sonore en 7.1 pour une immersion audio complète. La salle est aussi équipée d'un projecteur 16mm. Les chaises de l'auditoire sont pourvues d'une tablette.
+L’amphithéâtre offre un espace moderne équipé pour la projection de films :
+- capacité de 40 places;
+- un projecteur 4K cinéma pour une qualité d'image optimale;
+- une installation sonore en 7.1 pour une immersion audio complète.
 
-L'espace est réservé à la communauté UdeM et son utilisation est gratuite. 
+
+Seuls les membres de la communauté UdeM peuvent réserver l’amphithéâtre, mais ils peuvent inviter des non-membres à assister aux événements. La réservation et l’utilisation de la salle sont gratuites.
 
 ---
-
-Les membres de la communauté UdeM peuvent inviter des non-membres à assister aux événements, mais seuls les membres peuvent réserver l'amphithéâtre.
 
 import StudioCard from "@site/src/components/StudioCard";
 
