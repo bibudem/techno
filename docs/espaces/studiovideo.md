@@ -51,7 +51,7 @@ Sur rendez-vous, un service de soutien avec un membre de l'√©quipe des biblioth√
   Consulter la documentation
 </Link>
 
-<Link to="../a-propos/nous-joindre" className="button button--secondary">
+<Link to="https://outlook.office.com/owa/calendar/studiobib@umontreal.ca/bookings/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled" className="button button--secondary">
   Obtenir du soutien
 </Link>
 

@@ -96,7 +96,7 @@ Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
     {
       title: "Réservez une consultation",
       description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre impression. Ce service est offert à la communauté UdeM.",
-      link: "#",
+      link: "https://outlook.office.com/owa/calendar/studiobib@umontreal.ca/bookings/s/_O-YOJr2SEOmzA-ozLoiJw2?ismsaljsauthenabled",
     },
     {
       title: "Participez à une formation",

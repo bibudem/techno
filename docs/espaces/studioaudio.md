@@ -78,7 +78,7 @@ En plus des consultations, des formations sont offertes aux studios. Pour les d√
   Consulter la documentation
 </Link>
 
-<Link to="../a-propos/nous-joindre" className="button button--secondary">
+<Link to="https://outlook.office.com/owa/calendar/studiobib@umontreal.ca/bookings/s/fknNeJFnzUq4A8HgjlXCXg2?ismsaljsauthenabled" className="button button--secondary">
   Obtenir du soutien
 </Link>
 
