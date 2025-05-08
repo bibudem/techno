@@ -240,7 +240,7 @@ Windows 10
     4. Dans le menu réroulant, sélectionner le réseau sans fil **UdeM avec cryptage**
     5. Sélectionner **Réseau**
     6. Dans la section "Serveurs de noms", sélectionner **Serveurs de noms automatiques**
-    7. Fermer la fenêtre (Cliquer **X** en haut èa droite)
+    7. Fermer la fenêtre (Cliquer **X** en haut à droite)
   </TabItem>
 </Tabs>
 
