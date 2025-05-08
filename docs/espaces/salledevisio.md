@@ -2,9 +2,23 @@
 id: salledevisio
 title: Salle de visionnement
 description : Visionner des contenus médias en groupe.
+image: "/img/cover/sallevisio.jpg"
 ---
 
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Salle de visionnement
 
@@ -14,4 +28,4 @@ La salle 2076-1, située à la Bibliothèque des lettres et sciences humaines, e
   Réserver la salle
 </Link>
 
-À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller la salle 2076-1.
+À votre arrivée, présentez-vous au bureau de référence du 2e étage afin que le personnel puisse vous déverrouiller la salle.
