@@ -15,7 +15,7 @@ import CardGrid from "@site/src/components/CardGrid";
   items={[
     {
       title: "Amphithéâtre",
-      description: "Espace de projection équipé pour visionnements de films, des conférences et des présentations.",
+      description: "Espace de projection équipé pour des visionnements de films, des conférences et des présentations.",
       link: "amphitheatre",
       icon : "FilmReel",
     },
