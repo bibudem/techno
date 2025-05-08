@@ -10,9 +10,12 @@
 
 /* ──────────── Style de la carte ──────────── */
 .card {
-  background-color: var(--jaune);
+  background-color: #fff7e8;
   color: var(--gris-700);
   border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--jaune-pale);
   padding: 1rem;
   min-height: 160px;
   text-decoration: none;
@@ -29,7 +32,7 @@
 }
 
 .card:hover {
-  background-color: var(--jaune-pale);
+  background-color: var(--jaune);
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -55,11 +58,11 @@
 .titleContainer {
   position: relative;
   flex: 1;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0rem;
   overflow: hidden;
 }
 
-.titleContainer::after {
+/* .titleContainer::after {
   content: "";
   position: absolute;
   left: 0;
@@ -74,21 +77,21 @@
   );
   background-size: 200% 100%;
   background-position: -200% 0;
-}
+} */
 
 /* balayage gauche→droite */
-@keyframes sweep-line {
+/* @keyframes sweep-line {
   from {
     background-position: 200% 0;
   }
   to {
     background-position: -200% 0;
   }
-}
+} */
 
-.card:hover .titleContainer::after {
+/* .card:hover .titleContainer::after {
   animation: sweep-line 9s ease-in-out infinite;
-}
+} */
 
 /* ──────────── Titre et description ──────────── */
 .title {
