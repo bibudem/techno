@@ -26,7 +26,7 @@ Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [g
   - Sélectionner la source :
       - Ordinateur local  
       - Ordinateur portable (via HDMI, adapteur USB-C disponible)  
-      - DVD / Blu-ray (Télécommande disponible au comptoir de référence du 2e étage)  
+      - DVD / Blu-ray (Télécommande disponible au comptoir de référence du 2<sup>e</sup> étage)  
       - VHS (Norme supportée : NTSC uniquement)
 
 ---
@@ -60,4 +60,4 @@ faire de modification, et finalement sur le bouton **Terminer**.
 
 - Éteindre le projecteur à l’aide du panneau de contrôle sur le bureau en appuyant sur le bouton **OFF**. Le système de son s’éteint automatiquement.
 - Retirer tout média (DVD/blu-ray, VHS) et éteindre les lecteurs.
-- Verrouiller la porte et rapporter la clé au comptoir de référence (2e étage).
+- Verrouiller la porte et rapporter la clé au comptoir de référence (2<sup>e</sup> étage).

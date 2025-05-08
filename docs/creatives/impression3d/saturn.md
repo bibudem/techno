@@ -19,7 +19,7 @@
 
 ### Localisation
 
-Bibliothèque Thérèse-Gouin-Décarie, Atelier de fabrication, 2e étage.
+Bibliothèque Thérèse-Gouin-Décarie, Atelier de fabrication, 2<sup>e</sup> étage.
 
 ## Découpe avec Chitubox
 
