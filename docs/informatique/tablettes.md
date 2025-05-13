@@ -68,7 +68,7 @@ Le prêt est d'une durée de **7 jours**. Le renouvellement est automatique à m
     {
       title: "Configuration du proxy sur iOS",
       description:
-        "Instructions détaillées pour configurer le serveur mandataire (proxy) sur votre appareil iOS.",
+        "Configurez le serveur mandataire (proxy) sur votre appareil iOS avec ces instructions détaillées.",
       link: "/informatique/proxy",
     },
     {

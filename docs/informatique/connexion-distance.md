@@ -25,9 +25,9 @@ import PostesDisponibles from '@site/src/components/PostesDisponibles';
 
 # Connexion à distance aux logiciels 
 
-Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS depuis chez vous? Utilisez nos postes publics à distance.
+Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS de chez vous ? Utilisez nos postes publics à distance.
 
-Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibilité de se connecter à distance à certains logiciels disponibles sur ses ordinateurs, à partir de votre propre appareil, comme si vous étiez en bibliothèque, incluant Antidote.
+Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibilité de se connecter à distance à certains logiciels disponibles sur ses ordinateurs, à partir de votre propre appareil, comme si vous étiez en bibliothèque —— incluant Antidote ! 
 
 ---
 
@@ -77,9 +77,10 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   4. S’authentifier de la façon suivante :  
        - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
        - **Mot de passe** : votre mot de passe
-  5. Dans la fenêtre qui s'ouvre, cloqier **Oui**
+  5. Dans la fenêtre qui s'ouvre, cliquer **Oui**
+    
     :::info Astuce
-    Si on vous demande d’entrer uniquement votre mot de passe, cliquez sur **Plus d’options**, ensuite **Utiliser un autre compte**, puis authentifiez-vous.
+    Si on vous demande d’entrer uniquement votre mot de passe, cliquez sur **Plus d’options** → **Utiliser un autre compte**, puis authentifiez-vous.
     :::
   
   </TabItem>
@@ -93,7 +94,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   5. S’authentifier de la façon suivante :  
      - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)   
      - **Mot de passe** : votre mot de passe
-  6. Cliquer **Continue**
+  6. Cliquer **Continuer**
   </TabItem>
 
   <TabItem value="chromebook" label="Chromebook">
@@ -106,19 +107,19 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   6. S’authentifier de la façon suivante :  
      - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
      - **Mot de passe** : votre mot de passe
-  7. Cliquer **CONNECT**
+  7. Cliquer **CONNECT**.
   </TabItem>
 
   <TabItem value="linux" label="Linux">
   
   1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
   2. Ouvrir **Remmina** (pré-installé dans la plupart des distributions Linux).  
-  3. Entrer l'adresse complète du poste voulu dans la barre d’adresse de Remmina (ex. `ssp314-bib.fil.umontreal.ca`) et taper la touche **Entrée**
+  3. Entrer l'adresse complète du poste voulu dans la barre d’adresse de Remmina (ex. `ssp314-bib.fil.umontreal.ca`) et taper la touche **Entrée**.
   4. S’authentifier de la façon suivante :  
      - **Nom d’utilisateur** : `Votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
      - **Mot de passe** : votre mot de passe
      - **Domaine** : `sim`  
-  5. Cliquer **Ok**
+  5. Cliquer **Ok**.
   </TabItem>
 
   <TabItem value="ios" label="iOS">
@@ -148,23 +149,23 @@ Veuillez noter que votre session sera fermée automatiquement après 15 minutes 
 
 ---
 
-## Étudiants avec statut d’employé
+## Étudiants et étudiantes avec statut d’employé
 
 1. Se déconnecter de **VPN UdeM Campus**.
 2. Cliquer l’icône du VPN (en haut ou en bas de l’écran), ensuite **Ouvrir**.
 3. Cliquer **+**.
-4. Nom = **VPN UdeM Etudiant**
-5. URL = **vpn.umontreal.ca/etudiants**
+4. Nom = **VPN UdeM Etudiant**.
+5. URL = **vpn.umontreal.ca/etudiants**.
 6. Cliquer **Ajouter**.
 7. Cliquer **Connexion** pour démarrer la connexion.
    
 ## Les fois suivantes
 
-1. Se connecter au **VPN UdeM Etudiant**
+1. Se connecter au **VPN UdeM Etudiant**.
 2.  Cliquer sur un poste actuellement disponible.
 
 :::warning Attention
-Il est actuellement impossible pour les personnes utilisant Mac OS X de se connecter à distance aux postes publics des bibliothèques à partir du réseau des employés. Cela inclut les postes des membres du personnel sur le campus et les accès par VPN avec un compte employé. Les étudiants avec statut d’employé doivent se déconnecter de VPN UdeM Campus et plutôt ajouter une connexion. Voir la procédure « Étudiants avec statut d’employé » en dernière page de la marche à suivre.
+Il est actuellement impossible pour les personnes utilisant macOS de se connecter à distance aux postes publics des bibliothèques à partir du réseau du personnel. Cela inclut les postes des membres du personnel sur le campus et les accès par VPN avec un compte employé. Les étudiants et étudiantes avec statut d’employé doivent se déconnecter de VPN UdeM Campus et plutôt ajouter une connexion. Voir la procédure « Étudiants avec statut d’employé » en dernière page de la marche à suivre.
 :::
 
 :::warning Attention
