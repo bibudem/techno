@@ -17,7 +17,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   }} 
 />
 
-#Accessoires
+# Accessoires
 
 Vous manquez de batterie ? Votre ordinateur a besoin d'un adaptateur ? N'hésitez pas à nous demander, nous avons peut-être ce qu'il vous faut !
 
