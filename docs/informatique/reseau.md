@@ -141,7 +141,9 @@ Il n'est pas recommandé d'utiliser le réseau **UdeM non securisé**. Ce résea
 
 ## Dépannage
 
-En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous pour oublier ou retirer un réseau et vous y reconnecter. Il est important de faire la procédure pour **oublier chacun des réseaux sans fil de l'UdeM :** UdeM avec cryptage, eduroam, UdeM non securise et UdeM-Visiteurs.
+En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous pour oublier ou retirer un réseau et vous y reconnecter. 
+
+Il est important de faire la procédure pour **oublier chacun des réseaux sans fil de l'UdeM :** UdeM avec cryptage, eduroam, UdeM non securisé et UdeM-Visiteurs.
 
 <Tabs groupId="os-troubleshoot">
   <TabItem value="macos" label="macOS">
