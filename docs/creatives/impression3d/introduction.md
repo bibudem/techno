@@ -20,10 +20,14 @@ L’acide polylactique (PLA) est un thermoplastique fabriqué à partir de resso
 
 :::note Note
     Le PLA n’est pas recommandé pour les objets en contact avec des aliments, car les bactéries peuvent s’infiltrer dans les interstices des couches d’impression.
+:::
 
 ### PVA
 
 L'alcool polyvinylique (PVA) est un polymère synthétique soluble dans l'eau, souvent utilisé pour imprimer des supports sur des modèles complexes. Il est très sensible à l'humidité.
+
+### PETG
+Le polyéthylène téréphtalate glycolisé (PETG) est un thermoplastique qui combine la facilité d'impression du PLA avec la résistance de l'ABS. Il est plus résistant à la chaleur et aux chocs que le PLA, mais il est également plus difficile à imprimer.
 
 ### Températures
 
@@ -50,12 +54,12 @@ Lorsqu’un filament a absorbé trop d’humidité, un séchoir à filament peut
 ### Modèles
 
 La première étape consiste à trouver un modèle 3D ou à le concevoir soi-même.
-- **Depuis Internet** : [Où trouver des modèles 3D ?](#)
-- **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D. Voir la section [Logiciels de modélisation](#).
+- **Depuis Internet** : [Où trouver des modèles 3D ?](impression3d/modeles3d#modèles-en-ligne)
+- **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D. Voir la section [Logiciels de modélisation](impression3d/modeles3d#logiciels-de-modélisation-3d).
 
 ### Découpe du modèle
 
-Le *Slicer* transforme un modèle au format **.STL** en un fichier **.GCODE** contenant les instructions pour l’imprimante.
+Le *Slicer* transforme un modèle au format **.STL** en un fichier contenant les instructions pour l’imprimante.
 
 Il existe plusieurs logiciels de découpe, la plupart sont libre et à code source ouvert. Les entreprises de fabrication d'imprimante 3D proposent leurs propres logiciels de découpe afin d'offrir des fonctionnalités propres à leurs imprimantes. Certaines utilisent **.GCODE** comme extension du fichier de sortie, d'autres dans un format propriétaire. Voici quelques exemples de logiciels de découpe :
 
