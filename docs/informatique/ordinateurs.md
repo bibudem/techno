@@ -31,7 +31,7 @@ import Link from '@docusaurus/Link';
 
 ## Libre-service
 
-Des ordinateurs en libre-service sont à la disposition de tous les utilisateurs et utilisatrices. L’accès se fait via un code d’accès et un mot de passe.
+Les bibliothèques offrent des ordinateurs publics en libre-service. L’accès se fait via un code d’accès et un mot de passe.
 
 <Link to="logiciels" className="button button--primary">
   Consulter la liste des logiciels offerts
@@ -40,7 +40,7 @@ Des ordinateurs en libre-service sont à la disposition de tous les utilisateurs
 ---
 
 :::info Le saviez-vous?
-Vous cherchez un ordinateur puissant pour vos travaux vidéos ou graphiques? Consultez la page [Postes d'édition](../medias/postes-edition.md).
+Nous offrons des ordinateurs puissants pour les travaux vidéos ou graphiques. Consultez la page [Postes d'édition](../medias/postes-edition.md).
 :::
 
 ---
