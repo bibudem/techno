@@ -29,7 +29,7 @@ L'Université de Montréal offre plusieurs réseaux Wi-Fi à travers ses campus 
 
 ## UdeM avec cryptage
 
-Le réseau sans fil **UdeM avec cryptage** est à privilégier. En plus de bénéficier d'une sécurité accrue, il permet l'accès aux ressources électroniques des bibliothèques et l'impression. Vous pouvez y accéder grâce à votre code d'accès et votre mot de passe.
+Le réseau sans fil **UdeM avec cryptage** est à privilégier. En plus d'offrir d'une sécurité accrue, il permet l'accès aux ressources électroniques des bibliothèques et à l'impression. Vous pouvez y accéder grâce à votre code d'accès et votre mot de passe.
 
 <Tabs groupId="os-wifi-udem">
   <TabItem value="macos" label="macOS">
@@ -49,7 +49,7 @@ Le réseau sans fil **UdeM avec cryptage** est à privilégier. En plus de bén�
   <TabItem value="ios" label="iOS">
     1. Dans le menu des applications, sélectionner **Réglages**.  
     2. Sélectionner **Wi-Fi**.  
-    3. Assurez-vous que l’interrupteur soit activé (de couleur verte).
+    3. Vérifier que l’interrupteur soit activé (de couleur verte).
     4. Sélectionner le réseau sans fil : **UdeM avec cryptage**.  
     5. Entrer vos informations d'authentification et appuyer sur **Rejoindre**.  
     6. À la fenêtre **Certificat**, appuyer sur **Se fier**.  
@@ -88,7 +88,7 @@ Le réseau sans fil **UdeM avec cryptage** est à privilégier. En plus de bén�
 
 ## Eduroam
 
-Le réseau sans fil **eduroam** est disponible pour les visiteurs d’un autre établissement participant et pour la communauté UdeM en visite ailleurs.
+Le réseau sans fil **eduroam** est disponible pour les personnes en visite depuis un autre établissement participant et pour la communauté UdeM en visite ailleurs.
 
 <Tabs groupId="eduroam-access">
   <TabItem value="visitors" label="Visiteurs à l'UdeM">
@@ -119,11 +119,11 @@ Le réseau sans fil **eduroam** est disponible pour les visiteurs d’un autre �
 
 ## UdeM-Visiteurs
 
-Le réseau sans fil **UdeM-Visiteurs** est destiné aux visiteurs de l'Université de Montréal. Il est accessible pour une durée de 24h et ne permet pas l'accès aux ressources électroniques des bibliothèques ou l'impression. Ce réseau n'est pas sécurisé.
+Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Université de Montréal. Il est accessible pour une durée de 24h et ne permet pas l'accès aux ressources électroniques des bibliothèques ou à l'impression. Ce réseau n'est pas sécurisé.
 
  1. Sélectionner le réseau sans fil **UdeM-Visiteurs**.
  2. Ouvrir votre navigateur.
- *Remarque : Si la page d'authentification ne s'affiche pas, ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser, exemple : www.google.cz*
+ *Remarque : Si la page d'authentification ne s'affiche pas, ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser. Par exemple : www.google.cz*
  3. Cliquer **Ou faites une demande d'accèes en tant qu'invité**.
  4. Entrer vos informations et cliquer **Enregistrer**.
  5. Lire et accepter les conditions générales.
@@ -131,10 +131,10 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux visiteurs de l'Universit
 
 ---
 
-## UdeM non securise
+## UdeM non securisé
 
 :::caution
-Il n'est pas recommandé d'utiliser le réseau **UdeM non securise**. Ce réseau ne permet pas un accès à nos ressources électroniques et n'offre aucune garantie de confidentialité et de sécurité.
+Il n'est pas recommandé d'utiliser le réseau **UdeM non securisé**. Ce réseau ne permet pas un accès à nos ressources électroniques et n'offre aucune garantie de confidentialité et de sécurité.
 :::
 
 ---
@@ -180,21 +180,22 @@ En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous
 
 ## Sites umontreal.ca non accessibles ?
 
-Problème : L’usager est branché au réseau sans fil, tous les sites Web fonctionnent, sauf les sites de
-l’Université de Montréal (Studium, umontreal.ca, etc.). Les paramètres DNS sont en cause, car l’usager ou
+Problème : Vous avez connecté votre appareil au réseau sans fil, tous les sites web fonctionnent, sauf les sites de
+l’Université de Montréal (Studium, umontreal.ca, etc.). Les paramètres DNS sont en cause, car votre appareil ou
 un programme essaie d’utiliser des paramètres DNS spécifiques non compatibles avec le réseau de l’UdeM.
+
 Solution : Obtenir les DNS automatiquement.
 
 <Tabs groupId="os-troubleshoot-2">
   <TabItem value="macos" label="macOS">
     1. Cliquer **Wi-Fi** (en haut à droite de l'écran).   
-    2. Cliquer **Réglages Wi-Fi** (ou Préférences réseau)
-    3. Cliquer **Avancé** (ou Détails)
-    4. Cliquer **DNS**
-    5. Sélectionner chacune des adresses (ex. 8.8.8.8) et cliquer "**-**" afin de les supprimer
-    6. Vous obtiendrez automatiquement deux adresses débutant par 10.
-    7. Cliquer **OK**
-    8. Cliquer **Appliquer**
+    2. Cliquer **Réglages Wi-Fi** (ou Préférences réseau).
+    3. Cliquer **Avancé** (ou Détails).
+    4. Cliquer **DNS**.
+    5. Sélectionner chacune des adresses (ex. 8.8.8.8) et cliquer "**-**" afin de les supprimer.
+    6. Deux adresses débutant par 10 sont générées automatiquement.
+    7. Cliquer **OK**.
+    8. Cliquer **Appliquer**.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
@@ -212,7 +213,7 @@ Windows 10
     1. Cliquer droit sur l'icône **WiFi** (en bas à droite).  
     2. Cliquer **Ouvrir les paramètres réseau et internet**.
     3. Cliquer **Centre Réseau et partage** (en bas de la page).
-    4. Cliquer **Wi-Fi (UdeM avec cryptage)** (en haut èa droite).
+    4. Cliquer **Wi-Fi (UdeM avec cryptage)** (en haut à droite).
     5. Cliquer **Propriétés**.
     6. Double-cliquer **Protocole internet version 4 (TCP/IPv4)**.
     7. Cocher **Obtenir les adresses des serveurs DNS automatiquement**.
@@ -237,7 +238,7 @@ Windows 10
     1. S'assurer que le Chromebook est connecté à un Wi-Fi
     2. Dans l'angle inférieur droit, sélectionner **l'heure**
     3. Sélectionner le réseau sans fil **UdeM avec cryptage**.
-    4. Dans le menu réroulant, sélectionner le réseau sans fil **UdeM avec cryptage**
+    4. Dans le menu déroulant, sélectionner le réseau sans fil **UdeM avec cryptage**
     5. Sélectionner **Réseau**
     6. Dans la section "Serveurs de noms", sélectionner **Serveurs de noms automatiques**
     7. Fermer la fenêtre (Cliquer **X** en haut à droite)
