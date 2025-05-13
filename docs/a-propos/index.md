@@ -31,9 +31,9 @@ import CardGrid from '@site/src/components/CardGrid';
       icon: 'MonitorPlay',
     },
     {
-      title: 'Conditions d’utilisation',
+      title: 'Politique d’utilisation des équipements',
       description: 'Découvrez les règles d’usage des équipements et des espaces studio·bib.',
-      link: '/a-propos/politique-utilisation',
+      link: '/a-propos/politique',
       icon: 'BookOpenText',
     },
   ]}
