@@ -11,6 +11,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "Figtree", sans-serif;
+  --ifm-breadcrumb-item-background-active: #ffffff; 
+  --ifm-menu-color-background-hover : var(--bleu-50);
 }
 
 [data-theme='dark'] {
