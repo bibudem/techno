@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 # Installer le VPN
 
-Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
+Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
 ---
 
@@ -48,7 +48,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     4. Autoriser Secure Access à ajouter des configurations VPN en appuyant sur **Autoriser**, puis entrer le code de déverrouillage de l'appareil.
     5. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer sur **Se connecter**.
     6. Procéder à l'authentification à deux facteurs (A2F).
-    7. Vous êtes maintenant connecté au VPN.
+    7. La connexion au VPN est faite.
   </TabItem>
 
   <TabItem value="android" label="Android">
@@ -57,7 +57,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     3. Appuyer sur la connexion `vpn.umontreal.ca/campus` et appuyer **Connecter**.
     4. S’authentifier avec ses informations d'authentification.
     5. Procéder à l'authentification à deux facteurs (A2F).
-    6. L’icône Service VPN s’affiche en bas à droite à droite de l’écran, vous êtes maintenant connecté.
+    6. L’icône Service VPN s’affiche en bas à droite à droite de l’écran, la connexion est faite.
   </TabItem>
 </Tabs>
 
@@ -67,11 +67,11 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    1. Lancer l'application Pulse Secure (coin supérieur droit).
-    2. Sélectionner UdeM Campus → Connexion.
+    1. Lancer l'application **Pulse Secure** (coin supérieur droit).
+    2. Sélectionner **UdeM Campus** → **Connexion**.
     3. S’authentifier avec ses informations d'authentification.
     4. Procéder à l'authentification à deux facteurs (A2F).
-    5. Pour se déconnecter, cliquer sur l'icône Pulse Secure (coin supérieur droit) et sélectionner **Déconnexion**.
+    5. Pour se déconnecter, cliquer sur l'icône **Pulse Secure** (coin supérieur droit) et sélectionner **Déconnexion**.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
@@ -91,8 +91,8 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
   <TabItem value="macos" label="macOS">
     Si vous obtenez le message d’erreur `Impossible d’ouvrir le fichier PulseSecureAppLauncher.mpkg, car Apple ne peut pas vérifier s’il contient des logiciels malveillants.` :
 
-    - 1ère solution : Glisser l'icône `PulseSecureAppLauncher.mpkg` dans le dossier Bureau et lancer l'application.
-    - 2ème solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**.
+    - 1re solution : Glisser l'icône `PulseSecureAppLauncher.mpkg` dans le dossier Bureau et lancer l'application.
+    - 2e solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
@@ -107,17 +107,17 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    1. Cliquer sur l'icône Pulse Secure (en haut à droite) et quitter l'application.
+    1. Cliquer sur l'icône **Pulse Secure** (en haut à droite) et quitter l'application.
     2. Aller à **Finder** → **Applications** → Clic droit sur **Pulse Secure** → Placer dans la corbeille.
     3. Cliquer **No** à **save configuration**.
     4. Vider la corbeille.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
-    1. Cliquer le bouton Démarrer, puis Paramètres.
-    2. Cliquer Applications.
-    3. Sélectionner tous les items Pulse Secure puis Désinstaller.
-    4. Cliquer Oui pour redémarrer si demandé.
+    1. Cliquer le bouton **Démarrer**, puis **Paramètres**.
+    2. Cliquer **Applications**.
+    3. Sélectionner tous les items Pulse Secure puis **Désinstaller**.
+    4. Cliquer **Oui** pour redémarrer si demandé.
     5. Redémarrer l’ordinateur.
   </TabItem>
 </Tabs>
