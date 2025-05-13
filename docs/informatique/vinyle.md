@@ -36,14 +36,14 @@ La Bibliothèque de musique offre plusieurs équipements spécialisés pour l’
 :::danger Manipuler le vinyle avec soin. Ne pas y poser directement vos mains.
 :::
 
-1. Placez le vinyle sur la table tournante et glissez le bouton **ON** en bas à gauche.  
-2. Retirez la protection plastique de la cellule (l’aiguille) et déverrouillez le bras de la table tournante.  
-3. Branchez le câble USB de la table tournante sur votre ordinateur personnel.  
-4. Lancez votre logiciel de MAO préféré et changez l'entrée ligne à **USB AUDIO CODEC**.  
-5. Soulevez le bras de la table tournante et placez la cellule (aiguille) sur la piste audio désirée.  
-6. Lancez l'enregistrement sur le logiciel MAO avant d'appuyer sur le bouton **START** de la table tournante.  
-7. Une fois terminé, arrêtez les enregistrements sur le logiciel et la table tournante.  
-8. Replacez la protection plastique sur la cellule (aiguille) et verrouillez le bras de la table tournante.
+1. Placer le vinyle sur la table tournante et glisser le bouton à la position **ON** en bas à gauche.  
+2. Retirer la protection plastique de la cellule (l’aiguille) et déverrouiller le bras de la table tournante.  
+3. Brancher le câble USB de la table tournante sur votre ordinateur personnel.  
+4. Lancer votre logiciel de MAO préféré et changer l'entrée ligne à **USB AUDIO CODEC**.  
+5. Soulever le bras de la table tournante et placer la cellule (aiguille) sur la piste audio désirée.  
+6. Lancer l'enregistrement sur le logiciel MAO avant d'appuyer sur le bouton **START** de la table tournante.  
+7. Une fois terminé, arrêter les enregistrements sur le logiciel et la table tournante.  
+8. Replacer la protection plastique sur la cellule (aiguille) et verrouillez le bras de la table tournante.
 
 ---
 
@@ -55,4 +55,4 @@ Pour toute demande d’aide ou de soutien pour vos projets spéciaux, adressez-v
 
 ## Droit d'auteur
 
-Il est possible de numériser du matériel tiré de la collection de vinyles des bibliothèques ou de votre propre collection. La numérisation audio est soumise au droit d’auteur. Pour plus d’informations, [consultez le segment Enregistrements sonores](https://bib.umontreal.ca/gerer-diffuser/droit-auteur/guide-droit-auteur?tab=5230701) de notre guide sur le droit d’auteur.
+Il est possible de numériser du matériel tiré de la collection de vinyles des bibliothèques ou de votre propre collection. La numérisation audio est soumise au droit d’auteur. Pour plus d’information, [consultez le segment Enregistrements sonores](https://bib.umontreal.ca/gerer-diffuser/droit-auteur/guide-droit-auteur?tab=5230701) de notre guide sur le droit d’auteur.
