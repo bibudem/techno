@@ -122,7 +122,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 4. Cliquer **Départ**.
 
 <Admonition type="Warning" title="Attention">
-  Respectez la [Loi sur le droit d’auteur](https://libguides.bib.umontreal.ca/c.php?g=729101) dans la reproduction de matériel.
+  Respectez la [Loi sur le droit d’auteur](https://libguides.bib.umontreal.ca/c.php?g=729101) lors de la reproduction de matériel.
 </Admonition>
 
 ---

@@ -25,7 +25,7 @@ import Link from '@docusaurus/Link';
 
 # Numérisation
 
-Les bibliothèques de l'UdeM mettent à votre disposition un service de numérisation gratuit, accessible sur place. Profitez de cette opportunité pour convertir vos documents physiques en format numérique, afin de les conserver, les partager ou les utiliser dans vos recherches académiques.
+Les bibliothèques de l'UdeM mettent à votre disposition un service de numérisation gratuit, accessible sur place. Profitez de cette opportunité pour convertir vos documents physiques en format numérique, afin de les conserver, de les partager ou de les utiliser dans vos recherches académiques.
 
 ---
 
@@ -76,11 +76,11 @@ Le Service d'Impression de l'UdeM offre également un service payant de numéris
 <br/>
 <br/>
 
-1. Déposez le document sur la surface de numérisation (ou dans le chargeur de documents, 35 feuilles maximum).  
-2. S’authentifiez sur l’imprimante avec votre code d’accès et mot de passe.  
-3. Cliquez **Suivant** après avoir pris connaissance des crédits d’impression au dossier.  
-4. Cliquez **Envoi personnel (E-mail)** en haut de l’écran.  
-5. Cliquez **Départ**.  
+1. Déposer le document sur la surface de numérisation (ou dans le chargeur de documents, 35 feuilles maximum).  
+2. S’authentifier sur l’imprimante avec votre code d’accès et mot de passe.  
+3. Cliquer **Suivant** après avoir pris connaissance des crédits d’impression au dossier.  
+4. Cliquer **Envoi personnel (E-mail)** en haut de l’écran.  
+5. Cliquer **Départ**.  
 
 :::warning Attention
 L'option de l’envoi personnel (E-mail) ne sera pas offerte si vous avez redirigé votre courriel institutionnel vers une autre adresse de courriel.
@@ -90,56 +90,56 @@ L'option de l’envoi personnel (E-mail) ne sera pas offerte si vous avez rediri
 
 ## Numérisation petit format avec Epson Scan
 
-1. Placez l’image à numériser sur la vitre du numériseur, en haut à gauche.  
-2. Cliquez sur le bouton **Windows** → **Numérisation** → **EPSON Scan**.  
-3. Configurez les paramètres recommandés, mais modifiables :  
-4. Cliquez sur **Aperçu** pour visualiser l’image à numériser.  
-5. Dans la nouvelle fenêtre, encadrez le document ou la partie du document à numériser.  
-6. Cliquez sur **Numériser**, choisissez ensuite l’emplacement où enregistrer le document, le format de l’image (PDF, JPEG...) et cliquez sur **OK**.  
-7. Enregistrez le document.
+1. Placer l’image à numériser sur la vitre du numériseur, en haut à gauche.  
+2. Cliquer sur le bouton **Windows** → **Numérisation** → **EPSON Scan**.  
+3. Configurer les paramètres recommandés, mais modifiables :  
+4. Cliquer sur **Aperçu** pour visualiser l’image à numériser.  
+5. Dans la nouvelle fenêtre, encadrer le document ou la partie du document à numériser.  
+6. Cliquer sur **Numériser**, choisissez ensuite l’emplacement où enregistrer le document, le format de l’image (PDF, JPEG...) et cliquez sur **OK**.  
+7. Enregistrer le document.
 
 ---
 
 ## Numérisation de livres avec Zeta
 
-1. Insérez une clé USB à droite en haut de l’écran (disponible pour emprunt au comptoir de prêt).  
-2. Déposez le livre sur le plateau avec le dos du livre au centre et ouvrez aux pages à numériser.  
-3. Choisissez la langue et cliquez sur **Accepter**.  
-4. Appuyez sur **Mode direct** (enregistrer).  
-5. Inscrivez un nom de fichier et appuyez sur le bouton du bas pour cacher le clavier.  
-6. Appuyez sur **Prochain**.  
-7. Appuyez sur **Numériser**. Maintenez le bord des pages et effectuez la numérisation en appuyant sur l’une des lignes vertes du plateau.  
-8. Au besoin, recadrez les pages de l’aperçu.  
-9. Appuyez à nouveau sur **Numériser** pour numériser la première page.  
-10. Répétez pour chaque page.  
-11. Une fois terminé, appuyez sur **Enregistrer**, **Quitter**, et retirez la clé USB.  
+1. Insérer une clé USB à droite en haut de l’écran (disponible pour emprunt au comptoir de prêt).  
+2. Déposer le livre sur le plateau avec le dos du livre au centre et l'ouvrir aux pages à numériser.  
+3. Choisir la langue et cliquer sur **Accepter**.  
+4. Appuyer sur **Mode direct** (enregistrer).  
+5. Inscrire un nom de fichier et appuyez sur le bouton du bas pour cacher le clavier.  
+6. Appuyer sur **Prochain**.  
+7. Appuyer sur **Numériser**. Maintenir le bord des pages et effectuez la numérisation en appuyant sur l’une des lignes vertes du plateau.  
+8. Au besoin, recadrer les pages de l’aperçu.  
+9. Appuyer à nouveau sur **Numériser** pour numériser la première page.  
+10. Répéter pour chaque page.  
+11. Une fois terminé, appuyer sur **Enregistrer**, **Quitter**, et retirez la clé USB.  
 
 :::info
-Pour plus d’information sur les options d’enregistrement et de numérisation, appuyez sur **Aide** au bas de l’écran.
+Pour plus d’information sur les options d’enregistrement et de numérisation, appuyer sur **Aide** au bas de l’écran.
 :::
 
 ---
 
 ## Numérisation au format PDF avec Adobe Acrobat Pro
 
-1. Placez le document à numériser sur la vitre du numériseur (face vers le bas).  
-2. Cliquez sur le bouton **Windows** → **Adobe Acrobat Pro**.  
-3. Cliquez sur **Fichier** → **Créer** → **Fichier PDF à partir d'un scanner**.  
+1. Placer le document à numériser sur la vitre du numériseur (face vers le bas).  
+2. Cliquer sur le bouton **Windows** → **Adobe Acrobat Pro**.  
+3. Cliquer sur **Fichier** → **Créer** → **Fichier PDF à partir d'un scanner**.  
 4. Paramètre par défaut = Couleur, format lettre, 300ppp.  
    :::info Facultatif
    Vous pouvez choisir noir et blanc, niveaux de gris ou photo couleur.
    :::
-5. Cliquez **Numériser**.  
-6. Si la numérisation de toutes les pages est terminée, cliquez sur **OK**. Sinon, placez la prochaine page dans le numériseur et sélectionnez **Numériser davantage de pages** → **OK**.  
-7. Sauvegardez le document PDF sous le nom désiré en cliquant sur **Fichier** → **Enregistrer**.
+5. Cliquer **Numériser**.  
+6. Si la numérisation de toutes les pages est terminée, cliquer sur **OK**. Sinon, placer la prochaine page dans le numériseur et sélectionnez **Numériser davantage de pages** → **OK**.  
+7. Sauvegarder le document PDF sous le nom désiré en cliquant sur **Fichier** → **Enregistrer**.
 
 ---
 
 ## Reconnaissance optique de caractères (OCR)
 
-1. Ouvrez un fichier PDF avec Acrobat Pro.  
-2. Activez la reconnaissance optique de caractères :  
-   - Dans le menu de droite, cliquez sur **Améliorer les numérisations**.  
-   - Déroulez le sous-menu de l’étiquette **Reconnaître le texte**, et sélectionnez **Dans ce fichier**.  
-   - Cliquez sur **Reconnaître le texte** et patientez durant le traitement.  
-3. Pour enregistrer au format Word : Cliquez sur **Fichier** → **Exporter vers** → **Microsoft Word** → **Document Word**.
+1. Ouvrir un fichier PDF avec Acrobat Pro.  
+2. Activer la reconnaissance optique de caractères :  
+   - Dans le menu de droite, cliquer sur **Améliorer les numérisations**.  
+   - Dérouler le sous-menu de l’étiquette **Reconnaître le texte**, et sélectionner **Dans ce fichier**.  
+   - Cliquer sur **Reconnaître le texte** et patienter durant le traitement.  
+3. Pour enregistrer au format Word : Cliquer sur **Fichier** → **Exporter vers** → **Microsoft Word** → **Document Word**.
