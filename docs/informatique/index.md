@@ -20,7 +20,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
     {
       title: "Réseau sans fil",
-      description: "Connectez-vous au Wi-Fi sécurisé sur le campus.",
+      description: "Connectez-vous au Wi-Fi sécurisé du campus.",
       link: "reseau",
       icon : "WifiHigh",
     },
@@ -32,7 +32,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
     {
       title: "Impression",
-      description: "Imprimez vos documents depuis les postes informatiques ou votre appareil.",
+      description: "Imprimez vos documents depuis les ordinateurs publics ou votre appareil.",
       link: "impression",
       icon : "Printer",
     },
@@ -44,7 +44,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
     {
       title: "Ordinateurs",
-      description: "Utilisez les postes informatiques mis à disposition sur le campus.",
+      description: "Utilisez les ordinateurs publics mis à disposition en bibliothèque.",
       link: "ordinateurs",
       icon : "Laptop",
     },
@@ -62,19 +62,19 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
     {
       title: "Équipements de consultation",
-      description: "Consultez microfilms, VHS et autres supports sur nos appareils dédiés.",
+      description: "Consultez des documents sur microfilms, VHS et autres supports avec nos appareils dédiés.",
       link: "consultation",
       icon : "FilmStrip",
     },
     {
       title: "Logiciels",
-      description: "Retrouvez les logiciels disponibles sur nos postes de travail.",
+      description: "Retrouvez les logiciels disponibles sur nos ordinateurs publics.",
       link: "logiciels",
       icon : "AppWindow",
     },
     {
       title: "Accessoires",
-      description: "Empruntez chargeurs, adaptateurs, casques et autres équipements.",
+      description: "Empruntez chargeurs, adaptateurs, casques d'écoute et autres équipements.",
       link: "accessoires",
       icon : "Headphones",
     },
