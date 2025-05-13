@@ -7,7 +7,7 @@ import styles from './CardAide.module.css';
 const VARIANTS = {
   info: {
     title: 'Nous sommes là pour vous aider',
-    text: 'Vous avez besoin d’une assistance informatique? Notre équipe est à votre disposition pour vous guider.',
+    text: 'Vous avez besoin d’une assistance informatique? Notre équipe est disponible pour vous guider à distance et en personne.',
     to: '/a-propos/soutien-informatique',
   },
   crea: {
