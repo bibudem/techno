@@ -89,18 +89,18 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
 
 ## Formations et soutien
 
-Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
+Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets !
 
 <CardGrid
   items={[
     {
       title: "Réservez une consultation",
-      description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre impression. Ce service est offert à la communauté UdeM.",
+      description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre impression.",
       link: "https://outlook.office.com/owa/calendar/studiobib@umontreal.ca/bookings/s/_O-YOJr2SEOmzA-ozLoiJw2?ismsaljsauthenabled",
     },
     {
       title: "Participez à une formation",
-      description: "Des formations pratiques sont aussi offertes tout au long de l’année pour vous familiariser avec les imprimantes 3D. Ces formations sont accessibles gratuitement pour la communauté UdeM.",
+      description: "On offre aussi des formations pratiques tout au long de l’année pour vous familiariser avec les imprimantes 3D.",
       link: "#",
     },
   ]}
@@ -110,7 +110,7 @@ Que vous soyez débutant.e ou expert.e, vous pouvez profiter de :
 
 ## Informations complémentaires
 
-- L'impression 3D est un service gratuit offert par les bibliothèques uniquement pour les membres de la communauté UdeM.
+- L'impression 3D est un service gratuit offert par les bibliothèques exclusivement aux membres de la communauté UdeM.
 - Pour connaître les règles d'utilisation des imprimantes 3D, consultez la section [Règles d'utilisation](../a-propos/politique.md).
 
 ---

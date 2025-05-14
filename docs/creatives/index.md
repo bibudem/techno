@@ -42,7 +42,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
     {
       title: "Robots",
-      description: "Accessoires didactiques.",
+      description: "Empruntez ces accessoires didactiques.",
       link: "/creatives/robots",
       icon : "Robot",
     },

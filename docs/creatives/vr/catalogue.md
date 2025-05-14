@@ -18,10 +18,10 @@ Suite du shooter zombie à succès, avec plus de réalisme, de gore et de coopé
 ### The Walking Dead: Saints & Sinners
 Un jeu de survie en VR se déroulant dans les ruines de La Nouvelle-Orléans...
 
-## Aventure / puzzle
+## Aventure
 
 ### Moss
-Accompagnez Quill, une souris héroïque, dans une aventure mêlant puzzles et action dans un monde enchanteur.
+Accompagnez Quill, une souris héroïque, dans une aventure mêlant résolution de problèmes et action dans un monde enchanteur.
 
 ### Assassin’s Creed Nexus VR
 Incarnez Ezio, Connor ou Kassandra dans une aventure d’infiltration et de parkour fidèle à la série.
@@ -32,7 +32,7 @@ Incarnez Ezio, Connor ou Kassandra dans une aventure d’infiltration et de park
 Une application de peinture réaliste offrant une variété d'outils et de toiles pour exprimer votre créativité.
 
 ### SculptrVR
-Créez, explorez et partagez des sculptures en VR avec des outils intuitifs, seul ou avec des amis.
+Créez, explorez et partagez des sculptures en VR avec des outils intuitifs, en solo ou en groupes.
 
 ### Tilt Brush
 Peignez en 3D avec des effets lumineux dynamiques dans un espace immersif.
@@ -40,12 +40,12 @@ Peignez en 3D avec des effets lumineux dynamiques dans un espace immersif.
 ## Cuisine
 
 ### Lost Recipes
-Cuisine historique immersive, préparez des plats authentiques de diverses cultures pour leurs esprits.
+Dans une cuisine historique immersive, préparez des plats authentiques de diverses cultures pour leurs esprits.
 
-## Documentaire / satire / spectacle
+## Documentaire, satire et spectacle
 
 ### Virtual Virtual Reality
-Une satire immersive sur la VR et l’IA, vous naviguez entre différentes couches de réalités absurdes.
+Une satire immersive sur la VR et l’IA où vous naviguez entre différentes couches de réalités absurdes.
 
 ### Cirque du Soleil
 Vivez les spectacles emblématiques du Cirque du Soleil dans une immersion spectaculaire.
@@ -59,7 +59,7 @@ Exploration sonore de l’univers narrée par des célébrités dans une trilogi
 Une réinterprétation VR du mythe du labyrinthe crétois, mêlant narration et exploration mythologique.
 
 ### BRINK Traveler
-Explorez des lieux emblématiques du monde entier en haute fidélité, offrant une expérience de voyage immersive.
+Explorez des lieux emblématiques du monde entier en haute fidélité, dans une expérience de voyage immersive.
 
 ### Wander
 Voyagez virtuellement à travers la planète en vous déplaçant dans Google Street View.
@@ -105,29 +105,29 @@ Tranchez des blocs au rythme de la musique dans ce jeu de rythme culte.
 ### Paradiddle
 Simulateur de batterie VR personnalisable, avec gestion de sons, de tempo et d’enregistrement.
 
-## Puzzle / stratégie
+## Casse-tête et stratégie
 
 ### HUMANITY
-Incarnez un Shiba Inu guidant des foules humaines à travers des puzzles inspirés de Lemmings, combinant stratégie et réflexion.
+Incarnez un Shiba Inu guidant des foules humaines à travers des casse-tête logiques inspirés de Lemmings, combinant stratégie et réflexion.
 
 ### The Room VR: A Dark Matter
 Plongez dans une enquête mystérieuse à Londres en 1908, résolvant des énigmes complexes dans des environnements immersifs.
 
 ### Another Fisherman's Tale
-Puzzles innovants en manipulant des parties de votre corps détachables dans une suite émotive.
+Casse-tête innovants pour résoudre lesquels vous devrez manipuler des parties de votre corps détachables dans une suite émotive.
 
 ### I Expect You To Die 3
-Troisième opus de l’espionnage VR avec des puzzles narratifs encore plus inventifs.
+Troisième opus de l’espionnage VR avec des casse-tête narratifs encore plus inventifs.
 
 ### SUPERHOT VR
 Dans ce FPS au style unique, le temps ne bouge que lorsque vous bougez.
 
-## RPG / mythologie
+## RPG et mythologie
 
 ### Asgard's Wrath 2
-RPG épique VR inspiré de la mythologie nordique et égyptienne, avec combats intenses et narration soignée.
+RPG épique inspiré des mythologies nordique et égyptienne, avec combats intenses et narration soignée.
 
-## Relaxation / expérience brève
+## Relaxation et expériences brèves
 
 ### Pillow
 Détente en position allongée via des rêves interactifs en réalité mixte.

@@ -9,10 +9,10 @@ Ce guide est une introduction à l’utilisation du logiciel Cricut Design Space
 
 ### 1. Choix d’une image
 
-Tout d’abord, il faut choisir une image! Dans ce guide l’image source proviendra du site web [The Noun Project](https://thenounproject.com/icons/). Il est préférable de choisir une image dont les traits sont assez larges, cela facilitera la manipulation lors de l’installation.
+Tout d’abord, il faut choisir une image! Dans ce guide l’image source provient du site web [The Noun Project](https://thenounproject.com/icons/). Il est préférable de choisir une image dont les traits sont assez larges, car cela facilitera la manipulation lors de l’installation.
 
 :::note
-    La plupart des formats conviennent. Cependant, il est préférable d’utiliser des images de format vectoriel *(SVG)* puisque ce format permet l’ajustement de la taille sans compromettre la qualité de l’image.
+    La plupart des formats conviennent. Cependant, il est préférable d’utiliser des images de format vectoriel (.SVG) puisque ce format permet l’ajustement de la taille sans compromettre la qualité de l’image.
 :::
 
 ### 2. Cricut Design Space
@@ -64,9 +64,10 @@ Vous avez ensuite la possibilité de modifier (effacer, dessiner).
 
 ### 5. Modification de l’image (Rognage)
 
-!!! info
-    À cette étape, il est possible de modifier l’image (taille, rognage, rotation, dupliquer).
-    Si vous désirez produire un projet composé de plusieurs importations, répétez de nouveau les étapes précédentes.
+:::info
+À cette étape, il est possible de modifier l’image (taille, rognage, rotation, duplication). Si vous désirez produire un projet composé de plusieurs importations, répétez de nouveau les étapes précédentes.
+
+:::
 
 #### Paramètres de base
 
@@ -113,7 +114,7 @@ Permet de redimensionner les axes de l’image de manière indépendante
 ![Untitled](/img/docs/cricut18.webp)
 
 :::note
-    Notez que les tapis de découpe disponibles à l’atelier sont d’un format de 30.5 cm par 30.5 cm. Assurez-vous que votre projet ne dépasse pas cette taille pour éviter de mauvaises découpes ainsi que le bris de l’équipement.
+    Notez que les tapis de découpe disponibles à l’atelier sont d’un format de 30,5 cm par 30,5 cm. Assurez-vous que votre projet ne dépasse pas cette taille pour éviter de mauvaises découpes ainsi que le bris de l’équipement.
 :::
 
 ### 7. Découpe
@@ -151,23 +152,19 @@ Pour obtenir une mesure exacte de taille nécessaire et ainsi ne pas gaspiller l
 
 ![Untitled](/img/docs/cricut26.webp)
 
-:::note
-    Il existe une liste non-exhaustive des [Matériaux](#) compatible avec nos découpeuses numériques comprenant même un inventaire.
-:::
-
-7.8. On s’assure que la lame dans la mâchoire B est la bonne.
+7.8. Vérifier que la lame dans la mâchoire B est la bonne.
 
 ![Untitled](/img/docs/cricut27.webp)
 
 ![Untitled](/img/docs/cricut28.webp)
 
-7.9. Appuyer sur le **bouton de mise en marche (logo de cricut)** de l’appareil et patientez pendant la durée de la découpe. Le logiciel fera état de la progression.
+7.9. Appuyer sur le **bouton de mise en marche (logo de cricut)** de l’appareil et patienter pendant la durée de la découpe. Le logiciel fera état de la progression.
 
 ![Untitled](/img/docs/cricut29.webp)
 
 ![Untitled](/img/docs/cricut30.webp)
 
-7.10. Une fois la découpe terminé. Retirer le tapis de découpe de la machine en appuyant sur la flèche. Appuyer sur **Terminé** pour revenir à l’accueil du logiciel.
+7.10. Une fois la découpe terminée, retirer le tapis de découpe de la machine en appuyant sur la flèche. Appuyer sur **Terminé** pour revenir à l’accueil du logiciel.
 
 ![Untitled](/img/docs/cricut31.webp)
 
@@ -175,7 +172,7 @@ Pour obtenir une mesure exacte de taille nécessaire et ainsi ne pas gaspiller l
 
 8.1. Décoller le vinyle du tapis, bien s’assurer de retirer le le papier ciré de base aussi.
 
-8.2. Retirer l’excédant de vinyle à l’aide des outils disponibles à l’atelier (pinces, crochet etc.). Soyez prudent! Le vinyle peut facilement se déchirer à cette étape et le résultat sera beaucoup moins satisfaisant.
+8.2. Retirer l’excédent de vinyle à l’aide des outils disponibles à l’atelier (pinces, crochet etc.). Prudence! Le vinyle peut facilement se déchirer à cette étape et le résultat sera beaucoup moins satisfaisant.
 
 ![Untitled](/img/docs/cricut32.webp)
 
@@ -185,13 +182,13 @@ Pour obtenir une mesure exacte de taille nécessaire et ainsi ne pas gaspiller l
 
 ![Untitled](/img/docs/cricut34.webp)
 
-8.4. Coller le papier transfert sur le motif en appuyant et frottant l’ensemble de la surface pour augmenter l’adhérence.  La spatule est utile pour cette étape. Les bulles entre le vinyle et le papier transfert doivent être réduite au maximum.
+8.4. Coller le papier transfert sur le motif en appuyant et en frottant l’ensemble de la surface pour augmenter l’adhérence.  La spatule est utile pour cette étape. Les bulles entre le vinyle et le papier transfert doivent être réduites au maximum.
 
 ![Untitled](/img/docs/cricut35.webp)
 
-8.5. Retirer le papier transfert du papier ciré de base, de manière à ce que le vinyle soit exclusivement sur la papier transfert.
+8.5. Retirer le papier transfert du papier ciré de base, de manière à ce que le vinyle soit exclusivement sur le papier transfert.
 
-8.6. Coller le vinyle à l’endroit désiré en effectuant le même processus que pour l’adhésion au papier transfert puis retirer le papier transfert de manière à ce que le vinyle n’y adhère pas.
+8.6. Coller le vinyle à l’endroit désiré en effectuant le même processus que pour l’adhésion au papier transfert, puis retirer le papier transfert de manière à ce que le vinyle n’y adhère pas.
 
 ![Untitled](/img/docs/cricut36.webp)
 
@@ -201,17 +198,17 @@ Voilà, vous avez désormais un modèle personnalisé en vinyle!
 
 ## Tapis de découpe
 
-Les tapis sont des planches adhésives qui servent à maintenir le matériel en place lors de la découpe afin de donner un travail de qualité supérieure et faciliter le retrait du motif. Cricut offre une gamme de tapis distinctifs et plusieurs formats *(30.5 cm x 30.5 cm ou 30.5 cm x 61 cm)* selon votre projet.
+Les tapis sont des planches adhésives qui servent à maintenir le matériel en place lors de la découpe afin de donner un travail de qualité supérieure et de faciliter le retrait du motif. Cricut offre une gamme de tapis distinctifs et plusieurs formats *(30,5 cm x 30,5 cm ou 30,5 cm x 61 cm)* selon votre projet.
 
 :::note
-    À noter que les tapis de découpe ne sont pas nécessaires lors de l'utilisation dux *smart vinyl*.
+    À noter que les tapis de découpe ne sont pas nécessaires lors de l'utilisation du smart vinyl.
 :::
 
 ### Le StandardGrip
 
 <!-- ![Untitled](/img/docs/cricut38.webp) -->
 
-Le tapis le plus communément utilisé pour les matériaux standards tel que : 
+Le tapis le plus communément utilisé pour les matériaux standards tels que : 
 
 - Vinyle (permanent ou temporaire)
 - Vinyle de transfert thermique (HTV)
@@ -221,7 +218,7 @@ Le tapis le plus communément utilisé pour les matériaux standards tel que :
 
 <!-- ![Untitled](/img/docs/cricut39.webp) -->
 
-Conçu pour les découpes de matériaux légers tel que :
+Conçu pour les découpes de matériaux légers tels que :
 
 - Papier régulier
 - Papier cartonné mince
@@ -233,36 +230,36 @@ Conçu pour les découpes de matériaux légers tel que :
 
 <!-- ![Untitled](/img/docs/cricut40.webp) -->
 
-Conçu pour les découpes de matériaux résistants
+Conçu pour les découpes de matériaux résistants, tels que :
 
 - Papier cartonné épais
-- Bois de tilleul, de balsa (il est nécessaire de fixer le matériel avec du ruban adhésif de peinture)
-- Chipboard**
+- Bois de tilleul, de balsa (il est nécessaire de fixer le matériau avec du ruban de masquage ou *masking tape*)
+- Chipboard
 - Cuir
-- Textile avec durcisseur
+- Textile avec durcisseur ou raidisseur
 
 ### Le fabric grip
 
 <!-- ![Untitled](/img/docs/cricut41.webp) -->
 
-Conçu pour les découpes de tissus
+Conçu pour les découpes de tissus tels que :
 
-- Tissus non tissé ou tissé
+- Tissus non tissés ou tissés
 
 ### Entretien des tapis
 
-- Couvrir le tapis après usage afin qu'il conserve son adhérence
-- Utiliser les matériaux et les lames adéquats pour ne pas abîmer l'équipement et obtenir de bons résultats. Consulter le [tableau des matériaux](#) pour savoir quel type de matériau utiliser avec quel type de lames et de tapis.
+- Couvrir le tapis après usage afin qu'il conserve son adhérence.
+- Utiliser les matériaux et les lames adéquats pour ne pas abîmer l'équipement et obtenir de bons résultats.
 
 ### Nettoyage des tapis
 
-- Retirer les résidus de matériaux à l'aide d'un grattoir
+- Retirer les résidus de matériaux à l'aide d'un grattoir.
 
 <!-- ![Untitled](/img/docs/cricut42.webp) -->
 
-- Pour les tissus, il est possible d'utiliser un rouleau anti-peluche
-- Lingette sans alcool
-- Lavage au savon à l'eau froide et séchage à l'air
+- Pour les tissus, il est possible d'utiliser un rouleau antipeluche.
+- Utiliser une lingette sans alcool.
+- Lavage au savon à l'eau froide et séchage à l'air.
 
 !!! info "Ressources en ligne"
     [https://www.daydreamintoreality.com/cricut-mats/](https://www.daydreamintoreality.com/cricut-mats/)
@@ -278,7 +275,7 @@ Conçu pour les découpes de tissus
 
 #### Lame à pointe fine
 
-La lame à point fine effectue des découpes standard. Elle est munie d'un angle de 45 degrés.
+La lame à pointe fine effectue des découpes standard. Elle est munie d'un angle de 45 degrés.
 
 **Matériaux compatibles**
 
@@ -293,24 +290,24 @@ La lame à point fine effectue des découpes standard. Elle est munie d'un angle
 
 #### Lame à pointe profonde
 
-La lame à point profonde est munie d'un angle plus prononcé de 60 degrés. Elle découpe des matériaux plus épais (1.5 mm) comparativement à la lame pointe fine.
+La lame à pointe profonde est munie d'un angle plus prononcé de 60 degrés. Elle découpe des matériaux plus épais (1,5 mm) comparativement à la lame pointe fine.
 
-**Matériaux compatible**
+**Matériaux compatibles**
 
-- Carton ondulé (corrugated paper)
+- Carton ondulé (*corrugated paper*)
 - Cuir
 - Étampe
 - Feutre synthétique
-- Feuille magnétisée - 0.6 mm
+- Feuille magnétisée 0,6 mm
 - Papier aluminium
 
 <!-- ![Untitled](/img/docs/cricut46.webp) -->
 
-#### Lame pour tissus non-tissé
+#### Lame pour tissus non-tissés
 
 Type de découpe : standard
 
-Cette lame est l'équivalent de la lame à pointe fine, elle est cependant réservée aux tissus. Elle permet une découpe plus détaillée que la lame rotative sur des tissus collés (*bonded fabric*).
+Cette lame est l'équivalent de la lame à pointe fine, mais réservée aux tissus. Elle permet une découpe plus détaillée que la lame rotative sur des tissus collés (*bonded fabric*).
 
 **Matériaux compatibles**
 
@@ -321,31 +318,29 @@ Cette lame est l'équivalent de la lame à pointe fine, elle est cependant rése
 - Polyester
 - Soie
 - Toile de jute
-- etc.
+- Etc.
 
 <!-- ![Untitled](/img/docs/cricut47.webp) -->
 
 #### Lame de découpe
 
-Découpe des matériaux plus résistants que la lame à pointe profonde jusqu'à 2.4mm. Elle effectue des découpes moins précises que les lames à pointes fines. 
+Découpe des matériaux plus résistants que la lame à pointe profonde jusqu'à 2,4 mm. Elle effectue des découpes moins précises que les lames à pointes fines. 
 
 **Matériaux compatibles**
 
-- Bois :
-Balsa
-Tilleul
+- Bois : Balsa Tilleul
 - Matboard 4 plis
-- Planche cartonné 2.0 mm
+- Planche cartonné 2,0 mm
 
 <!-- ![Untitled](/img/docs/cricut48.webp) -->
 
 #### Lame rotative
 
-Découpe pratiquement tous les types de tissus. Cette lame nécessite un motif d'une largeur minimale de 19mm (3/4 de pouces). Elle permet des découpes précises sur le tissu. Cette lame est utilisée avec le tapis de découpe FabricGrip.
+Découpe pratiquement tous les types de tissus. Cette lame nécessite un motif d'une largeur minimale de 19 mm (3/4 de pouce). Elle permet des découpes précises sur le tissu. Cette lame est utilisée avec le tapis de découpe FabricGrip.
 
 **Matériaux compatibles**
 
-- Bambou (Tissus)
+- Bambou (Tissu)
 - Bengaline
 - Cachemire
 - Corduroy
@@ -359,7 +354,7 @@ Découpe pratiquement tous les types de tissus. Cette lame nécessite un motif d
 - Microfibre
 - Nylon
 - Soie
-- et bien plus...
+- Et bien plus...
 
 ### Autres embouts
 
@@ -367,12 +362,12 @@ Découpe pratiquement tous les types de tissus. Cette lame nécessite un motif d
 
 #### Pointe de gravure
 
-Idéal pour les gravures de plus de 2.5cm. Ne convient pas au verre. Permet la gravure sur les surfaces suivantes : 
+Idéal pour les gravures de plus de 2,5 cm. Ne convient pas au verre. Permet la gravure sur les surfaces suivantes : 
 
-- Acetate
+- Acétate
 - Acrylique
 - Disque vinyle
-- Faux cuir / cuir (incluant les cuirs métallisés)
+- Faux cuir/cuir (incluant les cuirs métallisés)
 - Métaux mous (de 12 à 40 ga.)
     - Feuille d'aluminium
     - Feuille de cuivre
@@ -388,12 +383,12 @@ Idéal pour les gravures de plus de 2.5cm. Ne convient pas au verre. Permet la g
 
 Permet la mise en relief des matériaux, en créant une concavité.
 
-- Acetate
-- Bois de Balsa – 1/16″ (1.6 mm) ou  3/32″ (2.4 mm)
+- Acétate
+- Bois de Balsa – 1/16″ (1,6 mm) ou  3/32″ (2,4 mm)
 - Carton de construction
-- Carton épais de type Chipboard – 2.0 mm
-- Carton mince de type Chipboard – 0.37 mm
-- Faux cuir / cuir (épaisseur du papier)
+- Carton épais de type Chipboard – 2,0 mm
+- Carton mince de type Chipboard – 0,37 mm
+- Faux cuir/cuir (épaisseur du papier)
 - Kraft Board
 - Matboard 4 Plis
 - Panneau de mousse
@@ -430,7 +425,7 @@ Noter qu'il est aussi possible d'utiliser des crayons qui ne sont pas de la marq
     
 <!-- ![Untitled](/img/docs/cricut54.webp) -->
 
-#### Crayon de rainures / stries
+#### Crayon de rainures/stries
     
 Cet outil permet d'effectuer des rainures sur les matériaux. Ceci permet ensuite de les plier plus facilement.
 
