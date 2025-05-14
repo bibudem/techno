@@ -16,11 +16,11 @@ Avant de faire votre première impression, lisez l'[introduction à l'impression
 |-----|-----|
 | Volume d'impression | 25×21×21cm (9.84"×8.3"×8.3") |
 | Buses disponibles | 0.4mm |
-| Hauteur des couches | 0.05 - 0.30 mm |
-| Diamètre du filament | 1.75 mm |
+| Hauteur des couches | 0.05 - 0.30mm |
+| Diamètre du filament | 1.75mm |
 | Matériaux supportés | PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres. |
 | Surface d'impression | Feuille d'acier magnétique amovible |
-| Impression multi-filament | Possible en modifiant le gcode, ou en ajoutant le module MMU2S (Disponible à la Bibliothèque mathématiques et informatique) |
+| Impression multi-filament | Possible en modifiant le gcode, ou en ajoutant le modulemmU2S (Disponible à la Bibliothèque mathématiques et informatique) |
 | Logiciel de découpe (*slicer*) | PrusaSlicer |
 
 Chaque imprimante a été montée par l'équipe des bibliothèques et pour quelques-unes, nous avons eu l'aide de la communauté étudiante. Toutes les parties en plastique des machines ont été fabriquées par des imprimantes 3D, de sorte que ces pièces peuvent facilement être remplacées. Ce principe est appelé RepRap.
@@ -37,7 +37,7 @@ Ressources en ligne
 ## 2 - Changement de filament
 
 :::warning
-Diamètre des filaments de la Prusa i3 MK3S+ : **1.75 mm**
+Diamètre des filaments de la Prusa i3 MK3S+ : **1.75mm**
 :::
 
 ### **Retrait d’une bobine**
@@ -92,7 +92,7 @@ Compatible avec : Windows, MacOS et Linux.
 
 1. Installer le logiciel PrusaSlicer sur votre machine.
 2. Au démarrage du logiciel, un assistant de configuration s’affichera Cliquer sur suivant.
-3. À l’étape **Prusa Research**, cocher uniquement la case **0.4 mm buse** au dessous de **Original Prusa i3 MK3s & MK3s+**, sous **Famille MK3**.
+3. À l’étape **Prusa Research**, cocher uniquement la case **0.4mm buse** au dessous de **Original Prusa i3 MK3s & MK3s+**, sous **Famille MK3**.
 4. Cliquer sur **Fin**.
 
 ![Assistant configuration PrusaSlicer](/img/docs/prusa-installation.webp)
@@ -128,7 +128,7 @@ Redimensionnez la pièce en utilisant la fonction **Redimensionner** (menu de dr
 
 ![Interface du logiciel PrusaSlicer](/img/docs/prusa-impression-3.webp)
 
-- **Réglages d’impression** : Sélectionner la hauteur de la couche. 0,10 mm pour une impression de précision, 0,20 mm pour une impression normale et 0,30 mm pour des tests ou des pièces dont la qualité peut être moindre.
+- **Réglages d’impression** : Sélectionner la hauteur de la couche. 0,10mm pour une impression de précision, 0,20mm pour une impression normale et 0,30mm pour des tests ou des pièces dont la qualité peut être moindre.
 - **Filament** : Sélectionner **Generic PLA**. Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215°C pour l’extrudeur, 60°C pour le plateau).
 - **Imprimante** : Vérifier que le bon modèle est sélectionné.
 - **Supports** : Si une partie de votre modèle commence dans les airs et n'est supportée par aucun élément en dessous, ajouter une structure de support pour réussir une impression. Plusieurs options s’offrent à vous. Si votre modèle n’a pas besoin de support, sélectionner **Aucun**. Si un support est nécessaire, sélectionner **Support sur le plateau uniquement**, qui va créer des supports qui ont leur base sur le plateau.
@@ -179,7 +179,7 @@ Ressources en ligne
 3. Chauffer la buse à 280° C.
 4. Dévisser la buse avec l’outil spécial. Attention aux fils, ne pas les pincer, ni les tordre, ni les arracher. Évitez que les parties en plastique ne touchent les parties chauffantes.
 5. Retirer la buse de l’outil avec une pince (la buse est très chaude!) et poser la sur une surface qui ne craint pas la chaleur.
-6. Visser la nouvelle buse pendant que le bloc est encore chaud (280° C). Assurez-vous qu’il y ait environ 0,5 mm entre la buse et le bloc de chauffe, comme sur l’image suivante. Visser suffisamment la buse, mais sans exercer une force excessive.
+6. Visser la nouvelle buse pendant que le bloc est encore chaud (280° C). Assurez-vous qu’il y ait environ 0,5mm entre la buse et le bloc de chauffe, comme sur l’image suivante. Visser suffisamment la buse, mais sans exercer une force excessive.
 
 ![Visuel](/img/docs/prusa-buse-2.webp)
 
@@ -212,7 +212,7 @@ Parmi la liste des paramètres d’édition accessible.
 
 ![1etape.PNG](/img/docs/prusa-avance-2.webp)
 
-4. Choisir la hauteur (en mm) entre lesquelles les modifications doivent s’appliquer.
+4. Choisir la hauteur (enmm) entre lesquelles les modifications doivent s’appliquer.
 
 Vous pouvez ici choisir une hauteur de couche qui s’appliquera uniquement dans la zone. Notez que le maximum est 0.25mm. Ceci permet d’avoir 2 hauteurs de couche différentes sur un même objet.
 

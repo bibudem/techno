@@ -13,8 +13,8 @@ Avant de faire votre première impression, lisez l'[introduction à l'impression
 |-----|-----|
 |Volume d'impression|	23×19×20 (9"×7.4"×7.9")|
 |Buses disponibles|	0.4mm|
-|Hauteur des couches|	0.05 - 0.35 mm|
-|Diamètre du filament|	2.85 mm|
+|Hauteur des couches|	0.05 - 0.35mm|
+|Diamètre du filament|	2.85mm|
 |Matériaux supportés|	PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres.|
 |Surface d'impression|	Vitre|
 |Impression multi-filament|	Possible grâce aux deux extrudeurs |
@@ -57,8 +57,8 @@ Compatible avec : Windows, macOS et Linux
 ## 3 - Changement de filament
 
 :::warning
-Diamètre des filaments de l'Ultimaker : **2,85 mm**
-Les filaments de 1,75 mm ne sont pas compatibles avec l'Ultimaker.
+Diamètre des filaments de l'Ultimaker : **2,85mm**
+Les filaments de 1,75mm ne sont pas compatibles avec l'Ultimaker.
 :::
 
 ### Accéder au menu
@@ -144,7 +144,7 @@ Générer manuellement des zones sans support.
 
 2. **Filament** (extrudeur 1) : Sélectionner **Generic PLA***.* Cette configuration contient les valeurs de température de l’extrudeur et du plateau (par défaut : 215°C pour l’extrudeur, 60°C pour le plateau).
 3. **Filament** (extrudeur 2) : Selon si vous souhaitez imprimer une deuxième couleur ou des supports, sélectionner **Generic PLA**. Pour une impression avec du **PVA**, il faut changer la tête d’extrusion à **BB**.
-4. **Réglages d’impression** : Sélectionner la hauteur de la couche : 0,10 mm pour une impression de précision, 0,20 mm pour une impression normale et 0,30 mm pour des tests ou des pièces de moindre qualité.
+4. **Réglages d’impression** : Sélectionner la hauteur de la couche : 0,10mm pour une impression de précision, 0,20mm pour une impression normale et 0,30mm pour des tests ou des pièces de moindre qualité.
 5. **Remplissage** : Indiquer le pourcentage de remplissage. Il n’est pas nécessaire de faire un remplissage au-delà de 30%.
 6. **Supports** : Si une partie de votre modèle commence dans les airs et n'est supportée par aucun élément en dessous, il faut ajouter une structure de support pour réussir une impression. Plusieurs options s’offrent à vous. Si votre modèle n’a pas besoin de support, laisser décoché. Si un support est nécessaire, cocher l’option et sélectionner **Extruder 1** ou **Extruder 2** selon le filament à utiliser pour les supports.
 7. **Adhérence** : en l’activant, on crée une bordure qui augmente la surface d’adhésion de la première couche afin d’augmenter l’adhérence au plateau.

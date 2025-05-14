@@ -290,7 +290,7 @@ La lame à pointe fine effectue des découpes standard. Elle est munie d'un angl
 
 #### Lame à pointe profonde
 
-La lame à pointe profonde est munie d'un angle plus prononcé de 60 degrés. Elle découpe des matériaux plus épais (1,5 mm) comparativement à la lame pointe fine.
+La lame à pointe profonde est munie d'un angle plus prononcé de 60 degrés. Elle découpe des matériaux plus épais (1,5mm) comparativement à la lame pointe fine.
 
 **Matériaux compatibles**
 
@@ -298,7 +298,7 @@ La lame à pointe profonde est munie d'un angle plus prononcé de 60 degrés. El
 - Cuir
 - Étampe
 - Feutre synthétique
-- Feuille magnétisée 0,6 mm
+- Feuille magnétisée 0,6mm
 - Papier aluminium
 
 <!-- ![Untitled](/img/docs/cricut46.webp) -->
@@ -324,19 +324,19 @@ Cette lame est l'équivalent de la lame à pointe fine, mais réservée aux tiss
 
 #### Lame de découpe
 
-Découpe des matériaux plus résistants que la lame à pointe profonde jusqu'à 2,4 mm. Elle effectue des découpes moins précises que les lames à pointes fines. 
+Découpe des matériaux plus résistants que la lame à pointe profonde jusqu'à 2,4mm. Elle effectue des découpes moins précises que les lames à pointes fines. 
 
 **Matériaux compatibles**
 
 - Bois : Balsa Tilleul
 - Matboard 4 plis
-- Planche cartonné 2,0 mm
+- Planche cartonné 2,0mm
 
 <!-- ![Untitled](/img/docs/cricut48.webp) -->
 
 #### Lame rotative
 
-Découpe pratiquement tous les types de tissus. Cette lame nécessite un motif d'une largeur minimale de 19 mm (3/4 de pouce). Elle permet des découpes précises sur le tissu. Cette lame est utilisée avec le tapis de découpe FabricGrip.
+Découpe pratiquement tous les types de tissus. Cette lame nécessite un motif d'une largeur minimale de 19mm (3/4 de pouce). Elle permet des découpes précises sur le tissu. Cette lame est utilisée avec le tapis de découpe FabricGrip.
 
 **Matériaux compatibles**
 
@@ -384,10 +384,10 @@ Idéal pour les gravures de plus de 2,5 cm. Ne convient pas au verre. Permet la 
 Permet la mise en relief des matériaux, en créant une concavité.
 
 - Acétate
-- Bois de Balsa – 1/16″ (1,6 mm) ou  3/32″ (2,4 mm)
+- Bois de Balsa – 1/16″ (1,6mm) ou  3/32″ (2,4mm)
 - Carton de construction
-- Carton épais de type Chipboard – 2,0 mm
-- Carton mince de type Chipboard – 0,37 mm
+- Carton épais de type Chipboard – 2,0mm
+- Carton mince de type Chipboard – 0,37mm
 - Faux cuir/cuir (épaisseur du papier)
 - Kraft Board
 - Matboard 4 Plis

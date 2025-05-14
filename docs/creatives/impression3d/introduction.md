@@ -78,7 +78,7 @@ Les profils sont un ensemble de paramètres prédéfinis dans le Slicer. Ils peu
   <figcaption>de gauche à droite : 0.05mm, 0.20mm et 0.30mm. </figcaption> [Source ](https://www.hubs.com/knowledge-base/impact-layer-height-3d-print/)
 </figure>
 
-L’épaisseur d’une couche est habituellement de 0,2 mm. Il est possible de descendre jusqu’à 0,1 mm si l’objet est très détaillé ou s’il subira des forces parallèles aux couches. Dans un tel cas, il est recommandé de revoir le sens d’impression pour que les forces soient exercées perpendiculairement aux couches d’impressions. Notez que la durée d’impression sera deux fois plus longue à 0,1 mm qu’à 0,2 mm.
+L’épaisseur d’une couche est habituellement de 0,2mm. Il est possible de descendre jusqu’à 0,1mm si l’objet est très détaillé ou s’il subira des forces parallèles aux couches. Dans un tel cas, il est recommandé de revoir le sens d’impression pour que les forces soient exercées perpendiculairement aux couches d’impressions. Notez que la durée d’impression sera deux fois plus longue à 0,1mm qu’à 0,2mm.
 
 <figure markdown>
   ![Hauteur de la couche](#)

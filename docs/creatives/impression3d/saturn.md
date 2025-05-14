@@ -11,11 +11,11 @@
 |Écran LCD|	LCD Mono 12K de 10 pouces|
 |Logiciel de découpe| CHITUBOX & Voxeldance Tango|
 |Technologie| Stéréolithographie MSLA|
-|Épaisseur de couche| 0,01 - 0,2 mm|
-|Vitesse d'impression| MAX 150 mm/h|
+|Épaisseur de couche| 0,01 - 0,2mm|
+|Vitesse d'impression| MAX 150mm/h|
 |Surface d'impression| Removable magnetic steel sheets with different surface finishes|
-|Volume de construction| 218,88 mm (L) * 122,88 mm (l) * 260 mm (H)|
-|Dimensions de l'imprimante| 305,9 mm (L) * 273 mm (l) * 562,5 mm (H)|
+|Volume de construction| 218,88mm (L) * 122,88mm (l) * 260mm (H)|
+|Dimensions de l'imprimante| 305,9mm (L) * 273mm (l) * 562,5mm (H)|
 
 ### Localisation
 
