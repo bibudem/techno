@@ -27,7 +27,7 @@ import PostesDisponibles from '@site/src/components/PostesDisponibles';
 
 Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS de chez vous ? Utilisez nos postes publics à distance.
 
-Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibilité de se connecter à distance à certains logiciels disponibles sur ses ordinateurs, à partir de votre propre appareil, comme si vous étiez en bibliothèque —— incluant Antidote ! 
+Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibilité de se connecter à distance à certains logiciels disponibles sur ses ordinateurs, à partir de votre propre appareil, comme si vous étiez en bibliothèque — incluant Antidote ! 
 
 ---
 
