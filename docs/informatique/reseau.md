@@ -127,14 +127,14 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
  3. Cliquer **Ou faites une demande d'accèes en tant qu'invité**.
  4. Entrer vos informations et cliquer **Enregistrer**.
  5. Lire et accepter les conditions générales.
- 6. Cliquer **Accepter** et **Continiuer**. 
+ 6. Cliquer **Accepter** et **Continuer**. 
 
 ---
 
-## UdeM non securisé
+## UdeM non sécurisé
 
 :::caution
-Il n'est pas recommandé d'utiliser le réseau **UdeM non securisé**. Ce réseau ne permet pas un accès à nos ressources électroniques et n'offre aucune garantie de confidentialité et de sécurité.
+Il n'est pas recommandé d'utiliser le réseau **UdeM non sécurisé**. Ce réseau ne permet pas un accès à nos ressources électroniques et n'offre aucune garantie de confidentialité et de sécurité.
 :::
 
 ---
@@ -143,7 +143,7 @@ Il n'est pas recommandé d'utiliser le réseau **UdeM non securisé**. Ce résea
 
 En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous pour oublier ou retirer un réseau et vous y reconnecter. 
 
-Il est important de faire la procédure pour **oublier chacun des réseaux sans fil de l'UdeM :** UdeM avec cryptage, eduroam, UdeM non securisé et UdeM-Visiteurs.
+Il est important de faire la procédure pour **oublier chacun des réseaux sans fil de l'UdeM :** UdeM avec cryptage, eduroam, UdeM non sécurisé et UdeM-Visiteurs.
 
 <Tabs groupId="os-troubleshoot">
   <TabItem value="macos" label="macOS">
