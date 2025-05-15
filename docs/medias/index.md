@@ -14,7 +14,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   items={[
     {
       title: "Postes d'édition",
-      description: "Ordinateurs équipés pour le montage audio, vidéo et l'infographie, accessibles avec ou sans réservation.",
+      description: "Ordinateurs équipés pour le montage audio, vidéo et l'infographie. Accessibles avec ou sans réservation.",
       link: "/medias/postes-edition",
       icon: "DesktopTower",
     },
@@ -27,7 +27,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   items={[
     {
       title: "Guide baladodiffusion",
-      description: "Étapes et outils pour créer un balado à partir de l'enregistrement jusqu'à la diffusion.",
+      description: "Étapes et outils pour créer un balado de l'enregistrement jusqu'à la diffusion.",
       link: "/medias/balado",
       icon: "BookOpenText",
     },
@@ -58,13 +58,13 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
     {
       title: "Adobe Premiere Rush",
-      description: "Monter rapidement vos vidéos avec l'interface intuitive de Premiere Rush.",
+      description: "Logiciel pour monter rapidement vos vidéos avec l'interface intuitive de Premiere Rush.",
       link: "/medias/adoberush",
       icon: "FileVideo",
     },
     {
       title: "OBS",
-      description: "Utiliser OBS Studio pour enregistrer, streamer ou capturer du contenu vidéo.",
+      description: "Utiliser OBS Studio pour enregistrer, streamer ou capter du contenu vidéo.",
       link: "/medias/obs",
       icon: "Record",
     },
