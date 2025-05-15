@@ -42,7 +42,7 @@ Audacity permet, en quelques clics, d’éliminer le bruit ambiant (par ex. vent
 3. Avant d’appliquer la réduction de bruit, le logiciel a besoin d’analyser le bruit ambiant seulement, d’où l’intérêt de sélectionner seulement la zone sans voix. Cliquez sur Prendre le profil du bruit.
 4. Maintenant que le logiciel a un profil du bruit, sélectionnez l’audio en entier avec le raccourci Ctrl-A et allez à Effets > Répéter Réduction de bruit ou Ctrl-R pour répéter le dernier effet.
 
-Le bruit ambiant devrait disparaître. Si le bruit persiste, vous pouvez répéter l’opération mais attention, vous risquez de détériorer la qualité du son.
+Le bruit ambiant devrait disparaitre. Si le bruit persiste, vous pouvez répéter l’opération mais attention, vous risquez de détériorer la qualité du son.
 
 <video controls width="100%">
   <source src="/videos/audacity3.mp4" type="video/mp4"/>
