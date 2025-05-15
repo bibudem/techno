@@ -8,7 +8,7 @@ import Link from '@docusaurus/Link';
 
 Prenez le micro et faites résonner vos idées!
 
-Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et les savoirs voyagent sans frontières. Que l’on soit passionné par la technologie, porté par l’art du récit ou simplement curieux de ce médium, ce guide se veut un complice à chaque étape de l’aventure sonore.
+Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et les savoirs voyagent sans frontières. Que ce soit pour vitre votre passion de l'art du récit, développer votre connaissance de cette technologie ou assouvir votre curiosité pour ce médium, ce guide se veut un complice à chaque étape de l'aventure audio.
 
 Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aider à enregistrer votre balado dans des conditions professionnelles.
 
@@ -28,25 +28,24 @@ L’équipe des bibliothèques propose des formations sur la création et la dif
 
 [Lisez le guide d’utilisation de la console RODECaster Pro II](#), qui explique pas à pas le fonctionnement de la console, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
 
-Vous avez un.e invité.e qui ne peut pas se déplacer sur place? Sachez que vous pouvez recevoir l’invité.e via un logiciel de visioconférence [directement branché sur la console de mixage](#).
+Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? Sachez que vous pouvez la faire intervenir via un logiciel de visioconférence [directement branché sur la console de mixage](#).
 
 ---
 
 ## Équipements en prêt
 
-Envie d’enregistrer dans le confort de chez vous? Ou d’enregistrer des ambiances ou un entretien à l’extérieur? Les bibliothèques offrent des équipements de captation sonore en prêt, comme le [Zoom H6](https://umontreal.on.worldcat.org/oclc/1346988068) ou le [Blue Yeti](https://umontreal.on.worldcat.org/oclc/1346988068). Vous pouvez les réserver en ligne et les récupérer à la Bibliothèque Hubert-Reeves.
+Envie d’enregistrer dans le confort de chez vous? Ou d’enregistrer des ambiances ou un entretien à l’extérieur? Les bibliothèques offrent des équipements de captation audio en prêt, comme le [Zoom H6](https://umontreal.on.worldcat.org/oclc/1346988068) ou le [Blue Yeti](https://umontreal.on.worldcat.org/oclc/1346988068). Vous pouvez les réserver en ligne et les récupérer à la Bibliothèque Hubert-Reeves.
 
 ---
 
 ## Post-production
 
-C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](./audacity), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou [Reaper](../informatique/logiciels/reaper.md). [Ces logiciels sont offerts en bibliothèques](../informatique/logiciels.md).
+C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](./audacity), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou [Reaper](../informatique/logiciels/reaper.md). [Ces logiciels sont offerts en bibliothèque](../informatique/logiciels.md).
 
 ---
 
 ## Diffusion
-
-Prêt à faire écouter votre création au monde?
+Votre création est prête à faire son entrée en scène?
 
 [Spotify for Podcasters](https://podcasters.spotify.com/) est la plateforme qu’on recommande pour la diffusion de votre balado sur les différents services comme Spotify, Apple Podcasts et autres. C’est gratuit et vous pouvez à tout moment changer de plateforme.
 
