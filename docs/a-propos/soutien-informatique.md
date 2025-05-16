@@ -6,7 +6,7 @@ retroaction : false
 ---
 
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
-import LibChatWidgets from '@site/src/components/LibChatWidget';
+import LibChatWidget from '@site/src/components/LibChatWidget';
 
 <HideLastUpdated/>
 
@@ -29,6 +29,6 @@ Consultez la section [Ressources informatiques](../informatique/index.md).
 
 ## Clavardage
 
-<LibChatWidgets />
+<LibChatWidget hash="4686db928ee24b4b79f3a374ba6a0d77" />
 
 ---
