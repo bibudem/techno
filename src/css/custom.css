@@ -484,3 +484,20 @@ p {
     display: none;
   }
 }
+
+
+/* LibChat */
+
+/* .lcs_slide_out div.lcs_header a {
+  background-color: transparent !important;
+}
+
+.s-lch-pane {
+  background-color: transparent !important;
+} */
+
+.lcs_slide_out {
+
+  border: none !important;
+
+}
