@@ -47,7 +47,7 @@ Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH
 - **DaVinci Resolve Speed Editor**
 - **DaVinci Resolve Micro Color Panel**
 - 2 Casques audio Sennheiser HD 280 Pro
-- Écran *widescreen* 34p
+- Écran ultralarge de 34 pouces (21:9)
 
 Le poste donne également accès à la version complète de **DaVinci Resolve Studio**.
 :::
