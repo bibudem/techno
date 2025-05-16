@@ -28,7 +28,7 @@ L'accès à ces ressources est possible avec un ordinateur du campus, avec vos a
 
 ## Préalables
 
-- Être membre actif de la communauté UdeM.
+- Être membre actif de la communauté UdeM (étudiant ou employé).
 - [Avoir ses informations d'authentification.](authentification)
 
 import CardGrid from "@site/src/components/CardGrid";
@@ -48,5 +48,7 @@ import CardGrid from "@site/src/components/CardGrid";
   ]}
 />
 
+
+- À savoir : [Règles d'inactivation des services](https://wiki.umontreal.ca/spaces/SIE/pages/150507251/R%C3%A8gles+d+inactivation+des+services)
 ---
 
