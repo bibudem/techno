@@ -1,7 +1,7 @@
 
 import Layout from '@theme-original/Layout';
 import LienExterne from '@site/src/components/LienExterne';
-import LibChatWidget from '@site/src/components/LibChatWidget';
+import LibChatWidgets from '@site/src/components/LibChatWidget';
 
 
 export default function LayoutWrapper(props) {
@@ -9,7 +9,7 @@ export default function LayoutWrapper(props) {
     <>
       <Layout {...props} />
       <LienExterne />
-      <LibChatWidget />
+      <LibChatWidgets />
     </>
   );
 }
