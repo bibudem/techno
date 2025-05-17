@@ -28,8 +28,12 @@ L'accès à ces ressources est possible avec un ordinateur du campus, avec vos a
 
 ## Préalables
 
-- Être membre actif de la communauté UdeM (étudiant ou employé).
+- Être membre actif de la communauté UdeM (étudiant ou employé)
 - [Avoir ses informations d'authentification.](authentification)
+
+:::info Préalables
+Avant toute démarche, il est recommandé de consulter [les règles en vigueur concernant l’inactivation des services informatiques](https://wiki.umontreal.ca/spaces/SIE/pages/150507251/R%C3%A8gles+d+inactivation+des+services) de l’Université de Montréal, incluant les délais de retrait automatique.
+:::
 
 import CardGrid from "@site/src/components/CardGrid";
 
@@ -48,7 +52,5 @@ import CardGrid from "@site/src/components/CardGrid";
   ]}
 />
 
-
-- À savoir : [Règles d'inactivation des services](https://wiki.umontreal.ca/spaces/SIE/pages/150507251/R%C3%A8gles+d+inactivation+des+services)
 ---
 
