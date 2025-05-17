@@ -18,16 +18,12 @@ L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D
 
 L’acide polylactique (PLA) est un thermoplastique fabriqué à partir de ressources renouvelables comme l’amidon de maïs, les racines de tapioca ou la canne à sucre. Contrairement à l’ABS (plastique dérivé du pétrole), le PLA est plus écologique mais aussi plus fragile et sensible à la chaleur. Il est très facile à imprimer et idéal pour le prototypage rapide.
 
-:::note Note
-    Le PLA n’est pas recommandé pour les objets en contact avec des aliments, car les bactéries peuvent s’infiltrer dans les interstices des couches d’impression.
-:::
-
-### PVA
-
-L'alcool polyvinylique (PVA) est un polymère synthétique soluble dans l'eau, souvent utilisé pour imprimer des supports sur des modèles complexes. Il est très sensible à l'humidité.
-
 ### PETG
 Le polyéthylène téréphtalate glycolisé (PETG) est un thermoplastique qui combine la facilité d'impression du PLA avec la résistance de l'ABS. Il est plus résistant à la chaleur et aux chocs que le PLA, mais il est également plus difficile à imprimer.
+
+:::warning Usage non recommandé
+Les filaments utilisés et la méthode d’impression 3D (par dépôt de filament fondu) ne sont pas adaptés à un usage alimentaire. Les objets imprimés peuvent contenir des microfissures propices à l’accumulation de bactéries.
+:::
 
 ### Températures
 
@@ -69,7 +65,7 @@ Il existe plusieurs logiciels de découpe. La plupart sont libres et à code sou
 
 ### Utilisation des profils
 
-Les profils sont un ensemble de paramètres prédéfinis dans le Slicer. Ils peuvent être modifiés à loisir. Des profils par défaut sont configurés, mais il faut toujours vérifier les paramètres et les mouvements de l’extrudeur avant d’enregistrer le fichier sur le périphérique de stockage de l'imprimante.
+Les profils sont un ensemble de paramètres prédéfinis dans le Slicer. Ils peuvent être modifiés à loisir. Des profils par défaut sont configurés, mais il faut toujours vérifier les paramètres et les mouvements de l’extrudeur avant de lancer l’impression. Il est possible de créer ses propres profils, mais il est recommandé de s’inspirer des paramètres par défaut.
 
 #### Épaisseur
 
