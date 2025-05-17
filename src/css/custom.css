@@ -496,6 +496,14 @@ p {
   background-color: transparent !important;
 } */
 
-/* .lcs_slide_out {
+.lcs_slide_out {
   border: none !important;
-} */
+}
+
+.lcs_slide_out-r {
+top : 35% !important;
+}
+
+.lcs_slide_out-r div.lcs_header a {
+  left: 0px !important;
+}
