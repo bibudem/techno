@@ -74,16 +74,11 @@ Les profils sont un ensemble de paramètres prédéfinis dans le Slicer. Ils peu
 #### Épaisseur
 
 <figure markdown>
-  ![Une vue macro de trois impressions 3D](#)
-  <figcaption>de gauche à droite : 0.05mm, 0.20mm et 0.30mm. </figcaption> [Source ](https://www.hubs.com/knowledge-base/impact-layer-height-3d-print/)
+  ![Une vue macro de trois impressions 3D](/img/docs/impression3d-difference.png)
+  <figcaption>De gauche à droite : impression en 0,2mm et 0,1mm. </figcaption>
 </figure>
 
 L’épaisseur d’une couche est habituellement de 0,2mm. Il est possible de descendre jusqu’à 0,1mm si l’objet est très détaillé ou s’il subira des forces parallèles aux couches. Dans un tel cas, il est recommandé de revoir le sens d’impression pour que les forces soient exercées perpendiculairement aux couches d’impressions. Notez que la durée d’impression sera deux fois plus longue à 0,1mm qu’à 0,2mm.
-
-<figure markdown>
-  ![Hauteur de la couche](#)
-  <figcaption>Hauteur de la couche</figcaption>
-</figure>
 
 
 #### Remplissage (résistance)
@@ -93,7 +88,7 @@ Le remplissage agit sur la solidité et, dans une moindre mesure, sur la vitesse
 Le remplissage s’exprime en pourcentage. Une valeur typique se situe entre 5% et 20%. Il est possible d’imprimer sans remplissage (0%), ou entièrement plein (100%) selon les cas. Il existe aussi différents motifs de remplissage. Ils ont chacun leurs avantages.
 
 <figure markdown>
-  ![Différents remplissage d'une impression 3D](#)
+  ![Différents remplissage d'une impression 3D](/img/docs/impression3d-remplissage.png)
   <figcaption>À gauche un remplissage à 40% avec le motif Grille (Grid) et à droite un remplissage à 20% avec le motif Nid d’abeille (Honeycomb)</figcaption>
 </figure>
 
