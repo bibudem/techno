@@ -24,10 +24,10 @@ const StudioCard = ({
 
     <div className="card__body">
       {location && (
-        <p>
-          <strong>{location}</strong>
-        </p>
-      )}
+  <p>
+    {typeof location === 'string' ? <strong>{location}</strong> : location}
+  </p>
+)}
 
       {mapLink && (
         <p>

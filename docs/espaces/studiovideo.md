@@ -22,14 +22,18 @@ Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équ
 >
   <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
-    location="Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-5"
+    location={
+    <>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-5</>
+  }
     mapLink="https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8"
     reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
     reserveText="Réserver"
   />
   <StudioCard
     title="Bibliothèque Thérèse-Gouin-Décarie (TGD)"
-    location="Pavillon Marie-Victorin, 2<sup>e</sup> étage, local G-305-12"
+    location={
+    <>Pavillon Marie-Victorin, 2<sup>e</sup> étage, local G-305-12</>
+  }
     mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
     reserveLink="https://calendrier.bib.umontreal.ca/space/27038"
     reserveText="Réserver"
