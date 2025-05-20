@@ -41,8 +41,8 @@ import StudioCard from '@site/src/components/StudioCard';
   <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location={
-    <>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2
-    </>
+    <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2
+    </strong></>
   }
     mapLink="https://calendrier.bib.umontreal.ca/space/27462"
     description="À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio."
