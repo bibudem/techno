@@ -26,9 +26,9 @@ L’équipe des bibliothèques propose des formations sur la création et la dif
 
 ## Guide d’utilisation de la console RODECaster Pro II
 
-[Lisez le guide d’utilisation de la console RODECaster Pro II](#), qui explique pas à pas le fonctionnement de la console, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
+[Lisez le guide d’utilisation de la console RODECaster Pro II](../medias/rodecaster.md), qui explique pas à pas le fonctionnement de la console, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
 
-Vous avez un.e invité.e qui ne peut pas se déplacer sur place? Sachez que vous pouvez recevoir l’invité.e via un logiciel de visioconférence [directement branché sur la console de mixage](#).
+Vous avez un.e invité.e qui ne peut pas se déplacer sur place? Sachez que vous pouvez recevoir l’invité.e via un logiciel de visioconférence [directement branché sur la console de mixage](../medias/rodecaster#4-connecter-un-périphérique-bluetooth--usb).
 
 ---
 
@@ -63,9 +63,5 @@ Avez-vous entendu parler des audiogrammes? C’est une vidéo avec un extrait so
 Nous serions ravis d’écouter votre création et de la mettre en avant dans la section [Projets](../creatives/projets.md). Vous aurez aussi l’occasion d’y découvrir les productions enregistrées dans nos studios par la communauté UdeM. N’hésitez pas à nous envoyer le lien sur studio@bib.umontreal.ca.
 
 ---
-
-## Besoin d’aide?
-
-Vous pouvez prendre rendez-vous avec [un membre de notre équipe](../a-propos/equipe.md) pour une consultation individuelle en ligne ou sur place. Si vous avez des questions, n'hésitez pas à envoyer un courriel à studio@bib.umontreal.ca
 
 
