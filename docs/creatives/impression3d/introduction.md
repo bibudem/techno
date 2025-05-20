@@ -1,7 +1,6 @@
 ---
 title: Introduction
 description: Tout apprendre sur l'impression 3D
-slug: /creatives/introduction-impression-3d
 ---
 
 # Introduction à l'impression 3D
