@@ -2,13 +2,27 @@
 id: studiovideo
 title: Studios vidéo
 description : Enregistrer des vidéos de qualité professionnelle.
+image: "/img/cover/studiovideo.jpg"
 help : crea
 ---
 
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous 5 différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone!
 
