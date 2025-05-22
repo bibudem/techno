@@ -15,7 +15,7 @@ Les contenus et fonctionnalités développés à partir du 29 avril 2024 respect
 ## Principes appliqués
 
 - Structure hiérarchique claire des pages et des titres.
-- Liens, boutons et images bien étiquetés avec du texte alternatif quand nécessaire.
+- Liens, boutons et images bien étiquetés avec du texte alternatif lorsque nécessaire.
 - Contrastes respectant les niveaux AA (minimum 4.5:1 pour le texte).
 - Aucune animation clignotante ou à flash lumineux.
 - Navigation clavier fonctionnelle et cohérente.
@@ -23,7 +23,7 @@ Les contenus et fonctionnalités développés à partir du 29 avril 2024 respect
 
 ## Technologies utilisées
 
-Le site est développé avec [Docusaurus](https://docusaurus.io/), utilise HTML5, CSS et JavaScript modernes, et sépare clairement contenu et présentation. Le code source est ouvert et consultable sur [GitHub](https://github.com/bibudem/techno).
+Le site est développé avec [Docusaurus](https://docusaurus.io/), utilise les langages HTML5, CSS et JavaScript modernes, et sépare clairement contenu et présentation. Le code source est ouvert et consultable sur [GitHub](https://github.com/bibudem/techno).
 
 ## Besoin d’aide?
 
