@@ -6,6 +6,8 @@ retroaction : false
 ---
 
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
+import FormulaireContactAPI from '@site/src/components/FormulaireContactAPI';
+
 
 <HideLastUpdated/>
 
@@ -14,13 +16,20 @@ import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireS
 
 Nous offrons du soutien pour vos projets créatifs et vos productions multimédias. Notre équipe est là pour vous accompagner!
 
-### Exemples d’aide offerte
+## Exemples d’aide offerte
 - Soutien pour les studios
 - Initiation à l'impression 3D, etc.
 - Conseils techniques ou créatifs
 
 Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
 
+## Formulaire de contact
+Pour toute question ou information supplémentaire, remplir le formulaire ci-dessous. Une réponse sera envoyée dans les plus brefs délais.
+
+<FormulaireContactAPI />
+
+## Autre moyen de nous contacter
+Il est aussi possible de nous contacter par courriel ou sur rendez-vous.
 <CardGrid
   items={[
     {
@@ -37,8 +46,5 @@ Consultez les sections [Technologies créatives](../creatives/index.md) et [Prod
     },
     ]}
 />
-
-
-
 
 

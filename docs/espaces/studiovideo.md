@@ -2,13 +2,27 @@
 id: studiovideo
 title: Studios vidéo
 description : Enregistrer des vidéos de qualité professionnelle.
+image: "/img/cover/studiovideo.jpg"
 help : crea
 ---
 
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous 5 différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone!
 
@@ -22,14 +36,18 @@ Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équ
 >
   <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
-    location="Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-5"
+    location={
+    <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-5</strong></>
+  }
     mapLink="https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8"
     reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
     reserveText="Réserver"
   />
   <StudioCard
     title="Bibliothèque Thérèse-Gouin-Décarie (TGD)"
-    location="Pavillon Marie-Victorin, 2<sup>e</sup> étage, local G-305-12"
+    location={
+    <><strong>Pavillon Marie-Victorin, 2<sup>e</sup> étage, local G-305-12</strong></>
+  }
     mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
     reserveLink="https://calendrier.bib.umontreal.ca/space/27038"
     reserveText="Réserver"

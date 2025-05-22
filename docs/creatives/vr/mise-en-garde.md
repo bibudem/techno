@@ -12,7 +12,7 @@ Les personnes photosensibles ou souffrant d’épilepsie doivent éviter d'utili
 
 Il est recommandé de prendre une pause de 10 à 15 minutes après chaque heure d’utilisation. La notion du temps est différente en portant le casque, une expérience de 5 minutes peut nous paraître durer beaucoup plus longtemps.
 
-## Mesure de sécurité
+## Sécurité
 
 Assurez-vous que l'espace autour de vous est dépourvu d'obstacle. Si besoin, faites appel à une personne de confiance pour vous assister.
 
