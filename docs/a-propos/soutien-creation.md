@@ -28,8 +28,8 @@ Pour toute question ou information supplémentaire, remplir le formulaire ci-des
 
 <FormulaireContactAPI />
 
-## Autre moyen de nous contacter
-Il est aussi possible de nous contacter par courriel ou sur rendez-vous.
+## Autres moyens de nous contacter
+Il est aussi possible de nous contacter par courriel ou de prendre rendez-vous.
 <CardGrid
   items={[
     {
