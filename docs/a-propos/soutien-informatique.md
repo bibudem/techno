@@ -13,15 +13,15 @@ import LibChatWidget from '@site/src/components/LibChatWidget';
 import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
-Discutez avec un technicien en soutien de laboratoire informatique en direct [**par clavardage**](#clavardage) ou [**sur place**](https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines) à la Bibliothèque des lettres et sciences humaines (BLSH).
+Discutez avec un technicien en soutien informatique [**par clavardage**](#clavardage) ou [**sur place**](https://bib.umontreal.ca/travailler/les-bibliotheques/lettres-sciences-humaines) à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ## Exemples d’aide offerte
-- Configuration du proxy ou du VPN pour accéder aux ressources UdeM  
+- Configuration du proxy ou du VPN pour accéder aux ressources UdeM hors campus  
 - Installation de logiciels (Zotero, EndNote, Office 365, SPSS, QDA Miner, etc.)  
 - Aide Word (modèle de thèse), PowerPoint, etc.  
 - Conversion de documents en PDF  
 - Accès aux logiciels à distance  
-- Questions sur les outils numériques UdeM
+- Questions sur les outils numériques offerts à l'UdeM
 
 Consultez la section [Ressources informatiques](../informatique/index.md).
 
