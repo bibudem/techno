@@ -4,13 +4,13 @@ title : Guide d’utilisation de la tablette graphique Kamvas 13
 
 ## Qu’est-ce qu’une tablette graphique?
 
-La tablette graphique est un outil alternatif de la souris d’ordinateur. Elle permet une facilitée de mouvement du curseur, une meilleure précision et une fonctionnalité unique de l’usage de la pression. Il est possible d’utiliser des logiciels directement sur la tablette. 
+La tablette graphique est un outil de remplacement de la souris d’ordinateur. Elle facilite le mouvement du curseur, offre une meilleure précision et une fonctionnalité unique de l’usage de la pression. Il est possible d’utiliser des logiciels directement sur la tablette. 
 
-La tablette graphique est utilisée pour le dessin numérique, la modélisation 3D, le retouche d’image ou photo, l’animation graphique et les logiciels d’architecture. 
+La tablette graphique est utilisée pour le dessin numérique, la modélisation 3D, la retouche d’images ou de photos, l’animation graphique et dans les logiciels d’architecture. 
 
 
 :::note 
-Vous voulez emprunter la tablette graphique? Vérifiez la disponibilité dans Sofia et présentez-vous au comptoir de la Bibliothèque mathématique et informatique pour l’emprunter.
+Vous voulez emprunter la tablette graphique? Vérifiez-en la disponibilité dans Sofia et présentez-vous au comptoir de la Bibliothèque de mathématique et informatique pour l’emprunter.
 :::
 
 ---
@@ -53,7 +53,7 @@ Vous voulez emprunter la tablette graphique? Vérifiez la disponibilité dans So
 
 ---
 
-## Installation des pilotes pour l’ordinateur personnel
+## Installation des pilotes pour ordinateur personnel
 
 [Conseil avant l'installation](https://support.huion.com/en/support/solutions/articles/44001164259-step-by-step-driver-installation-illustrated-) (anglais)
 
@@ -133,23 +133,23 @@ Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plu
 
 **K2 [AUTO]** : Appuyer pour le retour au menu précédent.
 
-**K3 [MENU]** : Appuyez pour confirmer. Après 5 secondes d’inactivité, cliquer sur le bouton pour faire réapparaître le menu.
+**K3 [MENU]** : Appuyer pour confirmer. Après 5 secondes d’inactivité, cliquer sur le bouton pour faire réapparaître le menu.
 
-**K6 [ + ]** : Appuyer pour naviguer de haut/droite/augmentation.
+**K6 [ + ]** : Appuyer pour naviguer vers le haut, la droite ou augmenter la taille.
 
-**K7 [ - ]** : Appuyer pour naviguer de bas/gauche/diminution. 
+**K7 [ - ]** : Appuyer pour naviguer vers le bas, la gauche ou diminuer la taille. 
 
 **Ouvrir le menu**
 
-**1)** Laisser enfoncer K4 **et** K5 pendant 2 à 3 secondes.
+**1)** Maintenir enfoncés K4 **et** K5 pendant 2 à 3 secondes.
 
 **2)** Vérifier que le bouton d’alimentation clignote.
 
-**3)** Faire les modifications nécessaires de la tablette graphique.
+**3)** Faire les modifications nécessaires sur la tablette graphique.
 
 **Fermer le menu**
 
-**1)** Laisser enfoncer sur K4 **et** K5 pendant 2 à 3 secondes. 
+**1)** Maintenir enfoncés K4 **et** K5 pendant 2 à 3 secondes. 
 
 **2)** Vérifier que le bouton d’alimentation arrête de clignoter.
 
