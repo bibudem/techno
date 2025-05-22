@@ -33,7 +33,11 @@ import StudioCard from "@site/src/components/StudioCard";
 
 <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
-    location="Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2078"
+    location={
+    <><strong>
+      Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2078
+    </strong></>
+  }
     mapLink="https://maps.app.goo.gl/7LA5xUwwGKmAbZ6H6"
     description="Pour vérifier la disponibilité et pour réserver, contacter Ann Mary Sotomayor (ann.mary.sotomayor@umontreal.ca), technicienne en coordination de travail de bureau."
     secondaryLinks={[

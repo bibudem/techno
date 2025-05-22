@@ -102,7 +102,7 @@ Permet de redimensionner les axes de l’image de manière indépendante
 6.1. Sélectionner de nouveau l’image puis choisir le type de lame selon votre projet dans la section **Opérations.** 
 
 :::note
-    Pour plus d’informations sur les lames disponibles, consulter le guide des [Lames et outils](#).
+    Pour plus d’informations sur les lames disponibles, consulter la section [Lames et outils](#lames-et-outils).
 :::
 
 ![Untitled](/img/docs/cricut17.webp)
@@ -261,9 +261,9 @@ Conçu pour les découpes de tissus tels que :
 - Utiliser une lingette sans alcool.
 - Lavage au savon à l'eau froide et séchage à l'air.
 
-!!! info "Ressources en ligne"
+:::info Ressources en ligne
     [https://www.daydreamintoreality.com/cricut-mats/](https://www.daydreamintoreality.com/cricut-mats/)
-
+:::
 
 ## Lames et outils
 

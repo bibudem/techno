@@ -9,7 +9,6 @@ export default function LayoutWrapper(props) {
     <>
       <Layout {...props} />
       <LienExterne />
-      <LibChatWidget />
-    </>
+<LibChatWidget hash="2cdfcaf0f2e776291e8bfc9296e8b7573083d9b6ad33c930fa46024633447cce" />    </>
   );
 }

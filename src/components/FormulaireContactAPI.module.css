@@ -1,0 +1,72 @@
+.form {
+  max-width: 600px;
+  margin: 0;
+  font-family: 'Figtree', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.obligatoire {
+  color: red;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+}
+
+.note {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  color: #444;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #004fb7;
+  box-shadow: 0 0 0 2px rgba(0, 79, 183, 0.2);
+}
+
+.button {
+  font: inherit;
+  padding: 0.6rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #004fb7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: start;
+}
+
+.button:disabled {
+  background-color: #b0c4e8;
+  cursor: not-allowed;
+}
+
+.success {
+  background: #e6ffed;
+  color: #235d3a;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.error {
+  background: #ffecec;
+  color: #992222;
+  padding: 1rem;
+  border-radius: 8px;
+}
