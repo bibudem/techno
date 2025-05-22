@@ -19,13 +19,13 @@ Besoin d’un coup de main? Que ce soit pour l’informatique ou la création, n
   items={[
     {
       title: "Soutien informatique",
-      description: "Assistance technique pour les outils numériques et les logiciels.",
+      description: "Assistance technique pour utiliser les outils numériques et les logiciels.",
       link: "/a-propos/soutien-informatique",
       icon : "Desktop",
     },
     {
       title: "Soutien création et médias",
-      description: "Aide pour les studios, l'impression 3D et les projets créatifs.",
+      description: "Aide pour réaliser des projets créatifs avec les studios, l'impression 3D et nos ateliers de création.",
       link: "/a-propos/soutien-creation",
       icon : "CubeFocus",
     },
