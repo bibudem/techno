@@ -16,24 +16,24 @@ OBS est un logiciel gratuit et libre pour enregistrer des vidéos et même diffu
 ### Quelques avantages
 
 - Outil puissant et fiable pour la capture.
-- Création de contenu avec plusieurs scènes différentes, sans perte de temps en post-production.
+- Création de contenu avec plusieurs scènes différentes, sans perte de temps en postproduction.
 
 ---
 
 ## Télécharger et installer le logiciel
 
-OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la dernière version depuis le site officiel](https://obsproject.com/fr). 
+OBS est gratuit, libre et compatible avec Windows, MacOS et Linux. [Télécharger la dernière version depuis le site officiel](https://obsproject.com/fr). 
 
 ---
 
 ## Première configuration
 
-- Au lancement du logiciel la première fois, la fenêtre **Assistant de configuration automatique** apparait. Sélectionner **Optimiser pour l’enregistrement, je ne diffuse pas** et cliquer sur **Suivant.**
+- Au premier lancement du logiciel, la fenêtre **Assistant de configuration automatique** apparaît. Sélectionner **Optimiser pour l’enregistrement, je ne diffuse pas** et cliquer sur **Suivant**.
     
     ![](/img/docs/obs1.webp)
     
 :::note
-    Si la fenêtre ne s’affiche pas au démarrage, vous pouvez lancer l’assistant en cliquant dans le menu en haut sur **Outils → Assistant de configuration automatique.**
+    Si la fenêtre ne s’affiche pas au démarrage, vous pouvez lancer l’assistant en cliquant sur **Outils → Assistant de configuration automatique** dans le menu en haut.
 :::
     
 
@@ -43,7 +43,7 @@ OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la 
     
 
 - Au lancement de l’interface, cliquer sur **Paramètres** en bas à droite.
-- Dans l’onglet **Avancé**, cocher la case **Convertir automatiquement en MP4** dans la section Enregistrement puis sur **OK** en bas de la fenêtre.
+- Dans l’onglet **Avancé**, cocher la case **Convertir automatiquement en MP4** dans la section Enregistrement, puis sur **OK** en bas de la fenêtre.
     
     ![](/img/docs/obs3.webp)
     
@@ -52,7 +52,7 @@ OBS est gratuit, libre et compatible Windows, MacOS et Linux. [Télécharger la 
 ## Ajouter des sources
 
 :::note
-Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un personnage.
+Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un personnage dans les captures d'écran ci-dessous.
 :::
 
 - Dans **Sources**, appuyer sur le bouton **+** pour ajouter une source au canevas.
@@ -60,7 +60,7 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
     ![](/img/docs/obs4.webp)
     
 
-- Sélectionner **Périphériques de capture vidéo**
+- Sélectionner **Périphériques de capture vidéo**.
     
     ![](/img/docs/obs5.webp)
     
@@ -69,14 +69,14 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
     ![](/img/docs/obs6.webp)
     
 - Voici les paramètres à changer dans les propriétés :
-    - **Périphériques** : Sélectionner votre caméra.
-    - **Type de résolution/FPS** : Personnalisé.
+    - **Périphériques** : Sélectionner votre caméra
+    - **Type de résolution/FPS** : Personnalisé
     - **Résolution** : Choisir 1920x1080
-    - **FPS** : identique à la sortie
+    - **FPS** : Identique à la sortie
         
         ![](/img/docs/obs7.webp)
         
-- Une fois validé, voici à quoi ressemblerait l’interface :
+- Voici à quoi ressemblera l’interface :
     
     ![](/img/docs/obs8.webp)
     
@@ -85,13 +85,13 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
 
 ## Ajouter une source sonore
 
-Par défaut, OBS capture le micro du système, c’est à dire que si votre PC portable est équipé d’un micro interne, c’est le micro qui va être utilisé. 
+Par défaut, OBS capture le micro du système, c’est-à-dire que si votre PC portable est équipé d’un micro interne, c’est le micro qui sera utilisé. 
 
-Afin de changer cela, vous devez rajouter dans **Sources > Capture Audio (Entrée)** et sélectionner votre périphérique de capture sonore. 
+1. Afin de changer cela, rajouter et sélectionner votre périphérique de capture audio dans **Sources > Capture Audio (Entrée)**. 
 
 ![](/img/docs/obs9.webp)
 
-Ne pas oublier de baisser le volume dans le **Mélangeur audio** de la source **Mic/Aux** et de **Caméra** à **0** afin de ne capturer que l’entrée que vous avez choisie. 
+2. Baisser le volume dans le **Mélangeur audio** de la source **Mic/Aux** et de **Caméra** à **0** afin de ne capturer que l’entrée que vous avez choisie. 
 
 ![](/img/docs/obs10.webp)
 
@@ -99,17 +99,17 @@ Ne pas oublier de baisser le volume dans le **Mélangeur audio** de la source **
 
 ## Capturer l’écran
 
-Toujours dans Sources, vous avez le choix de capturer tout l’écran (**Capture d’écran**) ou seulement la fenêtre d’une application (**Capture de fenêtre**).
+Toujours dans **Sources**, vous avez le choix de capturer tout l’écran (**Capture d’écran**) ou seulement la fenêtre d’une application (**Capture de fenêtre**).
 
 ---
 
 ## Modifier l’ordre et la disposition des sources
 
-Dans l’onglet **Sources**, vous pouvez glisser/déposer les entrées afin de changer quelle source sera en arrière-plan ou en avant-plan, dans le même esprit que le principe des calques dans Photoshop. 
+Dans l’onglet **Sources**, vous pouvez glisser et déposer les entrées afin de changer quelle source sera en arrière-plan ou en avant-plan. Cela fonctionne selon le même principe des calques dans Photoshop. 
 
 ![](/img/docs/obs11.gif)
 
-Vous pouvez aussi changer la taille des sources dans le canevas :
+Vous pouvez aussi changer la taille des sources dans le canevas en utilisant les petites poignées carrées autour des images.
 
 ![](/img/docs/obs12.gif)
 
@@ -117,6 +117,9 @@ Vous pouvez aussi changer la taille des sources dans le canevas :
 
 ## Enregistrement et exportation
 
-Pour commencer à enregistrer, cliquer sur le bouton **Démarrer l’enregistrement** dans l’onglet Commandes en bas à droite. Vous avez par la suite la possibilité de faire des pauses ou d’arrêter l’enregistrement. Par défaut, les vidéos vont être enregistrées dans le dossier **/*Username*/Vidéos.** Vous pouvez changer le chemin de destination dans **Paramètres > Sortie > Enregistrement > Chemin d’accès de l’enregistrement**. 
+1. Pour commencer à enregistrer, cliquer sur le bouton **Démarrer l’enregistrement** dans l’onglet **Commandes** en bas à droite.
+2. Faire des pauses ou arrêter l’enregistrement au besoin.
 
-Vous remarquerez qu’il y a deux fichiers vidéos pour un seul enregistrement : l’un avec l’extension **.mkv**, l’autre en **.mp4**. La raison est que si jamais vous voulez faire des pauses en cours d’enregistrement, il risque d’y avoir moins d’erreur avec le conteneur **.mkv**. Par la suite, **OBS** convertit cet enregistrement en **.mp4** pour le montage. Vous pouvez donc effacer les **.mkv** pour libérer de l’espace et garder le **.mp4**.
+Par défaut, les vidéos vont être enregistrées dans le dossier **/*Username*/Vidéos.** Vous pouvez changer le chemin de destination dans **Paramètres > Sortie > Enregistrement > Chemin d’accès de l’enregistrement**. 
+
+Vous remarquerez qu’il y a deux fichiers vidéos pour un seul enregistrement : l’un avec l’extension **.mkv**, l’autre en **.mp4**. La raison est que si jamais vous voulez faire des pauses en cours d’enregistrement, il risque d’y avoir moins d’erreur avec le conteneur **.mkv**. Par la suite, OBS convertit cet enregistrement en **.mp4** pour le montage. Vous pouvez donc effacer les **.mkv** pour libérer de l’espace et garder le **.mp4**.
