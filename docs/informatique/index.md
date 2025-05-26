@@ -60,12 +60,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       link: "tablettes",
       icon : "DeviceTablet",
     },
-    {
-      title: "Équipements de consultation",
-      description: "Consultez des documents sur microfilms, VHS et autres supports avec nos appareils dédiés.",
-      link: "consultation",
-      icon : "FilmStrip",
-    },
+
     {
       title: "Logiciels",
       description: "Retrouvez les logiciels disponibles sur nos ordinateurs publics.",
@@ -80,3 +75,12 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
   ]}
 />
+
+---
+
+    <!-- {
+      title: "Équipements de consultation",
+      description: "Consultez des documents sur microfilms, VHS et autres supports avec nos appareils dédiés.",
+      link: "consultation",
+      icon : "FilmStrip",
+    }, -->

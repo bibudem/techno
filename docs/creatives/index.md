@@ -22,24 +22,14 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       link: "/creatives/vr",
       icon: "VirtualReality",
     },
-    {
-      title: "Électronique",
-      description: "Apprenez à concevoir et à fabriquer des circuits électroniques.",
-      link: "/creatives/electronique",
-      icon : "Circuitry",
-    },
+
     {
       title: "Découpeuse",
       description: "Découpez des matériaux pour vos projets de création.",
       link: "/creatives/decoupeuse",
       icon : "Nut",
     },
-    {
-      title: "Art textile",
-      description: "Créez des œuvres textiles avec nos équipements spécialisés.",
-      link: "/creatives/art-textile",
-      icon : "Scissors",
-    },
+
     {
       title: "Robots",
       description: "Empruntez ces accessoires didactiques.",
@@ -54,3 +44,17 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     },
   ]}
 />
+---
+    <!-- {
+      title: "Art textile",
+      description: "Créez des œuvres textiles avec nos équipements spécialisés.",
+      link: "/creatives/art-textile",
+      icon : "Scissors",
+    },
+
+    {
+      title: "Électronique",
+      description: "Apprenez à concevoir et à fabriquer des circuits électroniques.",
+      link: "/creatives/electronique",
+      icon : "Circuitry",
+    }, -->

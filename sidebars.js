@@ -85,7 +85,7 @@ const sidebars = {
         'informatique/ordinateurs',
         'informatique/ava',
         'informatique/tablettes',
-        'informatique/consultation',
+        // 'informatique/consultation',
         {
           type: "category",
           label: "Logiciels",
