@@ -6,31 +6,29 @@ help : crea
 
 ## Création d’un projet de montage sur Adobe Premiere Rush
 
-- Cliquer sur **Créer** un nouveau projet.
-- L’explorateur de fichiers apparaît à la gauche de l’interface.
-- Au bas de l’écran, **inscrire le titre de votre projet**.
+1. Cliquer sur **Créer** un nouveau projet. L’explorateur de fichiers apparaît à la gauche de l’interface.
+2. Au bas de l’écran, **inscrire le titre de votre projet**.
 
 ---
 
 ## Importation des médias
 
-- Sélectionner les médias désirés dans l’Explorateur de médias.
-- Cliquer sur **Créer**.
-- Les fichiers sélectionnés apparaissent dans le même ordre sur la Timeline.
+1. Sélectionner les médias désirés dans l’**Explorateur de médias**.
+2. Cliquer sur **Créer**. Les fichiers sélectionnés apparaissent dans le même ordre sur la Timeline.
 
 :::tip
- Avec le pointeur, survoler les différentes fonctions de l’interface. Une info-bulle affiche le rôle des différentes fonctions.
+ Avec le pointeur, survoler les différentes fonctions de l’interface. Une info-bulle affiche le rôle des différentes boutons.
 :::
 
 ---
 
-## Faire un montage
+## Faire un montage en retirant des séquences
 
-- Déplacer le point bleu pour faire défiler la vidéo.
-- Dans la Timeline, choisir le média à modifier.
-- Placer la tête de lecture bleue à l’endroit où vous désirez faire une coupure.
-- Cliquer sur l’icône **Ciseau** située à gauche de la Timeline.
-- Sélectionner l’élément encadrée en jaune et cliquer sur l’Icône de la corbeille.
+1. Déplacer le point bleu pour faire défiler la vidéo.
+2. Dans la Timeline, choisir le média à modifier.
+3. Placer la tête de lecture bleue à l’endroit où vous désirez faire une coupure.
+4. Cliquer sur l’icône **Ciseau** située à gauche de la Timeline.
+5. Sélectionner l’élément encadrée en jaune et cliquer sur l'icône **Corbeille** pour le supprimer.
 
 ![](/img/docs/rush1.webp)
 
@@ -42,11 +40,11 @@ Il est possible de déplacer l’ordre des médias sur la Timeline. Il suffit de
 
 ## Inverser une image (pour le tableau lumineux transparent)
 
-À droite de l’interface, se trouve les outils d’amélioration pour peaufiner le montage vidéo.
+À droite de l’interface se trouvent les outils d’amélioration pour peaufiner le montage vidéo.
 
-- Sur la Timeline, cliquer sur le **média à inverser horizontalement**. Un encadré orange apparaît.
-- À droite de l’interface, choisir l’option **Recadrage et rotation**.
-- Cliquer sur **Miroir horizontal.**
+1. Sur la Timeline, cliquer sur le média à inverser horizontalement. Un encadré orange apparaît.
+2. À droite de l’interface, choisir l’option **Recadrage et rotation**.
+3. Cliquer sur **Miroir horizontal.**
 
 ---
 
@@ -66,7 +64,7 @@ Adobe Premiere Rush n’offre pas l’effet Incrustation sur fond de couleur.
     
 4. Sélectionner votre projet sur fond vert. 
 5. L’interface de montage de Premiere Pro s’ouvre automatiquement. 
-6. Référer à ce tutoriel simple et complet pour incruster votre image de fond avant de l’exporter en format .mp4 
+6. Suivre les étapes présentées dans ce tutoriel simple et complet pour incruster votre image de fond avant de l’exporter en format .mp4 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0up1s8zOH5Q?si=yiUvPy6Jq4ASb9bm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -74,13 +72,12 @@ Adobe Premiere Rush n’offre pas l’effet Incrustation sur fond de couleur.
 
 ## Exporter le projet Adobe Premiere Rush en format vidéo
 
-Sélectionner votre projet.
-
-1. En haut de l’interface, cliquer sur **Partager.**
-2. Nommer le fichier (exemple : projet_ocean).
-3. Choisir la destination de l’exportation (**Enregistrer dans…**).
-4. Cliquer sur **Exporter.**
-5. Une fois l’exportation complétée, cliquer sur **Terminer.**
+1. Sélectionner votre projet.
+2. En haut de l’interface, cliquer sur **Partager**.
+3. Nommer le fichier (exemple : projet_ocean).
+4. Choisir la destination de l’exportation (**Enregistrer dans…**).
+5. Cliquer sur **Exporter**.
+6. Une fois l’exportation complétée, cliquer sur **Terminer**.
 
 ![](/img/docs/rush3.webp)
 
@@ -90,8 +87,8 @@ Sélectionner votre projet.
 
 2 options : 
 
-1. Adobe Premiere Rush conserve localement les projets. Ceux-ci s’affichent à l’ouverture de l’application.
-2. Lors de sa création, le projet se synchronise dans votre compte Creative Cloud. Il devient accessible sur tablette, téléphone intelligent ou autre ordinateur afin de poursuivre un montage.
+1. **Enregistrer localement** : Adobe Premiere Rush conserve localement les projets. Ceux-ci s’affichent à l’ouverture de l’application.
+2. **Synchroniser avec Creative Cloud** : en cochant la case **Synchroniser avec Creative Cloud** lors de la création, le projet se synchronise dans votre compte Creative Cloud. Il devient accessible sur tablette, téléphone intelligent ou autre ordinateur afin de poursuivre un montage.
     
     ![](/img/docs/rush4.webp)
     
@@ -99,9 +96,9 @@ Sélectionner votre projet.
 
 ## Qualité du son
 
-Certains environnements sont moins propices à une bonne prise de son. Pour éliminer un bruit indésirable ou maximiser l’enregistrement d’une voix, suivre ces étapes :
+Certains environnements sont moins propices à une bonne prise de son. Il est toutefois possible d'éliminer un bruit indésirable ou maximiser l’enregistrement d’une voix en postproduction.
 
-1. Sur la Timeline, cliquer sur la piste sonore. Un encadré jaune s’inscrit.
+1. Sur la Timeline, cliquer sur la piste sonore. Un cadre jaune apparaît autour de la piste.
     
     ![](/img/docs/rush5.webp)
     

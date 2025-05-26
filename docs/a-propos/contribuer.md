@@ -18,7 +18,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Rétroaction 
 
-Si vous voulez proposer des corrections ou nous suggérer des précisions à ajouter pour une section, vous pouvez utiliser la fonction de rétroaction en bas de chaque page en laissant un commentaire.
+Si vous voulez proposer des corrections ou nous suggérer des précisions à ajouter pour une section, vous pouvez utiliser la fonction de rétroaction en bas de chaque page pour nous faire parvenir votre commentaire.
 
 ---
 
@@ -38,11 +38,11 @@ Si vous êtes à l’aise avec GitHub, vous pouvez également contribuer en prop
 
 Le contenu du site est hébergé sur GitHub : [bibudem/techno](https://github.com/bibudem/techno)
 
-Vous pouvez :
+###Proposer un changement au site
 
-- cloner le dépôt;
-- modifier les fichiers Markdown (`.md`) ou images;
-- proposer une PR avec vos changements.
+1. Cloner le dépôt.
+2. Modifier les fichiers Markdown (`.md`) ou images.
+3. Proposer une PR avec vos changements.
 
 Si votre contribution est acceptée, elle sera intégrée au site après révision.
 
