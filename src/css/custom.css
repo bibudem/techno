@@ -488,6 +488,12 @@ p {
 
 /* LibChat */
 
+/* 
+body.s-la-widget {
+  height: 400vh !important;
+  max-height: 400vh;
+} */
+
 /* .lcs_slide_out div.lcs_header a {
   background-color: transparent !important;
 }
@@ -501,13 +507,17 @@ p {
 }
 
 .lcs_slide_out-r {
-top : 35% !important;
+top : 30% !important;
 }
 
 .lcs_slide_out-r div.lcs_header a {
   left: 0px !important;
 }
 
+
+
+
+/* Utilisé pour masquer le texte visuellement tout en le rendant accessible aux lecteurs d'écran */
 .sr-only {
   position: absolute !important;
   width: 1px !important;

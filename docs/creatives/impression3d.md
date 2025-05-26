@@ -70,12 +70,6 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
       icon: "",
     },
     {
-      title: "BambuLab X1C",
-      description: "",
-      link: "/creatives/impression3d/bambu",
-      icon: "",
-    },
-    {
       title: "Elegoo Saturn 3 Ultra 12K",
       description: "",
       link: "/creatives/impression3d/saturn",

@@ -303,7 +303,7 @@ const sidebars = {
           items: [
                 "creatives/impression3d/introduction",
                 "creatives/impression3d/modeles3d",
-                "creatives/impression3d/bambu",
+                // "creatives/impression3d/bambu",
                 "creatives/impression3d/prusa",
                 "creatives/impression3d/ultimaker",
                 "creatives/impression3d/saturn",
@@ -318,23 +318,23 @@ const sidebars = {
           collapsed: true,
           link: { type: 'doc', id: 'creatives/vr' }, 
           items: [
-            "creatives/vr/guide",
+            // "creatives/vr/guide",
             "creatives/vr/catalogue",
             "creatives/vr/mise-en-garde",
           ],
         },
-        {
-          type: "category",
-          label: "Électronique",
-          collapsed: true,
-          link: { type: 'doc', id: 'creatives/electronique' }, 
-          items: [
-            "creatives/electronique/arduino",
-            "creatives/electronique/raspberrypi",
-            "creatives/electronique/ido",
-            "creatives/electronique/pieces",
-          ],
-        },
+        // {
+        //   type: "category",
+        //   label: "Électronique",
+        //   collapsed: true,
+        //   link: { type: 'doc', id: 'creatives/electronique' }, 
+        //   items: [
+        //     "creatives/electronique/arduino",
+        //     "creatives/electronique/raspberrypi",
+        //     "creatives/electronique/ido",
+        //     "creatives/electronique/pieces",
+        //   ],
+        // },
         {
           type: "category",
           label: "Découpeuse",
@@ -343,10 +343,10 @@ const sidebars = {
           items: [
             "creatives/decoupeuse/cameo",
             "creatives/decoupeuse/cricut",
-            "creatives/decoupeuse/brother",
+            // "creatives/decoupeuse/brother",
           ],
         },
-        'creatives/art-textile',
+        // 'creatives/art-textile',
         // 'creatives/programmation',
         'creatives/robots',
         'creatives/projets',

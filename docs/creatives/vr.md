@@ -57,11 +57,7 @@ Disponibles en ce moment :
 
 <CardGrid
   items={[
-    {
-      title: "Guide d'utilisation",
-      description: "Découvrez comment utiliser les casques de réalité virtuelle Meta Quest 3",
-      link: "vr/guide",
-    },
+
     {
       title: "Catalogue d'expériences",
       description: "Découvrez les expériences disponibles sur les casques de réalité virtuelle Meta Quest 3",
@@ -71,3 +67,9 @@ Disponibles en ce moment :
 />
 
 ---
+
+    <!-- {
+      title: "Guide d'utilisation",
+      description: "Découvrez comment utiliser les casques de réalité virtuelle Meta Quest 3",
+      link: "vr/guide",
+    }, -->
