@@ -12,7 +12,7 @@
 - Guide d'utilisation du casque Meta Quest 3
 - Mettre en ligne la section Électronique
 - Mettre en avant les trousses techno-créatives
-- Ajouter la documentation sur la découpeuse Brother
+- Compléter la documentation sur la découpeuse Brother
 - Mettre en ligne la section Art textile
 - Ajouter une image dans la page Robots
 - Régler la taille des images dans les pages Cricut et Silhouette

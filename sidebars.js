@@ -343,7 +343,7 @@ const sidebars = {
           items: [
             "creatives/decoupeuse/cameo",
             "creatives/decoupeuse/cricut",
-            // "creatives/decoupeuse/brother",
+            "creatives/decoupeuse/brother",
           ],
         },
         // 'creatives/art-textile',

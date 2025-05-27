@@ -99,9 +99,10 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 ## Contribuer
 
 Vous souhaitez contribuer aux sections Technologies créatives ou Productions médias ? Voici comment faire :
-	1.	Cloner ce dépôt ;
-	2.	Modifier les fichiers Markdown (.md) ou les images ;
-	3.	Proposer une pull request avec vos changements.
+
+1. Cloner ce dépôt;
+2. Modifier les fichiers Markdown (.md) ou les images;
+3. Proposer une pull request avec vos changements.
 
 ---
 
