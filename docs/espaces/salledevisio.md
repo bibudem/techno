@@ -2,7 +2,7 @@
 id: salledevisio
 title: Salle de visionnement
 description : Visionner des contenus médias en groupe.
-image: "/img/cover/sallevisio.jpg"
+image: "/img/cover/sallevisio.webp"
 ---
 
 import Link from '@docusaurus/Link';

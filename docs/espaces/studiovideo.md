@@ -2,7 +2,7 @@
 id: studiovideo
 title: Studios vidéo
 description : Enregistrer des vidéos de qualité professionnelle.
-image: "/img/cover/studiovideo.jpg"
+image: "/img/cover/studiovideo.webp"
 help : crea
 ---
 
