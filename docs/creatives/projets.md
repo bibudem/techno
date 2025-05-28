@@ -20,4 +20,4 @@ Découvrez les projets créatifs réalisés par la communauté de l’UdeM dans 
 
 Vous avez réalisé un projet dans nos espaces? Faites-le rayonner! Écrivez-nous à studio@bib.umontreal.ca avec les détails de votre projet.
 
-[![](/img/projets.webp)]([URL-de-la-cible](https://studiobib.notion.site/projets))
+[![Voir les projets](/img/projets.webp)](https://studiobib.notion.site/projets)
