@@ -4,6 +4,14 @@ import remarkInsertHelp from './src/utils/remark-insert-help.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+   future: {
+    experimental_faster: {
+      rspackBundler: true, // required flag
+      rspackPersistentCache: true, // new flag
+    },
+    v4: true,
+    experimental_faster: true,
+  },
   title: 'studio·bib',
   tagline: '',
   favicon: 'img/favicon.svg',
