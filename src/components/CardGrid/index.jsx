@@ -89,7 +89,6 @@ export default function CardGrid({ items }) {
             href={item.link}
             className={styles.card}
             data-ignore-external="true"
-            role="listitem"
             aria-labelledby={titleId}
             aria-describedby={descId}
             onMouseEnter={() => setHovered(idx)}

@@ -9,7 +9,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Conditions générales
 
-    Les utilisateurs et utilisatrices sont soumis aux [règlements et politiques](https://ti.umontreal.ca/offre-de-services/services-par-categorie/reseau/regles-de-branchement-dun-equipement-informatique-au-reseau-de-luniversite-de-montreal/) en vigueur à l’Université de Montréal. [Les règles d’utilisation des environnements informatiques de l’Université](https://secretariatgeneral.umontreal.ca/public/secretariatgeneral/documents/doc_officiels/reglements/administration/ges40_28-politique-securite-information.pdf) précisent les responsabilités de chacun. Par ailleurs, [le règlement sur les bibliothèques de l'Université de Montréal](https://secretariatgeneral.umontreal.ca/public/secretariatgeneral/documents/doc_officiels/reglements/administration/ges40_19-reglement-bibliotheques.pdf) s'applique, plus particulièrement en ce qui a trait au respect des personnes, des équipements et des lieux.
+    Les utilisateurs et utilisatrices sont soumis aux [règlements et politiques](https://ti.umontreal.ca/offre-de-services/services-par-categorie/reseau/regles-de-branchement-dun-equipement-informatique-au-reseau-de-luniversite-de-montreal/) en vigueur à l’Université de Montréal. [Les règles d’utilisation des environnements informatiques de l’Université](https://secretariatgeneral.umontreal.ca/public/secretariatgeneral/documents/doc_officiels/reglements/administration/ges40_28-politique-securite-information.pdf) précisent les responsabilités de chacun. Par ailleurs, [le règlement sur les bibliothèques de l'Université de Montréal](https://secretariatgeneral.umontreal.ca/public/secretariatgeneral/documents/doc_officiels/reglements/administration/ges40_19-reglement-bibliotheques.pdf) s'applique, plus particulièrement en ce qui a trait au respect des personnes, des équipements et des lieux. [Consulter le code de conduite](https://bib-pp.umontreal.ca/a-propos/politiques-reglement).
     Les équipements installés dans les bibliothèques sont la propriété de l’Université de Montréal.
 
 ---
@@ -40,3 +40,5 @@ Pour l'impression 3D
 - Aviser les membres de l'équipe des bibliothèques présents si le temps prévu de l'impression dépasse l'heure de fermeture des comptoirs de services.
 
 Le personnel des bibliothèques se réserve le droit de refuser un accès aux espaces et/ou d'arrêter une impression ne respectant pas ces règles.
+
+---
