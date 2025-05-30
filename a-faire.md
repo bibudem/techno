@@ -1,12 +1,13 @@
 # Liste des choses à faire
 
-## Espaces
+## Contenu
+### Espaces
 - Prises de vue en 360 des espaces : Amphithéâtre, nouveau studio balado LSH
   
-## Ressources informatiques
+### Ressources informatiques
 - Rédiger la page Équipements de consultation (médiathèque et autres)
 
-## Technologies créatives
+### Technologies créatives
 - Rajouter la documentation sur la BambuLab
 - Des photos de l'Ultimaker, BambuLab et Elegoo Saturn
 - Guide d'utilisation du casque Meta Quest 3
@@ -17,5 +18,12 @@
 - Ajouter une image dans la page Robots
 - Régler la taille des images dans les pages Cricut et Silhouette
 
-## Productions médias
+### Productions médias
 - Lien Sofia vers la tablette graphique.
+
+### Forme
+- Proxy : amélioration du détecteur du navigateur.
+- Card : rôle ARIA 
+- Global : Redimensionner les images. 
+- Global : Hébergement des vidéos sur le site sans Loom.
+- Global : Mettre les attributs alt sur les images.

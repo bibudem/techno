@@ -120,7 +120,7 @@ export default function Footer() {
         <span>|</span>
         <Link to="https://vie-privee.umontreal.ca/confidentialite/">Confidentialité</Link>
         <span>|</span>
-        <Link to="#">Conditions d’utilisation</Link>
+        <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
         <span>|</span>
         <a
           href="#"

@@ -139,7 +139,6 @@
   color: var(--color-accent);
 }
 
-/* Barre légale */
 .bottomBar {
   margin-top: auto;
   background-color: var(--color-background-alt);
@@ -148,13 +147,13 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: var(--space-md);
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
 .bottomBar a {
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .bottomBar a:hover,
