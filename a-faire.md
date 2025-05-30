@@ -23,7 +23,7 @@
 
 ### Forme
 - Proxy : amélioration du détecteur du navigateur.
-- Card : rôle ARIA 
 - Global : Redimensionner les images. 
 - Global : Hébergement des vidéos sur le site sans Loom.
 - Global : Mettre les attributs alt sur les images.
+- Style : changer le style du clavardage dans la page contact.
