@@ -77,45 +77,46 @@ export default function CardGrid({ items }) {
 
   return (
     <div className={styles.grid} role="list">
-      {items.map((item, idx) => {
-        const Icon = iconMap[item.icon];
-        const isActive = hovered === idx || focused === idx;
-        const titleId = `card-title-${idx}`;
-        const descId = `card-desc-${idx}`;
+  {items.map((item, idx) => {
+    const Icon = iconMap[item.icon];
+    const isActive = hovered === idx || focused === idx;
+    const titleId = `card-title-${idx}`;
+    const descId = `card-desc-${idx}`;
 
-        return (
-          <a
-            key={idx}
-            href={item.link}
-            className={styles.card}
-            data-ignore-external="true"
-            aria-labelledby={titleId}
-            aria-describedby={descId}
-            onMouseEnter={() => setHovered(idx)}
-            onMouseLeave={() => setHovered(null)}
-            onFocus={() => setFocused(idx)}
-            onBlur={() => setFocused(null)}
-          >
-            <div className={styles.header}>
-              {Icon && (
-                <Icon
-                  className={styles.icon}
-                  size={24}
-                  aria-hidden="true"
-                />
-              )}
-              <div className={styles.titleContainer}>
-                <h2 id={titleId} className={styles.title}>
-                  {item.title}
-                </h2>
-              </div>
+    return (
+      <div key={idx} role="listitem">
+        <a
+          href={item.link}
+          className={styles.card}
+          data-ignore-external="true"
+          aria-labelledby={titleId}
+          aria-describedby={descId}
+          onMouseEnter={() => setHovered(idx)}
+          onMouseLeave={() => setHovered(null)}
+          onFocus={() => setFocused(idx)}
+          onBlur={() => setFocused(null)}
+        >
+          <div className={styles.header}>
+            {Icon && (
+              <Icon
+                className={styles.icon}
+                size={24}
+                aria-hidden="true"
+              />
+            )}
+            <div className={styles.titleContainer}>
+              <h2 id={titleId} className={styles.title}>
+                {item.title}
+              </h2>
             </div>
-            <p id={descId} className={styles.description}>
-              {item.description}
-            </p>
-          </a>
-        );
-      })}
-    </div>
+          </div>
+          <p id={descId} className={styles.description}>
+            {item.description}
+          </p>
+        </a>
+      </div>
+    );
+  })}
+</div>
   );
 }
