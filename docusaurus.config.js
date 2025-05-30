@@ -16,7 +16,7 @@ const config = {
   tagline: '',
   favicon: 'img/favicon.svg',
 
-  url: 'https://techno.bib.umontreal.ca',
+  url: 'https://studio.bib.umontreal.ca',
   baseUrl: '/',
 
   organizationName: 'bibudem',
@@ -75,7 +75,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'techno·bib',
+          alt: 'studio·bib',
           src: 'img/logo-tb.svg',
         },
         items: [
