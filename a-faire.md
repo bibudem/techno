@@ -24,6 +24,6 @@
 ### Forme
 - Proxy : amélioration du détecteur du navigateur.
 - Global : Redimensionner les images. 
-- Global : Hébergement des vidéos sur le site sans Loom.
+- Global : Hébergement des vidéos courtes sur le site sans passer par des services tiers (sauf YT).
 - Global : Mettre les attributs alt sur les images.
 - Style : changer le style du clavardage dans la page contact.
