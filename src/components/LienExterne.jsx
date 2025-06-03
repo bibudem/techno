@@ -20,7 +20,8 @@ const estLienExterne = (href) => {
 export default function LienExterne() {
   const { pathname } = useLocation();
 
-  useEffect(() => {
+useEffect(() => {
+  const timeout = setTimeout(() => {
     const zonePrincipale = document.querySelector('.theme-doc-markdown, .markdown');
     if (!zonePrincipale) return;
 
@@ -35,13 +36,10 @@ export default function LienExterne() {
       const href = lien.getAttribute('href');
       if (!href || !estLienExterne(href)) return;
 
-      lien.dataset.lienExterne = 'true'; // marquer comme traité
-
-      // Forcer l'ouverture dans un nouvel onglet
+      lien.dataset.lienExterne = 'true';
       lien.setAttribute('target', '_blank');
       lien.setAttribute('rel', 'noopener noreferrer');
 
-      // Ajouter (PDF)
       if (href.toLowerCase().endsWith('.pdf')) {
         const pdfLabel = document.createElement('span');
         pdfLabel.textContent = ' (PDF)';
@@ -50,19 +48,20 @@ export default function LienExterne() {
         lien.appendChild(pdfLabel);
       }
 
-      // Ajouter icône externe
-      const wrapper = document.createElement('span');
-      wrapper.className = 'icone-externe';
-      wrapper.style.marginLeft = '0.25em';
-      wrapper.style.display = 'inline-flex';
-      wrapper.style.verticalAlign = 'middle';
-
       if (!lien.querySelector('.icone-externe')) {
+        const wrapper = document.createElement('span');
+        wrapper.className = 'icone-externe';
+        wrapper.style.marginLeft = '0.25em';
+        wrapper.style.display = 'inline-flex';
+        wrapper.style.verticalAlign = 'middle';
         lien.appendChild(wrapper);
         createRoot(wrapper).render(<ArrowSquareOut size={16} />);
       }
     });
-  }, [pathname]);
+  }, 100); // attendre 100 ms
+
+  return () => clearTimeout(timeout);
+}, [pathname]);
 
   return null;
 }
