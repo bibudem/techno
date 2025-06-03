@@ -21,9 +21,7 @@ export default function LienExterne() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Cibler seulement la zone de contenu principal
     const zonePrincipale = document.querySelector('.theme-doc-markdown, .markdown');
-
     if (!zonePrincipale) return;
 
     const liens = zonePrincipale.querySelectorAll('a[href]');
@@ -38,8 +36,10 @@ export default function LienExterne() {
       if (!href || !estLienExterne(href)) return;
 
       lien.dataset.lienExterne = 'true'; // marquer comme traité
-      lien.removeAttribute('target');
-      lien.removeAttribute('rel');
+
+      // Forcer l'ouverture dans un nouvel onglet
+      lien.setAttribute('target', '_blank');
+      lien.setAttribute('rel', 'noopener noreferrer');
 
       // Ajouter (PDF)
       if (href.toLowerCase().endsWith('.pdf')) {
@@ -57,7 +57,6 @@ export default function LienExterne() {
       wrapper.style.display = 'inline-flex';
       wrapper.style.verticalAlign = 'middle';
 
-      // Protection contre le double rendu
       if (!lien.querySelector('.icone-externe')) {
         lien.appendChild(wrapper);
         createRoot(wrapper).render(<ArrowSquareOut size={16} />);
