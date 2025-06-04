@@ -33,7 +33,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 | **Mathématiques et informatique** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8) | Prusa i3 MK3s+, Ultimaker S3 |
 | **Hubert-Reeves**        | [Atelier de fabrication](../espaces/ateliers.md), local A-0724.4. [Voir sur la carte](https://maps.app.goo.gl/T6E9TaKNk6dDgrds9) | Prusa i3 MK3s+, Ultimaker S3 |
 | **Thérèse-Gouin-Décarie** | [Atelier de fabrication](../espaces/ateliers.md), local G-305-10. [Voir sur la carte](https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8) | Prusa i3 MK3s+, Ultimaker 2 & S3, Elegoo Saturn 3 Ultra, BambuLab X1C AMS |
-| **Santé**         | 7<sup>e</sup> étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/KVE9w3JN2BKp278q8) | Ultimaker S3 |
+| **Santé**         | 8<sup>e</sup> étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/KVE9w3JN2BKp278q8) | Ultimaker S3 |
 | **Marguerite d'Youville**         | [Voir sur la carte](https://g.co/kgs/q8wfQY2) | BambuLab X1C AMS |
 | **Aménagement**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS |
 
