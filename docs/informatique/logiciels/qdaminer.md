@@ -16,32 +16,19 @@ Le logiciel **QDA Miner** est un logiciel d'analyse qualificative.
 
 ## Prérequis
 - **Windows 10** (64 bits seulement) ou **Windows 11**
+- **Redémarrer l'ordinateur**
 
 ## Étapes d'installation
 
-1. **Redémarrez votre ordinateur.**
-
-2. Accédez à la [logithèque](https://logitheque.ti.umontreal.ca).
-
-3. Authentifiez-vous avec :
-    - Votre code d’accès
-    - Votre mot de passe
-    - Authentification à deux facteurs (A2F)
-
-4. Lisez la directive, cochez la case :
-    - ✅ **J’accepte les termes de la directive**, puis cliquez sur **Valider**.
-
-5. Sélectionnez dans la liste déroulante :
-    - **Provalis Prosuite (avec licence 2025)** puis cliquez sur **Valider**.
-
-6. Ajustez la langue (si nécessaire), puis cliquez sur :
-    - **Suivant**, suivi de **Installation du logiciel**.
-
-7. Enregistrez et exécutez le fichier téléchargé. *(Autorisez si nécessaire.)*
-
-8. Ouvrez le logiciel depuis :
+1. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca)
+2. S’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
+3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
+4. Sélectionner **Provalis Prosuite (avec licence 2025)** dans La liste des logiciels autorisés.
+5. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
+6. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
+7. Ouvrez le logiciel depuis :
     - **Menu Démarrer → Provalis Research → QDA Miner**
-
+ 
 ## En cas de problème
 
 **Problème de licence ?**  
