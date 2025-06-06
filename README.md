@@ -15,7 +15,7 @@
 
 # À propos
 
-**studio·bib** est un site de documentation développé avec [Docusaurus 3.8](https://docusaurus.io/), conçu pour centraliser tutoriels, guides et ressources liés aux espaces techno et aux services informatiques des bibliothèques de l’UdeM.
+**studio·bib** est un site de documentation développé avec [Docusaurus 3.8.1](https://docusaurus.io/), conçu pour centraliser tutoriels, guides et ressources liés aux espaces techno et aux services informatiques des bibliothèques de l’UdeM.
 
 ---
 
