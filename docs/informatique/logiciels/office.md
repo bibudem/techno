@@ -39,26 +39,30 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
 <Tabs>
   <TabItem value="windows" label="Windows">
+  **Prérequis** : Windows 10 ou 11
 
-  **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, Publisher, Access, InfoPath, Skype, OneDrive.
+  **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, Publisher, Access, InfoPath, OneDrive.
 
-  1. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
-  2. S’authentifier avec [vos informations d'authentification](../authentification)
-  3. Cliquer **Installer Office**, en haut à droite.
-  4. Sélectionner **Autres options d’installation**.
-  5. Choisir **Voir les applications et les appareils** > **Français (France)**.
-  6. Télécharger et suivre les instructions d'installation.
+  1. Avoir la bonne heure, le bon fuseau horaire et **redémarrer l'ordinateur**.
+  2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
+  3. S’authentifier avec [vos informations d'authentification](../authentification).
+  4. Cliquer **Applications** dans le menu à gauche.
+  5. Cliquer **Installer des Applis** puis **Applications Microsoft 365**.
+  6. Sélectionner la langue **Français (France)**
+  7. Cliquer **Installer Office** et ouvrir le ficher téléchargé pour démarrer l’installation.
 
   </TabItem>
 
   <TabItem value="macos" label="macOS">
+  **Prérequis** : macOS 12 et ultérieur
 
   **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
 
-  1. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
-  2. S’authentifier avec [vos informations d'authentification](../authentification)
-  3. Cliquer sur **Installer Office** > **Applications Office 365**
-  4. Exécuter le fichier téléchargé et suivre les instructions d'installation.
+  1. Avoir la bonne heure, le bon fuseau horaire et **redémarrer l'ordinateur**.
+  2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
+  3. S’authentifier avec [vos informations d'authentification](../authentification)
+  4. Cliquer **Applications** dans le menu à gauche.
+  5. Cliquer **Installer des Applis** puis **Applications Microsoft 365** et ouvrir le fichier téléchargé pour démarrer l’installation.
 
   </TabItem>
 </Tabs>
@@ -85,6 +89,8 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
 **[Livres sur Excel dans Sofia](https://umontreal.on.worldcat.org/search?queryString=su:(microsoft%20excel)&lang=fr)**
 
+**[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/126616438/Office+365)**
+
   </TabItem>
   <TabItem value="powerpoint" label="PowerPoint">
   - [Insérer une couleur ou une image de fond](https://support.microsoft.com/fr-fr/office/placer-une-image-d-arri%c3%a8re-plan-sur-les-diapositives-4b0b98d4-774c-4e08-9c38-e8c92f58c957)
@@ -92,6 +98,8 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   -  [Impression de plusieurs diapositives sur une page](https://support.microsoft.com/fr-fr/office/imprimer-vos-notes-documents-ou-diapositives-powerpoint-194d4320-aa03-478b-9300-df25f0d15dc4)
 
 **[Livres sur PowerPoint dans Sofia](https://umontreal.on.worldcat.org/search?queryString=su:(microsoft%20powerpoint)&lang=fr)**
+
+**[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/126616438/Office+365)**
     </TabItem>
     <TabItem value="word" label="Word">
    - [Créer une table des matières](https://support.microsoft.com/fr-fr/office/ins%c3%a9rer-une-table-des-mati%c3%a8res-882e8564-0edb-435e-84b5-1d8552ccf0c0)
@@ -100,6 +108,8 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   - [Insérer une note de bas de page](https://support.microsoft.com/fr-fr/office/ins%c3%a9rer-des-notes-de-bas-de-page-et-des-notes-de-fin-61f3fb1a-4717-414c-9a8f-015a5f3ff4cb)
   
 **[Livres sur Word dans Sofia](https://umontreal.on.worldcat.org/search?queryString=su:(microsoft%20word)&lang=fr)**
+
+**[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/126616438/Office+365)**
     </TabItem>
 </Tabs>
 
