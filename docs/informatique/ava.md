@@ -52,7 +52,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 
 <details>
   <summary>**Bibliothèque de mathématiques et informatique**</summary>
-  - 6 postes : situés dans la zone de silence.
+  - 6 postes : situés dans la zone de silence. 
 </details>
 
 <details>
