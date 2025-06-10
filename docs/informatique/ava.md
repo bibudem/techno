@@ -31,7 +31,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 3. Connecter le clavier et la souris à l'aide de l'**USB-A** ou **USB-C** fourni.
 4. Commencer à travailler !
 
----
+--- 
 
 ## Localisation
 
