@@ -48,6 +48,14 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
         "https://wiki.umontreal.ca/pages/viewpage.action?pageId=184126772",
       icon: "Network",
     },
+    {
+      title: "Inscrire ou modifier ses questions de vérification (TI)",
+      description:
+        "Niveau de sécurité additionnel permettant d’accéder au Libre-service Mot de passe oublié.",
+      link:
+        "https://wiki.umontreal.ca/spaces/SIE/pages/130462126/Questions+de+v%C3%A9rification",
+      icon: "BookOpenText",
+    },
   ]}
 />
 
