@@ -24,7 +24,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 
 ---
 
-## Comment ça marche?
+## Comment ça fonctionne?
 
 1. Trouver un poste AVA disponible dans [les bibliothèques participantes](#localisation).
 2. Brancher votre ordinateur portable à l'écran à l'aide du câble **HDMI** ou **USB-C** fourni.
@@ -37,9 +37,10 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 
 <details>
   <summary>**Bibliothèque des lettres et sciences humaines**</summary>
-  - 6 postes :
-    - 3 au 5<sup>e</sup> étage.
-    - 3 au 6<sup>e</sup> étage.
+  - 8 postes :
+    - 1 au service Accessibilité local 1085-2, 1<sup>e</sup> étage.
+    - 3 au 3<sup>e</sup> étage.
+    - 4 au 5<sup>e</sup> étage.
 </details>
 
 <details>
