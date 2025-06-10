@@ -39,7 +39,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
   <summary>**Bibliothèque des lettres et sciences humaines**</summary>
   - 8 postes :
     - 1 au service Accessibilité local 1085-2, 1<sup>e</sup> étage.
-    - 3 au 3<sup>e</sup> étage.
+    - 3 au 3<sup>e</sup> étage. 
     - 4 au 5<sup>e</sup> étage.
 </details>
 
