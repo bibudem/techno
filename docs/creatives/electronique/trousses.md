@@ -25,7 +25,7 @@ Les bibliothèques de l’Université de Montréal offrent à la communauté Ude
 
 Ces trousses contiennent tout le nécessaire pour expérimenter avec des microcontrôleurs (comme les Arduino et les ESP8266) ou des ordinateurs monocartes (comme les Raspberry Pi), et s’initier à des concepts liés à l’Internet des objets (IoT).
 
-## Localisation
+## Disponibilité
 Les trousses techno-créatives sont disponibles au comptoir de prêt des bibliothèques suivantes :
 
 - Bibliothèque mathématiques et informatique : Arduino, ESP8266, Raspberry Pi
