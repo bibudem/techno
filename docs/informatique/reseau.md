@@ -182,11 +182,9 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
 
 ## Sites umontreal.ca non accessibles ?
 
-Problème : Vous avez connecté votre appareil au réseau sans fil, tous les sites web fonctionnent, sauf les sites de
-l’Université de Montréal (Studium, umontreal.ca, etc.). Les paramètres DNS sont en cause, car votre appareil ou
-un programme essaie d’utiliser des paramètres DNS spécifiques non compatibles avec le réseau de l’UdeM.
+Lorsque vous êtes connecté au réseau sans fil de l’UdeM, tous les sites s’affichent normalement, sauf ceux de l’Université de Montréal (Studium, umontreal.ca, etc.). Cela signifie que votre appareil (ou un programme) utilise des serveurs DNS personnalisés qui ne sont pas compatibles avec le réseau de l’UdeM.
 
-Solution : Obtenir les DNS automatiquement.
+Pour résoudre ce problème, configurez votre connexion pour obtenir automatiquement vos DNS.
 
 <Tabs groupId="os-troubleshoot-2">
   <TabItem value="macos" label="macOS">
@@ -200,8 +198,9 @@ Solution : Obtenir les DNS automatiquement.
     8. Cliquer **Appliquer**.
   </TabItem>
 
-  <TabItem value="windows" label="Windows">
-  Windows 11
+<TabItem value="windows" label="Windows">
+  <Tabs>
+  <TabItem value="Windows11" label="Windows 11">
     1. Cliquer droit sur l'icône **WiFi** (en bas à droite).  
     2. Cliquer **Paramètres du réseau d'internet**.
     3. Cliquer **Wi-Fi**.
@@ -210,8 +209,9 @@ Solution : Obtenir les DNS automatiquement.
     6. Cliquer **Modifier** (à droite de Attribution du serveur DNS).
     7. Changer Manuel pour **Automatique (DHCP**)
     8. Cliquer **Enregistrer**
+  </TabItem>
    
-Windows 10
+  <TabItem value="Windows10" label="Windows 10">
     1. Cliquer droit sur l'icône **WiFi** (en bas à droite).  
     2. Cliquer **Ouvrir les paramètres réseau et internet**.
     3. Cliquer **Centre Réseau et partage** (en bas de la page).
@@ -221,6 +221,8 @@ Windows 10
     7. Cocher **Obtenir les adresses des serveurs DNS automatiquement**.
     8. Cliquer **OK**
   </TabItem>
+  </Tabs>
+</TabItem>
 
   <TabItem value="ios" label="iOS">
     1. Aller dans **Réglages** → **Wi-Fi**.  
