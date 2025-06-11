@@ -53,7 +53,7 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
     {
       title: "Trousses techno-créatives",
       description: `
-      Branchements et utilisation du multimètre. Permet de mesurer la tension, l'intensité et la resistance d'un circuit.`,
+      Emprunter une trousse techno-créative pour explorer l’électronique.`,
       link: "/creatives/electronique/trousses",
       icon: "Gauge",
     },
