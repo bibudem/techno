@@ -54,7 +54,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   </TabItem>
 
   <TabItem value="macos" label="macOS">
-  **Prérequis** : macOS 12 et ultérieur
+  **Prérequis** : macOS 13 et ultérieur
 
   **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
 
