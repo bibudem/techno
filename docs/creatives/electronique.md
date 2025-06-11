@@ -55,7 +55,7 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       description: `
       Emprunter une trousse techno-créative pour explorer l’électronique.`,
       link: "/creatives/electronique/trousses",
-      icon: "Gauge",
+      icon: "BriefcaseMetal",
     },
     {
       title: "Pièces électroniques",
