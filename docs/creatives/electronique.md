@@ -51,10 +51,17 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       icon: "WifiHigh",
     },
     {
+      title: "Trousses techno-créatives",
+      description: `
+      Branchements et utilisation du multimètre. Permet de mesurer la tension, l'intensité et la resistance d'un circuit.`,
+      link: "/creatives/electronique/trousses",
+      icon: "Gauge",
+    },
+    {
       title: "Pièces électroniques",
       description: ` Découvrez la liste des pièces électroniques disponibles aux bibliothèques de l'UdeM.`,
       link: "/creatives/electronique/pieces",
-      icon: "WifiHigh",
+      icon: "Circuitry",
     },
     {
       title: "Multimètre",

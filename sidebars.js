@@ -332,7 +332,9 @@ const sidebars = {
             "creatives/electronique/arduino",
             // "creatives/electronique/raspberrypi",
             // "creatives/electronique/ido",
-            // "creatives/electronique/pieces",
+            "creatives/electronique/trousses",
+            "creatives/electronique/pieces",
+            
           ],
         },
         {
