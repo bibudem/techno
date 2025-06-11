@@ -22,14 +22,18 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       link: "/creatives/vr",
       icon: "VirtualReality",
     },
-
+    {
+      title: "Électronique",
+      description: "Apprenez à concevoir et à fabriquer des circuits électroniques.",
+      link: "/creatives/electronique",
+      icon : "Circuitry",
+    },
     {
       title: "Découpeuse",
       description: "Découpez des matériaux pour vos projets de création.",
       link: "/creatives/decoupeuse",
       icon : "Nut",
     },
-
     {
       title: "Robots",
       description: "Empruntez ces accessoires didactiques.",
@@ -42,6 +46,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       link: "/creatives/projets",
       icon : "Slideshow",
     },
+    
   ]}
 />
 ---
@@ -52,9 +57,4 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       icon : "Scissors",
     },
 
-    {
-      title: "Électronique",
-      description: "Apprenez à concevoir et à fabriquer des circuits électroniques.",
-      link: "/creatives/electronique",
-      icon : "Circuitry",
-    }, -->
+     -->
