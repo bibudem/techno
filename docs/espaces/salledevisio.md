@@ -1,6 +1,6 @@
 ---
 id: salledevisio
-title: Salle de visionnement
+title: Salle de visionnement en équipe
 description : Visionner des contenus médias en groupe.
 image: "/img/cover/sallevisio.webp"
 ---

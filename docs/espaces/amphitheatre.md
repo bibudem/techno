@@ -19,7 +19,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-L’amphithéâtre offre un espace moderne équipé pour la projection de films :
+L’amphithéâtre offre un espace moderne équipé pour la projection de films en groupe :
 - capacité de 40 places;
 - un projecteur 4K cinéma pour une qualité d'image optimale;
 - une installation sonore en 7.1 pour une immersion audio complète.
