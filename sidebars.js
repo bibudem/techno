@@ -323,18 +323,18 @@ const sidebars = {
             "creatives/vr/mise-en-garde",
           ],
         },
-        // {
-        //   type: "category",
-        //   label: "Électronique",
-        //   collapsed: true,
-        //   link: { type: 'doc', id: 'creatives/electronique' }, 
-        //   items: [
-        //     "creatives/electronique/arduino",
-        //     "creatives/electronique/raspberrypi",
-        //     "creatives/electronique/ido",
-        //     "creatives/electronique/pieces",
-        //   ],
-        // },
+        {
+          type: "category",
+          label: "Électronique",
+          collapsed: true,
+          link: { type: 'doc', id: 'creatives/electronique' }, 
+          items: [
+            "creatives/electronique/arduino",
+            // "creatives/electronique/raspberrypi",
+            // "creatives/electronique/ido",
+            // "creatives/electronique/pieces",
+          ],
+        },
         {
           type: "category",
           label: "Découpeuse",

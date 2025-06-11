@@ -1,12 +1,28 @@
 ---
 id : electronique
 title : Électronique
+image: "/img/cover/arduino.jpg"
 ---
-import CardGrid from '@site/src/components/CardGrid';
+
+import CardGrid from "@site/src/components/CardGrid";
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Électronique
 
-Cette section est destinée à vous aider à mieux comprendre les technologies des microcontrôleurs et des ordinateurs monocartes, notamment les Arduino, les Raspberry Pi, le Makey Makey et l'Internet des objets (IoT). Ces technologies sont utilisées dans de nombreux domaines, tels que la robotique, l'automatisation industrielle, les systèmes embarqués, la domotique et les projets personnels d'électronique. 
+Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey Makey et l’Internet des objets (IoT), que vous retrouverez dans nos ateliers de fabrication. Vous y trouverez aussi des informations utiles en lien avec les pièces disponibles sur place, pour mieux comprendre et utiliser ces outils dans vos projets.
 
 ---
 
@@ -16,23 +32,36 @@ Cette section est destinée à vous aider à mieux comprendre les technologies d
     {
       title: "Arduino",
       description: `
-      Arduino est une plateforme de développement _open‑source_ populaire pour les projets électroniques. Elle se compose d'une carte programmable et d'un IDE (Arduino IDE) permettant de créer des montages interactifs. Facile à prendre en main et personnalisable selon vos besoins.`,
-      link: "/creatives/impression3d/arduino",
+      Arduino est une carte programmable avec un IDE pour créer facilement des projets électroniques interactifs.`,
+      link: "/creatives/electronique/arduino",
       icon: "Circuitry",
     },
     {
       title: "Raspberry Pi",
       description: `
-      Le Raspberry Pi est un ordinateur monocarte abordable et polyvalent, pensé pour l'apprentissage de l'informatique et de l’électronique. Il embarque un processeur, des ports USB, Ethernet, HDMI et des broches GPIO pour vos montages.`,
-      link: "/creatives/impression3d/raspberry-pi",
+      Le Raspberry Pi est un mini-ordinateur abordable conçu pour l’apprentissage de l’informatique et de l’électronique.`,
+      link: "/creatives/electronique/raspberrypi",
       icon: "DesktopTower",
     },
     {
       title: "Internet des Objets",
       description: `
-      L’Internet des Objets (_IoT_) connecte objets domestiques et industriels au réseau. L’ESP8266, microcontrôleur à faible consommation, est largement utilisé pour piloter capteurs et actionneurs en Wi‑Fi.`,
-      link: "/creatives/impression3d/iot",
+      L’Internet des objets (IdO) désigne un réseau d’objets physiques connectés qui communiquent entre eux.`,
+      link: "/creatives/electronique/iot",
       icon: "WifiHigh",
+    },
+    {
+      title: "Pièces électroniques",
+      description: ` Découvrez la liste des pièces électroniques disponibles aux bibliothèques de l'UdeM.`,
+      link: "/creatives/electronique/pieces",
+      icon: "WifiHigh",
+    },
+    {
+      title: "Multimètre",
+      description: `
+      Branchements et utilisation du multimètre. Permet de mesurer la tension, l'intensité et la resistance d'un circuit.`,
+      link: "/creatives/electronique/multimetre",
+      icon: "Gauge",
     },
   ]}
 />
