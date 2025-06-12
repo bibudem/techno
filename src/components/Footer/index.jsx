@@ -119,9 +119,8 @@ export default function Footer() {
         <span>|</span>
         <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
         <span>|</span>
-       <a
-  href="/#parametres-temoins"
-  role="button"
+<a
+  href="#cookies"
   onClick={(e) => {
     e.preventDefault();
     window.udem_open_cookie_consent_intro?.();
@@ -129,6 +128,7 @@ export default function Footer() {
 >
   Paramètres des témoins
 </a>
+<div id="cookies" style={{ display: 'none' }} />
       </div>
     </footer>
   );
