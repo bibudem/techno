@@ -1,6 +1,24 @@
 ---
 id : robots
+title : Robots
+image: "/img/cover/robots.jpg"
 ---
+
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import HideLastUpdated from '@site/src/components/HideLastUpdated';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Robots (accessoires didactiques)
 

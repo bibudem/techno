@@ -329,10 +329,10 @@ const sidebars = {
           collapsed: true,
           link: { type: 'doc', id: 'creatives/electronique' }, 
           items: [
+            "creatives/electronique/trousses",
             "creatives/electronique/arduino",
             // "creatives/electronique/raspberrypi",
             // "creatives/electronique/ido",
-            "creatives/electronique/trousses",
             "creatives/electronique/pieces",
             
           ],

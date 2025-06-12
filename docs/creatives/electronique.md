@@ -30,6 +30,13 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
 
 <CardGrid
   items={[
+      {
+      title: "Trousses techno-créatives",
+      description: `
+      Emprunter une trousse techno-créative pour explorer l’électronique.`,
+      link: "/creatives/electronique/trousses",
+      icon: "BriefcaseMetal",
+    },
     {
       title: "Arduino",
       description: `
@@ -38,11 +45,30 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       icon: "Circuitry",
     },
     {
+      title: "Pièces électroniques",
+      description: ` Découvrez la liste des pièces électroniques disponibles aux bibliothèques de l'UdeM.`,
+      link: "/creatives/electronique/pieces",
+      icon: "Circuitry",
+    },
+
+  ]}
+/>
+
+---
+
+    <!-- {
       title: "Raspberry Pi",
       description: `
       Le Raspberry Pi est un mini-ordinateur abordable conçu pour l’apprentissage de l’informatique et de l’électronique.`,
       link: "/creatives/electronique/raspberrypi",
       icon: "DesktopTower",
+    },
+        {
+      title: "Multimètre",
+      description: `
+      Branchements et utilisation du multimètre. Permet de mesurer la tension, l'intensité et la resistance d'un circuit.`,
+      link: "/creatives/electronique/multimetre",
+      icon: "Gauge",
     },
     {
       title: "Internet des Objets",
@@ -50,26 +76,4 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       L’Internet des objets (IdO) désigne un réseau d’objets physiques connectés qui communiquent entre eux.`,
       link: "/creatives/electronique/iot",
       icon: "WifiHigh",
-    },
-    {
-      title: "Trousses techno-créatives",
-      description: `
-      Emprunter une trousse techno-créative pour explorer l’électronique.`,
-      link: "/creatives/electronique/trousses",
-      icon: "BriefcaseMetal",
-    },
-    {
-      title: "Pièces électroniques",
-      description: ` Découvrez la liste des pièces électroniques disponibles aux bibliothèques de l'UdeM.`,
-      link: "/creatives/electronique/pieces",
-      icon: "Circuitry",
-    },
-    {
-      title: "Multimètre",
-      description: `
-      Branchements et utilisation du multimètre. Permet de mesurer la tension, l'intensité et la resistance d'un circuit.`,
-      link: "/creatives/electronique/multimetre",
-      icon: "Gauge",
-    },
-  ]}
-/>
+    }, -->

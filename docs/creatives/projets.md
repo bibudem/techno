@@ -10,7 +10,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
 
-Découvrez les projets créatifs réalisés par la communauté de l’UdeM dans nos espaces : impression 3D, électronique, objets connectés, balados et bien plus. Ce répertoire, hébergé sur Notion, rassemble des exemples concrets et inspirants issus des ateliers, cours et initiatives étudiantes.
+Découvrez les projets créatifs réalisés par la communauté UdeM dans nos espaces : impression 3D, électronique, objets connectés, balados et bien plus. Ce répertoire, hébergé sur Notion, rassemble des exemples concrets et inspirants issus des ateliers, cours et initiatives étudiantes.
 
 <Link to="https://studiobib.notion.site/projets" className="button button--primary">
   Consulter le répertoire des projets
