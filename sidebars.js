@@ -331,7 +331,7 @@ const sidebars = {
           items: [
             "creatives/electronique/trousses",
             "creatives/electronique/arduino",
-            // "creatives/electronique/raspberrypi",
+            "creatives/electronique/raspberrypi",
             // "creatives/electronique/ido",
             "creatives/electronique/pieces",
             
