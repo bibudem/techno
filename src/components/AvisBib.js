@@ -14,7 +14,6 @@ export default function AvisBib() {
     <bib-avis
       service="https://avis.bib.umontreal.ca/api/avis"
       bouton-fermer
-      fluide
     ></bib-avis>
   );
 }
