@@ -1,6 +1,7 @@
 ---
 title : Trousses techno-créatives
 image: "/img/cover/trousses.jpg"
+
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
