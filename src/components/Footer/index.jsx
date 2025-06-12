@@ -101,9 +101,6 @@ export default function Footer() {
             <a href="https://www.youtube.com/@BibliothequesUdeM" aria-label="YouTube">
               <YoutubeLogo size={24} />
             </a>
-            {/* <a href="#" aria-label="LinkedIn">
-              <LinkedinLogo size={24} />
-            </a> */}
           </div>
         </div>
       </div>
@@ -122,15 +119,16 @@ export default function Footer() {
         <span>|</span>
         <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
         <span>|</span>
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            window.udem_open_cookie_consent_intro?.();
-          }}
-        >
-          Paramètres des témoins
-        </a>
+       <a
+  href="/#parametres-temoins"
+  role="button"
+  onClick={(e) => {
+    e.preventDefault();
+    window.udem_open_cookie_consent_intro?.();
+  }}
+>
+  Paramètres des témoins
+</a>
       </div>
     </footer>
   );
