@@ -49,7 +49,7 @@ Si vous maîtrisez Git, il est possible de contribuer au site en proposant direc
 
 Le contenu du site est hébergé sur GitHub : [bibudem/techno](https://github.com/bibudem/techno)
 
-###Proposer un changement au site
+### Proposer un changement au site
 
 1. Cloner le dépôt.
 2. Modifier les fichiers Markdown (`.md`) ou images.
