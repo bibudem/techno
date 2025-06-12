@@ -2,11 +2,26 @@
 id : accessibilite
 title : Accessibilité
 retroaction : false
+image: "/img/cover/accessibilite.jpg"
 ---
 
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 Nous nous efforçons de rendre ce site accessible au plus grand nombre, conformément aux [normes WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/WAI/standards-guidelines/wcag/) et aux standards du gouvernement du Québec [SGQRI 008 2.0](https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/cybersecurite_numerique/Standard_sur_l_accessibilite/standard-access-web.pdf).
 

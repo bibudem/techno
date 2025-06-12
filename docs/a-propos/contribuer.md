@@ -1,20 +1,27 @@
 ---
 id : contribuer
 title : Contribuer
-retroaction : false
+image: "/img/cover/contribuer.jpg"
 ---
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
+
 <HideLastUpdated/>
 
-# Contribuer
-
-**Vos contributions sont les bienvenues!** 
-
----
 
 ## Rétroaction 
 
@@ -22,19 +29,23 @@ Si vous voulez proposer des corrections ou nous suggérer des précisions à ajo
 
 ---
 
-## Notion
+## Projets
 
-Nous avons mis en place un espace collaboratif sur Notion pour la communauté UdeM. Vous pouvez y partager vos projets, idées ou ressources en lien avec les sections **Technologies créatives** et **Productions médias**. La page Zone collaboration est ouverte à l’édition : une fois votre compte créé, ajoutez simplement une entrée dans la base de données.
+Partager ses créations, c’est inspirer la communauté.
 
-<Link to="#" className="button button--primary">
-  Accéder à la Zone collaboration
+Déposer votre réalisation dans la section Projets, c’est contribuer à faire rayonner les usages inventifs des ateliers.
+
+Envoyez-nous vos photos, textes ou autres médias par courriel à studio@bib.umontreal.ca. Nous les publierons dans cette section afin de mettre en valeur vos créations et d’inspirer la communauté.
+
+<Link to="https://studiobib.notion.site/projets" className="button button--primary">
+  Consulter le répertoire des projets
 </Link>
 
 ---
 
-## GitHub
+## Git
 
-Si vous êtes à l’aise avec GitHub, vous pouvez également contribuer en proposant directement des modifications au site via une *pull request* (PR). Que ce soit pour corriger une faute, améliorer un texte ou ajouter une ressource, chaque contribution compte.
+Si vous maîtrisez Git, il est possible de contribuer au site en proposant directement des modifications par pull request (PR). Qu’il s’agisse de corriger une erreur, d’améliorer un contenu ou d’ajouter une ressource, chaque contribution est la bienvenue.
 
 Le contenu du site est hébergé sur GitHub : [bibudem/techno](https://github.com/bibudem/techno)
 
