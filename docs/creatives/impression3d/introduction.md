@@ -1,6 +1,7 @@
 ---
 title: Introduction
 description: Tout apprendre sur l'impression 3D
+help : crea
 ---
 
 # Introduction à l'impression 3D
@@ -76,8 +77,8 @@ Lorsqu’un filament a absorbé trop d’humidité, un séchoir à filament peut
 ### Modèles
 
 La première étape consiste à trouver un modèle 3D ou à le concevoir soi-même.
-- **Depuis Internet** : [Où trouver des modèles 3D ?](impression3d/modeles3d#modèles-en-ligne)
-- **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D. Voir la section [Logiciels de modélisation](impression3d/modeles3d#logiciels-de-modélisation-3d).
+- **Depuis Internet** : [Où trouver des modèles 3D?](modeles3d.md#modèles-en-ligne)
+- **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D. Voir la section [Logiciels de modélisation](modeles3d.md#logiciels-de-modélisation-3d).
 
 ### Découpe du modèle
 
