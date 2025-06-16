@@ -10,7 +10,7 @@ function loadScript(src, onLoad) {
 }
 
 function initGA() {
-  loadScript('https://www.googletagmanager.com/gtag/js?id=G-XXXX', () => {
+  loadScript('https://www.googletagmanager.com/gtag/js?id=G-R5SGXR9DKM', () => {
     window.dataLayer = window.dataLayer || [];
     function gtag(){ window.dataLayer.push(arguments); }
     gtag('js', new Date());
