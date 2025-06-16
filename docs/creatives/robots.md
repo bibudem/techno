@@ -1,7 +1,7 @@
 ---
 id : robots
 title : Robots
-image: "/img/cover/robots.jpg"
+image: "/img/cover/robots.webp"
 ---
 
 import Link from '@docusaurus/Link';

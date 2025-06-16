@@ -1,6 +1,6 @@
 ---
 title : Trousses techno-créatives
-image: "/img/cover/trousses.jpg"
+image: "/img/cover/trousses.webp"
 
 ---
 

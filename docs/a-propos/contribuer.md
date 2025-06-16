@@ -1,7 +1,7 @@
 ---
 id : contribuer
 title : Contribuer
-image: "/img/cover/contribuer.jpg"
+image: "/img/cover/contribuer.webp"
 ---
 
 import Link from '@docusaurus/Link';

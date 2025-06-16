@@ -1,6 +1,6 @@
 ---
 title : Pièces électroniques
-image: "/img/cover/pieces.jpg"
+image: "/img/cover/pieces.webp"
 ---
 
 import Link from '@docusaurus/Link';

@@ -2,7 +2,7 @@
 id : electronique
 title : Électronique
 retroaction : false
-image: "/img/cover/arduino.jpg"
+image: "/img/cover/arduino.webp"
 ---
 
 import CardGrid from "@site/src/components/CardGrid";

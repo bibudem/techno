@@ -2,7 +2,7 @@
 id : accessibilite
 title : Accessibilité
 retroaction : false
-image: "/img/cover/accessibilite.jpg"
+image: "/img/cover/accessibilite.webp"
 ---
 
 import Link from '@docusaurus/Link';

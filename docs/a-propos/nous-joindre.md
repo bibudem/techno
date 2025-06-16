@@ -2,7 +2,7 @@
 title : Nous joindre
 description : Contactez-nous pour toute question ou information supplémentaire.
 retroaction : false
-image: "/img/cover/contact.jpg"
+image: "/img/cover/contact.webp"
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
