@@ -13,6 +13,11 @@
   --ifm-font-family-base: "Figtree", sans-serif;
   --ifm-breadcrumb-item-background-active: #ffffff; 
   --ifm-menu-color-background-hover : var(--bleu-50);
+  --ifm-color-info-contrast-background: #fff7e8 ;
+  --ifm-alert-border-color : var(--jaune-pale);
+  --ifm-alert-border-color : var(--jaune-pale);
+  --ifm-color-info-dark : var(--jaune);
+
 }
 
 [data-theme='dark'] {
@@ -529,3 +534,5 @@ top : 30% !important;
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+
