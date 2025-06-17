@@ -44,6 +44,13 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 </details>
 
 <details>
+<summary>**Bibliothèque de la santé**</summary>
+- 5 postes :
+    - 4 au 6<sup>e</sup> étage.
+    - 1 au 8<sup>e</sup> étage.
+</details>
+
+<details>
 <summary>**Bibliothèque Hubert-Reeves**</summary>
 - 6 postes :
   - 5 à la cartothèque.
