@@ -30,7 +30,7 @@ Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aid
     [Lisez le guide d’utilisation de la console RODECaster Pro II](../medias/rodecaster.md), qui explique pas à pas le fonctionnement de la console, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
 
 
-Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? Sachez que vous pouvez la faire intervenir via un logiciel de visioconférence [directement branché sur la console de mixage](#).
+Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? Sachez que vous pouvez la faire intervenir via un logiciel de visioconférence [directement branché sur la console de mixage](./rodecaster.md#4-connecter-un-périphérique-bluetooth-ou-usb).
 </details>
 
 <details>
