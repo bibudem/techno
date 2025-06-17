@@ -155,4 +155,4 @@ Replacer tout mobilier utilisé au cours de la session.
 
 ## Édition
 
-[Des postes d'édition](postes-edition) sont mis à votre disposition avec une suite de logicielle pour faire du montage.
+[Des postes d'édition](postes-edition.md) sont mis à votre disposition avec une suite de logicielle pour faire du montage.
