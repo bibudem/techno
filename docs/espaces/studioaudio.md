@@ -44,9 +44,10 @@ import StudioCard from '@site/src/components/StudioCard';
     <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2
     </strong></>
   }
-    mapLink="https://calendrier.bib.umontreal.ca/space/27462"
-    description="À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio."
-    reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
+    mapLink="https://maps.app.goo.gl/cXprvQUPjBzQ6c8L8"
+    description={<> À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio.</>
+    }
+    reserveLink="https://calendrier.bib.umontreal.ca/space/27462"
     reserveText="Réserver"
   />
   <StudioCard
