@@ -50,13 +50,13 @@ Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? 
   
     Votre création est prête à faire son entrée en scène?
 
-    [Spotify for Podcasters](https://podcasters.spotify.com/) est la plateforme qu’on recommande pour la diffusion de votre balado sur les différents services comme Spotify, Apple Podcasts et autres. C’est gratuit et vous pouvez à tout moment changer de plateforme.
+    [Spotify for Creators](https://creators.spotify.com/) est la plateforme qu’on recommande pour la diffusion de votre balado sur les différents services comme Spotify, Apple Podcasts et autres. C’est gratuit et vous pouvez à tout moment changer de plateforme.
 </details>
 
 <details>
   <summary>**Audiogramme**</summary>
   
-    Avez-vous entendu parler des audiogrammes? C’est une vidéo avec un extrait sonore présentant une image fixe, une forme d’onde et des fois, des transcriptions. [Voici un exemple d’audiogramme](https://www.youtube.com/watch?v=jibvu9BHV_k). Vous pouvez utiliser [Descript](https://www.descript.com/) ou créer le vôtre avec [Adobe After Effects](../informatique/logiciels/adobe.md).
+    C’est une vidéo avec un extrait sonore présentant une image fixe, une forme d’onde et des fois, des transcriptions. [Voici un exemple d’audiogramme](https://www.youtube.com/watch?v=jibvu9BHV_k). Vous pouvez utiliser [Descript](https://www.descript.com/) ou créer le vôtre avec [Adobe After Effects](../informatique/logiciels/adobe.md).
 </details>
 
 <details>
