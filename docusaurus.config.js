@@ -31,7 +31,7 @@ const config = {
   },
 
   clientModules: [
-    require.resolve('./src/clientModules/udemCookieConsent.js'),
+    require.resolve('./src/clientModules/udemConsent.js'),
     require.resolve('./src/clientModules/trackerLoader.js'),
   ],
 

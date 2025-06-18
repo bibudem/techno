@@ -1,4 +1,3 @@
-// src/clientModules/trackerLoader.js
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 function loadScript(src, onLoad) {
@@ -10,12 +9,13 @@ function loadScript(src, onLoad) {
 }
 
 function initGA() {
-  loadScript('https://www.googletagmanager.com/gtag/js?id=G-R5SGXR9DKM', () => {
+  const id = 'G-R5SGXR9DKM';
+  loadScript(`https://www.googletagmanager.com/gtag/js?id=${id}`, () => {
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ window.dataLayer.push(arguments); }
+    window.gtag = function () { window.dataLayer.push(arguments); };
     gtag('js', new Date());
-    gtag('config', 'G-R5SGXR9DKM');
-    console.log('GA chargé');
+    gtag('config', id);
+    console.log('✅ Google Analytics chargé');
   });
 }
 
@@ -25,20 +25,22 @@ function initClarity() {
     t=l.createElement(r); t.async=1; t.src="https://www.clarity.ms/tag/"+i;
     y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
   })(window, document, "clarity", "script", "r5bxj4q7vj");
-  console.log('Clarity chargé');
+  console.log('✅ Clarity chargé');
 }
 
 if (ExecutionEnvironment.canUseDOM) {
-  // Handler pour réagir aux changements de consentement UdeM
+  // Gérer le consentement UdeM
   function handleConsent(categories) {
     if (categories.performanceCookies) initGA();
-    if (categories.adsCookies)         initClarity();
+    if (categories.adsCookies) initClarity();
   }
-  // Enregistrement du handler
+
+  // Enregistre le handler pour écoute future
   if (typeof window.on_udem_cookie_update_consent === 'function') {
     window.on_udem_cookie_update_consent(handleConsent);
   }
-  // Si le consentement a déjà eu lieu avant le chargement de ce module
+
+  // Si le consentement est déjà présent
   if (window.__UDemConsent) {
     handleConsent(window.__UDemConsent);
   }
