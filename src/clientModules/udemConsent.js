@@ -1,51 +1,30 @@
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-if (ExecutionEnvironment.canUseDOM) {
-  // Charge les composants web
-  const scriptConsent = document.createElement('script');
-  scriptConsent.src = 'https://cdn.jsdelivr.net/gh/bibudem/ui@1/dist/bib-consent.js';
-  scriptConsent.type = 'module';
-  document.head.appendChild(scriptConsent);
-
-  const scriptBtn = document.createElement('script');
-  scriptBtn.src = 'https://cdn.jsdelivr.net/gh/bibudem/ui@1/dist/bib-consent-preferences-btn.js';
-  scriptBtn.type = 'module';
-  document.head.appendChild(scriptBtn);
-
-  // Injecte les deux composants dans le DOM
-  const consentEl = document.createElement('bib-consent');
-  // const btnEl = document.createElement('bib-consent-preferences-btn');
-
-  document.body.appendChild(consentEl);
-  // document.body.appendChild(btnEl);
-
-  // Active GA/Clarity selon le consentement
-  window.addEventListener('consent-update', (event) => {
-    const prefs = event.detail;
-    if (prefs?.analytics) loadGA();
-    if (prefs?.ads) loadClarity();
-  });
-
-  function loadGA() {
-    const s = document.createElement('script');
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-R5SGXR9DKM';
-    s.async = true;
-    s.onload = () => {
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function () { window.dataLayer.push(arguments); };
-      gtag('js', new Date());
-      gtag('config', 'G-R5SGXR9DKM');
-      console.log('✅ GA actif');
-    };
-    document.head.appendChild(s);
-  }
-
-  function loadClarity() {
-    (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r); t.async=1; t.src='https://www.clarity.ms/tag/' + i;
-      y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
-    })(window, document, 'clarity', 'script', 'r5bxj4q7vj');
-    console.log('✅ Clarity actif');
-  }
+function loadScript(src, isModule = false) {
+  const s = document.createElement('script');
+  s.src = src;
+  s.async = true;
+  if (isModule) s.type = 'module';
+  document.head.appendChild(s);
 }
+
+function injectConsentComponent() {
+  const el = document.createElement('bib-consent');
+  el.setAttribute('server-url', '/consent-server');
+  document.body.appendChild(el);
+}
+
+if (ExecutionEnvironment.canUseDOM) {
+  loadScript('https://cdn.jsdelivr.net/gh/bibudem/ui@1/dist/bib-consent.js', true);
+  loadScript('https://cdn.jsdelivr.net/gh/bibudem/ui@1/dist/bib-consent-preferences-btn.js', true);
+  injectConsentComponent();
+}
+
+window.addEventListener('consent-tokens-ready', () => {
+  const placeholder = document.getElementById('footer-btn-placeholder');
+  if (placeholder) {
+    const btn = document.createElement('bib-consent-preferences-btn');
+    btn.className = 'footerBtn';
+    placeholder.replaceWith(btn);
+  }
+});

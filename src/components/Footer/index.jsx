@@ -119,7 +119,7 @@ export default function Footer() {
         <span>|</span>
         <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
         <span>|</span>
-<bib-consent-preferences-btn class="footerBtn" />
+<span id="footer-btn-placeholder" />
       </div>
     </footer>
   );

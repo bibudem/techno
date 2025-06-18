@@ -185,22 +185,12 @@
 }
 
 .footerBtn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.975rem;
   color: var(--color-link);
+  font-size: 0.875rem;
+  font-weight: 500;
   text-decoration: none;
-  font-weight: normal;
-  cursor: pointer;
-  font-family: inherit;
-  background: none;
-  border: none;
-  padding: 0;
 }
-
-.footerBtn:hover,
-.footerBtn:focus {
-  color: var(--color-accent);
+.footerBtn:hover {
   text-decoration: underline;
+  color: var(--color-accent);
 }
