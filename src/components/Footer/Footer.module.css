@@ -183,3 +183,24 @@
     border-radius: 0;
   }
 }
+
+.footerBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.975rem;
+  color: var(--color-link);
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+  font-family: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.footerBtn:hover,
+.footerBtn:focus {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
