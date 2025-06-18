@@ -11,22 +11,13 @@ if (ExecutionEnvironment.canUseDOM) {
     configurable: true,
   });
 
-  // Wrapper pour intercepter la vraie fonction appelée
-  Object.defineProperty(window, 'on_udem_cookie_update_consent', {
-    set(fn) {
-      // On intercepte la fonction UdeM
-      window._udem_consent_receiver = (categories) => {
-        window.__UDemConsent = categories;
-        fn?.(categories); // on appelle la vraie fonction attendue
-      };
-    },
-    get() {
-      return window._udem_consent_receiver;
-    },
-    configurable: true,
-  });
+  // Fournir une fonction qui retourne une promesse, comme attendu
+  window.on_udem_cookie_update_consent = async (categories) => {
+    window.__UDemConsent = categories;
+    return Promise.resolve(); // nécessaire pour ne pas provoquer d’erreur
+  };
 
-  // Injecte le script
+  // Charger le script UdeM
   const s = document.createElement('script');
   s.src = 'https://secretariatgeneral.umontreal.ca/udem_consentement_temoins.js?lg=fr';
   s.async = true;
