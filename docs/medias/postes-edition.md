@@ -25,7 +25,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Nos postes d'édition numérique offrent la possibilité de créer, éditer et publier des productions vidéo, audio et graphiques. Nous mettons à votre disposition une large gamme de logiciels spécialisés, notamment la suite Adobe Creative Cloud et DaVinci Resolve Studio.
 
-<Link to="../informatique/logiciels" className="button button--secondary">
+<Link to="/informatique/logiciels" className="button button--secondary">
   Consulter la liste des logiciels offerts
 </Link>
 
