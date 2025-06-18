@@ -11,7 +11,7 @@ if (ExecutionEnvironment.canUseDOM) {
     configurable: true,
   });
 
-  // Charger le script de consentement UdeM
+  // Charger le script UdeM
   const s = document.createElement('script');
   s.src = 'https://secretariatgeneral.umontreal.ca/udem_consentement_temoins.js?lg=fr';
   s.async = true;

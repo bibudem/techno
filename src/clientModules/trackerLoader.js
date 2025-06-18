@@ -15,7 +15,7 @@ function initGA() {
     window.gtag = function () { window.dataLayer.push(arguments); };
     gtag('js', new Date());
     gtag('config', id);
-    console.log('Google Analytics chargé');
+    console.log('✅ Google Analytics chargé');
   });
 }
 
@@ -25,24 +25,21 @@ function initClarity() {
     t=l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
     y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
   })(window, document, "clarity", "script", "r5bxj4q7vj");
-  console.log('Clarity chargé');
+  console.log('✅ Clarity chargé');
 }
 
 function waitForConsent(callback) {
-  const observer = new MutationObserver(() => {
-    const consentElement = document.querySelector('[data-cookie-consent-accepted]');
-    if (consentElement) {
-      // Appelle le callback avec tout activé (fallback sécuritaire)
-      callback({
-        necessaryCookies: true,
-        performanceCookies: true,
-        adsCookies: true
-      });
-      observer.disconnect();
-    }
+  // Écoute active des changements de consentement
+  window.addEventListener('udem_cookie_consent_update', (event) => {
+    const categories = event.detail;
+    window.__UDemConsent = categories;
+    callback(categories);
   });
 
-  observer.observe(document.body, { childList: true, subtree: true });
+  // Consentement déjà donné avant le chargement
+  if (window.udem_cookie_consent_current_state) {
+    callback(window.udem_cookie_consent_current_state);
+  }
 }
 
 if (ExecutionEnvironment.canUseDOM) {
