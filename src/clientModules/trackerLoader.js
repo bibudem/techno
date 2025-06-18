@@ -28,20 +28,19 @@ function initClarity() {
   console.log('✅ Clarity chargé');
 }
 
+function waitForConsent(callback) {
+  const interval = setInterval(() => {
+    const c = window.__UDemConsent;
+    if (c && typeof c === 'object') {
+      clearInterval(interval);
+      callback(c);
+    }
+  }, 300);
+}
+
 if (ExecutionEnvironment.canUseDOM) {
-  // Gérer le consentement UdeM
-  function handleConsent(categories) {
+  waitForConsent((categories) => {
     if (categories.performanceCookies) initGA();
     if (categories.adsCookies) initClarity();
-  }
-
-  // Enregistre le handler pour écoute future
-  if (typeof window.on_udem_cookie_update_consent === 'function') {
-    window.on_udem_cookie_update_consent(handleConsent);
-  }
-
-  // Si le consentement est déjà présent
-  if (window.__UDemConsent) {
-    handleConsent(window.__UDemConsent);
-  }
+  });
 }
