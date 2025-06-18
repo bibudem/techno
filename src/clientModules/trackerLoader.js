@@ -29,13 +29,20 @@ function initClarity() {
 }
 
 function waitForConsent(callback) {
-  const interval = setInterval(() => {
-    const c = window.__UDemConsent;
-    if (c && typeof c === 'object') {
-      clearInterval(interval);
-      callback(c);
+  const observer = new MutationObserver(() => {
+    const consentElement = document.querySelector('[data-cookie-consent-accepted]');
+    if (consentElement) {
+      // Appelle le callback avec tout activé (fallback sécuritaire)
+      callback({
+        necessaryCookies: true,
+        performanceCookies: true,
+        adsCookies: true
+      });
+      observer.disconnect();
     }
-  }, 300);
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 }
 
 if (ExecutionEnvironment.canUseDOM) {
