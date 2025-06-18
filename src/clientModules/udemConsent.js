@@ -1,7 +1,7 @@
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 if (ExecutionEnvironment.canUseDOM) {
-  // Forcer le français
+  // Forcer la langue en français
   Object.defineProperty(navigator, 'language', {
     get: () => 'fr',
     configurable: true,
@@ -11,13 +11,7 @@ if (ExecutionEnvironment.canUseDOM) {
     configurable: true,
   });
 
-  // Fournir une fonction qui retourne une promesse, comme attendu
-  window.on_udem_cookie_update_consent = async (categories) => {
-    window.__UDemConsent = categories;
-    return Promise.resolve(); // nécessaire pour ne pas provoquer d’erreur
-  };
-
-  // Charger le script UdeM
+  // Charger le script de consentement UdeM
   const s = document.createElement('script');
   s.src = 'https://secretariatgeneral.umontreal.ca/udem_consentement_temoins.js?lg=fr';
   s.async = true;
