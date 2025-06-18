@@ -1,7 +1,7 @@
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 if (ExecutionEnvironment.canUseDOM) {
-  // Forcer le français pour la bannière
+  // Forcer le français
   Object.defineProperty(navigator, 'language', {
     get: () => 'fr',
     configurable: true,
@@ -11,12 +11,22 @@ if (ExecutionEnvironment.canUseDOM) {
     configurable: true,
   });
 
-  // Enregistrer le consentement globalement
-  window.on_udem_cookie_update_consent = (categories) => {
-    window.__UDemConsent = categories;
-  };
+  // Wrapper pour intercepter la vraie fonction appelée
+  Object.defineProperty(window, 'on_udem_cookie_update_consent', {
+    set(fn) {
+      // On intercepte la fonction UdeM
+      window._udem_consent_receiver = (categories) => {
+        window.__UDemConsent = categories;
+        fn?.(categories); // on appelle la vraie fonction attendue
+      };
+    },
+    get() {
+      return window._udem_consent_receiver;
+    },
+    configurable: true,
+  });
 
-  // Charger le script UdeM
+  // Injecte le script
   const s = document.createElement('script');
   s.src = 'https://secretariatgeneral.umontreal.ca/udem_consentement_temoins.js?lg=fr';
   s.async = true;
