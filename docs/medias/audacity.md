@@ -99,7 +99,7 @@ Libre de droits signifie que vous n’avez pas à payer de redevances, pas que v
 </details>
 
 <details>
-  <summary>**Trouver des musiques libres de droits**</summary>
+  <summary>**Trouver des effets sonores libres de droits**</summary>
   - [La sonothèque](https://www.lasonotheque.org/) : Banque d’effets sonores sans aucune restriction d’utilisation (il est cependant toujours courtois de créditer l’auteur).
   - [Freesound](https://freesound.org/) : Banque d’effets sonores. La licence d’utilisation est spécifiée pour chaque fichier.
   - [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/) : Banque d’effets sonores. La licence d’utilisation est spécifiée pour chaque fichier.
