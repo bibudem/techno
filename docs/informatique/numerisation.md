@@ -23,8 +23,6 @@ import Link from '@docusaurus/Link';
   }} 
 />
 
-# Numérisation
-
 Les bibliothèques de l'UdeM mettent à votre disposition un service de numérisation gratuit, accessible sur place. Profitez de cette opportunité pour convertir vos documents physiques en format numérique, afin de les conserver, de les partager ou de les utiliser dans vos recherches académiques.
 
 ---

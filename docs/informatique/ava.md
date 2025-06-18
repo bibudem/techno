@@ -1,5 +1,5 @@
 ---
-title: Postes AVA
+title: Postes Apportez Votre Appareil (AVA)
 description: Information sur les postes AVA (Apportez Vos Appareils) disponibles dans les bibliothèques UdeM.
 image: "/img/cover/ordinateurs.webp"
 ---
@@ -17,8 +17,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     borderRadius: "8px"
   }} 
 />
-
-# Postes Apportez Votre Appareil (AVA)
 
 Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez Votre Appareil (AVA)**. Ces postes vous permettent de brancher votre ordinateur portable à un écran large via HDMI ou USB-C. Vous aurez également accès à un clavier et une souris pour une meilleure ergonomie. **Aucune réservation requise.**
 

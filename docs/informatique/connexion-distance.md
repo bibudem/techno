@@ -1,5 +1,5 @@
 ---
-title : Connexion à distance
+title : Connexion à distance aux logiciels 
 image: "/img/cover/distance.webp"
 help: info
 ---
@@ -23,7 +23,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import PostesDisponibles from '@site/src/components/PostesDisponibles';
 
-# Connexion à distance aux logiciels 
 
 Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS de chez vous ? Utilisez nos postes publics à distance.
 

@@ -27,7 +27,6 @@ import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 import Link from '@docusaurus/Link';
 
-# Ordinateurs
 
 ## Libre-service
 

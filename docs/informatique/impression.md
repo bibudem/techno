@@ -25,7 +25,6 @@ import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 import Link from '@docusaurus/Link';
 
-# Impression
 
 Le Service d'Impression de l'UdeM (SIUM) offre des services d'impression, de photocopie et de numérisation dans les bibliothèques de l'UdeM, accessibles depuis les ordinateurs publics ou les appareils personnels.
 
