@@ -78,7 +78,7 @@ Sur rendez vous, un membre de l’équipe des bibliothèques de l’UdeM vous ac
 
 En plus des consultations, des formations sont offertes sur l’utilisation des studios. Pour les détails et les dates, consultez le  [calendrier des formations des bibliothèques](https://bib.umontreal.ca/formations/calendrier).
 
-<Link to=".././medias/rodecaster" className="button button--secondary">
+<Link to="../medias/rodecaster" className="button button--secondary">
   Consulter la documentation
 </Link>
 
