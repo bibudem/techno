@@ -32,7 +32,7 @@ const config = {
 
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
-    // require.resolve('./src/clientModules/trackerLoader.js'),
+    require.resolve('./src/clientModules/trackerLoader.js'),
   ],
 
   presets: [
