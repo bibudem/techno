@@ -94,7 +94,7 @@ export default function PageAccueil() {
             />
             <CardMedia
               to="/informatique/ava"
-              title="Postes AVA"
+              title="Postes Apportez Votre Appareil (AVA)"
               text="Étendez votre horizon de travail avec un grand affichage."
               imageUrl="/img/home-ava.webp"
             />
