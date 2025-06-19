@@ -38,7 +38,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     6. Sur la page web, cliquer sur **ICI** et sélectionner les options **Mémoriser** et **Toujours**.
     7. Cliquer **Ouvrir**.
     8. Accepter et installer toutes les composantes proposées par les fenêtres modales.
-    9. Le premier branchement VPN est automatique. L’icône Pulse Secure apparaît en bas à droite de l’écran pour indiquer la connexion au VPN.
+    9. Le premier branchement VPN est automatique. L’icône Ivanti Secure Access Client apparaît en bas à droite de l’écran pour indiquer la connexion au VPN.
   </TabItem>
 
   <TabItem value="ios" label="iOS">
@@ -67,19 +67,19 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    1. Lancer l'application **Pulse Secure** (coin supérieur droit).
+    1. Lancer l'application **Ivanti Secure Access Client** (coin supérieur droit).
     2. Sélectionner **UdeM Campus** → **Connexion**.
     3. S’authentifier avec ses informations d'authentification.
     4. Procéder à l'authentification à deux facteurs (A2F).
-    5. Pour se déconnecter, cliquer sur l'icône **Pulse Secure** (coin supérieur droit) et sélectionner **Déconnexion**.
+    5. Pour se déconnecter, cliquer sur l'icône **Ivanti Secure Access Client** (coin supérieur droit) et sélectionner **Déconnexion**.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
-    1. Lancer l'application Pulse Secure (menu démarrer Windows).
+    1. Lancer l'application **Ivanti Secure Access Client** (menu démarrer Windows).
     2. Sélectionner UdeM Campus → Connexion.
     3. S’authentifier avec ses informations d'authentification.
     4. Procéder à l'authentification à deux facteurs (A2F).
-    5. Pour se déconnecter, cliquer sur l'icône Pulse Secure (en bas à droite) et sélectionner **Déconnexion**.
+    5. Pour se déconnecter, cliquer sur l'icône Ivanti Secure Access Client (en bas à droite) et sélectionner **Déconnexion**.
   </TabItem>
 </Tabs>
 
@@ -107,8 +107,8 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    1. Cliquer sur l'icône **Pulse Secure** (en haut à droite) et quitter l'application.
-    2. Aller à **Finder** → **Applications** → Clic droit sur **Pulse Secure** → Placer dans la corbeille.
+    1. Cliquer sur l'icône **Ivanti Secure Access Client** (en haut à droite) et quitter l'application.
+    2. Aller à **Finder** → **Applications** → Clic droit sur **Ivanti Secure Access Client* → Placer dans la corbeille.
     3. Cliquer **No** à **save configuration**.
     4. Vider la corbeille.
   </TabItem>
@@ -116,7 +116,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
   <TabItem value="windows" label="Windows">
     1. Cliquer le bouton **Démarrer**, puis **Paramètres**.
     2. Cliquer **Applications**.
-    3. Sélectionner tous les items Pulse Secure puis **Désinstaller**.
+    3. Sélectionner tous les items **Pulse Secure** et **Ivanti Secure Access Client** puis **Désinstaller**.
     4. Cliquer **Oui** pour redémarrer si demandé.
     5. Redémarrer l’ordinateur.
   </TabItem>
