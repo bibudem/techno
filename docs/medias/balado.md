@@ -12,7 +12,7 @@ Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et
 
 Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aider à enregistrer votre balado dans des conditions professionnelles.
 
-<Link to="../espaces/studioaudio" className="button button--primary">
+<Link to="/espaces/studioaudio" className="button button--primary">
   Réserver un studio audio
 </Link>
 

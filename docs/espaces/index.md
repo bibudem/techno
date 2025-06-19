@@ -26,6 +26,12 @@ import CardGrid from "@site/src/components/CardGrid";
       icon : "Cube",
     },
     {
+      title: "Salle de visionnement en équipe",
+      description: "Un espace confortable pour visionner des contenus multimédias en groupe.",
+      link: "salledevisio",
+      icon : "MonitorPlay",
+    },
+    {
       title: "Studios audio",
       description: "Enregistrez des balados, des entretiens et des présentations avec du matériel professionnel.",
       link: "studioaudio",
@@ -37,12 +43,7 @@ import CardGrid from "@site/src/components/CardGrid";
       link: "studiovideo",
       icon : "VideoCamera",
     },
-    {
-      title: "Salle de visionnement",
-      description: "Un espace confortable pour visionner des contenus multimédias en groupe.",
-      link: "salledevisio",
-      icon : "MonitorPlay",
-    },
+
         {
       title: "Laboratoire de visualisation",
       description: "Un environnement pour interagir avec des données visuelles sur grand écran.",

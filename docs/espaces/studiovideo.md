@@ -24,6 +24,12 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
+:::danger Fermeture estivale du studio à la Bibliothèque Thérèse-Gouin-Décarie
+Le studio vidéo est fermé pour l’été en raison de travaux d’entretien.
+
+Réouverture prévue à l’automne.
+:::
+
 Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous 5 différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone!
 
 ---

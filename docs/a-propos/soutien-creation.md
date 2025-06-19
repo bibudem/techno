@@ -23,13 +23,6 @@ Nous offrons du soutien pour vos projets créatifs et vos productions multimédi
 
 Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
 
-## Formulaire de contact
-Pour toute question ou information supplémentaire, remplir le formulaire ci-dessous. Une réponse sera envoyée dans les plus brefs délais.
-
-<FormulaireContactAPI />
-
-## Autres moyens de nous contacter
-Il est aussi possible de nous contacter par courriel ou de prendre rendez-vous.
 <CardGrid
   items={[
     {
@@ -46,5 +39,10 @@ Il est aussi possible de nous contacter par courriel ou de prendre rendez-vous.
     },
     ]}
 />
+
+## Formulaire de contact
+Pour toute question ou information supplémentaire, remplir le formulaire ci-dessous. Une réponse sera envoyée dans les plus brefs délais.
+
+<FormulaireContactAPI />
 
 

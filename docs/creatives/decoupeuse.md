@@ -1,10 +1,24 @@
 ---
 id : decoupeuse
 title : Découpeuse
+image: "/img/cover/vinyl.webp"
 ---
 
 import CardGrid from '@site/src/components/CardGrid';
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt=""
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Découpeuse
 

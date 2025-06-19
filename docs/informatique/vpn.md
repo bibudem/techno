@@ -7,7 +7,6 @@ help: info
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Installer le VPN
 
 Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 

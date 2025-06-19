@@ -183,3 +183,14 @@
     border-radius: 0;
   }
 }
+
+.footerBtn {
+  color: var(--color-link);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footerBtn:hover {
+  text-decoration: underline;
+  color: var(--color-accent);
+}

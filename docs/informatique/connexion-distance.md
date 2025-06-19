@@ -1,5 +1,5 @@
 ---
-title : Connexion à distance
+title : Connexion à distance aux logiciels 
 image: "/img/cover/distance.webp"
 help: info
 ---
@@ -23,7 +23,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import PostesDisponibles from '@site/src/components/PostesDisponibles';
 
-# Connexion à distance aux logiciels 
 
 Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS de chez vous ? Utilisez nos postes publics à distance.
 
@@ -34,7 +33,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 ## Avant de commencer
 
 - [Procédure à suivre avant la connexion](#procédure-de-connexion).
-- Membre de la communauté étudiante avec un statut employé? [Suivre cette procédure](#étudiants-avec-statut-demployé).
+- Membre de la communauté étudiante avec un statut employé? [Suivre cette procédure](#étudiants-et-étudiantes-avec-statut-demployé).
 - Inactivité : Votre session se ferme automatiquement après 15 minutes.
 - Sauvegarde : Sauvegardez vos documents avant de quitter, ils seront supprimés après la session.
 - Déconnexion : Déconnectez-vous dès que vous avez terminé pour libérer le poste.
@@ -43,7 +42,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 
 ## Postes actuellement disponibles
 
-Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](logiciels) pour plus de détails.
+Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](/informatique/logiciels) pour plus de détails.
 
 <div className="grid-container">
   

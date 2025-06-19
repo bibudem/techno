@@ -7,7 +7,7 @@ import Link from '@docusaurus/Link';
 Ce guide vous permet une première prise en main de la console d’enregistrement **RODECaster Pro II**.
 
 :::tip Vous débutez en baladodiffusion?
- Consultez aussi notre [guide d’introduction à la baladodiffusion](./balado) pour bien planifier votre enregistrement avant d'utiliser le RØDECaster Pro II.
+ Consultez aussi notre [guide d’introduction à la baladodiffusion](/medias/balado) pour bien planifier votre enregistrement avant d'utiliser le RØDECaster Pro II.
 :::
 
 :::warning Attention

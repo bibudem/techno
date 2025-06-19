@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  alt=""
   style={{
     width: "100%",
     maxWidth: "1200px",
@@ -45,24 +45,23 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       icon: "Circuitry",
     },
     {
+      title: "Raspberry Pi",
+      description: `Le Raspberry Pi est un mini-ordinateur abordable conçu pour l’apprentissage de l’informatique et de l’électronique.`,
+      link: "/creatives/electronique/raspberrypi",
+      icon: "DesktopTower",
+    },
+    {
       title: "Pièces électroniques",
       description: ` Découvrez la liste des pièces électroniques disponibles aux bibliothèques de l'UdeM.`,
       link: "/creatives/electronique/pieces",
       icon: "Circuitry",
     },
-
   ]}
 />
 
 ---
 
-    <!-- {
-      title: "Raspberry Pi",
-      description: `
-      Le Raspberry Pi est un mini-ordinateur abordable conçu pour l’apprentissage de l’informatique et de l’électronique.`,
-      link: "/creatives/electronique/raspberrypi",
-      icon: "DesktopTower",
-    },
+    <!-- 
         {
       title: "Multimètre",
       description: `

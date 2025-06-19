@@ -61,7 +61,7 @@ Disponibles en ce moment :
     {
       title: "Catalogue d'expériences",
       description: "Découvrez les expériences disponibles sur les casques de réalité virtuelle Meta Quest 3",
-      link: "vr/catalogue",
+      link: "/creatives/vr/catalogue",
     }
   ]}
 />

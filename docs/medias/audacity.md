@@ -84,7 +84,29 @@ Pour ajouter un fondu, sélectionner la zone dont vous souhaitez progressivement
 ## Ajouter des pistes (musique, effets sonores)
 
 Une fois que votre piste principale éditée, il est possible d'ajouter des musiques d’ambiance et des effets sonores.
-Consultez la liste des ressources.
+
+:::warning Attention
+Libre de droits signifie que vous n’avez pas à payer de redevances, pas que vous n’avez pas à créditer les auteurs.
+:::
+
+<details>
+  <summary>**Trouver des musiques libres de droits**</summary>
+  - [Blue Dot Sessions](https://www.sessions.blue/) : Banque de musiques [sous licence CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) à condition de respecter certaines conditions. Autrement vous devez acheter une licence. [Voir les détails des licences proposées](https://www.sessions.blue/licensing/).
+  - [ccMixter](https://ccmixter.org/) : Banque de musiques. La licence d’utilisation est spécifiée pour chaque fichier.
+  - [Netlabels Collection de l’Internet Archive](https://archive.org/details/netlabels) : Banque de musiques organisées par collection. La licence d’utilisation est spécifiée pour chaque collection.
+  - [Musopen](https://musopen.org/) : Banque spécialisée en musique classique. La licence d’utilisation est spécifiée pour chaque fichier.
+  - [Audio Library de YouTube](https://www.youtube.com/audiolibrary/music) : Banque de musiques organisées par genre ou par ambiance (mood). Vous devez contacter les artistes pour utiliser les musiques en dehors de YouTube. Voir les détails des conditions d’utilisation.
+</details>
+
+<details>
+  <summary>**Trouver des effets sonores libres de droits**</summary>
+  - [La sonothèque](https://www.lasonotheque.org/) : Banque d’effets sonores sans aucune restriction d’utilisation (il est cependant toujours courtois de créditer l’auteur).
+  - [Freesound](https://freesound.org/) : Banque d’effets sonores. La licence d’utilisation est spécifiée pour chaque fichier.
+  - [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/) : Banque d’effets sonores. La licence d’utilisation est spécifiée pour chaque fichier.
+  - [Zapsplat](https://www.zapsplat.com/) : Banque d’effets sonores. La licence d’utilisation est spécifiée pour chaque fichier.
+  - [SoundGator](https://www.soundgator.com/) : Banque d’effets sonores sans aucune restriction d’utilisation.
+  - [SoundBible](https://soundbible.com/) : Banque d’effets sonores sans aucune restriction d’utilisation.
+</details>
 
 1. Aller dans le menu **Fichier** → **Importer** → **Audio…**
 2. Choisir le fichier audio à ajouter à votre projet. Une nouvelle piste s’ajoutera alors à votre projet en-dessous de la première.
