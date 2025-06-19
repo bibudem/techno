@@ -32,7 +32,7 @@ import Link from '@docusaurus/Link';
 
 Les bibliothèques offrent des ordinateurs publics en libre-service. L’accès se fait via un code d’accès et un mot de passe.
 
-<Link to="logiciels" className="button button--primary">
+<Link to="/informatique/logiciels" className="button button--primary">
   Consulter la liste des logiciels offerts
 </Link>
 

@@ -42,7 +42,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 
 ## Postes actuellement disponibles
 
-Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](logiciels) pour plus de détails.
+Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](/informatique/logiciels) pour plus de détails.
 
 <div className="grid-container">
   

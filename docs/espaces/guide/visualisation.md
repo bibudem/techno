@@ -88,7 +88,7 @@ Des modèles sont disponibles pour vous aider à créer du contenu compatible av
 
 ![](/img/docs/labovisu-photoshop.webp)
 
-[Télécharger le gabarit Photoshop](../assets/gabarit-lv.psd)
+[Télécharger le gabarit Photoshop (format .psd - 6 Mo)](/files/gabarit-lv.psd)
 
 ## Configuration de l'espace
 
