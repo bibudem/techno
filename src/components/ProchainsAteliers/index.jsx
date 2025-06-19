@@ -103,7 +103,7 @@ export default function ProchainsAteliers() {
       </ul>
       <div className={styles.cardFooter}>
         <a
-          href="https://calendrier.bib.umontreal.ca/calendar"
+          href="https://calendrier.bib.umontreal.ca/"
           className={styles.cardMore}
         >
           Voir tous les ateliers →
