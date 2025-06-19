@@ -33,7 +33,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 ## Avant de commencer
 
 - [Procédure à suivre avant la connexion](#procédure-de-connexion).
-- Membre de la communauté étudiante avec un statut employé? [Suivre cette procédure](#étudiants-avec-statut-demployé).
+- Membre de la communauté étudiante avec un statut employé? [Suivre cette procédure](#étudiants-et-étudiantes-avec-statut-demployé).
 - Inactivité : Votre session se ferme automatiquement après 15 minutes.
 - Sauvegarde : Sauvegardez vos documents avant de quitter, ils seront supprimés après la session.
 - Déconnexion : Déconnectez-vous dès que vous avez terminé pour libérer le poste.
