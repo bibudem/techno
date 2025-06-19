@@ -2,7 +2,7 @@
 
 ## Contenu
 ### Espaces
-- Prises de vue en 360 des espaces : Amphithéâtre, nouveau studio balado LSH
+- Prises de vue en 360 des espaces : ~~Amphithéâtre~~, nouveau studio balado LSH
 - Documentation du nouveau studio balado LSH
   
 ### Ressources informatiques
@@ -17,7 +17,7 @@
 - Guide d'utilisation du casque Meta Quest 3
 - Mettre en ligne la section Électronique
   - ~~Arduino~~
-  - Raspberry Pi
+  - ~~Raspberry Pi~~
   - Internet des objets
   - Multimètre
 - ~~Mettre en avant les trousses techno-créatives~~
