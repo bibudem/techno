@@ -1,7 +1,7 @@
 ---
 id : decoupeuse
 title : Découpeuse
-image: "/img/cover/vinyl.jpg"
+image: "/img/cover/vinyl.webp"
 ---
 
 import CardGrid from '@site/src/components/CardGrid';
