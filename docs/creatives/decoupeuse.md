@@ -32,19 +32,19 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
     {
       title: "Silhouette Cameo 4",
       description: "",
-      link: "decoupeuse/cameo",
+      link: "/decoupeuse/cameo",
       icon: "Scissors",
     },
     {
       title: "Cricut Maker",
       description: "",
-      link: "decoupeuse/cricut",
+      link: "/decoupeuse/cricut",
       icon: "Scissors",
     },
     {
       title: "Brother SDX225",
       description: "",
-      link: "decoupeuse/brother",
+      link: "/decoupeuse/brother",
       icon: "Scissors",
     },
   ]}
