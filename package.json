@@ -17,6 +17,7 @@
     "@docusaurus/core": "^3.8.1",
     "@docusaurus/plugin-ideal-image": "^3.8.1",
     "@docusaurus/preset-classic": "^3.8.1",
+    "@easyops-cn/docusaurus-search-local": "^0.51.1",
     "@mdx-js/react": "^3.0.0",
     "@phosphor-icons/react": "^2.1.7",
     "@photo-sphere-viewer/core": "^5.13.2",

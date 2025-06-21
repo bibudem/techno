@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.espacesSidebar.category.Espaces": {
+    "message": "Espaces",
+    "description": "The label for category Espaces in sidebar espacesSidebar"
+  },
+  "sidebar.espacesSidebar.category.Amphithéâtre": {
+    "message": "Amphithéâtre",
+    "description": "The label for category Amphithéâtre in sidebar espacesSidebar"
+  },
+  "sidebar.espacesSidebar.category.Laboratoire de visualisation": {
+    "message": "Laboratoire de visualisation",
+    "description": "The label for category Laboratoire de visualisation in sidebar espacesSidebar"
+  },
+  "sidebar.informatiqueSidebar.category.Ressources informatiques": {
+    "message": "Ressources informatiques",
+    "description": "The label for category Ressources informatiques in sidebar informatiqueSidebar"
+  },
+  "sidebar.informatiqueSidebar.category.Accès hors campus": {
+    "message": "Accès hors campus",
+    "description": "The label for category Accès hors campus in sidebar informatiqueSidebar"
+  },
+  "sidebar.informatiqueSidebar.category.Numérisation": {
+    "message": "Numérisation",
+    "description": "The label for category Numérisation in sidebar informatiqueSidebar"
+  },
+  "sidebar.informatiqueSidebar.category.Logiciels": {
+    "message": "Logiciels",
+    "description": "The label for category Logiciels in sidebar informatiqueSidebar"
+  },
+  "sidebar.creativesSidebar.category.Technologies créatives": {
+    "message": "Technologies créatives",
+    "description": "The label for category Technologies créatives in sidebar creativesSidebar"
+  },
+  "sidebar.creativesSidebar.category.Impression 3D": {
+    "message": "Impression 3D",
+    "description": "The label for category Impression 3D in sidebar creativesSidebar"
+  },
+  "sidebar.creativesSidebar.category.Réalité virtuelle": {
+    "message": "Réalité virtuelle",
+    "description": "The label for category Réalité virtuelle in sidebar creativesSidebar"
+  },
+  "sidebar.creativesSidebar.category.Électronique": {
+    "message": "Électronique",
+    "description": "The label for category Électronique in sidebar creativesSidebar"
+  },
+  "sidebar.creativesSidebar.category.Découpeuse": {
+    "message": "Découpeuse",
+    "description": "The label for category Découpeuse in sidebar creativesSidebar"
+  },
+  "sidebar.mediasSidebar.category.Productions médias": {
+    "message": "Productions médias",
+    "description": "The label for category Productions médias in sidebar mediasSidebar"
+  },
+  "sidebar.mediasSidebar.category.Production audio": {
+    "message": "Production audio",
+    "description": "The label for category Production audio in sidebar mediasSidebar"
+  },
+  "sidebar.mediasSidebar.category.Production vidéo": {
+    "message": "Production vidéo",
+    "description": "The label for category Production vidéo in sidebar mediasSidebar"
+  },
+  "sidebar.mediasSidebar.category.Infographie": {
+    "message": "Infographie",
+    "description": "The label for category Infographie in sidebar mediasSidebar"
+  },
+  "sidebar.aboutSidebar.category.À propos": {
+    "message": "À propos",
+    "description": "The label for category À propos in sidebar aboutSidebar"
+  },
+  "sidebar.aboutSidebar.category.Nous joindre": {
+    "message": "Nous joindre",
+    "description": "The label for category Nous joindre in sidebar aboutSidebar"
+  }
+}
