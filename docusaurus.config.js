@@ -4,17 +4,11 @@ import remarkInsertHelp from './src/utils/remark-insert-help.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-   future: {
-    experimental_faster: {
-      rspackBundler: true, // required flag
-      rspackPersistentCache: true, // new flag
-    },
-    v4: true,
-    experimental_faster: true,
-  },
+
   title: 'studio·bib',
   tagline: '',
   favicon: 'img/favicon.svg',
+  
 
   url: 'https://studio.bib.umontreal.ca',
   baseUrl: '/',
@@ -30,6 +24,22 @@ const config = {
     locales: ['fr'],
   },
 
+  themes: [
+  [
+    '@easyops-cn/docusaurus-search-local',
+    {
+      hashed: false,
+      language: ['fr'],
+      docsRouteBasePath: '/',
+      highlightSearchTermsOnTargetPage: true,
+      explicitSearchResultPath: true,
+      docsPluginIdForPreferredVersion: 'default', 
+      indexDocs: true,
+      indexBlog: false,
+      searchBarShortcut: false,
+    },
+  ],
+],
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
     require.resolve('./src/clientModules/trackerLoader.js'),
@@ -41,6 +51,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          id: 'default',
           sidebarCollapsible: true,
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
@@ -59,18 +70,7 @@ const config = {
     ],
   ],
 
-themes: [
-  [
-    '@easyops-cn/docusaurus-search-local',
-    {
-      hashed: true,
-      language: ['fr'],
-      highlightSearchTermsOnTargetPage: true,
-      explicitSearchResultPath: true,
-      
-    },
-  ],
-],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -95,13 +95,13 @@ themes: [
           { type: 'docSidebar', sidebarId: 'creativesSidebar', position: 'left', label: 'Technologies créatives' },
           { type: 'docSidebar', sidebarId: 'mediasSidebar', position: 'left', label: 'Productions médias' },
           { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
-          {
-            to: 'https://bib.umontreal.ca',
-            label: 'bib.umontreal.ca',
-            position: 'right',
-            className: 'external-highlight-link',
-            external : false,
-          },
+          // {
+          //   to: 'https://bib.umontreal.ca',
+          //   label: 'bib.umontreal.ca',
+          //   position: 'right',
+          //   className: 'external-highlight-link',
+          //   external : false,
+          // },
         ],
       },
       prism: {
