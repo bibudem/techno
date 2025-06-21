@@ -2,6 +2,7 @@
 id : mission
 title : Mission
 retroaction : false
+search_exclude: true
 ---
 
 # Mission et objectifs

@@ -3,6 +3,7 @@ id : equipe
 title : Équipe
 hide_table_of_contents: true
 retroaction : false
+search_exclude: true
 ---
 
 :::info
