@@ -347,10 +347,10 @@
     "message": "Rechercher dans la documentation"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document trouvé|{count} documents trouvés"
+    "message": "1 page trouvé|{count} pages trouvées"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "Aucun document trouvé"
+    "message": "Aucune page trouvée"
   },
   "theme.SearchPage.searchContext.everywhere": {
     "message": "Partout"
