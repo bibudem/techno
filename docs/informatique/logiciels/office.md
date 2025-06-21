@@ -1,6 +1,7 @@
 ---
 title: Office 365
 description: Informations sur l'accès et l'installation d'Office 365 pour la communauté UdeM.
+search_ranking: 10
 ---
 
 import Tabs from '@theme/Tabs';

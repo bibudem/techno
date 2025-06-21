@@ -1,6 +1,7 @@
 ---
 id : adobe
 help : crea
+search_ranking: 10
 ---
 
 # Adobe Creative Cloud
