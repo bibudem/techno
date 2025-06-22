@@ -1,6 +1,6 @@
 ---
 title : Logiciels
-id: Logiciels
+id: logiciels
 hide_table_of_contents: true
 image: "/img/cover/logiciels.webp"
 ---

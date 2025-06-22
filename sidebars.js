@@ -91,7 +91,7 @@ const sidebars = {
           label: "Logiciels",
           collapsed: true, 
           collapsible: true,
-          link: { type: 'doc', id: 'informatique/Logiciels' }, 
+          link: { type: 'doc', id: 'informatique/logiciels' }, 
           items: [
             "informatique/connexion-distance",
             {
