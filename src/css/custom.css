@@ -536,3 +536,30 @@ top : 30% !important;
 }
 
 
+/* Klaro */
+
+.klaro .cookie-notice .cn-buttons .cm-btn.cm-btn-success,
+.klaro .cookie-modal .cm-btn.cm-btn-success.cm-btn-accept-all {
+  color:var(--bleu-50);
+  background-color:var(--gris-700);
+  font-weight:600
+}
+.klaro .cookie-modal a,
+.klaro .context-notice a,
+.klaro .cookie-notice a {
+  text-decoration:underline!important
+}
+.klaro .cookie-modal a,
+.klaro .context-notice a,
+.klaro .cookie-notice a {
+  color:var(--jaune)!important
+}
+.klaro .cookie-modal .cm-modal .cm-body span,
+.klaro .cookie-modal .cm-modal .cm-body ul.cm-purposes li.cm-purpose span.cm-required,
+p.purposes,
+.klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by a {
+  color:var(--jaune-pale)!important
+}
+.klaro .cookie-modal .cm-btn.cm-btn-info {
+  background-color:var(--bleu-400)!important
+}

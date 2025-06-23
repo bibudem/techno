@@ -8,7 +8,7 @@ var klaroConfig = {
   htmlTexts: true,
 //   mustConsent: true,
   acceptAll: true,
-  defaultLocale: 'fr',
+  // defaultLocale: 'fr',
   noticeAsModal: false,
 
   consentModal: {
@@ -23,6 +23,9 @@ var klaroConfig = {
         title: 'Paramètres de confidentialité',
         description:
           'Vos données personnelles sont utilisées pour enregistrer vos préférences, votre consentement et produire des statistiques anonymes. Pour plus d\'informations, veuillez consulter la <a href="https://vie-privee.umontreal.ca/confidentialite" target="_blank" rel="noopener">politique de confidentialité</a>.',
+          acceptAll: 'Accepter',
+        declineAll: 'Refuser',
+        manage: 'Gérer les paramètres',
       },
       consentNotice: {
         description:
