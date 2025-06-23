@@ -5,34 +5,17 @@ help: info
 ---
 
 import React from 'react';
-import OSDetection from '../../src/components/OSDetection';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
-import { getStored } from '@site/src/utils/localStorage';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-export const osOptions = ['macOS', 'Windows', 'iOS', 'Android'];
-export const macosOptions = ['12 et antérieurs', '13 et ultérieurs'];
-export const windowsOptions = ['Windows10', 'Windows11'];
-
-export function resolveDefault(key, fallback, options) {
-  const raw = getStored(key, fallback);
-  return options.includes(raw) ? raw : fallback;
-}
-
 # Configurer le serveur mandataire (proxy)
 
-<OSDetection />
+## Selectionner votre système d'exploitation
 
-<Tabs
-  groupId="os-tabs"
-  defaultValue={resolveDefault('docusaurus.tab.os-tabs', 'macOS', osOptions)}
->
+<Tabs groupId="os-tabs">
   <TabItem value="macOS" label="macOS">
-    <Tabs
-      groupId="macOS"
-      defaultValue={resolveDefault('docusaurus.tab.macOS', '12 et antérieurs', macosOptions)}
-    >
+    <Tabs groupId="macOS">
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs">
         :::warning
         Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
@@ -88,10 +71,7 @@ export function resolveDefault(key, fallback, options) {
   </TabItem>
 
   <TabItem value="Windows" label="Windows">
-    <Tabs
-      groupId="Windows"
-      defaultValue={resolveDefault('docusaurus.tab.Windows', 'Windows10', windowsOptions)}
-    >
+    <Tabs groupId="Windows">
       <TabItem value="Windows10" label="Windows 10">
         1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
         2. Activer **Utiliser un script d’installation**.  
