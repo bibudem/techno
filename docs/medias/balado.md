@@ -1,12 +1,24 @@
 ---
 title: Baladodiffusion
 help : crea
+image: "/img/cover/balado.jpg"
 ---
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Guide de la baladodiffusion
-
-Prenez le micro et faites résonner vos idées!
 
 Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et les savoirs voyagent sans frontières. Que ce soit pour vivre votre passion de l'art du récit, développer votre connaissance de cette technologie ou assouvir votre curiosité pour ce médium, ce guide se veut un complice à chaque étape de l'aventure audio.
 
