@@ -42,7 +42,7 @@ Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? 
 <details>
   <summary>**Post-production**</summary>
   
-    C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](./audacity), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou [Reaper](../informatique/logiciels/reaper.md). [Ces logiciels sont offerts en bibliothèque](../informatique/logiciels.md).
+    C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](../medias/audacity.md), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou Reaper. [Ces logiciels sont offerts en bibliothèque](../informatique/logiciels.md).
 </details>
 
 <details>
