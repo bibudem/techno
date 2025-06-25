@@ -17,7 +17,6 @@ import CardGrid from '@site/src/components/CardGrid';
     borderRadius: "8px"
   }} 
 />
-# Authentification
 
 L'authentification par code d'accès et mot de passe est nécessaire pour accéder à la plupart des services informatiques de l'Université de Montréal, comme se connecter au réseau sans fil, accéder au portail étudiant, à StudiUM, au courriel institutionnel ou aux ressources électroniques des bibliothèques. Ce service est offert par les Technologies de l'Information de l'Université de Montréal (TI).
 
