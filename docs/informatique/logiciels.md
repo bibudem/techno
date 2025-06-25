@@ -21,6 +21,7 @@ import Link from '@docusaurus/Link';
 />
 
 import LogicielCatalogue from '@site/src/components/LogicielCatalogue';
+import CardGrid from "@site/src/components/CardGrid";
 
 # Catalogue des logiciels
 L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'UdeM va des navigateurs internet les plus populaires, à la suite bureautique Microsoft Office, en passant par plusieurs logiciels spécialisés. Vous trouverez ici la liste non-exhaustive des logiciels offerts à la communauté UdeM.
@@ -30,6 +31,60 @@ L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'UdeM v
 </Link>
 
 ---
+
+## Les logiciels les plus demandés
+
+<CardGrid
+  items={[
+    {
+      title: "Office 365",
+      description: "",
+      link: "/informatique/logiciels/office",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "Zotero",
+      description: "",
+      link: "/informatique/logiciels/zotero",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "EndNote",
+      description: "",
+      link: "/informatique/logiciels/endnote",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "Antidote",
+      description: "",
+      link: "/informatique/logiciels/antidote",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "ChemDraw",
+      description: "",
+      link: "/informatique/logiciels/chemdraw",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "QDA Miner",
+      description: "",
+      link: "/informatique/logiciels/qdaminer",
+      icon : "",
+      petit: true,
+    },
+  ]}
+/>
+
+
+---
+
+## Chercher un logiciel
 
 Sélectionnez un logiciel pour afficher sa description, ses emplacements d’utilisation et, si disponible, ses guides d’aide. Certains logiciels peuvent être téléchargés sur un ordinateur personnel via un lien dédié.
 

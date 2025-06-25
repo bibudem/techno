@@ -119,6 +119,10 @@
   color: var(--gris-700);
 }
 
+.petit {
+  min-height: 80px;
+}
+
 @media screen and (max-width: 768px) {
   .grid {
     gap: 0.5rem;
