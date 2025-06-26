@@ -167,10 +167,6 @@ Avant de lancer l’impression ou de changer le filament, vous devez nettoyer le
 
 ## 5 - Pour en savoir plus
 
-- [Ultimaker Cura](https://support.ultimaker.com/hc/en-us/sections/360003548339-Ultimaker-Cura)
-
 - [Blog sur l'impression 3D | Ultimaker](https://ultimaker.com/fr/learn/blog)
 
 - [Loading materials on the Ultimaker S5](https://support.ultimaker.com/hc/en-us/articles/360011427140)
-
-- [Change the Ultimaker S5 configuration](https://support.ultimaker.com/hc/en-us/articles/360011544619-Change-the-Ultimaker-S5-configuration)
