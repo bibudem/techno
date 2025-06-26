@@ -41,7 +41,7 @@ Trouver [des logiciels pour concevoir vos propres créations](../impression3d/mo
 
 ![](/img/docs/configurer_bambu_studio_4.jpg)
 
-Si vous glissez plusieurs fichiers (objets), le logiciel le reconnaît et demande si vous vouloez charger ces fichiers comme un objet unique : sauf cas d'impressions multicouleurs, cliquer sur **non**
+Si vous glissez plusieurs fichiers (objets), le logiciel le reconnaît et demande si vous voulez charger ces fichiers comme un objet unique : sauf cas d'impressions multicouleurs, cliquer sur **non**
 
 ![](/img/docs/configurer_bambu_studio_5.jpg)
 
