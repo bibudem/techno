@@ -38,7 +38,7 @@ Vous pouvez facilement importer des fichiers existants dans Chitubox en utilisan
 2. Choisir l'option **Projet ouvert** si vous souhaitez charger un projet existant. Si vous préférez ouvrir un fichier maillé 3D, sélectionner **Ouvert...**.
 3. Parcourir vos fichiers pour trouver le fichier 3D que vous souhaitez importer.
 
-Pour connaître les types de fichiers 3D pris en charge, [consultez le manuel Chitubox](https://manual.chitubox.com/en-US/docs/chitubox-basic/latest/introduction#supported-file-formats).
+Pour connaître les types de fichiers 3D pris en charge, [consultez le manuel Chitubox](https://docs.chitubox.com/en-US/chitubox-basic/latest/introduction).
 
 ### Ajout de supports
 
