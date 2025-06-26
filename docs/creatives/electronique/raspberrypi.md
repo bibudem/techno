@@ -100,7 +100,7 @@ Comme le Raspberry Pi s’opère aussi via les lignes de commandes, voici une li
 
 ---
 
-<Link to="https://studiobib.notion.site/1e83598e9e2881579bfcdd818b858a2d?v=1e83598e9e2881fdb6ab000c2a7bf3c4&source=copy_link" className="button button--primary">
+<Link to="https://studiobib.notion.site/20e3598e9e2881a1887eff3b4228fa3d?v=20e3598e9e2881f9906e000c62612636&source=copy_link" className="button button--primary">
   Consulter le répertoire des projets électroniques
 </Link>
 
