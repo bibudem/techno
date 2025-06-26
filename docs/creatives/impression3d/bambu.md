@@ -17,8 +17,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Configuration de Bambu Lab Studio
 
-•	Sélectionner la région adéquat (ici **Amérique du Nord**)
-•	Sélectionner l’imprimante : par défaut elles sont toutes sélectionnées, dans le coin haut droite cliquer sur **Clear All** → sélectionner **Bambu Lab X1 Carbon** → **suivant**
+•	Sélectionner la région adéquate (ici **Amérique du Nord**)
+•	Sélectionner l’imprimante : par défaut elles sont toutes sélectionnées, dans le coin supérieur droit cliquer sur **Clear All** → sélectionner **Bambu Lab X1 Carbon** → **suivant**
 
 ![](/img/docs/configurer_bambu_studio_1.jpg)
 
@@ -41,7 +41,7 @@ Trouver [des logiciels pour concevoir vos propres créations](../impression3d/mo
 
 ![](/img/docs/configurer_bambu_studio_4.jpg)
 
-Si vous glissez plusieurs fichiers (objets), le logiciel le reconnaît et demande si nous voulons charger ces fichiers comme un objet unique : sauf cas d'impressions multicouleurs, cliquer sur **non**
+Si vous glissez plusieurs fichiers (objets), le logiciel le reconnaît et demande si vous vouloez charger ces fichiers comme un objet unique : sauf cas d'impressions multicouleurs, cliquer sur **non**
 
 ![](/img/docs/configurer_bambu_studio_5.jpg)
 
@@ -149,7 +149,7 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
 ![](/img/docs/configurer_bambu_studio_12.jpg)
 
 :::warning
-    Dans le cas d’objets avec des couleurs différentes, il est préférable de sélectionner, dans paramètres de la plaque, un mode d’impression non pas par couche mais par objet pour une impression plus rapide.
+    Dans le cas d’objets avec des couleurs différentes, il est préférable de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais par objet pour une impression plus rapide.
 :::
 
 
@@ -159,7 +159,7 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
 
 #### Un objet de plusieurs couleurs
 
-Si vous glisser un objet de plusieurs couleurs, Le logiciel vous demandera si vous voulez charger ces fichiers comme un objet unique, cliquer sur **Oui**.
+Si vous glissez un objet de plusieurs couleurs, Le logiciel vous demandera si vous voulez charger ces fichiers comme un objet unique, cliquer sur **Oui**.
 
 ![](/img/docs/configurer_bambu_studio_35.jpg)
 
