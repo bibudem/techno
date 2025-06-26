@@ -173,7 +173,7 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
 
 ![](/img/docs/configurer_bambu_studio_36.jpg)
 
-::: warning
+:::warning
     En général, les paramètres d'impression seront bien configurés, mais il faut tout de même les vérifier comme pour un objet classique avant de lancer l'impression.
 :::
 
