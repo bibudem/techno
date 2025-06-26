@@ -76,9 +76,9 @@ Une documentation complète est à votre disposition pour vous familiariser avec
 
 Sur rendez vous, un membre de l’équipe des bibliothèques de l’UdeM vous accompagne lors d’une prise en main initiale de l’équipement. Ce service optionnel, réservé aux membres de la communauté UdeM, n’inclut toutefois pas une présence continue d’un technicien pendant vos séances d’enregistrement, que vous devez mener de façon autonome.
 
-En plus des consultations, des formations sont offertes sur l’utilisation des studios. Pour les détails et les dates, consultez le  [calendrier des formations des bibliothèques](https://calendrier.bib.umontreal.ca/).
+En plus des consultations, des formations sont offertes sur l’utilisation des studios. Pour les détails et les dates, consultez le [calendrier des formations des bibliothèques](https://calendrier.bib.umontreal.ca/).
 
-<Link to="../medias/rodecaster" className="button button--secondary">
+<Link to="/medias/rodecaster" className="button button--secondary">
   Consulter la documentation
 </Link>
 
