@@ -50,30 +50,42 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
       description: "",
       link: "/creatives/impression3d/introduction",
       icon: "CubeFocus",
+      petit : true,
     },
     {
       title: "Les modèles 3D",
       description: "",
       link: "/creatives/impression3d/modeles3d",
       icon: "Cube",
+      petit : true,
+    },
+    {
+      title: "BambuLab X1C",
+      description: "",
+      link: "/creatives/impression3d/bambu",
+      icon: "",
+      petit : true,
     },
     {
       title: "Prusa i3 Mk3s+",
       description: "",
       link: "/creatives/impression3d/prusa",
       icon: "",
+      petit : true,
     },
     {
       title: "Ultimaker",
       description: "",
       link: "/creatives/impression3d/ultimaker",
       icon: "",
+      petit : true,
     },
     {
       title: "Elegoo Saturn 3 Ultra 12K",
       description: "",
       link: "/creatives/impression3d/saturn",
       icon: "",
+      petit : true,
     },
   ]}
 />

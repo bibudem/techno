@@ -303,7 +303,7 @@ const sidebars = {
           items: [
                 "creatives/impression3d/introduction",
                 "creatives/impression3d/modeles3d",
-                // "creatives/impression3d/bambu",
+                "creatives/impression3d/bambu",
                 "creatives/impression3d/prusa",
                 "creatives/impression3d/ultimaker",
                 "creatives/impression3d/saturn",
