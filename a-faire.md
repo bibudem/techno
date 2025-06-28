@@ -12,7 +12,7 @@
 - Créer la page Équipements de consultation
 
 ### Technologies créatives
-- Rajouter la documentation sur la BambuLab
+- ~~Rajouter la documentation sur la BambuLab~~
 - Des photos de l'Ultimaker, BambuLab et Elegoo Saturn
 - Guide d'utilisation du casque Meta Quest 3
 - Mettre en ligne la section Électronique
@@ -22,7 +22,7 @@
   - Multimètre
 - ~~Mettre en avant les trousses techno-créatives~~
 - Compléter la documentation sur la découpeuse Brother
-- Mettre en ligne la section Art textile
+- ~~Mettre en ligne la section Art textile~~
 - ~~Ajouter une image dans la page Robots~~
 - Régler la taille des images dans les pages Cricut et Silhouette
 
