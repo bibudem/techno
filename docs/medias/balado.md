@@ -1,7 +1,7 @@
 ---
 title: Baladodiffusion
 help : crea
-image: "/img/cover/balado.jpg"
+image: "/img/cover/balado.webp"
 ---
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
