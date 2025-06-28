@@ -62,7 +62,7 @@ Le prêt est d'une durée de **7 jours**. Le renouvellement est automatique à m
       title: "Accès sans fil pour iOS",
       description:
         "Configurez votre connexion Wi‑Fi sur votre appareil iOS pour accéder aux services UdeM.",
-      link: "[/informatique/reseau#udem-avec-cryptage",
+      link: "/informatique/reseau#udem-avec-cryptage",
     },
     {
       title: "Configuration du proxy sur iOS",
