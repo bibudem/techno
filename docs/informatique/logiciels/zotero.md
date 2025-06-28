@@ -7,6 +7,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
+:::tip
+Consulter [le guide d'utilisation de Zotero](https://boite-outils.bib.umontreal.ca/citer/zotero) dans la boîte à outils des bibliothèques.
+:::
+
 ## Préalables
 
 - Avoir ses [informations d'authentification](../authentification).
@@ -91,6 +95,3 @@ Dans Zotero, sous **Préférences** → **Générales**, décocher l’option su
 </TabItem>
 
 </Tabs>
-
-Pour plus d'informations sur Zotero, EndNote et les autres logiciels de gestion bibliographique (LGB)
-[Site web LGB](https://bib.umontreal.ca/lgb/zotero)
