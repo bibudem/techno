@@ -20,7 +20,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   }} 
 />
 
-<HideLastUpdated/> 
+<HideLastUpdated/>
 
 
 ## Rétroaction 
