@@ -35,14 +35,14 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
         )}
 
         {distance === "Oui" && (
-          <span
-            className="tag tag--distance tag--clickable"
-            onClick={handleDistanceClick}
-          >
-            <PlugsConnected size={16} weight="bold" className="icon" />
-            Accès à Distance
-          </span>
-        )}
+  <a
+    className="tag tag--distance tag--clickable"
+    href="/informatique/connexion-distance"
+  >
+    <PlugsConnected size={16} weight="bold" className="icon" />
+    Accès à Distance
+  </a>
+)}
 
         {lien && (
           <a
