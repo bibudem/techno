@@ -20,12 +20,12 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   }} 
 />
 
-<HideLastUpdated/>
+<HideLastUpdated/> 
 
 
 ## Rétroaction 
 
-Si vous voulez proposer des corrections ou nous suggérer des précisions à ajouter pour une section, vous pouvez utiliser la fonction de rétroaction en bas de chaque page pour nous faire parvenir votre commentaire.
+Si vous voulez proposer des corrections ou nous suggérer des précisions à ajouter pour une section, vous pouvez utiliser la fonction de rétroaction en bas de chaque page pour nous faire parvenir votre commentaire. 
 
 ---
 
