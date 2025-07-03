@@ -107,20 +107,39 @@ export default function Footer() {
 
       {/* Barre légale */}
       <div className={styles.bottomBar}>
-        <span>
-          © 2025 Bibliothèques de l’Université de Montréal.
-          Contenu sous{" "}
-          <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">
-            CC BY 4.0
-          </a>
-        </span>
-        <span>|</span>
-        <Link to="https://vie-privee.umontreal.ca/confidentialite/">Confidentialité</Link>
-        <span>|</span>
-        <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
-        <span>|</span>
-<span id="footer-btn-placeholder" />
-      </div>
+  <span>
+    © 2025 Bibliothèques de l’Université de Montréal.
+    Contenu sous{" "}
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">
+      CC BY 4.0
+    </a>
+  </span>
+  <span>|</span>
+  <Link to="https://vie-privee.umontreal.ca/confidentialite/">Confidentialité</Link>
+  <span>|</span>
+  <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
+  <span>|</span>
+  <span>
+  <button
+    type="button"
+    onClick={() => window.klaro?.show()}
+    style={{
+      background: "none",
+      border: "none",
+      padding: 0,
+      margin: 0,
+      color: "#fff", // 👈 identique aux autres liens
+      textDecoration: "underline",
+      cursor: "pointer",
+      font: "inherit"
+    }}
+    onMouseOver={e => (e.target.style.color = 'var(--color-accent)')}
+    onMouseOut={e => (e.target.style.color = '#fff')}
+  >
+    Gérer les paramètres de cookies
+  </button>
+</span>
+</div>
     </footer>
   );
 }

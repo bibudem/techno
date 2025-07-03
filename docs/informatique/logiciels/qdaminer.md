@@ -1,6 +1,7 @@
 ---
 title : Logiciel QDA Miner
 description : Guide pour l'installation du QDA Miner.
+help : info
 ---
 
 import Tabs from '@theme/Tabs';
@@ -36,11 +37,11 @@ Supprimez le logiciel, redémarrez, puis réinstallez.
 
 ## Assistance supplémentaire
 
-- 📞 **Téléphone :** `514 343-7288`
+- **Téléphone :** `514 343-7288`
   - Lundi–Vendredi : 6h–23h
   - Week-end : 8h–16h
-- 🌐 **Aide en ligne :** [ti.umontreal.ca/besoin-daide](https://ti.umontreal.ca/besoin-daide)
-- 📚 **Soutien informatique en bibliothèque :** [bib.umontreal.ca/soutien-informatique](https://bib.umontreal.ca/soutien-informatique)
+- **Aide en ligne :** [ti.umontreal.ca/besoin-daide](https://ti.umontreal.ca/besoin-daide)
+- **Soutien informatique en bibliothèque :** [bib.umontreal.ca/soutien-informatique](https://bib.umontreal.ca/soutien-informatique)
 
 </TabItem>
 <TabItem value="macos" label="macOS">
@@ -48,7 +49,7 @@ Supprimez le logiciel, redémarrez, puis réinstallez.
 :::info IMPORTANT : 
 Le logiciel QDA Miner n'est pas disponible pour le Mac.
 Vous pouvez utiliser le logiciel sur :
-- [les ordinateurs publics en libre-service en blbliothèque](https://studio.bib.umontreal.ca/informatique/ordinateurs/)
+- [les ordinateurs publics en libre-service en bibliothèque](https://studio.bib.umontreal.ca/informatique/ordinateurs/)
 - [un ordinateur à distance](https://studio.bib.umontreal.ca/informatique/connexion-distance/)
 
 :::

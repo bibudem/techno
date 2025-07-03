@@ -91,7 +91,7 @@ const sidebars = {
           label: "Logiciels",
           collapsed: true, 
           collapsible: true,
-          link: { type: 'doc', id: 'informatique/Logiciels' }, 
+          link: { type: 'doc', id: 'informatique/logiciels' }, 
           items: [
             "informatique/connexion-distance",
             {
@@ -303,7 +303,7 @@ const sidebars = {
           items: [
                 "creatives/impression3d/introduction",
                 "creatives/impression3d/modeles3d",
-                // "creatives/impression3d/bambu",
+                "creatives/impression3d/bambu",
                 "creatives/impression3d/prusa",
                 "creatives/impression3d/ultimaker",
                 "creatives/impression3d/saturn",
@@ -348,7 +348,19 @@ const sidebars = {
             "creatives/decoupeuse/brother",
           ],
         },
-        // 'creatives/art-textile',
+        {
+          type: "category",
+          label: "Art textile",
+          collapsed: true,
+          link: { type: 'doc', id: 'creatives/art-textile' },
+          items: [
+            "creatives/textile/guidebrodeuse",
+            "creatives/textile/modeles",
+            "creatives/textile/inkscape-simple",
+            "creatives/textile/fils",
+            "creatives/textile/faq",
+          ],
+        },
         // 'creatives/programmation',
         'creatives/robots',
         'creatives/projets',

@@ -1,12 +1,24 @@
 ---
 title: Baladodiffusion
 help : crea
+image: "/img/cover/balado.webp"
 ---
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img 
+  src={useBaseUrl(frontMatter.image)} 
+  alt={frontMatter.title} 
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    display: "block",
+    margin: "16px auto",
+    borderRadius: "8px"
+  }} 
+/>
 
 # Guide de la baladodiffusion
-
-Prenez le micro et faites résonner vos idées!
 
 Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et les savoirs voyagent sans frontières. Que ce soit pour vivre votre passion de l'art du récit, développer votre connaissance de cette technologie ou assouvir votre curiosité pour ce médium, ce guide se veut un complice à chaque étape de l'aventure audio.
 
@@ -21,7 +33,7 @@ Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aid
 <details>
   <summary>**Suivre une formation**</summary>
 
-    L’équipe des bibliothèques propose des formations sur la création et la diffusion de balados. [Inscrivez-vous pour y participer](https://bib.umontreal.ca/formations/calendrier?cid=7690&t=g&cal=7690&d=0000-00-00&ct=34766&inc=0). Vous apprendrez les formats de balados, l'utilisation du matériel et la diffusion sur les plateformes. La formation est recommandée, mais pas obligatoire pour réserver le studio. [Cliquez ici pour voir les diapositives de la formation](https://hackmd.io/@creanum/balado). 
+    L’équipe des bibliothèques propose des formations sur la création et la diffusion de balados. [Inscrivez-vous pour y participer](https://calendrier.bib.umontreal.ca/calendar?cid=7690&t=m&d=0000-00-00&cal=7690&inc=0). Vous apprendrez les formats de balados, l'utilisation du matériel et la diffusion sur les plateformes. La formation est recommandée, mais pas obligatoire pour réserver le studio. [Cliquez ici pour voir les diapositives de la formation](https://hackmd.io/@studiobib/balado). 
 </details>
 
 <details>
@@ -42,7 +54,7 @@ Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? 
 <details>
   <summary>**Post-production**</summary>
   
-    C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](./audacity), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou [Reaper](../informatique/logiciels/reaper.md). [Ces logiciels sont offerts en bibliothèque](../informatique/logiciels.md).
+    C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](../medias/audacity.md), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou Reaper. [Ces logiciels sont offerts en bibliothèque](../informatique/logiciels.md).
 </details>
 
 <details>

@@ -9,7 +9,7 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
-<HideLastUpdated/>
+<HideLastUpdated/> 
 
 <img 
   src={useBaseUrl(frontMatter.image)} 

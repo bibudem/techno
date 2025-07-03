@@ -91,7 +91,7 @@ export default function CardGrid({ items }) {
       <div key={idx} role="listitem">
         <a
           href={item.link}
-          className={styles.card}
+          className={`${styles.card} ${item.petit ? styles.petit : ''}`}
           data-ignore-external="true"
           aria-labelledby={titleId}
           aria-describedby={descId}

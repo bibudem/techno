@@ -9,7 +9,7 @@
 </p>
 
 ![Licence](https://img.shields.io/static/v1?label=Licence&message=MIT&color=blue)
-![Statut – En construction](https://img.shields.io/static/v1?label=Statut&message=En%20construction&color=orange)
+![Statut – Pré-lancement](https://img.shields.io/static/v1?label=Statut&message=Pré-lancement&color=blue)
 [![Dernier commit](https://img.shields.io/github/last-commit/bibudem/techno?label=Dernier%20commit&color=blue&style=flat-square)](https://github.com/bibudem/techno/commits)
 [![Docusaurus version](https://img.shields.io/npm/v/@docusaurus/core?label=Docusaurus&logo=docusaurus&color=527FFF&style=flat-square)](https://www.npmjs.com/package/@docusaurus/core)
 
@@ -93,6 +93,75 @@ retroaction : false
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 <HideLastUpdated/>
 ```
+
+---
+
+### QR Code – Redirections dynamiques dans Docusaurus
+
+#### Utilisation du fichier `qrcode.json`
+
+Le fichier `qrcode.json` contient une liste de redirections associées à des identifiants uniques, utilisés pour générer des liens QR courts du type :
+
+```
+https://studio.bib.umontreal.ca/qrcode?id=xx-001
+```
+
+Chaque `id` redirige automatiquement vers une page du site à l’aide du composant React `/qrcode.jsx`.
+
+---
+
+#### Fonctionnement
+
+- Le composant lit le paramètre `id` dans l’URL.
+- Il cherche la page correspondante dans `qrcode.json`.
+- Il redirige vers la page en ajoutant automatiquement des paramètres UTM :
+  ```
+  ?utm_source=qr&utm_medium=print&utm_campaign=qr_xx-001
+  ```
+- Il envoie aussi un événement Google Analytics (`qr_scan`) si activé via Klaro.
+
+---
+
+#### Structure du fichier `qrcode.json`
+
+```json
+{
+  "sw-001": "/informatique/logiciels/arcgis",
+  "it-001": "/informatique/impression",
+  "me-001": "/medias/obs",
+  "cr-001": "/creatives/impression3d/ultimaker",
+  "sp-001": "/espaces/studiovideo",
+  "xx-001": "/a-propos/nous-joindre"
+}
+```
+
+---
+
+#### Convention des préfixes
+
+| Catégorie            | Dossier                           | Préfixe |
+|----------------------|-----------------------------------|---------|
+| Logiciels            | `informatique/logiciels/`         | `sw-`   |
+| Informatique gén.    | `informatique/` (hors logiciels)  | `it-`   |
+| Médias               | `medias/`                         | `me-`   |
+| Création numérique   | `creatives/`                      | `cr-`   |
+| Espaces              | `espaces/`                        | `sp-`   |
+| À propos / infos     | `a-propos/`                       | `xx-`   |
+| Sondages             | `Sondage LibWizard`               | `sd-`   |
+
+---
+
+#### Emplacement
+
+- `src/data/qrcode.json` → données
+- `src/pages/qrcode.jsx` → composant de redirection
+
+---
+
+#### Remarques
+
+- Les redirections sont **côté client** (JavaScript), adaptées aux sites statiques.
+- Le tracking est compatible **Google Analytics 4**, conditionnel au consentement (via Klaro).
 
 ---
 

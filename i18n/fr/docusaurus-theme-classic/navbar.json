@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "studio·bib",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Espaces": {
+    "message": "Espaces",
+    "description": "Navbar item with label Espaces"
+  },
+  "item.label.Ressources informatiques": {
+    "message": "Ressources informatiques",
+    "description": "Navbar item with label Ressources informatiques"
+  },
+  "item.label.Technologies créatives": {
+    "message": "Technologies créatives",
+    "description": "Navbar item with label Technologies créatives"
+  },
+  "item.label.Productions médias": {
+    "message": "Productions médias",
+    "description": "Navbar item with label Productions médias"
+  },
+  "item.label.À propos": {
+    "message": "À propos",
+    "description": "Navbar item with label À propos"
+  },
+  "item.label.bib.umontreal.ca": {
+    "message": "bib.umontreal.ca",
+    "description": "Navbar item with label bib.umontreal.ca"
+  }
+}

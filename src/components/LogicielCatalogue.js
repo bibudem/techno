@@ -35,14 +35,14 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
         )}
 
         {distance === "Oui" && (
-          <span
-            className="tag tag--distance tag--clickable"
-            onClick={handleDistanceClick}
-          >
-            <PlugsConnected size={16} weight="bold" className="icon" />
-            Accès à Distance
-          </span>
-        )}
+  <a
+    className="tag tag--distance tag--clickable"
+    href="/informatique/connexion-distance"
+  >
+    <PlugsConnected size={16} weight="bold" className="icon" />
+    Accès à Distance
+  </a>
+)}
 
         {lien && (
           <a
@@ -100,7 +100,7 @@ const LogicielCatalogue = () => {
 
   return (
     <div className="catalogue">
-      <p>Recherchez un logiciel ou filtrez par catégorie :</p>
+      <p><strong>Recherchez un logiciel ou filtrez par catégorie :</strong></p>
 
       <div className="filter-container">
         <input
