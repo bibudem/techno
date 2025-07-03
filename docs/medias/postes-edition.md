@@ -44,8 +44,8 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 
 Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH) est équipé de périphériques supplémentaires :
 
-- **DaVinci Resolve Speed Editor**
-- **DaVinci Resolve Micro Color Panel**
+- **Blackmagic Design DaVinci Resolve Speed Editor**
+- **Blackmagic Design DaVinci Resolve Micro Color Panel**
 
 - 2 Casques audio Sennheiser HD 280 Pro
 - Écran ultralarge ou *widescreen* 34p (21:9)
