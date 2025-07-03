@@ -7,8 +7,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
-à rajouter : https://bib.umontreal.ca/public/bib/soutien-informatique/ENL3-barre-outils-word.pdf
-
 L'Université de Montréal fournit gratuitement le logiciel de référence bibliographique EndNote à tous les membres de sa communauté. Le logiciel peut être installé sur les ordinateurs de la communauté UdeM.
 
 ## Préalables
@@ -140,4 +138,7 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 </TabItem>
 </Tabs>
 
+## Astuces
 
+- [Procédure en cas d'absence de la barre d’outils EndNote dans Word.](https://studio.bib.umontreal.ca/informatique/static/pdf/ENL3-barre-outils-word.pdf)
+:::
