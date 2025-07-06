@@ -180,3 +180,80 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
 ### Préparation du plateau
 
 À l’aide d’un chiffon, nettoyer le plateau avec de l’alcool Isopropylique à 99% pour une surface texturée ou du Windex pour une surface lisse. On pulvérise le liquide sur un chiffon, puis on frotte délicatement le plateau.
+
+## **5.** Changement de filament
+
+### Retirer un filament
+
+S’il n’y a pas de filament à retirer, passez directement à l’étape 2.
+
+#### Ouvrir l'AMS et retirer le filament
+
+Faire pivoter vers l'intérieur les deux boucles localisées à chaque extrémité puis lever le couvercle AMS.
+
+![Les boucles scellant le couvercle de l'AMS](/img/docs/filament-bambu1.webp)
+
+![Les boucles baissées vers l'intérieur](/img/docs/filament-bambu2.webp)
+
+Pousser délicatement le *feeder* vers l'arrière tout en tirant doucement vers le haut sur notre filament. 
+Retirer la bobine de filament de l'un des quatres compartiments.
+
+![Changer une bobine ](/img/docs/filament-bambu3.webp)
+
+#### Ranger la bobine de filament
+
+Bloquer le bout du filament dans l'un des trous de la bobine pour éviter les noeuds ou que le filament se déroule. Ranger le tout dans son sac sous vide.
+
+![Bloquer le bout du filament PLA-Trou de la bobine](/img/docs/filament-bambu4.webp)
+
+![Ranger la bobine de filament PLA-Sac sous vide](/img/docs/filament-bambu5.webp)
+
+### Installer la nouvelle bobine de filament
+
+Sortir la nouvelle bobine de son sac et couper en diagonale l'extrémité du filament avec une pince coupante puis l'insérer dans l'emplacement de l'AMS.
+
+Pousser délicatement le *feeder* vers l'arrière tout en insérant le filament dans le trou prévu à cet effet.
+
+![remettre une bobine](/img/docs/filament-bambu6.webp)
+
+L'imprimante va détecter le filament introduit au moment où la petite lumière blanche clignote et qu'un bruit se fait, le filament sera alors aspiré dans le tube de la machine pour finaliser le chargement.
+
+![Bobine de filament PLA chargée](/img/docs/filament-bambu7.webp)
+
+#### Cas d'une bobine Bambu Lab avec puce RFID
+
+Si la bobine est compatible Bambu Lab et équipée d’une puce RFID, l’imprimante reconnaîtra automatiquement le filament inséré (matière, couleur, etc.) après le chargement.
+
+#### Autre bobine avec support plastique sans RFID
+
+Si la bobine compatible Bambu Lab n’est pas munie d’une puce RFID, il faut indiquer manuellement les caractéristiques du filament après son chargement.
+
+Utiliser l’écran tactile de l’imprimante :
+1.	Appuyer sur l’icône Contrôle
+2.	Aller à l’onglet Filament
+3.	Sélectionner le filament que vous venez d’insérer
+4.	Renseigner les champs suivants :
+    - Filament : choisir Generic puis PLA
+    - Couleur : sélectionner la couleur qui correspond le mieux au filament
+
+![config_manuel_1](/img/docs/filament-bambu8.webp)
+
+![config_manuel_2](/img/docs/filament-bambu9.webp)
+
+#### Autre bobine nécessitant un support
+
+Certaines bobines sont munies d’un noyau en carton, qui n’est pas toujours compatible avec l’AMS (le carton pivote mal autour de l’axe).
+Dans ce cas, il faut :
+	1.	Placer la bobine en carton sur un support en plastique compatible.
+	2.	Déposer l’ensemble dans l’emplacement prévu à l’intérieur de l’AMS.
+
+Indiquer manuellement les caractéristiques du nouveau filament à l’aide de l’écran tactile :
+1. Appuyer sur **Contrôle**, puis ouvrir l’onglet **Filament**
+2. Sélectionner le filament inséré et renseigner les champs suivants :
+   - Filament : Generic → PLA
+   - Couleur : choisir celle qui correspond le mieux au filament
+
+:::info
+Une [liste des filaments compatibles](https://docs.google.com/spreadsheets/d/1LGVjAbGjvIjvOFQsDi8lSK9-vy7GfGhgVP41sNffh6I/edit?pli=1&gid=1679778390#gid=1679778390) est maintenue par la communauté.
+N’hésitez pas à la consulter pour vérifier la compatibilité avec l’AMS.
+:::
