@@ -92,7 +92,7 @@ Faire l’exportation immédiatement après l’enregistrement. Les bibliothèqu
         - Format : **WAV**
         - Sample Rate : **48 kHz**
         - Bit Depth : **24 bits PCM**
-        - Loudness : **-14 LuFs**
+        - Loudness : **-16 LuFs**
 ![Studio audio](/img/docs/rode2-8-2.webp)
 
 
