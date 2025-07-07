@@ -68,7 +68,7 @@ De la documentation est disponible pour vous aider à utiliser le studio en tout
 
 Sur rendez-vous, un service de soutien avec un membre de l'équipe des bibliothèques de l'UdeM est offert pour aider les utilisateurs à se familiariser avec l’équipement.
 
-<Link to="../medias/studiovideo" className="button button--secondary">
+<Link to="/medias/studiovideo" className="button button--secondary">
   Consulter la documentation
 </Link>
 
