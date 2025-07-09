@@ -100,8 +100,8 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 **[Livres sur PowerPoint dans Sofia](https://umontreal.on.worldcat.org/search?queryString=su:(microsoft%20powerpoint)&lang=fr)**
 
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/126616438/Office+365)**
-    </TabItem>
-    <TabItem value="word" label="Word">
+  </TabItem>
+  <TabItem value="word" label="Word">
    - [Créer une table des matières](https://support.microsoft.com/fr-fr/office/ins%c3%a9rer-une-table-des-mati%c3%a8res-882e8564-0edb-435e-84b5-1d8552ccf0c0)
    - [Pagination d'un document](https://support.microsoft.com/fr-fr/office/ins%c3%a9rer-des-num%c3%a9ros-de-page-9f366518-0500-4b45-903d-987d3827c007)
    - [Récupérer une version antérieure d'un fichier Office](https://support.microsoft.com/fr-fr/office/r%C3%A9cup%C3%A9rer-vos-fichiers-microsoft-365-dc901de2-acae-47f2-9175-fb5a91e9b3c8)
@@ -110,7 +110,13 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 **[Livres sur Word dans Sofia](https://umontreal.on.worldcat.org/search?queryString=su:(microsoft%20word)&lang=fr)**
 
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/126616438/Office+365)**
-    </TabItem>
-</Tabs>
+  </TabItem>
+  <TabItem value="OneDrive" label="OneDrive">
+   - [Configurer OneDrive UdeM](https://studio.bib.umontreal.ca/informatique/logiciels/onedrive)
+   - [Page d'information de Microsoft](https://www.microsoft.com/fr-ca/microsoft-365/onedrive/online-cloud-storage)
+
+**[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127176143/OneDrive+Entreprise)**
+  </TabItem>
+  </Tabs>
 
 ---

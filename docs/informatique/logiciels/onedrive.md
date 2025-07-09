@@ -36,6 +36,6 @@ Cochez **Rendre tous les dossiers disponibles** et cliquez **OK**.
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127176143/OneDrive+Entreprise)**
 
 **Des questions ?**  
-Adressez-vous à : [studio.bib.umontreal.ca/informatique](mailto:studio.bib.umontreal.ca/informatique)
+Adressez-vous au service de clavardage
 
 ---
