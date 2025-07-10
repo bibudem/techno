@@ -55,7 +55,7 @@ Une documentation complète est à votre disposition pour vous familiariser avec
 
 Sur rendez vous, un membre de l’équipe vous accompagne lors d’une prise en main initiale de l’équipement. N’hésitez pas à poser vos questions ou à demander une démonstration. Ce service optionnel, réservé aux membres de la communauté UdeM, n’inclut toutefois pas une présence continue d’un technicien pendant vos séances d’enregistrement, que vous devez mener de façon autonome.
 
-<Link to="./guide/studiob" className="button button--primary">
+<Link to="/espaces/guide/studiob" className="button button--primary">
   Consulter la documentation
 </Link>
 
