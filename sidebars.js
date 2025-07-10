@@ -41,6 +41,19 @@ const sidebars = {
           ],
         },
         'espaces/salledevisio',
+           {
+          type: 'category',
+          label: 'Studio balado',
+          link: { type: 'doc', id: 'espaces/studiobalado' },
+          collapsible: false, // Empêche la catégorie de s’ouvrir, donc plus de flèche
+          items: [
+            {
+              type: 'doc',
+              id: 'espaces/guide/studiob',
+              className: 'hidden', // Garde la page d’aide cachée
+            },
+          ],
+        },
         'espaces/studioaudio',
         'espaces/studiovideo',
         

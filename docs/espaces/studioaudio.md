@@ -22,6 +22,12 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
+:::info Nouveau studio à la BLSH!
+À la recherche du studio audio de la Bibliothèque des lettres et sciences humaines?
+Le studio a été modernisé, avec l’ajout de caméras, d’un nouvel éclairage et d’un système de capture simplifié. Il porte désormais le nom Studio balado!
+[Découvrez la nouvelle page Studio balado](studiobalado).
+:::
+
 Les studios d'enregistrement audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
 
 ---
@@ -38,7 +44,7 @@ import StudioCard from '@site/src/components/StudioCard';
   className="grid grid--3"
   style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}
 >
-  <StudioCard
+  <!-- <StudioCard
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location={
     <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2
@@ -49,7 +55,7 @@ import StudioCard from '@site/src/components/StudioCard';
     }
     reserveLink="https://calendrier.bib.umontreal.ca/space/27462"
     reserveText="Réserver"
-  />
+  /> -->
   <StudioCard
     title="Bibliothèque Hubert-Reeves"
     location="Campus MIL, Aile A, local A-1549"
