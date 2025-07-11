@@ -15,6 +15,7 @@ help : crea
 → Un micro est désactivé lorsque le bouton est rouge.
 4. Faire la mise au point des caméras : Appuyer sur le bouton **Mise au point**. Renouveler l’opération si nécessaire.
 5. Vérifier sur la console, ainsi que l'écran, l'espace disque restant. Si l'écran affiche moins d'une heure restante, formater le disque dur avec votre ordinateur en ExFAT.
+6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
@@ -36,8 +37,6 @@ Pour macOS :
 
 </details>
 
-6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
-
 ---
 
 ## Positionnement dans le studio
@@ -45,7 +44,7 @@ Pour macOS :
 Les caméras du studio sont fixes et préréglées. **Merci de ne pas les déplacer ou les manipuler physiquement**.
 
 Pour un bon cadrage, il est recommandé de :
-- **Utiliser l’écran de retour vidéo** pour vérifier votre position à l’image ;
+- **Utiliser l’écran de retour vidéo** pour vérifier votre position à l’image;
 - **Ajuster votre siège** ou **vous repositionner**, plutôt que de déplacer la caméra.
 
 ---
