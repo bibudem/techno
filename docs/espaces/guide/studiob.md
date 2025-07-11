@@ -9,13 +9,28 @@ help : crea
 ## Avant l’enregistrement
 1. Brancher le disque dur dans le câble identifié.
 2. Appuyer sur le bouton jaune au centre de la console.
+
+![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.png)
+
 → Les lumières et caméras s’allumeront automatiquement. Pensez à éteindre les lumières générales de la salle.
+
 → L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
+
+![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.png)
+
 3. Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant.
+
 → Un micro est désactivé lorsque le bouton est rouge.
+
 4. Faire la mise au point des caméras : Appuyer sur le bouton **Mise au point**. Renouveler l’opération si nécessaire.
-5. Vérifier sur la console, ainsi que l'écran, l'espace disque restant. Si l'écran affiche moins d'une heure restante, formater le disque dur avec votre ordinateur en ExFAT.
+5. Vérifier sur la console, ainsi que l'écran, l'espace disque restant. Si l'écran affiche moins d'une heure restante, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas).
 6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
+
+![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.png)
+
+7. Ajuster le niveau des casques d'écoute si nécessaire. Le volume des casques est contrôlé par les boutons situés en haut de la console de contrôle.
+
+![L'interface de contrôle du niveau des casques d'écoute](/img/docs/studio-interface-control-4.png)
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
@@ -63,7 +78,8 @@ Si vous réalisez un entretien via un logiciel de visioconférence (ex. Zoom, Te
 ## Enregistrement terminé
 1. Appuyer sur le bouton **STOP** pour arrêter l’enregistrement.
 2. Débrancher le disque dur et le brancher sur votre ordinateur pour transférer les fichiers.
-→ Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement.
+
+→ Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage).
 
 ---
 
@@ -76,8 +92,6 @@ Si vous réalisez un entretien via un logiciel de visioconférence (ex. Zoom, Te
 - Si vous avez besoin seulement du son : le fichier Live-Mix.wav suffit.
 - Si vous souhaitez récupérer les caméras séparément : copiez le contenu du dossier Vidéo.
 - Pour un montage automatisé complet : copiez le fichier Default_... .mp4 à la racine du disque.
-
-Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage).
 
 :::warning Recommandation
 Faites une copie de sauvegarde dans votre espace infonuagique (ex. OneDrive institutionnel) ou une 2ème copie dans un autre périphérique.
