@@ -10,13 +10,13 @@ help : crea
 1. Brancher le disque dur dans le câble identifié.
 2. Appuyer sur le bouton jaune au centre de la console.
 
-![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.png)
+![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.webp)
 
 → Les lumières et caméras s’allumeront automatiquement. Pensez à éteindre les lumières générales de la salle.
 
 → L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
 
-![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.png)
+![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.webp)
 
 3. Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant.
 
@@ -26,11 +26,13 @@ help : crea
 5. Vérifier sur la console, ainsi que l'écran, l'espace disque restant. Si l'écran affiche moins d'une heure restante, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas).
 6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
-![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.png)
+![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
 
 7. Ajuster le niveau des casques d'écoute si nécessaire. Le volume des casques est contrôlé par les boutons situés en haut de la console de contrôle.
 
-![L'interface de contrôle du niveau des casques d'écoute](/img/docs/studio-interface-control-4.png)
+![L'interface de contrôle du niveau des casques d'écoute](/img/docs/studio-interface-control-4.webp)
+
+8. Vous pouvez choisir d'éteindre les caméras si vous souhaitez utiliser le studio en mode audio uniquement. Appuyer sur le bouton **Éteindre les caméras** pour les éteindre. Vous pouvez les rallumer à tout moment en appuyant à nouveau sur le bouton.
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
@@ -62,14 +64,22 @@ Pour un bon cadrage, il est recommandé de :
 - **Utiliser l’écran de retour vidéo** pour vérifier votre position à l’image;
 - **Ajuster votre siège** ou **vous repositionner**, plutôt que de déplacer la caméra.
 
+N'oubliez pas d'appuyer sur le bouton **Mise au point** pour que les caméras ajustent la mise au point automatiquement.
+
+---
+
+## Choisir une ambiance
+
+Le studio propose différentes ambiances d'éclairage. Vous pouvez en choisir en appuyant sur le bouton **Ambiance** de la console de contrôle.
+
+![L'interface de la console pour choisir l'ambiance](/img/docs/studio-interface-control-5.webp)
+
 ---
 
 ## Entretien à distance - visioconférence
 Si vous réalisez un entretien via un logiciel de visioconférence (ex. Zoom, Teams) :
 1. Branchez le câble HDMI (identifié) à votre ordinateur.
-2. Dans les paramètres audio et vidéo de votre application, sélectionnez RØDECaster Video comme :
-   - Entrée vidéo (caméra)
-   - Entrée et sortie audio (haut-parleurs)
+2. Dans les paramètres audio de votre application, sélectionnez RØDECaster Video comme entrée et sortie audio.
 3. L’image de votre ordinateur s’affichera automatiquement à l’écran du studio.
 4. Dès qu’un signal audio est détecté, la console bascule automatiquement sur l’entrée HDMI, ce qui permet à l’invité ou à l’invitée d’apparaître à l’écran et d’être intégré·e à l’enregistrement.
 
