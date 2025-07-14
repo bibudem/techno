@@ -93,6 +93,7 @@ const sidebars = {
 
           items: [
             "informatique/vinyle",
+            "informatique/czur",
           ],
         },
         'informatique/ordinateurs',
@@ -232,6 +233,11 @@ const sidebars = {
             {
               type: 'doc',
               id: 'informatique/logiciels/openrefine',
+              className: 'hidden',
+            },
+                        {
+              type: 'doc',
+              id: 'informatique/logiciels/onedrive',
               className: 'hidden',
             },
             {
