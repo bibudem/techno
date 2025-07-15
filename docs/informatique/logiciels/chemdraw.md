@@ -1,6 +1,7 @@
 ---
 title : ChemDraw
 description : ChemDraw est un logiciel de dessin de structures chimiques.
+help : info
 ---
 
 L’Université de Montréal et l’IRIC ont acquis une licence institutionnelle de la suite d’application ChemDraw

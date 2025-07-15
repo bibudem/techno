@@ -1,6 +1,7 @@
 ---
 title : ArcGIS
 description : Information et guide pour l'installation du logiciel ArcGIS Pro.
+help : info
 ---
 
 ArcGIS Pro est une application qui permet d’explorer, visualiser et analyser des données ainsi que créer des cartes 2D et des scènes 3D.

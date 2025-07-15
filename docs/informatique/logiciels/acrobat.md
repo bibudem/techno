@@ -1,6 +1,7 @@
 ---
 title : Adobe Acrobat Pro
 description : Accédez à Adobe Acrobat Pro pour la création, l'édition et la publication de documents PDF.
+help : info
 ---
 
 import Tabs from '@theme/Tabs';
@@ -14,6 +15,7 @@ Le logiciel **Adobe Acrobat Pro** est un logiciel qui permet de créer, modifier
 - [Conversion de thèse et mémoire en format PDF pour dépôt électronique sur Papyrus](https://bib.umontreal.ca/gerer-diffuser/deposer-these-memoire/formater-pdf)
 - [Créer le PDF avec Word (méthode recommandée)](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-Papyrus-pdf-word.pdf)
 - [Créer le PDF avec Adobe Acrobat Pro (méthode alternative)](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-Papyrus-pdf-adobe.pdf)
+- [Déposer un mémoire ou une thèse)](https://boite-outils.bib.umontreal.ca/recherche/deposer-these-memoire)
 
 ## Autres
 - [Repérer les polices non encapsulées d’un document PDF](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-polices-non-encapsulees.pdf)
