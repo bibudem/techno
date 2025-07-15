@@ -94,6 +94,7 @@ const sidebars = {
           items: [
             "informatique/vinyle",
             "informatique/czur",
+            "informatique/ocr",
           ],
         },
         'informatique/ordinateurs',

@@ -110,14 +110,3 @@ L'option de l’envoi personnel (E-mail) ne sera pas offerte si vous avez rediri
 5. Cliquer **Numériser**.  
 6. Si la numérisation de toutes les pages est terminée, cliquer sur **OK**. Sinon, placer la prochaine page dans le numériseur et sélectionnez **Numériser davantage de pages** → **OK**.  
 7. Sauvegarder le document PDF sous le nom désiré en cliquant sur **Fichier** → **Enregistrer**.
-
----
-
-## Reconnaissance optique de caractères (OCR)
-
-1. Ouvrir un fichier PDF avec Acrobat Pro.  
-2. Activer la reconnaissance optique de caractères :  
-   - Dans le menu de droite, cliquer sur **Améliorer les numérisations**.  
-   - Dérouler le sous-menu de l’étiquette **Reconnaître le texte**, et sélectionner **Dans ce fichier**.  
-   - Cliquer sur **Reconnaître le texte** et patienter durant le traitement.  
-3. Pour enregistrer au format Word : Cliquer sur **Fichier** → **Exporter vers** → **Microsoft Word** → **Document Word**.
