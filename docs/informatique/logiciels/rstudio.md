@@ -1,6 +1,7 @@
 ---
 title : Logiciel R
 description : Guide pour l'installation du logiciel R.
+help : info
 ---
 
 import Tabs from '@theme/Tabs';

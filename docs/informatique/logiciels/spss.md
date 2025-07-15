@@ -1,5 +1,7 @@
 ---
 title : SPSS
+description : Logiciel d’analyse statistique
+help : info
 --- 
 
 import Tabs from '@theme/Tabs';

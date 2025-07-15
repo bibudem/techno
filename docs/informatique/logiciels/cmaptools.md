@@ -6,9 +6,9 @@ help : info
 
 ## Utiliser ou installer
 
-- Nouvelle [version cloud](https://cmapcloud.ihmc.us/)
 - Le logigiel est installé sur tous nos [ordinateurs publics en libre-service](https://studio.bib.umontreal.ca/informatique/ordinateurs), incluant les [nos ordinateurs accessibles à distance](https://studio.bib.umontreal.ca/informatique/connexion-distance)
 - [Téléchargement pour ordinateur personnel](https://cmap.ihmc.us/cmaptools/cmaptools-download/)
+- Nouvelle [version cloud](https://cmapcloud.ihmc.us/) (permet le travail en équipe)
 
 ## Ouverture d'un schéma conceptuel .cmap
 
@@ -21,6 +21,9 @@ help : info
 
 1. Cliquer **Fichier → Enregistrer la Cmap**
 2. Inscrire le nom du schéma dans la case Nom et enregistrer. **Les autres informations demandées sont facultatives.**
+
+## Aide en ligne
+- [Capsules d'aide en ligne du fabriquant du logiciel](https://cmap.ihmc.us/docs/cmap-cloud-help)
 
 ## Impression
 

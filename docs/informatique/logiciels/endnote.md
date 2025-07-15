@@ -1,6 +1,7 @@
 ---
 title : EndNote
 description : Guide pour l'installation et l'utilisation du logiciel de gestion de références bibliographiques EndNote.
+help : info
 ---
 
 import Tabs from '@theme/Tabs';

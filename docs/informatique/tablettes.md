@@ -1,6 +1,7 @@
 ---
 title : Tablettes iPad
 image: "/img/cover/tablette.webp"
+help: info
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,6 +1,7 @@
 ---
 title : Zotero
 description : Guide pour l'installation et l'utilisation du logiciel de gestion de références bibliographiques Zotero.
+help : info
 ---
 
 import Tabs from '@theme/Tabs';

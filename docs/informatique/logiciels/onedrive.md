@@ -1,6 +1,7 @@
 ---
 title: OneDrive
 description: Configurer OneDrive UdeM.
+help : info
 ---
 
 import Tabs from '@theme/Tabs';
