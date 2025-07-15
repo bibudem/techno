@@ -12,16 +12,16 @@ Le logiciel **Adobe Acrobat Pro** est un logiciel qui permet de créer, modifier
 
 ## Guides d'aide
 
-- [Conversion de thèse et mémoire en format PDF pour dépôt électronique sur Papyrus](https://bib.umontreal.ca/gerer-diffuser/deposer-these-memoire/formater-pdf)
-- [Créer le PDF avec Word (méthode recommandée)](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-Papyrus-pdf-word.pdf)
-- [Créer le PDF avec Adobe Acrobat Pro (méthode alternative)](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-Papyrus-pdf-adobe.pdf)
-- [Déposer un mémoire ou une thèse)](https://boite-outils.bib.umontreal.ca/recherche/deposer-these-memoire)
+- [Conversion de thèse et mémoire en format PDF pour dépôt électronique sur Papyrus](https://boite-outils.bib.umontreal.ca/recherche/deposer-these-memoire)
+- [Créer le PDF avec Word (méthode recommandée)](https://studio.bib.umontreal.ca/pdf/PDF11-theses-memoires-encapsuler-avec-word-pc.pdf)
+- [Créer le PDF avec Adobe Acrobat Pro (méthode alternative)](https://studio.bib.umontreal.ca/pdf/PDF15-theses-memoires-encapsuler-avec-acrobat-pro.pdf)
+- [Déposer un mémoire ou une thèse](https://boite-outils.bib.umontreal.ca/recherche/deposer-these-memoire)
 
 ## Autres
-- [Repérer les polices non encapsulées d’un document PDF](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-polices-non-encapsulees.pdf)
-- [Masquer les renseignements personnels](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-masquer-renseignements-personnels.pdf)
-- [Combiner plusieurs fichiers PDF en un](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-combiner-fichiers.pdf)
-- [Impression de plusieurs pages par feuilles](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-impression-plusieurs-pages.pdf)
-- [Imprimer en utilisant l’option Réduction/Agrandissement](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-impression-reduction-agrandissement.pdf)
-- [Numériser directement au format PDF](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-numeriser-pdf.pdf)
-- [Modification de texte / Reconnaissance de caractères OCR](https://bib.umontreal.ca/public/bib/soutien-informatique/E13-OCR.pdf)
+- [Repérer les polices non encapsulées d’un document PDF](https://boite-outils.bib.umontreal.ca/c.php?g=740445&p=5343507)
+- [Masquer les renseignements personnels](https://studio.bib.umontreal.ca/pdf/PDF18-masquer-renseignements-personnels.pdf)
+- [Combiner plusieurs fichiers PDF en un](https://studio.bib.umontreal.ca/pdf/PDF7-combiner-pdf.pdf)
+- [Impression de plusieurs pages par feuilles](https://studio.bib.umontreal.ca/pdf/PDF12-pages-par-feuille.pdf)
+- [Imprimer en utilisant l’option Réduction/Agrandissement](https://studio.bib.umontreal.ca/pdf/PDF8-reduction-agrandissement.pdf)
+- [Numériser directement au format PDF](https://studio.bib.umontreal.ca/informatique/numerisation#num%C3%A9risation-au-format-pdf-avec-adobe-acrobat-pro)
+- [Modification de texte / Reconnaissance de caractères OCR](https://studio.bib.umontreal.ca/pdf/PDF13-ocr-PDF.pdf)
