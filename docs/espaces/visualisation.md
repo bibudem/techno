@@ -36,7 +36,7 @@ Le laboratoire peut accueillir un maximum de 30 personnes.
     reserveLink="https://forms.office.com/r/9zPS89SY16"
     reserveText="Prendre un rendez-vous"
     secondaryLinks={[
-    { href: "./guide/visualisation", text: "Guide d'utilisation" },
+    { href: "/espaces/guide/visualisation", text: "Guide d'utilisation" },
   ]}
 />
 ---
