@@ -45,9 +45,16 @@ Si le Bluetooth ne fonctionne pas, un câble USB est déjà branché à la déco
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo5.webp)
+3. Préparer et charger le support
+
+- Retirer le film protecteur transparent et le mettre de côté. Il est important de la remettre sur le support adhésif lorsque vous quitterez afin de préserver l’adhérence du support lors de son rangement.
+- Déposer le papier cartonné ou la feuille de vinyle sur la partie adhésive du support et appuyer fermement afin de bien les fixer sur le support. Utiliser le rouleau pour éliminer les bulles d’air si nécessaire.
+
+![brother1](/img/docs/brother1.webp)
 
 Lors du chargement du vinyle, vérifier que la partie encerclée en rouge **(1)** soit placée à l’extrémité du tapis de coupe et que la partie noire soit tournée vers le haut. Puis appuyer sur la flèche montante **(2)** pour charger le vinyle. Appuyer sur l’autre flèche pour décharger le vinyle. Accoter le tapis de coupe au guide en plastique qui se trouve sur la gauche, aligner au trait blanc afin que le tapis de coupe soit bien droit.
+
+![La découpeuse Cameo 4](/img/docs/cameo5.webp)
 
 ---
 
