@@ -35,17 +35,17 @@ Le studio balado de la Bibliothèque des lettres et sciences humaines a été en
 
 ## Un environnement repensé pour la captation
 
-Le studio est équipé d’un système intégré conçu pour faciliter la production en quelques étapes simples :
+Le studio est équipé d’un système intégré conçu pour faciliter la production d'un balado vidéo en quelques étapes simples :
 
 - **Interface unique** pour contrôler micros, caméras et enregistrement.
 - **Éclairage optimisé** pour une image nette et cohérente.
 - **Caméras haute définition** installées en permanence, toujours prêtes à filmer.
-- **Commutation automatique des caméras** : le système détecte qui parle et bascule automatiquement vers la caméra correspondante, pour un rendu fluide et dynamique, sans aucune intervention de votre part. Si vous préférez faire votre propre montage, les vidéos de chaque caméra sont aussi disponibles séparément.
+- **Commutation automatique des caméras** : le système bascule automatiquement vers la caméra pointée sur la personne qui parle, pour un rendu fluide et dynamique, sans aucune intervention de votre part. Si vous préférez faire votre propre montage, les vidéos de chaque caméra sont aussi disponibles séparément.
 - **Design ergonomique** pour un confort optimal pendant l’enregistrement.
 
-## Connectez votre invité·e en un instant
+## Connectez une personne à distance en un instant
 
-Le studio permet d’intégrer un·e participant·e à distance. Il suffit de brancher votre ordinateur au câble prévu, de démarrer votre application de visioconférence et l’image apparaîtra à l’écran du studio. La système basculera automatiquement vers cette source lors de la prise de parole de l'invité.e.
+Le studio permet d’intégrer une personne à distance. Il suffit de brancher votre ordinateur au câble prévu, de démarrer votre application de visioconférence, et l’image apparaîtra à l’écran du studio. La système basculera automatiquement vers cette source lorsque la personne parlera.
 
 ---
 
@@ -53,7 +53,7 @@ Le studio permet d’intégrer un·e participant·e à distance. Il suffit de br
 
 Une documentation complète est à votre disposition pour vous familiariser avec le studio en toute autonomie.
 
-Sur rendez vous, un membre de l’équipe vous accompagne lors d’une prise en main initiale de l’équipement. N’hésitez pas à poser vos questions ou à demander une démonstration. Ce service optionnel, réservé aux membres de la communauté UdeM, n’inclut toutefois pas une présence continue d’un technicien pendant vos séances d’enregistrement, que vous devez mener de façon autonome.
+Sur rendez-vous, un membre de l’équipe vous accompagne lors d’une prise en main initiale de l’équipement. N’hésitez pas à poser vos questions ou à demander une démonstration. Ce service optionnel n’inclut toutefois pas la présence d’un technicien pendant vos séances d’enregistrement, que vous devez mener de façon autonome.
 
 <Link to="/espaces/guide/studiob" className="button button--primary">
   Consulter la documentation
@@ -71,7 +71,7 @@ Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez 
 
 ## Localisation et accès
 
-Seuls les membres de la communauté UdeM peuvent réserver le studio balado et accéder aux services de consultation et de soutien technique, mais ils peuvent inviter des non-membres à participer aux enregistrements.
+Seuls les membres de la communauté UdeM peuvent réserver le studio balado et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
 
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
