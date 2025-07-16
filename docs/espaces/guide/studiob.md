@@ -7,23 +7,23 @@ help : crea
 ---
 
 ## Avant l’enregistrement
-1. Brancher le disque dur dans le câble identifié.
+1. Brancher le disque dur au câble identifié du même nom.
 2. Appuyer sur le bouton jaune au centre de la console.
 
 ![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.webp)
 
-→ Les lumières et caméras s’allumeront automatiquement. Pensez à éteindre les lumières générales de la salle.
+→ Les lumières et caméras s’allumeront automatiquement. N’oubliez pas d’éteindre l’éclairage ambiant (néons au plafond). 
 
 → L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
 
 ![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.webp)
 
-3. Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant.
+1. Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant.
 
 → Un micro est désactivé lorsque le bouton est rouge.
 
 4. Faire la mise au point des caméras : Appuyer sur le bouton **Mise au point**. Renouveler l’opération si nécessaire.
-5. Vérifier sur la console, ainsi que l'écran, l'espace disque restant. Si l'écran affiche moins d'une heure restante, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas).
+5. Vérifiez l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
 6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
 ![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
@@ -78,8 +78,8 @@ Le studio propose différentes ambiances d'éclairage. Vous pouvez en choisir en
 
 ## Entretien à distance - visioconférence
 Si vous réalisez un entretien via un logiciel de visioconférence (ex. Zoom, Teams) :
-1. Branchez le câble HDMI (identifié) à votre ordinateur.
-2. Dans les paramètres audio de votre application, sélectionnez RØDECaster Video comme entrée et sortie audio.
+1. Brancher le câble HDMI (identifié) à votre ordinateur.
+2. Dans les paramètres audio de votre application, sélectionner RØDECaster ou RODE RCV comme entrée et sortie audio.
 3. L’image de votre ordinateur s’affichera automatiquement à l’écran du studio.
 4. Dès qu’un signal audio est détecté, la console bascule automatiquement sur l’entrée HDMI, ce qui permet à l’invité ou à l’invitée d’apparaître à l’écran et d’être intégré·e à l’enregistrement.
 
