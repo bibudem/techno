@@ -41,7 +41,7 @@ import StudioCard from "@site/src/components/StudioCard";
     mapLink="https://maps.app.goo.gl/7LA5xUwwGKmAbZ6H6"
     description="Pour vérifier la disponibilité et pour réserver, contacter Ann Mary Sotomayor (ann.mary.sotomayor@umontreal.ca), technicienne en coordination de travail de bureau."
     secondaryLinks={[
-    { href: "./guide/amphitheatre", text: "Guide d'utilisation" },
+    { href: "/espaces/guide/amphitheatre", text: "Guide d'utilisation" },
   ]}
 />
 
