@@ -112,11 +112,19 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/126616438/Office+365)**
   </TabItem>
+
   <TabItem value="OneDrive" label="OneDrive">
    - [Configurer OneDrive UdeM](https://studio.bib.umontreal.ca/informatique/logiciels/onedrive)
    - [Page d'information de Microsoft](https://www.microsoft.com/fr-ca/microsoft-365/onedrive/online-cloud-storage)
 
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127176143/OneDrive+Entreprise)**
+
+  </TabItem>
+    <TabItem value="Teams" label="Teams">
+   - [Accéder à Teams infonuagique (préférable d'utiliser l'application)](https://o365.umontreal.ca)
+  
+**[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/137465698/Teams)**
+  
   </TabItem>
     <TabItem value="Courriel" label="Courriel institutionnel UdeM">
    - [Accéder au courriel infonuagique UdeM](https://o365.umontreal.ca)
