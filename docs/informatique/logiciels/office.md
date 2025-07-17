@@ -14,7 +14,7 @@ La suite **Microsoft Office 365** est offerte gratuitement à toute la communaut
 L'offre comprend les services en ligne et logiciels suivants :
 
 - **Courriel institutionnel** `@umontreal.ca`
-- **Espace de stockage OneDrive** : 10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés
+- **Espace de stockage [OneDrive](https://studio.bib.umontreal.ca/informatique/logiciels/onedrive)** : 10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés
 - **Logiciels de productivité** : Word, Excel, PowerPoint, OneNote
 - **Communication et réunions** : Teams, Outlook
 
@@ -117,6 +117,12 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
    - [Page d'information de Microsoft](https://www.microsoft.com/fr-ca/microsoft-365/onedrive/online-cloud-storage)
 
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127176143/OneDrive+Entreprise)**
+  </TabItem>
+    <TabItem value="Courriel" label="Courriel institutionnel UdeM">
+   - [Accéder au courriel infonuagique UdeM](https://o365.umontreal.ca)
+   - [Informations sur le courriel institutionnel UdeM](hhttps://bib.umontreal.ca/public/bib/soutien-informatique/S4-courriel-umontreal.pdf)
+  
+**[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127177883/FAQ+Courriel+infonuagique)**
   </TabItem>
   </Tabs>
 

@@ -26,17 +26,17 @@ Entrez votre courriel UdeM (`prenom.nom@umontreal.ca`) et authentifiez-vous.
 
 ## 3 – Quoi sauvegarder dans OneDrive ?  
 Il est recommandé de **décocher** les options *Bureau*, *Documents* et *Images*.  
-Seul le dossier **Votre Prénom - Université de Montréal** sera sauvegardé dans OneDrive.
+Seul le dossier **Votre Prénom – Université de Montréal** sera sauvegardé dans OneDrive.
 
 ## 4 – Rendre tous les dossiers OneDrive disponibles sur l’ordinateur  
 Sélectionnez **OneDrive**, puis **Paramètres > Compte > Choisir des dossiers >**  
 Cochez **Rendre tous les dossiers disponibles** et cliquez **OK**.
 
+## 5 - Enregistrer ou déplacer des documents dans OneDrive
+Seuls les documents enregistrés ou déplacés dans le dossier **Votre Prénom – Université de Montréal** seront sauvegardés dans OneDrive.
+
 ---
 
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127176143/OneDrive+Entreprise)**
-
-**Des questions ?**  
-Adressez-vous au service de clavardage
 
 ---
