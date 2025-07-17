@@ -31,7 +31,8 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   items={[
     {
       title: "Silhouette Cameo 4",
-      description: "",
+      description:  `
+      La découpeuse Silhouette Cameo 4 est disponible à la bibliothèque Hubert Reeves`,
       link: "/creatives/decoupeuse/cameo",
       icon: "Scissors",
     },
