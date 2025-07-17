@@ -39,13 +39,20 @@ Cliquer sur **Fichier → Ouvrir**, ou glisser votre image au format PNG pour l�
 La sélection **Auto (Découper) (1)**, ainsi que la lame **AutoLame (détecté)** **(2)** devrait être automatique. Mettre la roulette sur **4**, la force à **10**, et la vitesse à **2 (3)**. 
 La découpeuse indique qu’elle est prête à être chargée **(4)**. Couper un morceau de vinyle et le placer sur le tapis de coupe. Charger le tout dans la découpeuse. Cliquer sur **Envoyez (5)** pour lancer la découpe.
 
+![La découpeuse Cameo 4](/img/docs/cameo5.webp)
+
 :::note
 Si le Bluetooth ne fonctionne pas, un câble USB est déjà branché à la découpeuse vinyle. Télécharger le logiciel [SilhouetteStudio](https://www.silhouetteamerica.com/software) sur votre propre ordinateur, puis le brancher à la découpeuse vinyle.
 :::
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo5.webp)
+3. Préparer et charger le support
+
+- Retirer le film protecteur transparent et le mettre de côté. Il est important de la remettre sur le support adhésif lorsque vous quitterez afin de préserver l’adhérence du support lors de son rangement.
+- Déposer le papier cartonné ou la feuille de vinyle sur la partie adhésive du support et appuyer fermement afin de bien les fixer sur le support. Utiliser le rouleau pour éliminer les bulles d’air si nécessaire.
+
+![brother1](/img/docs/brother1.webp)
 
 Lors du chargement du vinyle, vérifier que la partie encerclée en rouge **(1)** soit placée à l’extrémité du tapis de coupe et que la partie noire soit tournée vers le haut. Puis appuyer sur la flèche montante **(2)** pour charger le vinyle. Appuyer sur l’autre flèche pour décharger le vinyle. Accoter le tapis de coupe au guide en plastique qui se trouve sur la gauche, aligner au trait blanc afin que le tapis de coupe soit bien droit.
 

@@ -31,19 +31,22 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
   items={[
     {
       title: "Silhouette Cameo 4",
-      description: "",
+      description:  `
+      La découpeuse Silhouette Cameo 4 est disponible à la Bibliothèque Hubert Reeves`,
       link: "/creatives/decoupeuse/cameo",
       icon: "Scissors",
     },
     {
       title: "Cricut Maker",
-      description: "",
+      description: `
+      La découpeuse Cricut Maker est disponible à la Bibliothèque de mathématiques et informatique`,
       link: "/creatives/decoupeuse/cricut",
       icon: "Scissors",
     },
     {
       title: "Brother SDX225",
-      description: "",
+      description: `
+      La découpeuse Silhouette Brother SDX225 est disponible à la Bibliothèque Thérèse Gouin Décarie`,
       link: "/creatives/decoupeuse/brother",
       icon: "Scissors",
     },
