@@ -32,7 +32,8 @@ help : crea
 :::warning Option
 Il est possible d'éteindre les caméras pour utiliser le studio en mode audio uniquement. 
 Appuyer sur le bouton **Éteindre les caméras** pour les éteindre. 
-Vous pouvez les rallumer à tout moment en appuyant à nouveau sur le bouton.:::
+Vous pouvez les rallumer à tout moment en appuyant à nouveau sur le bouton.
+:::
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
