@@ -121,7 +121,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
   </TabItem>
     <TabItem value="Teams" label="Teams">
-   - [Accéder à Teams infonuagique (préférable d'utiliser l'application)](https://o365.umontreal.ca)
+   - [Accéder à Teams infonuagique (préférable d'utiliser l'application)](https://m365.cloud.microsoft/chat/?auth=2)
   
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/137465698/Teams)**
   
