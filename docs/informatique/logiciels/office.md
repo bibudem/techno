@@ -128,7 +128,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   </TabItem>
     <TabItem value="Courriel" label="Courriel institutionnel UdeM">
    - [Accéder au courriel infonuagique UdeM](https://o365.umontreal.ca)
-   - [Informations sur le courriel institutionnel UdeM](hhttps://bib.umontreal.ca/public/bib/soutien-informatique/S4-courriel-umontreal.pdf)
+   - [Informations sur le courriel institutionnel UdeM](https://studio.bib.umontreal.ca/informatique/static/pdf/S4-courriel-umontreal.pdf)
   
 **[Pour plus d’information, consultez la fiche Office 365 des services TI.](https://wiki.umontreal.ca/spaces/SIE/pages/127177883/FAQ+Courriel+infonuagique)**
   </TabItem>
