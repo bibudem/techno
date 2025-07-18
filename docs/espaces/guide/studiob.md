@@ -91,7 +91,8 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 2. Débrancher le disque dur et le brancher sur votre ordinateur pour transférer les fichiers.
 
 :::warning Attention 
-Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage). :::
+Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage). 
+:::
 
 ---
 
