@@ -1,0 +1,22 @@
+.breadcrumbsContainer {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumbs {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.breadcrumbItem::after {
+  content: '/';
+  margin: 0 0.5rem;
+  color: var(--ifm-color-emphasis-300);
+}
+
+.breadcrumbItem:last-child::after {
+  content: '';
+}

@@ -59,6 +59,7 @@ const config = {
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
           remarkPlugins: [remarkInsertHelp],
+          breadcrumbs: true,
         },
         theme: {
           customCss: [

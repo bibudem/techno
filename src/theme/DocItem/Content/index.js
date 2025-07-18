@@ -9,6 +9,7 @@ import Retroaction from '@site/src/components/Retroaction';
 // 1) Import de votre composant d’aide
 import CardAide from '@site/src/components/CardAide';
 
+
 function useSyntheticTitle() {
   const {metadata, frontMatter, contentTitle} = useDoc();
   const shouldRender =

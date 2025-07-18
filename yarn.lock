@@ -2000,10 +2000,17 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@img/sharp-win32-x64@0.34.3":
+"@img/sharp-darwin-arm64@0.34.3":
   version "0.34.3"
-  resolved "https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.3.tgz"
-  integrity sha512-OWwz05d++TxzLEv4VnsTz5CmZ6mI6S05sfQGEMrNrQcOEERbX46332IvE7pO/EUiw7jUrrS40z/M7kPyjfl04g==
+  resolved "https://registry.npmjs.org/@img/sharp-darwin-arm64/-/sharp-darwin-arm64-0.34.3.tgz"
+  integrity sha512-ryFMfvxxpQRsgZJqBd4wsttYQbCxsJksrv9Lw/v798JcQ8+w84mBWuXwl+TT0WJ/WrYOLaYpwQXi3sA9nTIaIg==
+  optionalDependencies:
+    "@img/sharp-libvips-darwin-arm64" "1.2.0"
+
+"@img/sharp-libvips-darwin-arm64@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.2.0.tgz"
+  integrity sha512-sBZmpwmxqwlqG9ueWFXtockhsxefaV6O84BMOrhtg/YqbTaRdqDE7hxraVE3y6gVM4eExmfzW4a8el9ArLeEiQ==
 
 "@jest/schemas@^29.6.3":
   version "29.6.3"
@@ -2143,10 +2150,10 @@
     "@module-federation/runtime" "0.16.0"
     "@module-federation/sdk" "0.16.0"
 
-"@node-rs/jieba-win32-x64-msvc@1.10.4":
+"@node-rs/jieba-darwin-arm64@1.10.4":
   version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/jieba-win32-x64-msvc/-/jieba-win32-x64-msvc-1.10.4.tgz"
-  integrity sha512-+sqemSfS1jjb+Tt7InNbNzrRh1Ua3vProVvC4BZRPg010/leCbGFFiQHpzcPRfpxAXZrzG5Y0YBTsPzN/I4yHQ==
+  resolved "https://registry.npmjs.org/@node-rs/jieba-darwin-arm64/-/jieba-darwin-arm64-1.10.4.tgz"
+  integrity sha512-G++RYEJ2jo0rxF9626KUy90wp06TRUjAsvY/BrIzEOX/ingQYV/HjwQzNPRR1P1o32a6/U8RGo7zEBhfdybL6w==
 
 "@node-rs/jieba@^1.6.0":
   version "1.10.4"
@@ -2227,10 +2234,10 @@
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz"
   integrity sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==
 
-"@rspack/binding-win32-x64-msvc@1.4.8":
+"@rspack/binding-darwin-arm64@1.4.8":
   version "1.4.8"
-  resolved "https://registry.npmjs.org/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.4.8.tgz"
-  integrity sha512-BVkOfJDZnexHNpGgc/sWENyGrsle1jUQTeUEdSyNYsu4Elsgk/T9gnGK8xyLRd2c6k20M5FN38t0TumCp4DscQ==
+  resolved "https://registry.npmjs.org/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.4.8.tgz"
+  integrity sha512-PQRNjC3Fc0avpx8Gk+sT5P+HAXxTSzmBA8lU7QLlmbW5GGXO2taVhNstbZ4oxyIX5uDVZpQ2yQ2E0zXirK6/UQ==
 
 "@rspack/binding@1.4.8":
   version "1.4.8"
@@ -2409,10 +2416,10 @@
     "@svgr/plugin-jsx" "8.1.0"
     "@svgr/plugin-svgo" "8.1.0"
 
-"@swc/core-win32-x64-msvc@1.12.14":
+"@swc/core-darwin-arm64@1.12.14":
   version "1.12.14"
-  resolved "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.12.14.tgz"
-  integrity sha512-SymoP2CJHzrYaFKjWvuQljcF7BkTpzaS1vpywv7K9EzdTb5N8qPDvNd+PhWUqBz9JHBhbJxpaeTDQBXF/WWPmw==
+  resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.12.14.tgz"
+  integrity sha512-HNukQoOKgMsHSETj8vgGGKK3SEcH7Cz6k4bpntCxBKNkO3sH7RcBTDulWGGHJfZaDNix7Rw2ExUVWtLZlzkzXg==
 
 "@swc/core@^1.2.147", "@swc/core@^1.7.39":
   version "1.12.14"
@@ -2438,10 +2445,10 @@
   resolved "https://registry.npmjs.org/@swc/counter/-/counter-0.1.3.tgz"
   integrity sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==
 
-"@swc/html-win32-x64-msvc@1.12.14":
+"@swc/html-darwin-arm64@1.12.14":
   version "1.12.14"
-  resolved "https://registry.npmjs.org/@swc/html-win32-x64-msvc/-/html-win32-x64-msvc-1.12.14.tgz"
-  integrity sha512-ji7lXLL5Os5SQfnF0YKprhnrSki+4OgkkjPYNcjoYs6gFfXg+U9h2p88uSx8K6OkmbUkkAQ2xRHzAYCQFo39BQ==
+  resolved "https://registry.npmjs.org/@swc/html-darwin-arm64/-/html-darwin-arm64-1.12.14.tgz"
+  integrity sha512-qbZBSd2oalqBxGfVwpgT9I7gaCleL05XjuatMZIca94QhvLp0+FhCNqujrdq6Ggcrlk8IVoxtsVS5GTeDH5jAw==
 
 "@swc/html@^1.7.39":
   version "1.12.14"
@@ -3711,15 +3718,15 @@ compressible@~2.0.18:
     mime-db ">= 1.43.0 < 2"
 
 compression@^1.7.4:
-  version "1.8.0"
-  resolved "https://registry.npmjs.org/compression/-/compression-1.8.0.tgz"
-  integrity sha512-k6WLKfunuqCYD3t6AsuPGvQWaKwuLLh2/xHNcX4qE+vIfDNXpSqnrhwA7O53R7WVQUnt8dVAIW+YHr7xTgOgGA==
+  version "1.8.1"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.8.1.tgz"
+  integrity sha512-9mAqGPHLakhCLeNyxPkK4xVo746zQ/czLH1Ky+vkitMnWfWZps8r0qXuwhwizagCRttsL4lfG4pIOvaWLpAP0w==
   dependencies:
     bytes "3.1.2"
     compressible "~2.0.18"
     debug "2.6.9"
     negotiator "~0.6.4"
-    on-headers "~1.0.2"
+    on-headers "~1.1.0"
     safe-buffer "5.2.1"
     vary "~1.1.2"
 
@@ -4816,6 +4823,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
+fsevents@~2.3.2:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
+
 function-bind@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
@@ -5780,10 +5792,10 @@ leven@^3.1.0:
   resolved "https://registry.npmjs.org/leven/-/leven-3.1.0.tgz"
   integrity sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A==
 
-lightningcss-win32-x64-msvc@1.30.1:
+lightningcss-darwin-arm64@1.30.1:
   version "1.30.1"
-  resolved "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.1.tgz"
-  integrity sha512-PVqXh48wh4T53F/1CCu8PIPCxLzWyCnn/9T5W1Jpmdy5h9Cwd+0YQS6/LwhHXSafuc61/xg9Lv5OrCby6a++jg==
+  resolved "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.30.1.tgz"
+  integrity sha512-c8JK7hyE65X1MHMN+Viq9n11RRC7hgin3HhYKhrMyaXflk5GVplZ60IxyoVtzILeKr+xAJwg6zK6sjTBJ0FKYQ==
 
 lightningcss@^1.27.0:
   version "1.30.1"
@@ -6894,10 +6906,10 @@ on-finished@2.4.1:
   dependencies:
     ee-first "1.1.1"
 
-on-headers@~1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/on-headers/-/on-headers-1.0.2.tgz"
-  integrity sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==
+on-headers@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/on-headers/-/on-headers-1.1.0.tgz"
+  integrity sha512-737ZY3yNnXy37FHkQxPzt4UZ2UWPWiCZWLvFZ4fu5cueciegX0zGPnrlY6bwRg4FdQOe9YU8MkmJwGhoMybl8A==
 
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
