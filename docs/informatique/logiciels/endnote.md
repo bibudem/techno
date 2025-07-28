@@ -28,7 +28,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 
 1. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer sur **Valider**.
-3. Sélectionner **EndNote 21 (Windows)** dans La liste des logiciels autorisés.
+3. Sélectionner **EndNote 2025 (Windows)** dans La liste des logiciels autorisés.
 4. Lire les informations à l’écran et cliquer sur les boutons **Valider** → **Suivant** → **Installation du logiciel**.
 5. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
 
@@ -55,9 +55,9 @@ Si le message **Vérifiez que vous faites confiance…** ou **Cette application 
 
 1. Avec Safari, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer sur **Valider**.
-3. Sélectionner EndNote 21 (macOS) dans La liste des logiciels autorisés.
+3. Sélectionner EndNote 2025 (macOS) dans La liste des logiciels autorisés.
 4. Lire les informations à l’écran et cliquer sur les boutons **Valider** → **Suivant**.
-5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 21. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite sur **Installation du logiciel**.
+5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite sur **Installation du logiciel**.
 6. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
 
 :::info IMPORTANT : Si un message d’erreur s’affiche 
@@ -82,7 +82,7 @@ Cliquer sur le **menu Pomme** → **Préférences Système** (ou **Réglages sys
 
 1. Ouvrir EndNote.
 2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 21** → ***Check for Updates***
+3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 2025** → ***Check for Updates***
 </TabItem>
 <TabItem value="macos" label="macOS">
 
@@ -103,10 +103,10 @@ Pour changer cela, cliquer sur ***Edit*** → ***Preferences*** → ***Libraries
 <TabItem value="macos" label="macOS">
 
 Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
-Pour changer cela, cliquer sur ***EndNote21*** → ***Preferences*** → ***Libraries*** et choisir l’option voulue.
+Pour changer cela, cliquer sur ***EndNote2025*** → ***Preferences*** → ***Libraries*** et choisir l’option voulue.
 
 :::info Important
-Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 21 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer sur ***EndNote21*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
+Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer sur ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
 :::
 
 </TabItem>
@@ -128,11 +128,11 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 
 <TabItem value="macos" label="macOS">
 
-1. Sous ***EndNote21*** → ***Preferences*** → ***Find Full Text***, cocher ***OpenURL***
+1. Sous ***EndNote2025*** → ***Preferences*** → ***Find Full Text***, cocher ***OpenURL***
 2. Dans ***OpenURL Path***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
 3. Cocher ***PubMed LinkOut (U.S. National Library of Medicine)***.
 4. S'assurer que la case *Automatically invoke Find Full Text on newly-imported references* est **décochée**.
-5. Sous ***EndNote21*** → ***Preferences*** → ***URLs & Links***, remplacer les informations présentes dans la boîte ***OpenURL Arguments***, en copiant la ligne de commande suivante : 
+5. Sous ***EndNote2025*** → ***Preferences*** → ***URLs & Links***, remplacer les informations présentes dans la boîte ***OpenURL Arguments***, en copiant la ligne de commande suivante : 
 <CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
 6. Cliquer sur **OK**.
 
