@@ -40,9 +40,9 @@ Consultez les sections [Technologies créatives](../creatives/index.md) et [Prod
     ]}
 />
 
-## Formulaire de contact
+<!-- ## Formulaire de contact
 Pour toute question ou information supplémentaire, remplir le formulaire ci-dessous. Une réponse sera envoyée dans les plus brefs délais.
 
-<FormulaireContactAPI />
+<FormulaireContactAPI /> -->
 
 
