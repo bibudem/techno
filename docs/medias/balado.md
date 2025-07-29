@@ -25,7 +25,11 @@ Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et
 Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aider à enregistrer votre balado dans des conditions professionnelles.
 
 <Link to="/espaces/studioaudio" className="button button--primary">
-  Réserver un studio audio
+  Réserver un studio audio (voix uniquement)
+</Link>
+
+<Link to="/espaces/studiobalado" className="button button--primary">
+  Réserver un studio balado (vidéo + voix)
 </Link>
 
 ---
@@ -76,4 +80,5 @@ Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? 
   
     Nous serions ravis d’écouter votre création et de la mettre en avant dans la section [Projets](../creatives/projets.md). Vous aurez aussi l’occasion d’y découvrir les productions enregistrées dans nos studios par la communauté UdeM. N’hésitez pas à nous envoyer le lien sur studio@bib.umontreal.ca.
 </details>
+
 ---

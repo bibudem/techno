@@ -2,7 +2,7 @@
 title: Numérisation de livres et partitions
 description: Guide pour Numériser des pages d’un livre ou partition avec CEZUR ET25 Pro
 help : info
-image: "/img/cover/czur.jpg"
+image: "/img/cover/czur.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
