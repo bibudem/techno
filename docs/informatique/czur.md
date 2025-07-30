@@ -19,13 +19,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   }} 
 />
 
-La Bibliothèque des lettres et sciences humaines offre plusieurs équipements pour numériser, dont le numériseur CZUR ET25 Pro. Le numériseur situé près de la salle **1085** au 1er étage de la bibliothèque. Il est possible de [réserver le numériseur](https://calendrier.bib.umontreal.ca/seat/12008).
+## Équipement
+
+- Numériseur [CZUR ET25 Pro](https://www.czur.com/support/et24_25pro#softwaremanual).  
 
 ---
 
-## Équipement
+## Localisation
 
-- Numériseur [CZUPCZUR ET25 Pro](https://www.czur.com/support/et24_25pro#softwaremanual).  
+| **Bibliothèque**                                    | **Localisation** | **Accès** |
+|-----------------------------------------------------|-----------------|------------|
+| **Bibliothèque des lettres et sciences humaines (BLSH)** | Pavillon Samuel-Bronfman, près de la salle 1085. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/seat/12008) |
+| **Bibliothèque de Musique** | Pavillon de la Faculté de Musique, salle B-287. [Voir sur la carte](https://maps.app.goo.gl/EAcMHvvYmffawV4p9) | Libre-service |
 
 ---
 
