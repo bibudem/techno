@@ -7,9 +7,9 @@ title : Guide d'utilisation
 
 ### 1. Contenu de la boîte :
 
-Photo VR1
+![VR1](/img/docs/VR1.webp)
 
-Photo VR2
+![VR2](/img/docs/VR2.webp)
 
 - Casque Meta Quest 3 (1)
 - Deux manettes Touch Plus avec leur dragonne (2)
@@ -31,11 +31,12 @@ Photo VR2
 ### 3. Se connecter au wifi / lancer des applications
 
 - Une fois allumé on se retrouve dans le salon des Bibliothèques
-Photo VR3
+![VR5](/img/docs/VR5.webp)
 - S'assurer que le Wi-fi est connecté. Dans le pavillon d'emprunt du casque la connexion devrait se faire automatiquement. Chez vous il faut sélectionner le réseau souhaité et entrer le code correspondant pour s'y connecter
-Photo VR4
-- Une fois connecté, cliquer sur XXX pour faire apparaître la liste des applications disponibles
-Photo VR5
+![VRX-wifi](/img/docs/VRX-wifi.webp)
+![VRX-wifi-2](/img/docs/VRX-wifi-2.webp)
+- Une fois connecté, retourner à l'écran d'acceuil pour faire apparaître la liste des applications disponibles
+![VRX-listeapplis](/img/docs/VRX-listeapplis.webp)
 - Sélectionner une application et la lancer
 - Pour quitter une application en cours, cliquer sur XXX puis XXX et XXX
 
