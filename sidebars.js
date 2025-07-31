@@ -339,7 +339,7 @@ const sidebars = {
           collapsed: true,
           link: { type: 'doc', id: 'creatives/vr' }, 
           items: [
-            // "creatives/vr/guide",
+             "creatives/vr/guide",
             "creatives/vr/catalogue",
             "creatives/vr/mise-en-garde",
           ],

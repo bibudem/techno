@@ -1,11 +1,10 @@
 ---
 title : Guide d'utilisation
+help : crea
 ---
-# Réalité virtuelle
+# Documentation du casque Meta Quest 3
 
-## Documentation du casque Méta Quest 3 :
-
-### 1. Contenu de la boîte :
+## 1. Contenu de la boîte
 
 ![VR1](/img/docs/VR1.webp)
 
@@ -19,7 +18,7 @@ title : Guide d'utilisation
 - Un chiffon sec en microfibres
 
 
-### 2. Mise en marche du casque / premiers pas :
+## 2. Mise en marche du casque / premiers pas
 
 - Nettoyage préalable du casque : à l'aide du chiffon prévu à cet effet, nettoyer délicatement et à sec les lentilles
 - Placer le casque sur la tête et ajuster si nécessaire afin d'assurer un bon maintien et confort
@@ -28,7 +27,7 @@ title : Guide d'utilisation
 - Viser avec la manette Touch Plus puis appuyer sur la gâchette sous votre index pour cliquer sur l'élément pointé
 - Définir une zone de jeu sécuritaire
 
-### 3. Se connecter au wifi / lancer des applications
+## 3. Se connecter au wifi / lancer des applications
 
 - Une fois allumé on se retrouve dans le salon des Bibliothèques
 ![VR5](/img/docs/VR5.webp)
@@ -38,20 +37,22 @@ title : Guide d'utilisation
 - Une fois connecté, retourner à l'écran d'acceuil pour faire apparaître la liste des applications disponibles
 ![VRX-listeapplis](/img/docs/VRX-listeapplis.webp)
 - Sélectionner une application et la lancer
-- Pour quitter une application en cours, cliquer sur XXX puis XXX et XXX
+- Pour quitter une application en cours, cliquer sur le bouton META de la manette droite puis quitter l'application
 
-!!! warning
+:::info
     Envie de nous suggérer une application ? Envoyer un courriel à studio@bib.umontreal.ca afin de nous en faire part !
+    :::
 
-### 4. Rangement et rechargement :
+## 4. Rangement et rechargement
 
 - Lorsqu'il est allumé, presser une courte fois sur le bouton d'allumage pour mettre le casque en veille. Rester appuyé sur le bouton afin de faire apparaître un message avec différentes options : mettre en veille, éteindre ou redémarrer
 
-!!! warning
+:::warning
     Au moment d'éteindre le casque, le brancher à l'alimentation afin qu'il fasse les mises à jour nécessaires. Il s'éteindra automatiquementy ensuite
+    :::
 
 - Ranger le casque correctement dans son étuit de transport comme il l'était au moment du déballage. Bien penser à remettre les accessoires fournis
 
-### 5. Sécurité, inconfort, nausées et mises en garde :
+## 5. Sécurité, inconfort, nausées et mises en garde
 
 Avant de commencer nous vous conseillons de vous reporter à [la section Mise en garde](https://studio.bib.umontreal.ca/creatives/vr/mise-en-garde)
