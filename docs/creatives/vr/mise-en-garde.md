@@ -25,16 +25,16 @@ En cas de nausées :
 
 ## Sécurité
 
-Assurez-vous que l'espace autour de vous est dépourvu d'obstacle. Si besoin, faites appel à une personne de confiance pour vous assister.
+S'aasurer que l'espace autour de vous est dépourvu d'obstacle. Si besoin, faire appel à une personne de confiance pour vous assister.
 
-Bien délimitwer son espace de jeu et y rester durant l'expérience.
+Bien délimiter son espace de jeu et y rester durant l'expérience.
 
 ## Hygiène
 
-Le casque doit être nettoyé avec une lingette alcoolisée avant et après utilisation. **Ne pas nettoyer les lentilles avec des lingettes humides**.
+Nettoyer le casque avec une lingette alcoolisée avant et après utilisation. **Ne pas nettoyer les lentilles avec des lingettes humides**.
 
-Une grande précaution est à prendre pour les lentilles afin d'éviter les rayures. Utilisez un pulvérisateur de gaz comprimé et ensuite avec un chiffon microfibre sec (fourni avec le casque), nettoyez délicatement en partant du centre vers les bords.
+Une grande précaution est à prendre pour les lentilles afin d'éviter les rayures. Utiliser un chiffon microfibre sec, nettoyer délicatement en partant du centre vers les bords.
 
 # Besoin d'aide ?
 
-Si vous désirez une initiation sur le fonctionnement du casque, n'hésitez pas à prendre contact avec le personnel de la bibliothèque où vous avez emprunté le casque ou à nous écrire à studio@bib.umontreal.ca.
+Besoin d'une initiation sur le fonctionnement du casque, n'hésitez pas à prendre contact avec le personnel de la bibliothèque où vous avez emprunté le casque ou à nous écrire à studio@bib.umontreal.ca.
