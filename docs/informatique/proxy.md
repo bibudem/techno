@@ -164,7 +164,7 @@ import TabItem from '@theme/TabItem';
       Options → Vie privée & sécurité → **Effacer Cookies & cache**
       </TabItem>
       <TabItem value="Edge" label="Edge">
-      Menu (⋯) → Paramètres → Confidentialité, recherche et services → Choisir les éléments à effacer  → Dans Intervalle de temps, choisir **À tout moment**  → Cocher uniquement **Images et fichiers mis en cache**  → **Effacer maintenant** → Redémarrer **Microsoft Edge**
+      Menu (⋯) → Paramètres → Confidentialité, recherche et services → Choisir les éléments à effacer  → Dans Intervalle de temps, choisir **À tout moment**  → Cocher uniquement **Images et fichiers mis en cache**  → **Effacer maintenant** → Redémarrer **Microsoft Edge**
       </TabItem>
       <TabItem value="Safari" label="Safari">
       **Menu Développement → Vider les caches**  

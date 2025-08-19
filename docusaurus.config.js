@@ -24,22 +24,22 @@ const config = {
     locales: ['fr'],
   },
 
-  themes: [
-  [
-    '@easyops-cn/docusaurus-search-local',
-    {
-      hashed: false,
-      language: ['fr'],
-      docsRouteBasePath: '/',
-      highlightSearchTermsOnTargetPage: true,
-      explicitSearchResultPath: true,
-      docsPluginIdForPreferredVersion: 'default', 
-      indexDocs: true,
-      indexBlog: false,
-      searchBarShortcut: false,
-    },
+themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: false,
+        language: ['fr'],
+        docsRouteBasePath: '/',          
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexDocs: true,
+        indexBlog: false,
+        searchBarShortcut: false,
+        docsPluginIdForPreferredVersion: 'default',
+      },
+    ],
   ],
-],
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
     require.resolve('./src/clientModules/klaroLoader.js'),
