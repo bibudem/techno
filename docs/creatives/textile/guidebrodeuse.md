@@ -64,4 +64,4 @@ Installation du fil, réalisation de la canette, mise en place du tissu dans le 
 
 ### Mise en place du tissu dans le cadre de broderie.
 
-Il est important de bien mettre en place le tissu de broderie. [Nous vous invitons à consulter cette portion du manuel](broderie-misenplacetissu.pdf).
+Il est important de bien mettre en place le tissu de broderie. [Nous vous invitons à consulter cette portion du manuel](/pdf/broderie-miseneplacetissu.pdf).
