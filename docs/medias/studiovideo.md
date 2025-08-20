@@ -3,7 +3,7 @@ title : Guide du studio vidéo
 help : crea
 ---
 
-Les studios d’enregistrement vidéo des bibliothèques des Lettres et sciences humaines (BLSH) et Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
+Les studios d’enregistrement vidéo des bibliothèques des [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) (BLSH) et Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
 
 ---
 
@@ -39,8 +39,8 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
 
 **Besoin d'une clé USB ?** Vous pouvez emprunter une clé de 16 Go pour 6 heures dans l'une des bibliothèques suivantes :
 
-- Lettres et sciences humaines
-- Thérèse-Gouin-Décarie
+- [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)
+- [Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)
 
 :::
 

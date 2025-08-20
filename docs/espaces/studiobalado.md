@@ -22,7 +22,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 /> -->
 
-Le studio balado de la Bibliothèque des lettres et sciences humaines a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable. 
+Le studio balado de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable.
 
 <Link to="#localisation-et-accès" className="button button--primary">
   Réserver le studio

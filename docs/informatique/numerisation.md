@@ -31,20 +31,20 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
 
 <Tabs groupId="numérisation-disponibilité">
   <TabItem value="petit-format" label="Petit format">
-    - Aménagement  
-    - Campus Laval  
-    - Droit  
-    - Lettres et sciences humaines  
-    - Marguerite-d'Youville  
-    - Mathématiques et informatique  
+    - [Aménagement](https://bib.umontreal.ca/espaces/#amenagement)  
+    - [Campus Laval](https://bib.umontreal.ca/espaces/#laval)  
+    - [Droit](https://bib.umontreal.ca/espaces/#droit)  
+    - [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)  
+    - [Marguerite-d'Youville](https://bib.umontreal.ca/espaces/#my)  
+    - [Mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)  
     - Santé  
-    - Thérèse-Gouin-Décarie  
+    - [Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)
 
     Demandez au comptoir d'accueil pour connaître l'emplacement.
   </TabItem>
 
   <TabItem value="livres" label="Livres">
-    - Lettres et sciences humaines
+    - [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)  
   </TabItem>
 
   <TabItem value="moyen-format" label="Moyen format">

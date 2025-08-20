@@ -43,7 +43,7 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 
 :::important Équipements spécifiques à la BLSH
 
-Le poste d’édition de la Bibliothèque des lettres et sciences humaines (BLSH) est équipé de périphériques supplémentaires :
+Le poste d’édition de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) est équipé de périphériques supplémentaires :
 
 - **Blackmagic Design DaVinci Resolve Speed Editor**
 - **Blackmagic Design DaVinci Resolve Micro Color Panel**

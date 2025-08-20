@@ -13,7 +13,7 @@ import LibChatWidget from '@site/src/components/LibChatWidget';
 import CardGrid from "@site/src/components/CardGrid";
 import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
-Discutez avec un technicien en soutien informatique [**par clavardage**](#clavardage) ou [**sur place**](https://bib.umontreal.ca/espaces/) à la Bibliothèque des lettres et sciences humaines (BLSH).
+Discutez avec un technicien en soutien informatique [**par clavardage**](#clavardage) ou [**sur place**](https://bib.umontreal.ca/espaces/#lsh) à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ## Exemples d’aide offerte
 - Configuration du proxy ou du VPN pour accéder aux ressources UdeM hors campus  

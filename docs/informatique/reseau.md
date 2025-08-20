@@ -257,7 +257,7 @@ En cas de difficultés avec le réseau sans fil, des prises réseau en accès li
 
 | Bibliothèque                             | Local                          |
 |------------------------------------------|--------------------------------|
-| Bibliothèque des lettres et sciences humaines (BLSH) | local 1000                     |
+| [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) | local 1000                     |
 | Bibliothèque de la santé                 | local L-886, L-888, L-890     |
 
 :::caution

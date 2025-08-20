@@ -18,7 +18,7 @@
 
 ### Localisation
 
-Bibliothèque Thérèse-Gouin-Décarie, Atelier de fabrication, 2<sup>e</sup> étage.
+[Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd), Atelier de fabrication, 2<sup>e</sup> étage.
 
 ## Découpe avec Chitubox
 

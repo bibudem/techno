@@ -9,4 +9,4 @@ DaVinci Resolve Studio est un logiciel de montage vidéo et d'étalonnage profes
 
 ## Localisation
 
-[Postes d'édition](../../medias/postes-edition.md) de la Bibliothèque des lettres et sciences humaines (BLSH).
+[Postes d'édition](../../medias/postes-edition.md) de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) (BLSH).

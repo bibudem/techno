@@ -98,7 +98,7 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
 
   <TabItem value="pret-30j" label="Prêt 30 jours">
     :::warning
-    **Uniquement à la Bibliothèque des lettres et sciences humaines.**
+    **Uniquement à la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh).**
     :::
 
     - **Réservation obligatoire**.  
