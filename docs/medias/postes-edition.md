@@ -65,7 +65,7 @@ Vous pouvez vous connecter à [un de nos postes à distance](../informatique/con
 ## Visite virtuelle
 
 <Pano360
-  image="/img/pano/posteedition.jpg"
+  image="/img/pano/posteedition.webp"
   legende="Vue en 360° du Poste d'édition de la BLSH"
   title="Poste d'édition à la BLSH"
   alt="Vue en 360° du Poste d'édition de la BLSH"

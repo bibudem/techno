@@ -24,7 +24,7 @@ help : crea
 8. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
 9. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
-![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.png)
+![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
 
 10. Ajuster le niveau des casques d'écoute si nécessaire. Le volume des casques est contrôlé par les boutons situés en haut de la console de contrôle.
 
