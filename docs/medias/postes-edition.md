@@ -8,6 +8,7 @@ help : crea
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -61,3 +62,11 @@ Le poste donne également accès à la version complète de DaVinci Resolve Stud
 Vous pouvez vous connecter à [un de nos postes à distance](../informatique/connexion-distance.md) équipés de la suite **Adobe Creative Cloud**.
 
 
+## Visite virtuelle
+
+<Pano360
+  image="/img/pano/posteedition.jpg"
+  legende="Vue en 360° du Poste d'édition de la BLSH"
+  title="Poste d'édition à la BLSH"
+  alt="Vue en 360° du Poste d'édition de la BLSH"
+/>

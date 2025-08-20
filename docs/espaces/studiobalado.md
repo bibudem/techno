@@ -100,11 +100,11 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 
 ---
 
-<!-- ## Visite virtuelle
+## Visite virtuelle
 
 <Pano360
-  image="/img/pano/studioaudio.webp"
-  legende="Vue en 360° du Studio audio"
-  title="Studio audio"
-  alt="Vue en 360° du Studio audio"
-/> -->
+  image="/img/pano/studiobalado.jpg"
+  legende="Vue en 360° du Studio balado"
+  title="Studio balado"
+  alt="Vue en 360° du Studio balado"
+/>
