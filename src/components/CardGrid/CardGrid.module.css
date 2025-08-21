@@ -1,10 +1,11 @@
 /* ──────────── Grille des cartes ──────────── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 1rem;
   align-items: stretch;
 }
+
 
 
 
@@ -17,7 +18,8 @@
   border-style: solid;
   border-color: var(--jaune-pale);
   padding: 1rem;
-  min-height: 160px;
+  min-height: 250px;
+  max-height : 260px;
   text-decoration: none;
   display: block;
   transition:
@@ -121,6 +123,8 @@
 
 .petit {
   min-height: 80px;
+  max-height : 160px;
+  
 }
 
 @media screen and (max-width: 768px) {
