@@ -7,6 +7,7 @@ image : "/img/cover/labvisu.webp"
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import StudioCard from '@site/src/components/StudioCard';
+import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -43,5 +44,14 @@ Le laboratoire peut accueillir un maximum de 30 personnes.
 
 Si vous avez des questions ou besoin d'aide, contactez-nous à studio@bib.umontreal.ca
 
+---
 
+## Visite virtuelle
+
+<Pano360
+  image="/img/pano/visu.webp"
+  legende="Vue en 360° du Laboratoire de visualisation"
+  title="Laboratoire de visualisation"
+  alt="Vue en 360° du Laboratoire de visualisation"
+/>
 
