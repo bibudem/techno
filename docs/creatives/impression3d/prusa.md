@@ -20,7 +20,7 @@ Avant de faire votre première impression, lisez l'[introduction à l'impression
 | Diamètre du filament | 1.75mm |
 | Matériaux supportés | PLA, PETG, ASA, ABS, PC, CPE, PVA/BVOH, PVB, HIPS, PP, Flex, nGen, Nylon, Carbon filled, Woodfill et autres. |
 | Surface d'impression | Feuille d'acier magnétique amovible |
-| Impression multi-filament | Possible en modifiant le gcode, ou en ajoutant le modulemmU2S (Disponible à la Bibliothèque mathématiques et informatique) |
+| Impression multi-filament | Possible en modifiant le gcode |
 | Logiciel de découpe (*slicer*) | PrusaSlicer |
 
 Chaque imprimante a été montée par l'équipe des bibliothèques et pour quelques-unes, nous avons eu l'aide de la communauté étudiante. Toutes les parties en plastique des machines ont été fabriquées par des imprimantes 3D, de sorte que ces pièces peuvent facilement être remplacées. Ce principe est appelé RepRap.

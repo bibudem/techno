@@ -35,9 +35,9 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
     - [Campus Laval](https://bib.umontreal.ca/espaces/#laval)  
     - [Droit](https://bib.umontreal.ca/espaces/#droit)  
     - [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)  
-    - [Marguerite-d'Youville](https://bib.umontreal.ca/espaces/#my)  
+    - [Marguerite-d'Youville](https://bib.umontreal.ca/espaces/#marguerite-d-youville)  
     - [Mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)  
-    - Santé  
+    - [Santé](https://bib.umontreal.ca/espaces/#sante)  
     - [Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)
 
     Demandez au comptoir d'accueil pour connaître l'emplacement.

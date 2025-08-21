@@ -36,10 +36,10 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 
 | **Bibliothèque**                                    | **Localisation** | **Accès** |
 |-----------------------------------------------------|-----------------|------------|
-| **Bibliothèque des lettres et sciences humaines (BLSH)** | Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-3. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=5747). Présentez-vous au bureau de référence du 2<sup>e</sup> étage pour accéder au local.  |
-| **Bibliothèque Hubert-Reeves (environnement macOS)** | Campus MIL, Aile A, Local A-1551. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/space/22893). Présentez-vous au comptoir d'accueil pour accéder au local.  |
-| **Bibliothèque Thérèse-Gouin-Décarie** | 2<sup>e</sup> étage. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Deux postes sont aussi disponibles **sans réservation** dans [l'Atelier de fabrication](../espaces/ateliers.md) |
-| **Bibliothèque de mathématiques et informatique** | Local 2432. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) |  |
+| **[Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)** | Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-3. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=5747). Présentez-vous au bureau de référence du 2<sup>e</sup> étage pour accéder au local.  |
+| **[Bibliothèque Hubert-Reeves](https://bib.umontreal.ca/espaces/#hubert-reeves)** (environnement macOS) | Campus MIL, Aile A, Local A-1551. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/space/22893). Présentez-vous au comptoir d'accueil pour accéder au local.  |
+| **[Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | 2<sup>e</sup> étage. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Deux postes sont aussi disponibles **sans réservation** dans [l'Atelier de fabrication](../espaces/ateliers.md) |
+| **[Bibliothèque de mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | Local 2432. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) |  |
 
 :::important Équipements spécifiques à la BLSH
 

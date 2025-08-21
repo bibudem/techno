@@ -30,6 +30,10 @@ L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'UdeM v
   Connectez-vous à distance à nos logiciels
 </Link>
 
+<Link to="#chercher-un-logiciel" className="button button--secondary">
+  Chercher un logiciel
+</Link>
+
 ---
 
 ## Les logiciels les plus demandés
