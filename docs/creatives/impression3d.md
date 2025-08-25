@@ -107,7 +107,7 @@ Quel que soit votre niveau de connaissance, on est là pour vous aider à réali
     {
       title: "Participez à une formation",
       description: "On offre aussi des formations pratiques tout au long de l’année pour vous familiariser avec les imprimantes 3D.",
-      link: "https://calendrier.bib.umontreal.ca/calendar?cid=7690&t=g&d=0000-00-00&cal=7690&inc=0",
+      link: "https://calendrier.bib.umontreal.ca/calendar?t=g&q=3D&cid=7690&cal=7690&inc=0",
     },
   ]}
 />
