@@ -76,3 +76,22 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       link: "/creatives/electronique/iot",
       icon: "WifiHigh",
     }, -->
+
+    ## Formations et soutien
+
+Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets !
+
+<CardGrid
+  items={[
+    {
+      title: "Réservez une consultation",
+      description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre projet.",
+      link: "https://outlook.office.com/book/studiobib@umontreal.ca/s/FRRI3-LfM0KF5GG9parGAA2?ismsaljsauthenabled",
+    },
+    {
+      title: "Participez à une formation",
+      description: "On offre aussi des formations pratiques tout au long de l’année pour vous familiariser avec Arduino.",
+      link: "https://calendrier.bib.umontreal.ca/calendar?t=g&q=arduino&cid=7690&cal=7690&inc=0",
+    },
+  ]}
+/>
