@@ -16,14 +16,14 @@ Photo
 De nombreuses diapositives sont consultables directement sur place grâce à nos lecteurs
 (Documentation à venir)
 
-## Lecteur de de microfiches
+## Lecteur de microfiches
 
 Photo
 
 Une mocrofiche est une carte de film transparent qui stocke ders informations de documents sous forme miniaturisée. Afin de les afficher en taille lisible il faut utiliser un lecteur de microfiches.
 (Documentation à venir)
 
-## Lecteur de de microfilms 
+## Lecteur de microfilms 
 
 Photo
 
