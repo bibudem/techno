@@ -17,6 +17,8 @@ import {
 const images = [
   '/img/homepage1.webp',
   '/img/homepage2.webp',
+  '/img/homepage3.webp',
+  '/img/homepage4.webp',
 ];
 
 export default function PageAccueil() {
