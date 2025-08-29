@@ -11,7 +11,7 @@ De nombreux équipements de consultation (lecteur VHS, DVD, ordinateurs, casques
 
 ## Lecteur de diapositives 
 
-Photo
+![Diapositives](/static/img/docs/UdeM-Bibliotheques-diapos.webp) 
 
 De nombreuses diapositives sont consultables directement sur place grâce à nos lecteurs
 (Documentation à venir)
