@@ -22,7 +22,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-# Postes d'édition
+# Postes d'édition 
 
 Nos postes d'édition numérique offrent la possibilité de créer, éditer et publier des productions vidéo, audio et graphiques. Nous mettons à votre disposition une large gamme de logiciels spécialisés, notamment la suite Adobe Creative Cloud et DaVinci Resolve Studio.
 
@@ -32,7 +32,7 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 
 ---
 
-## Localisation et accès
+## Localisation et accès {#localisation-acces}
 
 | **Bibliothèque**                                    | **Localisation** | **Accès** |
 |-----------------------------------------------------|-----------------|------------|
@@ -57,7 +57,7 @@ Le poste donne également accès à la version complète de DaVinci Resolve Stud
 
 ---
 
-## Postes à distance
+## Postes à distance {#postes-distance}
 
 Vous pouvez vous connecter à [un de nos postes à distance](../informatique/connexion-distance.md) équipés de la suite **Adobe Creative Cloud**.
 

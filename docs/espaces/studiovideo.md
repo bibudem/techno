@@ -34,7 +34,7 @@ Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équ
 
 ---
 
-## Localisation et accès
+## Localisation et accès {#localisation-acces}
 
 <div
   className="grid grid--2"
@@ -94,7 +94,7 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
 
 ## Visite virtuelle
 
-### Bibliothèque des lettres et sciences humaines (BLSH)
+### Bibliothèque des lettres et sciences humaines (BLSH) {#blsh}
 
 <Pano360
   image="/img/pano/studiovideolsh.webp"
@@ -103,7 +103,7 @@ Pour toute question ou demande particulière, n'hésitez pas à nous écrire à 
   alt="Vue en 360° du Studio vidéo"
 />
 
-### Bibliothèque Thérèse-Gouin-Décarie (TGD)
+### Bibliothèque Thérèse-Gouin-Décarie (TGD) {#tgd}
 
 <Pano360
   image="/img/pano/studiovideotgd.webp"

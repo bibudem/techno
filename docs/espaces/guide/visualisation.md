@@ -11,7 +11,7 @@ La résolution totale des 27 écrans est de 11580x2160 pixels.
 
 Chaque ensemble de 9 écrans fait 3840x2160 pixels (UHD).
 
-## Les modes d'affichage
+## Les modes d'affichage {#modes-affichage}
 
 Une borne tactile est disponible à l'entrée pour choisir un mode d'affichage.
 
@@ -80,7 +80,7 @@ Lors de la connexion du Air Media et au moment où le logiciel demande le code N
 
 Les 5 haut-parleurs émettent par défaut et simultanément le son de toutes les sources, aussi bien celui du poste maître que les périphériques branchés sans fil. 
 
-## Modèles
+## Modèles {#modeles}
 
 Des modèles sont disponibles pour vous aider à créer du contenu compatible avec la dimension du mur de visualisation. Les logiciels utilisés sont disponibles sur [les postes d'édition](../../medias/postes-edition.md).
 
@@ -90,6 +90,6 @@ Des modèles sont disponibles pour vous aider à créer du contenu compatible av
 
 [Télécharger le gabarit Photoshop (format .psd - 6 Mo)](/files/gabarit-lv.psd)
 
-## Configuration de l'espace
+## Configuration de l'espace {#configuration-espace}
 
 Le mobilier sur roulette permet d'agencer l'espace selon différentes configurations. La capacité d'accueil maximale est de 30 personnes.

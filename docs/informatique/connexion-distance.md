@@ -65,7 +65,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
 ---
 
-## Procédure de connexion
+## Procédure de connexion {#procedure-de-connexion}
 
 <Tabs>
   <TabItem value="windows" label="Windows">
@@ -148,7 +148,7 @@ Veuillez noter que votre session sera fermée automatiquement après 15 minutes 
 
 ---
 
-## Étudiants et étudiantes avec statut d’employé
+## Étudiants et étudiantes avec statut d’employé {#etudiants-statut-employe}
 
 1. Se déconnecter de **VPN UdeM Campus**.
 2. Cliquer l’icône du VPN (en haut ou en bas de l’écran), ensuite **Ouvrir**.

@@ -121,7 +121,7 @@ Ce mode n’est disponible qu’à la Bibliothèque Thérèse-Gouin-Décarie
 
 ---
 
-## Bon à savoir
+## Bon à savoir {#bon-a-savoir}
 
 Utiliser la télécommande de la caméra pour obtenir les cadrages de caméra désirés.
 
@@ -153,6 +153,6 @@ Replacer tout mobilier utilisé au cours de la session.
 
 ---
 
-## Édition
+## Édition {#edition}
 
-[Des postes d'édition](postes-edition.md) sont mis à votre disposition avec une suite de logicielle pour faire du montage.
+[Des postes d'édition](postes-edition.md) sont mis à votre disposition avec une suite de logiciels pour faire du montage.

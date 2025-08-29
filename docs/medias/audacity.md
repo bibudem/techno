@@ -23,7 +23,7 @@ L’importation se fait dans le menu **Fichier** → **Importer** → **Audio**.
 </video>
 
 
-## Zoom avant et arrière
+## Zoom avant et arrière {#zoom-avant-arriere}
 
 Utiliser l’outil de Zoom avant et arrière (les loupes avec un + et un -) pour avoir une vue d’ensemble ou au contraire, voir les détails d’une section.
 
@@ -31,7 +31,7 @@ Utiliser l’outil de Zoom avant et arrière (les loupes avec un + et un -) pour
   <source src="/videos/audacity2.mp4" type="video/mp4"/>
 </video>
 
-## Réduction du bruit
+## Réduction du bruit {#reduction-bruit}
 
 Audacity permet d’éliminer le bruit ambiant (par exemple, la ventilation) en quelques clics.
 
@@ -116,7 +116,7 @@ Libre de droits signifie que vous n’avez pas à payer de redevances, pas que v
   <source src="/videos/audacity6.mp4" type="video/mp4"/>
 </video>
 
-## Références
+## Références {#references}
 
 - [https://www.audacityteam.org/](https://www.audacityteam.org/)
 - [https://www.audacityteam.org/help/](https://www.audacityteam.org/help/)

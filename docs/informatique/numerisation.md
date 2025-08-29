@@ -27,7 +27,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
 
 ---
 
-## Disponibilité
+## Disponibilité {#disponibilite}
 
 <Tabs groupId="numérisation-disponibilité">
   <TabItem value="petit-format" label="Petit format">
@@ -63,7 +63,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
 
 ---
 
-## Numérisation avec les imprimantes du SIUM
+## Numérisation avec les imprimantes du SIUM {#sium}
 
 Le Service d'Impression de l'UdeM offre également un service payant de numérisation disponible à partir des imprimantes publiques des bibliothèques. Pour l'utiliser, il faudra d’abord [créditer son compte électronique d’impression](https://sium.umontreal.ca/compte-cei.html).
 
@@ -86,7 +86,7 @@ L'option de l’envoi personnel (E-mail) ne sera pas offerte si vous avez rediri
 
 ---
 
-## Numérisation petit format avec Epson Scan
+## Numérisation petit format avec Epson Scan {#epsonscan}
 
 1. Placer l’image à numériser sur la vitre du numériseur, en haut à gauche.  
 2. Cliquer sur le bouton **Windows** → **Numérisation** → **EPSON Scan**.  

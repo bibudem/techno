@@ -19,7 +19,7 @@ Ce guide vous permet une première prise en main de la console d’enregistremen
 Allumer la console avec le bouton rouge qui se trouve derrière.
 ![Studio audio](/img/docs/rode2-1.webp)
 
-## 2. Niveau d’enregistrement et volume des casques d’écoute
+## 2. Niveau d’enregistrement et volume des casques d’écoute {#niveau-enregistrement-volume-casques} 
 
 1 - Ajuster le niveau d’enregistrement selon les micros utilisés environ à la mi-course de la glissière (les micros sont identifiés ainsi : MIC #1, MIC #2, etc.)
     ![Studio audio](/img/docs/rode2-2.webp)
@@ -33,7 +33,7 @@ Allumer la console avec le bouton rouge qui se trouve derrière.
     Nul besoin de monter le niveau d’enregistrement au maximum, car cela augmente la sensibilité du micro. Il captera alors davantage les bruits ambiants, ce qui est à éviter. Si vous sentez que le niveau est bas, parlez plus fort ou approchez-vous du micro.
 :::
 
-## 3. L’espace disque restant
+## 3. L’espace disque restant {#espace-disque-restant}
 
 L’enregistrement se fait directement sur la console, pas besoin de la brancher sur un PC ou un Mac, puisque la console possède une mémoire interne. Il est important de vérifier l’espace disque restant avant d’entamer un enregistrement, sinon, votre travail risque de couper en plein milieu par manque d’espace. 
 
@@ -42,7 +42,7 @@ Le nombre d’heures d’enregistrement disponible est indiqué en haut de l’�
     ![Studio audio](/img/docs/rode2-5.webp)
     ![Studio audio](/img/docs/rode2-6.webp)
 
-## 4. Connecter un périphérique Bluetooth ou USB
+## 4. Connecter un périphérique Bluetooth ou USB {#connecter-peripherique-bluetooth-usb}
 
 Vous pouvez connecter votre téléphone intelligent ou votre PC/Mac via Bluetooth ou USB afin de pouvoir enregistrer des interventions via des logiciels de visioconférence (Teams, Zoom ou autres) ou via le réseau cellulaire.
 
@@ -54,7 +54,7 @@ Sur l’écran tactile, appuyer sur l’icône des paramètres > **Systèmes > B
 
 Brancher le câble USB à votre ordinateur. Lors de votre appel en visioconférence (sur Zoom, Teams ou autres), sélectionner depuis le logiciel le micro et la sortie audio l'option RODECaster Pro. Vous pouvez contrôler le volume d’enregistrement avec l'atténuateur ou *fader* assigné.
 
-## 5. Environnement sonore et confort lors de l’enregistrement
+## 5. Environnement sonore et confort lors de l’enregistrement {#environnement-sonore-confort-enregistrement}
 
 - S’assurer que les téléphones et autres appareils soient en mode silencieux (désactiver aussi le mode vibreur).
   
@@ -62,7 +62,7 @@ Brancher le câble USB à votre ordinateur. Lors de votre appel en visioconfére
   
 - Pensez à apporter de l’eau pour chaque personne.
 
-## 6. Lancer l’enregistrement
+## 6. Lancer l’enregistrement {#lancer-enregistrement}
 ![Studio audio](/img/docs/rode2-7.webp)
 Pour lancer ou arrêter l’enregistrement, appuyer sur le bouton REC. Il n’est pas nécessaire d’arrêter l’enregistrement si vous voulez reprendre une partie, il vaut mieux avoir un seul fichier à traiter par la suite que plusieurs.
 
@@ -72,12 +72,12 @@ Pour lancer ou arrêter l’enregistrement, appuyer sur le bouton REC. Il n’es
 Faire l’exportation immédiatement après l’enregistrement. Les bibliothèques ne peuvent êtres tenues responsables de données perdues.
 :::
 
-### Étape 1 : Télécharger et installer le logiciel
+### Étape 1 : Télécharger et installer le logiciel {#telecharger-installer}
 
     - RODE Central pour [Windows](https://update.rode.com/central/RODE_Central_WIN.zip)
     - RODE Central pour [macOS](https://update.rode.com/central/RODE_Central_MACOS.zip).
 
-### Étape 2 : Connecter votre ordinateur à la console
+### Étape 2 : Connecter votre ordinateur à la console {#connecter-ordinateur-console}
 
 - La connexion se fait par câble USB.
   

@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 # Configurer le serveur mandataire (proxy)
 
-## Selectionner votre système d'exploitation
+## Sélectionner votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
 
 <Tabs groupId="os-tabs">
   <TabItem value="macOS" label="macOS">
@@ -144,7 +144,7 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-## Dépannage
+## Dépannage {#depannage}
 
 <Tabs>
   <TabItem value="Tous navigateurs" label="Tous les navigateurs">

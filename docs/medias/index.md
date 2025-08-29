@@ -46,7 +46,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   ]}
 />
 
-## Production vidéo
+## Production vidéo {#production-video}
 
 <CardGrid
   items={[

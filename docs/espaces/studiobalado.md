@@ -33,7 +33,7 @@ Le studio balado de la [Bibliothèque des lettres et sciences humaines](https://
 
 ---
 
-## Un environnement repensé pour la captation
+## Un environnement repensé pour la captation {#environnement-repense}
 
 Le studio est équipé d’un système intégré conçu pour faciliter la production d'un balado vidéo en quelques étapes simples :
 
@@ -43,7 +43,7 @@ Le studio est équipé d’un système intégré conçu pour faciliter la produc
 - **Commutation automatique des caméras** : le système bascule automatiquement vers la caméra pointée sur la personne qui parle, pour un rendu fluide et dynamique, sans aucune intervention de votre part. Si vous préférez faire votre propre montage, les vidéos de chaque caméra sont aussi disponibles séparément.
 - **Design ergonomique** pour un confort optimal pendant l’enregistrement.
 
-## Connectez une personne à distance en un instant
+## Connectez une personne à distance en un instant {#connectez-distance}
 
 Le studio permet d’intégrer une personne à distance. Il suffit de brancher votre ordinateur au câble prévu, de démarrer votre application de visioconférence, et l’image apparaîtra à l’écran du studio. La système basculera automatiquement vers cette source lorsque la personne parlera.
 
@@ -69,7 +69,7 @@ Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez 
 
 ---
 
-## Localisation et accès
+## Localisation et accès {#localisation-acces}
 
 Seuls les membres de la communauté UdeM peuvent réserver le studio balado et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
 

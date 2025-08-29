@@ -33,7 +33,7 @@ Le Service d'Impression de l'UdeM (SIUM) offre des services d'impression, de pho
 
 ---
 
-## Compte électronique d'impression
+## Compte électronique d'impression {#compte-electronique-impression}
 
 Le compte électronique d'impression permet d'ajouter des fonds ou de demander un remboursement en cas de problème d'impression, ainsi que de lancer des impressions ou de consulter l'historique.
 
@@ -43,7 +43,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 
 
 
-### Ajouter des fonds à son compte électronique d'impression
+### Ajouter des fonds à son compte électronique d'impression {#ajouter-fonds}
 
 <Tabs groupId="payment-method">
   <TabItem value="online" label="En ligne">
@@ -63,7 +63,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 
 ---
 
-## Envoyer un document à l’imprimante
+## Envoyer un document à l’imprimante {#envoyer-document-imprimante}
 
 <Tabs groupId="printing-method">
   <TabItem value="online" label="En ligne">
@@ -98,7 +98,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 
 ---
 
-## Récupérer vos impressions
+## Récupérer vos impressions {#recuperer-impressions}
 
 1. S’authentifier sur l'imprimante avec son code d'accès et son mot de passe.
 2. Appuyer sur **PaperCut** en haut de l’écran.

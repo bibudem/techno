@@ -4,14 +4,14 @@ description: Tutoriel d'initiation à Adobe Premiere Rush
 help : crea
 ---
 
-## Création d’un projet de montage sur Adobe Premiere Rush
+## Création d’un projet de montage sur Adobe Premiere Rush {#creation-projet}
 
 1. Cliquer sur **Créer** un nouveau projet. L’explorateur de fichiers apparaît à la gauche de l’interface.
 2. Au bas de l’écran, **inscrire le titre de votre projet**.
 
 ---
 
-## Importation des médias
+## Importation des médias {#importation-medias}
 
 1. Sélectionner les médias désirés dans l’**Explorateur de médias**.
 2. Cliquer sur **Créer**. Les fichiers sélectionnés apparaissent dans le même ordre sur la Timeline.
@@ -22,7 +22,7 @@ help : crea
 
 ---
 
-## Faire un montage en retirant des séquences
+## Faire un montage en retirant des séquences {#montage-retirer-sequences}
 
 1. Déplacer le point bleu pour faire défiler la vidéo.
 2. Dans la Timeline, choisir le média à modifier.
@@ -54,7 +54,7 @@ Il est possible de déplacer l’ordre des médias sur la Timeline. Il suffit de
 Adobe Premiere Rush n’offre pas l’effet Incrustation sur fond de couleur.
 :::
 
-### Solution:
+### Solution
 
 1. Faire le montage de base (votre vidéo avec fond vert) avec Adobe Premiere Rush. 
 2. Ouvrir le logiciel Adobe Premiere Pro. 
@@ -70,7 +70,7 @@ Adobe Premiere Rush n’offre pas l’effet Incrustation sur fond de couleur.
 
 ---
 
-## Exporter le projet Adobe Premiere Rush en format vidéo
+## Exporter le projet Adobe Premiere Rush en format vidéo {#exporter-projet}
 
 1. Sélectionner votre projet.
 2. En haut de l’interface, cliquer sur **Partager**.
@@ -94,7 +94,7 @@ Adobe Premiere Rush n’offre pas l’effet Incrustation sur fond de couleur.
     
 ---
 
-## Qualité du son
+## Qualité du son {#qualite-son}
 
 Certains environnements sont moins propices à une bonne prise de son. Il est toutefois possible d'éliminer un bruit indésirable ou maximiser l’enregistrement d’une voix en postproduction.
 

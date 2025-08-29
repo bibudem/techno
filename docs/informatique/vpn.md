@@ -84,7 +84,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 ---
 
-## Dépannage
+## Dépannage {#depannage}
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
@@ -102,7 +102,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 ---
 
-## Désinstallation
+## Désinstallation {#desinstallation}
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">

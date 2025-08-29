@@ -6,7 +6,7 @@ breadcrumbs: true
 help : crea
 ---
 
-## Avant l’enregistrement
+## Avant l’enregistrement {#avant-enregistrement}
 1. Brancher le disque dur au câble identifié du même nom.
 2. Appuyer sur le bouton jaune au centre de la console.
 
@@ -78,7 +78,7 @@ Le studio propose différentes ambiances d'éclairage. Vous pouvez en choisir en
 
 ---
 
-## Entretien à distance - visioconférence
+## Entretien à distance - visioconférence {#entretien-distance}
 Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams) :
 1. Brancher le câble HDMI (identifié) à votre ordinateur.
 2. Dans les paramètres audio de votre application, sélectionner RØDECaster ou RODE RCV comme entrée et sortie audio.
@@ -87,7 +87,7 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 
 ---
 
-## Terminer l'enregistrement
+## Terminer l'enregistrement {#terminer-enregistrement}
 1. Appuyer sur le bouton **STOP** pour arrêter l’enregistrement.
 2. Débrancher le disque dur et le brancher sur votre ordinateur pour transférer les fichiers.
 

@@ -20,13 +20,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 />
 
 
-# Accès hors campus aux ressources électroniques
+# Accès hors campus aux ressources électroniques {#acces-hors-campus}
 
 La majorité des ressources électroniques (périodiques, bases de données et données numériques) offertes par les bibliothèques de l'UdeM consistent en des abonnements payants régis par des contrats de licences et dont l'utilisation est réservée à la communauté UdeM.
 
 L'accès à ces ressources est possible avec un ordinateur du campus, avec vos appareils [par le réseau sans fil](reseau) **UdeM avec cryptage**, et à l'extérieur du campus à l'aide du serveur mandataire (*proxy*) ou du **VPN** (*Virtual Private Network* ou Réseau privé virtuel).
 
-## Préalables
+## Préalables {#prealables}
 
 - Être membre actif de la communauté UdeM (étudiant ou employé)
 - [Avoir ses informations d'authentification.](authentification)

@@ -2,7 +2,7 @@
 title : Guide d’utilisation de la tablette graphique Kamvas 13
 ---
 
-## Qu’est-ce qu’une tablette graphique?
+## introduction
 
 La tablette graphique est un outil de remplacement de la souris d’ordinateur. Elle facilite le mouvement du curseur, offre une meilleure précision et une fonctionnalité unique de l’usage de la pression. Il est possible d’utiliser des logiciels directement sur la tablette. 
 
@@ -15,15 +15,15 @@ Vous voulez emprunter la tablette graphique? Vérifiez-en la disponibilité dans
 
 ---
 
-## Présentation de l’équipement
+## Présentation de l’équipement {#presentation-equipement}
 
 ![materiel.png](/img/docs/tab-materiel.webp)
 
-### Présentation des fonctions de la tablette
+### Présentation des fonctions de la tablette {#presentation-fonctions-tablette}
 
 ![Sans-titre-2023-04-21-1459.png](/img/docs/tab-tab.webp)
 
-### Présentation des fonctions du stylet
+### Présentation des fonctions du stylet {#presentation-fonctions-stylet}
 
 ![stylo_num.png](/img/docs/tab-stylo_num.webp)
 
@@ -73,7 +73,7 @@ Vous voulez emprunter la tablette graphique? Vérifiez-en la disponibilité dans
 
 ![configTouch2.png](/img/docs/tab-configTouch2.webp)
 
-### Configuration de l’espace de travail
+### Configuration de l’espace de travail {#configuration-espace-travail}
 
 ![ecran-2.png](/img/docs/tab-ecran-2.webp)
 
@@ -87,7 +87,7 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ---
 
-### Personnaliser les raccourcis des boutons du stylet numérique
+### Personnaliser les raccourcis des boutons du stylet numérique {#personnaliser-raccourcis-stylet}
 
 ![stylet.png](/img/docs/tab-stylet.webp)
 
@@ -95,7 +95,7 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ---
 
-### Réglage de la sensibilité à la pression
+### Réglage de la sensibilité à la pression {#sensibilite-pression}
 
 [Pour plus d’information sur le réglage](https://www.huion.com/fr/index.php?m=content&c=index&a=manual&id=490)
 
@@ -111,7 +111,7 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ---
 
-### Importer et exporter les paramètres
+### Importer et exporter les paramètres {#importer-exporter-parametres}
 
 ![sauvConfig.png](/img/docs/tab-sauvConfig.webp)
 
@@ -121,13 +121,13 @@ L’ordinateur de l’atelier fait une réinitialisation tous les jours. Il est 
 
 ---
 
-## Configuration de l’écran de la tablette graphique
+## Configuration de l’écran de la tablette graphique {#configuration-ecran-tablette}
 
 [Configuration vidéo en anglais](https://youtu.be/bVSCkLOo4Wc)
 
 Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plus d’options de configuration pour l’écran. 
 
-### Méthode 1 : Directement avec la tablette graphique
+### Méthode 1 : Directement avec la tablette graphique {#directement-tablette-graphique}
 
 ![OSD.png](/img/docs/tab-OSD.webp)
 
@@ -155,7 +155,7 @@ Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plu
 
 **3)** Attendre que le menu disparaisse.
 
-### Méthode 2 : Directement avec l’application de la tablette graphique
+### Méthode 2 : Directement avec l’application de la tablette graphique {#application-tablette-graphique}
 
 ![image-1.png](/img/docs/tab-image-1.webp)
 

@@ -22,7 +22,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 
 ---
 
-## Comment ça fonctionne?
+## Comment ça fonctionne? {#comment-ca-fonctionne}
 
 1. Trouver un poste AVA disponible dans [les bibliothèques participantes](#localisation).
 2. Brancher votre ordinateur portable à l'écran à l'aide du câble **HDMI** ou **USB-C** fourni.

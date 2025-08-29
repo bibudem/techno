@@ -7,7 +7,7 @@ breadcrumbs: true
 Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [guide d'utilisation du projecteur 16mm (PDF)](/pdf/E61-local-2078-documentation-16mm.pdf).
 ::: 
 
-## Équipements
+## Équipements {#equipements}
 - **Projecteur 4K** : Epson Pro Cinema LS12000
 - **Son** : 7.1, amplificateur Denon X4800H, enceintes POLK AUDIO Signature Elite.
 - **Lecteur de DVD/Blu-ray** : SONY UBP-X800M2
@@ -31,7 +31,7 @@ Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [g
 
 ---
 
-### Recopie d'écran
+### Recopie d'écran {#recopie-ecran}
 
   - Windows : <kbd>Windows</kbd> + <kbd>P</kbd> → Choisir **Dupliquer** ou **Étendre**.
   - macOS : **Centre de contrôle** → **Recopie d'écran**.
@@ -56,7 +56,7 @@ faire de modification, et finalement sur le bouton **Terminer**.
 :::
 ---
 
-## Fin d'utilisation
+## Fin d'utilisation {#fin-utilisation}
 
 - Éteindre le projecteur à l’aide du panneau de contrôle sur le bureau en appuyant sur le bouton **OFF**. Le système de son s’éteint automatiquement.
 - Retirer tout média (DVD/blu-ray, VHS) et éteindre les lecteurs.

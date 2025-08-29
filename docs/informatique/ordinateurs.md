@@ -44,7 +44,7 @@ Nous offrons des ordinateurs puissants pour les travaux vidéos ou graphiques. C
 
 ---
 
-## Portables en prêt
+## Portables en prêt {#pret-portable}
 
 Des ordinateurs portables sont disponibles pour la communauté étudiante de l'UdeM. Ces ordinateurs portables ont une configuration similaire aux ordinateurs en libre-service des bibliothèques, sauf quelques exceptions.
 

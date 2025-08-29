@@ -19,7 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   }} 
 />
 
-## Équipement
+## Équipement {#equipement}
 
 - Numériseur [CZUR ET25 Pro](https://www.czur.com/support/et24_25pro#softwaremanual).  
 
@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ---
 
-## Guide d'utilisation
+## Guide d'utilisation {#guide-utilisation}
 
 1. Appuyer `CTRL+ALT+SUPPR` et s’authentifier
 2. Préparation
@@ -62,11 +62,11 @@ Optionnel : Utilisez les fonctions intégrées pour :
 
 ---
 
-### 💡 Conseils utiles
+### Conseils utiles
 > L’OCR est plus efficace si la qualité d’éclairage est bonne et que la page est bien à plat.
 
 ---
 
-## Droit d'auteur
+## Droit d'auteur {#droit-auteur}
 
 Pour plus d’information, [consultez notre guide sur le droit d’auteur](https://bib.umontreal.ca/gerer-diffuser/droit-auteur/guide-droit-auteur?tab=5230701).

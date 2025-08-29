@@ -123,7 +123,7 @@ Réservez une rencontre avec notre équipe ou plongez dans une formation pratiqu
 
 ## Visite virtuelle
 
-### Bibliothèque Thérèse-Gouin-Décarie
+### Bibliothèque Thérèse-Gouin-Décarie {#tgd}
 
 <Pano360
   image="/img/pano/ateliertgd.webp"

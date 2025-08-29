@@ -131,7 +131,7 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
 
 ---
 
-## UdeM non sécurisé
+## UdeM non sécurisé {#udem-non-securise}
 
 :::caution
 Il n'est pas recommandé d'utiliser le réseau **UdeM non sécurisé**. Ce réseau ne permet pas un accès à nos ressources électroniques et n'offre aucune garantie de confidentialité et de sécurité.
@@ -139,7 +139,7 @@ Il n'est pas recommandé d'utiliser le réseau **UdeM non sécurisé**. Ce rése
 
 ---
 
-## Dépannage
+## Dépannage {#depannage}
 
 En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous pour oublier ou retirer un réseau et vous y reconnecter. 
 
@@ -180,7 +180,7 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
 
 ---
 
-## Sites umontreal.ca non accessibles ?
+## Sites umontreal.ca non accessibles?
 
 Lorsque vous êtes connecté au réseau sans fil de l’UdeM, tous les sites s’affichent normalement, sauf ceux de l’Université de Montréal (Studium, umontreal.ca, etc.). Cela signifie que votre appareil (ou un programme) utilise des serveurs DNS personnalisés qui ne sont pas compatibles avec le réseau de l’UdeM.
 
@@ -251,7 +251,7 @@ Pour résoudre ce problème, configurez votre connexion pour obtenir automatique
 
 ---
 
-## Réseau filaire en accès libre
+## Réseau filaire en accès libre {#reseau-filaire-en-acces-libre}
 
 En cas de difficultés avec le réseau sans fil, des prises réseau en accès libre sont disponibles dans les bibliothèques.
 

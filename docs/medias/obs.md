@@ -7,7 +7,7 @@ help : crea
 
 OBS est un logiciel gratuit et libre pour enregistrer des vidéos et même diffuser sur les plateformes de diffusion en continu comme Twitch ou YouTube. Cet outil permet de mélanger différentes sources audio et vidéo et de les disposer comme bon nous semble dans un canevas. 
 
-### Cas d’usages
+### Cas d’usages {#cas-usages}
 
 - Capture de caméra, écran et audio.
 - Événement en ligne.
@@ -20,13 +20,13 @@ OBS est un logiciel gratuit et libre pour enregistrer des vidéos et même diffu
 
 ---
 
-## Télécharger et installer le logiciel
+## Télécharger et installer le logiciel {#telecharger-installer}
 
 OBS est gratuit, libre et compatible avec Windows, MacOS et Linux. [Télécharger la dernière version depuis le site officiel](https://obsproject.com/fr). 
 
 ---
 
-## Première configuration
+## Première configuration {#premiere-configuration}
 
 - Au premier lancement du logiciel, la fenêtre **Assistant de configuration automatique** apparaît. Sélectionner **Optimiser pour l’enregistrement, je ne diffuse pas** et cliquer sur **Suivant**.
     
@@ -97,13 +97,13 @@ Par défaut, OBS capture le micro du système, c’est-à-dire que si votre PC p
 
 ---
 
-## Capturer l’écran
+## Capturer l’écran {#capturer-ecran}
 
 Toujours dans **Sources**, vous avez le choix de capturer tout l’écran (**Capture d’écran**) ou seulement la fenêtre d’une application (**Capture de fenêtre**).
 
 ---
 
-## Modifier l’ordre et la disposition des sources
+## Modifier l’ordre et la disposition des sources {#modifier-ordre-disposition-sources}
 
 Dans l’onglet **Sources**, vous pouvez glisser et déposer les entrées afin de changer quelle source sera en arrière-plan ou en avant-plan. Cela fonctionne selon le même principe des calques dans Photoshop. 
 

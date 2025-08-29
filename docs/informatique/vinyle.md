@@ -23,7 +23,7 @@ La Bibliothèque de musique offre plusieurs équipements spécialisés pour l’
 
 ---
 
-## Équipement de numérisation audio
+## Équipement de numérisation audio {#equipement-audio}
 
 - Table tournante [Audio-Technica AT-LP120XUSB](https://www.audio-technica.com/en-ca/at-lp120xusb) avec branchement USB.  
 - Casques d’écoute [Sony MDR7506](https://pro.sony/en_CA/products/headphones/mdr-7506) et [Sennheiser HD 280 Pro](https://www.sennheiser.com/en-in/catalog/products/headphones/hd-280-pro/hd-280-pro-506845) (disponibles au comptoir de prêt).
