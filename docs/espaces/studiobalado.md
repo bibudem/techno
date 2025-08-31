@@ -2,7 +2,7 @@
 id: studiobalado
 title: Studio balado
 description : Balados, présentations et entretiens.
-# image: "/img/cover/studiolsh.webp"
+image: "/img/cover/studiobalado.jpg"
 help : crea
 ---
 
@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
 
-<!-- <img 
+<img 
   src={useBaseUrl(frontMatter.image)} 
   alt={frontMatter.title} 
   style={{
@@ -20,7 +20,7 @@ import Pano360 from '@site/src/components/Pano360';
     margin: "16px auto",
     borderRadius: "8px"
   }} 
-/> -->
+/>
 
 Le studio balado de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable.
 
