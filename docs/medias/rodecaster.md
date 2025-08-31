@@ -74,8 +74,8 @@ Faire l’exportation immédiatement après l’enregistrement. Les bibliothèqu
 
 ### Étape 1 : Télécharger et installer le logiciel {#telecharger-installer}
 
-    - RODE Central pour [Windows](https://update.rode.com/central/RODE_Central_WIN.zip)
-    - RODE Central pour [macOS](https://update.rode.com/central/RODE_Central_MACOS.zip).
+    - RODECaster App pour [Windows](https://update.rode.com/rc-app/RODECaster_App_WIN.zip)
+    - RODECaster App pour [macOS](https://update.rode.com/rc-app/RODECaster_App_MACOS.zip).
 
 ### Étape 2 : Connecter votre ordinateur à la console {#connecter-ordinateur-console}
 
