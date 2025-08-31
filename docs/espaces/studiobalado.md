@@ -24,11 +24,14 @@ import Pano360 from '@site/src/components/Pano360';
 
 Le studio balado de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable.
 
-<Link to="#localisation-et-accès" className="button button--primary">
+<Link to="#localisation-acces" className="button button--primary">
   Réserver le studio
 </Link>
-<Link to="#documentation-et-soutien" className="button button--secondary">
+<Link to="/espaces/guide/studiob" className="button button--secondary">
   Consulter la documentation
+</Link>
+<Link to="https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled" className="button button--secondary">
+  Obtenir du soutien
 </Link>
 
 ---
@@ -43,29 +46,11 @@ Le studio est équipé d’un système intégré conçu pour faciliter la produc
 - **Commutation automatique des caméras** : le système bascule automatiquement vers la caméra pointée sur la personne qui parle, pour un rendu fluide et dynamique, sans aucune intervention de votre part. Si vous préférez faire votre propre montage, les vidéos de chaque caméra sont aussi disponibles séparément.
 - **Design ergonomique** pour un confort optimal pendant l’enregistrement.
 
+---
+
 ## Connectez une personne à distance en un instant {#connectez-distance}
 
 Le studio permet d’intégrer une personne à distance. Il suffit de brancher votre ordinateur au câble prévu, de démarrer votre application de visioconférence, et l’image apparaîtra à l’écran du studio. La système basculera automatiquement vers cette source lorsque la personne parlera.
-
----
-
-## Documentation et soutien
-
-Une documentation complète est à votre disposition pour vous familiariser avec le studio en toute autonomie.
-
-Sur rendez-vous, un membre de l’équipe vous accompagne lors d’une prise en main initiale de l’équipement. N’hésitez pas à poser vos questions ou à demander une démonstration. Ce service optionnel n’inclut toutefois pas la présence d’un technicien pendant vos séances d’enregistrement, que vous devez mener de façon autonome.
-
-<Link to="/espaces/guide/studiob" className="button button--primary">
-  Consulter la documentation
-</Link>
-
-<Link to="https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled" className="button button--secondary">
-  Obtenir du soutien
-</Link>
-
-:::warning Note
-Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez réserver vous-même le studio pour l’heure de votre rendez-vous. 
-:::
 
 ---
 
