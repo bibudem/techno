@@ -29,7 +29,7 @@ export default function Footer() {
       <div className={styles.content}>
         {/* Colonne À propos */}
         <div className={styles.contact}>
-          <h3>À propos</h3>
+          <h3>Besoin d’aide?</h3>
           
           <Link to="/a-propos/nous-joindre" className={styles.contactLink}>
             <ChatCircleDots size={20} />
