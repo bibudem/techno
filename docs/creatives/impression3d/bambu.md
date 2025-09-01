@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## **1.** Télécharger et configurer le logiciel Bambu Studio 
 
-- [Lien pour télécharger le logiciel](https://bambulab.com/en-ca/download/studio) (disponible pour Windows, Mac et Linux)
+- [Lien pour télécharger le logiciel](https://bambulab.com/en-ca/download/studio) (disponible pour Windows, macOS et Linux)
 
 ### Configuration de Bambu Lab Studio
 
