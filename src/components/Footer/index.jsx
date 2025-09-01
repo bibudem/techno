@@ -2,7 +2,6 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import {
   ChatCircleDots,
-  PencilSimpleLine,
   MonitorPlay,
   BookOpenText,
   InstagramLogo,
@@ -11,9 +10,12 @@ import {
   CubeFocus,
   VideoCamera,
   Cube,
+  Circle,
   Desktop,
+  User,
+  Info,
   HouseLine,
-  Siren, // ← ajout du girophare
+  Siren,
 } from "@phosphor-icons/react";
 import styles from './Footer.module.css';
 
@@ -33,18 +35,22 @@ export default function Footer() {
             <ChatCircleDots size={20} />
             <span>Nous joindre</span>
           </Link>
-          <Link to="/a-propos/contribuer" className={styles.contactLink}>
-            <PencilSimpleLine size={20} />
-            <span>Contribuer</span>
+          <Link to="https://umontreal.account.worldcat.org/account" className={styles.contactLink}>
+            <User size={20} />
+            <span>Votre dossier</span>
           </Link>
-          <Link to="/a-propos/accessibilite" className={styles.contactLink}>
-            <MonitorPlay size={20} />
-            <span>Accessibilité</span>
+          <Link to="/a-propos/" className={styles.contactLink}>
+            <Info size={20} />
+            <span>À propos</span>
           </Link>
-          <Link to="/a-propos/politique" className={styles.contactLink}>
-            <BookOpenText size={20} />
-            <span>Politique d’utilisation</span>
-          </Link>
+
+          {/* Bloc Urgence style contactLink, mais avec marge haut */}
+          <div className={styles.urgenceInContact}>
+            <a href="tel:5143437771" className={styles.contactLink}>
+              <Siren size={20} weight="fill" color="#f04e24" />
+              <span>Urgence UdeM - 514 343-7771</span>
+            </a>
+          </div>
         </div>
 
         {/* Séparateur vertical */}
@@ -53,29 +59,29 @@ export default function Footer() {
         {/* Colonne Liens rapides */}
         <div className={styles.linkSection}>
           <h3>Liens rapides</h3>
-          <a
-            href="https://bib.umontreal.ca"
-            className={styles.contactLink}
-            rel="noopener noreferrer"
-          >
+            <Link to="/espaces" className={styles.linkItem}>
             <HouseLine size={20} />
-            <span>Site des bibliothèques</span>
-          </a>
+            <span>Site des bibliothèques UdeM</span>
+          </Link>
           <Link to="/espaces" className={styles.linkItem}>
-            <Cube size={20} />
-            <span>Espaces</span>
+            <Circle size={20} weight="fill" color="#f04e24"/>
+            <span>Boite à outils</span>
           </Link>
           <Link to="/informatique" className={styles.linkItem}>
-            <Desktop size={20} />
-            <span>Ressources informatiques</span>
+            <Circle size={20} weight="fill" color="#FFCA40"/>
+            <span>studio•bib</span>
           </Link>
           <Link to="/creatives" className={styles.linkItem}>
-            <CubeFocus size={20} />
-            <span>Technologies créatives</span>
+            <Circle size={20} weight="fill" color="#024244"/>
+            <span>Papyrus</span>
           </Link>
           <Link to="/medias" className={styles.linkItem}>
-            <VideoCamera size={20} />
-            <span>Productions médias</span>
+            <Circle size={20} weight="fill" color="#CCE2F3"/>
+            <span>GéoIndex</span>
+          </Link>
+          <Link to="/medias" className={styles.linkItem}>
+            <Circle size={20} weight="fill" color="#FEE1DE"/>
+            <span>Calypso</span>
           </Link>
         </div>
         
@@ -106,14 +112,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bloc Urgence */}
-<div className={styles.urgence}>
-  <a href="tel:5143437771" className={styles.contactLink}>
-    <Siren size={24} weight="fill" color="#f04e24" />
-    <span>Urgence UdeM - 514 343-7771</span>
-  </a>
-</div>
-
       {/* Barre légale */}
       <div className={styles.bottomBar}>
         <span>
@@ -127,6 +125,8 @@ export default function Footer() {
         <Link to="https://vie-privee.umontreal.ca/confidentialite/">Confidentialité</Link>
         <span>|</span>
         <Link to="https://bib.umontreal.ca/conditions-utilisation">Conditions d’utilisation</Link>
+        <span>|</span>
+        <Link to="/a-propos/accessibilite">Accessibilité</Link>
         <span>|</span>
         <span>
           <button
