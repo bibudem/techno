@@ -18,7 +18,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Configuration de Bambu Lab Studio
 
 •	Sélectionner la région adéquate (ici **Amérique du Nord**)
-•	Sélectionner l’imprimante : par défaut elles sont toutes sélectionnées, dans le coin supérieur droit cliquer sur **Clear All** → sélectionner **Bambu Lab X1 Carbon** → **suivant**
+
+•	Sélectionner l’imprimante : par défaut elles sont toutes sélectionnées, dans le coin supérieur droit cliquer sur **Clear All** → sélectionner **BambuLab X1 Carbon** → **suivant**
 
 ![](/img/docs/configurer_bambu_studio_1.webp)
 
