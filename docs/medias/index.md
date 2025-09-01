@@ -9,18 +9,6 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
 
-
-<CardGrid
-  items={[
-    {
-      title: "Postes d'édition",
-      description: "Ordinateurs équipés pour le montage audio, vidéo et l'infographie. Accessibles avec ou sans réservation.",
-      link: "/medias/postes-edition",
-      icon: "DesktopTower",
-    },
-  ]}
-/>
-
 ## Production audio
 
 <CardGrid
@@ -30,6 +18,12 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Étapes et outils pour créer un balado de l'enregistrement jusqu'à la diffusion.",
       link: "/medias/balado",
       icon: "BookOpenText",
+    },
+    {
+      title: "Guide balado vidéo",
+      description: "Guide d'utilisation du studio de balado vidéo",
+      link: "/espaces/guide/studiob",
+      icon: "Waveform",
     },
     {
       title: "RODECaster Pro II",
@@ -52,7 +46,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   items={[
     {
       title: "Guide du studio vidéo",
-      description: "Guide utilisation du studio vidéo pour vos projets audiovisuels.",
+      description: "Guide d'utilisation du studio vidéo pour vos projets audiovisuels.",
       link: "/medias/studiovideo",
       icon: "BookOpenText",
     },
@@ -71,6 +65,20 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   ]}
 />
 
+## Édition 
+
+<CardGrid
+  items={[
+    {
+      title: "Postes d'édition",
+      description: "Ordinateurs équipés pour le montage audio, vidéo et l'infographie. Accessibles avec ou sans réservation.",
+      link: "/medias/postes-edition",
+      icon: "DesktopTower",
+      petit : true,
+    },
+  ]}
+/>
+
 ## Infographie
 
 <CardGrid
@@ -80,6 +88,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Connexion, installation et premiers pas avec la tablette Huion Kamvas 13.",
       link: "/medias/tabgraphique",
       icon: "PencilSimpleLine",
+      petit : true,
     },
   ]}
 />

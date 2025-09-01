@@ -5,6 +5,7 @@ image: "/img/cover/balado.webp"
 ---
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import CardGrid from "@site/src/components/CardGrid";
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -24,29 +25,39 @@ Entrez dans l’univers de la baladodiffusion, où les histoires prennent vie et
 
 Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aider à enregistrer votre balado dans des conditions professionnelles.
 
-<Link to="/espaces/studioaudio" className="button button--primary">
-  Réserver un studio audio (voix uniquement)
-</Link>
-
-<Link to="/espaces/studiobalado" className="button button--primary">
-  Réserver un studio balado (vidéo + voix)
-</Link>
+<CardGrid
+  items={[
+    {
+      title: "Réserver un studio audio",
+      description: "Idéal pour enregistrer de la voix",
+      link: "/espaces/studioaudio",
+      icon: "Cube",
+      petit : true,
+    },
+    {
+      title: "Réserver un studio balado vidéo",
+      description: "Studio de production de balado vidéo",
+      link: "/espaces/studiobalado",
+      icon: "Cube",
+      petit : true,
+    },
+  ]}
+/>
 
 ---
 
 <details>
   <summary>**Suivre une formation**</summary>
 
-    L’équipe des bibliothèques propose des formations sur la création et la diffusion de balados. [Inscrivez-vous pour y participer](https://calendrier.bib.umontreal.ca/calendar?cid=7690&t=m&d=0000-00-00&cal=7690&inc=0). Vous apprendrez les formats de balados, l'utilisation du matériel et la diffusion sur les plateformes. La formation est recommandée, mais pas obligatoire pour réserver le studio. [Cliquez ici pour voir les diapositives de la formation](https://hackmd.io/@studiobib/balado). 
+    L’équipe des bibliothèques propose des formations sur la création et la diffusion de balados. [Inscrivez-vous pour y participer](https://calendrier.bib.umontreal.ca/calendar?t=d&q=balado&cid=7690&cal=7690&inc=0). Vous apprendrez les formats de balados, l'utilisation du matériel et la diffusion sur les plateformes. La formation est recommandée, mais pas obligatoire pour réserver les studios. [Cliquez ici pour voir les diapositives de la formation](https://hackmd.io/@studiobib/balado). 
 </details>
 
 <details>
-  <summary>**Guide d’utilisation de la console RODECaster Pro II**</summary>
+  <summary>**Guide d’utilisation des studios**</summary>
 
     [Lisez le guide d’utilisation de la console RODECaster Pro II](../medias/rodecaster.md), qui explique pas à pas le fonctionnement de la console, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
 
-
-Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? Sachez que vous pouvez la faire intervenir via un logiciel de visioconférence [directement branché sur la console de mixage](./rodecaster.md#4-connecter-un-périphérique-bluetooth-ou-usb).
+    Si vous optez pour un studio balado vidéo, [un guide pas à pas vous explique son fonctionnement](../espaces/guide/studiob.md). 
 </details>
 
 <details>
@@ -59,6 +70,8 @@ Vous souhaitez enregistrer une personne qui ne peut pas se déplacer au studio? 
   <summary>**Post-production**</summary>
   
     C’est l’étape où la magie s’opère! Pour faire du montage, nous recommandons l’utilisation du logiciel [Audacity](../medias/audacity.md), qui est libre et gratuit. Vous pouvez aussi utiliser le logiciel de votre choix, comme [Adobe Audition](../informatique/logiciels/adobe.md) ou Reaper. [Ces logiciels sont offerts en bibliothèque](../informatique/logiciels.md).
+
+    Pour le montage vidéo, nous offrons [des postes d'édition](../medias/postes-edition.md) avec la suite Adobe ainsi que DaVinci Resolve Studio.
 </details>
 
 <details>

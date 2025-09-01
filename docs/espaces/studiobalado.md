@@ -1,6 +1,6 @@
 ---
 id: studiobalado
-title: Studio balado
+title: Studio balado vidéo
 description : Balados, présentations et entretiens.
 image: "/img/cover/studiobalado.jpg"
 help : crea
@@ -9,6 +9,7 @@ help : crea
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
+
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -22,7 +23,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-Le studio balado de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable.
+Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable.
 
 <Link to="#localisation-acces" className="button button--primary">
   Réserver le studio
@@ -56,7 +57,7 @@ Le studio permet d’intégrer une personne à distance. Il suffit de brancher v
 
 ## Localisation et accès {#localisation-acces}
 
-Seuls les membres de la communauté UdeM peuvent réserver le studio balado et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
+Seuls les membres de la communauté UdeM peuvent réserver le studio balado vidéo et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
 
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';

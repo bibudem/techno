@@ -32,7 +32,7 @@ import CardGrid from "@site/src/components/CardGrid";
       icon : "MonitorPlay",
     },
         {
-      title: "Studio balado",
+      title: "Studio balado vidéo",
       description: "Un espace modernisé pour l’enregistrement audio et vidéo.",
       link: "studiobalado",
       icon : "Microphone",

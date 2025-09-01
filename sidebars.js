@@ -43,7 +43,7 @@ const sidebars = {
         'espaces/salledevisio',
            {
           type: 'category',
-          label: 'Studio balado',
+          label: 'Studio balado vidéo',
           link: { type: 'doc', id: 'espaces/studiobalado' },
           collapsible: false, // Empêche la catégorie de s’ouvrir, donc plus de flèche
           items: [
