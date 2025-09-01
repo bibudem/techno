@@ -35,6 +35,12 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       icon : "Nut",
     },
     {
+      title: "Art textile",
+      description: "Créez des œuvres textiles avec nos équipements spécialisés.",
+      link: "/creatives/art-textile",
+      icon : "Scissors",
+    },
+    {
       title: "Robots",
       description: "Empruntez ces accessoires didactiques.",
       link: "/creatives/robots",
@@ -49,12 +55,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
     
   ]}
 />
----
-    <!-- {
-      title: "Art textile",
-      description: "Créez des œuvres textiles avec nos équipements spécialisés.",
-      link: "/creatives/art-textile",
-      icon : "Scissors",
-    },
 
-     -->
+
+
+    

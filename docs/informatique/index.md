@@ -76,7 +76,6 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
   ]}
 />
 
----
 
     <!-- {
       title: "Équipements de consultation",
