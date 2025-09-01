@@ -93,7 +93,7 @@ const Retroaction = () => {
         }}
       >
         <p style={{ margin: 0 }}>
-        Nous avons bien reçu votre avis. Merci de contribuer à l’amélioration de nos services.
+        Merci pour votre retour. Chaque avis nous aide à rendre ce site web meilleur. 
         </p>
       </div>
     );
