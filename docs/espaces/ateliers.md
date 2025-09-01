@@ -25,8 +25,8 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-:::danger Fermeture estivale de l’atelier à la Bibliothèque Thérèse-Gouin-Décarie
-L’atelier de fabrication est fermé pour l’été en raison de travaux d’entretien.
+:::danger Fermeture de l’atelier à la Bibliothèque Thérèse-Gouin-Décarie
+L’atelier de fabrication est fermé en raison de travaux d’entretien.
 
 Réouverture prévue à l’automne.
 :::

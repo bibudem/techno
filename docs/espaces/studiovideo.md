@@ -24,8 +24,8 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-:::danger Fermeture estivale du studio à la Bibliothèque Thérèse-Gouin-Décarie
-Le studio vidéo est fermé pour l’été en raison de travaux d’entretien.
+:::danger Fermeture du studio à la Bibliothèque Thérèse-Gouin-Décarie
+Le studio vidéo est fermé en raison de travaux d’entretien.
 
 Réouverture prévue à l’automne.
 :::
