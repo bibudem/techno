@@ -33,7 +33,7 @@ Cette application est la plus facile à prendre en main de cette liste.
 - [Télécharger OpenSCAD](https://www.openscad.org/)
 - [Documentation](https://www.openscad.org/documentation.html)
 
-**OpenSCAD** est un logiciel libre de modélisation paramétrique et compatible Windows, Linux et Mac. La conception des objets se fait grâce à un langage de programmation. Contrairement aux logiciels de modélisation comme Blender, il ne se concentre pas sur les aspects artistiques, mais plus sur les aspects de conception assistée par ordinateur, ou *Computer-aided design*.
+**OpenSCAD** est un logiciel libre de modélisation paramétrique et compatible Windows, Linux et macOS. La conception des objets se fait grâce à un langage de programmation. Contrairement aux logiciels de modélisation comme Blender, il ne se concentre pas sur les aspects artistiques, mais plus sur les aspects de conception assistée par ordinateur, ou *Computer-aided design*.
 ![Interface du logiciel OpenSCAD](/img/docs/openscad.webp)
 
 <iframe title="Impression et modélisation 3D" width="560" height="315" src="https://classe.iro.umontreal.ca/videos/embed/7967ad16-f87c-49ea-b5e6-519cb6e8a7bb" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>

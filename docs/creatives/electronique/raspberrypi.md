@@ -32,7 +32,7 @@ Pour trouver celle qui vous convient, consultez la page [Trousses techno-créati
 
 ## Téléchargement du logiciel
 
-Télécharger et installer [la dernière version du logiciel Raspberry Pi Imager](https://www.raspberrypi.com/software/) pour Windows, Mac ou Linux.
+Télécharger et installer [la dernière version du logiciel Raspberry Pi Imager](https://www.raspberrypi.com/software/) pour Windows, macOS ou Linux.
 Ce logiciel permet de préparer la carte SD pour le Raspberry Pi en y installant un système d'exploitation.
 
 ## Utilisation
