@@ -2,7 +2,7 @@
 id: studiobalado
 title: Studio balado vidéo
 description : Balados, présentations et entretiens.
-image: "/img/cover/studiobalado.jpg"
+image: "/img/cover/studiobalado.webp"
 help : crea
 ---
 
