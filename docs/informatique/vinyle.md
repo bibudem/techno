@@ -54,4 +54,4 @@ Pour toute demande d’aide ou de soutien pour vos projets spéciaux, adressez-v
 
 ## Droit d'auteur
 
-Il est possible de numériser du matériel tiré de la collection de vinyles des bibliothèques ou de votre propre collection. La numérisation audio est soumise au droit d’auteur. Pour plus d’information, [consultez le segment Enregistrements sonores](https://bib.umontreal.ca/gerer-diffuser/droit-auteur/guide-droit-auteur?tab=5230701) de notre guide sur le droit d’auteur.
+Il est possible de numériser du matériel tiré de la collection de vinyles des bibliothèques ou de votre propre collection. La numérisation audio est soumise au droit d’auteur. Pour plus d’information, [consultez le segment Enregistrements sonores](https://boite-outils.bib.umontreal.ca/c.php?g=740213&p=5349289) de notre guide sur le droit d’auteur.

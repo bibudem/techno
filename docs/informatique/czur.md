@@ -69,4 +69,4 @@ Optionnel : Utilisez les fonctions intégrées pour :
 
 ## Droit d'auteur {#droit-auteur}
 
-Pour plus d’information, [consultez notre guide sur le droit d’auteur](https://bib.umontreal.ca/gerer-diffuser/droit-auteur/guide-droit-auteur?tab=5230701).
+Pour plus d’information, [consultez notre guide sur le droit d’auteur](https://boite-outils.bib.umontreal.ca/recherche/droit-auteur).
