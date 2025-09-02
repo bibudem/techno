@@ -6,8 +6,8 @@ help : info
 
 L’Université de Montréal et l’IRIC ont acquis une licence institutionnelle de la suite d’application ChemDraw
 Professional via PerkinElmer Informatics. Cette licence vous permet de télécharger et installer la version complète de
-ce logiciel de chimie et biologie. Le logiciel est également installé à la bibliothèque de la santé sur les postes identifiés
-et à la bibliothèque Hubert-Reeves sur tous les postes.
+ce logiciel de chimie et biologie. Le logiciel est également installé à la [Bibliothèque de la santé](https://bib.umontreal.ca/espaces/#sante) sur les postes identifiés
+et à la [Bibliothèque Hubert-Reeves](https://bib.umontreal.ca/espaces/#Hubert-reeves) sur tous les postes.
 
 ## Téléchargement
 
