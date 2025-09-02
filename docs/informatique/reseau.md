@@ -258,7 +258,7 @@ En cas de difficultés avec le réseau sans fil, des prises réseau en accès li
 | Bibliothèque                             | Local                          |
 |------------------------------------------|--------------------------------|
 | [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) | local 1000                     |
-| Bibliothèque de la santé                 | local L-886, L-888, L-890     |
+| [Bibliothèque de la santé](https://bib.umontreal.ca/espaces/#sante)                 | local L-886, L-888, L-890     |
 
 :::caution
 Une connexion au serveur mandataire (*proxy*) est nécessaire pour accéder aux ressources électroniques des bibliothèques depuis une connexion filaire.
