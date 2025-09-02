@@ -6,8 +6,6 @@ help : info
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Reconnaissance optique de caractères (OCR) {#ocr}
-
 1. Ouvrir un fichier PDF avec Acrobat Pro.  
 2. Activer la reconnaissance optique de caractères :  
    - Dans le menu de droite, cliquer sur **Améliorer les numérisations**.  

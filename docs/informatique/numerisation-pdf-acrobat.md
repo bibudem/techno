@@ -1,12 +1,10 @@
 ---
-title: Numériser au format PDF
+title: Numériser au format PDF - Adobe Acrobat Pro
 description: Guide numérisern au format PDF avec Adobe Acrobat Pro
 help : info
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
-
-## Numérisation au format PDF avec Adobe Acrobat Pro {#numerisation-pdf-acrobat}
 
 1. Placer le document à numériser sur la vitre du numériseur (face vers le bas).  
 2. Cliquer sur le bouton **Windows** → **Adobe Acrobat Pro**.  
