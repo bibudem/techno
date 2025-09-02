@@ -141,5 +141,5 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 
 ## Astuces
 
-- [Procédure en cas d'absence de la barre d’outils EndNote dans Word.](https://studio.bib.umontreal.ca/informatique/static/pdf/ENL3-barre-outils-word.pdf)
+- [Procédure en cas d'absence de la barre d’outils EndNote dans Word.](/pdf/ENL3-barre-outils-word.pdf)
 :::
