@@ -49,7 +49,7 @@ Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aid
 <details>
   <summary>**Suivre une formation**</summary>
 
-    L’équipe des bibliothèques propose des formations sur la création et la diffusion de balados. [Inscrivez-vous pour y participer](https://calendrier.bib.umontreal.ca/calendar?t=d&q=balado&cid=7690&cal=7690&inc=0). Vous apprendrez les formats de balados, l'utilisation du matériel et la diffusion sur les plateformes. La formation est recommandée, mais pas obligatoire pour réserver les studios. [Cliquez ici pour voir les diapositives de la formation](https://hackmd.io/@studiobib/balado). 
+    L’équipe des bibliothèques propose des formations sur la création et la diffusion de balados. [Inscrivez-vous pour y participer](https://calendrier.bib.umontreal.ca/calendar?t=d&q=balado&cid=7690&cal=7690&inc=0). Vous apprendrez les formats de balados, l'utilisation du matériel et la diffusion sur les plateformes. La formation est recommandée, mais pas obligatoire pour réserver les studios. [Cliquez ici pour voir les diapositives de la formation](https://studio.bib.umontreal.ca/formations/balado/). 
 </details>
 
 <details>
