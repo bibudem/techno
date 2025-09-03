@@ -82,7 +82,7 @@ Retirer le papier transfert avec le vinyle collé dessus. Coller où vous le sou
 
 ![La découpeuse Cameo 4](/img/docs/cameo9.webp)
 
-Retirer le papier transfert doucement et le roulant vers l’extérieur. Tadam !
+Retirer le papier transfert doucement et le roulant vers l’extérieur. Tadam!
 
 ---
 

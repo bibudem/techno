@@ -55,7 +55,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
 
 ## Formations et soutien
 
-Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets !
+Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets!
 
 <CardGrid
   items={[

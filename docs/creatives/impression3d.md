@@ -95,7 +95,7 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
 
 ## Formations et soutien
 
-Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets !
+Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets!
 
 <CardGrid
   items={[

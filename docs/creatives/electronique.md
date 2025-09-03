@@ -79,7 +79,7 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
 
     ## Formations et soutien
 
-Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets !
+Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets!
 
 <CardGrid
   items={[
