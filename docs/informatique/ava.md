@@ -18,6 +18,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   }} 
 />
 
+<!-- :::tip Votre avis nous intéresse!
+Avez-vous déjà utilisé un poste AVA? [Dites-le nous en répondant à ce sondage!](#)
+::: -->
+
 Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez Votre Appareil (AVA)**. Ces postes vous permettent de brancher votre ordinateur portable à un écran large via HDMI ou USB-C. Vous aurez également accès à un clavier et une souris pour une meilleure ergonomie. **Aucune réservation requise.**
 
 ---
