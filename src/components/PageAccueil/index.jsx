@@ -1,5 +1,4 @@
 // src/pages/index.jsx
-
 import React from 'react';
 import styles from './styles.module.css';
 import CardBib from '@site/src/components/CardBib';
@@ -13,7 +12,6 @@ import {
   Microphone,
 } from '@phosphor-icons/react';
 
-
 const images = [
   '/img/homepage1.webp',
   '/img/homepage2.webp',
@@ -21,8 +19,29 @@ const images = [
   '/img/homepage4.webp',
 ];
 
+const slogans = [
+  'Là où les idées prennent vie.',
+  'De l’idée à la création.',
+  'Imaginez. Réalisez. Partagez.',
+  'La créativité en action.',
+  'L’innovation au service de la communauté.',
+  'De la connaissance à la création.',
+  'Faites vibrer vos idées.',
+  'L’étincelle de vos projets.',
+  'Les bibliothèques en mode création.',
+  'Connectés par la créativité.',
+  'La créativité comme moteur de recherche.',
+];
+
 export default function PageAccueil() {
-  const randomImage = images[Math.floor(Math.random() * images.length)];
+  const [randomImage, setRandomImage] = React.useState(images[0]);
+  const [subtitle, setSubtitle] = React.useState('');
+
+  React.useEffect(() => {
+    setRandomImage(images[Math.floor(Math.random() * images.length)]);
+    setSubtitle(slogans[Math.floor(Math.random() * slogans.length)]);
+  }, []);
+
   return (
     <>
       <section
@@ -42,7 +61,7 @@ export default function PageAccueil() {
             <span className={styles.introBold}>bib</span>
           </h1>
           <p className={styles.introSubtitle}>
-            Là où les idées prennent vie.
+            {subtitle || 'Là où les idées prennent vie.'}
           </p>
           <div className={styles.introButtons}>{/* Boutons */}</div>
         </div>
@@ -59,7 +78,7 @@ export default function PageAccueil() {
             color="jaune"
           />
           <CardBib
-            title="Impression 3D"
+            title="Impression 3D"
             Icon={Cube}
             href="/creatives/impression3d"
             moreText="Imprimer vos objets"
@@ -96,7 +115,7 @@ export default function PageAccueil() {
             />
             <CardMedia
               to="/informatique/ava"
-              title="Postes Apportez Votre Appareil"
+              title="Postes Apportez Votre Appareil"
               text="Étendez votre horizon de travail."
               imageUrl="/img/home-ava.webp"
             />
@@ -120,8 +139,8 @@ export default function PageAccueil() {
               chaque lieu offre une opportunité d’inventer, de créer et de partager.
             </p>
             <a id="bouton-espaces" href="/espaces" className="button button--secondary">
-  Découvrir nos espaces →
-</a>
+              Découvrir nos espaces →
+            </a>
           </div>
           <div className={styles.spacesImages}>
             {['/img/espace-1.webp', '/img/espace-2.webp', '/img/espace-3.webp'].map(

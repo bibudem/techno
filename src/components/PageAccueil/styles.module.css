@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 10rem 1rem 2rem;
+  padding: 8rem 1rem 6rem; /* ↓ réduit le padding haut */
   border-radius: 0 0 12px 12px;
   margin-bottom: 2rem;
 }
@@ -20,7 +20,8 @@
   font-size: clamp(2.5rem, 6vw, 7rem);
   font-weight: 400;
   color: white;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0;    /* ↓ colle au slogan */
+  line-height: 1;      /* ↓ resserre la hauteur */
 }
 
 .introLight {
@@ -39,7 +40,9 @@
   font-size: clamp(1.25rem, 3vw, 3rem);
   color: #f9c846;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-top: 0.15rem;   /* ↓ rapproche du titre */
+  margin-bottom: 1.5rem; /* ↓ un peu moins d’espace en bas */
+  line-height: 1.2;
 }
 
 .introButtons {
@@ -66,7 +69,7 @@
 }
 
 .linkButton {
-  background-color:var(--bleu-500);
+  background-color: var(--bleu-500);
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 10px;
@@ -163,7 +166,6 @@
 }
 
 /* === Section Cartes VR + Ateliers === */
-
 .cardsSection {
   background-color: #fff;
   padding: 2rem 0;
@@ -173,28 +175,26 @@
   display: flex;
   gap: 2rem;
   justify-content: space-between;
-  align-items: stretch;   /* ← stretch au lieu de flex-start */
+  align-items: stretch;
   flex-wrap: wrap;
 }
-
-/* Colonne de gauche : empilement vertical des cartes */
 
 .leftColumn {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem; 
-  flex: 1;                 
+  row-gap: 2rem;
+  flex: 1;
   min-width: 280px;
 }
 
 .leftColumn :global(.cardMedia) {
-  flex: 1;                 
+  flex: 1;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .rightColumn {
-  flex: 1;                  
+  flex: 1;
   min-width: 280px;
 }
 
@@ -274,15 +274,11 @@
 
 .cardTitle {
   margin-left: 1.45rem;
-
   font-size: clamp(0.95rem, 2.5vw, 1.1rem);
   font-weight: 400;
-  /* color: var(--gris-700); */
   text-decoration: none;
   line-height: 1.3;
 }
-
-
 
 .cardFooter {
   padding: 0.75rem 1.25rem;
@@ -300,15 +296,10 @@
   margin-top: 2rem;
   max-width: 100%;
   display: block;
-  
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
-
+/* === Responsive === */
 @media screen and (max-width: 996px) {
-
 }
 
 @media screen and (max-width: 768px) {
@@ -325,36 +316,45 @@
     grid-template-columns: 1fr;
     align-items: stretch;
     gap: 0;
-    /* padding: 1rem; */
   }
 
   .card-row {
     gap: 0 !important;
   }
+
   .cardsSection {
     padding: 0 0;
   }
+
   .leftColumn {
-
-    row-gap: 0rem; 
-
+    row-gap: 0rem;
   }
+
   .cardWorkshops {
     border-radius: 0;
   }
+
   .introSection {
     margin-bottom: 0;
+    padding: 6rem 1rem 1.5rem; /* ↓ moins d’air sur mobile */
   }
+
+  .introSubtitle {
+    margin-bottom: 1.25rem;
+  }
+
   .spacesSection {
     padding: 2rem 0;
     border-radius: 0;
   }
+
   #bouton-espaces {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center !important;
   }
+
   .spacesImages {
     display: flex;
     gap: 0.6rem;
@@ -369,6 +369,7 @@
     margin: 0 !important;
     margin-top: 0 !important;
   }
+
   .cardsSection {
     padding: 0 0;
   }
