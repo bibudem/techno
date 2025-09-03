@@ -59,27 +59,27 @@ export default function Footer() {
         {/* Colonne Liens rapides */}
         <div className={styles.linkSection}>
           <h3>Liens rapides</h3>
-            <Link to="/espaces" className={styles.linkItem}>
+            <Link to="https://bib.umontreal.ca/" className={styles.linkItem}>
             <HouseLine size={20} />
             <span>Site des bibliothèques UdeM</span>
           </Link>
-          <Link to="/espaces" className={styles.linkItem}>
+          <Link to="https://boite-outils.bib.umontreal.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="#f04e24"/>
             <span>Boite à outils</span>
           </Link>
-          <Link to="/informatique" className={styles.linkItem}>
+          <Link to="https://studio.bib.umontreal.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="#FFCA40"/>
             <span>studio•bib</span>
           </Link>
-          <Link to="/creatives" className={styles.linkItem}>
+          <Link to="https://umontreal.scholaris.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="#024244"/>
             <span>Papyrus</span>
           </Link>
-          <Link to="/medias" className={styles.linkItem}>
+          <Link to="https://geoapp.bibl.ulaval.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="#CCE2F3"/>
             <span>GéoIndex</span>
           </Link>
-          <Link to="/medias" className={styles.linkItem}>
+          <Link to="https://calypso.bib.umontreal.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="#FEE1DE"/>
             <span>Calypso</span>
           </Link>
