@@ -37,7 +37,7 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
 7. Cliquer sur **Démarrer**, puis confirmer avec **OK**.
 8. Éjecter la clé en toute sécurité.
 
-**Besoin d'une clé USB ?** Vous pouvez emprunter une clé de 16 Go pour 6 heures dans l'une des bibliothèques suivantes :
+**Besoin d'une clé USB?** Vous pouvez emprunter une clé de 16 Go pour 6 heures dans l'une des bibliothèques suivantes :
 
 - [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)
 - [Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)

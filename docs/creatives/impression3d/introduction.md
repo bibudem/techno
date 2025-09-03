@@ -6,7 +6,7 @@ help : crea
 
 # Introduction à l'impression 3D
 
-## Qu’est-ce que l’impression 3D ?
+## Qu’est-ce que l’impression 3D?
 
 L’impression 3D consiste à reproduire un objet à partir d’un modèle en 3D conçu par ordinateur. Cet objet tridimensionnel est créé par un dépôt successif de couches de matériaux. Différents matériaux peuvent être utilisés : du plastique, mais aussi du chocolat ou du béton. 
 
@@ -60,7 +60,7 @@ Lorsqu’un filament a absorbé trop d’humidité, un séchoir à filament peut
 </figure>
 
 <div id="description-diagramme-impression3d" className="sr-only">
-  Ce diagramme présente les grandes étapes de l’impression 3D. Il commence par la question : « Modèle 3D ? ». 
+  Ce diagramme présente les grandes étapes de l’impression 3D. Il commence par la question : « Modèle 3D? ». 
   Si la réponse est non, deux options s’offrent à l’utilisateur : trouver un modèle sur Internet ou modéliser avec un logiciel, 
   ce qui mène ensuite à l’exportation du fichier au format STL.
 

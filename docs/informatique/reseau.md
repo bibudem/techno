@@ -150,7 +150,7 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
     1. Aller dans **Préférences Réseau** → **Wi-Fi** → **Avancé**.  
     2. Sélectionner **UdeM avec cryptage** et cliquer sur le symbole **-** pour supprimer.  
     :::note
-    Encore des problèmes ? Au besoin supprimer les informations de branchement du Trousseau d’accès
+    Encore des problèmes? Au besoin, supprimer les informations de branchement du Trousseau d’accès
     **Finder** → inscrire Trousseau dans la barre de recherche → double-cliquer **Trousseau d’accès** → inscrire
     **umontreal** dans la boite de recherche → supprimer la ligne correspondante aux réseaux Wi-Fi de l'Université (**UdeM avec cryptage**, **eduroam**, **UdeM non securise** et **UdeM-Visiteurs**)
     :::

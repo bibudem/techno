@@ -24,7 +24,7 @@ Sinon, ajouter un compte : **Paramètres > Compte > Ajouter un compte**
 
 Entrez votre courriel UdeM (`prenom.nom@umontreal.ca`) et authentifiez-vous.
 
-## 3 – Quoi sauvegarder dans OneDrive ?  
+## 3 – Quoi sauvegarder dans OneDrive?  
 Il est recommandé de **décocher** les options *Bureau*, *Documents* et *Images*.  
 Seul le dossier **Votre Prénom – Université de Montréal** sera sauvegardé dans OneDrive.
 

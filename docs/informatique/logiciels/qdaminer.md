@@ -32,7 +32,7 @@ Le logiciel **QDA Miner** est un logiciel d'analyse qualificative.
  
 ## En cas de problème
 
-**Problème de licence ?**  
+**Problème de licence?**  
 Supprimez le logiciel, redémarrez, puis réinstallez.
 
 ## Assistance supplémentaire

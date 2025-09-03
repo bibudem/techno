@@ -35,6 +35,6 @@ Nettoyer le casque avec une lingette alcoolisée avant et après utilisation. **
 
 Une grande précaution est à prendre pour les lentilles afin d'éviter les rayures. Utiliser un chiffon microfibre sec, nettoyer délicatement en partant du centre vers les bords.
 
-# Besoin d'aide ?
+# Besoin d'aide?
 
 Besoin d'une initiation sur le fonctionnement du casque, n'hésitez pas à prendre contact avec le personnel de la bibliothèque où vous avez emprunté le casque ou à nous écrire à studio@bib.umontreal.ca.
