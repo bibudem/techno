@@ -26,9 +26,9 @@ import Pano360 from '@site/src/components/Pano360';
 />
 
 :::danger Fermeture de l’atelier à la Bibliothèque Thérèse-Gouin-Décarie
-L’atelier de fabrication est fermé en raison de travaux d’entretien.
+L’atelier de fabrication est fermé en raison de travaux d’entretien. 
 
-Réouverture prévue à l’automne.
+Date de réouverture prévue : 8 septembre 2025.
 :::
 
 Les ateliers de fabrication offrent à la communauté la possibilité de développer de nouvelles compétences, de comprendre et de s’approprier des technologies émergentes dans un environnement rassembleur.
