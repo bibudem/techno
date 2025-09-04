@@ -161,13 +161,14 @@ import TabItem from '@theme/TabItem';
       **Android :** Historique → Effacer cache → Effacer
       </TabItem>
       <TabItem value="Firefox" label="Firefox">
-      Options → Vie privée & sécurité → **Effacer Cookies & cache**
+      **PC et Mac** : Icône Menu → Paramètres (PC) ou Préférences (Mac) → **Vie privée et sécurité** → à la section **Cookies et données de sites**, cliquer **Effacer les données** → Intervalle **Tout** → cocher seulement **Fichiers et pages en cache temporaire** → bouton **Effacer** → **Redémarrer Firefox**.
       </TabItem>
       <TabItem value="Edge" label="Edge">
       Menu (⋯) → Paramètres → Confidentialité, recherche et services → Choisir les éléments à effacer  → Dans Intervalle de temps, choisir **À tout moment**  → Cocher uniquement **Images et fichiers mis en cache**  → **Effacer maintenant** → Redémarrer **Microsoft Edge**
       </TabItem>
       <TabItem value="Safari" label="Safari">
-      **Menu Développement → Vider les caches**  
+      **MAC** : Menu Safari → Préférences (ou Réglages) → Avancées → cocher **Afficher le menu Développement** → menu Développement (en haut) → **Vider les caches** → **redémarrer l’ordinateur**.
+      **iOS** (iPhone, iPad, iPod) : Réglages → Safari → **Effacer l’historique de navigation** → **Effacer** → **Historique/données**. **Redémarrer l’appareil**.
       </TabItem>
     </Tabs>
   </TabItem>
