@@ -10,6 +10,21 @@ import TabItem from '@theme/TabItem';
 
 Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
+:::info Avis important
+
+Il a été constaté que, pour certains usagers, l’installation du logiciel Ivanti Secure Access ne configure pas automatiquement la connexion initiale comme prévu.
+
+**Solution**
+- Cliquer sur **Ajouter une nouvelle connexion**
+- Entrer manuellement le nom et le serveur pour compléter la configuration :
+  - Type : Connect Secure (VPN)
+  - Nom : UdeM Campus
+  - Serveur : vpn.umontreal.ca/campus
+
+Dans certains cas, la connexion s’effectue tout de même automatiquement après l’installation.
+
+:::
+
 ---
 
 ## Installation
