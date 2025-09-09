@@ -108,10 +108,10 @@ export default function PageAccueil() {
         <div className={styles.cardsContainer}>
           <div className={styles.leftColumn}>
             <CardMedia
-              to="/creatives/vr"
-              title="Réalité virtuelle"
-              text="Immersion totale, expérience ultime."
-              imageUrl="/img/home-vr.webp"
+              to="/a-propos/soutien-informatique/"
+              title="Problème informatique? Pas de panique!"
+              text="Notre équipe est là pour vous soutenir."
+              imageUrl="/img/home-info.jpg"
             />
             <CardMedia
               to="/informatique/ava"
