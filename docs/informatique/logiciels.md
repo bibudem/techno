@@ -26,7 +26,7 @@ import CardGrid from "@site/src/components/CardGrid";
 # Catalogue des logiciels
 L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'UdeM va des navigateurs internet les plus populaires, à la suite bureautique Microsoft Office, en passant par plusieurs logiciels spécialisés. Vous trouverez ici la liste non-exhaustive des logiciels offerts à la communauté UdeM.
 
-<Link to="connexion-distance" className="button button--primary">
+<Link to="/informatique/connexion-distance" className="button button--primary">
   Connectez-vous à distance à nos logiciels
 </Link>
 
