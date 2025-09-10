@@ -35,7 +35,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 | **Thérèse-Gouin-Décarie** | [Atelier de fabrication](../espaces/ateliers.md), local G-305-10. [Voir sur la carte](https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8) | Ultimaker 2 & S3, Elegoo Saturn 3 Ultra, BambuLab X1C AMS |
 | **[Santé](https://bib.umontreal.ca/espaces/#sante)**         | 8<sup>e</sup> étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/KVE9w3JN2BKp278q8) | Ultimaker S3 |
 | **[Marguerite d'Youville](https://bib.umontreal.ca/espaces/#marguerite-d-youville)**         | [Voir sur la carte](https://g.co/kgs/q8wfQY2) | BambuLab X1C AMS |
-| **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS |
+<!-- | **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS | -->
 
 ---
 
