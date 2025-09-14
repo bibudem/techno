@@ -116,7 +116,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
     1. Cliquer sur l'icône **Ivanti Secure Access Client** (en haut à droite) et quitter l'application.
-    2. Aller à **Finder** → **Applications** → Clic droit sur **Ivanti Secure Access Client* → Placer dans la corbeille.
+    2. Aller à **Finder** → **Applications** → Clic droit sur **Ivanti Secure Access Client** → Placer dans la corbeille.
     3. Cliquer **No** à **save configuration**.
     4. Vider la corbeille.
   </TabItem>
