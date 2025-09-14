@@ -4,11 +4,10 @@ var klaroConfig = {
   storageMethod: 'cookie',
   storageName: 'bib-consent',
   cookieDomain: '.umontreal.ca',
-  default: true,
+  default: false, // services désactivés par défaut
   htmlTexts: true,
-//   mustConsent: true,
+  mustConsent: true, // oblige un choix explicite
   acceptAll: true,
-  // defaultLocale: 'fr',
   noticeAsModal: false,
 
   consentModal: {
@@ -16,34 +15,33 @@ var klaroConfig = {
     position: 'bottom',
   },
 
-
   translations: {
     fr: {
       consentModal: {
         title: 'Paramètres de confidentialité',
         description:
-          'Vos données personnelles sont utilisées pour enregistrer vos préférences, votre consentement et produire des statistiques anonymes. Pour plus d\'informations, veuillez consulter la <a href="https://vie-privee.umontreal.ca/confidentialite" target="_blank" rel="noopener">politique de confidentialité</a>.',
-          acceptAll: 'Accepter',
-        declineAll: 'Refuser',
+          'Nous utilisons certains services pour améliorer votre expérience. Vous pouvez accepter ou refuser chaque service. Consultez la <a href="https://vie-privee.umontreal.ca/confidentialite" target="_blank" rel="noopener">politique de confidentialité</a> pour en savoir plus.',
+        acceptAll: 'Tout accepter',
+        declineAll: 'Tout refuser',
         manage: 'Gérer les paramètres',
       },
       consentNotice: {
         description:
-          'Vos données personnelles sont utilisées pour enregistrer vos préférences, votre consentement et produire des statistiques anonymes. Pour plus d\'informations, veuillez consulter la <a href="https://vie-privee.umontreal.ca/confidentialite" target="_blank" rel="noopener">politique de confidentialité</a>.',
-        acceptAll: 'Accepter',
-        declineAll: 'Refuser',
-        manage: 'Gérer les paramètres',
+          'Nous utilisons des témoins et outils d’analyse pour améliorer votre expérience. Vous pouvez gérer vos préférences.',
+        learnMore: 'Personnaliser',
+        acceptAll: 'Tout accepter',
+        declineAll: 'Tout refuser',
       },
       purposes: {
-        analytics: 'Statistiques',
+        analytics: 'Statistiques et analyse',
       },
       googleAnalytics: {
         title: 'Google Analytics',
-        description: 'Mesure anonyme de la fréquentation du site.',
+        description: 'Mesure anonyme de la fréquentation du site (pages vues, durée de visite).',
       },
       clarity: {
         title: 'Microsoft Clarity',
-        description: 'Analyse des comportements de navigation.',
+        description: 'Analyse anonyme des parcours utilisateurs (clics, interactions).',
       },
     },
   },
@@ -51,7 +49,6 @@ var klaroConfig = {
   services: [
     {
       name: 'googleAnalytics',
-      title: 'Google Analytics',
       purposes: ['analytics'],
       cookies: [/^_ga/, /^_gid/, /^_gat/],
       callback(consent) {
@@ -61,25 +58,23 @@ var klaroConfig = {
           s.async = true;
           document.head.appendChild(s);
           window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
+          function gtag(){ dataLayer.push(arguments); }
           gtag('js', new Date());
-          gtag('config', 'G-R5SGXR9DKM');
+          gtag('config', 'G-R5SGXR9DKM', { anonymize_ip: true });
         }
       },
     },
-
     {
       name: 'clarity',
-      title: 'Microsoft Clarity',
       purposes: ['analytics'],
       cookies: [/clarity/],
       callback(consent) {
         if (consent) {
-          (function(c, l, a, r, i, t, y) {
-            c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
-            t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
-            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
-          })(window, document, 'clarity', 'script', 'r5bxj4q7vj');
+          (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window,document,"clarity","script","r5bxj4q7vj");
         }
       },
     },
