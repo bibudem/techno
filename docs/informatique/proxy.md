@@ -24,11 +24,11 @@ import TabItem from '@theme/TabItem';
         1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
         2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
         3. Cliquer **Avancé**.  
-        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Automatique**.  
+        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Configuration de serveur mandataire automatique**.  
         5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
         6. Cliquer **OK**, puis **Appliquer**.
 
-        Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Automatique** à l’étape 4.
+        Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Configuration de serveur mandataire automatique** à l’étape 4.
 
         **Tutoriel vidéo**  
         <iframe
