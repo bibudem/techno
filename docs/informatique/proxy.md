@@ -16,6 +16,31 @@ import TabItem from '@theme/TabItem';
 <Tabs groupId="os-tabs">
   <TabItem value="macOS" label="macOS">
     <Tabs groupId="macOS">
+    <TabItem value="13 et ultérieurs" label="macOS 13 et ultérieurs">
+        :::warning
+        Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
+        :::
+
+        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
+        2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
+        3. Cliquer **Détails**.  
+        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Automatique**.  
+        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
+        6. Cliquer **OK**, puis **Appliquer**.
+
+        **Tutoriel vidéo**  
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/D5VeqdvUNdM?si=ipPQXeShKmE16XVY"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </TabItem>
+  
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs">
         :::warning
         Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
@@ -42,57 +67,13 @@ import TabItem from '@theme/TabItem';
           allowFullScreen
         />
       </TabItem>
-
-      <TabItem value="13 et ultérieurs" label="macOS 13 et ultérieurs">
-        :::warning
-        Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
-        :::
-
-        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
-        2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
-        3. Cliquer **Détails**.  
-        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Automatique**.  
-        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
-        6. Cliquer **OK**, puis **Appliquer**.
-
-        **Tutoriel vidéo**  
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/D5VeqdvUNdM?si=ipPQXeShKmE16XVY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      </TabItem>
     </Tabs>
   </TabItem>
 
   <TabItem value="Windows" label="Windows">
     <Tabs groupId="Windows">
-      <TabItem value="Windows10" label="Windows 10">
-        1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
-        2. Activer **Utiliser un script d’installation**.  
-        3. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
-        4. Cliquer **Enregistrer**.
-
-        **Tutoriel vidéo**  
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/dk1oUdLo84Y?si=Il8DKNZr3YV2ZAtv"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      </TabItem>
-
       <TabItem value="Windows11" label="Windows 11">
-        1. **Démarrer → Paramètres → Réseau et Internet → Proxy** (Mandataire).  
+        1. **Démarrer → Paramètres → Réseau et Internet → Proxy** (*ou Mandataire*).  
         2. Désactiver **Détecter automatiquement les paramètres**.  
         3. Sous **Utiliser un script d’installation**, cliquer **Configurer**.  
         4. Activer **Utiliser un script de configuration**.  
@@ -104,6 +85,25 @@ import TabItem from '@theme/TabItem';
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/IApth7W-yzw?si=WRf2kNG-3J2qbuQZ"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </TabItem>
+      
+      <TabItem value="Windows10" label="Windows 10">
+        1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
+        2. Activer **Utiliser un script d’installation**.  
+        3. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
+        4. Cliquer **Enregistrer**.
+
+        **Tutoriel vidéo**  
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/dk1oUdLo84Y?si=Il8DKNZr3YV2ZAtv"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
