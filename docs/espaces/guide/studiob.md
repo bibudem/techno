@@ -7,7 +7,7 @@ help : crea
 ---
 
 ## Avant l’enregistrement {#avant-enregistrement}
-1. Brancher le disque dur au câble identifié du même nom.
+1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.
 2. Appuyer sur le bouton jaune au centre de la console.
 
 ![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.webp)
@@ -63,7 +63,7 @@ Pour macOS :
 Les caméras du studio sont fixes et préréglées. **Merci de ne pas les déplacer, ni les manipuler physiquement**.
 
 Recommandations pour un bon cadrage : 
-- Utiliser l’écran de retour vidéo pour vérifier votre position à l’image;
+- La flèche blanche indique la position idéale pour vous installer. Utiliser l’écran de retour vidéo pour vérifier votre position à l’image;
 - Ajuster votre siège ou vous repositionner pour ajuster votre position à l'écran, plutôt que de déplacer la caméra.
 
 N'oubliez pas d'appuyer sur le bouton **Mise au point** pour que les caméras ajustent la mise au point (_focus_) automatiquement.
@@ -89,7 +89,7 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 
 ## Terminer l'enregistrement {#terminer-enregistrement}
 1. Appuyer sur le bouton **STOP** pour arrêter l’enregistrement.
-2. Débrancher le disque dur et le brancher sur votre ordinateur pour transférer les fichiers.
+2. Débrancher le disque dur et le brancher en utilisant le câble **transfert** sur votre ordinateur pour transférer les fichiers.
 
 :::warning Attention 
 Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage). 
