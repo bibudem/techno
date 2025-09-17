@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
         1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
         2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
         3. Cliquer **Avancé**.  
-        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Configuration de serveur mandataire automatique**.  
+        4. Sélectionner l'onglet **Proxys** → activer **Configuration de serveur mandataire automatique**.  
         5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
         6. Cliquer **OK**, puis **Appliquer**.
 
@@ -92,7 +92,7 @@ import TabItem from '@theme/TabItem';
       </TabItem>
 
       <TabItem value="Windows11" label="Windows 11">
-        1. **Démarrer → Paramètres → Réseau & Internet → Proxy**.  
+        1. **Démarrer → Paramètres → Réseau et Internet → Proxy** (Mandataire).  
         2. Désactiver **Détecter automatiquement les paramètres**.  
         3. Sous **Utiliser un script d’installation**, cliquer **Configurer**.  
         4. Activer **Utiliser un script de configuration**.  
