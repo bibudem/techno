@@ -21,10 +21,10 @@ import TabItem from '@theme/TabItem';
         Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
         :::
 
-        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
+        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.
         2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
-        3. Cliquer **Détails**.  
-        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Automatique**.  
+        3. Cliquer **Détails**.
+        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Configuration de serveur mandataire automatique**.
         5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
         6. Cliquer **OK**, puis **Appliquer**.
 
