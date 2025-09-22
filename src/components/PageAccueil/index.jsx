@@ -34,13 +34,13 @@ const slogans = [
 ];
 
 export default function PageAccueil() {
-  const [randomImage, setRandomImage] = React.useState(images[0]);
-  const [subtitle, setSubtitle] = React.useState('');
-
-  React.useEffect(() => {
-    setRandomImage(images[Math.floor(Math.random() * images.length)]);
-    setSubtitle(slogans[Math.floor(Math.random() * slogans.length)]);
-  }, []);
+  // Choix aléatoire dès l'initialisation (pas de re-render inutile)
+  const [randomImage] = React.useState(
+    () => images[Math.floor(Math.random() * images.length)]
+  );
+  const [subtitle] = React.useState(
+    () => slogans[Math.floor(Math.random() * slogans.length)]
+  );
 
   return (
     <>
@@ -61,7 +61,7 @@ export default function PageAccueil() {
             <span className={styles.introBold}>bib</span>
           </h1>
           <p className={styles.introSubtitle}>
-            {subtitle || 'Là où les idées prennent vie.'}
+            {subtitle}
           </p>
           <div className={styles.introButtons}>{/* Boutons */}</div>
         </div>
