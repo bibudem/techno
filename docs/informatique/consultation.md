@@ -30,7 +30,7 @@ Photo
 
 Le microfilm est une méthode de préservation de documents en utilisant la microphotographie pour réduire la taille des inages sur un rouleau de film. Afin de les afficher en taille lisible il faut utiliser un lecteur de microfilms.
 
-[Documentation](/pdf/E32-lecteur-microfilms.pdf)
+[Documentation](/static/pdf/E32-lecteur-microfilms.pdf)
 
 ## Numériseur de microfiches 
 
@@ -44,4 +44,4 @@ Photo
 Photo
 
 
-[Documentation](/pdf/E1A-numeriseur-microformes.pdf)
+[Documentation](/static/pdf/E1A-numeriseur-microformes.pdf)
