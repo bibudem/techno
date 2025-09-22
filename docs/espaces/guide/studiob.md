@@ -21,7 +21,7 @@ help : crea
 6.  Les micros 3 et 4 fonctionnent de pair : si le bouton est rouge les deux sont éteints et inversement.
 
 7. La mise au point des caméras se fait automatioquement au démarrage. Si nécessaire éteindre le système et le redémarrer pour effectuer de nouveau la mise au point.
-8. 
+
 9. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
 10. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
