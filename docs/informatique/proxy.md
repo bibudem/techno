@@ -132,6 +132,15 @@ import TabItem from '@theme/TabItem';
     4. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
     5. **Enregistrer**.
   </TabItem>
+  <TabItem value="Linux" label="Linux">
+    1. Cliquer **WiFi** (en haut à droite)
+    2. Cliquer **Paramètres**
+    3. Cliquer **Réseau**
+    4. Activer **Serveur mandataire** ou **Proxy**
+    5. Cliquer **Automatique**
+    6. Dans URL de configuration, taper sans espace <CopyToClipboardButton text="http://proxy.umontreal.ca"/>
+    7. Fermer la fenêtre
+  </TabItem>
 </Tabs>
 
 ---
