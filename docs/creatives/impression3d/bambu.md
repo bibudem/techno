@@ -109,7 +109,7 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 -	Saisir le code de l’imprimante.
 
-![](/img/docs/Image.jpg)
+![](/img/docs/Image(2).jpg)
 
 -	Une fois connectée, les paramètres en direct de l’imprimante apparaissent dans l’onglet **État**.
 
