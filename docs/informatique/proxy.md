@@ -11,64 +11,9 @@ import TabItem from '@theme/TabItem';
 
 # Configurer le serveur mandataire (proxy)
 
-## Sélectionner votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
+## Étape #1 - Configurer selon votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
 
 <Tabs groupId="os-tabs">
-  <TabItem value="macOS" label="macOS">
-    <Tabs groupId="macOS">
-    <TabItem value="13 et ultérieurs" label="macOS 13 et ultérieurs">
-        :::warning
-        Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
-        :::
-
-        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.
-        2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
-        3. Cliquer **Détails**.
-        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Configuration de serveur mandataire automatique**.
-        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
-        6. Cliquer **OK**, puis **Appliquer**.
-
-        **Tutoriel vidéo**  
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/D5VeqdvUNdM?si=ipPQXeShKmE16XVY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      </TabItem>
-  
-      <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs">
-        :::warning
-        Il est recommandé d'utiliser le navigateur Chrome ou Firefox.
-        :::
-
-        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
-        2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
-        3. Cliquer **Avancé**.  
-        4. Sélectionner l'onglet **Proxys** → activer **Configuration de serveur mandataire automatique**.  
-        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
-        6. Cliquer **OK**, puis **Appliquer**.
-
-        Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Configuration de serveur mandataire automatique** à l’étape 4.
-
-        **Tutoriel vidéo**  
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/Qy5FlukamTM?si=ENXzfHv6WT5ycf_I"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      </TabItem>
-    </Tabs>
-  </TabItem>
 
   <TabItem value="Windows" label="Windows">
     <Tabs groupId="Windows">
@@ -113,6 +58,55 @@ import TabItem from '@theme/TabItem';
       </TabItem>
     </Tabs>
   </TabItem>
+    <TabItem value="macOS" label="macOS">
+    <Tabs groupId="macOS">
+    <TabItem value="13 et ultérieurs" label="13 et ultérieurs (récents)">
+       
+        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.
+        2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
+        3. Cliquer **Détails**.
+        4. Sélectionner l'onglet **Serveurs mandataires** → activer **Configuration de serveur mandataire automatique**.
+        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
+        6. Cliquer **OK**, puis **Appliquer**.
+
+        **Tutoriel vidéo**  
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/D5VeqdvUNdM?si=ipPQXeShKmE16XVY"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </TabItem>
+  
+      <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs (anciens)">
+
+        7. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
+        8. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
+        9. Cliquer **Avancé**.  
+        10. Sélectionner l'onglet **Proxys** → activer **Configuration de serveur mandataire automatique**.  
+        11. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
+        12. Cliquer **OK**, puis **Appliquer**.
+
+        Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Configuration de serveur mandataire automatique** à l’étape 4.
+
+        **Tutoriel vidéo**  
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/Qy5FlukamTM?si=ENXzfHv6WT5ycf_I"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </TabItem>
+    </Tabs>
+  </TabItem>
 
   <TabItem value="iOS" label="iOS">
     :::warning
@@ -145,7 +139,7 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-## Tester la configuration
+## Étape #2 - Tester la configuration {#tester-configuration}
 
 1. Ouvrir [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  
 2. S'authentifier avec vos identifiants UdeM.  
@@ -184,3 +178,83 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  
+
+## Désinstaller {#desinstaller}
+
+<Tabs groupId="os-tabs">
+
+  <TabItem value="Windows" label="Windows">
+    <Tabs groupId="Windows">
+      <TabItem value="Windows11" label="Windows 11">
+        1. **Démarrer → Paramètres → Réseau et Internet → Proxy** (*ou Mandataire*).
+        2. Sous **Utiliser un script d’installation**, cliquer **Configurer**.  
+        3. Désactiver **Utiliser un script de configuration**.
+        4. Cliquer **Enregistrer**
+        5. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        6. **Redémarrer l'ordinateur**.
+      </TabItem>
+      
+      <TabItem value="Windows10" label="Windows 10">
+        7. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
+        8. Désactiver **Utiliser un script de configuration**.
+        9. Cliquer **Enregistrer**
+        10. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        11. **Redémarrer l'ordinateur**.
+      </TabItem>
+    </Tabs>
+  </TabItem>
+    <TabItem value="macOS" label="macOS">
+    <Tabs groupId="macOS">
+    <TabItem value="13 et ultérieurs" label="13 et ultérieurs (récents)">
+       
+        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.
+        2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
+        3. Cliquer **Détails**.
+        4. Sélectionner l'onglet **Serveurs mandataires** → Désactiver **Configuration de serveur mandataire automatique**.
+        5. Cliquer **Ok**.
+        6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        7. **Redémarrer l'ordinateur**.
+
+      </TabItem>
+  
+      <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs (anciens)">
+
+        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
+        2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
+        3. Cliquer **Avancé**.  
+        4. Sélectionner l'onglet **Proxys** → Désactiver **Configuration de serveur mandataire automatique**.  
+        5. Cliquer **Ok**.
+        6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        7. **Redémarrer l'apapreil**.
+      </TabItem>
+    </Tabs>
+  </TabItem>
+
+  <TabItem value="iOS" label="iOS">
+        1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
+        2. Sous **Serveur mandataire HTTP**, sélectionner **Non**.
+        3. Cliquer **Enregistrer**  
+        4. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
+        5. **Enregistrer**.
+        6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        7. **Redémarrer l'apapreil**.
+  </TabItem>
+
+  <TabItem value="Android" label="Android">
+    1. Glisser le doigt du haut vers le bas (2 fois) et toucher le Wi‑Fi.  
+    2. **Plus de paramètres → Modifier le réseau → Options avancées**.  
+    3. Sous **Serveur mandataire**, sélectionner **Aucun**.  
+    4. **Enregistrer**.
+    5. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+    6. **Redémarrer l'apapreil**.
+  </TabItem>
+  <TabItem value="Linux" label="Linux">
+    1. Cliquer **WiFi** (en haut à droite)
+    2. Cliquer **Paramètres**
+    3. Cliquer **Réseau**
+    4. Activer **Serveur mandataire** ou **Proxy**
+    5. Cliquer **Désactiver**, Fermer la fenêtre
+    6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+    7. **Redémarrer l'apapreil**.
+  </TabItem>
+</Tabs>
