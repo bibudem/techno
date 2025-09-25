@@ -84,12 +84,12 @@ import TabItem from '@theme/TabItem';
   
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs (anciens)">
 
-        7. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
-        8. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
-        9. Cliquer **Avancé**.  
-        10. Sélectionner l'onglet **Proxys** → activer **Configuration de serveur mandataire automatique**.  
-        11. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
-        12. Cliquer **OK**, puis **Appliquer**.
+        1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
+        2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
+        3. Cliquer **Avancé**.  
+        4. Sélectionner l'onglet **Proxys** → activer **Configuration de serveur mandataire automatique**.  
+        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
+        6. Cliquer **OK**, puis **Appliquer**.
 
         Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Configuration de serveur mandataire automatique** à l’étape 4.
 
@@ -152,9 +152,10 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="Tous navigateurs" label="Tous les navigateurs">
   - [Vérifier le statut des services TI](https://ti.umontreal.ca/etat-des-services/)  
-  - Pour Edge/IE, préfixer le code d’accès par `sim\ab12345`  
-  - Désactiver antivirus, VPN ou bloqueurs de pub  
-  - Vider le cache (voir l’onglet suivant)  
+  - Pour Edge, préfixer le code d’accès par `sim\ab12345`  
+  - Désactiver antivirus, **VPN** ou **bloqueurs de pub** 
+  - Vider la mémoire cache du navigateur et refaire le test (voir l’onglet suivant)
+  - Tester la configuration dans un autre navigateur
   </TabItem>
 
   <TabItem value="ViderCache" label="Vider le cache">
@@ -195,11 +196,11 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
       </TabItem>
       
       <TabItem value="Windows10" label="Windows 10">
-        7. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
-        8. Désactiver **Utiliser un script de configuration**.
-        9. Cliquer **Enregistrer**
-        10. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
-        11. **Redémarrer l'ordinateur**.
+        1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
+        2. Désactiver **Utiliser un script de configuration**.
+        3. Cliquer **Enregistrer**
+        4. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        5. **Redémarrer l'ordinateur**.
       </TabItem>
     </Tabs>
   </TabItem>
@@ -233,11 +234,9 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
   <TabItem value="iOS" label="iOS">
         1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
         2. Sous **Serveur mandataire HTTP**, sélectionner **Non**.
-        3. Cliquer **Enregistrer**  
-        4. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
-        5. **Enregistrer**.
-        6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
-        7. **Redémarrer l'apapreil**.
+        3. Cliquer **Enregistrer**
+        4. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        5. **Redémarrer l'apapreil**.
   </TabItem>
 
   <TabItem value="Android" label="Android">
