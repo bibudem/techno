@@ -11,29 +11,39 @@ export default function QrRedirect() {
     const id = params.get("id");
     const target = redirects[id];
 
-    if (id && typeof gtag !== 'undefined') {
-      gtag('event', 'qr_scan', {
-        event_category: 'QR',
-        event_label: id,
-      });
+    if (!id || !target) {
+      window.location.href = '/404';
+      return;
     }
 
-    if (target) {
-      try {
-        const url = new URL(target, window.location.origin);
-        url.searchParams.set("utm_source", "qr");
-        url.searchParams.set("utm_medium", "print");
-        url.searchParams.set("utm_campaign", `qr_${id}`);
-        const finalUrl = url.toString();
+    try {
+      // Construit l’URL finale avec UTM
+      const url = new URL(target, window.location.origin);
+      url.searchParams.set("utm_source", "qr");
+      url.searchParams.set("utm_medium", "print");
+      url.searchParams.set("utm_campaign", `qr_${id}`);
+      const finalUrl = url.toString();
 
+      // Envoi événement GA4 avant redirection
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'qr_scan', {
+          qr_id: id,
+          method: 'qrcode',
+          event_callback: () => {
+            window.location.href = finalUrl;
+          },
+        });
+
+        // Sécurité : redirection forcée si GA bloque
         setTimeout(() => {
           window.location.href = finalUrl;
-        }, 300);
-      } catch (e) {
-        console.error("Redirection invalide pour l’ID :", id, e);
-        window.location.href = '/404';
+        }, 800);
+      } else {
+        // Si GA pas chargé
+        window.location.href = finalUrl;
       }
-    } else {
+    } catch (e) {
+      console.warn("Redirection invalide pour l’ID :", id, e);
       window.location.href = '/404';
     }
   }, [location]);
