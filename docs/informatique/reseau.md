@@ -135,7 +135,7 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
 ## UdeM non sécurisé {#udem-non-securise}
 
 :::caution
-Il n'est pas recommandé d'utiliser le réseau **UdeM non sécurisé**. Ce réseau ne permet pas un accès à nos ressources électroniques et n'offre aucune garantie de confidentialité et de sécurité.
+Nous ne recommandons pas d’utiliser le réseau **UdeM non sécurisé**. Ce réseau ne donne pas accès à nos ressources électroniques et n’offre aucune garantie de confidentialité ni de sécurité.
 :::
 
 ---
