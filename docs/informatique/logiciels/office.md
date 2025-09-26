@@ -44,7 +44,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
   **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, Publisher, Access, InfoPath, OneDrive.
 
-  1. Avoir la bonne heure, le bon fuseau horaire et **redémarrer l'ordinateur**.
+  1. Avoir la bonne heure, le bon pays (Canada) et le bon fuseau horaire et **redémarrer l'ordinateur**.
   2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
   3. S’authentifier avec [vos informations d'authentification](../authentification).
   4. Cliquer **Applications** dans le menu à gauche.
