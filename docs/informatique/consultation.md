@@ -41,7 +41,7 @@ Photo
 
 ## Numériseur de microfilms
 
-Photo
+![](/static/img/docs/num_microformes.jpg)
 
 
 [Documentation](/static/pdf/E1A-numeriseur-microformes.pdf)
