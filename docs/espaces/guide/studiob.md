@@ -107,7 +107,7 @@ Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l�
 - Pour un montage automatisé complet : copier le fichier Default_... .mp4 à la racine du disque.
 
 :::warning Recommandation
-Faites une copie de sauvegarde dans votre espace infonuagique (ex. OneDrive institutionnel) ou une 2e copie dans un autre périphérique.
+Faites une copie de sauvegarde dans votre espace infonuagique ou une 2ème copie dans un autre périphérique.
 :::
 
 ## Fin de session
