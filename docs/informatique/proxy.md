@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 # Configurer le serveur mandataire (proxy)
 
-## Étape #1 - Configurer selon votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
+## Étape 1 - Configurer selon votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
 
 <Tabs groupId="os-tabs">
 
@@ -139,7 +139,7 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-## Étape #2 - Tester la configuration {#tester-configuration}
+## Étape 2 - Tester la configuration {#tester-configuration}
 
 1. Ouvrir [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  
 2. S'authentifier avec vos identifiants UdeM.  
@@ -152,8 +152,9 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="Tous navigateurs" label="Tous les navigateurs">
   - [Vérifier le statut des services TI](https://ti.umontreal.ca/etat-des-services/)  
-  - Pour Edge, préfixer le code d’accès par `sim\ab12345`  
-  - Désactiver antivirus, **VPN** ou **bloqueurs de pub** 
+  - Pour Edge, préfixer le code d’accès par `sim\ab12345` 
+  - Désactiver tout **VPN**
+  - Désactiver tout **bloqueurs de publicités**
   - Vider la mémoire cache du navigateur et refaire le test (voir l’onglet suivant)
   - Tester la configuration dans un autre navigateur
   </TabItem>
