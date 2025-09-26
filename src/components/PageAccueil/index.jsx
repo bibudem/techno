@@ -111,7 +111,7 @@ export default function PageAccueil() {
               to="/a-propos/soutien-informatique/"
               title="Problème informatique? Pas de panique!"
               text="Notre équipe est là pour vous soutenir."
-              imageUrl="/img/home-info.jpg"
+              imageUrl="/img/home-info.webp"
             />
             <CardMedia
               to="/informatique/ava"

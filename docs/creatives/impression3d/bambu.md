@@ -109,7 +109,7 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 -	Saisir le code de l’imprimante.
 
-![](/img/docs/bambu_LAN.jpg)
+![](/img/docs/bambu_LAN.webp)
 
 -	Une fois connectée, les paramètres en direct de l’imprimante apparaissent dans l’onglet **État**.
 

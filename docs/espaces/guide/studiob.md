@@ -20,10 +20,10 @@ help : crea
 5.  Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant. Un micro est désactivé lorsque le bouton est rouge.
 6.  Les micros 3 et 4 fonctionnent de pair : si le bouton est rouge les deux sont éteints et inversement.
 
-7. La mise au point des caméras se fait automatioquement au démarrage. Si nécessaire éteindre le système et le redémarrer pour effectuer de nouveau la mise au point.
+7. La mise au point des caméras se fait automatiquement au démarrage. Si nécessaire éteindre le système et le redémarrer pour effectuer de nouveau la mise au point.
 
-9. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
-10. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
+8. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
+9. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
 ![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
 
@@ -66,8 +66,6 @@ Les caméras du studio sont fixes et préréglées. **Merci de ne pas les dépla
 Recommandations pour un bon cadrage : 
 - La flèche blanche indique la position idéale pour vous installer. Utiliser l’écran de retour vidéo pour vérifier votre position à l’image;
 - Ajuster votre siège ou vous repositionner pour ajuster votre position à l'écran, plutôt que de déplacer la caméra.
-
-N'oubliez pas d'appuyer sur le bouton **Mise au point** pour que les caméras ajustent la mise au point (_focus_) automatiquement.
 
 ---
 
