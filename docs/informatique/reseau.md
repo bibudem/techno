@@ -32,18 +32,19 @@ L'Université de Montréal offre plusieurs réseaux Wi-Fi à travers ses campus 
 Le réseau sans fil **UdeM avec cryptage** est à privilégier. En plus d'offrir d'une sécurité accrue, il permet l'accès aux ressources électroniques des bibliothèques et à l'impression. Vous pouvez y accéder grâce à votre code d'accès et votre mot de passe.
 
 <Tabs groupId="os-wifi-udem">
-  <TabItem value="macos" label="macOS">
-    1. Sélectionner le réseau sans fil : **UdeM avec cryptage**.  
-    2. Entrer les informations suivantes :  
-       - **Identité** : Votre code d'accès ou courriel UdeM  
-       - **Mot de passe** : Votre mot de passe
-  </TabItem>
-
+  
   <TabItem value="windows" label="Windows">
     1. Sélectionner le réseau sans fil : **UdeM avec cryptage**.  
     2. Entrer les informations suivantes :  
        - **Identité** : Votre code d'accès ou courriel UdeM  
        - **Mot de passe** : Votre mot de passe  
+  </TabItem>
+
+<TabItem value="macos" label="macOS">
+    1. Sélectionner le réseau sans fil : **UdeM avec cryptage**.  
+    2. Entrer les informations suivantes :  
+       - **Identité** : Votre code d'accès ou courriel UdeM  
+       - **Mot de passe** : Votre mot de passe
   </TabItem>
 
   <TabItem value="ios" label="iOS">
@@ -146,6 +147,13 @@ En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous
 Il est important de faire la procédure pour **oublier chacun des réseaux sans fil de l'UdeM :** UdeM avec cryptage, eduroam, UdeM non sécurisé et UdeM-Visiteurs.
 
 <Tabs groupId="os-troubleshoot">
+  
+  <TabItem value="windows" label="Windows">
+    1. Aller dans **Paramètres** → **Réseau et Internet** → **Wi-Fi**.  
+    2. Sélectionner **Gérer les réseaux connus**.  
+    3. Supprimer **UdeM avec cryptage**.
+  </TabItem>
+
   <TabItem value="macos" label="macOS">
     1. Aller dans **Préférences Réseau** → **Wi-Fi** → **Avancé**.  
     2. Sélectionner **UdeM avec cryptage** et cliquer sur le symbole **-** pour supprimer.  
@@ -154,12 +162,6 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
     **Finder** → inscrire Trousseau dans la barre de recherche → double-cliquer **Trousseau d’accès** → inscrire
     **umontreal** dans la boite de recherche → supprimer la ligne correspondante aux réseaux Wi-Fi de l'Université (**UdeM avec cryptage**, **eduroam**, **UdeM non securise** et **UdeM-Visiteurs**)
     :::
-  </TabItem>
-
-  <TabItem value="windows" label="Windows">
-    1. Aller dans **Paramètres** → **Réseau et Internet** → **Wi-Fi**.  
-    2. Sélectionner **Gérer les réseaux connus**.  
-    3. Supprimer **UdeM avec cryptage**.
   </TabItem>
 
   <TabItem value="ios" label="iOS">
@@ -184,20 +186,10 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
 
 Lorsque vous êtes connecté au réseau sans fil de l’UdeM, tous les sites s’affichent normalement, sauf ceux de l’Université de Montréal (Studium, umontreal.ca, etc.). Cela signifie que votre appareil (ou un programme) utilise des serveurs DNS personnalisés qui ne sont pas compatibles avec le réseau de l’UdeM.
 
-Pour résoudre ce problème, configurez votre connexion pour obtenir automatiquement vos DNS.
+Pour résoudre ce problème, configurez votre connexion pour **obtenir automatiquement vos DNS**.
 
 <Tabs groupId="os-troubleshoot-2">
-  <TabItem value="macos" label="macOS">
-    1. Cliquer **Wi-Fi** (en haut à droite de l'écran).   
-    2. Cliquer **Réglages Wi-Fi** (ou Préférences réseau).
-    3. Cliquer **Avancé** (ou Détails).
-    4. Cliquer **DNS**.
-    5. Sélectionner chacune des adresses (ex. 8.8.8.8) et cliquer "**-**" afin de les supprimer.
-    6. Deux adresses débutant par 10 sont générées automatiquement.
-    7. Cliquer **OK**.
-    8. Cliquer **Appliquer**.
-  </TabItem>
-
+  
 <TabItem value="windows" label="Windows">
   <Tabs>
   <TabItem value="Windows11" label="Windows 11">
@@ -210,7 +202,7 @@ Pour résoudre ce problème, configurez votre connexion pour obtenir automatique
     7. Changer Manuel pour **Automatique (DHCP**)
     8. Cliquer **Enregistrer**
   </TabItem>
-   
+  
   <TabItem value="Windows10" label="Windows 10">
     1. Cliquer droit sur l'icône **WiFi** (en bas à droite).  
     2. Cliquer **Ouvrir les paramètres réseau et internet**.
@@ -223,6 +215,16 @@ Pour résoudre ce problème, configurez votre connexion pour obtenir automatique
   </TabItem>
   </Tabs>
 </TabItem>
+<TabItem value="macos" label="macOS">
+    1. Cliquer **Wi-Fi** (en haut à droite de l'écran).   
+    2. Cliquer **Réglages Wi-Fi** (ou Préférences réseau).
+    3. Cliquer **Avancé** (ou Détails).
+    4. Cliquer **DNS**.
+    5. Sélectionner chacune des adresses (ex. 8.8.8.8) et cliquer "**-**" afin de les supprimer.
+    6. Deux adresses débutant par 10 sont générées automatiquement.
+    7. Cliquer **OK**.
+    8. Cliquer **Appliquer**.
+  </TabItem>
 
   <TabItem value="ios" label="iOS">
     1. Aller dans **Réglages** → **Wi-Fi**.  
