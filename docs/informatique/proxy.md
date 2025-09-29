@@ -152,11 +152,28 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="Tous navigateurs" label="Tous les navigateurs">
   - [Vérifier le statut des services TI](https://ti.umontreal.ca/etat-des-services/)  
-  - Pour Edge, préfixer le code d’accès par `sim\ab12345` 
   - Désactiver tout **VPN**
   - Désactiver tout **bloqueurs de publicités**
   - Vider la mémoire cache du navigateur et refaire le test (voir l’onglet suivant)
   - Tester la configuration dans un autre navigateur
+  </TabItem>
+
+<TabItem value="Edge" label="Edge"> 
+  - Pour Edge, préfixer le code d’accès par `sim\ab12345` 
+  - Attention au sens de la barre oblique.
+  - S'il n'est pas possible d'éditer le nom d'utilisateur, cliquer sur l'option **"Utiliser un autre compte"** (ou **"Changer de compte"**). Il peut être nécessaire de défiler la fenêtre d'authentification vers le bas pour voir cette option.
+  </TabItem>
+
+<TabItem value="Firefox" label="Firefox"> 
+  En haut à droite, cliquer **Menu ► Options ► Général ► Paramètres ►** Cocher **Utiliser les paramètres de Proxy du système**  
+   - Tester la configuration à l'adresse : [testproxy.umontreal.ca](http://testproxy.umontreal.ca)
+
+  Si le problème persiste :  
+   - Taper `about:config` dans la barre d’adresse de Firefox et appuyer sur **Entrée**  
+   - Cliquer sur **Je prends le risque**  
+   - Entrer `ntlm` dans la boîte **Rechercher** et appuyer sur **Entrée**  
+   - Double-cliquer sur `network.automatic-ntlm-auth.allow-proxies` pour changer la valeur à **False**  
+   - Tester la configuration à l'adresse : [testproxy.umontreal.ca](http://testproxy.umontreal.ca)
   </TabItem>
 
   <TabItem value="ViderCache" label="Vider le cache">
