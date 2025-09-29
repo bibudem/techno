@@ -39,7 +39,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 1. Appuyer `CTRL+ALT+SUPPR` et s’authentifier
 2. Préparation
    - S’assurer que le **bouton d’alimentation**, situé en bas à l’arrière de l’appareil, est en position de marche.  
-   - Appuyer les **deux (2) boutons** pour ouvrir les lumières (réappuyer pour ajuster l’intensité).  
+   - Appuyer les **deux (2) boutons** pour ouvrir les lumières (réappuyer pour ajuster l’intensité), par exemple selon le type de papier (papier glacé).
    - Placer le **document ou le livre à numériser** au centre du tapis noir.  
 3. Numérisation
    - Ouvrir le logiciel **CZUR Scanner**.  
