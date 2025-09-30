@@ -179,18 +179,27 @@ import TabItem from '@theme/TabItem';
   <TabItem value="ViderCache" label="Vider le cache">
     <Tabs>
       <TabItem value="Chrome" label="Chrome">
-      **PC/Mac :** Menu → Plus d’outils → Effacer les données de navigation → Cocher **Images et fichiers en cache** → Effacer  
-      **Android :** Historique → Effacer cache → Effacer
+      **PC/Mac :** Menu → supprimer les données de navigation → Période **Depuis le début** → Cocher uniquement **Images et fichiers en cache** → **Supprimer les données**  
+      
+      **ChromeBook :** Menu → supprimer les données de navigation → Période **toutes les données** → Cocher uniquement **Images et fichiers en cache** → **Supprimer les données** 
+
+      **Android :** Menu → Supp.données de navig.. → Période **Toutes les périodes** → Autres options → cocher uniquement **Images et fichiers mis en cache** → **Supprimer les données**
       </TabItem>
       <TabItem value="Firefox" label="Firefox">
-      **PC et Mac** : Icône Menu → Paramètres (PC) ou Préférences (Mac) → **Vie privée et sécurité** → à la section **Cookies et données de sites**, cliquer **Effacer les données** → Intervalle **Tout** → cocher seulement **Fichiers et pages en cache temporaire** → bouton **Effacer** → **Redémarrer Firefox**.
+      **PC et Mac** : Menu → Paramètres → **Vie privée et sécurité** → à la section **Cookies et données de sites**, cliquer **Effacer les données** → Intervalle è effacer **Tout** → cocher seulement **Fichiers et pages en cache temporaire** → bouton **Effacer**
+
+      **Android** : Menu → Paramètres → **Supprimer les données de navigation** → cocher seulement **Images et fichiers mis en cache** → Supprimer les données de navigation → Supprimer
       </TabItem>
       <TabItem value="Edge" label="Edge">
-      Menu (⋯) → Paramètres → Confidentialité, recherche et services → Choisir les éléments à effacer  → Dans Intervalle de temps, choisir **À tout moment**  → Cocher uniquement **Images et fichiers mis en cache**  → **Effacer maintenant** → Redémarrer **Microsoft Edge**
+      **PC/Mac :** Menu → **Supprimer les données de navigation** → Intervalle de temps **À tout moment** → Cocher uniquement **Images et fichiers mis en cache**  → **Effacer maintenant** 
+
+      **Android :** Menu → Paramètres → Confidentialité et sécurité → Effacer données de navigation → Intervalle **À tout moment** → cocher uniquement **Images et fichiers en cache** → **Supprimer les données**
+      
       </TabItem>
       <TabItem value="Safari" label="Safari">
-      **MAC** : Menu Safari → Préférences (ou Réglages) → Avancées → cocher **Afficher le menu Développement** → menu Développement (en haut) → **Vider les caches** → **redémarrer l’ordinateur**.
-      **iOS** (iPhone, iPad, iPod) : Réglages → Safari → **Effacer l’historique de navigation** → **Effacer** → **Historique/données**. **Redémarrer l’appareil**.
+      **MAC** : Menu Safari → Réglages (ou Préférences) → Avancées → cocher **Afficher les fonctionnalités de développement web** → menu Développement (en haut) → **Vider les caches** → **Redémarrer l’ordinateur**.
+
+      **iOS** (iPhone, iPad, iPod) : Réglages → Apps → Safari → **Effacer l’historique de navigation** → **Tout l'historique** → **Effacer l'historique** →  **Redémarrer l’appareil**.
       </TabItem>
     </Tabs>
   </TabItem>
