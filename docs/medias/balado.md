@@ -6,6 +6,7 @@ image: "/img/cover/balado.webp"
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import CardGrid from "@site/src/components/CardGrid";
+import HeroDroitAuteur from '@site/src/components/HeroDroitAuteur';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -95,3 +96,6 @@ Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aid
 </details>
 
 ---
+
+
+<HeroDroitAuteur />

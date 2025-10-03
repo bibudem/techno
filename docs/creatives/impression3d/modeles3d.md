@@ -6,12 +6,13 @@ help : crea
 
 import React from 'react';
 import DataTable from '@site/src/components/DataTable';
+import HeroDroitAuteur from '@site/src/components/HeroDroitAuteur';
 
 # Modèles 3D
 
 Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi qu'une collection de ressources en ligne pour télécharger des modèles 3D prêts à imprimer.
 
-
+<HeroDroitAuteur />
 
 ## Logiciels de modélisation 3D
 
@@ -70,7 +71,9 @@ Fusion 360 est à privilégier pour modéliser des objets ayant des dimensions p
 
 ## Modèles en ligne
 
-Vous pouvez trouver des modèles 3D prêts à être imprimés sur les sites suivants :
+
+
+Trouver des modèles 3D prêts à être imprimés sur les sites suivants :
 
 <DataTable src="/data/modeles3d.csv" />
 

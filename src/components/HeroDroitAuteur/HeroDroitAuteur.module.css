@@ -1,0 +1,101 @@
+.heroSection {
+  padding: 1.4rem 1.4rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;        /* icône à gauche, contenu à droite */
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 2.5rem;
+  background: var(--bleu-50);
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+
+.heroIconWrapper {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;             /* espace autour de l’icône */
+}
+
+.heroIcon {
+  display: inline-block;
+  transform-origin: top center; /* pivot réaliste */
+}
+
+.heroContent {
+  flex: 1;                    /* prend le reste de la place */
+  max-width: 700px;           /* limite la largeur max du contenu */
+}
+
+.heroTitle {
+  font-size: 2rem;          /* légèrement plus petit pour compacité */
+  font-weight: 600;
+  /* margin-bottom: 1rem; */
+  color: var(--gris-900);
+  line-height: 1.2;
+}
+
+.heroText {
+  font-size: 1.125rem;
+  color: #444;
+  margin-bottom: 1.75rem;
+  line-height: 1.2;
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: var(--rouge-orange-600); /* couleur principale */
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.heroButton:hover {
+  background-color: var(--rouge-orange-700); /* variante plus foncée au survol */
+}
+
+/* Animation cloche */
+@keyframes bell-ring {
+  0%   { transform: rotate(0); }
+  10%  { transform: rotate(25deg); }
+  20%  { transform: rotate(-20deg); }
+  30%  { transform: rotate(15deg); }
+  40%  { transform: rotate(-10deg); }
+  50%  { transform: rotate(6deg); }
+  60%  { transform: rotate(-4deg); }
+  70%  { transform: rotate(2deg); }
+  80%  { transform: rotate(-1deg); }
+  100% { transform: rotate(0); }
+}
+
+.animate {
+  animation: bell-ring 1.5s ease-in-out forwards;
+}
+
+/* Responsive : passe en colonne sur mobile */
+@media (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroText {
+    font-size: 1rem;
+  }
+}

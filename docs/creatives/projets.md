@@ -7,6 +7,7 @@ title : Projets
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
+import HeroDroitAuteur from '@site/src/components/HeroDroitAuteur';
 
 <HideLastUpdated/>
 
@@ -21,3 +22,6 @@ Découvrez les projets créatifs réalisés par la communauté UdeM dans nos esp
 Vous avez réalisé un projet dans nos espaces? Faites-le rayonner! Écrivez-nous à studio@bib.umontreal.ca avec les détails de votre projet.
 
 [![Voir les projets](/img/projets.webp)](https://studiobib.notion.site/projets)
+
+
+<HeroDroitAuteur />
