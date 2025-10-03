@@ -9,7 +9,7 @@
 </p>
 
 ![Licence](https://img.shields.io/static/v1?label=Licence&message=MIT&color=blue)
-![Statut – Pré-lancement](https://img.shields.io/static/v1?label=Statut&message=Pré-lancement&color=blue)
+![En ligne](https://img.shields.io/static/v1?label=Statut&message=Pré-lancement&color=green)
 [![Dernier commit](https://img.shields.io/github/last-commit/bibudem/techno?label=Dernier%20commit&color=blue&style=flat-square)](https://github.com/bibudem/techno/commits)
 [![Docusaurus version](https://img.shields.io/npm/v/@docusaurus/core?label=Docusaurus&logo=docusaurus&color=527FFF&style=flat-square)](https://www.npmjs.com/package/@docusaurus/core)
 
