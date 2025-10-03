@@ -29,6 +29,8 @@ Cette application est la plus facile à prendre en main de cette liste.
 
 ![Interface du logiciel en ligne Tinkercad](/img/docs/tinkercad.webp)
 
+-----
+
 ### OpenSCAD
 
 - [Télécharger OpenSCAD](https://www.openscad.org/)
@@ -39,6 +41,8 @@ Cette application est la plus facile à prendre en main de cette liste.
 
 <iframe title="Impression et modélisation 3D" width="560" height="315" src="https://classe.iro.umontreal.ca/videos/embed/7967ad16-f87c-49ea-b5e6-519cb6e8a7bb" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
+-----
+
 ### Blender
 
 - [Site officiel de Blender](https://www.blender.org/)
@@ -48,6 +52,8 @@ Cette application est la plus facile à prendre en main de cette liste.
 
 Ce logiciel possède une grande communauté de pratique, on retrouve donc beaucoup de tutoriel sur internet.
 ![Interface du logiciel Blender](/img/docs/blender.webp)
+
+-----
 
 ### Fusion 360
 
@@ -62,6 +68,8 @@ Fusion 360 est à privilégier pour modéliser des objets ayant des dimensions p
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Izh99EnGLGw?si=8j24WWbEMVnVKnv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+----
+
 ### SculptGL
 
 - [SculptGL en ligne](https://stephaneginier.com/sculptgl/)
@@ -69,9 +77,9 @@ Fusion 360 est à privilégier pour modéliser des objets ayant des dimensions p
 
 **SculptGL** est une application gratuite fonctionnant sur navigateur qui permet de modéliser avec une approche sculpture. Cela permet de modéliser des objets organiques en utilisant des outils pour ajouter ou enlever de la matière.
 
+----
+
 ## Modèles en ligne
-
-
 
 Trouver des modèles 3D prêts à être imprimés sur les sites suivants :
 
