@@ -83,6 +83,16 @@ Le réseau sans fil **UdeM avec cryptage** est à privilégier. En plus d'offrir
       </TabItem>
     </Tabs>
   </TabItem>
+  <TabItem value="Chromebook" label="Chromebook">
+        | Champ                   | Information                            |
+        |-------------------------|----------------------------------------|
+        | Méthode EAP            | PEAP                                  |
+        | Phase 2 authentification | MSCHAPV2                             |
+        | Certificat CA          | (non spécifié) ou ne pas vérifier     |
+        | Identité               | Votre code d'accès ou courriel UdeM   |
+        | Anonyme                | Laisser vide                          |
+        | Mot de passe           | Votre mot de passe                    |
+      </TabItem>
 </Tabs>
 
 ---
