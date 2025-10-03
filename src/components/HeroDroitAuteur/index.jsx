@@ -34,7 +34,7 @@ export default function HeroDroitAuteur() {
         />
       </div>
       <div className={styles.heroContent}>
-        <h2 className={styles.heroTitle}>Création et droit d’auteur</h2>
+        <h2 className={styles.heroTitle}>Droit d’auteur</h2>
         <p className={styles.heroText}>
           Protégez vos créations et respectez celles des autres.
         </p>
