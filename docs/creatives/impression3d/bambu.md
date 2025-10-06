@@ -252,10 +252,11 @@ Dans ce cas, il faut :
 	2.	Déposer l’ensemble dans l’emplacement prévu à l’intérieur de l’AMS.
 
 Indiquer manuellement les caractéristiques du nouveau filament à l’aide de l’écran tactile :
-1. Appuyer sur **Contrôle**, puis ouvrir l’onglet **Filament**
-2. Sélectionner le filament inséré et renseigner les champs suivants :
-   - Filament : Generic → PLA
-   - Couleur : choisir celle qui correspond le mieux au filament
+
+	1. Appuyer sur l’icône bobine
+	2. Appuyer sur le logo oeil de la bobine que vous venez d’insérer
+	3. Cliquer sur Edit
+	4. Renseigner les champs suivants de renseignements de la bobine (marque, type, couleur, température...)
 
 :::info
 Une [liste des filaments compatibles](https://docs.google.com/spreadsheets/d/1LGVjAbGjvIjvOFQsDi8lSK9-vy7GfGhgVP41sNffh6I/edit?pli=1&gid=1679778390#gid=1679778390) est maintenue par la communauté.
