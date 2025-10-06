@@ -18,7 +18,7 @@ Le logiciel et son extension sont installés sur chacun des postes informatiques
 
 Pour avoir un exemple nous utiliserons cette image colorée d’un dodo, l'animal emblématique de l’île Maurice!
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_1.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_1.jpeg)
 
 Pour importer votre image il vous faudra ouvrir Inkscape puis ouvrir un **Nouveau Document**
 
@@ -34,11 +34,11 @@ Quand Inkscape est ouvert, dirigez-vous dans le coin supérieur gauche -> **Fich
 
 - Penser à mettre le cadenas (verouillé) pour ne pas déformer votre travail
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_2.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_2.jpeg)
 
 - Passer au système métrique impérial (mm -> in)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_3.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_3.jpeg)
 
 - Nos différentes tailles de cadres debroderie :
 
@@ -51,13 +51,13 @@ Pour permettre à la machine de broder votre image, celle-ci devra être vectori
 
 - **Chemin** -> **Vectoriser un objet matriciel**
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_4.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_4.jpeg)
 
 - Afin de faire apparaitre les couleurs, cliquez sur l’onglet **Multicolor**, dans le menu déroulant **Détection** choisir l’option **Couleurs**. Sélectionnez **niveau de gris** si votre image est en noir et blanc.
 
 - Si les couleurs ne sont pas différenciées, baisser le seuil de luminosité
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_5.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_5.jpeg)
 
 - Cliquer sur Appliquer dans le coin inférieur droit
 
@@ -71,7 +71,7 @@ L'image vectorisée est superposée à l'image originale. Glisser et déplacer l
 
 Logo :
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_6.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_6.jpeg)
 
     Cette action vous permet d’afficher les “paths” (chemins de l’aiguille) qui créent les tracés de votre image. Ils sont superposés à l’image originale.
 
@@ -81,15 +81,15 @@ Selon votre image, plus vous avez de paths plus votre image/dessin final aura de
 
 - Menu déroulant **Extensions** -> **Ink/Stitch** -> **Paramètres**
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_7.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_7.jpeg)
 
 À l'aide de cette option vous pourrez voir une simulation vidéo de la broderie.
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_8.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_8.jpeg)
 
 Parallèlement un panneau d'options est disponible :
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_9.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_9.jpeg)
 
 Exemples de principales fonctions / paramètres de broderie :
 
@@ -107,26 +107,26 @@ Exemple :
 
 *Path 139 Initial*
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_10.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_10.jpeg)
 
 *Path 139 Brisé*
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_11.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_11.jpeg)
 
 :::info Astuce : A cette étape, vous pouvez organiser vous-même l’ordre des paths. Notamment pour éviter les sauts de fil entre les éléments lors de la broderie:::
 
 **Détails des paramètres choisis pour notre dodo**
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_12.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_12.jpeg)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_13.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_13.jpeg)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_14.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_14.jpeg)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_15.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_15.jpeg)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_16.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_16.jpeg)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_17.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_17.jpeg)
 
-static/img/docs/transformer_une_image_complexe_avec_Inkscape_18.jpeg
+![](static/img/docs/transformer_une_image_complexe_avec_Inkscape_18.jpeg)
