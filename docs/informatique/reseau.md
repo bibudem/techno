@@ -134,11 +134,11 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
 
  1. Sélectionner le réseau sans fil **UdeM-Visiteurs**.
  2. Ouvrir votre navigateur.
- *Remarque : Si la page d'authentification ne s'affiche pas, ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser. Par exemple : www.google.cz*
- 3. Cliquer **Ou faites une demande d'accèes en tant qu'invité**.
- 4. Entrer vos informations et cliquer **Enregistrer**.
- 5. Lire et accepter les conditions générales.
- 6. Cliquer **Accepter** et **Continuer**. 
+ *Remarque : Si la page d'authentification ne s'affiche pas : ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser. Par exemple : www.google.cz*. Sinon [oublier le réseau](https://studio.bib.umontreal.ca/informatique/reseau#depannage) et se rebrancher.
+ 1. Cliquer **Ou faites une demande d'accèes en tant qu'invité**.
+ 2. Entrer vos informations et cliquer **Enregistrer**.
+ 3. Lire et accepter les conditions générales.
+ 4. Cliquer **Accepter** et **Continuer**. 
 
 ---
 
