@@ -230,16 +230,19 @@ Si la bobine est compatible Bambu Lab et équipée d’une puce RFID, l’imprim
 Si la bobine compatible Bambu Lab n’est pas munie d’une puce RFID, il faut indiquer manuellement les caractéristiques du filament après son chargement.
 
 Utiliser l’écran tactile de l’imprimante :
-1.	Appuyer sur l’icône Contrôle
-2.	Aller à l’onglet Filament
-3.	Sélectionner le filament que vous venez d’insérer
-4.	Renseigner les champs suivants :
-    - Filament : choisir Generic puis PLA
-    - Couleur : sélectionner la couleur qui correspond le mieux au filament
+1.	Appuyer sur l’icône **bobine**
+2.	Appuyer sur le logo **oeil** de la bobine que vous venez d’insérer
+3.	Cliquer sur **Edit**
+4.	Renseigner les champs suivants de renseignements de la bobine (marque, type, couleur, température...)
 
-![config_manuel_1](/img/docs/filament-bambu8.webp)
+![](/img/docs/bambulab_change_filament_1.jpg)
 
-![config_manuel_2](/img/docs/filament-bambu9.webp)
+![](/img/docs/bambulab_change_filament_2.jpg)
+
+![](/img/docs/bambulab_change_filament_3.jpg)
+
+![](/img/docs/bambulab_change_filament_4.jpg)
+
 
 #### Autre bobine nécessitant un support
 
