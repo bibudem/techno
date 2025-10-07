@@ -140,6 +140,8 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
  3. Lire et accepter les conditions générales.
  4. Cliquer **Accepter** et **Continuer**. 
 
+**IMPORTANT :** Après 24 h, il peut être nécessaire d’[oublier le réseau](https://studio.bib.umontreal.ca/informatique/reseau#depannage) afin que la page permettant de demander un accès en tant qu’invité s’affiche à nouveau.
+
 ---
 
 ## UdeM non sécurisé {#udem-non-securise}
