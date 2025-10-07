@@ -52,6 +52,7 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
   <TabItem value="pret-6h" label="Prêt 6 heures">
     - **Aucune réservation**
     - **Un renouvellement** est possible via votre dossier Sofia.
+    - Offre logicielle standard (Office, etc.). Il n’est pas possible d’installer d’autres applications sur l’ordinateur.
     - Disponible en ce moment :
   
 <div
@@ -104,6 +105,7 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
     - **Réservation obligatoire**.  
     - Le renouvellement est automatique, sauf si l'ordinateur est réservé par une autre personne.  
     - Si le portable est réservé par une autre personne, des frais de **5$ par jour de retard** s'appliqueront.
+    - Offre logicielle standard (Office, etc.). Il est possible d’installer d’autres applications sur l’ordinateur.
     - Disponible en ce moment :
   <Disponibilite label="Bibliothèque des lettres et sciences humaines" oclc="1135196766" />
 
