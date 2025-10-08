@@ -378,6 +378,7 @@ const sidebars = {
             "creatives/textile/guidebrodeuse",
             "creatives/textile/modeles",
             "creatives/textile/inkscape-simple",
+            "creatives/textile/inkscape-complexe",
             "creatives/textile/fils",
             "creatives/textile/faq",
           ],

@@ -29,10 +29,16 @@ Cette section est destinée à vous aider à mieux comprendre l'utilisation de l
       icon: "map-trifold",
     },
     {
-      title: "Transformer un modèle (simple) avec Inkscape",
+      title: "Transformer un modèle simple avec Inkscape",
       description: `
       Du format PNG vers une broderie pour des modèles simples comme du texte.`,
       link: "/creatives/textile/inkscape-simple",
+      icon: "",
+    },
+      {
+      title: "Transformer un modèle complexe avec Inkscape",
+      description: `Du format PNG vers une broderie pour des modèles complexes.`,
+      link: "/creatives/textile/inkscape-complexe",
       icon: "",
     },
    {
