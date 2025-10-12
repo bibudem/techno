@@ -17,6 +17,7 @@ const images = [
   '/img/homepage2.webp',
   '/img/homepage3.webp',
   '/img/homepage4.webp',
+  '/img/homepage5.webp',
 ];
 
 const slogans = [
@@ -54,17 +55,19 @@ export default function PageAccueil() {
           color: '#fff',
         }}
       >
-        <div className={styles.introContainer}>
-          <h1 className={styles.introTitle}>
-            <span className={styles.introLight}>studio</span>
-            <span className={styles.introDot}>•</span>
-            <span className={styles.introBold}>bib</span>
-          </h1>
-          <p className={styles.introSubtitle}>
-            {subtitle}
-          </p>
-          <div className={styles.introButtons}>{/* Boutons */}</div>
-        </div>
+<div className={styles.introContainer}>
+  <div className={styles.introHeader}>
+    <img 
+      src="/img/logo-studiobib.svg" 
+      alt="studio·bib" 
+      className={styles.introLogo} 
+    />
+    <p className={styles.introSubtitleRight}>
+      {subtitle}
+    </p>
+  </div>
+  <div className={styles.introButtons}>{/* Boutons */}</div>
+</div>
       </section>
 
       <section className="homepage-section">

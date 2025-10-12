@@ -235,13 +235,13 @@ Utiliser l’écran tactile de l’imprimante :
 3.	Cliquer sur **Edit**
 4.	Renseigner les champs suivants de renseignements de la bobine (marque, type, couleur, température...)
 
-![](/img/docs/bambulab_change_filament_1.jpg)
+![](/img/docs/bambulab_change_filament_1.webp)
 
-![](/img/docs/bambulab_change_filament_2.jpg)
+![](/img/docs/bambulab_change_filament_2.webp)
 
-![](/img/docs/bambulab_change_filament_3.jpg)
+![](/img/docs/bambulab_change_filament_3.webp)
 
-![](/img/docs/bambulab_change_filament_4.jpg)
+![](/img/docs/bambulab_change_filament_4.webp)
 
 
 #### Autre bobine nécessitant un support
