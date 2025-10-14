@@ -25,7 +25,7 @@ Nous offrons un service de prêt de tablettes iPad pour la communauté UdeM. Vou
 
 ## Modalités
 
-Le prêt est d'une durée de **7 jours**. Le renouvellement est automatique à moins que la tablette ait été réservée par une autre personne. Les tablettes sont prêtées avec étui, mallette, fil USB et chargeur.
+Le prêt est d'une durée de **7 jours**. Le premier renouvellement se fera automatiquement, à moins que la tablette ait été réservée par une autre personne. Pour les renouvellements suivants, venir en bibliothèque. Les tablettes sont prêtées avec étui, mallette, fil USB et chargeur.
 
 ## Disponible en ce moment
 
