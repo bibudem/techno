@@ -27,7 +27,7 @@ DaVinci Resolve Studio,Création et édition,Montage vidéo et correction colori
 Dragon Naturally Speaking,Accessibilité,Reconnaissance vocale,Non,Non,Non,,Lettres et sciences humaines (Service accessibilité)
 Duxbury Braille Translator,Accessibilité,Traduction de texte en braille,Non,Non,Non,,Lettres et sciences humaines (Service accessibilité)
 EndNote,Gestion bibliographique,Gestion de références bibliographiques,Non,Oui,Oui,/informatique/logiciels/endnote,Tous les postes informatiques des bibliothèques
-FileZilla,Client FTP,Oui,Non,Oui,,Tous les postes informatiques des bibliothèques
+FileZilla,Bureautique,Client FTP,Oui,Non,Oui,,Tous les postes informatiques des bibliothèques
 Finale NotePad,Création et édition,Édition de partitions musicales,Non,Non,Oui,,Tous les postes informatiques des bibliothèques
 Gaussian 16,Sciences,Calculs de chimie quantique,Non,Non,Non,,Hubert-Reeves
 Gimp 2,Création et édition,Édition d'images,Oui,Oui,Oui,/informatique/logiciels/gimp,Tous les postes informatiques des bibliothèques
@@ -38,9 +38,9 @@ JabRef,Gestion bibliographique,Gestion de références bibliographiques,Non,Non,
 JAWS,Accessibilité,Lecteur d'écran pour les personnes aveugles ou malvoyantes,Non,Non,Non,,Lettres et sciences humaines (Service accessibilité);Hubert-Reeves
 Krita,Création et édition,Dessin et peinture numérique,Oui,Oui,Non,,Mathématiques et informatique
 Lexibar LP5,Accessibilité,Clavier virtuel pour les personnes avec des besoins spécifiques,Non,Non,Non,,Hubert-Reeves
-Libre Office,Bureautique,Suite bureautique en ligne,Oui,Oui,Oui,,Tous les postes informatiques des bibliothèques
+Libre Office,Bureautique,Suite bureautique,Oui,Oui,Oui,,Tous les postes informatiques des bibliothèques
 Mathematica,Traitement de données,Calcul formel et symbolique,Non,Non,Oui,/informatique/logiciels/mathematica,Lettres et sciences humaines;Mathématiques et informatique;Hubert-Reeves
-Meshroom,Création et édition,Reconstruction 3D à partir de photos,Non,Oui,Non,/informatique/logiciels/meshroom,,Thérèse-Gouin-Décarie
+Meshroom,Création et édition,Reconstruction 3D à partir de photos,Non,Oui,Non,/informatique/logiciels/meshroom,Thérèse-Gouin-Décarie
 Microsoft Access,Bureautique,Gestion de bases de données relationnelles,Non,Oui,Oui,/informatique/logiciels/office,Tous les postes informatiques des bibliothèques
 Microsoft Excel,Bureautique,Tableur pour la gestion de données et calculs,Non,Oui,Oui,/informatique/logiciels/office,Tous les postes informatiques des bibliothèques
 Microsoft Office 365,Bureautique,Suite bureautique en ligne,Non,Oui,Oui,/informatique/logiciels/office,Tous les postes informatiques des bibliothèques
@@ -65,6 +65,6 @@ SPSS Amos,Analyse statistique,Logiciel d'analyse de données statistiques,Non,No
 STATA,Analyse statistique,Logiciel d'analyse statistique pour la recherche et les études,Non,Non,Oui,,Lettres et sciences humaines ordinateurs identifiés «Données statistiques» du 3e étage
 TexMaker,Bureautique,Éditeur LaTeX pour la création de documents scientifiques,Non,Non,Non,,Hubert-Reeves;Mathématiques et informatique local 2486
 WordStat 8,Traitement de données,Analyse de texte pour la recherche qualitative,Non,Non,Oui,,Tous les postes informatiques des bibliothèques
-Zotero,Gestion bibliographique,Gestionnaire de références bibliographiques,Oui,Oui,Non,/informatique/logiciels/zotero,Tous les postes informatiques des bibliothèques
-Zoom,Communication,Plateforme de visioconférence,Non,Oui,Non,,Tous les postes informatiques des bibliothèques
+Zotero,Gestion bibliographique,Gestionnaire de références bibliographiques,Oui,Oui,Oui,/informatique/logiciels/zotero,Tous les postes informatiques des bibliothèques
+Zoom,Communication,Plateforme de visioconférence,Non,Non,Oui,,Tous les postes informatiques des bibliothèques
 Zoomtext,Accessibilité,Logiciel d'agrandissement d'écran et de lecture pour les personnes malvoyantes,Non,Non,Non,,Lettres et sciences humaines (service accessibilité);Campus de Laval;Hubert-Reeves;Thérèse-Gouin-Décarie
