@@ -30,7 +30,9 @@ import Link from '@docusaurus/Link';
 
 ## Libre-service
 
-Les bibliothèques offrent des ordinateurs publics en libre-service. L’accès se fait via un code d’accès et un mot de passe.
+Les bibliothèques offrent des ordinateurs publics en libre-service dans toutes les bibliothèques.
+L’accès se fait au moyen d’un code d’accès et d’un mot de passe.
+[Consultez la liste des bibliothèques](https://bib.umontreal.ca/espaces/) pour en savoir plus.
 
 <Link to="/informatique/logiciels" className="button button--primary">
   Consulter la liste des logiciels offerts
