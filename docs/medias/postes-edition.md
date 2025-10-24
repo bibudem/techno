@@ -34,12 +34,14 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
 
 ## Localisation et accès {#localisation-acces}
 
-| **Bibliothèque**                                    | **Localisation** | **Accès** |
-|-----------------------------------------------------|-----------------|------------|
-| **[Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)** | Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-3. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=5747). Présentez-vous au bureau de référence du 2<sup>e</sup> étage pour accéder au local.  |
-| **[Bibliothèque Hubert-Reeves](https://bib.umontreal.ca/espaces/#hubert-reeves)** (environnement macOS) | Campus MIL, Aile A, Local A-1551. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/space/22893). Présentez-vous au comptoir d'accueil pour accéder au local.  |
-| **[Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | 2<sup>e</sup> étage. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Deux postes sont aussi disponibles **sans réservation** dans [l'Atelier de fabrication](../espaces/ateliers.md) |
-| **[Bibliothèque de mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | Local 2432. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) |  |
+| **Bibliothèque**                                    | **Localisation** | **Accès** | **Note** |
+|-----------------------------------------------------|-----------------|------------|----------|
+| **[Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)** | Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-3. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=5747). Présentez-vous au bureau de référence du 2<sup>e</sup> étage pour accéder au local.  | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) et DaVinci Resolve Studio |
+| **[Bibliothèque Hubert-Reeves](https://bib.umontreal.ca/espaces/#hubert-reeves)** | Campus MIL, Aile A, Local A-1551. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/space/22893). Présentez-vous au comptoir d'accueil pour accéder au local.  | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) - Environnement macOS |
+| **[Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | 2<sup>e</sup> étage. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Deux postes disponibles **sans réservation** dans [l'Atelier de fabrication](../espaces/ateliers.md) | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) |
+| **[Bibliothèque de mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | Local 2432. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Un poste disponible sans réservation dans [l'Atelier de fabrication](../espaces/ateliers.md) | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) |
+| **[Bibliothèque de musique](https://bib.umontreal.ca/espaces/#musique)** | [Voir sur la carte](https://share.google/bMDujxZITwaN0pFyX) | Un poste disponible sans réservation | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) - [Ableton Live Suite 12](../informatique/logiciels/ableton.md) |
+---
 
 :::important Équipements spécifiques à la BLSH
 

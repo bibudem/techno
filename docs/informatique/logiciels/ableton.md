@@ -22,7 +22,7 @@ Le logiciel **Ableton Live Suite 12** est un logiciel de création musicale et d
 ## Live Pack
 
 Un **Live Pack** est un ensemble de sons, d'instruments et d'effets pour Ableton Live.
-Pour pouvoir utiliser les Live Packs, aller vers **Options** → **Réglages** → **Library** → Dans **Dossier d'installation des packs**, cliquer sur **Chercher** et sélectionner le dossier Ableton Live Packs qui se trouve à la racine de C:\.
+Pour pouvoir utiliser les Live Packs, aller vers **Options** → **Réglages** → **Library** → Dans **Dossier d'installation des packs**, cliquer sur **Chercher** et sélectionner le dossier **Ableton Live Packs** qui se trouve à la racine de C:\.
 
 Voici la liste des Live Packs disponibles sur le poste de la bibliothèque de musique :
 
