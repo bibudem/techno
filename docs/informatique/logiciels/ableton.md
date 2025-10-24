@@ -15,7 +15,7 @@ Le logiciel **Ableton Live Suite 12** est un logiciel de création musicale et d
 
 ## Disponibilité
 
-- [Bibliothèque de musique](https://bib.umontreal.ca/espaces/#musique) : poste dédié.
+- [Bibliothèque de musique](https://bib.umontreal.ca/espaces/#musique) : [poste dédié à l'édition](../../medias/postes-edition.md).
 
 ---
 
