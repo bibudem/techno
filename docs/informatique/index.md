@@ -55,6 +55,12 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       link: "ava",
       icon : "Monitor",
     },
+        {
+      title: "Connexion sans fil aux écrans",
+      description: "Projetez le contenu de votre appareil sur les écrans sans fil disponibles.",
+      link: "connexion-ecrans",
+      icon : "Monitor",
+    },
     {
       title: "Tablettes iPad",
       description: "Empruntez une tablette pour vos travaux et recherches.",

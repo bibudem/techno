@@ -100,6 +100,7 @@ const sidebars = {
         },
         'informatique/ordinateurs',
         'informatique/ava',
+        'informatique/connexion-ecrans',
         'informatique/tablettes',
         // 'informatique/consultation',
         {
