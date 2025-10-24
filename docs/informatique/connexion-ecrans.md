@@ -22,6 +22,8 @@ import TabItem from '@theme/TabItem';
 Les bibliothèques de l’UdeM mettent à disposition plusieurs écrans équipés d’un système de projection sans fil.
 Vous pouvez y connecter votre ordinateur, tablette ou téléphone pour afficher vos contenus, que ce soit dans les salles de travail, les laboratoires ou les espaces de formation.
 
+---
+
 ## Procédure
 
 Assurez-vous d’être connecté au réseau WI-FI **UdeM avec cryptage** et que le Bluetooth de votre appareil est activé.
@@ -49,8 +51,14 @@ Assurez-vous d’être connecté au réseau WI-FI **UdeM avec cryptage** et que 
 - Sélectionner le numéro du local
 - Saisir le code PIN affiché en haut de l’écran
 
+:::caution
+Le système de projection sans fil présente certaines difficultés de compatibilité avec les appareils de la gamme Google Pixel. 
+:::
+
 </TabItem>
 </Tabs>
+
+---
 
 ## Emplacements
 
