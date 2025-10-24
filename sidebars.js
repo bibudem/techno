@@ -302,6 +302,11 @@ const sidebars = {
               id: 'informatique/logiciels/zoom',
               className: 'hidden',
             },
+                        {
+              type: 'doc',
+              id: 'informatique/logiciels/ableton',
+              className: 'hidden',
+            },
           ],
 
         },
