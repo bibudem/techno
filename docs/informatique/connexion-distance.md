@@ -99,10 +99,10 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   <TabItem value="chromebook" label="Chromebook">
   
   1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
-  2. Installer **Microsoft Remote Desktop** depuis le [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx)
+  2. Installer **Windows App** depuis le [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx)
   3. Sélectionner un poste actuellement disponible.  
   4. Cliquer **Afficher le dossier**.  
-  5. Cliquer droit sur le fichier téléchargé → **Ouvrir avec** → **RD Client**.  
+  5. Cliquer droit sur le fichier téléchargé → **Ouvrir avec** → **Windows App**.  
   6. S’authentifier de la façon suivante :  
      - **Nom** : `sim\votre code d’accès` (ex. `sim\ab12345` ou `sim\p1234567`)  
      - **Mot de passe** : votre mot de passe
