@@ -1,29 +1,39 @@
 ---
 draft: true
+toc_min_heading_level: 2
+toc_max_heading_level: 2
+
 ---
+
+import InteractiveImage from '@site/src/components/InteractiveImage';
+
 
 # Documentation DaVinci Resolve
 
+---
+:::tip À propos de cette documentation
+Cette page a été rédigée à partir d’un guide produit par le [Laboratoire multimédia (LaM)](https://fas.umontreal.ca/laboratoires/lam/) de la Faculté des arts et des sciences, avec quelques adaptations et ajouts propres au contexte des bibliothèques de l’UdeM.
+:::
 
 ---
 
-## Introduction à DaVinci Resolve
+## Introduction
 
 DaVinci Resolve est un logiciel de **montage, mixage audio, composition et étalonnage** développé par Blackmagic Design.  
 Originellement conçu pour l’étalonnage, il s’est diversifié depuis 2014 pour inclure toutes les étapes de production.
 
 Deux versions existent :  
 - **Studio (payante)** avec plus de fonctionnalités.  
-- **Gratuite** (installée au LaM et recommandée à la communauté UdeM).
+- **Gratuite**
 
 **Configuration minimale recommandée** : 16 Go RAM et 2 Go VRAM.  
 Même si Resolve fonctionne en dessous, cela ralentit le rendu et l’exportation.
 
 Téléchargement : [Blackmagic Design - DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 
-Le logiciel est installé sur les [postes d'édition](postes-edition) des bibliothèques UdeM et au [Laboratoire multimédia](https://fas.umontreal.ca/laboratoires/lam/) (LaM) au pavillon Marie-Victorin.
+La version gratuite est installé sur les [postes d'édition](postes-edition) des bibliothèques UdeM et au [Laboratoire multimédia](https://fas.umontreal.ca/laboratoires/lam/) (LaM) au pavillon Marie-Victorin.
 
-La version complète **DaVinci Resolve Studio** est disponible uniquement à la Bibliothèque des lettres et sciences humaines (BLSH).
+La version complète **DaVinci Resolve Studio** est disponible uniquement [dans le poste d'édition de la Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) (BLSH).
 
 ---
 
@@ -32,19 +42,18 @@ La version complète **DaVinci Resolve Studio** est disponible uniquement à la 
 - Installez la version **française** de Resolve pour suivre plus facilement cette documentation, même si celle-ci contient quelques passages non traduits.
 - Le changement de langue se fait dans **Barre de menus** → **DaVinci Resolve** → **Préférences** → **Utilisateur** → **Interface** → **Langue**
 
-:::caution
-Un **redémarrage** est nécessaire après changement de langue.
+:::caution Un **redémarrage** est nécessaire après changement de langue.
 :::
-
-Cette documentation est complémentaire aux formations. Les chapitres peuvent être lus indépendamment.
 
 ---
 
 ## Chapitre 1. Préparer vos périphériques de sauvegarde
 
-Avec le phénomène de la numérisation des contenus, les corps de métiers dans le traitement de contenus audiovisuel sont maintenant en grande partie effectués sur des logiciels informatiques. Il n’est donc plus nécessaire de réfléchir à l’entreposage de bobines de pellicule ou de Betamax, mais vous devez tout de même être rigoureux dans la gestion de vos médias numériques. Le numérique peut donner un faux sentiment d’immuabilité à nos médias, mais c’est tout le contraire : le numérique est l’une des rares matières qui peuvent disparaître sans laisser de trace! À l’ère du numérique, il est facile d’égarer un son, supprimer une musique ou écraser une vidéo avec une mauvaise gestion de ses sauvegardes. Que ce soit sur un disque dur externe, interne, une clé USB ou une carte SD, vous devez prendre soin d’organiser vos médias et vos projets pour éviter de perdre plusieurs heures de tournage!
+Aujourd’hui, la quasi-totalité du travail audiovisuel se fait sur ordinateur. Cela facilite la création, mais rend aussi vos projets plus vulnérables : un fichier peut disparaître en un clic, être écrasé ou corrompu sans laisser de trace.  
 
-Les médias audiovisuels étant habituellement de grande taille, ce chapitre couvre exclusivement les disques durs. Les informations peuvent s’appliquer pour les autres types de support, comme les clés USB, mais elles sont généralement trop petites pour être utiles sur le long terme dans la gestion de projets audiovisuel. Un disque dur d’une bonne taille vous permettra de travailler de longue année sur vos projets.
+Pour éviter de perdre plusieurs heures de tournage, il est essentiel d’organiser vos sauvegardes. Que vous utilisiez un disque dur externe, interne, une clé USB ou une carte SD, vos supports doivent être choisis et gérés avec soin.  
+
+Dans ce chapitre, nous allons nous concentrer sur les **disques durs**, car les fichiers audiovisuels sont souvent volumineux. Les clés USB et cartes SD peuvent dépanner, mais elles sont rarement adaptées à une gestion fiable à long terme. Un disque dur de bonne capacité est donc le support recommandé pour stocker et sécuriser vos projets au fil des années.
 
 
 ### Disque dur personnel
@@ -53,93 +62,116 @@ Dépendant de l’utilisation qu’on en fait, les disques durs peuvent être cl
 - **Disques de sauvegarde** : plus volumineux (2–4 To), moins chers, pour archiver vos projets.
 
 
-### Disque dur des postes offerts
+### Disque dur des postes de l'Université
 - Toujours transférer votre projet sur **votre disque de travail** après usage dans un des postes d'édition de l'Université.  
 - Les fichiers laissés sur un poste peuvent disparaître lors d’une maintenance.
 - Alternative : un espace infonuagique comme Dropbox/Google Drive, mais cette manipulation peut être longue.
 
 ### Format du disque dur
 - Pour une meilleure compatibilité Mac/Windows : **exFAT** recommandé.
-- **Mac** : Utilitaire de disque → Sélectionner le disque branché → Effacer.
-- **Windows** : Explorateur → Ce PC → Sélectionner le disque branché → Clic droit → Formater.
+- macOS : **Utilitaire de disque** → **Sélectionner le disque branché** → **Effacer**.
+- Windows : **Explorateur** → **Ce PC** → **Sélectionner le disque branché** → **Clic droit** → **Formater**.
 
-:::caution
-Le formatage supprime **toutes les données**. Sauvegardez avant!
+:::caution Le formatage supprime **toutes les données**. Sauvegardez avant!
 :::
 
-### La règle des trois
+### La règle des trois copies
 
-En règle générale, on conseille d’enregistrer ses données numériques à trois endroits distincts, d’où le nom de la règle. Par exemple, vous pourriez avoir une copie de vos données sur votre ordinateur de bureau, sur votre ordinateur portable et sur un disque dur externe. La sauvegarde sur des plateformes en ligne, comme Dropbox, Google Drive ou OneDrive, est également intéressante en octroyant l’accès de vos données à n’importe quelle station de travail.
+Pour sécuriser vos données, conservez-les toujours à **3 endroits différents**.  
+Exemples :  
+- Ordinateur de bureau + portable + disque externe.  
+- Ordinateur portable + disque externe + service infonuagique.
 
-Toujours conserver **3 copies** :  
-- Exemple : poste fixe + portable + disque externe.  
-- Ou : poste fixe + disque externe + Espace infonuagique.
+![Schéma de la règle des trois copies](/img/docs/resolve-espace.png)
+
+---
 
 ## Chapitre 2. L’interface de DaVinci Resolve
 
-DaVinci Resolve est divisé en deux fenêtres distinctes : 
-- Le gestionnaire de projet, qui s’ouvre au lancement du logiciel. Permet de visualiser vos différents projets et d’administrer vos bases de données.
-- Les espaces de travail, qui se lancent après qu’un projet ait été ouvert. Permet d’importer des médias, de les monter, de les éditer, puis de les exporter en un produit final.   
+DaVinci Resolve s’ouvre en deux étapes :
+
+<InteractiveImage
+  image="/img/docs/resolve-interface.png"
+  zones={[
+    { id: "gestionnaire-projet", label: "- Le gestionnaire de projet : affiché au lancement, il permet de visualiser et gérer vos projets ainsi que les bases de données.  ", top: "0%", left: "0%", width: "26%", height: "100%" },
+    { id: "pages-de-travail", label: "- Les pages de travail : accessibles après l’ouverture d’un projet, elles regroupent les outils pour importer, monter, étalonner, mixer et exporter vos médias.", top: "0%", left: "26%", width: "75%", height: "100%" },
+  ]}
+/>
+
+---
 
 ### Le gestionnaire de projet
-Le gestionnaire de projet permet de visualiser tous vos projets menés dans Davinci Resolve à un seul endroit, même s’ils sont sauvegardés à des emplacements différents. Par défaut, le projet « Untitled Projet » s’affiche et la fenêtre se ferme après l’ouverture d’un projet. La fenêtre du gestionnaire de projet se divise en deux panneaux :
+Le gestionnaire de projet centralise tous vos projets, même s’ils sont enregistrés à différents emplacements.  
+Par défaut, un projet « Untitled Project » est créé. Cette fenêtre disparaît dès qu’un projet est ouvert, mais vous pouvez la rouvrir en cliquant sur l’icône **maison** en bas à droite de l’interface.
 
-1. Le panneau base de données permet de visualiser l’emplacement où sont enregistrées vos bases de données. Si le panneau n’est pas visible, c’est sans doute qu’il est désactivé. Pour l’afficher, vous devez cliquer sur
-l’icône à gauche de « Projets ».
-2. Le panneau projets permet de visualiser chacun des projets sauvegardés dans une base de données spécifique. Celui-ci n’affiche que les projets de la base de données sélectionnées :
+La fenêtre se divise en deux panneaux :
+1. **Bases de données** : affiche les emplacements de vos bases. Si le panneau est masqué, cliquez sur l’icône à gauche de *Projets*.  
+2. **Projets** : liste les projets associés à la base sélectionnée.  
 
-Vous pouvez en tout temps localiser l’emplacement d’une base de donnée en effectuant un [clic droit > Afficher dans le Finder] sur celle-ci.
-Pour lancer un nouveau projet, cliquer sur le bouton [nouveau projet], ou lancer le projet « untitled projet ». Une fois un projet lancé, la fenêtre du gestionnaire de projet se ferme automatiquement et celle des espaces de travail s’ouvre. Il est toujours possible de rouvrir le gestionnaire de projet en cliquant sur l’icône de la petite maison, complètement en bas à droite de la fenêtre des espaces de travail :
-
+- Pour localiser une base, faites un clic droit → **Afficher dans le Finder** (macOS).  
+- Pour créer un nouveau projet, cliquez sur **Nouveau projet** ou ouvrez le projet par défaut.  
 
 :::caution
 Un fichier projet (.drp) est très léger car il **ne contient pas les médias**.  
-Si vos fichiers ont changé d’emplacement, Resolve affichera vos médias **hors ligne**.
-Il est impératif que les médias ne changent pas de place en relation avec l’emplacement du fichier projet.
+Si vos fichiers changent d’emplacement, Resolve les marquera **hors ligne**.  
+Il est donc essentiel de garder vos médias au même endroit que lors de la création du projet.
 :::
 
-### La fenêtre des espaces de travail
-Une fois un projet ouvert, Resolve ferme automatiquement le gestionnaire de projet et ouvre l’espace de travail « cut », qui permet d’éditer rapidement des médias et qui ne sera pas abordé ici. L’interface de chacun des espaces de travail peut sembler imposante, mais la construction de chaque page suit une même logique : deux barres de navigation communes à toutes les pages, des panneaux principaux qui s’affichent à l’ouverture, puis des panneaux secondaires qui peuvent être ouverts ou cachés selon les besoins.
+---
+
+### Les pages de travail
+Une fois un projet ouvert, Resolve affiche la page **Cut** par défaut.  
+L’interface peut sembler complexe, mais elle suit une même logique :  
+- deux barres de navigation communes à toutes les pages ;  
+- des panneaux principaux visibles dès l’ouverture ;  
+- des panneaux secondaires que vous pouvez afficher ou masquer selon vos besoins.  
 
 #### Les barres de navigation
-Les deux barres de navigation sont toujours visibles, qu’importe dans quel espace de travail vous vous trouvez. Elles permettent d’accéder aux paramètres généraux et spécifiques du projet, de naviguer entre les espaces de travail et d’en moduler les fonctionnalités :
-1. Barre des panneaux secondaires : la barre des panneaux secondaires affiche les différents panneaux qui peuvent être ouverts ou masqués selon les besoins du montage.
-2. Barre des espaces de travail : complètement en bas de la fenêtre, la barre horizontale des pages permet de transitionner d’un plan de travail à l’autre.
-3. L’icône d’engrenage permet d’accéder aux paramètres du projet et l’icône de petite maison au gestionnaire de projet.
+- **Barre des panneaux secondaires** : permet d’ouvrir ou fermer différents panneaux selon vos besoins.  
+- **Barre des pages** : en bas de l’écran, elle permet de passer d’une page de travail à une autre.  
+- **Icône engrenage** : ouvre les paramètres du projet.  
+- **Icône maison** : rouvre le gestionnaire de projet.  
 
-💡 **Astuce**  
+:::tip **Astuce**  
 Avec deux écrans, activez le mode **double écran** :  
-`Espace de travail > Double écran > On`  
-Cela permet de déporter certains panneaux secondaires sur le second écran.
 
-### Les espaces de travail disponibles
-1. **Média** : importer sons, images, vidéos.  
-2. **Cut** : montage rapide.  
-3. **Montage** : édition principale.  
-4. **Fusion** : composition d’image.  
-5. **Étalonnage** : correction colorimétrique.  
-6. **Fairlight** : traitement audio avancé.  
-7. **Exportation** : rendu final.
+**Espace de travail → Double écran → On**  
 
-:::tip
-Si vous avez deux écrans (à la maison ou dans nos salles de montage), vous pouvez activer le mode double écran dans Espace de travail > Double écran > On.
-Cela libère de l’espace sur l’écran principal en déplaçant certains panneaux sur le second. Si vous venez de brancher l’écran, il peut être nécessaire de redémarrer le logiciel.
+Certains panneaux seront déplacés sur le second écran.  
+Si vous venez de brancher l’écran, un redémarrage du logiciel peut être nécessaire.
 :::
+
+### Les pages disponibles
+Chaque page est un environnement spécialisé, mais elles sont interconnectées : une modification faite dans l’une est répercutée dans toutes les autres.  
+
+<InteractiveImage
+  image="/img/docs/resolve-barre-pages.png"
+  zones={[
+    { id: "media", label: "1. Média – Importer sons, images, vidéos", top: "0%", left: "0%", width: "14.28%", height: "100%" },
+    { id: "cut", label: "2. Cut – Montage rapide", top: "0%", left: "14.28%", width: "14.28%", height: "100%" },
+    { id: "edit", label: "3. Montage – Édition principale", top: "0%", left: "28.56%", width: "14.28%", height: "100%" },
+    { id: "fusion", label: "4. Fusion – Composition d’image", top: "0%", left: "40%", width: "14.28%", height: "100%" },
+    { id: "color", label: "5. Étalonnage – Correction colorimétrique", top: "0%", left: "60%", width: "14.28%", height: "100%" },
+    { id: "fairlight", label: "6. Fairlight – mixer et traiter le son", top: "0%", left: "75%", width: "14.28%", height: "100%" },
+    { id: "deliver", label: "7. Exportation – Rendu final", top: "0%", left: "90%", width: "14.28%", height: "100%" },
+  ]}
+/>
+
+---
 
 ## Chapitre 3. Gérer vos données personnelles
 
 Resolve stocke les projets dans des **bases de données**.  
 Deux types existent :  
-- **Locale** : par défaut, installée sur l’ordinateur du LaM.  
-- **Externe** : recommandée, placée sur votre disque dur mobile.
+- **base de données locale (*local database*)** : par défaut, créée à l’installation du logiciel et sauvegardée par défaut sur le disque dur interne de l’ordinateur.
+- **base de données externe (*external database*)** : recommandée, créée par l’utilisateur à l’emplacement de son choix (Par exemple son disque dur externe). Permet de transporter ses projets, ses préférences utilisateur et ses préférences système d’un ordinateur à l’autre sans perdre de données en ne cloisonnant pas son travail à un seul poste de travail.
 
 :::caution
-Ne laissez jamais vos projets uniquement sur les ordinateurs du LaM.  
-Les profils utilisateurs sont régulièrement effacés.
+Ne laissez jamais vos projets uniquement sur les ordinateurs de l'Université. Les profils utilisateurs sont régulièrement effacés.
 :::
 
 ### Créer une base de données externe
-1. Sur votre disque dur, créez un dossier nommé `resolve_nomdedisque`.  
+1. Sur votre disque dur, créez un dossier nommé `resolve_nomdedisque`. En règle générale, il faut éviter les espaces et les accents en nommant ses dossiers et fichiers, qui sont des caractères entrant en conflit avec certaines structures informatiques.
 2. Dans Resolve → **Gestionnaire de projet** → **Nouvelle base de données**.  
 3. Sélectionnez le dossier et validez.  
 4. La base apparaît maintenant dans la liste des bases connectées.
@@ -150,18 +182,24 @@ Vous devez toujours conserver vos fichiers originaux.
 :::
 
 ### Connecter une base de données externe
-1. Dans le **Gestionnaire de projet**, cliquez sur **Connecter une base de données**.  
-2. Sélectionnez le dossier contenant la base.  
-3. Donnez-lui un nom.  
+
+Si c’est la première fois que vous travaillez à un poste, vous devez connecter votre base de données externe en indiquant à Resolve où votre base de données est sauvegardée :
+
+1. Dans le **Gestionnaire de projet**, cliquer sur **Connecter une base de données**.  
+2. Sélectionner le dossier contenant la base.  
+3. lui donner un nom (il peut être différent de celui d’origine) puis cliquer sur **Connecter**.
 4. Elle sera ajoutée et accessible comme une base locale.
 
 ### Exporter / importer un projet (.drp)
+
+Si vous ne souhaitez pas travailler depuis une base de données mobile, vous pouvez exporter votre projet en drp et l’importer dans la base de données locale de l’ordinateur quand vous désirez travailler :
+
 - **Exporter** : clic droit sur un projet → **Exporter le projet**.  
 - **Importer** : clic droit dans l’espace projets → **Importer un projet**.
 
-💡 **Astuce**  
-Utilisez l’export en .drp comme sauvegarde rapide (clé USB, cloud).  
-Mais pensez toujours à garder vos **médias liés**.
+:::tip **Astuce**  
+Utilisez l’export en .drp comme sauvegarde rapide (clé USB, espace infonuagique), mais pensez toujours à garder vos **médias liés**.
+:::
 
 ## Chapitre 4. Créer un nouveau projet
 
@@ -171,43 +209,63 @@ Mais pensez toujours à garder vos **médias liés**.
 3. Par défaut, la page **Cut** (montage rapide) s’ouvre automatiquement.
 
 ### Définir les paramètres du projet
-- Menu : `Fichier > Paramètres du projet…`.  
-- Les réglages importants sont :  
-  - **Résolution de la timeline** (ex. : 1920×1080).  
-  - **Fréquence d’images** (24, 25 ou 30 fps selon vos sources).  
+
+Les paramètres d’un projet détermineront le format de votre travail, entre autres la résolution et le nombre d’images par seconde pour nommer les plus connus. Ces paramètres sont automatiquement appliqués par défaut à l’ensemble de vos timelines.
+
+1. Menu : **Fichier** → **Paramètres du projet…**.  
+2. Les réglages importants sont :  
+  - A : **Résolution de la timeline** (ex. : 1920×1080 pour du Full HD).  
+  - B : **Fréquence d’images** (24, 25 ou 30 fps selon vos sources).
+3. Cliquer sur **Enregistrer** pour que les changements soient conservés.
 
 :::caution
 Choisissez la bonne fréquence d’images **avant d’importer vos médias**.  
 Un mauvais réglage peut entraîner des problèmes de fluidité.
 :::
 
-### Enregistrer un préréglage
+#### Enregistrer un préréglage
 - Une fois vos paramètres définis, enregistrez-les comme **préréglage**.  
 - Vous pourrez ainsi les réutiliser dans vos futurs projets sans tout reconfigurer.
 
 ### Gérer les espaces caches
-- Par défaut, Resolve crée ses fichiers **caches** et **optimisés** sur l’ordinateur local.  
+
+- Par défaut, Resolve crée ses fichiers **caches** et **optimisés** sur l’ordinateur local, ce qui permet une fluidité du travail.
 - Pour améliorer la fluidité et garder vos projets portables :  
   - Redirigez ces caches vers votre disque de travail externe (préférable).  
   - Vérifiez ce paramètre dans les **Préférences système**.
+    - 1. **Fichier** → **paramètres du projet**.
+    - 2. la section **Dossiers de travail** de l’onglet **Configuration du projet** permet de modifier l’emplacement pour la génération du proxy, des fichiers caches et des images de référence de la galerie. En cliquant sur parcourir, vous pouvez indiquer à Resolve de générer ces fichiers temporaires dans un espace de votre disque dur externe, que vous appellerez **cache**.
+    - 3. Cliquez sur **Enregistrer** pour appliquer les changements.
+
+### Ouvrir plusieurs projets simultanément
+
+Il est possible que vous souhaitiez visionner deux projets à la fois et pouvoir transitionner rapidement de l’un à l’autre. Il est également possible de copier des éléments d’un projet à l’autre, ce qui peut s’avérer utile si vous souhaitez recycler une section de montage d’un autre projet.
+
+Pour activer la fonction :
+1. Dans le **gestionnaire de projets**, clic droit → **navigation dynamique entre les projets**.
+2. En ouvrant un second projet, vous remarquerez qu’une nouvelle flèche est maintenant disponible à droite du nom de votre projet, en haut de la fenêtre des espaces de travail, qui permet de naviguer entre les projets présentement ouverts.
+3. Le crochet rouge (A) indique le projet actuellement visible dans la fenêtre de travail, alors que le ou les crochets blancs (B) indiquent tous les autres projets actuellement ouverts.
+
+:::tip **Astuce**
+Certaines manipulations sont bloquées lorsqu’un projet est ouvert, comme la possibilité de supprimer un projet. Si vous avez l’option **navigation dynamique** d’active, il faut s’assurer qu’un projet soit fermé pour, par exemple, le supprimer.
+:::
 
 ## Chapitre 5. La gestion des médias
 
 L’étape de gestion des médias est cruciale : vos fichiers vidéo, audio et images doivent être importés et organisés correctement pour un projet fluide et stable.
 
-### Importer vos médias
-- Depuis la **page Média**, ou directement via la **Bibliothèque de médias**.  
-- Les panneaux disponibles :  
-  - **Moniteur source** : aperçu des fichiers.  
-  - **Bibliothèque** : organisation de vos chutiers.  
-  - **Stockage** : dossiers accessibles depuis l’ordinateur.  
-  - **Audio** : gestion des pistes sonores.  
-  - **Métadonnées** : informations détaillées sur chaque fichier.
+- Les panneaux principaux :
+1. **Moniteur source** : aperçu des fichiers.
+2. **Bibliothèque de médias** : organisation de vos chutiers.
+- Les panneaux secondaires :
+3. **Espaces de stockage** : dossiers accessibles depuis l’ordinateur.
+4. **Audio** : gestion des pistes sonores.
+5. **Métadonnées** : informations détaillées sur chaque fichier.
 
 ### Ajouter des dossiers
-1. Clic droit → **Ajouter un nouvel emplacement**.  
-2. Sélectionnez votre dossier (et ses sous-dossiers).  
-3. Resolve peut demander d’ajuster automatiquement les paramètres du projet.  
+1. Clic droit → **Ajouter un nouvel emplacement**.
+2. Clic droit sur le dossier, puis choisir l’option **ajouter le dossier et les sous-dossiers à la bibliothèque de médias** (**Créer des chutiers**).
+3. Resolve peut demander d’ajuster automatiquement les paramètres du projet si les médias importés ne correspondent pas aux paramètres actuels.
 4. Créez de nouveaux **chutiers** (`⇧⌘N`) pour classer vos fichiers par catégories (ex. : *vidéo*, *audio*, *images*).
 
 ### Médias hors ligne

@@ -1,0 +1,80 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay sombre (fade in/out) */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease; /* fade */
+}
+
+.overlay.visible {
+  opacity: 1;
+}
+
+/* Image clippée qui reste claire (fade in/out) */
+.highlightImage {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 0.4s ease, clip-path 0.3s ease;
+}
+
+.highlightImage.visible {
+  opacity: 1;
+}
+
+/* Hotspots transparents */
+.hotspot {
+  position: absolute;
+  z-index: 4;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Liste de texte */
+.textList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.textList li {
+  cursor: pointer;
+  margin: 0.5rem 0;
+  font-weight: 500;
+  color: #444;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.textList li:hover {
+  text-decoration: underline;
+}
+
+/* Texte actif */
+.activeText {
+  color: #0057ac; /* bleu UdeM */
+  transform: translateX(4px);
+}
+
+/* Mobile-friendly */
+@media (hover: none) and (pointer: coarse) {
+  .textList li {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+}
