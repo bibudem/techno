@@ -109,7 +109,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 [Localisation des imprimantes libre-service](https://sium.umontreal.ca/imprimantes.html)
 
 <Admonition type="Warning" title="Attention">
-  Les documents envoyés au format A2, A3, A4 ne s’afficheront pas.
+  S’assurer d’avoir utilisé les formats de papier 8.5 x 11 (Lettre), 8.5 x 14 (Légal) ou 11 x 17 (Tabloïd). Les documents envoyés au format A2, A3, A4 ne s’afficheront pas.
 </Admonition>
 
 ---
