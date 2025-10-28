@@ -16,6 +16,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
+    Prérequis : macOS 13 et ultérieur.
     **Utiliser le navigateur internet Safari.**
 
     1. Ouvrir [vpn.umontreal.ca/campus](https://vpn.umontreal.ca/campus).
