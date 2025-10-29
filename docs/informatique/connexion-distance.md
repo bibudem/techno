@@ -35,7 +35,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 - [Procédure à suivre avant la connexion](#procedure-de-connexion).
 - Membre de la communauté étudiante avec un statut employé? [Suivre cette procédure](#étudiants-et-étudiantes-avec-statut-demployé).
 - Inactivité : Votre session se ferme automatiquement après 15 minutes.
-- Sauvegarde : Sauvegardez vos documents avant de quitter, ils seront supprimés après la session.
+- Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documents dans votre espace de stockage infonuagique OneDrive ou vous les expédier par courriel, car **les fichiers oubliés seront supprimés automatiquement après 24h** du dernier branchement.
 - Déconnexion : Déconnectez-vous dès que vous avez terminé pour libérer le poste.
 
 ---
@@ -145,6 +145,8 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
 :::warning Attention
 Veuillez noter que votre session sera fermée automatiquement après 15 minutes d’inactivité.
+
+Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documents dans votre espace de stockage infonuagique OneDrive ou vous les expédier par courriel, car **les fichiers oubliés seront supprimés automatiquement après 24h** du dernier branchement.
 :::
 
 ---
@@ -166,8 +168,4 @@ Veuillez noter que votre session sera fermée automatiquement après 15 minutes 
 
 :::warning Attention
 Il est actuellement impossible pour les personnes utilisant macOS de se connecter à distance aux postes publics des bibliothèques à partir du réseau du personnel. Cela inclut les postes des membres du personnel sur le campus et les accès par VPN avec un compte employé. Les étudiants et étudiantes avec statut d’employé doivent se déconnecter de VPN UdeM Campus et plutôt ajouter une connexion. Voir la procédure « Étudiants avec statut d’employé » en dernière page de la marche à suivre.
-:::
-
-:::warning Attention
-Veuillez noter que votre session sera fermée automatiquement après 15 minutes d’inactivité.
 :::
