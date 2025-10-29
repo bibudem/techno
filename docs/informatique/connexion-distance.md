@@ -85,7 +85,8 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
   </TabItem>
 
   <TabItem value="macos" label="macOS">
-  
+  **Prérequis : macOS 13 et ultérieur.**
+
   1. Installer le **[VPN UdeM Campus](../informatique/vpn.md)**.  
   2. Installer **Windows App** depuis [l'App Store](https://apps.apple.com/ca/app/microsoft-remote-desktop-10/id1295203466?mt=12).  
   3. Sélectionner un poste actuellement disponible.  
