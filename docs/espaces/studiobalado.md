@@ -37,6 +37,23 @@ Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](h
 
 ---
 
+## Présentation en vidéo
+
+<div style={{ textAlign: 'center' }}>
+  <iframe
+    width="360"
+    height="640"
+    src="https://www.youtube-nocookie.com/embed/fN6ydg5KxaM?si=ZsMc8FLJYHe7kpG5"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
+
+---
+
 ## Un environnement repensé pour la captation {#environnement-repense}
 
 Le studio est équipé d’un système intégré conçu pour faciliter la production d'un balado vidéo en quelques étapes simples :
