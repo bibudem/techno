@@ -28,7 +28,15 @@ Le studio a été modernisé, avec l’ajout de caméras, d’un nouvel éclaira
 [Découvrez la nouvelle page Studio balado vidéo](/espaces/studiobalado).
 :::
 
+:::danger Accès réservé à la communauté UdeM
+Les studios sont **réservés à la communauté de l’Université de Montréal**.
+
+Nous ne pouvons malheureusement pas accepter de réservations provenant de l’externe. Merci de votre compréhension!
+:::
+
 Les studios d'enregistrement audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
+
+
 
 ---
 
@@ -69,7 +77,7 @@ import StudioCard from '@site/src/components/StudioCard';
     location="Pavillon André-Aisenstadt, local 2477"
     mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
     description="À votre arrivée, présentez-vous au comptoir de la bibliothèque afin que le personnel vous déverrouille le studio."
-    reserveLink="https://calendrier.bib.umontreal.ca/spaces?lid=2020&gid=6221"
+    reserveLink="https://calendrier.bib.umontreal.ca/space/24357"
     reserveText="Réserver"
   />
 </div>
