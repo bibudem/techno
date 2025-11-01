@@ -3,7 +3,7 @@
 title: Numérisation de microdocuments
 description: Guide pour Numériser les microfilms, les microfiches et les microcartes.
 help : info
-image: "/img/cover/czur.webp"
+image: "/img/cover/microdocuments.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
