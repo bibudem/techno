@@ -48,8 +48,8 @@ Les microdocuments, également appelés microformes, désignent des documents re
 
 3. Numérisation
    - Ouvrir le logiciel **PaperPort**.  
-   - Cliquer sur **Dossier** → **Mes documents PaperPort** pour créer un espace de travail
-   - Cliquer sur **Paramètres de numérisation** → **Document en noir et blanc** → Décocher **Afficher l’Assistant de capture** → **Numériser**	
+   - Cliquer **Dossier** → **Mes documents PaperPort** pour créer un espace de travail
+   - Cliquer **Paramètres de numérisation** → **Document en noir et blanc** → Décocher **Afficher l’Assistant de capture** → **Numériser**	
 	
    Réglages recommandés, mais modifiables:
 
