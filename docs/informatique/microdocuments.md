@@ -22,7 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Types de documents {#microdocuments}
 
-Les microdocuments, également appelés microformes, désignent des documents reproduits sur des supports photographiques miniaturisés, tels que les microfilms et les microfiches. En raison de leur très petite taille, leur consultation nécessite un appareil de lecture spécialisé permettant d’agrandir l’image. 
+Les microdocuments, également appelés microformes, désignent des documents reproduits sur des supports photographiques miniaturisés, tels que les microfilms et les microfiches. En raison de leur très petite taille, leur consultation nécessite un appareil de lecture spécialisé permettant d’agrandir l’image. Pour plus d’information, [consultez notre guide sur les microdocuments](https://boite-outils.bib.umontreal.ca/trouver-evaluer/microdocuments).
 
 ## Numérisation {#numérisation}
 
@@ -112,7 +112,11 @@ Bon à savoir pour les JOURNAUX
 
 
   </TabItem>
+  
 
 </Tabs>
 
 ---
+## Droit d'auteur {#droit-auteur}
+
+Pour plus d’information, [consultez notre guide sur le droit d’auteur](https://boite-outils.bib.umontreal.ca/recherche/droit-auteur).
