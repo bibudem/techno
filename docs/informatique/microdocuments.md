@@ -22,10 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Types de documents {#microdocuments}
 
-- Microfilm
-- Microfiche
-- Microcarte
-Pour plus d'informations sur type de documents (https://boite-outils.bib.umontreal.ca/trouver-evaluer/microdocuments).  
+Les microdocuments, également appelés microformes, désignent des documents reproduits sur des supports photographiques miniaturisés, tels que les microfilms et les microfiches. En raison de leur très petite taille, leur consultation nécessite un appareil de lecture spécialisé permettant d’agrandir l’image. 
 
 ## Numérisation {#numérisation}
 
@@ -58,7 +55,7 @@ Pour plus d'informations sur type de documents (https://boite-outils.bib.umontre
 	Output : Black and White (Fine Mode 2)
 	Brightness : 10 
 	Contrast : 8 
-   - Cliquer sur Scan pour démarrer la numérisation  
+   - Cliquer sur **Scan** pour démarrer la numérisation  
 
   </TabItem>
 
@@ -78,10 +75,10 @@ Pour plus d'informations sur type de documents (https://boite-outils.bib.umontre
    - S’assurer que le **bouton d’alimentation**, situé en bas à l’arrière de l’appareil, est en position de marche.  
 3. Numérisation
    - Ouvrir le logiciel **PowerScan 2200**.  
-   - Choisir le **type de document** à l'écran dans « l' Assistant de la sélection du film
+   - Choisir le type de document à l'écran dans l' **Assistant de la sélection du film**
 	microfilm 16 mm ou 35 mm
 	microfiche négative ou positive 
-4. Mode de fonctionnement pour les microfiches
+4. Mode de fonctionnement pour les **microfiches**
    - Suivre l'indication à l'écran pour l'installation d'une microfiche négative 7 x 14 .
    - Toutes les autres microfiches s'installent face sur la vitre, le haut du texte vers le fond de l'appareil.
    - Cliquer sur le bouton LOAD en bas à gauche
@@ -94,7 +91,7 @@ Pour plus d'informations sur type de documents (https://boite-outils.bib.umontre
      déplacer manuellement le plateau
    - Au besoin, cliquer sur le bouton Fill to Width dans l'onglet DÉMARRER pour agrandir le texte à l'écran ou sur le bouton Ajustement automatique dans l'onglet AJUSTER pour ajuster le contraste, la luminosité, etc. Plus d'options sont disponibles dans l'onglet AJUSTER
    - Cliquer sur le bouton Eject en bas à gauche de l'écran pour changer de microfiche.
-5. Mode de fonctionnement pour les microfilms
+5. Mode de fonctionnement pour les **microfilms**
    - Suivre l'indication à l'écran pour l'installation d'un microfilm 16 ou 35 mm.
    - Si le texte/l'image est inversé à l'écran, réinstaller la bobine de manière à ce que le film arrive du côté gauche de la bobine.
    - Au besoin, utiliser le bouton Type de film dans l'onglet AJUSTER pour passer du mode positif au mode négatif, et vice-versa.
@@ -107,10 +104,10 @@ Pour plus d'informations sur type de documents (https://boite-outils.bib.umontre
    - Au besoin, cliquer sur le bouton Fill to Width dans l'onglet DÉMARRER pour agrandir le texte à l'écran ou sur le bouton Ajustement automatique dans l'onglet AJUSTER pour ajuster le contraste, la luminosité, etc. Plus d'options sont disponibles dans l'onglet AJUSTER 
 6. Numériser, sauvegarder ou imprimer
    - Pour sauvegarder l’ensemble des diapositives, se positionner à la première diapositive et aller dans le menu Sauvegarde, cliquer sur le bouton **Auto Scan Pro**, puis choisir l’emplacement pour l’enregistrement dams la case **Chemin**. Cocher la case « Straighten/Crop », Choisir PDF/A (w/OCR) [Multipage] dans le champ « Type de ». Cliquer sur **Démarrer**
-   - Pour Sauvegarder une ou plusieurs diapositives, définir la page ou la zone à numériser à l'aide du cadre vert de sélection pointillé, aller à l'onglet SAUVEGARDE, cliquer sur le bouton Numériser vers le disque #1. Il est recommandé    d'enregistrer le fichier sur Mes documents et de choisir 300 dpi et Type de numérisation 1/Amélioration de gris. Sélectionner le type de fichier PDF w/OCR (multi-page) afin de numériser plusieurs pages en les choisissant une à une et en faisant Add Scan entre chacune, de manière à obtenir un seul fichier.
+   - Pour Sauvegarder une ou plusieurs diapositives, définir la page ou la zone à numériser à l'aide du cadre vert de sélection pointillé, aller à l'onglet **SAUVEGARDE**, cliquer sur le bouton **Numériser vers le disque #1**. Il est recommandé d'enregistrer le fichier sur Mes documents et de choisir 300 dpi et Type de numérisation 1/Amélioration de gris. Sélectionner le type de fichier PDF w/OCR (multi-page) afin de numériser plusieurs pages en les choisissant une à une et en faisant Add Scan entre chacune, de manière à obtenir un seul fichier.
 
 Bon à savoir pour les JOURNAUX
-   - Utiliser le bouton SpotEdit pour ajuster/modifier/masquer une zone spécifique de la page.
+   - Utiliser le bouton **SpotEdit** pour ajuster/modifier/masquer une zone spécifique de la page.
    - Le cadre vert de sélection pointillé peut être recadré pour faire une forme irrégulière : sur un des coins du cadre, maintenir un clic droit de souris et glisser pour créer une forme irrégulière.
 
 
