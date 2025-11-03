@@ -94,8 +94,10 @@ const sidebars = {
           items: [
             "informatique/vinyle",
             "informatique/czur",
+            "informatique/microdocuments",
             "informatique/ocr",
             "informatique/numerisation-pdf-acrobat",
+            
           ],
         },
         'informatique/ordinateurs',
