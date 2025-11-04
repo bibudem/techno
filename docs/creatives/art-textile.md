@@ -55,15 +55,6 @@ Cette section est destinée à vous aider à mieux comprendre l'utilisation de l
     },  
   ]}
 />
-<!--  
-
-     {
-      title: "Transformer un modèle (complexe) avec Inkscape",
-      description: `
-      Du format PNG vers une broderie pour des finitions plus soignées.`,
-      link: "à insérer",
-      icon: "",
-      }, -->
 
 ## Soutien
 
