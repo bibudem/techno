@@ -64,3 +64,15 @@ Cette section est destinée à vous aider à mieux comprendre l'utilisation de l
       link: "à insérer",
       icon: "",
       }, -->
+
+## Soutien
+
+Si vous débutez, on est là pour vous aider à réaliser vos projets !
+
+<CardGrid
+  items={[
+    {
+      title: "Réservez une consultation",
+      description: "Avant votre première visite, on vous invite à réserver une rencontre avec un membre de notre équipe. C’est l’occasion de poser vos questions et de bien planifier votre projet.",
+      link: "https://outlook.office.com/book/studiobib@umontreal.ca/s/bYuH2h_pXkiC4PjEfUD6Cg2?ismsaljsauthenabled",
+    },
