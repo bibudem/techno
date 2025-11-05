@@ -14,7 +14,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 
 - Avoir ses [informations d'authentification](../authentification).
 - Avoir une version à jour de [Microsoft Office 365](office).
-- Important : avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé.
+- Important : **avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé**.
 - S’assurer d’avoir la bonne heure, date et fuseau horaire.
 - Ne **pas** utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un).
 - Ne pas changer le dossier d’installation par défaut.
@@ -79,16 +79,17 @@ Cliquer sur le **menu Pomme** → **Préférences Système** (ou **Réglages sys
 <Tabs groupId="os-tabs">
 <TabItem value="windows" label="Windows">
 
-
 1. Ouvrir EndNote.
 2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 2025** → ***Check for Updates***
+3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu *Help*** → ***Check for updates***
+
 </TabItem>
 <TabItem value="macos" label="macOS">
 
 1. Ouvrir EndNote.
 2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu *Help*** → ***Check for updates***
+3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 2025** → ***Check for Updates***
+
 </TabItem>
 </Tabs>
 
@@ -141,4 +142,12 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 
 ## Astuces
 
+- [Procédure pour installer les styles bibliographiques modifiés pour les besoins de la communauté de l’UdeM (APA7th-fr-UdeM, Vancouver-fr-UdeM, etc.)](https://boite-outils.bib.umontreal.ca/c.php?g=730826&p=5339019)
 - [Procédure en cas d'absence de la barre d’outils EndNote dans Word.](/pdf/ENL3-barre-outils-word.pdf)
+- [Procédure en cas de fenêtre mauve sous macOS.](https://support.clarivate.com/Endnote/s/article/EndNote-Purple-window-on-a-Mac-OS?language=en_US)
+- [Procédure en cas de message d'erreur avec la fonction **Find Full Text**.](https://studio.bib.umontreal.ca/informatique/vpn)
+
+## Pour aller plus loin
+
+- [Débuter avec EndNote.](https://boite-outils.bib.umontreal.ca/c.php?g=730826&p=5246905)
+- [F.A.Q EndNote.](https://boite-outils.bib.umontreal.ca/c.php?g=730826&p=5404154)
