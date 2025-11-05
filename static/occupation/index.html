@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Occupation des bibliothèques en temps réel</title>
+
+  <!-- Fonts et styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/occupation/css/style.css" />
+
+  <!-- Couleur du thème pour appareils mobiles -->
+  <meta name="theme-color" content="#0057ac" />
+</head>
+
+<body>
+  <main id="app">
+    <header>
+      <img src="/occupation/images/logobib.svg" alt="logo Bibliothèques UdeM" class="logo" />
+      <h1>Occupation des bibliothèques</h1>
+      <h2>Suivi en temps réel</h2><p class="datetime"></p>
+    </header>
+
+    <section id="libraries" class="libraries"></section>
+
+    <footer>
+      <p>Actualisation automatique toutes les 30&nbsp;secondes</p>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/min/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/locale/fr.min.js"></script>
+  <script src="/occupation/js/occupation.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* --- Structure globale --- */
+body {
+  margin: 0;
+  padding: 60px 100px;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f8fb;
+  color: #001a33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* --- Animations --- */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+h1 {
+  color: #0057ac;
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.datetime {
+  color: #0057ac;
+  font-size: 1.4rem;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* --- Conteneur principal --- */
+#libraries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  width: 100%;
+  max-width: 1400px;
+  transition: all 0.5s ease;
+}
+
+/* --- Carte bibliothèque --- */
+.library {
+  background: white;
+  border-left: 10px solid #0057ac;
+  border-radius: 12px;
+  padding: 28px 32px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease, border-color 0.4s ease;
+}
+
+.library:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  border-color: #0072d0;
+}
+
+/* --- Titre et sous-titre --- */
+.library h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: #001a33;
+}
+
+.library small {
+  color: #557;
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+
+/* --- Statut d’occupation --- */
+.status {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 6px 14px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: white;
+  align-self: flex-start;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Couleurs d’état */
+.status.faible {
+  background-color: #2ecc71; /* vert */
+}
+.status.moyen {
+  background-color: #f1c40f; /* jaune */
+  color: #001a33;
+}
+.status.eleve {
+  background-color: #e74c3c; /* rouge */
+}
+.status.ferme {
+  background-color: #999;
+}
+
+/* --- Texte de capacité --- */
+.library p {
+  margin-top: 14px;
+  font-size: 1.4rem;
+  color: #0057ac;
+  font-weight: 500;
+  transition: color 0.4s ease;
+}
+
+/* --- Layout global --- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+header .logo {
+  width: 600px;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  color: #0057ac;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+}
+
+header .datetime {
+  color: #0057ac;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+footer {
+  margin-top: 60px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* --- Responsive --- */
+@media (max-width: 1200px) {
+  #libraries {
+    grid-template-columns: 1fr;
+  }
+}
