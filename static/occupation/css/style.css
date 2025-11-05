@@ -10,11 +10,10 @@ html, body {
   background: radial-gradient(circle at 50% 20%, #003a6b, #00152d 80%);
   color: #e6eef7;
   font-family: "Inter", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   transform-origin: top left;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✅ centrage global */
 }
 
 /* Mise à l’échelle automatique */
@@ -24,22 +23,31 @@ html, body {
   }
 }
 
+/* ===== Conteneur principal ===== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* ✅ centrage vertical parfait */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
 /* ===== En-tête ===== */
 header {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 header .logo {
-  width: 400px;
-  margin-bottom: 28px;
+  width: 380px;
+  margin-bottom: 20px;
   filter: drop-shadow(0 0 10px rgba(0, 150, 255, 0.4));
 }
 
 header h1 {
   color: #ffffff;
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -49,21 +57,22 @@ header h1 {
 
 header .datetime {
   color: #9dcaff;
-  font-size: 1.8rem;
-  margin-top: 0.8rem;
+  font-size: 1.7rem;
+  margin-top: 0.6rem;
 }
 
-/* ===== Conteneur principal ===== */
+/* ===== Grille des bibliothèques ===== */
 #libraries {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  width: 90%;
+  gap: 50px;
+  width: 85%;
   max-width: 1800px;
-  flex: 1;
-  align-content: start;
-  opacity: 1;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
   transition: opacity 0.6s ease;
+  flex: 1;
 }
 
 /* ===== Carte bibliothèque ===== */
@@ -73,19 +82,21 @@ header .datetime {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-left: 10px solid #5fb3ff;
   border-radius: 20px;
-  padding: 42px;
+  padding: 40px;
+  width: 95%;
+  max-width: 800px;
+  height: 500px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
-  transition: all 0.4s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 520px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  transition: all 0.4s ease;
 }
 
-/* Lueur subtile d'ambiance autour des cartes */
+/* Effet de halo */
 .library::before {
   content: "";
   position: absolute;
@@ -103,19 +114,19 @@ header .datetime {
   box-shadow: 0 0 40px rgba(0, 140, 255, 0.25);
 }
 
-/* ===== Titres et sous-titres ===== */
+/* ===== Titres ===== */
 .library h2 {
   margin: 0 0 10px 0;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   color: #ffffff;
   text-shadow: 0 0 10px rgba(0, 150, 255, 0.25);
 }
 
 .library small {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #a7b9d6;
-  margin-bottom: 28px;
+  margin-bottom: 25px;
   display: block;
 }
 
@@ -133,7 +144,7 @@ header .datetime {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Couleurs d’état futuristes */
+/* Couleurs */
 .status.faible {
   background: linear-gradient(135deg, #00d27f, #009f5c);
   box-shadow: 0 0 20px rgba(0, 210, 127, 0.4);
@@ -160,8 +171,23 @@ header .datetime {
 /* ===== Pied de page ===== */
 footer {
   text-align: center;
-  margin: 28px 0;
   color: #9dcaff;
   font-size: 1.3rem;
   letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+/* ===== Animation d’apparition ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+main, header, #libraries, footer {
+  animation: fadeInUp 1.2s ease forwards;
 }
