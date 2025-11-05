@@ -1,175 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-/* --- Structure globale --- */
-body {
+/* ===== Écran fixe 2160x3840 ===== */
+html, body {
   margin: 0;
-  padding: 60px 100px;
+  padding: 0;
+  width: 2160px;
+  height: 3840px;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 20%, #003a6b, #00152d 80%);
+  color: #e6eef7;
   font-family: "Inter", sans-serif;
-  background-color: #f4f8fb;
-  color: #001a33;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;
-  overflow-x: hidden;
+  transform-origin: top left;
 }
 
-/* --- Animations --- */
-.fade-enter {
-  opacity: 0;
-  transform: translateY(10px);
-}
-.fade-enter-active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+/* Mise à l’échelle automatique */
+@media screen {
+  html, body {
+    transform: scale(calc(min(100vw / 2160, 100vh / 3840)));
+  }
 }
 
-.fade-exit {
-  opacity: 1;
-}
-.fade-exit-active {
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-h1 {
-  color: #0057ac;
-  font-weight: 700;
-  font-size: 3.2rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.datetime {
-  color: #0057ac;
-  font-size: 1.4rem;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-/* --- Conteneur principal --- */
-#libraries {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-  width: 100%;
-  max-width: 1400px;
-  transition: all 0.5s ease;
-}
-
-/* --- Carte bibliothèque --- */
-.library {
-  background: white;
-  border-left: 10px solid #0057ac;
-  border-radius: 12px;
-  padding: 28px 32px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease, border-color 0.4s ease;
-}
-
-.library:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
-  border-color: #0072d0;
-}
-
-/* --- Titre et sous-titre --- */
-.library h2 {
-  margin: 0 0 6px 0;
-  font-size: 2rem;
-  color: #001a33;
-}
-
-.library small {
-  color: #557;
-  font-size: 0.9rem;
-  margin-bottom: 14px;
-}
-
-/* --- Statut d’occupation --- */
-.status {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 1.3rem;
-  padding: 6px 14px;
-  border-radius: 8px;
-  text-transform: uppercase;
-  color: white;
-  align-self: flex-start;
-  transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-/* Couleurs d’état */
-.status.faible {
-  background-color: #2ecc71; /* vert */
-}
-.status.moyen {
-  background-color: #f1c40f; /* jaune */
-  color: #001a33;
-}
-.status.eleve {
-  background-color: #e74c3c; /* rouge */
-}
-.status.ferme {
-  background-color: #999;
-}
-
-/* --- Texte de capacité --- */
-.library p {
-  margin-top: 14px;
-  font-size: 1.4rem;
-  color: #0057ac;
-  font-weight: 500;
-  transition: color 0.4s ease;
-}
-
-/* --- Layout global --- */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  padding: 60px 0;
-}
-
+/* ===== En-tête ===== */
 header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 header .logo {
-  width: 600px;
-  margin-bottom: 24px;
+  width: 400px;
+  margin-bottom: 28px;
+  filter: drop-shadow(0 0 10px rgba(0, 150, 255, 0.4));
 }
 
 header h1 {
-  color: #0057ac;
+  color: #ffffff;
+  font-size: 3.8rem;
   font-weight: 700;
-  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   margin: 0;
+  text-shadow: 0 0 12px rgba(0, 140, 255, 0.4);
 }
 
 header .datetime {
-  color: #0057ac;
-  font-size: 1.4rem;
-  margin-top: 0.5rem;
+  color: #9dcaff;
+  font-size: 1.8rem;
+  margin-top: 0.8rem;
 }
 
+/* ===== Conteneur principal ===== */
+#libraries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  width: 90%;
+  max-width: 1800px;
+  flex: 1;
+  align-content: start;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+/* ===== Carte bibliothèque ===== */
+.library {
+  background: rgba(10, 25, 55, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 10px solid #5fb3ff;
+  border-radius: 20px;
+  padding: 42px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 520px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Lueur subtile d'ambiance autour des cartes */
+.library::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 150, 255, 0.08), transparent 80%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.library:hover::before {
+  opacity: 1;
+}
+
+.library:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 40px rgba(0, 140, 255, 0.25);
+}
+
+/* ===== Titres et sous-titres ===== */
+.library h2 {
+  margin: 0 0 10px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 150, 255, 0.25);
+}
+
+.library small {
+  font-size: 1.2rem;
+  color: #a7b9d6;
+  margin-bottom: 28px;
+  display: block;
+}
+
+/* ===== Statut ===== */
+.status {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.9rem;
+  padding: 14px 28px;
+  border-radius: 12px;
+  color: white;
+  text-transform: uppercase;
+  align-self: center;
+  letter-spacing: 1px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Couleurs d’état futuristes */
+.status.faible {
+  background: linear-gradient(135deg, #00d27f, #009f5c);
+  box-shadow: 0 0 20px rgba(0, 210, 127, 0.4);
+}
+.status.moyen {
+  background: linear-gradient(135deg, #ffdd00, #e6b800);
+  color: #001a33;
+  box-shadow: 0 0 20px rgba(255, 221, 0, 0.4);
+}
+.status.eleve {
+  background: linear-gradient(135deg, #ff4d4d, #c82333);
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.4);
+}
+.status.ferme {
+  background: linear-gradient(135deg, #666, #444);
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.3);
+}
+
+.status:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 28px rgba(255, 255, 255, 0.4);
+}
+
+/* ===== Pied de page ===== */
 footer {
-  margin-top: 60px;
-  color: #777;
-  font-size: 0.9rem;
-}
-
-/* --- Responsive --- */
-@media (max-width: 1200px) {
-  #libraries {
-    grid-template-columns: 1fr;
-  }
+  text-align: center;
+  margin: 28px 0;
+  color: #9dcaff;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
 }
