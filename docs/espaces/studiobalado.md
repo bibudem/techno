@@ -35,12 +35,6 @@ Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](h
   Obtenir du soutien
 </Link>
 
-:::danger Accès réservé à la communauté UdeM
-Les studios sont **réservés à la communauté de l’Université de Montréal**.
-
-Nous ne pouvons malheureusement pas accepter de réservations provenant de l’externe. Merci de votre compréhension!
-:::
-
 ---
 
 ## Présentation en vidéo
@@ -106,6 +100,12 @@ import StudioCard from '@site/src/components/StudioCard';
 ---
 
 Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
+
+:::danger Accès réservé à la communauté UdeM
+Les studios sont **réservés à la communauté de l’Université de Montréal**.
+
+Nous ne pouvons malheureusement pas accepter de réservations provenant de l’externe. Merci de votre compréhension!
+:::
 
 ---
 

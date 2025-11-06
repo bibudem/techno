@@ -28,12 +28,6 @@ Le studio a été modernisé, avec l’ajout de caméras, d’un nouvel éclaira
 [Découvrez la nouvelle page Studio balado vidéo](/espaces/studiobalado).
 :::
 
-:::danger Accès réservé à la communauté UdeM
-Les studios sont **réservés à la communauté de l’Université de Montréal**.
-
-Nous ne pouvons malheureusement pas accepter de réservations provenant de l’externe. Merci de votre compréhension!
-:::
-
 Les studios d'enregistrement audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
 
 
@@ -107,6 +101,13 @@ Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez 
 ---
 
 Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
+
+:::danger Accès réservé à la communauté UdeM
+Les studios sont **réservés à la communauté de l’Université de Montréal**.
+
+Nous ne pouvons malheureusement pas accepter de réservations provenant de l’externe. Merci de votre compréhension!
+:::
+
 
 ---
 
