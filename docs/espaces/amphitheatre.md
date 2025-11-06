@@ -6,7 +6,7 @@ image: "/img/cover/amphi.webp"
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Pano360 from '@site/src/components/Pano360';
-
+ 
 <img 
   src={useBaseUrl(frontMatter.image)} 
   alt={frontMatter.title} 
