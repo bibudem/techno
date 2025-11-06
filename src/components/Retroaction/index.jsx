@@ -11,6 +11,7 @@ const Retroaction = () => {
   const voteFieldId = 1582731;
   const commentFieldId = 1582733;
   const apiBase = 'https://umontreal.libwizard.com/api/v1/submission';
+  const webhookUrl = 'https://ordo.bib.umontreal.ca/webhook/retroaction-studio-site';
 
   const submitVote = async (voteValue, commentValue = '') => {
     setStatus('submitting');
@@ -50,11 +51,19 @@ const Retroaction = () => {
         arrive: new Date().toISOString().substring(0, 19).replace('T', ' ')
       };
 
+      // 1. Envoi principal vers LibWizard
       await fetch(`${apiBase}/insertSubmission`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
+
+      // 2. Envoi parallèle vers ton webhook n8n
+      fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).catch(err => console.error('Erreur webhook n8n :', err));
 
       setStatus('submitted');
     } catch (error) {
@@ -93,7 +102,7 @@ const Retroaction = () => {
         }}
       >
         <p style={{ margin: 0 }}>
-        Merci pour votre retour. Chaque avis nous aide à rendre ce site web meilleur. 
+          Merci pour votre retour. Chaque avis nous aide à rendre ce site web meilleur.
         </p>
       </div>
     );
@@ -109,7 +118,7 @@ const Retroaction = () => {
 
   return (
     <form onSubmit={handleFormSubmit} className={styles.wrapper}>
-      <p>L’information sur cette page vous a-t-elle été utile ?</p>
+      <p>L’information sur cette page vous a-t-elle été utile ?</p>
 
       <div className={styles.buttons}>
         <button
@@ -128,20 +137,16 @@ const Retroaction = () => {
         >
           <ThumbsDown size={20} /> Non
         </button>
-
-        {/* <a href="/signaler-un-probleme" className={styles.link}>
-          Signaler un problème
-        </a> */}
       </div>
 
       {vote === 'non' && (
         <>
-        <div style={{ marginTop: '1rem' }}>
-      <strong>Faites-nous part de vos commentaires.</strong><br />
-      <span style={{ fontSize: '0.9rem' }}>
-        Merci de ne pas inclure de renseignements personnels. Vous ne recevrez pas de réponse, mais vos commentaires seront pris en compte.
-      </span>
-    </div>
+          <div style={{ marginTop: '1rem' }}>
+            <strong>Faites-nous part de vos commentaires.</strong><br />
+            <span style={{ fontSize: '0.9rem' }}>
+              Merci de ne pas inclure de renseignements personnels. Vous ne recevrez pas de réponse, mais vos commentaires seront pris en compte.
+            </span>
+          </div>
           <textarea
             className={styles.textarea}
             value={comment}
