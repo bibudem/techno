@@ -6,32 +6,32 @@ html, body {
   padding: 0;
   width: 2160px;
   height: 3840px;
-  overflow: hidden;
-  background: linear-gradient(180deg, #00284a, #001529);
-  color: #e6eef7;
+  background: #001529; /* Fond futuriste stable et ultra compatible */
   font-family: "Inter", sans-serif;
-  transform-origin: top left;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Mise à l’échelle automatique */
+/* Mise à l’échelle auto — ATTENTION : le Pi déteste parfois transform */
 @media screen {
   html, body {
+    transform-origin: top left;
     transform: scale(calc(min(100vw / 2160, 100vh / 3840)));
   }
 }
 
 /* ===== Conteneur principal ===== */
 main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-  text-align: center;
 }
 
 /* ===== En-tête ===== */
@@ -41,98 +41,78 @@ header {
 
 header .logo {
   width: 360px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 header h1 {
-  color: #ffffff;
   font-size: 3.4rem;
   font-weight: 700;
-  letter-spacing: 1.8px;
-  text-transform: uppercase;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 header .datetime {
-  color: #87b7e6;
+  margin-top: 10px;
   font-size: 1.6rem;
-  margin-top: 0.5rem;
+  color: #a6c9ff;
 }
 
-/* ===== Grille des bibliothèques ===== */
+/* ===== Grille ===== */
 #libraries {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 48px;
-  width: 85%;
+  gap: 45px;
+  width: 88%;
   max-width: 1800px;
-  justify-items: center;
   align-items: center;
-  align-content: center;
+  justify-items: center;
+  flex: 1;
 }
 
-/* ===== Carte bibliothèque ===== */
+/* ===== Carte ===== */
 .library {
-  background: rgba(0, 30, 55, 0.85);
-  border: 1px solid rgba(100, 150, 200, 0.15);
-  border-left: 12px solid #5fb3ff;
-  
-  border-radius: 18px;
-  padding: 40px;
-  width: 95%;
+  background: #002241; /* bleu sombre futuriste */
+  border-left: 10px solid #5fb3ff;
+  border-radius: 16px;
+  padding: 38px;
+  width: 92%;
   max-width: 780px;
   height: 480px;
-
-  /* ✅ légère ombre (compatible Raspberry Pi) */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-}
 
-/* Petit halo statique (pas d'animation) */
-.library::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at top left, rgba(0,140,255,0.08), transparent 70%);
-  opacity: 1;
-  pointer-events: none;
+  /* ✅ Pas d’animations, pas d’ombres (Raspberry-friendly) */
 }
 
 /* ===== Titres ===== */
 .library h2 {
-  margin: 0 0 12px 0;
-  font-size: 2.3rem;
-  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 14px;
   color: #ffffff;
-  letter-spacing: 1px;
 }
 
 .library small {
   font-size: 1.1rem;
-  color: #a7b9d6;
-  margin-bottom: 22px;
+  color: #c6d8ea;
+  margin-bottom: 26px;
   display: block;
 }
 
 /* ===== Statut ===== */
 .status {
   display: inline-block;
-  font-weight: 600;
-  font-size: 1.8rem;
   padding: 14px 26px;
-  border-radius: 12px;
-  color: white;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-/* Couleurs légèrement futuristes */
+/* Couleurs compatibles & futuristes */
 .status.faible {
   background: #00b96c;
 }
@@ -144,14 +124,12 @@ header .datetime {
   background: #ff4d4d;
 }
 .status.ferme {
-  background: #666;
+  background: #777;
 }
 
-/* ===== Pied de page ===== */
+/* ===== Pied ===== */
 footer {
-  text-align: center;
-  color: #87b7e6;
-  font-size: 1.3rem;
-  letter-spacing: 1px;
   margin-top: 40px;
+  color: #8ebbe6;
+  font-size: 1.3rem;
 }
