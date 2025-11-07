@@ -93,11 +93,14 @@ function isClosed(ev) {
   if (!ev) return false;
   const now = moment();
   const day = moment(ev.date);
+
   if (ev.debut1 === '' && ev.fin2 === '') return true;
+
   const open = now.isBetween(
     day.clone().add(moment.duration(ev.debut1)),
     day.clone().add(moment.duration(ev.debut2 || ev.fin2))
   );
+
   return !open;
 }
 
@@ -106,25 +109,6 @@ function getStatus(n, closed) {
   if (n < 80) return { cls: 'faible', msg: 'Places disponibles' };
   if (n < 99) return { cls: 'moyen', msg: 'Quelques places restantes' };
   return { cls: 'eleve', msg: 'Complet' };
-}
-
-// --- Animation douce (fade in/out) ---
-async function smoothReplace(contentFn) {
-  const container = document.getElementById('libraries');
-
-  // Fade out
-  container.style.transition = 'opacity 0.4s ease';
-  container.style.opacity = '0';
-  await new Promise(r => setTimeout(r, 400));
-
-  // Replace content
-  container.innerHTML = '';
-  await contentFn();
-
-  // Fade in
-  container.style.transition = 'opacity 0.6s ease';
-  container.style.opacity = '1';
-  await new Promise(r => setTimeout(r, 600));
 }
 
 // --- Récupération des données ---
@@ -136,14 +120,15 @@ async function fetchLibraryData(lib) {
     ]);
 
     if (!occupRes.ok) throw new Error("Erreur d'accès aux données Axper");
-    const data = await occupRes.json();
 
+    const data = await occupRes.json();
     const occupancy = data.occupancyValue || 0;
     const percent = Math.round((occupancy / lib.capacity) * 100);
     const closed = isClosed(event);
     const status = getStatus(percent, closed);
 
     return { ...lib, status };
+
   } catch (err) {
     console.warn("Erreur pour", lib.name, err);
     return {
@@ -153,28 +138,29 @@ async function fetchLibraryData(lib) {
   }
 }
 
-// --- Affichage principal ---
+// --- Affichage principal (direct, sans animations) ---
 async function display() {
   const now = moment().format('dddd D MMMM YYYY, HH:mm');
   document.querySelector('.datetime').textContent = now;
 
-  await smoothReplace(async () => {
-    const container = document.getElementById('libraries');
-    const results = await Promise.all(LIBRARIES.map(fetchLibraryData));
+  const container = document.getElementById('libraries');
 
-    // 🔠 Tri alphabétique par nom
-    results.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
+  container.innerHTML = ''; // on efface directement
 
-    results.forEach(lib => {
-      const div = document.createElement('div');
-      div.className = 'library';
-      div.innerHTML = `
-        <h2>${lib.name}</h2>
-        <small>${lib.address}</small>
-        <div class="status ${lib.status.cls}">${lib.status.msg}</div>
-      `;
-      container.appendChild(div);
-    });
+  const results = await Promise.all(LIBRARIES.map(fetchLibraryData));
+
+  // Tri alphabétique
+  results.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
+
+  results.forEach(lib => {
+    const div = document.createElement('div');
+    div.className = 'library';
+    div.innerHTML = `
+      <h2>${lib.name}</h2>
+      <small>${lib.address}</small>
+      <div class="status ${lib.status.cls}">${lib.status.msg}</div>
+    `;
+    container.appendChild(div);
   });
 }
 
