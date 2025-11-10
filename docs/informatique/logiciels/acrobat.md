@@ -15,6 +15,7 @@ Le logiciel **Adobe Acrobat Pro** est un logiciel qui permet de créer, modifier
 - [Conversion de thèse et mémoire en format PDF pour dépôt électronique sur Papyrus](https://boite-outils.bib.umontreal.ca/recherche/deposer-these-memoire)
 - [Créer le PDF avec Word (méthode recommandée)](https://studio.bib.umontreal.ca/pdf/PDF11-theses-memoires-encapsuler-avec-word-pc.pdf)
 - [Créer le PDF avec Adobe Acrobat Pro (méthode alternative)](https://studio.bib.umontreal.ca/pdf/PDF15-theses-memoires-encapsuler-avec-acrobat-pro.pdf)
+- [Rédiger un mémoire ou une thèse - **Modèle général de mémoire et thèse** ](https://boite-outils.bib.umontreal.ca/c.php?g=727254)
 - [Déposer un mémoire ou une thèse](https://boite-outils.bib.umontreal.ca/recherche/deposer-these-memoire)
 
 ## Autres
