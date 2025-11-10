@@ -68,6 +68,13 @@ Vérifier que pour chaque objet la surface la plus plate est en contact avec la 
 
 ![](/img/docs/configurer_bambu_studio_16.webp)
 
+
+### Vérifier les dimensions de l'objet
+
+Vérifier que les dimensions de l'objet correspondent bien à la taille de l'objet souhaité. Sélectionner votre objet → Cliquer sur **Redimesionner** (1) → Vérifier sa taille (2)
+
+![](/img/docs/bambulab_taille_objet.jpg)
+
 ### Supports
 
 Si la surface de contact entre notre plaque et notre objet est insuffisante pour garantir notre impression, lorsqu’on clique sur **Trancher le plateau** un message d’erreur indique alors que l’objet semble avoir une partie dans le vide et qu’il faut le réorienter ou ajouter des supports.
