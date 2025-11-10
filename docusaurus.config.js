@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import remarkInsertHelp from './src/utils/remark-insert-help.js';
+import { themes as prismThemes } from 'prism-react-renderer'
+import remarkInsertHelp from './src/utils/remark-insert-help.js'
 
 
 /** @type {import('@docusaurus/types').Config} */
@@ -8,7 +8,7 @@ const config = {
   title: 'studio·bib',
   tagline: '',
   favicon: 'img/favicon.svg',
-  
+
 
   url: 'https://studio.bib.umontreal.ca',
   baseUrl: '/',
@@ -24,13 +24,13 @@ const config = {
     locales: ['fr'],
   },
 
-themes: [
+  themes: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: false,
         language: ['fr'],
-        docsRouteBasePath: '/',          
+        docsRouteBasePath: '/',
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
         indexDocs: true,
@@ -71,6 +71,13 @@ themes: [
     ],
   ],
 
+  scripts: [
+    {
+      src: 'https://corvee.bib.umontreal.ca/loader.js',
+      defer: true,
+      type: 'module'
+    }
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -79,7 +86,7 @@ themes: [
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: '/img/miniature.jpg' },
         { property: 'og:image', content: '/img/miniature.jpg' },
-    ],
+      ],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
@@ -101,11 +108,11 @@ themes: [
           { type: 'docSidebar', sidebarId: 'creativesSidebar', position: 'left', label: 'Technologies créatives' },
           { type: 'docSidebar', sidebarId: 'mediasSidebar', position: 'left', label: 'Productions médias' },
           // { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
-          { 
-    to: '/a-propos/nous-joindre', 
-    label: 'Nous joindre', 
-    position: 'left' 
-  },
+          {
+            to: '/a-propos/nous-joindre',
+            label: 'Nous joindre',
+            position: 'left'
+          },
           // {
           //   to: 'https://bib.umontreal.ca',
           //   label: 'bib.umontreal.ca',
@@ -120,6 +127,6 @@ themes: [
         darkTheme: prismThemes.dracula,
       },
     }),
-};
+}
 
-export default config;
+export default config
