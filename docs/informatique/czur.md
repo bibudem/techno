@@ -50,7 +50,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
    - Lorsque terminé, cliquer **En arrière** (en haut à gauche).  
 4. Éditer et sauvegarder
    - Cliquer le bouton pour **sélectionner toutes les images**.  
-   - Cliquer le bouton `OCR` .  
+   - Cliquer `PDF permettant rech.` .  
        - **Optionnel :** utilisez les fonctions intégrées pour :
            - Rogner automatiquement les bords  
            - Aplatir les courbures d’un livre  
