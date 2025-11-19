@@ -66,6 +66,29 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   5. Cliquer **Installer des Applis** puis **Applications Microsoft 365** et ouvrir le fichier téléchargé pour démarrer l’installation.
 
   </TabItem>
+
+  <TabItem value="iOS" label="iOS">
+  **Prérequis** : iOS 18 et ultérieur
+
+  **Applications à télécharger individuellement** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
+
+  1. Dans le menu des applications, sélectionner App Store
+  2. Cliquer Rechercher *(Word, Excel,PowerPoint, Outlook, OneDrive, Teams, etc)*
+  3. Télécharger les applications individuellement
+
+  </TabItem>
+  
+  <TabItem value="Android" label="Android">
+  **Prérequis** : Android 12 ou ultérieur
+
+  **Applications à télécharger individuellement** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
+
+  1. Dans le menu des applications, sélectionner Play Store
+  2. Cliquer Rechercher *(Word, Excel,PowerPoint, Outlook, OneDrive, Teams, etc)*
+  3. Télécharger les applications individuellement
+
+  </TabItem>
+
 </Tabs>
 
 ---
