@@ -73,8 +73,8 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   **Applications à télécharger individuellement** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
 
   1. Dans le menu des applications, sélectionner App Store
-  2. Cliquer Rechercher *(Word, Excel,PowerPoint, Outlook, OneDrive, Teams, etc)*
-  3. Télécharger les applications individuellement
+  2. Cliquer Rechercher *(Word, Excel, PowerPoint, Outlook, OneDrive, Teams, etc)*
+  3. Télécharger les applications nécessaires
 
   </TabItem>
   
@@ -84,8 +84,8 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   **Applications à télécharger individuellement** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
 
   1. Dans le menu des applications, sélectionner Play Store
-  2. Cliquer Rechercher *(Word, Excel,PowerPoint, Outlook, OneDrive, Teams, etc)*
-  3. Télécharger les applications individuellement
+  2. Cliquer Rechercher *(Word, Excel, PowerPoint, Outlook, OneDrive, Teams, etc)*
+  3. Télécharger les applications nécessaires
 
   </TabItem>
 
