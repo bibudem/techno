@@ -10,7 +10,8 @@ import TabItem from '@theme/TabItem';
 
 # Office 365
 
-La suite **Microsoft Office 365** est offerte gratuitement à toute la communauté **UdeM** sur un maximum de **15 appareils personnels**.  
+La suite **Microsoft Office 365** est offerte gratuitement à toute la communauté **UdeM** sur un maximum de **15 appareils personnels** (5 ordinateurs Windows ou Mac, 5 tablettes et 5 téléphones intelligents).
+
 L'offre comprend les services en ligne et logiciels suivants :
 
 - **Courriel institutionnel** `@umontreal.ca`
