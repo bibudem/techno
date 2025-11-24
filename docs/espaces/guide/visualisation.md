@@ -7,7 +7,7 @@ breadcrumbs: true
 
 Le laboratoire de visualisation offre un environnement propice pour interagir avec des données visuelles. Le mur vidéo est composé de 27 écrans tactiles qui projettent le contenu du poste maître, ainsi que de 5 haut-parleurs. Le laboratoire permet également de connecter 3 périphériques externes.
 
-La résolution totale des 27 écrans est de 11580x2160 pixels.
+La résolution totale des 27 écrans est de 11520x2160 pixels.
 
 Chaque ensemble de 9 écrans fait 3840x2160 pixels (UHD).
 
