@@ -23,83 +23,33 @@ Tout d’abord, il faut choisir une image! Dans ce guide l’image source provie
 
 ### 3. Créer un nouveau projet
 
-3.1. Pour débuter un nouveau projet, cliquer sur le menu **Nouveau projet** en haut à gauche de l’écran.
+3.1. Pour débuter un nouveau projet, cliquer sur le menu **Nouveau projet** en haut à gauche de l’écran, et choisissez **Toile vierge**.
 
-![Untitled](/img/docs/cricut3.webp)
-
-3.2. Sélectionner **Toile personnalisable.**    
-
-![Untitled](/img/docs/cricut4.webp)
+![Untitled](/img/docs/cricut3.jpg)
 
 ### 4. Importation de l’image-source
 
-4.1. Une fois votre choix d’image fait, cliquer sur l’option **Télécharger** afin de pouvoir l’importer sur la toile.
+4.1. Une fois votre choix d’image fait, cliquer sur l’option **Mettre en ligne** afin de pouvoir l’importer sur la toile.
 
-![Untitled](/img/docs/cricut5.webp)
+![Untitled](/img/docs/cricut5.jpg)
 
-4.2. Sélectionner l’option **Télécharger image**.
+4.2. Récupérer l’image afin de l’ajouter à la toile en la glissant et déposant ou en utilisant le menu **Parcourir.**
 
-![Untitled](/img/docs/cricut6.webp)
+![Untitled](/img/docs/cricut7.jpg)
 
-4.3. Récupérer l’image afin de l’ajouter à la toile en la glissant et déposant ou en utilisant le menu **Parcourir.**
+4.4. Vous avez la possibilité de rogner l'image afin de supprimer des parties non désiré. Cliquez sur l'icône de rognage et sélectionner la zone à conserver.
 
-![Untitled](/img/docs/cricut7.webp)
-
-4.4. Cliquer sur **Télécharger.** Cette action renvoie automatiquement à la page précédente.
-
-![Untitled](/img/docs/cricut8.webp)
-
-Vous avez ensuite la possibilité de modifier (effacer, dessiner).
-![Untitled](/img/docs/cricut58.webp)
+![Untitled](/img/docs/cricut8.jpg)
 
 4.5. Sélectionner **Monocalque**, puis continuer.
 
-![Untitled](/img/docs/cricut59.webp)
-
-4.6 Sélectionner l’image téléchargée et cliquer sur **Ajouter à la toile.**
-
-![Untitled](/img/docs/cricut9.webp)
+![Untitled](/img/docs/cricut59.jpg)
 
 ---
 
-### 5. Modification de l’image (Rognage)
+### 5. Choix de la lame
 
-:::info
-À cette étape, il est possible de modifier l’image (taille, rognage, rotation, duplication). Si vous désirez produire un projet composé de plusieurs importations, répétez de nouveau les étapes précédentes.
-
-:::
-
-#### Paramètres de base
-
-![Untitled](/img/docs/cricut10.webp)
-Supprimer l’image
-
-![Untitled](/img/docs/cricut11.webp)
-
-Permet d’effectuer une rotation de l’image
-
-![Untitled](/img/docs/cricut12.webp)
-
-Redimensionner l’image
-
-![Untitled](/img/docs/cricut13.webp)
-
-Permet de redimensionner les axes de l’image de manière indépendante
-
-
-5.1. Sélectionner l’image et cliquer sur l’option **Dégrouper**. Cela permettra de séparer la machine à espresso de la signature afin de retirer cette dernière de la découpe.
-
-![Untitled](/img/docs/cricut14.webp)
-
-5.2. **Sélectionner** la signature, en glissant le curseur sur l’ensemble des éléments puis sur le **X** apparaissant dans l’encadré.
-
-![Untitled](/img/docs/cricut15.webp)
-
-![Untitled](/img/docs/cricut16.webp)
-
-### 6. Choix de la lame
-
-6.1. Sélectionner de nouveau l’image puis choisir le type de lame selon votre projet dans la section **Opérations.** 
+5.1. Sélectionner de nouveau l’image puis choisir le type de lame selon votre projet dans la section **Opérations.** 
 
 :::note
     Pour plus d’informations sur les lames disponibles, consulter la section [Lames et outils](#lames-et-outils).
@@ -109,7 +59,7 @@ Permet de redimensionner les axes de l’image de manière indépendante
 
 ---
 
-6.2. Cliquer sur **Créer** pour lancer la découpe.
+5.2. Cliquer sur **Créer** pour lancer la découpe.
 
 ![Untitled](/img/docs/cricut18.webp)
 
@@ -117,11 +67,11 @@ Permet de redimensionner les axes de l’image de manière indépendante
     Notez que les tapis de découpe disponibles à l’atelier sont d’un format de 30,5 cm par 30,5 cm. Assurez-vous que votre projet ne dépasse pas cette taille pour éviter de mauvaises découpes ainsi que le bris de l’équipement.
 :::
 
-### 7. Découpe
+### 6. Découpe
 
-7.1. Retirer la pellicule de protection du tapis de découpe.
+6.1. Retirer la pellicule de protection du tapis de découpe.
 
-7.2. Coller un morceau de vinyle sur le tapis ayant le même format que votre modèle vis à vis l’emplacement dans le logiciel.
+6.2. Coller un morceau de vinyle sur le tapis ayant le même format que votre modèle vis à vis l’emplacement dans le logiciel.
 
 ![Untitled](/img/docs/cricut19.webp)
 
@@ -132,63 +82,63 @@ Pour obtenir une mesure exacte de taille nécessaire et ainsi ne pas gaspiller l
 ![Untitled](/img/docs/cricut21.webp)
 
 
-7.3. Déposer le tapis sur la découpeuse, sous les roulettes sans effectuer de pression.
+6.3. Déposer le tapis sur la découpeuse, sous les roulettes sans effectuer de pression.
 
 ![Untitled](/img/docs/cricut22.webp)
 
-7.4. Appuyer sur la **flèche** pour insérer le tapis.
+6.4. Appuyer sur la **flèche** pour insérer le tapis.
 
 ![Untitled](/img/docs/cricut23.webp)
 
-7.5. Sélectionner l’option **Sur le tapis,** **30.5 cm x 30.5 cm** pour la taille du tapis et cocher **Garder la sélection** puis cliquer sur **Continuer.**
+6.5. Sélectionner l’option **Sur le tapis,** **30.5 cm x 30.5 cm** pour la taille du tapis et cocher **Garder la sélection** puis cliquer sur **Continuer.**
 
 ![Untitled](/img/docs/cricut24.webp)
 
-7.6. Appuyer de nouveau sur **Continuer**
+6.6. Appuyer de nouveau sur **Continuer**
 
 ![Untitled](/img/docs/cricut25.webp)
 
-7.7. Sélectionner le matériel utilisé. Dans le cas présent on sélectionne **Vinyle.**
+6.7. Sélectionner le matériel utilisé. Dans le cas présent on sélectionne **Vinyle.**
 
 ![Untitled](/img/docs/cricut26.webp)
 
-7.8. Vérifier que la lame dans la mâchoire B est la bonne.
+6.8. Vérifier que la lame dans la mâchoire B est la bonne.
 
 ![Untitled](/img/docs/cricut27.webp)
 
 ![Untitled](/img/docs/cricut28.webp)
 
-7.9. Appuyer sur le **bouton de mise en marche (logo de cricut)** de l’appareil et patienter pendant la durée de la découpe. Le logiciel fera état de la progression.
+6.9. Appuyer sur le **bouton de mise en marche (logo de cricut)** de l’appareil et patienter pendant la durée de la découpe. Le logiciel fera état de la progression.
 
 ![Untitled](/img/docs/cricut29.webp)
 
 ![Untitled](/img/docs/cricut30.webp)
 
-7.10. Une fois la découpe terminée, retirer le tapis de découpe de la machine en appuyant sur la flèche. Appuyer sur **Terminé** pour revenir à l’accueil du logiciel.
+6.10. Une fois la découpe terminée, retirer le tapis de découpe de la machine en appuyant sur la flèche. Appuyer sur **Terminé** pour revenir à l’accueil du logiciel.
 
 ![Untitled](/img/docs/cricut31.webp)
 
-### 8. Installation et Finition
+### 7. Installation et Finition
 
-8.1. Décoller le vinyle du tapis, bien s’assurer de retirer le le papier ciré de base aussi.
+7.1. Décoller le vinyle du tapis, bien s’assurer de retirer le le papier ciré de base aussi.
 
-8.2. Retirer l’excédent de vinyle à l’aide des outils disponibles à l’atelier (pinces, crochet etc.). Prudence! Le vinyle peut facilement se déchirer à cette étape et le résultat sera beaucoup moins satisfaisant.
+7.2. Retirer l’excédent de vinyle à l’aide des outils disponibles à l’atelier (pinces, crochet etc.). Prudence! Le vinyle peut facilement se déchirer à cette étape et le résultat sera beaucoup moins satisfaisant.
 
 ![Untitled](/img/docs/cricut32.webp)
 
 ![Untitled](/img/docs/cricut33.webp)
 
-8.3. Tailler un calque de papier transfert couvrant la surface entière du motif.
+7.3. Tailler un calque de papier transfert couvrant la surface entière du motif.
 
 ![Untitled](/img/docs/cricut34.webp)
 
-8.4. Coller le papier transfert sur le motif en appuyant et en frottant l’ensemble de la surface pour augmenter l’adhérence.  La spatule est utile pour cette étape. Les bulles entre le vinyle et le papier transfert doivent être réduites au maximum.
+7.4. Coller le papier transfert sur le motif en appuyant et en frottant l’ensemble de la surface pour augmenter l’adhérence.  La spatule est utile pour cette étape. Les bulles entre le vinyle et le papier transfert doivent être réduites au maximum.
 
 ![Untitled](/img/docs/cricut35.webp)
 
-8.5. Retirer le papier transfert du papier ciré de base, de manière à ce que le vinyle soit exclusivement sur le papier transfert.
+7.5. Retirer le papier transfert du papier ciré de base, de manière à ce que le vinyle soit exclusivement sur le papier transfert.
 
-8.6. Coller le vinyle à l’endroit désiré en effectuant le même processus que pour l’adhésion au papier transfert, puis retirer le papier transfert de manière à ce que le vinyle n’y adhère pas.
+7.6. Coller le vinyle à l’endroit désiré en effectuant le même processus que pour l’adhésion au papier transfert, puis retirer le papier transfert de manière à ce que le vinyle n’y adhère pas.
 
 ![Untitled](/img/docs/cricut36.webp)
 
