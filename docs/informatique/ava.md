@@ -22,7 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Avez-vous déjà utilisé un poste AVA? [Dites-le nous en répondant à ce sondage!](#)
 ::: -->
 
-Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez Votre Appareil (AVA)**. Ces postes vous permettent de brancher votre ordinateur portable à un écran ultralarge 21:9 via HDMI ou USB-C. Vous aurez également accès à un clavier et une souris pour une meilleure ergonomie. **Aucune réservation requise.**
+Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez Votre Appareil (AVA)**. Ces postes vous permettent de brancher votre ordinateur portable à un écran ultralarge 21:9, via HDMI ou USB-C. Vous aurez également accès à un clavier et une souris pour une meilleure ergonomie. **Aucune réservation requise.**
 
 ---
 
@@ -70,9 +70,9 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 <details>
   <summary>**Bibliothèque de droit**</summary>
   - 17 postes : 
-    - 14 dans les salles de travail pour cycles supérieurs
-      - 10 avec écran standard de 22 pouces
-      - 4 avec écran ultralarge 21:9 
+    - 14 dans les salles de travail pour cycles supérieurs :
+      - 10 avec écran standard.
+      - 4 avec écran ultralarge 21:9. 
     - 3 dans la salle de lecture.
 </details>
 
