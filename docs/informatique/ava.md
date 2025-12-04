@@ -71,7 +71,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
   <summary>**Bibliothèque de droit**</summary>
   - 15 postes : 
     - 14 dans les salles de travail pour cycles supérieurs, dont 4 écrans ultralarges 21:9.
-    - 1 écran ultralarge 21:9 dans la salle de lecture.
+    - 3 écran ultralarge 21:9 dans la salle de lecture.
 </details>
 
 ---
