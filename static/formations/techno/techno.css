@@ -1,0 +1,76 @@
+/* ==== Thème Reveal.js — studio·bib / UdeM ==== */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+/* Couleurs UdeM */
+:root {
+  --udem-blue: #0057ac;
+  --udem-dark: #002c57;
+  --udem-light: #e6eef7;
+  --studio-bib-yellow: #f7d354;
+  --studio-bib-grey: #2b2b2b;
+  --white: #ffffff;
+}
+
+/* Fond général */
+.reveal {
+  background: radial-gradient(circle at 50% 20%, var(--udem-dark), #00152d 80%);
+  color: var(--udem-light);
+  font-family: "Figtree", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+}
+
+/* Titres */
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  font-size: 3rem;
+  color: var(--studio-bib-yellow);
+}
+
+/* Paragraphes */
+.reveal p, .reveal ul li {
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 0.9em;
+}
+
+/* Liens */
+.reveal a {
+  color: var(--studio-bib-yellow);
+  text-decoration: none;
+  border-bottom: 1px solid var(--studio-bib-yellow);
+}
+
+/* Slides section title */
+.section-title {
+  font-size: 2.4em;
+  margin-bottom: 40px;
+  color: var(--studio-bib-yellow);
+  text-align: center;
+}
+
+/* Quotes */
+.reveal blockquote {
+  border-left: 4px solid var(--studio-bib-yellow);
+  padding-left: 20px;
+  color: var(--udem-light);
+  font-style: italic;
+}
+
+/* Footers */
+.reveal .footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.6em;
+  color: var(--udem-light);
+}
+
+/* Accent frames */
+.accent-box {
+  border: 2px solid var(--studio-bib-yellow);
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+}
