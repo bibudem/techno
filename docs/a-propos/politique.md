@@ -1,6 +1,6 @@
 ---
 id : politique
-title : Politique d'utilisation des équipements
+title : Politique d'utilisation des équipements et des espaces
 retroaction : false
 ---
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
@@ -23,22 +23,41 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ---
 
-## Conditions d'utilisation des équipements de fabrication numérique et des studios
+## Conditions d'utilisation des équipements de fabrication et des studios
 
-- Respecter le Code de conduite des bibliothèques de l’Université de Montréal.
-- Limiter l'utilisation des studios, des ateliers et de leurs équipements aux activités d'enseignement, d'apprentissage et de recherche à l'Université.
-- Utiliser les équipements de façon sécuritaire et appropriée.
-- Respecter la propriété intellectuelle.
-- Replacer le matériel et les outils et laisser l’espace propre avant de quitter.
+1. **Utiliser les espaces uniquement pour des activités liées à l’enseignement, l’apprentissage, la recherche ou les projets institutionnels de l’Université de Montréal.**  
+   Tout autre usage, notamment un usage personnel, commercial ou promotionnel, est interdit.
 
-Pour l'impression 3D
+2. **Utiliser les équipements de façon sécuritaire, responsable et conforme aux indications fournies.**
+   
+   a) Ne pas tenter de modifier ou de reconfigurer les installations techniques.  
+   b) Ne pas brancher d’équipement non autorisé qui pourrait endommager le matériel.  
+   c) Signaler immédiatement toute défectuosité ou bris au personnel.  
 
-- Utiliser l'imprimante de façon sécuritaire et appropriée.
-- Utiliser un design adapté à l’impression et ne pouvant endommager l’imprimante.
-- Utiliser l'impression pour usage universitaire et de prototypage seulement.
-- Utiliser uniquement les filaments PLA fournis par les bibliothèques de l'UdeM.
-- Aviser les membres de l'équipe des bibliothèques présents si le temps prévu de l'impression dépasse l'heure de fermeture des comptoirs de services.
+3. **Respecter la propriété intellectuelle et les règles de confidentialité.**
+   
+   a) Obtenir les permissions nécessaires avant d’enregistrer quelqu’un.  
+   b) Ne pas diffuser de contenu sans l’accord des personnes concernées.  
+   c) Ne pas enregistrer ou photographier du matériel sensible ou confidentiel.  
+   d) En impression 3D, respecter les droits de reproduction.  
 
-Le personnel des bibliothèques se réserve le droit de refuser un accès aux espaces et/ou d'arrêter une impression ne respectant pas ces règles.
+4. **Préserver l’intégrité des espaces.**
+   
+   a) Ne pas déplacer les meubles ou équipements sans autorisation.  
+   b) Ne pas consommer nourriture ou boissons.  
+   c) Ne pas utiliser ces espaces pour des activités bruyantes ou non compatibles avec l’environnement des bibliothèques.  
+
+5. **Impression 3D**
+   
+   a) Utiliser uniquement les filaments fournis par les bibliothèques de l'UdeM.  
+   b) Aviser les membres de l'équipe des bibliothèques présents si le temps prévu de l'impression dépasse l'heure de fermeture des comptoirs de services.  
+
+6. **Respecter les plages horaires et les réservations.**
+   
+   a) Réserver uniquement les plages dont vous avez réellement besoin.  
+   b) Arriver et quitter à l’heure.  
+   c) Aviser en cas d’annulation.  
+
+**Le non-respect de ces règles peut entraîner une suspension temporaire ou permanente d’accès aux espaces des bibliothèques.**
 
 ---
