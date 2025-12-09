@@ -22,14 +22,12 @@ const images = [
 
 const slogans = [
   'Là où les idées prennent vie.',
-  'De l’idée à la création.',
   'Imaginez. Réalisez. Partagez.',
   'La créativité en action.',
   'L’innovation au service de la communauté.',
-  'De la connaissance à la création.',
   'Faites vibrer vos idées.',
   'L’étincelle de vos projets.',
-  'Les bibliothèques en mode création.',
+  'Les bibliothèques en mode création numérique.',
   'Connectés par la créativité.',
   'La créativité comme moteur de recherche.',
 ];
