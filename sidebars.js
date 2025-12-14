@@ -409,7 +409,7 @@ const sidebars = {
     label: "Productions médias",
     link: { type: "doc", id: "medias/index" },
     items: [
-      // 1) Espaces (comme dans l'index)
+      // 1) Espaces 
       {
         type: "category",
         label: "Espaces",
@@ -421,29 +421,29 @@ const sidebars = {
         ],
       },
 
-      // 2) Édition (comme dans l'index)
+      // 2) Édition 
       "medias/postes-edition",
 
-      // 3) Production audio (comme dans l'index)
+      // 3) Production audio 
       {
         type: "category",
         label: "Production audio",
         collapsed: true,
-        link: undefined,
+        // link: undefined,
         items: [
           "medias/balado",
-          "medias/guidebaladovideo", // manquait vs ton index
+          "medias/guidebaladovideo", 
           "medias/rodecaster",
           "medias/audacity",
         ],
       },
 
-      // 4) Production vidéo (comme dans l'index)
+      // 4) Production vidéo 
       {
         type: "category",
         label: "Production vidéo",
         collapsed: true,
-        link: undefined,
+        // link: undefined,
         items: [
           "medias/studiovideo",
           "medias/adoberush",
@@ -451,12 +451,12 @@ const sidebars = {
         ],
       },
 
-      // 5) Infographie (comme dans l'index)
+      // 5) Infographie 
       {
         type: "category",
         label: "Infographie",
         collapsed: true,
-        link: undefined,
+        // link: undefined,
         items: [
           "medias/tabgraphique",
         ],
