@@ -415,10 +415,10 @@ const sidebars = {
         label: "Espaces",
         collapsed: true,
         // link: undefined,
-        items: [
-          "espaces/studiosbalado",
-          "espaces/studiovideo",
-        ],
+items: [
+    { type: "link", label: "Studios balado", href: "/espaces/studiosbalado" },
+    { type: "link", label: "Studio vidéo", href: "/espaces/studiovideo" },
+  ],
       },
 
       // 2) Édition 
