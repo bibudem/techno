@@ -31,16 +31,10 @@ import CardGrid from "@site/src/components/CardGrid";
       link: "salledevisio",
       icon : "MonitorPlay",
     },
-        {
-      title: "Studio balado vidéo",
-      description: "Un espace modernisé pour l’enregistrement audio et vidéo.",
-      link: "studiobalado",
-      icon : "Microphone",
-    },
     {
-      title: "Studios audio",
-      description: "Enregistrez des balados, des entretiens et des présentations avec du matériel professionnel.",
-      link: "studioaudio",
+      title: "Studios balado",
+      description: "Des espaces pour l’enregistrement de balado",
+      link: "studiosbalado",
       icon : "Microphone",
     },
     {

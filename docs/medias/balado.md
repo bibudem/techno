@@ -29,16 +29,16 @@ Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aid
 <CardGrid
   items={[
     {
-      title: "Réserver un studio audio",
-      description: "Idéal pour enregistrer de la voix",
-      link: "/espaces/studioaudio",
+      title: "Réserver un studio balado audio",
+      description: "Idéal pour enregistrer de la voix (sans captation vidéo)",
+      link: "/espaces/studiosbaladoaudio",
       icon: "Cube",
       petit : true,
     },
     {
       title: "Réserver un studio balado vidéo",
-      description: "Studio de production de balado vidéo",
-      link: "/espaces/studiobalado",
+      description: "Studio de production de balado vidéo (avec captation vidéo)",
+      link: "/espaces/studiobaladovideo",
       icon: "Cube",
       petit : true,
     },
@@ -58,7 +58,7 @@ Les bibliothèques UdeM offrent des studios entièrement équipés pour vous aid
 
     [Lisez le guide d’utilisation de la console RODECaster Pro II](../medias/rodecaster.md), qui explique pas à pas le fonctionnement de la console, donne des conseils pour enregistrer une voix de qualité et des astuces qui vont servir plus tard au montage.
 
-    Si vous optez pour un studio balado vidéo, [un guide pas à pas vous explique son fonctionnement](../espaces/guide/studiob.md). 
+    Si vous optez pour un studio balado vidéo, [un guide pas à pas vous explique son fonctionnement](../medias/guidebaladovideo). 
 </details>
 
 <details>

@@ -1,5 +1,5 @@
 ---
-id: studiobalado
+id: studiobaladovideo
 title: Studio balado vidéo
 description : Balados, présentations et entretiens.
 image: "/img/cover/studiobalado.webp"
@@ -23,12 +23,15 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) a été entièrement réaménagé pour offrir une expérience de création simple, professionnelle et autonome. Que vous souhaitiez enregistrer un balado, une entrevue ou une présentation, cet espace vous permet de produire du contenu de qualité, sans expertise technique préalable.
+
+Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) est aménagé pour la captation vidéo de balados, dans un cadre simple, autonome et accessible. Il permet également l’enregistrement d’entrevues ou de présentations liées à ce type de format, sans nécessiter d’expertise technique préalable.
+
+---
 
 <Link to="#localisation-acces" className="button button--primary">
   Réserver le studio
 </Link>
-<Link to="/espaces/guide/studiob" className="button button--secondary">
+<Link to="/medias/guidebaladovideo" className="button button--secondary">
   Consulter la documentation
 </Link>
 <Link to="https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled" className="button button--secondary">
@@ -96,16 +99,6 @@ import StudioCard from '@site/src/components/StudioCard';
     reserveText="Réserver"
   />
 </div>
-
----
-
-Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
-
-:::danger Accès réservé à la communauté UdeM
-Les studios sont **réservés à la communauté de l’Université de Montréal**.
-
-Nous ne pouvons malheureusement pas accepter de réservations provenant de l’externe. Merci de votre compréhension!
-:::
 
 ---
 

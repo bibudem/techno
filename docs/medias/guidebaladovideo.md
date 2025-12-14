@@ -1,7 +1,7 @@
 ---
 title: Guide d'utilisation du studio balado vidéo
 description: Guide pour la prise en main du studio balado vidéo de la Bibliothèque des lettres et sciences humaines.
-slug: /espaces/guide/studiob
+slug: /medias/guidebaladovideo
 breadcrumbs: true
 help : crea
 ---

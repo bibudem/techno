@@ -1,8 +1,8 @@
 ---
-id: studioaudio
-title: Studios audio
+id: studiosbaladoaudio
+title: Studios balado audio
 description : Balados, présentations et entretiens.
-image: "/img/cover/studiolsh.webp"
+image: "/img/cover/baladoaudio.jpg"
 help : crea
 ---
 
@@ -22,15 +22,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-:::info Nouveau studio à la BLSH!
-À la recherche du studio audio de la Bibliothèque des lettres et sciences humaines?
-Le studio a été modernisé, avec l’ajout de caméras, d’un nouvel éclairage et d’un système de capture simplifié. Il porte désormais le nom Studio balado vidéo!
-[Découvrez la nouvelle page Studio balado vidéo](/espaces/studiobalado).
-:::
-
-Les studios d'enregistrement audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
-
-
+Les studios balado audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
 
 ---
 

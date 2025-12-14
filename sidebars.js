@@ -41,20 +41,25 @@ const sidebars = {
           ],
         },
         'espaces/salledevisio',
-           {
-          type: 'category',
-          label: 'Studio balado vidéo',
-          link: { type: 'doc', id: 'espaces/studiobalado' },
-          collapsible: false, // Empêche la catégorie de s’ouvrir, donc plus de flèche
+  
+
+
+
+        {
+          type: "category",
+          label: "Studios balado",
+          collapsed: true, 
+          collapsible: true,
+          link: { type: 'doc', id: 'espaces/studiosbalado' }, 
+
           items: [
-            {
-              type: 'doc',
-              id: 'espaces/guide/studiob',
-              className: 'hidden', // Garde la page d’aide cachée
-            },
+            "espaces/studiosbaladoaudio",
+            "espaces/studiobaladovideo",
           ],
         },
-        'espaces/studioaudio',
+
+
+
         'espaces/studiovideo',
         
       ],
@@ -399,50 +404,66 @@ const sidebars = {
   ],
 
   mediasSidebar: [
-    {
-      type: 'category',
-      label: 'Productions médias',
-      link: { type: 'doc', id: 'medias/index' }, 
-      items: [
-        'medias/postes-edition',
-        {
-          type: "category",
-          label: "Production audio",
-          collapsed: true,
-          link: undefined, 
-          items: [
-            "medias/balado",
-            "medias/rodecaster",
-            "medias/audacity",
-          ],
-        },
-        {
-          type: "category",
-          label: "Production vidéo",
-          collapsed: true,
-          link: undefined, 
-          items: [
-            "medias/studiovideo",
-            "medias/adoberush",
-            "medias/obs",
+  {
+    type: "category",
+    label: "Productions médias",
+    link: { type: "doc", id: "medias/index" },
+    items: [
+      // 1) Espaces (comme dans l'index)
+      {
+        type: "category",
+        label: "Espaces",
+        collapsed: true,
+        // link: undefined,
+        items: [
+          "espaces/studiosbalado",
+          "espaces/studiovideo",
+        ],
+      },
 
-          ],
-        },
-        {
-          type: "category",
-          label: "Infographie",
-          collapsed: true,
-          link: undefined, 
-          items: [
-            "medias/tabgraphique",
-            // "medias/creationsvg",
-          ],
-        },
+      // 2) Édition (comme dans l'index)
+      "medias/postes-edition",
 
-        // 'medias/visualisation',
-      ],
-    },
-  ],
+      // 3) Production audio (comme dans l'index)
+      {
+        type: "category",
+        label: "Production audio",
+        collapsed: true,
+        link: undefined,
+        items: [
+          "medias/balado",
+          "medias/guidebaladovideo", // manquait vs ton index
+          "medias/rodecaster",
+          "medias/audacity",
+        ],
+      },
+
+      // 4) Production vidéo (comme dans l'index)
+      {
+        type: "category",
+        label: "Production vidéo",
+        collapsed: true,
+        link: undefined,
+        items: [
+          "medias/studiovideo",
+          "medias/adoberush",
+          "medias/obs",
+        ],
+      },
+
+      // 5) Infographie (comme dans l'index)
+      {
+        type: "category",
+        label: "Infographie",
+        collapsed: true,
+        link: undefined,
+        items: [
+          "medias/tabgraphique",
+        ],
+      },
+    ],
+  },
+],
 
   aboutSidebar: [
     {
