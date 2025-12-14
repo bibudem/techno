@@ -71,10 +71,10 @@ export default function PageAccueil() {
       <section className="homepage-section">
         <CardRow>
           <CardBib
-            title="Studios Audio"
+            title="Studios balado"
             Icon={Microphone}
-            href="/espaces/studioaudio"
-            moreText="Enregistrer des balados"
+            href="/espaces/studiosbalado"
+            moreText="Découvrir les studios"
             small
             color="jaune"
           />
