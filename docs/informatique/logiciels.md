@@ -69,9 +69,9 @@ L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'UdeM v
       petit: true,
     },
     {
-      title: "ChemDraw",
+      title: "SPSS",
       description: "",
-      link: "/informatique/logiciels/chemdraw",
+      link: "/informatique/logiciels/spss",
       icon : "",
       petit: true,
     },
