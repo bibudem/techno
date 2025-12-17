@@ -106,6 +106,10 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Connecter l’imprimante
 
+:::warning
+    Merci de toujours passer par la connexion Wi-Fi afin de lancer vos impressions. Ne pas toucher à la carte micro SD s'il vous plaît.
+:::
+
 -	Connecter votre ordinateur au **Wi-Fi Bambu Lab**. Pas de mot de passe nécessaire pour cette étape.
 
 ![](/img/docs/configurer_bambu_studio_24.webp)
