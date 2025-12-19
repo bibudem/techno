@@ -30,10 +30,10 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 | **Bibliothèque**                        | **Localisation** | **Modèles disponibles** |
 |-----------------------------------------|-----------------|-------------------------|
-| **[Mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8) | Prusa i3 MK3s+, Ultimaker S3 |
-| **[Hubert-Reeves](https://bib.umontreal.ca/espaces/#Hubert-reeves)**        | [Atelier de fabrication](../espaces/ateliers.md), local A-0724.4. [Voir sur la carte](https://maps.app.goo.gl/T6E9TaKNk6dDgrds9) | Prusa i3 MK3s+, Ultimaker S3 |
-| **[Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | [Atelier de fabrication](../espaces/ateliers.md), local G-305-10. [Voir sur la carte](https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8) | Ultimaker 2 & S3, Elegoo Saturn 3 Ultra, BambuLab X1C AMS |
-| **[Santé](https://bib.umontreal.ca/espaces/#sante)**         | 8<sup>e</sup> étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/KVE9w3JN2BKp278q8) | Ultimaker S3 |
+| **[Mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8) | BambuLab X1C AMS, Prusa i3 MK3s+|
+| **[Hubert-Reeves](https://bib.umontreal.ca/espaces/#Hubert-reeves)**        | [Atelier de fabrication](../espaces/ateliers.md), local A-0724.4. [Voir sur la carte](https://maps.app.goo.gl/T6E9TaKNk6dDgrds9) | BambuLab X1C AMS, Prusa i3 MK3s+ |
+| **[Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | [Atelier de fabrication](../espaces/ateliers.md), local G-305-10. [Voir sur la carte](https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8) | Ultimaker S3, Elegoo Saturn 3 Ultra, BambuLab X1C AMS |
+| **[Santé](https://bib.umontreal.ca/espaces/#sante)**         | 8<sup>e</sup> étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/KVE9w3JN2BKp278q8) | Ultimaker S3, Ultimaker 2 |
 | **[Marguerite d'Youville](https://bib.umontreal.ca/espaces/#marguerite-d-youville)**         | [Voir sur la carte](https://g.co/kgs/q8wfQY2) | BambuLab X1C AMS |
 <!-- | **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS | -->
 
