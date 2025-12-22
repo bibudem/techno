@@ -159,7 +159,7 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
 ![](/img/docs/configurer_bambu_studio_12.webp)
 
 :::warning
-    Dans le cas d’objets avec des couleurs différentes, il est obligatoire de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais par objet pour une impression plus rapide et moins de gaspillage. Nous nous réservons le droit de couper toute impression ne respectant pas cette procédure
+    Dans le cas d’objets avec des couleurs différentes, il est **obligatoire** de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais **par objet** pour une impression plus rapide et moins de gaspillage. Nous nous réservons le droit de couper toute impression ne respectant pas cette procédure
 :::
 
 
