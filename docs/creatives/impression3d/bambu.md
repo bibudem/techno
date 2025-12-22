@@ -152,7 +152,7 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Impression avec plusieurs couleurs
 
-Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur. Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge.
+Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur. Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge. Nous vous invitons à ne pas mélanger les couleurs dans un même objet.
 
 ![](/img/docs/configurer_bambu_studio_11.webp)
 
