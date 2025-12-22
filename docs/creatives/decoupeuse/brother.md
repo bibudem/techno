@@ -9,6 +9,48 @@ La découpeuse numérique Brother SDX225 est une machine qui vous permettra de r
 
 ## Guide de découpe papier cartonné et vinyle adhésif
 
+### Logiciel Brother Canvas Workspace
+
+**Télécharger** et **installer** le logiciel **Brother Canvas Workspace** si ce n'est pas encore fait
+
+[Lien pour télécharger le logiciel](https://canvasworkspace.brother.com/fr) (disponible pour Windows et macOS)
+
+**Lancer le logiciel** et se **connecter**. Si besoin se créer un **compte gratuit** à l'aide d'un courriel
+
+![brother8](/img/docs/Brother_canvas-1.jpg)
+
+Enregistrer un modèle au format *png*, *jpg*, *gif*, *bmp* ou *svg*
+
+Pour les modèles *png*, *jpg*, *gif*, ou *bmp* : cliquer sur l'icône **Traçage d'image**
+
+![brother9](/img/docs/Brother_canvas-2.jpg)
+
+Pour les modèles *svg* : cliquer sur l'icône **SVG**
+
+![brother10](/img/docs/Brother_canvas-3.jpg)
+
+Pour dessiner directement des formes, des lettres ou des tracés (point par point ou main levée) :
+
+![brother11](/img/docs/Brother_canvas-4.jpg)
+
+![brother12](/img/docs/Brother_canvas-5.jpg)
+
+![brother13](/img/docs/Brother_canvas-6.jpg)
+
+![brother14](/img/docs/Brother_canvas-7.jpg)
+
+Pour exporter / transférer le fichier FCM vers la découpeuse :
+
+![brother15](/img/docs/Brother_canvas-8.jpg)
+
+![brother16](/img/docs/Brother_canvas-9.jpg)
+
+Pour récupérer le fichier transféré sur la découpeuse :
+
+![brother15](/img/docs/Brother_canvas-10.jpg)
+
+![brother16](/img/docs/Brother_canvas-11.jpg)
+
 ### Préparation de la machine
 
 - Ouvrir le capot et appuyer sur le bouton pour allumer la machine.
