@@ -161,23 +161,12 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
 ![](/img/docs/configurer_bambu_studio_12.webp)
 
 :::warning
-    Dans le cas d’objets avec des couleurs différentes, il est préférable de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais par objet pour une impression plus rapide.
+    Dans le cas d’objets avec des couleurs différentes, il est obligatoire de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais par objet pour une impression plus rapide et moins de gaspillage.
 :::
 
 
 ![](/img/docs/configurer_bambu_studio_13.webp)
 
-
-
-#### Un objet de plusieurs couleurs
-
-Si vous glissez un objet de plusieurs couleurs, Le logiciel vous demandera si vous voulez charger ces fichiers comme un objet unique, cliquer sur **Oui**.
-
-![](/img/docs/configurer_bambu_studio_35.webp)
-
-:::warning
-    Dans le cas d’un objets avec des couleurs différentes, il faudra penser à bien assigner la bonne couleur de filament disponible dans l'AMS à la couleur désirée.
-:::
 
 ### Modèles en ligne (Maker World)
 
