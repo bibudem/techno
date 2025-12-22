@@ -152,8 +152,6 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Impression avec plusieurs couleurs
 
-#### Des objets de couleurs différentes
-
 Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur. Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge.
 
 ![](/img/docs/configurer_bambu_studio_11.webp)
@@ -161,7 +159,7 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
 ![](/img/docs/configurer_bambu_studio_12.webp)
 
 :::warning
-    Dans le cas d’objets avec des couleurs différentes, il est obligatoire de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais par objet pour une impression plus rapide et moins de gaspillage.
+    Dans le cas d’objets avec des couleurs différentes, il est obligatoire de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais par objet pour une impression plus rapide et moins de gaspillage. Nous nous réservons le droit de couper toute impression ne respectant pas cette procédure
 :::
 
 
