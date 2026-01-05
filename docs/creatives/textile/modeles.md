@@ -94,10 +94,9 @@ Vérifier les termes de la licence pour chaque image avant de l'utiliser pour vo
 |---------------------------|----------------------------------------------------------------------|
 | Freesvg.org               | [freesvg.org](https://freesvg.org/)                                  |
 | EmbroideryDesigns.com    | [embroiderydesigns.com](https://www.embroiderydesigns.com/)          |
-| Urban Threads            | [urbanthreads.com](https://www.urbanthreads.com/free_designs)        |
 | Ann the Gran             | [annthegran.com](https://www.annthegran.com/free-embroidery-designs.aspx) |
 | EmbroideryShristi        | [embroideryshristi.com](https://www.embroideryshristi.com/)          |
-| Kreative Kiwi            | [kreativekiwiembroidery.co.nz](https://www.kreativekiwiembroidery.co.nz/category/Free-Designs) |
+| Kreative Kiwi            | [kreativekiwiembroidery.co.nz](https://www.kreativekiwiembroidery.co.nz/all-designs-machine-embroidery.html) |
 | Oma's Place              | [omasplace.com](https://www.omasplace.com/free-designs/)             |
 | Freepik                  | [freepik.com](https://www.freepik.com/)                              |
 | Flaticon                 | [flaticon.com](https://www.flaticon.com/)                            |
