@@ -2,6 +2,13 @@ moment.locale('fr');
 
 // --- Configuration ---
 const PROXY = "https://ordo.bib.umontreal.ca/webhook/axper";
+const TIME_URL = "https://ordo.bib.umontreal.ca/webhook/time";
+const TZ = "America/Toronto";
+
+// Sync horloge : on calcule un offset pour éviter d'appeler /time à chaque refresh
+let serverOffsetMs = 0;
+let lastClockSyncMs = 0;
+const CLOCK_SYNC_INTERVAL_MS = 10 * 60 * 1000; // 10 min
 
 const LIBRARIES = [
   {
@@ -76,24 +83,50 @@ const LIBRARIES = [
   }
 ];
 
+// --- Horloge serveur (n8n /time) ---
+
+async function syncClock() {
+  try {
+    const res = await fetch(TIME_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error("Time endpoint indisponible");
+
+    const data = await res.json();
+    if (!data?.nowMs) throw new Error("Réponse time invalide (nowMs manquant)");
+
+    serverOffsetMs = data.nowMs - Date.now();
+    lastClockSyncMs = Date.now();
+    return true;
+  } catch (e) {
+    console.warn("[clock] sync échouée, fallback horloge locale", e);
+    return false;
+  }
+}
+
+function nowServerMs() {
+  return Date.now() + serverOffsetMs;
+}
+
 // --- Fonctions utilitaires ---
 
 async function getSchedules(code) {
   try {
-    const res = await fetch(`https://api.bib.umontreal.ca/horaires/${code}?fin=P1D`);
+    const res = await fetch(`https://api.bib.umontreal.ca/horaires/${code}?fin=P1D`, { cache: "no-store" });
     if (!res.ok) return null;
     const data = await res.json();
-    return data.evenements[0];
+    return data.evenements?.[0] || null;
   } catch {
     return null;
   }
 }
 
-function isClosed(ev) {
+function isClosed(ev, nowMs) {
   if (!ev) return false;
-  const now = moment();
-  const day = moment(ev.date);
 
+  // "now" + "day" forcés en heure de l'Est
+  const now = moment.tz(nowMs, TZ);
+  const day = moment.tz(ev.date, TZ);
+
+  // journée complètement fermée
   if (ev.debut1 === '' && ev.fin2 === '') return true;
 
   const open = now.isBetween(
@@ -112,10 +145,10 @@ function getStatus(n, closed) {
 }
 
 // --- Récupération des données ---
-async function fetchLibraryData(lib) {
+async function fetchLibraryData(lib, nowMs) {
   try {
     const [occupRes, event] = await Promise.all([
-      fetch(`${PROXY}?url=${encodeURIComponent(lib.url)}`),
+      fetch(`${PROXY}?url=${encodeURIComponent(lib.url)}`, { cache: "no-store" }),
       getSchedules(lib.code)
     ]);
 
@@ -124,30 +157,34 @@ async function fetchLibraryData(lib) {
     const data = await occupRes.json();
     const occupancy = data.occupancyValue || 0;
     const percent = Math.round((occupancy / lib.capacity) * 100);
-    const closed = isClosed(event);
+
+    const closed = isClosed(event, nowMs);
     const status = getStatus(percent, closed);
 
     return { ...lib, status };
-
   } catch (err) {
     console.warn("Erreur pour", lib.name, err);
-    return {
-      ...lib,
-      status: { cls: 'ferme', msg: 'Données indisponibles' }
-    };
+    return { ...lib, status: { cls: 'ferme', msg: 'Données indisponibles' } };
   }
 }
 
 // --- Affichage principal (direct, sans animations) ---
 async function display() {
-  const now = moment().format('dddd D MMMM YYYY, HH:mm');
-  document.querySelector('.datetime').textContent = now;
+  // resync horloge toutes les 10 minutes (ou au premier run)
+  if (!lastClockSyncMs || (Date.now() - lastClockSyncMs) > CLOCK_SYNC_INTERVAL_MS) {
+    await syncClock();
+  }
+
+  const nowMs = nowServerMs();
+
+  // Affichage date/heure (heure de l'Est)
+  const nowStr = moment.tz(nowMs, TZ).locale('fr').format('dddd D MMMM YYYY, HH:mm');
+  document.querySelector('.datetime').textContent = nowStr;
 
   const container = document.getElementById('libraries');
+  container.innerHTML = '';
 
-  container.innerHTML = ''; // on efface directement
-
-  const results = await Promise.all(LIBRARIES.map(fetchLibraryData));
+  const results = await Promise.all(LIBRARIES.map(lib => fetchLibraryData(lib, nowMs)));
 
   // Tri alphabétique
   results.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
@@ -165,5 +202,10 @@ async function display() {
 }
 
 // --- Boucle de rafraîchissement ---
-display();
-setInterval(display, 30000);
+// On synchronise l'horloge tout de suite, puis on affiche
+(async () => {
+  await syncClock(); // si ça fail, on reste en fallback local
+  await display();
+  setInterval(display, 30000);
+  setInterval(syncClock, CLOCK_SYNC_INTERVAL_MS); // resync en arrière-plan
+})();
