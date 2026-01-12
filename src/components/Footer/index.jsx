@@ -115,7 +115,7 @@ export default function Footer() {
       {/* Barre légale */}
       <div className={styles.bottomBar}>
         <span>
-          © 2025 Bibliothèques de l’Université de Montréal.
+          © 2026 Bibliothèques de l’Université de Montréal.
           Contenu sous{" "}
           <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">
             CC BY 4.0
