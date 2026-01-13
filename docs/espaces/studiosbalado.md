@@ -6,9 +6,12 @@ help : crea
 image : "/img/cover/baladocover.jpg"
 ---
 
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import CardGrid from "@site/src/components/CardGrid";
+import PhotoCarousel from '@site/src/components/Carousel';
+import { studiosbaladoSlides } from '@site/src/data/studiosbaladoSlides';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -48,6 +51,12 @@ Les bibliothèques de l’UdeM mettent à la disposition de la communauté unive
 
 ---
 
+## Balados réalisées dans nos studios
+
+<PhotoCarousel slides={studiosbaladoSlides} slidesToScroll={2} />
+
+---
+
 Pour toute question ou demande particulière, n'hésitez pas à nous écrire à studio@bib.umontreal.ca
 
 :::danger Accès réservé à la communauté UdeM
@@ -58,3 +67,5 @@ Nous ne pouvons malheureusement pas accepter de réservations provenant de l’e
 
 
 ---
+
+

@@ -1,0 +1,72 @@
+export const studiosbaladoSlides = [
+  {
+    id: 'a',
+    src: '/img/balado/mignardises.jpg',
+    alt: 'Mignardises littéraires',
+    title: 'Mignardises littéraires',
+    description:
+      "Mignardises littéraires, c’est un balado à la conjonction de la créativité, de la francophonie et de la communauté étudiante de l’Université de Montréal.",
+    href: 'https://francais.umontreal.ca/vivre-en-francais/mignardises-litteraires/',
+    hrefLabel: 'Écouter',
+  },
+  {
+    id: 'b',
+    src: '/img/balado/youcanbe.png',
+    alt: 'You Can be Anything',
+    title: 'You Can be Anything',
+    description:
+      "Ce balado du CRI-Jade explore la diversité de perspectives et de réflexion sur l’ÉDI et la décolonisation en matière de recherche et dans les milieux de pratique.",
+    href: 'https://open.spotify.com/show/2jiGpdqsOvv4v3TggxPH1I?si=3d6e973b4818467b',
+    hrefLabel: 'Écouter',
+  },
+    {
+    id: 'c',
+    src: '/img/balado/lucioles.jpg',
+    alt: 'Les Lucioles',
+    title: 'Les Lucioles',
+    description:
+      "Doctorantes et chercheuses en sciences biologiques, Marie-Christine Lafrenière et Stéphanie Shousha reçoivent leurs collègues de l'UdeM pour vulgariser la recherche actuelle dans leur discipline. Phytotechnologies, milieux humides et changements climatiques font partie des sujets abordés.",
+    href: 'https://podcasters.spotify.com/pod/show/leslucioles',
+    hrefLabel: 'Écouter',
+  },
+    {
+    id: 'd',
+    src: '/img/balado/document.jpg',
+    alt: 'Qui relève du document',
+    title: 'Qui relève du document',
+    description:
+      "Avis aux amateurs et amatrices de documentaires : les étudiants de la Faculté des arts et des sciences Alexandre Ruffier et Ludi Marwood proposent chaque mois un balado dans lequel ils analysent et critiquent finement un film documentaire.",
+    href: 'https://podcasters.spotify.com/pod/show/dudocument',
+    hrefLabel: 'Écouter',
+  },
+      {
+    id: 'e',
+    src: '/img/balado/afrovoix.png',
+    alt: 'Afro-Voix',
+    title: 'Afro-Voix',
+    description:
+      "Animé par Gabriella « Kinté » Gabreau, propriétaire de la Librairie Racines, cette série aborde plusieurs sujets complexes. Chaque épisode prend comme prétexte une œuvre littéraire marquante d’un auteur ou d’une autrice afro-descendants pour explorer des thèmes tels que l'histoire, l'immigration, l'intégration, le choc culturel, l'exil, l'identité québécoise et canadienne, ainsi que les identités multiples.",
+    href: 'https://www.umontreal.ca/afro-voix/',
+    hrefLabel: 'Écouter',
+  },
+      {
+    id: 'f',
+    src: '/img/balado/regardscroises.png',
+    alt: 'Regards croisés sur l’environnement',
+    title: 'Regards croisés sur l’environnement',
+    description:
+      "Dans chaque épisode, le professeur de philosophie Christian Nadeau s’entretient avec deux collègues du corps professoral de l’UdeM provenant de diverses disciplines. Ensemble, ils croisent leurs regards pour explorer les multiples dimensions de l’environnement.",
+    href: 'https://fas.umontreal.ca/regards-croises-sur-lenvironnement/',
+    hrefLabel: 'Écouter',
+  },
+      {
+    id: 'g',
+    src: '/img/balado/touratour.png',
+    alt: 'Tour à tour – Service de l’admission et du recrutement',
+    title: 'Tour à tour – Service de l’admission et du recrutement',
+    description:
+      "Les animatrices Amélie et Sarah s’entretiennent avec des étudiantes et étudiants venus de différents horizons. Découvrez des parcours diversifiés qui illustrent de belle façon l’enthousiasme pour les études aux cycles supérieurs et la recherche à l’Université de Montréal.",
+    href: 'https://admission.umontreal.ca/tour-a-tour/',
+    hrefLabel: 'Écouter',
+  },
+];

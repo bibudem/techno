@@ -1,0 +1,160 @@
+/* Structure & naming calqués sur les exemples Embla */
+
+.embla {
+  --slide-spacing: 1rem;
+  --slide-size: 50%;
+  --slide-height: auto;
+
+  margin: 0;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+
+.embla__slide__inner {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-surface-color);
+}
+
+.embla__slide__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Caption “photo + description + lien” */
+.caption {
+  padding: 0.85rem 1rem 1rem;
+}
+
+.caption__title {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.caption__desc {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.caption__link {
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* Controls */
+.embla__controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.embla__buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Buttons (Embla-like) */
+:global(.embla__button) {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+
+  background: transparent;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+
+  width: 2.6rem;
+  height: 2.6rem;
+
+  /* ✅ centrage le plus stable possible */
+  display: grid;
+  place-items: center;
+
+  /* ✅ neutralise tout héritage/baseline */
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+}
+
+:global(.embla__button:disabled) {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* SVG */
+:global(.embla__button__svg) {
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+
+  /* ✅ au cas où un style global s’applique */
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+/* ✅ centrage optique (c’est souvent ça) */
+:global(.embla__button--prev .embla__button__svg) {
+  transform: translateX(-1px);
+}
+
+:global(.embla__button--next .embla__button__svg) {
+  transform: translateX(1px);
+}
+
+/* Dots */
+.embla__dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.embla__dot {
+  appearance: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  background: transparent;
+  cursor: pointer;
+}
+
+.is-selected {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+/* Responsive: 1 slide par view sur mobile */
+@media (max-width: 996px) {
+  .embla {
+    --slide-size: 100%;
+  }
+}
