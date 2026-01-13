@@ -182,6 +182,14 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
 
 ## **5.** Changement de filament
 
+:::warning
+    Merci n'utiliser que les bobines Bambulab déjà sur leur support disponibles dans nos ateliers. Demander de l'aide à un membre du personnel pour préparer une nouvelle bobine sur son support. Ne jamais utiliser une bobine d'une autre marque dans les imprimantes Bambulab, merci.
+:::
+
+### Bobine Bambu Lab avec puce RFID
+
+La bobine de chez Bambu Lab et équipée d’une puce RFID, l’imprimante reconnaîtra automatiquement le filament inséré (matière, couleur, etc.) après le chargement dans l'AMS.
+
 ### Retirer un filament
 
 S’il n’y a pas de filament à retirer, passez directement à l’étape 2.
@@ -219,44 +227,5 @@ L'imprimante va détecter le filament introduit au moment où la petite lumière
 
 ![Bobine de filament PLA chargée](/img/docs/filament-bambu7.webp)
 
-#### Cas d'une bobine Bambu Lab avec puce RFID
-
-Si la bobine est compatible Bambu Lab et équipée d’une puce RFID, l’imprimante reconnaîtra automatiquement le filament inséré (matière, couleur, etc.) après le chargement.
-
-#### Autre bobine avec support plastique sans RFID
-
-Si la bobine compatible Bambu Lab n’est pas munie d’une puce RFID, il faut indiquer manuellement les caractéristiques du filament après son chargement.
-
-Utiliser l’écran tactile de l’imprimante :
-1.	Appuyer sur l’icône **bobine**
-2.	Appuyer sur le logo **oeil** de la bobine que vous venez d’insérer
-3.	Cliquer sur **Edit**
-4.	Renseigner les champs suivants de renseignements de la bobine (marque, type, couleur, température...)
-
-![](/img/docs/bambulab_change_filament_1.webp)
-
-![](/img/docs/bambulab_change_filament_2.webp)
-
-![](/img/docs/bambulab_change_filament_3.webp)
-
-![](/img/docs/bambulab_change_filament_4.webp)
 
 
-#### Autre bobine nécessitant un support
-
-Certaines bobines sont munies d’un noyau en carton, qui n’est pas toujours compatible avec l’AMS (le carton pivote mal autour de l’axe).
-Dans ce cas, il faut :
-	1.	Placer la bobine en carton sur un support en plastique compatible.
-	2.	Déposer l’ensemble dans l’emplacement prévu à l’intérieur de l’AMS.
-
-Indiquer manuellement les caractéristiques du nouveau filament à l’aide de l’écran tactile :
-
-	1. Appuyer sur l’icône bobine
-	2. Appuyer sur le logo oeil de la bobine que vous venez d’insérer
-	3. Cliquer sur Edit
-	4. Renseigner les champs suivants de renseignements de la bobine (marque, type, couleur, température...)
-
-:::info
-Une [liste des filaments compatibles](https://docs.google.com/spreadsheets/d/1LGVjAbGjvIjvOFQsDi8lSK9-vy7GfGhgVP41sNffh6I/edit?pli=1&gid=1679778390#gid=1679778390) est maintenue par la communauté.
-N’hésitez pas à la consulter pour vérifier la compatibilité avec l’AMS.
-:::
