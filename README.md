@@ -165,6 +165,61 @@ Chaque `id` redirige automatiquement vers une page du site à l’aide du compos
 
 ---
 
+## Mettre à jour la liste des balados (carousel)
+
+Cette page affiche une galerie de balados enregistrés dans nos studios via un **carousel**.  
+Pour ajouter, modifier ou retirer un balado, il suffit de mettre à jour le fichier de données des slides.
+
+### Où se trouve la liste ?
+La liste est définie dans :
+
+- `src/data/studiosbaladoSlides.js`
+
+> Astuce : on garde cette liste dans `src/` (et non `static/`) pour pouvoir l’**importer** directement dans la page MDX et éviter les erreurs de build.
+
+### Format d’un item
+Chaque entrée est un objet avec les champs suivants :
+
+- `id` *(obligatoire)* : identifiant unique (ex. `"mignardises"`)
+- `src` *(obligatoire)* : chemin de l’image (dans `static/`), ex. `"/img/balado/mignardises.jpg"`
+- `alt` *(obligatoire)* : texte alternatif décrivant l’image (accessibilité)
+- `title` *(recommandé)* : titre du balado
+- `description` *(recommandé)* : courte description (1–2 phrases)
+- `href` *(recommandé)* : lien interne **ou** externe
+  - interne : `"/espaces/studiosbalado"`  
+  - externe : `"https://open.spotify.com/…"`
+- `hrefLabel` *(optionnel)* : libellé du lien (ex. `"Écouter"`)
+
+Exemple :
+
+```js
+export const studiosbaladoSlides = [
+  {
+    id: 'mignardises',
+    src: '/img/balado/mignardises.jpg',
+    alt: 'Couverture du balado Mignardises littéraires',
+    title: 'Mignardises littéraires',
+    description:
+      "Mignardises littéraires, c’est un balado à la conjonction de la créativité, de la francophonie et de la communauté étudiante de l’Université de Montréal.",
+    href: 'https://open.spotify.com/show/XXXX',
+    hrefLabel: 'Écouter',
+  },
+]; 
+```
+
+Ajouter un balado (checklist)
+	1.  Ajouter l’image dans static/img/balado/
+	•	Formats recommandés : JPG ou PNG
+	•	Nom de fichier simple, sans espaces (ex. mon-balado.jpg)
+	2.	Ajouter un nouvel objet dans src/data/studiosbaladoSlides.js
+	3.	Vérifier que :
+	•	id est unique
+	•	src commence par /img/...
+	•	alt décrit l’image (pas juste le titre)
+	•	href pointe vers une page valide (interne ou externe)
+
+---
+
 ## Contribuer
 
 Vous souhaitez contribuer aux sections Technologies créatives ou Productions médias ? Voici comment faire :
