@@ -182,6 +182,14 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
 
 ## **5.** Changement de filament
 
+:::warning
+    Merci n'utiliser que les bobines Bambulab déjà sur leur support disponibles dans nos ateliers. Demander de l'aide à un membre du personnel pour préparer une nouvelle bobine sur son support. Ne jamais utiliser une bobine d'une autre marque dans les imprimantes Bambulab, merci.
+:::
+
+### Bobine Bambu Lab avec puce RFID
+
+La bobine de chez Bambu Lab et équipée d’une puce RFID, l’imprimante reconnaîtra automatiquement le filament inséré (matière, couleur, etc.) après le chargement dans l'AMS.
+
 ### Retirer un filament
 
 S’il n’y a pas de filament à retirer, passez directement à l’étape 2.
@@ -219,11 +227,5 @@ L'imprimante va détecter le filament introduit au moment où la petite lumière
 
 ![Bobine de filament PLA chargée](/img/docs/filament-bambu7.webp)
 
-:::warning
-    Merci n'utiliser que les bobines Bambulab déjà sur leur support disponibles dans nos ateliers. Demander de l'aide à un membre du personnel pour préparer une nouvelle bobine sur son support. Ne jamais utiliser une bobine d'une autre marque dans les imprimantes Bambulab, merci.
-:::
 
-#### Bobine Bambu Lab avec puce RFID
-
-La bobine de chez Bambu Lab et équipée d’une puce RFID, l’imprimante reconnaîtra automatiquement le filament inséré (matière, couleur, etc.) après le chargement dans l'AMS.
 
