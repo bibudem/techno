@@ -51,7 +51,7 @@ Les bibliothèques de l’UdeM mettent à la disposition de la communauté unive
 
 ---
 
-## Balados réalisées dans nos studios
+## Balados réalisés dans nos studios
 
 <PhotoCarousel slides={studiosbaladoSlides} slidesToScroll={2} />
 
