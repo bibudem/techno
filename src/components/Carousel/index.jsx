@@ -12,16 +12,17 @@ export default function PhotoCarousel({
   options = {},
   ariaLabel = 'Galerie de photos',
 }) {
-  const emblaOptions = {
-    slidesToScroll, // entier (2, 3...) ou 'auto'
-    containScroll: 'trimSnaps',
-    loop: false,
-    ...options,
-  };
+const emblaOptions = {
+  slidesToScroll: 1,       // ✅ 1 item par scroll
+  align: 'start',
+  containScroll: 'keepSnaps', // ✅ 1 snap par slide (pour 1 dot = 1 item)
+  loop: false,
+  ...options,
+};
 
   const [emblaRef, emblaApi] = useEmblaCarousel(emblaOptions);
 
-  const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi);
+  const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
   const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } =
     usePrevNextButtons(emblaApi);
 
@@ -99,19 +100,21 @@ export default function PhotoCarousel({
           />
         </div>
 
-        <div className={styles.embla__dots} role="tablist" aria-label="Navigation de la galerie">
-          {scrollSnaps.map((_, index) => (
-            <DotButton
-              key={index}
-              onClick={() => onDotButtonClick(index)}
-              className={`${styles.embla__dot} ${
-                index === selectedIndex ? styles['is-selected'] : ''
-              }`}
-              aria-label={`Aller au groupe ${index + 1} : ${slideLabel(index)}`}
-              aria-current={index === selectedIndex ? 'true' : 'false'}
-            />
-          ))}
-        </div>
+       <div
+  className={styles.embla__dots}
+  role="tablist"
+  aria-label="Navigation de la galerie"
+>
+  {slides.map((_, i) => (
+    <DotButton
+      key={slides[i]?.id || i}
+      onClick={() => emblaApi && emblaApi.scrollTo(i)}
+      className={`${styles.embla__dot} ${i === selectedIndex ? styles['is-selected'] : ''}`}
+      aria-label={`Aller à l’item ${i + 1} : ${slideLabel(i)}`}
+      aria-current={i === selectedIndex ? 'true' : 'false'}
+    />
+  ))}
+</div>
       </div>
     </section>
   );

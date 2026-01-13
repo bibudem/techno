@@ -9,14 +9,24 @@ export const studiosbaladoSlides = [
     href: 'https://francais.umontreal.ca/vivre-en-francais/mignardises-litteraires/',
     hrefLabel: 'Écouter',
   },
-  {
+    {
     id: 'b',
     src: '/img/balado/youcanbe.png',
     alt: 'You Can be Anything',
     title: 'You Can be Anything',
     description:
-      "Ce balado du CRI-Jade explore la diversité de perspectives et de réflexion sur l’ÉDI et la décolonisation en matière de recherche et dans les milieux de pratique.",
+    "You can be anything est un balado dédié à mettre de l'avant le parcours inspirant de femmes qui connaissent du succès dans des milieux de travail autrefois dominés par les hommes.",
     href: 'https://open.spotify.com/show/2jiGpdqsOvv4v3TggxPH1I?si=3d6e973b4818467b',
+    hrefLabel: 'Écouter',
+  },
+  {
+    id: 'b',
+    src: '/img/balado/voiescroisees.png',
+    alt: 'Voi(x)es croisées',
+    title: 'Voi(x)es croisées',
+    description:
+    "Ce balado du CRI-Jade explore la diversité de perspectives et de réflexion sur l’ÉDI et la décolonisation en matière de recherche et dans les milieux de pratique.",
+    href: 'https://crijade.com/activites/balados/',
     hrefLabel: 'Écouter',
   },
     {
@@ -70,3 +80,4 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
 ];
+
