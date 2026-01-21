@@ -21,6 +21,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 La [Bibliothèque de musique](https://bib.umontreal.ca/espaces/#musique) offre plusieurs équipements spécialisés pour l’écoute et la numérisation de disques vinyle. L’espace de numérisation de disques vinyle est accessible sans réservation et est situé près de la salle **B-287-7**. Les personnes souhaitant numériser des disques vinyle doivent apporter leur propre ordinateur portable pour convertir sous format numérique (MP3 ou WAV) les pistes audios de disques vinyle (format analogique).
 
+:::danger Service réservé à la communauté de l’Université de Montréal
+
+Nous ne pouvons malheureusement pas accepter de demandes provenant de l’externe. Merci de votre compréhension!
+:::
+
 ---
 
 ## Équipement de numérisation audio {#equipement-audio}
