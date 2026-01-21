@@ -1,6 +1,6 @@
 export const studiosbaladoSlides = [
   {
-    id: 'a',
+    id: 'mignardises-litteraires',
     src: '/img/balado/mignardises.jpg',
     alt: 'Mignardises littéraires',
     title: 'Mignardises littéraires',
@@ -10,7 +10,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
     {
-    id: 'b',
+    id: 'you-can-be-anything',
     src: '/img/balado/youcanbe.png',
     alt: 'You Can be Anything',
     title: 'You Can be Anything',
@@ -20,7 +20,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
   {
-    id: 'b',
+    id: 'voix-croisees',
     src: '/img/balado/voiescroisees.png',
     alt: 'Voi(x)es croisées',
     title: 'Voi(x)es croisées',
@@ -30,7 +30,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
     {
-    id: 'c',
+    id: 'les-lucioles',
     src: '/img/balado/lucioles.jpg',
     alt: 'Les Lucioles',
     title: 'Les Lucioles',
@@ -40,7 +40,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
     {
-    id: 'd',
+    id: 'qui-releve-du-document',
     src: '/img/balado/document.jpg',
     alt: 'Qui relève du document',
     title: 'Qui relève du document',
@@ -50,7 +50,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
       {
-    id: 'e',
+    id: 'afro-voix',
     src: '/img/balado/afrovoix.png',
     alt: 'Afro-Voix',
     title: 'Afro-Voix',
@@ -60,7 +60,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
       {
-    id: 'f',
+    id: 'regards-croises-environnement',
     src: '/img/balado/regardscroises.png',
     alt: 'Regards croisés sur l’environnement',
     title: 'Regards croisés sur l’environnement',
@@ -70,7 +70,7 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
       {
-    id: 'g',
+    id: 'tour-a-tour-admission-recrutement',
     src: '/img/balado/touratour.png',
     alt: 'Tour à tour – Service de l’admission et du recrutement',
     title: 'Tour à tour – Service de l’admission et du recrutement',
@@ -80,4 +80,3 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
 ];
-
