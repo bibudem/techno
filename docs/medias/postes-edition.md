@@ -30,6 +30,14 @@ Nos postes d'édition numérique offrent la possibilité de créer, éditer et p
   Consulter la liste des logiciels offerts
 </Link>
 
+<Link to="https://outlook.office.com/book/studiobib@umontreal.ca/s/ARGgdqT49EiHe_sTQMKSkA2?ismsaljsauthenabled" className="button button--secondary">
+  Obtenir du soutien
+</Link>
+
+:::warning Note
+Pour obtenir du soutien en personne à BLSH avec un membre de notre équipe, vous devez réserver vous-même le studio d’édition à BLSH pour l’heure de votre rendez-vous. 
+:::
+
 ---
 
 ## Localisation et accès {#localisation-acces}
