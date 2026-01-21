@@ -7,6 +7,14 @@ help : crea
 
 Audacity est un logiciel libre de traitement audio. Il permet de réaliser des enregistrements, de les éditer, de les mixer, de les modifier, de les analyser, de les convertir et de les publier sur Internet. Il est disponible pour Windows, macOS et Linux.
 
+<Link to="https://outlook.office.com/book/studiobib@umontreal.ca/s/ARGgdqT49EiHe_sTQMKSkA2?ismsaljsauthenabled" className="button button--secondary">
+  Obtenir du soutien
+</Link>
+
+:::warning Note
+Pour obtenir du soutien en personne à BLSH avec un membre de notre équipe, vous devez réserver vous-même le studio d’édition à BLSH pour l’heure de votre rendez-vous. 
+:::
+
 ## Installation
 
 Télécharger la dernière version d'Audacity sur le site officiel : [https://www.audacityteam.org/download/](https://www.audacityteam.org/download/)
