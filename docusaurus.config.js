@@ -16,8 +16,13 @@ const config = {
   organizationName: 'bibudem',
   projectName: 'techno',
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+onBrokenLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'fr',
