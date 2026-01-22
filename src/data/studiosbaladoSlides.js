@@ -1,7 +1,7 @@
 export const studiosbaladoSlides = [
   {
     id: 'mignardises-litteraires',
-    src: '/img/balado/mignardises.jpg',
+    src: '/img/balado/mignardises.webp',
     alt: 'Mignardises littéraires',
     title: 'Mignardises littéraires',
     description:
@@ -11,7 +11,7 @@ export const studiosbaladoSlides = [
   },
     {
     id: 'voix-croisees',
-    src: '/img/balado/voiescroisees.png',
+    src: '/img/balado/voiescroisees.webp',
     alt: 'Voi(x)es croisées',
     title: 'Voi(x)es croisées',
     description:
@@ -21,7 +21,7 @@ export const studiosbaladoSlides = [
   },
   {
     id: 'recherche-en-cours',
-    src: '/img/balado/recherche-en-cours.jpg',
+    src: '/img/balado/recherche-en-cours.webp',
     alt: 'Recherche en cours',
     title: 'Recherche en cours',
     description:
@@ -31,7 +31,7 @@ export const studiosbaladoSlides = [
   },
     {
     id: 'les-lucioles',
-    src: '/img/balado/lucioles.jpg',
+    src: '/img/balado/lucioles.webp',
     alt: 'Les Lucioles',
     title: 'Les Lucioles',
     description:
@@ -41,7 +41,7 @@ export const studiosbaladoSlides = [
   },
     {
     id: 'qui-releve-du-document',
-    src: '/img/balado/document.jpg',
+    src: '/img/balado/document.webp',
     alt: 'Qui relève du document',
     title: 'Qui relève du document',
     description:
@@ -51,7 +51,7 @@ export const studiosbaladoSlides = [
   },
       {
     id: 'afro-voix',
-    src: '/img/balado/afrovoix.png',
+    src: '/img/balado/afrovoix.webp',
     alt: 'Afro-Voix',
     title: 'Afro-Voix',
     description:
@@ -61,7 +61,7 @@ export const studiosbaladoSlides = [
   },
       {
     id: 'you-can-be-anything',
-    src: '/img/balado/youcanbe.png',
+    src: '/img/balado/youcanbe.webp',
     alt: 'You Can be Anything',
     title: 'You Can be Anything',
     description:
@@ -71,7 +71,7 @@ export const studiosbaladoSlides = [
   },
       {
     id: 'regards-croises-environnement',
-    src: '/img/balado/regardscroises.png',
+    src: '/img/balado/regardscroises.webp',
     alt: 'Regards croisés sur l’environnement',
     title: 'Regards croisés sur l’environnement',
     description:
@@ -81,7 +81,7 @@ export const studiosbaladoSlides = [
   },
       {
     id: 'tour-a-tour-admission-recrutement',
-    src: '/img/balado/touratour.png',
+    src: '/img/balado/touratour.webp',
     alt: 'Tour à tour – Service de l’admission et du recrutement',
     title: 'Tour à tour – Service de l’admission et du recrutement',
     description:
