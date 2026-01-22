@@ -2,7 +2,7 @@
 id: studiosbaladoaudio
 title: Studios balado audio
 description : Balados, présentations et entretiens.
-image: "/img/cover/baladoaudio.jpg"
+image: "/img/cover/baladoaudio.webp"
 help : crea
 ---
 

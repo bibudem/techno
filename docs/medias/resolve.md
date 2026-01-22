@@ -82,7 +82,7 @@ Exemples :
 - Ordinateur de bureau + portable + disque externe.  
 - Ordinateur portable + disque externe + service infonuagique.
 
-![Schéma de la règle des trois copies](/img/docs/resolve-espace.png)
+![Schéma de la règle des trois copies](/img/docs/resolve-espace.webp)
 
 ---
 
@@ -91,7 +91,7 @@ Exemples :
 DaVinci Resolve s’ouvre en deux étapes :
 
 <InteractiveImage
-  image="/img/docs/resolve-interface.png"
+  image="/img/docs/resolve-interface.webp"
   zones={[
     { id: "gestionnaire-projet", label: "- Le gestionnaire de projet : affiché au lancement, il permet de visualiser et gérer vos projets ainsi que les bases de données.  ", top: "0%", left: "0%", width: "26%", height: "100%" },
     { id: "pages-de-travail", label: "- Les pages de travail : accessibles après l’ouverture d’un projet, elles regroupent les outils pour importer, monter, étalonner, mixer et exporter vos médias.", top: "0%", left: "26%", width: "75%", height: "100%" },
@@ -145,7 +145,7 @@ Si vous venez de brancher l’écran, un redémarrage du logiciel peut être né
 Chaque page est un environnement spécialisé, mais elles sont interconnectées : une modification faite dans l’une est répercutée dans toutes les autres.  
 
 <InteractiveImage
-  image="/img/docs/resolve-barre-pages.png"
+  image="/img/docs/resolve-barre-pages.webp"
   zones={[
     { id: "media", label: "1. Média – Importer sons, images, vidéos", top: "0%", left: "0%", width: "14.28%", height: "100%" },
     { id: "cut", label: "2. Cut – Montage rapide", top: "0%", left: "14.28%", width: "14.28%", height: "100%" },

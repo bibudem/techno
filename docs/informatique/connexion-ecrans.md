@@ -1,6 +1,6 @@
 ---
 title : Connexion sans fil aux écrans
-image: "/img/cover/ecrans-cover.jpg"
+image: "/img/cover/ecrans-cover.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

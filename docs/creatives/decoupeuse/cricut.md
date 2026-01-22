@@ -25,25 +25,25 @@ Tout d’abord, il faut choisir une image! Dans ce guide l’image source provie
 
 3.1. Pour débuter un nouveau projet, cliquer sur le menu **Nouveau projet** en haut à gauche de l’écran, et choisissez **Toile vierge**.
 
-![Untitled](/img/docs/cricut3.jpg)
+![Untitled](/img/docs/cricut3.webp)
 
 ### 4. Importation de l’image-source
 
 4.1. Une fois votre choix d’image fait, cliquer sur l’option **Mettre en ligne** afin de pouvoir l’importer sur la toile.
 
-![Untitled](/img/docs/cricut5.jpg)
+![Untitled](/img/docs/cricut5.webp)
 
 4.2. Récupérer l’image afin de l’ajouter à la toile en la glissant et déposant ou en utilisant le menu **Parcourir.**
 
-![Untitled](/img/docs/cricut7.jpg)
+![Untitled](/img/docs/cricut7.webp)
 
 4.4. Vous avez la possibilité de rogner l'image afin de supprimer des parties non désiré. Cliquez sur l'icône de rognage et sélectionner la zone à conserver.
 
-![Untitled](/img/docs/cricut8.jpg)
+![Untitled](/img/docs/cricut8.webp)
 
 4.5. Sélectionner **Monocalque**, puis continuer.
 
-![Untitled](/img/docs/cricut59.jpg)
+![Untitled](/img/docs/cricut59.webp)
 
 ---
 

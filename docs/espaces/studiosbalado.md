@@ -3,7 +3,7 @@ id: studiosbalado
 title: Studios balado
 description : Balados, présentations et entretiens.
 help : crea
-image : "/img/cover/baladocover.jpg"
+image : "/img/cover/baladocover.webp"
 ---
 
 

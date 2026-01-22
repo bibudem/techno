@@ -73,7 +73,7 @@ Vérifier que pour chaque objet la surface la plus plate est en contact avec la 
 
 Vérifier que les dimensions de l'objet correspondent bien à la taille de l'objet souhaité. Sélectionner votre objet → Cliquer sur **Redimesionner** (1) → Vérifier sa taille (2)
 
-![](/img/docs/bambulab_taille_objet.jpg)
+![](/img/docs/bambulab_taille_objet.webp)
 
 ### Supports
 

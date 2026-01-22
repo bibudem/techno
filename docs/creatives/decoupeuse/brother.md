@@ -17,39 +17,39 @@ La découpeuse numérique Brother SDX225 est une machine qui vous permettra de r
 
 **Lancer le logiciel** et se **connecter**. Si besoin se créer un **compte gratuit** à l'aide d'un courriel
 
-![brother8](/img/docs/Brother_canvas-1.jpg)
+![brother8](/img/docs/Brother_canvas-1.webp)
 
 Enregistrer un modèle au format *png*, *jpg*, *gif*, *bmp* ou *svg*
 
 Pour les modèles *png*, *jpg*, *gif*, ou *bmp* : cliquer sur l'icône **Traçage d'image**
 
-![brother9](/img/docs/Brother_canvas-2.jpg)
+![brother9](/img/docs/Brother_canvas-2.webp)
 
 Pour les modèles *svg* : cliquer sur l'icône **SVG**
 
-![brother10](/img/docs/Brother_canvas-3.jpg)
+![brother10](/img/docs/Brother_canvas-3.webp)
 
 Pour dessiner directement des formes, des lettres ou des tracés (point par point ou main levée) :
 
-![brother11](/img/docs/Brother_canvas-4.jpg)
+![brother11](/img/docs/Brother_canvas-4.webp)
 
-![brother12](/img/docs/Brother_canvas-5.jpg)
+![brother12](/img/docs/Brother_canvas-5.webp)
 
-![brother13](/img/docs/Brother_canvas-6.jpg)
+![brother13](/img/docs/Brother_canvas-6.webp)
 
-![brother14](/img/docs/Brother_canvas-7.jpg)
+![brother14](/img/docs/Brother_canvas-7.webp)
 
 Pour exporter / transférer le fichier FCM vers la découpeuse :
 
-![brother15](/img/docs/Brother_canvas-8.jpg)
+![brother15](/img/docs/Brother_canvas-8.webp)
 
-![brother16](/img/docs/Brother_canvas-9.jpg)
+![brother16](/img/docs/Brother_canvas-9.webp)
 
 Pour récupérer le fichier transféré sur la découpeuse :
 
-![brother15](/img/docs/Brother_canvas-10.jpg)
+![brother15](/img/docs/Brother_canvas-10.webp)
 
-![brother16](/img/docs/Brother_canvas-11.jpg)
+![brother16](/img/docs/Brother_canvas-11.webp)
 
 ### Préparation de la machine
 

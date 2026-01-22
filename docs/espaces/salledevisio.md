@@ -36,7 +36,7 @@ La salle 2076-1, située à la [Bibliothèque des lettres et sciences humaines](
 ## Visite virtuelle
 
 <Pano360
-  image="/img/pano/sallevisio.jpg"
+  image="/img/pano/sallevisio.webp"
   legende="Vue en 360° de la salle de visionnement"
   title="Salle de visionnement en équipe"
   alt="Salle de visionnement en équipe en vue 360°"
