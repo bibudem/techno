@@ -10,16 +10,6 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
     {
-    id: 'you-can-be-anything',
-    src: '/img/balado/youcanbe.png',
-    alt: 'You Can be Anything',
-    title: 'You Can be Anything',
-    description:
-    "You can be anything est un balado dédié à mettre de l'avant le parcours inspirant de femmes qui connaissent du succès dans des milieux de travail autrefois dominés par les hommes.",
-    href: 'https://open.spotify.com/show/2jiGpdqsOvv4v3TggxPH1I?si=3d6e973b4818467b',
-    hrefLabel: 'Écouter',
-  },
-  {
     id: 'voix-croisees',
     src: '/img/balado/voiescroisees.png',
     alt: 'Voi(x)es croisées',
@@ -27,6 +17,16 @@ export const studiosbaladoSlides = [
     description:
     "Ce balado du CRI-Jade explore la diversité de perspectives et de réflexion sur l’ÉDI et la décolonisation en matière de recherche et dans les milieux de pratique.",
     href: 'https://crijade.com/activites/balados/',
+    hrefLabel: 'Écouter',
+  },
+  {
+    id: 'recherche-en-cours',
+    src: '/img/balado/recherche-en-cours.jpg',
+    alt: 'Recherche en cours',
+    title: 'Recherche en cours',
+    description:
+    "Recherche en cours est une série balado qui met en lumière les projets de recherche menés par des étudiantes et étudiants aux cycles supérieurs. Produit par la Faculté des arts et des sciences, chaque épisode réunit trois personnes issues de disciplines différentes qui présentent leur sujet de recherche, échangent entre elles et participent à une discussion autour d’un thème commun.",
+    href: 'https://fas.umontreal.ca/recherche-en-cours/',
     hrefLabel: 'Écouter',
   },
     {
@@ -57,6 +57,16 @@ export const studiosbaladoSlides = [
     description:
       "Animé par Gabriella « Kinté » Gabreau, propriétaire de la Librairie Racines, cette série aborde plusieurs sujets complexes. Chaque épisode prend comme prétexte une œuvre littéraire marquante d’un auteur ou d’une autrice afro-descendants pour explorer des thèmes tels que l'histoire, l'immigration, l'intégration, le choc culturel, l'exil, l'identité québécoise et canadienne, ainsi que les identités multiples.",
     href: 'https://www.umontreal.ca/afro-voix/',
+    hrefLabel: 'Écouter',
+  },
+      {
+    id: 'you-can-be-anything',
+    src: '/img/balado/youcanbe.png',
+    alt: 'You Can be Anything',
+    title: 'You Can be Anything',
+    description:
+    "You can be anything est un balado dédié à mettre de l'avant le parcours inspirant de femmes qui connaissent du succès dans des milieux de travail autrefois dominés par les hommes.",
+    href: 'https://open.spotify.com/show/2jiGpdqsOvv4v3TggxPH1I?si=3d6e973b4818467b',
     hrefLabel: 'Écouter',
   },
       {
