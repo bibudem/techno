@@ -9,6 +9,9 @@ import CardGrid from '@site/src/components/CardGrid';
 
 Cette section est destinée à vous aider à mieux comprendre l'utilisation de la brodeuse numérique et de la machine à coudre, disponibles à l'[Atelier de fabrication](../espaces/ateliers.md) de la [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd). Trouver la documentation, utiliser un modèle existant, créer son propre modèle simple ou complexe... tout ce que vous voulez savoir se trouve ici.
 
+:::danger ANNONCE
+La machine à coudre est momentanément indisponible pour maintenance. Merci de votre compréhension.
+:::
 ---
  
  
