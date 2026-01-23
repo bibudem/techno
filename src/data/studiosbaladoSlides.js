@@ -50,6 +50,16 @@ export const studiosbaladoSlides = [
     hrefLabel: 'Écouter',
   },
       {
+    id: 'care',
+    src: '/img/balado/care.webp',
+    alt: 'Temps, lieux et voix du care dans l’écriture des femmes',
+    title: 'Temps, lieux et voix du care dans l’écriture des femmes',
+    description:
+      "La littérature peut-elle porter les voix silenciées ? La série « Temps, lieux et voix du 𝘤𝘢𝘳𝘦 dans l’écriture des femmes » explore, en huit épisodes, le soin d’autrui et de soi dans les textes français, québécois et francophones. Ce projet a été dirigé par Andrea Oberhuber, professeure à l'Université de Montréal, et Sarah Cornet, doctorante, lors d’un séminaire à l’automne 2025. En duo ou trio, les étudiant·es y analysent les enjeux, limites et pièges du 𝘤𝘢𝘳𝘦-𝘨𝘪𝘷𝘪𝘯𝘨 et 𝘤𝘢𝘳𝘦-𝘳𝘦𝘤𝘦𝘪𝘷𝘪𝘯𝘨 en littérature. Une exploration sonore au cœur de l'éthique du 𝘤𝘢𝘳𝘦 !",
+    href: 'https://open.spotify.com/show/2ideOAil01nRVh604tfOeh',
+    hrefLabel: 'Écouter',
+  },
+      {
     id: 'afro-voix',
     src: '/img/balado/afrovoix.webp',
     alt: 'Afro-Voix',
