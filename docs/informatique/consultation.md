@@ -97,9 +97,9 @@ Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur VHS jusqu’
 	- Câbles audio-vidéo ou câble HDMI
 3. Vérifier les connexions sur le côté droit de l’écran
 	- Câble des écouteurs doit être connecté dans l'entrée Audio out
-	- Ensemble de 3 câbles doit être connecté dans l'entrée dans AV In
-	- Autre câble doit être connecté dans l'entrée dans Audio In
-	- Câble HDMI doit être connecté dans l'entrée dans HDMI In 1
+	- Ensemble de 3 câbles doit être connecté dans l'entrée AV In
+	- Autre câble doit être connecté dans l'entrée Audio In
+	- Câble HDMI doit être connecté dans l'entrée HDMI In 1
 	
 ---
 
