@@ -83,6 +83,25 @@ const LIBRARIES = [
   }
 ];
 
+function getRequestedLibraryCodes() {
+  const params = new URLSearchParams(window.location.search);
+  const bibParams = params.getAll('bib');
+  if (!bibParams.length) return null;
+
+  const codes = [];
+  const seen = new Set();
+  bibParams.forEach(value => {
+    value.split(',').forEach(part => {
+      const code = part.trim().toLowerCase();
+      if (!code || seen.has(code)) return;
+      seen.add(code);
+      codes.push(code);
+    });
+  });
+
+  return codes.length ? codes : null;
+}
+
 // --- Horloge serveur (n8n /time) ---
 
 async function syncClock() {
@@ -184,10 +203,23 @@ async function display() {
   const container = document.getElementById('libraries');
   container.innerHTML = '';
 
-  const results = await Promise.all(LIBRARIES.map(lib => fetchLibraryData(lib, nowMs)));
+  const requestedCodes = getRequestedLibraryCodes();
+  const libraryByCode = new Map(LIBRARIES.map(lib => [lib.code.toLowerCase(), lib]));
+  const libraries = requestedCodes
+    ? requestedCodes.map(code => libraryByCode.get(code)).filter(Boolean)
+    : LIBRARIES;
 
-  // Tri alphabétique
-  results.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
+  if (!libraries.length) {
+    container.textContent = 'Aucune bibliothèque correspondante.';
+    return;
+  }
+
+  const results = await Promise.all(libraries.map(lib => fetchLibraryData(lib, nowMs)));
+
+  // Tri alphabétique seulement si aucun ordre explicite n'est fourni
+  if (!requestedCodes) {
+    results.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
+  }
 
   results.forEach(lib => {
     const div = document.createElement('div');
