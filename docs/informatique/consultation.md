@@ -42,10 +42,11 @@ La salle comprend 7 postes de visionnement individuels, chacun équipé d’un t
 1. Sur le panneau de contrôle à la gauche de l'écran, appuyer sur le bouton **ON**, puis sur **BLU-RAY**
 2. Appuyer sur le bouton **ON** du lecteur Blu-ray
 3. Appuyer sur le bouton **Eject** et insérer le disque
-4. Appuyer sur « Play » de la télécommande
+4. Appuyer sur **Play** de la télécommande
 5. Une fois le visionnement terminé, appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur Blu-ray. 
 
-:::Notes d’utilisation
+:::note 
+Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusqu’à ce que s’affiche l'image.
 :::
 
@@ -56,14 +57,16 @@ Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusq
 1. Sur le panneau de contrôle à la gauche de l'écran, appuyer sur le bouton **ON**, puis sur **DVD**
 2. Appuyer sur le bouton **ON** du lecteur DVD
 3. Appuyer sur le bouton **Open/Close** et insérer le disque
-4. Appuyer sur « Play » sur la télécommande.
+4. Appuyer sur **Play** sur la télécommande.
 5. Une fois le visionnement terminé, appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur DVD.
 
-:::Notes d’utilisation
+:::note 
+Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur DVD jusqu’à ce que s’affiche l'image.
 ::: 
 
-:::*Note Multizone
+:::note 
+*Note Multizone
 Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du Nord) et PAL (Europe).
 :::
 
@@ -78,7 +81,8 @@ Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du 
 5. Une fois le visionnement terminé, appuyer sur **STOP**, puis **REW** afin de rembobiner la cassette.
 6. Appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur VHS.
 
-:::Notes d’utilisation
+:::note 
+Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur VHS jusqu’à ce que s’affiche l'image.
 ::: 
 
