@@ -16,70 +16,70 @@ const LIBRARIES = [
     name: "Bibliothèque des lettres et sciences humaines",
     address: "Pavillon Samuel-Bronfman",
     code: "ss",
-    capacity: 1010
+    capacity: 702
   },
   {
     url: "https://cloud.axper.com/api/LiveView/3b296801-de07-4b59-a021-8a4e4806063e",
     name: "Bibliothèque de droit",
     address: "Pavillon Maximilien-Caron, 4e étage",
     code: "dr",
-    capacity: 613
+    capacity: 484
   },
   {
     url: "https://cloud.axper.com/api/LiveView/207eef5f-b115-4e3d-8a49-9ed47cc207e2",
     name: "Bibliothèque de mathématiques et informatique",
     address: "Pavillon André-Aisenstadt",
     code: "mi",
-    capacity: 354
+    capacity: 224
   },
   {
     url: "https://cloud.axper.com/api/LiveView/ad6f418c-8cfc-49a4-84b6-3b53f98638f8",
     name: "Bibliothèque de la santé",
     address: "Pavillon Roger-Gaudry, 6e étage",
     code: "sa",
-    capacity: 334
+    capacity: 234
   },
   {
     url: "https://cloud.axper.com/api/LiveView/174b8dc7-ab11-40d8-b975-15ec5c9033f0",
     name: "Bibliothèque Kinésiologie",
     address: "2100, boul. Édouard-Montpetit, 8e étage",
     code: "ki",
-    capacity: 181
+    capacity: 129
   },
   {
     url: "https://cloud.axper.com/api/LiveView/e5de541f-9f52-44c7-a532-9a8bae754e99",
     name: "Bibliothèque Aménagement",
     address: "Pavillon de la Faculté de l'aménagement",
     code: "am",
-    capacity: 165
+    capacity: 133
   },
   {
     url: "https://cloud.axper.com/api/LiveView/90e3ca77-5750-4f22-bc77-2f2504f1a212",
     name: "Bibliothèque Marguerite-d'Youville",
     address: "Pavillon Marguerite-d'Youville",
     code: "pa",
-    capacity: 180
+    capacity: 151
   },
   {
     url: "https://cloud.axper.com/api/LiveView/ff34308a-6b8b-4627-82b2-6bb6f43fd2f4",
     name: "Bibliothèque Hubert-Reeves",
     address: "Complexe des sciences du campus MIL",
     code: "sciences",
-    capacity: 318
+    capacity: 197
   },
   {
     url: "https://cloud.axper.com/api/LiveView/7e347ba2-ec2d-42cf-a0f9-a9d058dbfa30",
     name: "Bibliothèque Thérèse-Gouin-Décarie",
     address: "Pavillon Marie-Victorin",
     code: "ed",
-    capacity: 446
+    capacity: 408
   },
   {
     url: "https://cloud.axper.com/api/LiveView/bb42ee28-fca9-4337-b1ed-6eab9d20c2c8",
     name: "Bibliothèque de musique",
     address: "Pavillon de la faculté de musique",
     code: "mu",
-    capacity: 59
+    capacity: 51
   }
 ];
 
