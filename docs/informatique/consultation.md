@@ -46,7 +46,6 @@ La salle comprend 7 postes de visionnement individuels, chacun équipé d’un t
 5. Une fois le visionnement terminé, appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur Blu-ray. 
 
 :::warning Note 
-Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusqu’à ce que s’affiche l'image.
 :::
 
@@ -77,7 +76,6 @@ Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur DVD jusqu’
 6. Appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur VHS.
 
 :::warning Note 
-Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur VHS jusqu’à ce que s’affiche l'image.
 ::: 
 
