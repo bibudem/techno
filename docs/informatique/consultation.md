@@ -31,7 +31,7 @@ La salle comprend 7 postes de visionnement individuels, chacun équipé d’un t
 
 | **Bibliothèque**                                    | **Localisation** | **Accès** |
 |-----------------------------------------------------|-----------------|------------|
-| [**Bibliothèque des lettres et sciences humaines**](https://bib.umontreal.ca/espaces/#lsh) | Pavillon Samuel-Bronfman, salle 2076. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Libre-service, priorité aux réservations. [Réserver](https://calendrier.bib.umontreal.ca/seat/19471) |
+| [**Bibliothèque des lettres et sciences humaines**](https://bib.umontreal.ca/espaces/#lsh) | Pavillon Samuel-Bronfman, salle 2076. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Libre-service, priorité aux réservations. [Réserver](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=5296) |
 
 
 ## Guide d'utilisation {#guide-utilisation}
