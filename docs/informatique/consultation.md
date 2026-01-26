@@ -53,6 +53,7 @@ Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusq
 
   <TabItem value="DVD" label="lecteur DVD Multizone (toutes zones et tous formats*)">
 
+*Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du Nord) et PAL (Europe).
 1. Sur le panneau de contrôle à la gauche de l'écran, appuyer sur le bouton **ON**, puis sur **DVD**
 2. Appuyer sur le bouton **ON** du lecteur DVD
 3. Appuyer sur le bouton **Open/Close** et insérer le disque
@@ -61,7 +62,6 @@ Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusq
 
 :::warning Note
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur DVD jusqu’à ce que s’affiche l'image.
-*Multizone : Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du Nord) et PAL (Europe).
 :::
 
   </TabItem>
