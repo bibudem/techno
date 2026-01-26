@@ -45,7 +45,7 @@ La salle comprend 7 postes de visionnement individuels, chacun équipé d’un t
 4. Appuyer sur **Play** de la télécommande
 5. Une fois le visionnement terminé, appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur Blu-ray. 
 
-:::note 
+:::warning Note 
 Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusqu’à ce que s’affiche l'image.
 :::
@@ -60,14 +60,9 @@ Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur BLU-RAY jusq
 4. Appuyer sur **Play** sur la télécommande.
 5. Une fois le visionnement terminé, appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur DVD.
 
-:::note 
-Note d’utilisation
+:::warning Note
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur DVD jusqu’à ce que s’affiche l'image.
-::: 
-
-:::note 
-*Note Multizone
-Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du Nord) et PAL (Europe).
+*Multizone : Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du Nord) et PAL (Europe).
 :::
 
   </TabItem>
@@ -81,7 +76,7 @@ Compatible avec les zones 1 à 8 ainsi qu’avec les formats NTSC (Amérique du 
 5. Une fois le visionnement terminé, appuyer sur **STOP**, puis **REW** afin de rembobiner la cassette.
 6. Appuyer sur le bouton **OFF** du panneau de contrôle et éteindre le lecteur VHS.
 
-:::note 
+:::warning Note 
 Note d’utilisation
 Si nécessaire, sur le panneau de contrôle, appuyer à nouveau sur VHS jusqu’à ce que s’affiche l'image.
 ::: 
