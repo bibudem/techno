@@ -57,7 +57,7 @@ const LIBRARIES = [
     url: "https://cloud.axper.com/api/LiveView/90e3ca77-5750-4f22-bc77-2f2504f1a212",
     name: "Bibliothèque Marguerite-d'Youville",
     address: "Pavillon Marguerite-d'Youville",
-    code: "pa",
+    code: "my",
     capacity: 151
   },
   {
