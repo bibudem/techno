@@ -40,7 +40,19 @@ const sidebars = {
             },
           ],
         },
-        'espaces/salledevisio',
+        
+        {
+          type: "category",
+          label: "Salles de visionnement",
+          collapsed: true, 
+          collapsible: true,
+          link: { type: 'doc', id: 'espaces/visionnement' }, 
+
+          items: [
+            "espaces/salledevisio",
+            "espaces/placesdevisio",
+          ],
+        },
   
 
 
