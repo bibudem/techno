@@ -15,7 +15,7 @@ const LIBRARIES = [
     url: "https://cloud.axper.com/api/LiveView/0232534a-6fb5-4f46-a694-0150cf7c803b",
     name: "Bibliothèque des lettres et sciences humaines",
     address: "Pavillon Samuel-Bronfman",
-    code: "ss",
+    code: "lsh",
     capacity: 702
   },
   {
@@ -64,14 +64,14 @@ const LIBRARIES = [
     url: "https://cloud.axper.com/api/LiveView/ff34308a-6b8b-4627-82b2-6bb6f43fd2f4",
     name: "Bibliothèque Hubert-Reeves",
     address: "Complexe des sciences du campus MIL",
-    code: "sciences",
+    code: "hr",
     capacity: 197
   },
   {
     url: "https://cloud.axper.com/api/LiveView/7e347ba2-ec2d-42cf-a0f9-a9d058dbfa30",
     name: "Bibliothèque Thérèse-Gouin-Décarie",
     address: "Pavillon Marie-Victorin",
-    code: "ed",
+    code: "tgd",
     capacity: 408
   },
   {
