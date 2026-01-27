@@ -23,7 +23,7 @@ import CardGrid from "@site/src/components/CardGrid";
 />
 
 
-Les salles 2076 et 2076-1 de la Bibliothèque des lettres et sciences humaines sont dédiées au visionnement de contenus audiovisuels pour des travaux universitaires. La salle 2076‑1 permet le visionnement collaboratif pour des groupes allant jusqu’à six personnes. La salle 2076 offre quant à elle sept postes individuels équipés de téléviseurs 32 pouces et d’écouteurs, permettant la consultation de Blu‑ray, DVD et VHS dans un environnement confortable.
+Les salles 2076 et 2076-1 de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) sont dédiées au visionnement de contenus audiovisuels pour des travaux universitaires. La salle 2076‑1 permet le visionnement collaboratif pour des groupes allant jusqu’à six personnes. La salle 2076 offre quant à elle sept postes individuels équipés de téléviseurs 32 pouces et d’écouteurs, permettant la consultation de Blu‑ray, DVD et VHS dans un environnement confortable.
 
 ---
 
@@ -48,5 +48,6 @@ Les salles 2076 et 2076-1 de la Bibliothèque des lettres et sciences humaines s
 
 
 ---
+
 
 
