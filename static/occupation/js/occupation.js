@@ -209,6 +209,8 @@ async function display() {
     ? requestedCodes.map(code => libraryByCode.get(code)).filter(Boolean)
     : LIBRARIES;
 
+  container.classList.toggle('single-column', !!requestedCodes);
+
   if (!libraries.length) {
     container.textContent = 'Aucune bibliothèque correspondante.';
     return;

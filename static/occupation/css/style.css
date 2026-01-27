@@ -60,13 +60,13 @@ header .datetime {
 /* ===== Grille ===== */
 #libraries {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 45px;
   width: 88%;
   max-width: 1800px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  align-content: center;
   flex: 1;
 }
 
@@ -76,10 +76,10 @@ header .datetime {
   border-left: 10px solid #0057ac;
   border-radius: 16px;
   box-sizing: border-box;
-  flex: 0 0 auto;
+  flex: 0 0 calc(50% - 22.5px);
   padding: 38px;
-  width: 100%;
-  max-width: none;
+  width: 92%;
+  max-width: 780px;
   height: 400px;
 
   display: flex;
@@ -87,6 +87,19 @@ header .datetime {
   justify-content: center;
   text-align: center;
 
+}
+
+#libraries.single-column {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+
+#libraries.single-column .library {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: none;
 }
 
 /* ===== Titres ===== */
