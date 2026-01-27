@@ -26,9 +26,9 @@ import CardGrid from "@site/src/components/CardGrid";
       icon : "Cube",
     },
     {
-      title: "Salle de visionnement en équipe",
-      description: "Un espace confortable pour visionner des contenus multimédias en groupe.",
-      link: "salledevisio",
+      title: "Salles de visionnement",
+      description: "Un espace confortable pour visionner des contenus multimédias.",
+      link: "visionnement",
       icon : "MonitorPlay",
     },
     {
