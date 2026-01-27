@@ -6,7 +6,7 @@ html, body {
   padding: 0;
   width: 2160px;
   height: 3840px;
-  background: #001529; /* Fond futuriste stable et ultra compatible */
+  background: #001529;
   font-family: "Figtree", sans-serif;
   color: #ffffff;
   display: flex;
@@ -14,7 +14,6 @@ html, body {
   justify-content: center;
 }
 
-/* Mise à l’échelle auto — ATTENTION : le Pi déteste parfois transform */
 @media screen {
   html, body {
     transform-origin: top left;
@@ -73,22 +72,21 @@ header .datetime {
 
 /* ===== Carte ===== */
 .library {
-  background: #002241; /* bleu sombre futuriste */
-  border-left: 10px solid #5fb3ff;
+  background: #002241;
+  border-left: 10px solid #0057ac;
   border-radius: 16px;
   box-sizing: border-box;
   flex: 0 0 auto;
   padding: 38px;
   width: 100%;
   max-width: none;
-  height: 480px;
+  height: 400px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 
-  /* ✅ Pas d’animations, pas d’ombres (Raspberry-friendly) */
 }
 
 /* ===== Titres ===== */
