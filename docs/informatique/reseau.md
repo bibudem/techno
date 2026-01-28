@@ -144,14 +144,6 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
 
 ---
 
-## UdeM non sécurisé {#udem-non-securise}
-
-:::caution
-Nous ne recommandons pas d’utiliser le réseau **UdeM non sécurisé**. Ce réseau ne donne pas accès à nos ressources électroniques et n’offre aucune garantie de confidentialité ni de sécurité. CETTE CONNEXION RÉSEAU SERA RETIRÉE LE 22 JANVIER 2026.
-:::
-
----
-
 ## Dépannage {#depannage}
 
 En cas de problème avec le réseau sans fil, suivez les instructions ci-dessous pour oublier ou retirer un réseau et vous y reconnecter. 
