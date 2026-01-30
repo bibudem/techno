@@ -29,6 +29,14 @@ Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](h
 :::tip Nouvel horaire de réservation
 À partir de janvier 2026, le Studio balado vidéo sera ouvert du lundi au vendredi, **de 9 h à 20 h** et le samedi et dimanche de **9 h à 17 h**.
 :::
+
+
+<!-- :::danger Bruit lié aux travaux
+En raison de travaux en cours à la Bibliothèque des lettres et sciences humaines, des perturbations sonores pourraient influencer la qualité des enregistrements au studio.
+[Consultez la nouvelle à ce sujet](https://bib.umontreal.ca/nouvelles/2026/annonce-travaux-bibliotheque-LSH/).
+::: -->
+
+
 ---
 
 <Link to="#localisation-acces" className="button button--primary">
