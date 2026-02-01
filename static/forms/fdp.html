@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demande de Perfectionnement - Les bibliothèques UdeM</title>
+
+  <!-- Police -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="50" cy="50" r="45" fill="#0057ac" opacity="0.1"/>
+          <path d="M25 35h50v5H25z" fill="#0057ac"/>
+          <path d="M25 45h35v3H25z" fill="#0057ac"/>
+          <path d="M25 52h40v3H25z" fill="#0057ac"/>
+          <path d="M25 59h45v3H25z" fill="#0057ac"/>
+          <circle cx="75" cy="35" r="8" fill="#f04e24"/>
+          <path d="M72 32h6v6h-6z" fill="white"/>
+          <path d="M73 33h4v4h-4z" fill="#f04e24"/>
+        </svg>
+      </div>
+      <h1>📚 Demande de Perfectionnement</h1>
+      <p>Les bibliothèques UdeM</p>
+    </div>
+
+    <!-- Type Selector -->
+    <div class="type-selector">
+      <h2>Type de demande</h2>
+      <div class="type-options">
+        <!-- Accessibilité clavier: role/tabindex + aria-pressed (géré en JS) -->
+        <div class="type-card" data-type="sans-frais" role="button" tabindex="0" aria-pressed="false">
+          <h3>Sans frais</h3>
+          <p>Formation gratuite, webinaire, conférence sans coûts associés</p>
+        </div>
+
+        <div class="type-card" data-type="avec-frais" role="button" tabindex="0" aria-pressed="false">
+          <h3>Avec frais</h3>
+          <p>Formation payante nécessitant une approbation budgétaire</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form Container -->
+    <div class="form-container" id="formContainer">
+      <!-- aria-live pour annoncer succès/erreur -->
+      <div id="statusMessage" class="status-message" aria-live="polite"></div>
+
+      <form id="demandeForm" novalidate>
+        <input type="hidden" id="type_demande" name="type_demande" value="">
+
+        <!-- Section: Informations du demandeur -->
+        <div class="section">
+          <h2>👤 Informations du demandeur</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="matricule">Matricule <span class="required">*</span></label>
+              <input
+                type="number"
+                id="matricule"
+                name="matricule"
+                required
+                min="0"
+                step="1"
+                inputmode="numeric"
+                placeholder="Ex: 12345678"
+              >
+            </div>
+            <div class="form-group">
+              <label for="nom_demandeur">Nom du demandeur <span class="required">*</span></label>
+              <input type="text" id="nom_demandeur" name="nom_demandeur" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fonction">Fonction <span class="required">*</span></label>
+              <select id="fonction" name="fonction" required>
+                <option value="">Sélectionner...</option>
+                <option value="Bibliothécaire">Bibliothécaire</option>
+                <option value="Technicien en documentation">Technicien en documentation</option>
+                <option value="Agent d'information">Agent d'information</option>
+                <option value="Gestionnaire">Gestionnaire</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="unite">Unité <span class="required">*</span></label>
+              <select id="unite" name="unite" required>
+                <option value="">Sélectionner...</option>
+                <option value="Acquisitions">Acquisitions</option>
+                <option value="Référence">Référence</option>
+                <option value="Collections spéciales">Collections spéciales</option>
+                <option value="Services techniques">Services techniques</option>
+                <option value="Administration">Administration</option>
+                <option value="Bibliothèque secteur">Bibliothèque secteur</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row full">
+            <div class="form-group">
+              <label for="superieur_immediat">Supérieur immédiat <span class="required">*</span></label>
+              <input type="text" id="superieur_immediat" name="superieur_immediat" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Détails de la formation -->
+        <div class="section">
+          <h2>🎓 Détails de la formation</h2>
+          <div class="form-row full">
+            <div class="form-group">
+              <label for="titre">Titre de la formation <span class="required">*</span></label>
+              <input type="text" id="titre" name="titre" required>
+            </div>
+          </div>
+
+          <div class="form-row full">
+            <div class="form-group">
+              <label for="description">Description</label>
+              <textarea id="description" name="description" placeholder="Décrivez brièvement le contenu de la formation..."></textarea>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="lieu_ville_pays">Lieu (ville, pays)</label>
+              <input type="text" id="lieu_ville_pays" name="lieu_ville_pays" placeholder="ex: Montréal, Canada">
+            </div>
+            <div class="form-group">
+              <label for="presentiel_ou_virtuel">Mode de formation <span class="required">*</span></label>
+              <select id="presentiel_ou_virtuel" name="presentiel_ou_virtuel" required>
+                <option value="">Sélectionner...</option>
+                <option value="Présentiel">Présentiel</option>
+                <option value="Virtuel">Virtuel</option>
+                <option value="Hybride">Hybride</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="offert_par">Offert par <span class="required">*</span></label>
+              <select id="offert_par" name="offert_par" required>
+                <option value="">Sélectionner...</option>
+                <option value="Université">Université</option>
+                <option value="Association professionnelle">Association professionnelle</option>
+                <option value="Organisme gouvernemental">Organisme gouvernemental</option>
+                <option value="Entreprise privée">Entreprise privée</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="offert_par_autre">Si autre, précisez</label>
+              <input type="text" id="offert_par_autre" name="offert_par_autre" disabled>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Dates et durée -->
+        <div class="section">
+          <h2>📅 Dates et durée</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date_debut">Date de début <span class="required">*</span></label>
+              <input type="datetime-local" id="date_debut" name="date_debut" required>
+            </div>
+            <div class="form-group">
+              <label for="date_limite_inscription_hative">Date limite inscription hâtive</label>
+              <input type="datetime-local" id="date_limite_inscription_hative" name="date_limite_inscription_hative">
+            </div>
+          </div>
+
+          <div class="form-row two-columns">
+            <div class="form-group">
+              <label for="nombre_jours">Nombre de jours</label>
+              <input type="number" id="nombre_jours" name="nombre_jours" min="1" step="1">
+            </div>
+            <div class="form-group">
+              <label for="nombre_heures">Nombre d'heures</label>
+              <input type="number" id="nombre_heures" name="nombre_heures" min="1" step="1">
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Coûts et frais (avec-frais seulement) -->
+        <div class="section frais-only" id="couts-section" style="display:none;">
+          <h2>💰 Coûts et frais <span class="badge">AVEC FRAIS</span></h2>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="frais_inscription">Frais d'inscription ($)</label>
+              <input type="number" id="frais_inscription" name="frais_inscription" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+              <label for="cout_transport">Coût transport ($)</label>
+              <input type="number" id="cout_transport" name="cout_transport" step="0.01" min="0">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="moyen_transport">Moyen de transport</label>
+              <select id="moyen_transport" name="moyen_transport">
+                <option value="">Sélectionner...</option>
+                <option value="Avion">Avion</option>
+                <option value="Train">Train</option>
+                <option value="Automobile">Automobile</option>
+                <option value="Autobus">Autobus</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hebergement_nombre_nuits">Hébergement (nombre de nuits)</label>
+              <input type="number" id="hebergement_nombre_nuits" name="hebergement_nombre_nuits" min="0" step="1">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cout_par_nuit">Coût par nuit ($)</label>
+              <input type="number" id="cout_par_nuit" name="cout_par_nuit" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+              <label for="montant_frais_transport_hotel_etc">Autres frais (repas, etc.) ($)</label>
+              <input type="number" id="montant_frais_transport_hotel_etc" name="montant_frais_transport_hotel_etc" step="0.01" min="0">
+            </div>
+          </div>
+
+          <div class="form-row full">
+            <div class="form-group">
+              <label for="autres_infos_evaluation_couts">Autres informations pertinentes à l'évaluation des coûts</label>
+              <textarea id="autres_infos_evaluation_couts" name="autres_infos_evaluation_couts"
+                placeholder="Subventions disponibles, tarifs réduits, partage de frais avec d'autres participants, etc."></textarea>
+            </div>
+          </div>
+
+          <div id="cout-total-display" class="cout-total-display">
+            💲 Coût total estimé : <span id="cout-total-montant">0.00 $</span>
+          </div>
+        </div>
+
+        <!-- Section: Justification -->
+        <div class="section">
+          <h2>📝 Justification</h2>
+          <div class="form-row full">
+            <div class="form-group">
+              <label for="justification_demande">Justification de la demande <span class="required">*</span></label>
+              <textarea id="justification_demande" name="justification_demande" required
+                placeholder="Expliquez pourquoi cette formation est nécessaire, comment elle s'inscrit dans vos fonctions et comment elle bénéficiera à l'organisation..."
+                style="min-height:120px;"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="submit-container">
+          <button type="submit" class="submit-btn">📤 Soumettre la demande</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="./app.js" defer></script>
+</body>
+</html>

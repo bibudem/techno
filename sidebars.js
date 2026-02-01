@@ -26,6 +26,7 @@ const sidebars = {
           ],
         },
         'espaces/ateliers',
+        // 'espaces/zines',
         // 'espaces/laboformation',
         {
           type: 'category',
