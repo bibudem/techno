@@ -48,6 +48,7 @@ onBrokenLinks: 'warn',
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
     require.resolve('./src/clientModules/klaroLoader.js'),
+    require.resolve('./src/clientModules/accessibilitePersist.js'),
   ],
 
   presets: [
@@ -70,10 +71,14 @@ onBrokenLinks: 'warn',
           customCss: [
             require.resolve("./src/css/custom.css"),
             require.resolve("./src/css/palette.css"),
+            
           ],
         },
       }),
     ],
+  ],
+  stylesheets: [
+    '/accessibilite/widget.css',
   ],
 
   scripts: [
@@ -81,6 +86,10 @@ onBrokenLinks: 'warn',
       src: 'https://corvee.bib.umontreal.ca/loader.js',
       defer: true,
       type: 'module'
+    },
+    {
+      src: '/accessibilite/widget.js',
+      defer: true,
     }
   ],
 

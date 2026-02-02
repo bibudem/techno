@@ -40,6 +40,14 @@ Les contenus et fonctionnalités développés à partir du 29 avril 2024 respect
 
 Le site est développé avec [Docusaurus](https://docusaurus.io/), utilise les langages HTML5, CSS et JavaScript modernes, et sépare clairement contenu et présentation. Le code source est ouvert et consultable sur [GitHub](https://github.com/bibudem/techno).
 
+## Outil d’accessibilité intégré
+
+Ce site propose également un outil d’accessibilité permettant d’ajuster l’affichage selon vos besoins (fond chaud, police OpenDyslexic, mise en évidence des liens, etc.).
+
+Cet outil est basé sur un projet libre développé par les [North Carolina State University Libraries](https://github.com/NCSU-Libraries-UX/readability-widget). Nous l’avons adapté, traduit et intégré à l’environnement studio·bib afin qu’il corresponde à nos usages et à notre communauté.
+
+Les préférences sélectionnées sont conservées automatiquement lors de votre navigation.
+
 ## Besoin d’aide?
 
 Si vous rencontrez une barrière à l’accessibilité ou si vous avez besoin d’assistance pour accéder à certains contenus, [n’hésitez pas à nous contacter](./nous-joindre). Nous ferons tout notre possible pour vous aider rapidement.

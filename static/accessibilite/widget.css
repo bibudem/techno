@@ -1,0 +1,431 @@
+/*
+ * studio·bib — Outil d’accessibilité (Readability Widget)
+ * Adapté style UdeM / Docusaurus :
+ * - Couleurs/typos via variables du thème Docusaurus (IFM)
+ * - Comportements conservés (fond chaud, dyslexic, liens, images)
+ */
+
+/* ---------------------------
+   Police OpenDyslexic (local)
+---------------------------- */
+@font-face {
+  font-family: "Open Dyslexic";
+  src:
+    url("./fonts/OpenDyslexic-Regular.otf") format("opentype"),
+    url("./fonts/OpenDyslexic-Bold.otf") format("opentype");
+  font-display: swap;
+}
+
+body.open-dyslexic {
+  font-family: "Open Dyslexic";
+}
+body.open-dyslexic *:not(i) {
+  font-family: "Open Dyslexic" !important;
+}
+
+/* ============================================================
+   MASQUER IMAGES (scopé au contenu seulement)
+   - Ne touche PAS navbar / logos / footer
+   - Corrige le texte blanc sur image (overlay)
+============================================================ */
+
+/* 1) Retirer les images de fond uniquement dans <main> */
+body.readability-hide-images main * {
+  background-image: none !important;
+}
+
+/* 2) Masquer les images uniquement dans <main>
+   (opacity=0 pour éviter des shifts de mise en page) */
+body.readability-hide-images main img,
+body.readability-hide-images main picture,
+body.readability-hide-images main svg image {
+  opacity: 0 !important;
+}
+
+/* 3) Cas courant : hero/banner (texte souvent blanc) → fond clair + texte sombre */
+body.readability-hide-images main .hero,
+body.readability-hide-images main .hero--primary,
+body.readability-hide-images main .heroBanner,
+body.readability-hide-images main [class*="heroBanner"],
+body.readability-hide-images main [class*="HeroBanner"] {
+  background: #fff !important;
+  color: var(--ifm-font-color-base, #1c1e21) !important;
+}
+
+/* Titres/sous-titres dans ces zones */
+body.readability-hide-images main .hero__title,
+body.readability-hide-images main .hero__subtitle,
+body.readability-hide-images main .heroBanner *,
+body.readability-hide-images main [class*="heroBanner"] * {
+  color: var(--ifm-font-color-base, #1c1e21) !important;
+}
+
+/* 4) Correction plus générique : texte blanc -> sombre
+   (utile pour des composants custom avec style inline / classes utilitaires) */
+body.readability-hide-images main [style*="color: white"],
+body.readability-hide-images main [style*="color:#fff"],
+body.readability-hide-images main [style*="color: #fff"],
+body.readability-hide-images main [style*="color:#ffffff"],
+body.readability-hide-images main [style*="color: #ffffff"],
+body.readability-hide-images main .text-white,
+body.readability-hide-images main .is-white,
+body.readability-hide-images main .font-white,
+body.readability-hide-images main .color-white {
+  color: var(--ifm-font-color-base, #1c1e21) !important;
+}
+
+/* 5) Si tu as des zones "overlay" (texte posé sur image) :
+   On donne un fond clair minimal pour garder le contraste (prudence). */
+body.readability-hide-images main [class*="overlay"],
+body.readability-hide-images main [class*="Overlay"],
+body.readability-hide-images main [class*="banner"],
+body.readability-hide-images main [class*="Banner"] {
+  background-color: #fff !important;
+}
+
+/* Liens visibles même quand on force les couleurs
+body.readability-hide-images main a {
+  color: var(--ifm-link-color, var(--ifm-color-primary)) !important;
+} */
+
+/* ---------------------------
+   Overlay fond chaud
+---------------------------- */
+#readability-warm-overlay {
+  top: -10% !important;
+  right: -10% !important;
+  width: 120% !important;
+  height: 120% !important;
+  position: fixed !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  pointer-events: none !important;
+
+  /* au-dessus du contenu, sous le widget */
+  z-index: 2147483640 !important;
+
+  opacity: 1 !important;
+  transition: opacity 0.1s !important;
+  mix-blend-mode: multiply !important;
+  background: rgba(245, 229, 209, 0.7) !important;
+}
+
+/* ---------------------------
+   Mise en évidence des liens
+   (Ne touche pas aux couleurs du widget, seulement au contenu de page)
+---------------------------- */
+body.readability-highlight-links-on a,
+body.readability-highlight-links-on button {
+  background: #fac800 !important;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+body.readability-highlight-links-on a *,
+body.readability-highlight-links-on button * {
+  background: #fac800 !important;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+body.readability-highlight-links-on a {
+  border-bottom: 2px solid #000 !important;
+}
+body.readability-highlight-links-on button {
+  border: 2px solid #000 !important;
+}
+body.readability-highlight-links-on a:hover {
+  border-bottom-color: rgba(0, 0, 0, 0) !important;
+}
+body.readability-highlight-links-on button:hover {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* ============================================================
+   WIDGET UI — style UdeM via variables Docusaurus
+============================================================ */
+
+#readability-widget {
+  opacity: 0;
+  position: fixed;
+  right: 12px;
+  width: 360px;
+  
+  max-width: calc(100vw - 24px);
+  transition: bottom 0.25s;
+
+  /* Le site peut avoir des overlays/toasts */
+  z-index: 2147483646;
+}
+
+/* Zone toggle */
+#readability-widget #widget-toggle {
+  text-align: right;
+}
+
+#readability-widget #widget-toggle svg {
+  fill: currentColor;
+  width: 18px;
+  margin: 0 8px 0 0;
+  position: relative;
+  top: 3px;
+}
+
+/* Bouton principal (UdeM : couleur primaire du thème) */
+#readability-widget #widget-toggle button {
+  border: 0;
+  cursor: pointer;
+  position: relative;
+
+  font-family: var(--ifm-font-family-base, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
+  font-size: 1rem;
+  line-height: 1.2;
+
+  background: var(--ifm-color-primary, #0057ac);
+  color: #fff;
+
+  padding: 10px 36px 10px 12px;
+  border-radius: 12px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+#readability-widget #widget-toggle button:hover {
+  filter: brightness(0.97);
+}
+
+/* Focus visible (UdeM/Docusaurus) */
+#readability-widget #widget-toggle button:focus,
+#readability-widget #widget-toggle button:focus-visible {
+  outline: 3px solid var(--ifm-color-primary-lightest, #b3d4ff);
+  outline-offset: 2px;
+}
+
+/* Caret (flèche) */
+#readability-widget.open #widget-toggle button::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 18px;
+  right: 12px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+}
+
+#readability-widget.closed #widget-toggle button.closed::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 24px;
+  right: 12px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+}
+
+/* Panneau */
+#readability-widget.open #widget-content {
+  display: block;
+}
+
+#readability-widget #widget-content {
+  background: #fff;
+  border: 1px solid var(--ifm-color-emphasis-300, #cfd3d7);
+  border-radius: 14px;
+
+  font-family: var(--ifm-font-family-base, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+
+  padding: 16px;
+  margin-top: 8px;
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.18);
+
+  max-width: 400px;
+}
+
+#readability-widget #widget-content p {
+  font-size: 0.95rem;
+  margin: 10px 0;
+  color: var(--ifm-font-color-base, #1c1e21);
+}
+
+#readability-widget #widget-content p a {
+  color: var(--ifm-link-color, var(--ifm-color-primary, #0057ac));
+  text-decoration: none;
+}
+#readability-widget #widget-content p a:hover {
+  text-decoration: underline;
+}
+
+/* Bouton “Masquer cet outil” */
+#readability-widget #widget-content #hide-widget-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  color: var(--ifm-color-emphasis-600, #5b5f63);
+  font-size: 0.95rem;
+}
+#readability-widget #widget-content #hide-widget-button:hover {
+  text-decoration: underline;
+}
+
+/* Dernier élément sans marge */
+#readability-widget #widget-content *:last-child {
+  margin-bottom: 0;
+}
+
+/* Etat widget-hidden (le widget se range sur le côté) */
+#readability-widget.widget-hidden {
+  right: -154px;
+}
+#readability-widget.widget-hidden #widget-toggle button {
+  background-color: var(--ifm-color-emphasis-400, #8a8f94);
+  transition: right 0.25s, background-color 0.25s;
+  right: 0;
+}
+#readability-widget.widget-hidden #widget-toggle button:hover {
+  position: relative;
+  right: 156px;
+  background-color: var(--ifm-color-danger, #d33);
+}
+
+/* ---------------------------
+   Switches (toggles)
+---------------------------- */
+#readability-widget #widget-content label.readability-switch {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+
+  min-height: 36px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#readability-widget #widget-content label.readability-switch span.readability-switch-label {
+  font-size: 1rem;
+  line-height: 1.25;
+  padding-right: 12px;
+}
+
+#readability-widget #widget-content label.readability-switch span.switch-toggle-container {
+  height: 36px;
+  justify-self: end;
+  position: relative;
+  width: 64px;
+}
+
+/* Hide default checkbox */
+#readability-widget #widget-content label.readability-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#readability-widget #widget-content label.readability-switch input:focus + span.toggle-switch,
+#readability-widget #widget-content label.readability-switch input:focus-visible + span.toggle-switch {
+  outline: 3px solid var(--ifm-color-primary-lightest, #b3d4ff);
+  outline-offset: 2px;
+}
+
+/* The switch track */
+#readability-widget #widget-content label.readability-switch span.toggle-switch {
+  background-color: var(--ifm-color-emphasis-200, #e6e8ea);
+  border-radius: 999px;
+  bottom: 0;
+  cursor: pointer;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+}
+
+/* ON/OFF labels */
+#readability-widget #widget-content label.readability-switch span.toggle-switch .label-on,
+#readability-widget #widget-content label.readability-switch span.toggle-switch .label-off {
+  align-self: center;
+  font-size: 0.75rem;
+  text-align: center;
+  z-index: 0;
+  user-select: none;
+}
+
+#readability-widget #widget-content label.readability-switch span.toggle-switch .label-on {
+  display: none;
+}
+#readability-widget #widget-content label.readability-switch span.toggle-switch .label-off {
+  padding-left: 32px;
+  padding-right: 6px;
+}
+
+/* Thumb */
+#readability-widget #widget-content label.readability-switch span.toggle-switch:before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  bottom: 6px;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+
+  transition: transform 0.2s;
+}
+
+/* Checked state */
+#readability-widget #widget-content label.readability-switch input:checked + .toggle-switch {
+  background-color: var(--ifm-color-primary-light, #94ccf9);
+}
+
+#readability-widget #widget-content label.readability-switch input:checked + .toggle-switch .label-off {
+  display: none;
+}
+#readability-widget #widget-content label.readability-switch input:checked + .toggle-switch .label-on {
+  display: block;
+}
+
+#readability-widget #widget-content label.readability-switch input:checked + .toggle-switch:before {
+  transform: translateX(28px);
+}
+
+/* ============================================================
+   CardMedia studio·bib — correction accessibilité
+   ============================================================ */
+
+body.readability-hide-images main [data-sb-cardmedia] {
+  background: #fff !important;
+  color: var(--ifm-font-color-base, #1c1e21) !important;
+}
+
+/* texte interne */
+body.readability-hide-images main [data-sb-cardmedia] * {
+  color: var(--ifm-font-color-base, #1c1e21) !important;
+}
+
+/* liens */
+body.readability-hide-images main [data-sb-cardmedia] a {
+  color: var(--ifm-link-color, var(--ifm-color-primary)) !important;
+}
+
+/* ---------------------------
+   Impression
+---------------------------- */
+@media print {
+  #readability-widget {
+    display: none !important;
+  }
+}
