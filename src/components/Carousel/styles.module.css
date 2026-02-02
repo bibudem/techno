@@ -14,6 +14,7 @@
 
 .embla__container {
   display: flex;
+  align-items: stretch;
   touch-action: pan-y;
   margin-left: calc(var(--slide-spacing) * -1);
 }
@@ -22,10 +23,14 @@
   flex: 0 0 var(--slide-size);
   min-width: 0;
   padding-left: var(--slide-spacing);
+  display: flex;
 }
 
 .embla__slide__inner {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--ifm-color-emphasis-300);
@@ -60,11 +65,15 @@
 }
 
 /* Controls */
-.embla__controls {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.75rem;
-  align-items: center;
+.embla__controlsTop {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.embla__controlsBottom {
+  display: flex;
+  justify-content: center;
   margin-top: 0.75rem;
 }
 
@@ -80,8 +89,8 @@
   -webkit-tap-highlight-color: transparent;
   appearance: none;
 
-  background: transparent;
-  border: 1px solid var(--ifm-color-emphasis-300);
+  background: #0057ac;
+  border: 1px solid #0057ac;
   border-radius: 999px;
 
   width: 2.6rem;
@@ -98,8 +107,18 @@
   font-size: 0;
   vertical-align: middle;
 
-  color: var(--ifm-font-color-base);
+  color: #ffffff;
   cursor: pointer;
+}
+
+:global(.embla__button:hover:not(:disabled)) {
+  background: #004a91;
+  border-color: #004a91;
+}
+
+:global(.embla__button:active:not(:disabled)) {
+  background: #003e7a;
+  border-color: #003e7a;
 }
 
 :global(.embla__button:disabled) {
@@ -132,7 +151,7 @@
 .embla__dots {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 0.35rem;
 }

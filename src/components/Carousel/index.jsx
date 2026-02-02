@@ -12,19 +12,34 @@ export default function PhotoCarousel({
   options = {},
   ariaLabel = 'Galerie de photos',
 }) {
-const emblaOptions = {
-  slidesToScroll: 1,       // ✅ 1 item par scroll
-  align: 'start',
-  containScroll: 'keepSnaps', // ✅ 1 snap par slide (pour 1 dot = 1 item)
-  loop: false,
-  ...options,
-};
+  const emblaOptions = {
+    slidesToScroll: 1, // ✅ 1 item par scroll
+    align: 'start',
+    containScroll: 'keepSnaps', // ✅ 1 snap par slide (pour 1 dot = 1 item)
+    loop: false,
+    ...options,
+  };
 
   const [emblaRef, emblaApi] = useEmblaCarousel(emblaOptions);
 
   const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
   const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } =
     usePrevNextButtons(emblaApi);
+
+  const controlsButtons = (
+    <div className={styles.embla__buttons}>
+      <PrevButton
+        onClick={onPrevButtonClick}
+        disabled={prevBtnDisabled}
+        aria-label="Aller au groupe précédent"
+      />
+      <NextButton
+        onClick={onNextButtonClick}
+        disabled={nextBtnDisabled}
+        aria-label="Aller au groupe suivant"
+      />
+    </div>
+  );
 
   const slideLabel = useCallback(
     (i) => {
@@ -42,6 +57,7 @@ const emblaOptions = {
 
   return (
     <section className={styles.embla} aria-label={ariaLabel}>
+      <div className={styles.embla__controlsTop}>{controlsButtons}</div>
       <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
           {slides.map((slide, index) => (
@@ -86,35 +102,24 @@ const emblaOptions = {
         </div>
       </div>
 
-      <div className={styles.embla__controls}>
-        <div className={styles.embla__buttons}>
-          <PrevButton
-            onClick={onPrevButtonClick}
-            disabled={prevBtnDisabled}
-            aria-label="Aller au groupe précédent"
-          />
-          <NextButton
-            onClick={onNextButtonClick}
-            disabled={nextBtnDisabled}
-            aria-label="Aller au groupe suivant"
-          />
+      <div className={styles.embla__controlsBottom}>
+        <div
+          className={styles.embla__dots}
+          role="tablist"
+          aria-label="Navigation de la galerie"
+        >
+          {slides.map((_, i) => (
+            <DotButton
+              key={slides[i]?.id || i}
+              onClick={() => emblaApi && emblaApi.scrollTo(i)}
+              className={`${styles.embla__dot} ${
+                i === selectedIndex ? styles['is-selected'] : ''
+              }`}
+              aria-label={`Aller à l’item ${i + 1} : ${slideLabel(i)}`}
+              aria-current={i === selectedIndex ? 'true' : 'false'}
+            />
+          ))}
         </div>
-
-       <div
-  className={styles.embla__dots}
-  role="tablist"
-  aria-label="Navigation de la galerie"
->
-  {slides.map((_, i) => (
-    <DotButton
-      key={slides[i]?.id || i}
-      onClick={() => emblaApi && emblaApi.scrollTo(i)}
-      className={`${styles.embla__dot} ${i === selectedIndex ? styles['is-selected'] : ''}`}
-      aria-label={`Aller à l’item ${i + 1} : ${slideLabel(i)}`}
-      aria-current={i === selectedIndex ? 'true' : 'false'}
-    />
-  ))}
-</div>
       </div>
     </section>
   );
