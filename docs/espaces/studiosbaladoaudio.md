@@ -23,6 +23,7 @@ import Pano360 from '@site/src/components/Pano360';
 />
 
 Les studios balado audio des bibliothèques de l’UdeM offrent gratuitement des équipements de qualité pour enregistrer divers projets comme des balados, des présentations et des entretiens.
+Les studios peuvent accueillir jusqu'à 4 personnes et sont conçus pour un usage autonome et accessible, sans nécessiter d’expertise technique préalable.
 
 ---
 

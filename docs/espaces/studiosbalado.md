@@ -26,7 +26,7 @@ import { studiosbaladoSlides } from '@site/src/data/studiosbaladoSlides';
 />
 
 
-Les bibliothèques de l’UdeM mettent à la disposition de la communauté universitaire trois studios de balado : deux studios balado audio et un studio balado vidéo. Ces espaces offrent des équipements de qualité pour enregistrer différents types de projets, notamment des balados, des présentations et des entretiens, dans un cadre autonome et accessible.
+Les bibliothèques de l’UdeM mettent à la disposition de la communauté universitaire trois studios de balado : deux studios balado audio et un studio balado vidéo. Ces espaces offrent des équipements de qualité pour enregistrer différents types de projets, notamment des balados, des présentations et des entretiens, dans un cadre autonome et accessible. Les studios peuvent accueillir jusqu'à 4 personnes.
 
 ---
 
