@@ -29,8 +29,9 @@ Le tout a été réalisé grâce au Fonds d'amélioration de la vie étudiante (
 ## Disponibilité
 
 Présentez-vous au comptoir des bibliothèques suivantes pour emprunter un casque.
-Vous pouvez aussi réserver un casque à l'avance en cliquant sur les liens ci-dessous.
 Le prêt, réservé à la communauté UdeM, est de 7 jours, renouvelable automatiquement.
+
+Vous pouvez aussi réserver un casque à l'avance en cliquant sur les liens ci-dessous.
 
 Disponibles en ce moment : 
 
@@ -45,6 +46,7 @@ Disponibles en ce moment :
   <Disponibilite label="Aménagement" oclc="1472198755" /> 
   <Disponibilite label="Hubert-Reeves" oclc="1246168952" />
   <Disponibilite label="Lettres et sciences humaines" oclc="1472212538" />
+  <Disponibilite label="Campus de Laval" oclc="1568122752" />
   <Disponibilite label="Marguerite d’Youville" oclc="1135196039" />
   <Disponibilite label="Médecine vétérinaire" oclc="1472214011" />
   <Disponibilite label="Mathématiques et informatique" oclc="1472141341" />
