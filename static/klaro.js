@@ -54,13 +54,14 @@ var klaroConfig = {
       callback(consent) {
         if (consent) {
           const s = document.createElement('script');
-          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-R5SGXR9DKM';
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-V8J6YFFD4F';
           s.async = true;
           document.head.appendChild(s);
           window.dataLayer = window.dataLayer || [];
           function gtag(){ dataLayer.push(arguments); }
           gtag('js', new Date());
-          gtag('config', 'G-R5SGXR9DKM', { anonymize_ip: true });
+          gtag('config', 'G-V8J6YFFD4F', { anonymize_ip: true });
+          
         }
       },
     },
