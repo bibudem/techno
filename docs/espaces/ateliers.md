@@ -117,10 +117,10 @@ Réservez une rencontre avec notre équipe ou plongez dans une formation pratiqu
 
 ## Visite virtuelle
 
-### Bibliothèque Thérèse-Gouin-Décarie {#tgd}
+### Bibliothèque Hubert Reeves {#hr}
 
 <Pano360
-  image="/img/pano/ateliertgd.webp"
+  image="/img/pano/atelierhr.webp"
   legende="Vue en 360° de l'atelier de fabrication"
   title="Atelier de fabrication"
   alt="Vue en 360° de l'atelier de fabrication"

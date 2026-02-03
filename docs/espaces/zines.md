@@ -1,7 +1,7 @@
 ---
 id: zines
 title: Atelier de zines
-image: "/img/cover/zines.jpg"
+image: "/img/cover/zines.webp"
 
 ---
 

@@ -1,5 +1,5 @@
 // Configuration
-const WEBHOOK_URL = 'https://ordo.bib.umontreal.ca/webhook-test/93220624-f402-457b-84f4-d7d95c85eefe';
+const WEBHOOK_URL = 'https://ordo.bib.umontreal.ca/webhook-test/demande-perfectionnement';
 const FETCH_TIMEOUT_MS = 15000;
 
 // Variables globales
