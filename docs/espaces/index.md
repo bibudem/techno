@@ -25,7 +25,12 @@ import CardGrid from "@site/src/components/CardGrid";
       link: "ateliers",
       icon : "Cube",
     },
-
+    {
+      title: "Atelier de zines",
+      description: "Un lieu idéal pour concevoir ou finaliser un zine.",
+      link: "zines",
+      icon : "Cube",
+    },
     {
       title: "Salles de visionnement",
       description: "Un espace confortable pour visionner des contenus multimédias.",
@@ -44,7 +49,6 @@ import CardGrid from "@site/src/components/CardGrid";
       link: "studiovideo",
       icon : "VideoCamera",
     },
-
         {
       title: "Laboratoire de visualisation",
       description: "Un environnement pour interagir avec des données visuelles sur grand écran.",
@@ -55,9 +59,3 @@ import CardGrid from "@site/src/components/CardGrid";
 />
 
 
-        <!-- {
-      title: "Atelier de zines",
-      description: "Un lieu idéal pour concevoir ou finaliser un zine.",
-      link: "zines",
-      icon : "Cube",
-    }, -->
