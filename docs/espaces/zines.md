@@ -60,11 +60,11 @@ L’atelier est ouvert du lundi au jeudi en après-midi de 15 h 40 à 16 h 40 et
 </div>
 ---
 
-<!-- :::tip Vous enseignez un cours à l’UdeM?
-Vous pouvez réserver l’atelier pour intégrer le zine à votre enseignement. [Consultez la fiche du local dans le module de réservation](#).
+:::tip Vous enseignez un cours à l’UdeM?
+Vous pouvez réserver l’atelier pour intégrer le zine à votre enseignement. [Consultez la fiche du local dans le module de réservation](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=8516).
 :::
 
---- -->
+---
 
 ## Formations et soutien
 
