@@ -42,7 +42,7 @@ Matériel disponible à l’atelier :
 ## Localisation et accès
 
 L’atelier de zines est accessible gratuitement à toute la communauté UdeM.
-L’atelier est ouvert du lundi au jeudi en après-midi de 15 h 40 à 16 h 40 et le mardi et le vendredi en matinée, de 11 h 30 à 12 h 30 le mardi et le vendredi.
+L’atelier est ouvert du lundi au jeudi en après-midi de 15 h 40 à 16 h 40 et le mardi et le vendredi en matinée, de 11 h 30 à 12 h 30.
 
 
 <div
@@ -61,7 +61,7 @@ L’atelier est ouvert du lundi au jeudi en après-midi de 15 h 40 à 16 h 40 et
 ---
 
 :::tip Vous enseignez un cours à l’UdeM?
-Vous pouvez réserver l’atelier pour intégrer le zine à votre enseignement. [Consultez la fiche du local dans le module de réservation](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=8516).
+Vous pouvez réserver l’atelier pour intégrer le zine à votre enseignement. [Consultez la fiche du local dans le module de réservation](https://calendrier.bib.umontreal.ca/space/36571).
 :::
 
 ---
