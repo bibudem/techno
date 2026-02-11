@@ -1,7 +1,6 @@
 ---
 id : accessibilite
 title : Accessibilité
-retroaction : false
 image: "/img/cover/accessibilite.webp"
 ---
 
