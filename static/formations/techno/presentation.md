@@ -6,8 +6,7 @@ studio.bib.umontreal.ca/formations/techno
 
 ---
 
-Les Bibliothèques de l’Université de Montréall.
-
+Les Bibliothèques de l’Université de Montréal
 Direction de la recherche et des initiatives numériques (DRIN)
 Équipe Expérience numérique 
 
