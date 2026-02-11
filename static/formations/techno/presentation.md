@@ -6,23 +6,15 @@ studio.bib.umontreal.ca/formations/techno
 
 ---
 
-# **Qui suis-je ?**
-
-### Emir Chouchane
-**Conseiller en médiation technologique**
-
-Direction de la recherche et des initiatives numériques
+Les Bibliothèques de l’Université de Montréal
+Direction de la recherche et des initiatives numériques (DRIN)
+Équipe Expérience numérique 
 
 Bibliothèques UdeM
 
-- 10+ ans en création numérique et médiation
-- Conception d’espaces créatifs
-- Développement de solutions techniques internes  
-- Spécialisation audio/vidéo, VR, impression 3D, UX/UI
-
 ---
 
-# **Mon rôle**
+# **Notre rôle**
 
 - Concevoir et maintenir des espaces technologiques  
 - Développer des outils internes innovants  
@@ -183,7 +175,7 @@ Collaboration en cours avec le CHU Sainte-Justine afin de produire en impression
 
 ---
 
-# **La sous-marque studio·bib**
+# **studio·bib**
 Une identité claire pour l'offre technologique des bibliothèques à l’UdeM
 
 - Site Web dédié : **studio.bib.umontreal.ca**
@@ -210,7 +202,7 @@ Une identité claire pour l'offre technologique des bibliothèques à l’UdeM
 - Impression 3D  
 - Montage vidéo  
 - Électronique/Arduino  
-- Ateliers intégrés dans les cours (sur demande)
+- Ateliers intégrés au cursus (sur demande)
 
 ---
 
@@ -231,13 +223,12 @@ Une identité claire pour l'offre technologique des bibliothèques à l’UdeM
 - Soutenir la pédagogie active  
 - Renforcer l'autonomie numérique  
 - Offrir un terrain neutre pour expérimenter  
-- Créer un écosystème d’innovation institutionnelle
+- Créer un écosystème d’innovation
 
 ---
 
 # **Impacts**
 
-- Hausse massive des réservations  
 - Amélioration de la littératie numérique  
 - Nouvelle culture de création sur le campus  
 - Plus grande collaboration entre les unités
@@ -256,16 +247,6 @@ Une identité claire pour l'offre technologique des bibliothèques à l’UdeM
 
 ---
 
-# **9. Perspectives d’avenir**
-
-- Plus d’automatisation (studios, workflows)  
-- Développement d’environnements XR  
-- IA dans l’analyse et la création média  
-- Déploiement de nouveaux labs créatifs  
-- Intégration plus forte dans les programmes d’enseignement  
-
----
-
 # **10. Conclusion**
 
 > **Les bibliothèques ne sont plus seulement des lieux de savoir.  
@@ -273,7 +254,7 @@ Elles sont devenues des lieux où l’on crée, explore, expérimente, diffuse.*
 
 ### Tout est gratuit.  
 ### Tout est ouvert.  
-### Tout est pensé pour favoriser la créativité universitaire.
+### Tout est pensé pour favoriser la créativité.
 
 ---
 
@@ -281,4 +262,5 @@ Elles sont devenues des lieux où l’on crée, explore, expérimente, diffuse.*
 ### Questions?
 
 **studio.bib.umontreal.ca**  
-**emir.chouchane@umontreal.ca**
+
+**studio@bib.umontreal.ca**
