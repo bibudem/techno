@@ -34,13 +34,30 @@
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
 
 <script>
+const enforceExternalLinks = () => {
+  const links = document.querySelectorAll('.reveal .slides a[href]');
+
+  links.forEach((link) => {
+    const href = (link.getAttribute('href') || '').trim();
+
+    if (!href || href.startsWith('#') || href.startsWith('javascript:')) {
+      return;
+    }
+
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+};
+
 Reveal.initialize({
   hash: true,
   slideNumber: true,
   transition: 'fade',
 
   plugins: [ RevealMarkdown, RevealHighlight ]
-});
+}).then(enforceExternalLinks);
+
+Reveal.on('ready', enforceExternalLinks);
 </script>
 
 </body>
