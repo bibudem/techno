@@ -200,6 +200,43 @@ Voir la liste complète des logiciels disponibles
 
 </section>
 
+
+---
+
+<section 
+  data-background-image="img/balado.svg"
+  data-background-size="200px"
+  data-background-position="bottom 30px right 40px"
+  data-background-repeat="no-repeat">
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/fN6ydg5KxaM"
+  width="360"
+  height="640"
+  title="YouTube Short"
+  frameborder="0"
+  allow="autoplay; encrypted-media; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+</section>
+
+---
+
+<section>
+
+<div style="display: flex; gap: 40px; justify-content: center; align-items: center;">
+
+  <img src="img/balado1.jpg" style="width: 45%;">
+
+  <img src="img/balado2.jpg" style="width: 45%;">
+
+  <img src="img/balado3.png" style="width: 45%;">
+
+</div>
+
+</section>
+
 ---
 
 <section 
