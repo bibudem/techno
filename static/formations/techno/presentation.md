@@ -29,7 +29,7 @@ Direction de la recherche et des initiatives numériques (DRIN)
 
 <section 
   data-background-image="img/electronique.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
@@ -48,7 +48,7 @@ Direction de la recherche et des initiatives numériques (DRIN)
 
 <section 
   data-background-image="img/impression3d.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
@@ -105,7 +105,7 @@ Collaboration en cours avec le CHU Sainte-Justine afin de produire en impression
 
 <section 
   data-background-image="img/vr.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
@@ -128,7 +128,7 @@ Collaboration en cours avec le CHU Sainte-Justine afin de produire en impression
 
 <section 
   data-background-image="img/edition.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
@@ -179,7 +179,7 @@ Voir la liste complète des logiciels disponibles
 
 <section 
   data-background-image="img/video.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
@@ -204,7 +204,7 @@ Voir la liste complète des logiciels disponibles
 
 <section 
   data-background-image="img/balado.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
@@ -400,7 +400,7 @@ Elles sont devenues des lieux où l’on crée, explore, expérimente, diffuse.*
 
 <section 
   data-background-image="img/question.svg"
-  data-background-size="500px"
+  data-background-size="200px"
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
