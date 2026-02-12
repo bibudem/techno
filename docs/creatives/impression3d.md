@@ -125,6 +125,7 @@ Quel que soit votre niveau de connaissance, on est là pour vous aider à réali
 ## Informations complémentaires
 
 - L'impression 3D est un service gratuit offert par les bibliothèques exclusivement aux membres de la communauté UdeM.
+- Les imprimantes 3D ne sont pas réservables. L’accès se fait sur place, selon le principe du **premier arrivé, premier servi**, en fonction de la disponibilité des équipements.
 - Pour connaître les règles d'utilisation des imprimantes 3D, consultez la section [Règles d'utilisation](../a-propos/politique.md).
 
 ---
