@@ -5,9 +5,9 @@
 /* Couleurs UdeM */
 :root {
   --udem-blue: #0057ac;
-  --udem-dark: #002c57;
+  --udem-dark: #001a34;
   --udem-light: #e6eef7;
-  --studio-bib-yellow: #f7d354;
+  --studio-bib-yellow: #ffca40;
   --studio-bib-grey: #2b2b2b;
   --white: #ffffff;
 }
@@ -17,7 +17,7 @@
   background: radial-gradient(circle at 50% 20%, var(--udem-dark), #00152d 80%);
   color: var(--udem-light);
   font-family: "Figtree", "Helvetica Neue", sans-serif;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 /* Titres */
@@ -25,7 +25,7 @@
   font-family: "Figtree", sans-serif;
   font-weight: 500;
   letter-spacing: -0.5px;
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--studio-bib-yellow);
 }
 
