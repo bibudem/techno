@@ -132,23 +132,46 @@ Collaboration en cours avec le CHU Sainte-Justine afin de produire en impression
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
-# [**Postes d'édition**](https://studio.bib.umontreal.ca/medias/postes-edition/)
+# [Postes d'édition](https://studio.bib.umontreal.ca/medias/postes-edition/)
 
-### Logiciels spécialisés :
-- Suite Adobe
-- DaVinci Resolve
-- Ableton Live
-- Reaper
+<div style="display: flex; gap: 60px; margin-top: 40px;">
 
-### Logiciels libres :
-- Audacity
-- OBS Studio
+  <!-- Colonne gauche -->
+  <div style="flex: 1; text-align: left;">
+    <h3>Logiciels spécialisés</h3>
+    <ul>
+      <li>Suite Adobe</li>
+      <li>DaVinci Resolve</li>
+      <li>Ableton Live</li>
+      <li>Reaper</li>
+    </ul>
+  </div>
 
-### Services
-- Consultations personnalisées  
-- Soutien aux projets
+  <!-- Colonne centre -->
+  <div style="flex: 1; text-align: left;">
+    <h3>Logiciels libres</h3>
+    <ul>
+      <li>Audacity</li>
+      <li>OBS Studio</li>
+    </ul>
+  </div>
 
-[Voir la liste des logiciels disponibles](https://studio.bib.umontreal.ca/informatique/logiciels)
+  <!-- Colonne droite -->
+  <div style="flex: 1; text-align: left;">
+    <h3>Services</h3>
+    <ul>
+      <li>Consultations personnalisées</li>
+      <li>Soutien aux projets</li>
+    </ul>
+  </div>
+
+</div>
+
+<p style="margin-top: 40px;">
+<a href="https://studio.bib.umontreal.ca/informatique/logiciels">
+Voir la liste complète des logiciels disponibles
+</a>
+</p>
 
 </section>
 
