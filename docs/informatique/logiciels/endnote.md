@@ -81,7 +81,7 @@ Cliquer sur le **menu Pomme** → **Préférences Système** (ou **Réglages sys
 
 1. Ouvrir EndNote.
 2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu *Help*** → ***Check for updates***
+3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu *Aide*** → ***Rechercher les mises à jour***
 
 </TabItem>
 <TabItem value="macos" label="macOS">
@@ -145,7 +145,7 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 - [Procédure pour installer les styles bibliographiques modifiés pour les besoins de la communauté de l’UdeM (APA7th-fr-UdeM, Vancouver-fr-UdeM, etc.)](https://boite-outils.bib.umontreal.ca/c.php?g=730826&p=5339019)
 - [Procédure en cas d'absence de la barre d’outils EndNote dans Word.](/pdf/ENL3-barre-outils-word.pdf)
 - [Procédure en cas de fenêtre mauve sous macOS.](https://support.clarivate.com/Endnote/s/article/EndNote-Purple-window-on-a-Mac-OS?language=en_US)
-- [Procédure en cas de message d'erreur avec la fonction **Find Full Text**.](https://studio.bib.umontreal.ca/informatique/vpn)
+- [Procédure en cas de message d'erreur ou résultats partiels avec la fonction **Find Full Text**, désinstaller le Proxy et utiliser le VPN UdeM Campus.](https://studio.bib.umontreal.ca/informatique/vpn)
 
 ## Pour aller plus loin
 
