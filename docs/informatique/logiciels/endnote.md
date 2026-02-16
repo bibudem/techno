@@ -118,13 +118,13 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 <Tabs groupId="os-tabs">
 <TabItem value="windows" label="Windows">
 
-1. Sous ***Edit*** → ***Preferences*** → ***Find Full Text***, cocher ***OpenURL***
-2. Dans ***OpenURL Path***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
+1. Sous ***Modifier*** → ***Préférences*** → ***Rechercher le texte intégral***, cocher ***OpenURL***
+2. Dans ***Chemin OpenURL***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
 3. Cocher ***PubMed LinkOut (U.S. National Library of Medicine)***.
-4. S'assurer que la case *Automatically invoke Find Full Text on newly-imported references* est **décochée**.
-5. Sous ***Edit*** → ***Preferences*** → ***URLs & Links***, remplacer les informations présentes dans la boîte ***OpenURL Arguments***, en copiant la ligne de commande suivante : 
+4. S'assurer que la case *Invoquer automatiquement la fonction Rechercher le texte intégral pour les références nouvellement..* est **décochée**.
+5. Sous ***Modifier*** → ***Préférences*** → ***URLs et liens***, remplacer les informations présentes dans la boîte ***Arguments OpenURL ***, en copiant la ligne de commande suivante : 
 <CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
-6. Cliquer sur **OK**.
+1. Cliquer sur **OK**.
 </TabItem>
 
 <TabItem value="macos" label="macOS">
