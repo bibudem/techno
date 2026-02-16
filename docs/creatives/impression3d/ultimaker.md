@@ -59,6 +59,7 @@ Compatible avec : Windows, macOS et Linux
 :::warning
 Diamètre des filaments de l'Ultimaker : **2,85mm**
 Les filaments de 1,75mm ne sont pas compatibles avec l'Ultimaker.
+Bien sécher le filament avant utilisation
 :::
 
 ### Accéder au menu
