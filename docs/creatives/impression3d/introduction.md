@@ -167,7 +167,11 @@ Si le plastique n’adhère pas au plateau, l’impression va échouer et en plu
 
 Une fois l’impression lancée, il est important de surveiller les premières couches pour s’assurer que la pièce ne se décolle pas du plateau.
 
-Si les premières couches se décollent du plateau, ou si la pièce se plie sur les côtés (*warping*), arrêter l’impression. 
+Si les premières couches se décollent du plateau, ou si la pièce se plie sur les côtés (*warping*), arrêter l’impression.
+
+:::warning 
+Nous interromprons toute impression dont la première couche sera laissée sans surveillance !
+:::
 
 Voici quelques pistes pour y remédier :
 
