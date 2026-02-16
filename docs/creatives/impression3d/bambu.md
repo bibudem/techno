@@ -184,6 +184,7 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
 
 :::warning
     Merci n'utiliser que les bobines Bambulab déjà sur leur support disponibles dans nos ateliers. Demander de l'aide à un membre du personnel pour préparer une nouvelle bobine sur son support. Ne jamais utiliser une bobine d'une autre marque dans les imprimantes Bambulab, merci.
+    Bien sécher le filament avant utilisation
 :::
 
 ### Bobine Bambu Lab avec puce RFID
