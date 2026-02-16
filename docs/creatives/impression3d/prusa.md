@@ -38,6 +38,7 @@ Ressources en ligne
 
 :::warning
 Diamètre des filaments de la Prusa i3 MK3S+ : **1.75mm**
+Bien sécher le filament avant utilisation
 :::
 
 ### **Retrait d’une bobine**
