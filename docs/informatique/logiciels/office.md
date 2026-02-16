@@ -37,6 +37,7 @@ L’utilisation des logiciels ne sera plus possible lorsque le membre de la comm
 
 :::caution Important
 Il est recommandé de désinstaller toutes les versions précédentes d'Office avant d'installer Office 365 ProPlus.
+S’assurer d’avoir la bonne heure, date et fuseau horaire.
 :::
 
 <Tabs>
