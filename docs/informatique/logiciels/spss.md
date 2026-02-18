@@ -21,7 +21,7 @@ L’université fournit gratuitement le logiciel d’analyse statistique IBM SPS
 - Avoir ses [informations d'authentification](../authentification).
 - Un système d’exploitation compatible (macOS 10.15+ ou Windows 10 ou 11)
 - **Important : avoir redémarré son ordinateur**
-- **S’assurer d’avoir la bonne heure, date et fuseau horaire**
+- **S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.**
 - **Ne pas utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un)**
 - Ne pas changer le dossier d’installation par défaut
 - Utilisateurs macOS : utiliser le navigateur Safari

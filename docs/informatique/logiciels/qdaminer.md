@@ -18,6 +18,7 @@ Le logiciel **QDA Miner** est un logiciel d'analyse qualificative.
 ## Prérequis
 - **Windows 10** (64 bits seulement) ou **Windows 11**
 - **Redémarrer l'ordinateur**
+- S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.
 
 ## Étapes d'installation
 
