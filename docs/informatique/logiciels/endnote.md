@@ -15,7 +15,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 - Avoir ses [informations d'authentification](../authentification).
 - Avoir une version à jour de [Microsoft Office 365](office).
 - Important : **avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé**.
-- S’assurer d’avoir la bonne heure, date et fuseau horaire.
+- S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.
 - Ne **pas** utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un).
 - Ne pas changer le dossier d’installation par défaut.
 - Utilisateurs macOS : utiliser le navigateur Safari.
@@ -27,43 +27,35 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
       <TabItem value="windows" label="Windows">
 
 1. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
-2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer sur **Valider**.
+2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
 3. Sélectionner **EndNote 2025 (Windows)** dans La liste des logiciels autorisés.
-4. Lire les informations à l’écran et cliquer sur les boutons **Valider** → **Suivant** → **Installation du logiciel**.
+4. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
 5. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
 
-:::info Important : Si un message d’erreur s’affiche
-Ouvrir le dossier des téléchargements, localiser le fichier
-d’installation EndNote (débute par UdeM_ ), cliquer avec le bouton droit de la souris sur le fichier
-puis sélectionner **Exécuter en tant qu’administrateur**. Ne le renommez pas.
+:::info Si vous n'arrivez pas à ouvrir le fichier téléchargé
+Ouvrir le dossier des téléchargements, localiser le fichier d’installation EndNote (débute par UdeM_), cliquer avec le bouton droit de la souris sur le fichier puis sélectionner **Exécuter en tant qu’administrateur**. Ne le renommez pas.
 
-   - Windows 10 seulement :
-    Si le message **Windows a protégé votre ordinateur** s’affiche :
-    1. Cliquer **Informations complémentaires**,
-    2. Cliquer **Exécuter quand même**.
-
-   - Windows 11 seulement :
-Ouvrir la page des téléchargements et cliquer sur **Conserver**
-Si le message **Vérifiez que vous faites confiance…** ou **Cette application risque d’endommager votre appareil** s’affiche :
+Si le document n'y est pas, aller dans les téléchargements du navigateur (en haut à droite), cliquer le document téléchargé et cliquer **Conserver**. Si le message **Vérifiez que vous faites confiance…** ou **Cette application risque d’endommager votre appareil** s’affiche :
     1. Cliquer **Afficher plus**,
     2. Cliquer **Conserver quand même**,
     3. Ouvrir le fichier.
 :::
 
 </TabItem>
+
 <TabItem value="macos" label="macOS">
 
-1. Avec Safari, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
-2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer sur **Valider**.
+1. Avec **Safari**, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
+2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
 3. Sélectionner EndNote 2025 (macOS) dans La liste des logiciels autorisés.
-4. Lire les informations à l’écran et cliquer sur les boutons **Valider** → **Suivant**.
-5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite sur **Installation du logiciel**.
+4. Lire les informations à l’écran et cliquer **Valider** → **Suivant**.
+5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite **Installation du logiciel**.
 6. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
 
 :::info IMPORTANT : Si un message d’erreur s’affiche 
 
 Message d’erreur Impossible d’ouvrir sous macOS :
-Cliquer sur le **menu Pomme** → **Préférences Système** (ou **Réglages système**) → **Confidentialité & sécurité** → **Ouvrir quand même**
+Cliquer **menu Pomme** → **Préférences Système** (ou **Réglages système**) → **Confidentialité & sécurité** → **Ouvrir quand même**
 :::
 
 7. Seulement si une une fenêtre s’ouvre ```Would you like to overwrite the EndNote X9 at /Applications/EndNote X9 ?```, Cocher ***Yes*** pour écraser la version antérieure.
@@ -88,7 +80,7 @@ Cliquer sur le **menu Pomme** → **Préférences Système** (ou **Réglages sys
 
 1. Ouvrir EndNote.
 2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 2025** → ***Check for Updates***
+3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 2025** → ***Rechercher des mises à jour***
 
 </TabItem>
 </Tabs>
@@ -99,15 +91,15 @@ Cliquer sur le **menu Pomme** → **Préférences Système** (ou **Réglages sys
 <TabItem value="windows" label="Windows">
 
 Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
-Pour changer cela, cliquer sur ***Edit*** → ***Preferences*** → ***Libraries*** et choisir l’option voulue.
+Pour changer cela, cliquer sur ***Modifier*** → ***Préférences*** → ***Bibliothèques*** et choisir l’option voulue.
 </TabItem>
 <TabItem value="macos" label="macOS">
 
 Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
-Pour changer cela, cliquer sur ***EndNote2025*** → ***Preferences*** → ***Libraries*** et choisir l’option voulue.
+Pour changer cela, cliquer sur ***EndNote2025*** → ***Réglages*** → ***Bibliothèques*** et choisir l’option voulue.
 
 :::info Important
-Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer sur ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
+Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
 :::
 
 </TabItem>
@@ -121,21 +113,19 @@ Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclur
 1. Sous ***Modifier*** → ***Préférences*** → ***Rechercher le texte intégral***, cocher ***OpenURL***
 2. Dans ***Chemin OpenURL***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
 3. Cocher ***PubMed LinkOut (U.S. National Library of Medicine)***.
-4. S'assurer que la case *Invoquer automatiquement la fonction Rechercher le texte intégral pour les références nouvellement..* est **décochée**.
-5. Sous ***Modifier*** → ***Préférences*** → ***URLs et liens***, remplacer les informations présentes dans la boîte ***Arguments OpenURL ***, en copiant la ligne de commande suivante : 
-<CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
-1. Cliquer sur **OK**.
+4. S'assurer que la case *Invoquer automatiquement la fonction Rechercher le texte intégral pour les références nouvellement importées* est **décochée**.
+5. Sous ***Modifier*** → ***Préférences*** → ***URLs et liens***, remplacer les informations présentes dans la boîte **Arguments OpenURL**, en copiant la ligne de commande suivante : <CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
+1. Cliquer **OK**.
 </TabItem>
 
 <TabItem value="macos" label="macOS">
 
-1. Sous ***EndNote2025*** → ***Preferences*** → ***Find Full Text***, cocher ***OpenURL***
-2. Dans ***OpenURL Path***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
+1. Sous ***EndNote2025*** → ***Réglages*** → ***Rechercher le texte intégral***, cocher ***OpenURL***
+2. Dans ***Chemin OpenURL***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
 3. Cocher ***PubMed LinkOut (U.S. National Library of Medicine)***.
-4. S'assurer que la case *Automatically invoke Find Full Text on newly-imported references* est **décochée**.
-5. Sous ***EndNote2025*** → ***Preferences*** → ***URLs & Links***, remplacer les informations présentes dans la boîte ***OpenURL Arguments***, en copiant la ligne de commande suivante : 
-<CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
-6. Cliquer sur **OK**.
+4. S'assurer que la case *Invoquer automatiquement la fonction Rechercher le texte intégral pour les références nouvellement importées* est **décochée**.
+5. Sous ***EndNote2025*** → ***Réglages*** → ***URLs et liens***, remplacer les informations présentes dans la boîte ***Arguments OpenURL***, en copiant la ligne de commande suivante : <CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
+6. Cliquer **Enregistrer**.
 
 </TabItem>
 </Tabs>
