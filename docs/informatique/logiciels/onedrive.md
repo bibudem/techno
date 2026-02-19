@@ -12,9 +12,9 @@ import TabItem from '@theme/TabItem';
 - OneDrive est offert gratuitement à toute la communauté UdeM
 - Espace de stockage OneDrive : **10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés**
 - Préalable : avoir installé [Microsoft Office 365](https://studio.bib.umontreal.ca/informatique/logiciels/office/)
-- Préalable : S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.
+- Préalable : S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
 
-# Configurer OneDrive UdeM  
+# Configurer OneDrive UdeM
 
 ## 1 – Ouvrir les paramètres OneDrive  
 Sélectionnez l’icône de OneDrive dans votre zone de notification, puis sélectionnez la roue **Paramètres**, puis **Paramètres** (encore une fois).

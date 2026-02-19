@@ -15,7 +15,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 - Avoir ses [informations d'authentification](../authentification).
 - Avoir une version à jour de [Microsoft Office 365](office).
 - Important : **avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé**.
-- S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.
+- S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
 - Ne **pas** utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un).
 - Ne pas changer le dossier d’installation par défaut.
 - Utilisateurs macOS : utiliser le navigateur Safari.

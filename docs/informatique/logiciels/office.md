@@ -36,8 +36,7 @@ L’utilisation des logiciels ne sera plus possible lorsque le membre de la comm
 ## Installation
 
 :::caution Important
-Il est recommandé de désinstaller toutes les versions précédentes d'Office avant d'installer Office 365 ProPlus.
-S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.
+Il est recommandé de désinstaller toutes les versions précédentes d'Office avant d'installer Microsoft Office 365.
 :::
 
 <Tabs>
@@ -46,11 +45,11 @@ S’assurer que les paramètres d’heure, de date et de fuseau horaire correspo
 
   **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, Publisher, Access, InfoPath, OneDrive.
 
-  1. S’assurer que l’ordinateur affiche **la bonne date, la bonne heure, le bon pays (Canada) et le bon fuseau horaire** et **redémarrer l'ordinateur**.
+  1. S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
   2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
   3. S’authentifier avec [vos informations d'authentification](../authentification).
-  4. Cliquer **Applications** dans le menu à gauche.
-  5. Cliquer **Installer des Applis** puis **Applications Microsoft 365**.
+  4. Cliquer **Applications** dans le menu à gauche puis **Toutes les applications**
+  5. Cliquer **Installer des Applications** puis **Applications Microsoft 365**.
   6. Sélectionner la langue **Français (France)**
   7. Cliquer **Installer Office** et ouvrir le ficher téléchargé pour démarrer l’installation.
 
@@ -81,7 +80,7 @@ S’assurer que les paramètres d’heure, de date et de fuseau horaire correspo
   </TabItem>
   
   <TabItem value="Android" label="Android">
-  **Prérequis** : Android 12 ou ultérieur
+  **Prérequis** : Android 10 ou ultérieur
 
   **Applications à télécharger individuellement** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
 
@@ -98,7 +97,7 @@ S’assurer que les paramètres d’heure, de date et de fuseau horaire correspo
 ## Activation de la licence
 
 1. Ouvrir **Word**.
-2. Cliquer sur **Connexion** (en haut à droite) et entrer votre courriel UdeM.
+2. Cliquer **Connexion** (en haut à droite) et entrer votre courriel UdeM.
 3. Suivre [la procédure d'authentification](../authentification).
 
 ---
