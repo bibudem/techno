@@ -31,7 +31,7 @@ En raison de travaux majeurs, le 2ème étage de la Bibliothèque des lettres et
 
 Le **studio balado vidéo ne sera pas accessible** durant cette période.
 
-Pour des besoins d’enregistrement audio, nous vous invitons à vous réorienter vers les [**Studios balado audio**](studiosbaladoaudio). 
+Pour des besoins d’enregistrement audio, nous vous invitons à vous réorienter vers les [**Studios balado audio**](../espaces/studiosbaladoaudio.md). 
 
 Pour toute question ou pour discuter d’une solution alternative, écrivez-nous : **studio@bib.umontreal.ca**.
 :::
