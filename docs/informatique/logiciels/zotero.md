@@ -16,8 +16,8 @@ Consulter [le guide d'utilisation de Zotero](https://boite-outils.bib.umontreal.
 
 - Avoir ses [informations d'authentification](../authentification).
 - Avoir une version à jour de [Microsoft Office 365](office).
-- Important : avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé.
-- Si vous utilisez déjà Zotero sur votre ordinateur et que vous voulez installer une version plus récente, effectuez [une sauvegarde de vos bases de données](https://bib.umontreal.ca/citer/logiciels-bibliographiques/zotero/sauvegarder-partager) avant d’installer une autre version.
+- Important : **avoir redémarré son ordinateur et s’assurer de ne pas ouvrir Microsoft Word**.
+- Si vous utilisez déjà Zotero sur votre ordinateur et que vous voulez installer une version plus récente, effectuez [une sauvegarde de vos bases de données](https://boite-outils.bib.umontreal.ca/citer/zotero?p=5362058) avant d’installer une autre version.
 
 ## Installation
 
@@ -26,7 +26,7 @@ Consulter [le guide d'utilisation de Zotero](https://boite-outils.bib.umontreal.
 
 1. **Redémarrer votre ordinateur. Ne pas ouvrir Word.**
 2. Aller à l’adresse [zotero.org/download](https://www.zotero.org/download/)
-3. Installer l’application Zotero 7.
+3. Installer l’application Zotero.
 4. Installer le connecteur Zotero via votre navigateur Web (Firefox, Chrome, Edge).
 
 </TabItem>
@@ -34,11 +34,11 @@ Consulter [le guide d'utilisation de Zotero](https://boite-outils.bib.umontreal.
 
 1. **Redémarrer votre ordinateur. Ne pas ouvrir Word.**
 2. Aller à l’adresse [zotero.org/download](https://www.zotero.org/download/)
-3. Installer l’application Zotero 7.
+3. Installer l’application Zotero.
 4. Installer le connecteur Zotero via votre navigateur Web (Safari, Firefox, Chrome, Edge).
 
 :::info Pour les utilisateurs de Safari
-Pour activer Zotero dans Safari, ouvrir Safari, aller dans le menu **Safari** → **Préférences** → **Extensions** → **Zotero Connector** et cocher **Activer**.
+Pour activer Zotero dans Safari, ouvrir Safari, aller dans le menu **Safari** → **Réglages** → **Extensions** → **Zotero Connector** et cocher **Activer**.
 :::
 
 </TabItem>
@@ -55,7 +55,7 @@ Dans Zotero, sous **Édition** → **Paramètres** → **Synchronisation**, cliq
 ![Options à décocher](/img/docs/zotero_synchroniser_infonuage_350.webp)
 
 :::note Note
-Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de décocher :
+Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de **décocher** :
 - L’option Synchroniser le texte intégral des pièces jointes indexées.
 - Les deux options dans Synchronisation des fichiers.
 :::
