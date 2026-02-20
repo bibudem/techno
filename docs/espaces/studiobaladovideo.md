@@ -26,8 +26,14 @@ import Pano360 from '@site/src/components/Pano360';
 
 Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) est aménagé pour la captation vidéo de balados, dans un cadre simple, autonome et accessible. Il permet également l’enregistrement d’entrevues ou de présentations liées à ce type de format, sans nécessiter d’expertise technique préalable. Le studio peut accueillir jusqu’à 4 personnes.
 
-:::tip Nouvel horaire de réservation
-À partir de janvier 2026, le Studio balado vidéo sera ouvert du lundi au vendredi, **de 9 h à 20 h** et le samedi et dimanche de **9 h à 17 h**.
+:::danger Avis - Studio balado vidéo (BLSH)
+En raison de travaux majeurs, le 2ème étage de la Bibliothèque des lettres et sciences humaines (BLSH) fera l’objet d’une **fermeture partielle du 9 mars au 6 avril inclusivement**.
+
+Le **studio balado vidéo ne sera pas accessible** durant cette période.
+
+Pour des besoins d’enregistrement audio, nous vous invitons à vous réorienter vers les [**Studios balado audio**](studiosbaladoaudio). 
+
+Pour toute question ou pour discuter d’une solution alternative, écrivez-nous : **studio@bib.umontreal.ca**.
 :::
 
 
