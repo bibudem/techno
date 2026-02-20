@@ -126,3 +126,11 @@ Réservez une rencontre avec notre équipe ou plongez dans une formation pratiqu
   alt="Vue en 360° de l'atelier de fabrication"
 />
 
+### Bibliothèque Thérèse-Gouin-Décarie {#tgd}
+
+<Pano360
+  image="/img/pano/ateliertgd.webp"
+  legende="Vue en 360° de l'atelier de fabrication"
+  title="Atelier de fabrication"
+  alt="Vue en 360° de l'atelier de fabrication"
+/>
