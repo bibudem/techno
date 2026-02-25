@@ -649,3 +649,31 @@ p.purposes,
   background-color:#256428 !important;
   border-color:#256428 !important;
 }
+
+.sb-media-blocked-notice {
+  padding:1rem;
+  border:1px solid var(--ifm-color-emphasis-300);
+  border-radius:0.75rem;
+  background:linear-gradient(145deg, #fff9e9 0%, #f8f0d8 100%);
+  color:var(--ifm-font-color-base);
+}
+
+.sb-media-blocked-notice p {
+  margin:0 0 0.75rem 0;
+  line-height:1.4;
+}
+
+.sb-media-consent-manage {
+  border:0;
+  border-radius:999px;
+  padding:0.45rem 0.9rem;
+  background-color:var(--ifm-color-primary);
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.sb-media-consent-manage:hover,
+.sb-media-consent-manage:focus-visible {
+  background-color:var(--ifm-color-primary-dark);
+}
