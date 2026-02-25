@@ -9,6 +9,7 @@ help : crea
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Pano360 from '@site/src/components/Pano360';
+import CardGrid from "@site/src/components/CardGrid";
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -45,7 +46,7 @@ Pour obtenir du soutien en personne à BLSH avec un membre de notre équipe, vou
 | **Bibliothèque**                                    | **Localisation** | **Accès** | **Note** |
 |-----------------------------------------------------|-----------------|------------|----------|
 | **[Bibliothèque aménagement](https://bib.umontreal.ca/espaces/#amenagement)** | [Voir sur la carte](https://share.google/NM4MWJplsCddGXpDO) | 2 postes disponibles sans réservation | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) |
-| **[Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)** | Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-3. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/seat/33619). Présentez-vous au bureau de référence du 2<sup>e</sup> étage pour accéder au local. | ⚠️ **Indisponible du 9 mars au 6 avril inclusivement en raison de travaux.**<br/>[Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) et DaVinci Resolve Studio |
+| **[Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh)** | Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-3. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | [Réserver](https://calendrier.bib.umontreal.ca/seat/33619). Présentez-vous au bureau de référence du 2<sup>e</sup> étage pour accéder au local. | ⚠️ **Indisponible du 9 mars au 6 avril inclusivement en raison de travaux.**<br/>[Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) et [DaVinci Resolve Studio](../informatique/logiciels/davinciresolve.md) |
 | **[Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | local D-280-1 [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Deux postes disponibles **sans réservation** dans [l'Atelier de fabrication](../espaces/ateliers.md) | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) |
 | **[Bibliothèque de mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | Local 2432. [Voir sur la carte](https://maps.app.goo.gl/6HsLMAxoBWpQZgcD8) | Un poste disponible sans réservation dans [l'Atelier de fabrication](../espaces/ateliers.md) | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) |
 | **[Bibliothèque de musique](https://bib.umontreal.ca/espaces/#musique)** | [Voir sur la carte](https://share.google/bMDujxZITwaN0pFyX) | Un poste disponible sans réservation | [Suite Adobe Creative Cloud](../informatique/logiciels/adobe.md) - [Ableton Live Suite 12](../informatique/logiciels/ableton.md) |
@@ -67,6 +68,36 @@ Le poste d’édition de la [Bibliothèque des lettres et sciences humaines](htt
 
 Le poste donne également accès à la version complète de DaVinci Resolve Studio.
 :::
+
+---
+
+## Les logiciels les plus demandés {#logiciels-demandes}
+
+<CardGrid
+  items={[
+    {
+      title: "Adobe Creative Cloud",
+      description: "",
+      link: "/informatique/logiciels/adobe",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "Ableton Live Suite",
+      description: "",
+      link: "/informatique/logiciels/ableton",
+      icon : "",
+      petit: true,
+    },
+    {
+      title: "DaVinci Resolve Studio",
+      description: "",
+      link: "/informatique/logiciels/davinciresolve",
+      icon : "",
+      petit: true,
+    },
+  ]}
+/>
 
 ---
 
