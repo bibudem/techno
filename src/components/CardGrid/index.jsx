@@ -1,6 +1,12 @@
-// src/components/CardGrid/CardGrid.jsx
-import React, { useState } from 'react';
+import React, {useId} from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import {
+  ArrowRight,
+  MapTrifold,
+  Needle,
+  Question,
+  Yarn,
   Cube,
   VirtualReality,
   Circuitry,
@@ -38,7 +44,13 @@ import {
 } from '@phosphor-icons/react';
 import styles from './CardGrid.module.css';
 
+const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
+
 const iconMap = {
+  Needle,
+  MapTrifold,
+  Yarn,
+  Question,
   Cube,
   VirtualReality,
   Circuitry,
@@ -73,54 +85,86 @@ const iconMap = {
   Record,
   PencilSimpleLine,
   CubeFocus,
+  needle: Needle,
+  'map-trifold': MapTrifold,
+  yarn: Yarn,
+  question: Question,
 };
 
-export default function CardGrid({ items }) {
-  const [hovered, setHovered] = useState(null);
-  const [focused, setFocused] = useState(null);
+function isExternalLink(link) {
+  return EXTERNAL_LINK_PATTERN.test(link);
+}
+
+function getLinkProps(link) {
+  if (!link) {
+    return {to: '#'};
+  }
+
+  return isExternalLink(link) ? {href: link} : {to: link};
+}
+
+export default function CardGrid({items = []}) {
+  const gridId = useId();
+
+  if (!items.length) {
+    return null;
+  }
 
   return (
     <div className={styles.grid} role="list">
-  {items.map((item, idx) => {
-    const Icon = iconMap[item.icon];
-    const isActive = hovered === idx || focused === idx;
-    const titleId = `card-title-${idx}`;
-    const descId = `card-desc-${idx}`;
+      {items.map((item, idx) => {
+        const Icon = iconMap[item.icon];
+        const hasImage = Boolean(item.image);
+        const description = typeof item.description === 'string'
+          ? item.description.trim()
+          : '';
+        const hasDescription = Boolean(description);
+        const titleId = `${gridId}-card-title-${idx}`;
+        const descId = `${gridId}-card-desc-${idx}`;
 
-    return (
-      <div key={idx} role="listitem">
-        <a
-          href={item.link}
-          className={`${styles.card} ${item.petit ? styles.petit : ''}`}
-          data-ignore-external="true"
-          aria-labelledby={titleId}
-          aria-describedby={descId}
-          onMouseEnter={() => setHovered(idx)}
-          onMouseLeave={() => setHovered(null)}
-          onFocus={() => setFocused(idx)}
-          onBlur={() => setFocused(null)}
-        >
-          <div className={styles.header}>
-            {Icon && (
-              <Icon
-                className={styles.icon}
-                size={24}
-                aria-hidden="true"
-              />
-            )}
-            <div className={styles.titleContainer}>
-              <h2 id={titleId} className={styles.title}>
-                {item.title}
-              </h2>
-            </div>
-          </div>
-          <p id={descId} className={styles.description}>
-            {item.description}
-          </p>
-        </a>
-      </div>
-    );
-  })}
-</div>
+        return (
+          <article key={`${item.link || idx}-${idx}`} role="listitem" className={styles.item}>
+            <Link
+              {...getLinkProps(item.link)}
+              className={clsx(styles.card, item.petit && styles.petit, !hasImage && styles.cardNoImage)}
+              data-ignore-external="true"
+              aria-labelledby={titleId}
+              aria-describedby={hasDescription ? descId : undefined}>
+              <div className={styles.media} aria-hidden="true">
+                {hasImage && (
+                  <img
+                    className={styles.mediaImage}
+                    src={item.image}
+                    alt=""
+                    loading="lazy"
+                  />
+                )}
+                <div className={styles.mediaShade} />
+                {Icon && (
+                  <span className={styles.iconBadge}>
+                    <Icon className={styles.icon} size={20} aria-hidden="true" />
+                  </span>
+                )}
+              </div>
+
+              <div className={styles.content}>
+                <h2 id={titleId} className={styles.title}>
+                  {item.title}
+                </h2>
+                {hasDescription && (
+                  <p id={descId} className={styles.description}>
+                    {description}
+                  </p>
+                )}
+              </div>
+
+              <div className={styles.footer} aria-hidden="true">
+                <ArrowRight className={styles.arrow} size={20} />
+              </div>
+            </Link>
+          </article>
+        );
+      })}
+    </div>
   );
 }

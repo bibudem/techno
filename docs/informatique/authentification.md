@@ -30,6 +30,7 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
         "Accédez à la documentation officielle sur les services informatiques de l'université.",
       link: "https://wiki.umontreal.ca/x/HJeUBw",
       icon: "BookOpenText",
+      petit : true,
     },
     {
       title: "Code d'accès ou mot de passe oublié ?",
@@ -38,6 +39,7 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
       link:
         "https://ti.umontreal.ca/offre-de-services/services-par-categorie/comptes-et-mots-de-passe/authentification-code-dacces-unip/",
       icon: "Password",
+      petit : true,
     },
     {
       title: "Authentification à deux facteurs (A2F)",
@@ -46,6 +48,7 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
       link:
         "https://wiki.umontreal.ca/pages/viewpage.action?pageId=184126772",
       icon: "Network",
+      petit : true,
     },
     {
       title: "Inscrire ou modifier ses questions de vérification (TI)",
@@ -54,6 +57,7 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
       link:
         "https://wiki.umontreal.ca/spaces/SIE/pages/130462126/Questions+de+v%C3%A9rification",
       icon: "BookOpenText",
+      petit : true,
     },
   ]}
 />

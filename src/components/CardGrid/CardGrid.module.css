@@ -1,31 +1,29 @@
-/* ──────────── Grille des cartes ──────────── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   align-items: stretch;
 }
 
+.item {
+  height: 100%;
+}
 
-
-
-/* ──────────── Style de la carte ──────────── */
 .card {
-  background-color: #fff7e8;
-  color: var(--gris-700);
-  border-radius: 8px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: var(--jaune-pale);
-  padding: 1rem;
-  min-height: 250px;
-  max-height : 260px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
-  display: block;
+  color: var(--gris-700);
+  border: 1px solid #dde6ef;
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #f4f8fc 140%);
+  box-shadow: 0 8px 18px rgba(14, 29, 58, 0.05);
   transition:
-    background-color 0.3s ease-in-out,
-    transform 0.3s ease-in-out,
-    box-shadow 0.3s ease-in-out;
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease;
 }
 
 .card:hover,
@@ -34,101 +32,149 @@
 }
 
 .card:hover {
-  background-color: var(--jaune);
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  border-color: #cedcea;
+  box-shadow: 0 14px 24px rgba(14, 29, 58, 0.12);
 }
 
 .card:focus-visible {
-  outline: 3px solid var(--gris-600);
+  outline: 3px solid var(--bleu-500);
   outline-offset: 2px;
 }
 
-/* ──────────── En‑tête de la carte ──────────── */
-.header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+.media {
+  position: relative;
+  height: 118px;
+  overflow: hidden;
+  background: linear-gradient(
+    125deg,
+    var(--bleu-700) 0%,
+    var(--bleu-500) 58%,
+    var(--bleu-300) 100%
+  );
+}
+
+.mediaImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform: scale(1.02);
+  transition: transform 0.24s ease;
+}
+
+.card:hover .mediaImage,
+.card:focus-visible .mediaImage {
+  transform: scale(1.06);
+}
+
+.mediaShade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(11, 17, 58, 0.35) 100%
+  );
+}
+
+.cardNoImage .mediaShade {
+  background: linear-gradient(
+    125deg,
+    rgba(255, 247, 232, 0.12) 0%,
+    rgba(255, 202, 64, 0.28) 100%
+  );
+}
+
+.cardNoImage .media {
+  background: linear-gradient(
+    125deg,
+    #fffaf0 0%,
+    var(--jaune-pale) 55%,
+    var(--jaune) 100%
+  );
+}
+
+.iconBadge {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
-  color: #BC8800;
+  color: var(--bleu-600);
 }
 
-/* ───────── Ligne animée sous le titre ───────── */
-.titleContainer {
-  position: relative;
+.content {
+  padding: 0.95rem 1rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   flex: 1;
-  padding-bottom: 0rem;
-  overflow: hidden;
 }
 
-/* .titleContainer::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    #BC8800,
-    transparent
-  );
-  background-size: 200% 100%;
-  background-position: -200% 0;
-} */
-
-/* balayage gauche→droite */
-/* @keyframes sweep-line {
-  from {
-    background-position: 200% 0;
-  }
-  to {
-    background-position: -200% 0;
-  }
-} */
-
-/* .card:hover .titleContainer::after {
-  animation: sweep-line 9s ease-in-out infinite;
-} */
-
-/* ──────────── Titre et description ──────────── */
 .title {
   margin: 0;
-  font-weight: 500;
-  color: var(--gris-700);
-  font-size: 1.4rem;
-  transition: color 0.3s ease-in-out;
+  font-size: 1.14rem;
+  line-height: 1.25;
+  color: var(--bleu-700);
+  font-weight: 600;
 }
 
 .description {
   margin: 0;
-  line-height: 1.4;
-  font-size: 1rem;
-  transition: color 0.3s ease-in-out;
+  line-height: 1.5;
+  font-size: 0.96rem;
+  color: var(--gris-600);
+  white-space: pre-line;
 }
 
-.card:hover .title,
-.card:focus-visible .title {
-  color: var(--gris-800);
+.footer {
+  margin-top: auto;
+  border-top: 1px solid #dde6ef;
+  padding: 0.75rem 1rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  color: var(--bleu-600);
 }
 
-.card:hover .description,
-.card:focus-visible .description {
-  color: var(--gris-700);
+.arrow {
+  transition: transform 0.22s ease;
 }
 
-.petit {
-  min-height: 160px;
-  max-height : 160px;
-  
+.card:hover .arrow,
+.card:focus-visible .arrow {
+  transform: translateX(3px);
+}
+
+.petit .media {
+  display: none;
+}
+
+.petit .title {
+  font-size: 1.03rem;
+}
+
+.petit .description {
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 768px) {
   .grid {
-    gap: 0.5rem;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .media {
+    height: 104px;
   }
 }
