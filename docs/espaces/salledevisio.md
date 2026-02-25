@@ -21,7 +21,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-La salle 2076-1, située à la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh), est conçue pour le visionnement collaboratif de contenus dans le cadre de travaux universitaires. Elle peut accueillir jusqu’à 6 personnes et se réserve pour une durée maximale de 4 heures.
+La salle 2076-1, située à la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh), est conçue pour le visionnement collaboratif de contenus dans le cadre de travaux universitaires. Elle peut accueillir jusqu’à 6 personnes et se réserve pour une durée maximale de 4 heures. La salle est également équipée d’un lecteur DVD multizone pour faciliter le visionnement de documents audiovisuels.
 
 ---
 
