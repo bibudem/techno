@@ -30,6 +30,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 | **Bibliothèque**                        | **Localisation** | **Modèles disponibles** |
 |-----------------------------------------|-----------------|-------------------------|
+| **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)** | À côté du comptoir. [Voir sur la carte](https://maps.app.goo.gl/irzr8ofQRdBNMFd86) | BambuLab X1C AMS|
 | **[Mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8) | BambuLab X1C AMS, Prusa i3 MK3s+|
 | **[Hubert-Reeves](https://bib.umontreal.ca/espaces/#Hubert-reeves)**        | [Atelier de fabrication](../espaces/ateliers.md), local A-0724.4. [Voir sur la carte](https://maps.app.goo.gl/T6E9TaKNk6dDgrds9) | BambuLab X1C AMS, Prusa i3 MK3s+ |
 | **[Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | [Atelier de fabrication](../espaces/ateliers.md), local D-280-1. [Voir sur la carte](https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8) | Elegoo Saturn 3 Ultra, BambuLab X1C AMS, Prusa i3 MK3s+ |
@@ -39,8 +40,8 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 ---
 
-:::tip Revalorisation des filaments 3D - projet MIL-FIL
-Les bibliothèques participent au **projet MIL-FIL**, une initiative du laboratoire de chimie [LabLaventure](https://www.laventurelab.com/) de l’Université de Montréal, qui vise à revaloriser les matériaux résiduels de l’impression 3D en nouveaux filaments utilisables pour de futures impressions.
+:::tip Revalorisation des filaments 3D - projet FilUM
+Les bibliothèques participent au **projet FilUM**, une initiative du laboratoire de chimie [LabLaventure](https://www.laventurelab.com/) de l’Université de Montréal, qui vise à revaloriser les matériaux résiduels de l’impression 3D en nouveaux filaments utilisables pour de futures impressions.
 
 Cette collaboration permet de donner une seconde vie aux déchets de filament et de contribuer à une impression 3D plus durable et responsable.
 :::
