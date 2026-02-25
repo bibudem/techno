@@ -71,11 +71,19 @@
 .mediaShade {
   position: absolute;
   inset: 0;
+  opacity: 1;
+  transition: opacity 0.22s ease;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.05) 0%,
-    rgba(11, 17, 58, 0.35) 100%
+    rgba(255, 226, 152, 0.2) 0%,
+    rgba(255, 202, 64, 0.14) 60%,
+    rgba(11, 17, 58, 0.2) 100%
   );
+}
+
+.card:hover .mediaShade,
+.card:focus-visible .mediaShade {
+  opacity: 0;
 }
 
 .cardNoImage .mediaShade {
@@ -84,6 +92,11 @@
     rgba(255, 247, 232, 0.12) 0%,
     rgba(255, 202, 64, 0.28) 100%
   );
+}
+
+.cardNoImage:hover .mediaShade,
+.cardNoImage:focus-visible .mediaShade {
+  opacity: 1;
 }
 
 .cardNoImage .media {
