@@ -25,6 +25,7 @@ var outil_accessibilite = {
         outil_accessibilite.set_hidden_event_listener();
         outil_accessibilite.check_localstorage_toggles();
         outil_accessibilite.show_widget_to_users();
+        outil_accessibilite.watch_klaro_visibility();
 
       })
       .catch(err => {
@@ -36,18 +37,115 @@ var outil_accessibilite = {
   // ===============================
   // Affichage
   // ===============================
+  has_klaro_consent_cookie: function () {
+    return document.cookie
+      .split(';')
+      .map(function (part) { return part.trim(); })
+      .some(function (part) { return part.indexOf('bib-consent=') === 0; });
+  },
+
+  is_element_visible: function (el) {
+    if (!el) return false;
+    const style = window.getComputedStyle(el);
+    return (
+      style.display !== 'none' &&
+      style.visibility !== 'hidden' &&
+      el.getClientRects().length > 0
+    );
+  },
+
+  is_klaro_visible: function () {
+    const candidates = document.querySelectorAll('.klaro .cookie-notice, .klaro .cookie-modal');
+    if (!candidates.length) return false;
+
+    return Array.prototype.some.call(candidates, function (el) {
+      return outil_accessibilite.is_element_visible(el);
+    });
+  },
+
+  should_wait_for_klaro: function () {
+    if (outil_accessibilite.has_klaro_consent_cookie()) return false;
+
+    const hasKlaroRoot = Boolean(
+      document.getElementById('klaro') || document.querySelector('.klaro'),
+    );
+
+    if (outil_accessibilite.is_klaro_visible()) return true;
+    return !hasKlaroRoot;
+  },
+
+  sync_widget_visibility_with_klaro: function () {
+    const widget = document.getElementById('readability-widget');
+    if (!widget) return;
+
+    widget.classList.toggle('klaro-blocked', outil_accessibilite.is_klaro_visible());
+  },
+
+  watch_klaro_visibility: function () {
+    const refresh = function () {
+      outil_accessibilite.sync_widget_visibility_with_klaro();
+    };
+
+    refresh();
+
+    let klaroObserver = null;
+    const attachKlaroObserver = function () {
+      const klaroRoot = document.getElementById('klaro') || document.querySelector('.klaro');
+      if (!klaroRoot) return false;
+
+      if (klaroObserver) klaroObserver.disconnect();
+      klaroObserver = new MutationObserver(refresh);
+      klaroObserver.observe(klaroRoot, {
+        attributes: true,
+        childList: true,
+        subtree: true,
+        attributeFilter: ['class', 'style', 'hidden', 'aria-hidden'],
+      });
+      return true;
+    };
+
+    if (!attachKlaroObserver()) {
+      const bodyObserver = new MutationObserver(function () {
+        if (attachKlaroObserver()) {
+          bodyObserver.disconnect();
+          refresh();
+        }
+      });
+
+      bodyObserver.observe(document.body, { childList: true, subtree: true });
+      setTimeout(function () { bodyObserver.disconnect(); }, 10000);
+    }
+
+    window.addEventListener('klaro:ready', refresh);
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', refresh);
+  },
+
   show_widget_to_users: function () {
+    const startedAt = Date.now();
+    const maxWaitForKlaroMs = 10000;
+
     const padding_check = setInterval(function () {
       const content = document.getElementById("widget-content");
-      if (!content) return;
+      const widget = document.getElementById('readability-widget');
+      if (!content || !widget) return;
 
       const padding = window.getComputedStyle(content).getPropertyValue('padding-left');
 
-      if (padding !== '0px') {
-        clearInterval(padding_check);
-        outil_accessibilite.close_widget();
-        document.getElementById('readability-widget').style.opacity = 1;
+      if (padding === '0px') return;
+
+      if (
+        outil_accessibilite.should_wait_for_klaro() &&
+        Date.now() - startedAt < maxWaitForKlaroMs
+      ) {
+        outil_accessibilite.sync_widget_visibility_with_klaro();
+        return;
       }
+
+      clearInterval(padding_check);
+      outil_accessibilite.close_widget();
+      widget.style.opacity = 1;
+      outil_accessibilite.sync_widget_visibility_with_klaro();
     }, 100);
   },
 

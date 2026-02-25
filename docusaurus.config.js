@@ -48,6 +48,7 @@ onBrokenLinks: 'warn',
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
     require.resolve('./src/clientModules/klaroLoader.js'),
+    require.resolve('./src/clientModules/klaroContextualMedia.js'),
     require.resolve('./src/clientModules/accessibilitePersist.js'),
   ],
 

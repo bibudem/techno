@@ -158,6 +158,12 @@ body.readability-highlight-links-on button:hover {
   z-index: 2147483646;
 }
 
+#readability-widget.klaro-blocked {
+  opacity: 0 !important;
+  pointer-events: none;
+  visibility: hidden;
+}
+
 /* Zone toggle */
 #readability-widget #widget-toggle {
   text-align: right;

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from '@docusaurus/router';
 import Layout from '@theme/Layout';
 import redirects from '@site/src/data/qrcode.json';
+import {hasKlaroConsent} from '@site/src/utils/consent';
 
 export default function QrRedirect() {
   const location = useLocation();
@@ -24,9 +25,12 @@ export default function QrRedirect() {
       url.searchParams.set("utm_campaign", `qr_${id}`);
       const finalUrl = url.toString();
 
-      // Envoi événement GA4 avant redirection
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'qr_scan', {
+      // Envoi événement GA4 seulement si consentement explicite
+      const canTrackQrScan =
+        hasKlaroConsent('googleAnalytics') && typeof window.gtag === 'function';
+
+      if (canTrackQrScan) {
+        window.gtag('event', 'qr_scan', {
           qr_id: id,
           method: 'qrcode',
           event_callback: () => {
