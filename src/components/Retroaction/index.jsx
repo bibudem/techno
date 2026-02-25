@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { ThumbsUp, ThumbsDown } from '@phosphor-icons/react';
+import React, {useState} from 'react';
+import clsx from 'clsx';
+import {CheckCircle, ThumbsDown, ThumbsUp, WarningCircle} from '@phosphor-icons/react';
 import styles from './Retroaction.module.css';
 
 const Retroaction = () => {
@@ -14,6 +15,10 @@ const Retroaction = () => {
   const webhookUrl = 'https://ordo.bib.umontreal.ca/webhook/retroaction-studio-site';
 
   const submitVote = async (voteValue, commentValue = '') => {
+    if (status === 'submitting') {
+      return;
+    }
+
     setStatus('submitting');
 
     try {
@@ -52,11 +57,12 @@ const Retroaction = () => {
       };
 
       // 1. Envoi principal vers LibWizard
-      await fetch(`${apiBase}/insertSubmission`, {
+      const submissionRes = await fetch(`${apiBase}/insertSubmission`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
+      if (!submissionRes.ok) throw new Error('Submission failed');
 
       // 2. Envoi parallèle vers ton webhook n8n
       fetch(webhookUrl, {
@@ -83,81 +89,78 @@ const Retroaction = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    submitVote('non', comment);
+    submitVote('non', comment.trim());
   };
 
   if (status === 'submitted') {
     return (
-      <div
-        style={{
-          marginTop: '1rem',
-          background: '#e6ffed',
-          padding: '1rem',
-          borderRadius: '8px',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center',
-        }}
-      >
-        <p style={{ margin: 0 }}>
-          Merci pour votre retour. Chaque avis nous aide à rendre ce site web meilleur.
+      <div className={styles.feedbackBox} role="status" aria-live="polite">
+        <CheckCircle size={20} weight="fill" className={styles.feedbackIcon} aria-hidden="true" />
+        <p className={styles.feedbackText}>
+          Merci pour votre retour. Chaque avis nous aide à améliorer le site.
         </p>
       </div>
     );
   }
 
-  if (status === 'error') {
-    return (
-      <div style={{ marginTop: '1rem', background: '#ffecec', padding: '1rem', borderRadius: '8px' }}>
-        <p>Une erreur est survenue. Veuillez réessayer plus tard.</p>
-      </div>
-    );
-  }
-
+  const isSubmitting = status === 'submitting';
   return (
     <form onSubmit={handleFormSubmit} className={styles.wrapper}>
-      <p>L’information sur cette page vous a-t-elle été utile ?</p>
+      <h3 className={styles.title}>L'information sur cette page vous a-t-elle été utile?</h3>
+      <p className={styles.subtitle}>
+        Votre retour est anonyme et ne prend que quelques secondes.
+      </p>
 
-      <div className={styles.buttons}>
+      <div className={styles.buttons} role="group" aria-label="Votre réponse">
         <button
           type="button"
-          data-type="oui"
           onClick={handleOuiClick}
-          className={`${styles.button} ${vote === 'oui' ? styles.selectedOui : ''}`}
+          disabled={isSubmitting}
+          className={clsx(styles.button, vote === 'oui' && styles.selectedOui)}
         >
           <ThumbsUp size={20} /> Oui
         </button>
         <button
           type="button"
-          data-type="non"
           onClick={handleNonClick}
-          className={`${styles.button} ${vote === 'non' ? styles.selectedNon : ''}`}
+          disabled={isSubmitting}
+          className={clsx(styles.button, vote === 'non' && styles.selectedNon)}
         >
           <ThumbsDown size={20} /> Non
         </button>
       </div>
 
       {vote === 'non' && (
-        <>
-          <div style={{ marginTop: '1rem' }}>
-            <strong>Faites-nous part de vos commentaires.</strong><br />
-            <span style={{ fontSize: '0.9rem' }}>
-              Merci de ne pas inclure de renseignements personnels. Vous ne recevrez pas de réponse, mais vos commentaires seront pris en compte.
-            </span>
-          </div>
+        <div className={styles.commentSection}>
+          <label htmlFor="retroaction-comment" className={styles.commentLabel}>
+            Qu'est-ce qui pourrait être amélioré ? (optionnel)
+          </label>
+          <p className={styles.commentHint}>
+            Merci de ne pas inclure de renseignements personnels.
+          </p>
           <textarea
+            id="retroaction-comment"
             className={styles.textarea}
             value={comment}
             onChange={(e) => setComment(e.target.value)}
             placeholder="Votre message..."
-            rows={3}
+            rows={4}
+            maxLength={500}
           />
-          <button type="submit" className={styles.submitButton} disabled={status === 'submitting'}>
-            {status === 'submitting' ? 'Envoi en cours…' : 'Envoyer'}
-          </button>
-        </>
+          <div className={styles.commentFooter}>
+            <span className={styles.counter}>{comment.length}/500</span>
+            <button type="submit" className={styles.submitButton} disabled={isSubmitting}>
+              {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {status === 'error' && (
+        <p className={styles.error} role="alert">
+          <WarningCircle size={18} weight="fill" aria-hidden="true" />
+          Une erreur est survenue. Veuillez réessayer.
+        </p>
       )}
     </form>
   );
