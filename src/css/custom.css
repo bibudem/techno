@@ -335,6 +335,11 @@ p {
 }
 
 
+/* Augmenter la taille de la police de la table des matieres */
+.table-of-contents {
+  font-size: 1rem;
+}
+
 /* Cacher le TOC s'il ne contient qu'un seul élément */
 .theme-doc-toc-desktop ul {
   display: none;
@@ -563,4 +568,3 @@ p.purposes,
 .klaro .cookie-modal .cm-btn.cm-btn-info {
   background-color:var(--bleu-400)!important
 }
-
