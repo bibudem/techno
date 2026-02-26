@@ -107,7 +107,7 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 ### Connecter l’imprimante
 
 :::warning
-    Merci de toujours passer par la connexion Wi-Fi afin de lancer vos impressions. Il est interdit de retirer la carte micro SD présente dans l'imprimante.
+    Merci de toujours passer par la connexion Wi-Fi afin de lancer vos impressions. Il est interdit de retirer la carte micro SD présente dans l'imprimante. Si la connexion ne fonctionne pas après plusieurs tentatives, essayer de déconnecter votre profil Bambu Studio et retenter la connexion
 :::
 
 -	Connecter votre ordinateur au **Wi-Fi Bambu Lab**. Pas de mot de passe nécessaire pour cette étape.
