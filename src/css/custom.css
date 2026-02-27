@@ -573,7 +573,7 @@ top : 30% !important;
 .klaro .cookie-notice .cn-buttons .cm-btn.cm-btn-success,
 .klaro .cookie-modal .cm-btn.cm-btn-success {
   color:var(--bleu-50);
-  background-color:#205d3b;
+  background-color:#0057ac;
   font-weight:600
 }
 .klaro .cookie-modal a,
@@ -601,8 +601,8 @@ p.purposes,
 .klaro .context-notice .cm-btn.cm-btn-info,
 .klaro .context-notice .cm-btn.cm-btn-accept {
   color:#fff !important;
-  background-color:#2e7d32 !important;
-  border-color:#2e7d32 !important;
+  background-color:#0057ac !important;
+  border-color:#0057ac !important;
   font-weight:600;
 }
 
@@ -614,8 +614,8 @@ p.purposes,
 .klaro .context-notice .cm-btn.cm-btn-info:focus-visible,
 .klaro .context-notice .cm-btn.cm-btn-accept:hover,
 .klaro .context-notice .cm-btn.cm-btn-accept:focus-visible {
-  background-color:#256428 !important;
-  border-color:#256428 !important;
+  background-color:#0057ac !important;
+  border-color:#0057ac !important;
 }
 
 /* Klaro contextual consent placeholders are rendered outside .klaro */
@@ -627,8 +627,8 @@ p.purposes,
 .cm-as-context-notice .cm-btn.cn-ok,
 [data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child {
   color:#fff !important;
-  background-color:#2e7d32 !important;
-  border-color:#2e7d32 !important;
+  background-color:#0057ac !important;
+  border-color:#0057ac !important;
   font-weight:600;
 }
 
@@ -646,8 +646,8 @@ p.purposes,
 .cm-as-context-notice .cm-btn.cn-ok:focus-visible,
 [data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child:hover,
 [data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child:focus-visible {
-  background-color:#256428 !important;
-  border-color:#256428 !important;
+  background-color:#0057ac !important;
+  border-color:#0057ac !important;
 }
 
 .sb-media-blocked-notice {
