@@ -23,6 +23,22 @@ body.open-dyslexic *:not(i) {
   font-family: "Open Dyslexic" !important;
 }
 
+:root {
+  --widget-panel-bg: #ffffff;
+  --widget-panel-border: var(--ifm-color-emphasis-300, #cfd3d7);
+  --widget-panel-text: #1c1e21;
+  --widget-switch-track: var(--ifm-color-emphasis-200, #e6e8ea);
+  --widget-switch-thumb: #ffffff;
+}
+
+[data-theme="dark"] {
+  --widget-panel-bg: #18263c;
+  --widget-panel-border: #32465f;
+  --widget-panel-text: #f2f6fb;
+  --widget-switch-track: #30435b;
+  --widget-switch-thumb: #f6f9fd;
+}
+
 /* ============================================================
    MASQUER IMAGES (scopé au contenu seulement)
    - Ne touche PAS navbar / logos / footer
@@ -238,8 +254,8 @@ body.readability-highlight-links-on button:hover {
 }
 
 #readability-widget #widget-content {
-  background: #fff;
-  border: 1px solid var(--ifm-color-emphasis-300, #cfd3d7);
+  background: var(--widget-panel-bg);
+  border: 1px solid var(--widget-panel-border);
   border-radius: 14px;
 
   font-family: var(--ifm-font-family-base, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
@@ -256,7 +272,7 @@ body.readability-highlight-links-on button:hover {
 #readability-widget #widget-content p {
   font-size: 0.95rem;
   margin: 10px 0;
-  color: var(--ifm-font-color-base, #1c1e21);
+  color: var(--widget-panel-text);
 }
 
 #readability-widget #widget-content p a {
@@ -274,11 +290,13 @@ body.readability-highlight-links-on button:hover {
   padding: 0;
   cursor: pointer;
 
-  color: var(--ifm-color-emphasis-600, #5b5f63);
+  color: var(--widget-panel-text);
   font-size: 0.95rem;
+  opacity: 0.85;
 }
 #readability-widget #widget-content #hide-widget-button:hover {
   text-decoration: underline;
+  opacity: 1;
 }
 
 /* Dernier élément sans marge */
@@ -342,7 +360,7 @@ body.readability-highlight-links-on button:hover {
 
 /* The switch track */
 #readability-widget #widget-content label.readability-switch span.toggle-switch {
-  background-color: var(--ifm-color-emphasis-200, #e6e8ea);
+  background-color: var(--widget-switch-track);
   border-radius: 999px;
   bottom: 0;
   cursor: pointer;
@@ -386,7 +404,7 @@ body.readability-highlight-links-on button:hover {
   height: 24px;
 
   border-radius: 50%;
-  background: #fff;
+  background: var(--widget-switch-thumb);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
 
   transition: transform 0.2s;
