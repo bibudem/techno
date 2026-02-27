@@ -5,7 +5,7 @@ help : info
 
 Antidote est un correcteur grammatical avancé qui offre plusieurs dictionnaires et guides linguistiques. Il est installé **sur tous les ordinateurs des bibliothèques de l’UdeM** disponibles aux usagers.
 
-Le logiciel est aussi disponible en accès à distance. Consultez la page [Connexion à distance aux logiciels](../connexion-distance).
+Le logiciel est aussi disponible en accès à distance. Consultez la page [Connexion à distance aux logiciels](../connexion-distance.md).
 
 ---
 
