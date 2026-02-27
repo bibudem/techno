@@ -7,7 +7,7 @@
     padding: 1.5rem;
     text-decoration: none !important;
     transition: transform 0.3s ease, background 0.3s ease;
-    color: #fff;
+    color: var(--white);
     flex: 1;                
     flex-direction: column;
     justify-content: flex-start;
@@ -46,7 +46,7 @@
     margin: 0 0 1rem;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
+    color: var(--white);
   }
   .text {
     margin: 0;
@@ -74,21 +74,21 @@
 
   .cardMedia:hover .arrowContainer {
     transform: translate(0.2rem, -50%);
-    background-color: #FFDC81;
-    color: #000;
+    background-color: var(--c-ffdc81);
+    color: var(--black);
   }
   .cardMedia .title,
   .cardMedia .text {
-    color: #fff;
+    color: var(--white);
   }
   
   .cardMedia:hover .title,
   .cardMedia:hover .text {
-    color: #fff;
+    color: var(--white);
   }
 
   .arrowContainer {
-    color: #000000;
+    color: var(--black);
   }
 
   .arrowContainer svg {

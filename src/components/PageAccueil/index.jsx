@@ -46,11 +46,11 @@ export default function PageAccueil() {
       <section
         className={styles.introSection}
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), #111), url(${randomImage})`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), var(--c-111111)), url(${randomImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           borderRadius: '0 0 12px 12px',
-          color: '#fff',
+          color: 'var(--white)',
         }}
       >
 <div className={styles.introContainer}>

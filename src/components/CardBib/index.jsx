@@ -24,22 +24,22 @@ export default function CardBib({
 
   const colorMap = {
     bleu: {
-      bg: '#0057ac',
-      hoverBg: '#004c94',
-      iconColor: '#ffffff88',
-      linkIconColor: '#fff',
+      bg: 'var(--bleu-500)',
+      hoverBg: 'var(--c-004c94)',
+      iconColor: 'var(--c-ffffff88)',
+      linkIconColor: 'var(--white)',
     },
     jaune: {
       bg: 'var(--jaune)',
-      hoverBg: '#FFDC81',
-      iconColor: '#BC8800',
-      linkIconColor: '#473F2C',
+      hoverBg: 'var(--c-ffdc81)',
+      iconColor: 'var(--c-bc8800)',
+      linkIconColor: 'var(--c-473f2c)',
     },
     vertFonce: {
-      bg: '#2e7d32',
-      hoverBg: '#1b5e20',
-      iconColor: '#ffffff88',
-      linkIconColor: '#fff',
+      bg: 'var(--c-2e7d32)',
+      hoverBg: 'var(--c-1b5e20)',
+      iconColor: 'var(--c-ffffff88)',
+      linkIconColor: 'var(--white)',
     },
   };
 

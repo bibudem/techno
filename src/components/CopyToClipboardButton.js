@@ -25,7 +25,7 @@ export default function CopyToClipboardButton({ text }) {
     >
       <code 
         style={{ 
-          backgroundColor: "#f5f5f5", 
+          backgroundColor: "var(--c-f5f5f5)", 
           padding: "3px 6px", 
           borderRadius: "4px", 
           wordBreak: "break-word", 
@@ -45,8 +45,8 @@ export default function CopyToClipboardButton({ text }) {
             top: "-30px",
             left: "50%",
             transform: "translateX(-50%)",
-            backgroundColor: "#555",
-            color: "#fff",
+            backgroundColor: "var(--c-555555)",
+            color: "var(--white)",
             padding: "5px 10px",
             borderRadius: "5px",
             fontSize: "12px",
@@ -66,8 +66,8 @@ export default function CopyToClipboardButton({ text }) {
             top: "-30px",
             left: "50%",
             transform: "translateX(-50%)",
-            backgroundColor: "#333",
-            color: "#fff",
+            backgroundColor: "var(--c-333333)",
+            color: "var(--white)",
             padding: "5px 10px",
             borderRadius: "5px",
             fontSize: "12px",

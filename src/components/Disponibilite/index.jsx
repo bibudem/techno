@@ -26,7 +26,7 @@ export default function Disponibilite({ oclc, label }) {
 
   const baseStyle = {
     display: 'block',
-    border: '1px solid #ddd',
+    border: '1px solid var(--c-dddddd)',
     borderRadius: '8px',
     padding: '1rem',
     margin: '0.5rem 0',

@@ -125,16 +125,16 @@ export default function FormulaireSuggestionAchat() {
 
   if (success) {
     return (
-      <section style={{ maxWidth: "600px", margin: "2rem auto", padding: "2rem", background: "#fff", borderRadius: "8px", boxShadow: "0 2px 6px rgba(0,0,0,0.1)", textAlign: "center" }}>
-        <h2 style={{ color: "#0057ac", fontSize: "1.5rem", marginBottom: "1rem" }}>Votre demande a été acheminée</h2>
-        <p style={{ fontSize: "1rem", color: "#333", marginBottom: "2rem" }}>
+      <section style={{ maxWidth: "600px", margin: "2rem auto", padding: "2rem", background: "var(--white)", borderRadius: "8px", boxShadow: "0 2px 6px rgba(0,0,0,0.1)", textAlign: "center" }}>
+        <h2 style={{ color: "var(--bleu-500)", fontSize: "1.5rem", marginBottom: "1rem" }}>Votre demande a été acheminée</h2>
+        <p style={{ fontSize: "1rem", color: "var(--c-333333)", marginBottom: "2rem" }}>
           Nous vous remercions d’avoir utilisé ce service.
         </p>
         <div>
-          <a href="/dev/form-sa" style={{ background: "#0057ac", color: "#fff", padding: "10px 20px", borderRadius: "30px", textDecoration: "none", marginRight: "15px" }}>
+          <a href="/dev/form-sa" style={{ background: "var(--bleu-500)", color: "var(--white)", padding: "10px 20px", borderRadius: "30px", textDecoration: "none", marginRight: "15px" }}>
             Effectuer une autre demande
           </a>
-          <a href="/" style={{ background: "#6c757d", color: "#fff", padding: "10px 20px", borderRadius: "30px", textDecoration: "none" }}>
+          <a href="/" style={{ background: "var(--c-6c757d)", color: "var(--white)", padding: "10px 20px", borderRadius: "30px", textDecoration: "none" }}>
             Retour à l’accueil
           </a>
         </div>
@@ -143,10 +143,10 @@ export default function FormulaireSuggestionAchat() {
   }
 
   return (
-    <section style={{ maxWidth: "700px", margin: "2rem auto", padding: "1rem", background: "#fff", borderRadius: "8px", boxShadow: "0 2px 6px rgba(0,0,0,0.1)" }}>
+    <section style={{ maxWidth: "700px", margin: "2rem auto", padding: "1rem", background: "var(--white)", borderRadius: "8px", boxShadow: "0 2px 6px rgba(0,0,0,0.1)" }}>
       <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "1rem" }}>Suggestion d’achat</h1>
-      <p style={{ marginBottom: "1rem", fontSize: "0.9rem", color: "#555" }}>
-        Avant de remplir ce formulaire, veuillez vérifier dans <a href="https://umontreal.on.worldcat.org/discovery?lang=fr" style={{ color: "#0057ac" }}>Sofia</a> que le document n’est pas déjà dans la collection.
+      <p style={{ marginBottom: "1rem", fontSize: "0.9rem", color: "var(--c-555555)" }}>
+        Avant de remplir ce formulaire, veuillez vérifier dans <a href="https://umontreal.on.worldcat.org/discovery?lang=fr" style={{ color: "var(--bleu-500)" }}>Sofia</a> que le document n’est pas déjà dans la collection.
       </p>
 
       <form onSubmit={submit}>
@@ -242,7 +242,7 @@ export default function FormulaireSuggestionAchat() {
 
         {/* Messages d’état */}
         {status && (
-          <div style={{ margin: "1rem 0", padding: "0.75rem", background: "#f5f5f5", borderRadius: "4px" }}>
+          <div style={{ margin: "1rem 0", padding: "0.75rem", background: "var(--c-f5f5f5)", borderRadius: "4px" }}>
             {status}
           </div>
         )}
@@ -255,7 +255,7 @@ export default function FormulaireSuggestionAchat() {
           >
             Recommencer
           </button>
-          <button type="submit" style={{ marginLeft: "1rem", background: "#0057ac", color: "white", padding: "0.5rem 1rem", borderRadius: "4px" }}>
+          <button type="submit" style={{ marginLeft: "1rem", background: "var(--bleu-500)", color: "white", padding: "0.5rem 1rem", borderRadius: "4px" }}>
             Envoyer
           </button>
         </div>

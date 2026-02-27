@@ -7,7 +7,7 @@
   background-position: center;
   border-radius: 16px;
   height: 200px;           /* hauteur fixe */
-  color: #fff;
+  color: var(--white);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -76,5 +76,5 @@
 
 .cardImage:hover .cardImageArrow {
   transform: translate(0.2rem, -50%);
-  background-color: #FFDC81;
+  background-color: var(--c-ffdc81);
 }

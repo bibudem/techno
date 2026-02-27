@@ -13,7 +13,7 @@ const StudioCard = ({
     className="card"
     style={{
       padding: "1rem",
-      backgroundColor: "#f9f9f9",
+      backgroundColor: "var(--c-f9f9f9)",
       borderRadius: "8px",
       boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
     }}
@@ -35,7 +35,7 @@ const StudioCard = ({
             href={mapLink}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#0057ac", textDecoration: "none" }}
+            style={{ color: "var(--bleu-500)", textDecoration: "none" }}
           >
             Localiser sur Google Maps
           </a>

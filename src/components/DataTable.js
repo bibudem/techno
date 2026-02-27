@@ -27,7 +27,7 @@ const DataTable = ({ src }) => {
         <thead>
           <tr>
             {data[0].map((header, i) => (
-              <th key={i} style={{ padding: '8px', borderBottom: '2px solid #ddd' }}>{header}</th>
+              <th key={i} style={{ padding: '8px', borderBottom: '2px solid var(--c-dddddd)' }}>{header}</th>
             ))}
           </tr>
         </thead>
@@ -35,7 +35,7 @@ const DataTable = ({ src }) => {
           {data.slice(1).map((row, i) => (
             <tr key={i}>
               {row.map((cell, j) => (
-                <td key={j} style={{ padding: '8px', borderBottom: '1px solid #ddd' }}>
+                <td key={j} style={{ padding: '8px', borderBottom: '1px solid var(--c-dddddd)' }}>
                   {cell.startsWith("[") && cell.includes("](") ? (
                     <a href={cell.match(/\((.*?)\)/)[1]} target="_blank" rel="noopener noreferrer">
                       {cell.match(/\[(.*?)\]/)[1]}

@@ -14,7 +14,7 @@
 .dateRange {
   font-size: 0.95rem;
   margin-top: -0.5rem;
-  color: #444;
+  color: var(--c-444444);
 }
 
 .navButtons {
@@ -25,15 +25,15 @@
 .navButton {
   padding: 0.3rem 0.6rem;
   font-size: 1.2rem;
-  background-color: #e5f0f8;
-  border: 1px solid #ccc;
+  background-color: var(--bleu-100);
+  border: 1px solid var(--c-cccccc);
   border-radius: 999px;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
 .navButton:hover {
-  background-color: #d0e3f0;
+  background-color: var(--c-d0e3f0);
 }
 
 .disabled {
@@ -55,20 +55,20 @@
 .table td {
   padding: 0.6rem;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid var(--c-dddddd);
 }
 
 .todayHeader {
-  background-color: #e5f0f8;
+  background-color: var(--bleu-100);
   font-weight: bold;
 }
 
 .todayCell {
-  background-color: #e5f0f8;
+  background-color: var(--bleu-100);
 }
 
 /* .table td:empty::before {
   content: "Fermé";
-  color: #888;
+  color: var(--c-888888);
   font-style: italic;
 } */

@@ -31,7 +31,7 @@ export default function LogoWrapper() {
           style={{
             width: '1px',
             height: '24px',
-            backgroundColor: '#000',
+            backgroundColor: 'var(--black)',
             opacity: 0.5,
           }}
         />

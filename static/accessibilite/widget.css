@@ -203,7 +203,7 @@ body.readability-highlight-links-on button:hover {
 /* Focus visible (UdeM/Docusaurus) */
 #readability-widget #widget-toggle button:focus,
 #readability-widget #widget-toggle button:focus-visible {
-  outline: 3px solid var(--ifm-color-primary-lightest, #b3d4ff);
+  outline: 3px solid var(--jaune);
   outline-offset: 2px;
 }
 
@@ -336,7 +336,7 @@ body.readability-highlight-links-on button:hover {
 
 #readability-widget #widget-content label.readability-switch input:focus + span.toggle-switch,
 #readability-widget #widget-content label.readability-switch input:focus-visible + span.toggle-switch {
-  outline: 3px solid var(--ifm-color-primary-lightest, #b3d4ff);
+  outline: 3px solid var(--jaune);
   outline-offset: 2px;
 }
 

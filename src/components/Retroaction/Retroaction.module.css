@@ -1,7 +1,7 @@
 .wrapper {
   margin-top: 2rem;
-  background: linear-gradient(180deg, #fffdf8 0%, #fff5df 150%);
-  border: 1px solid #f0dfb2;
+  background: linear-gradient(180deg, var(--c-fffdf8) 0%, var(--c-fff5df) 150%);
+  border: 1px solid var(--c-f0dfb2);
   border-radius: 14px;
   padding: 1rem 1rem 1.1rem;
 }
@@ -26,8 +26,8 @@
 }
 
 .button {
-  background: #ffffff;
-  border: 1px solid #cfdceb;
+  background: var(--white);
+  border: 1px solid var(--c-cfdceb);
   border-radius: 10px;
   padding: 0.52rem 0.9rem;
   font-size: 0.97rem;
@@ -45,11 +45,11 @@
 
 .button:hover {
   border-color: var(--bleu-300);
-  background-color: #f9fcff;
+  background-color: var(--c-f9fcff);
 }
 
 .button:focus-visible {
-  outline: 3px solid var(--bleu-300);
+  outline: 3px solid var(--jaune);
   outline-offset: 1px;
 }
 
@@ -61,18 +61,18 @@
 .selectedOui {
   border-color: var(--bleu-500);
   box-shadow: 0 0 0 2px rgba(0, 87, 172, 0.2);
-  background-color: #eef6fc;
+  background-color: var(--c-eef6fc);
 }
 
 .selectedNon {
-  border-color: #b85744;
+  border-color: var(--c-b85744);
   box-shadow: 0 0 0 2px rgba(184, 87, 68, 0.18);
-  background-color: #fff4f2;
+  background-color: var(--c-fff4f2);
 }
 
 .commentSection {
   margin-top: 0.9rem;
-  border-top: 1px solid #dde6ef;
+  border-top: 1px solid var(--c-dde6ef);
   padding-top: 0.9rem;
 }
 
@@ -93,19 +93,19 @@
 .textarea {
   display: block;
   width: 100%;
-  border: 1px solid #cfdceb;
+  border: 1px solid var(--c-cfdceb);
   border-radius: 10px;
   padding: 0.65rem 0.7rem;
   font-size: 0.95rem;
   line-height: 1.45;
   resize: vertical;
   min-height: 110px;
-  background: #ffffff;
+  background: var(--white);
 }
 
 .textarea:focus-visible {
-  outline: 3px solid var(--bleu-300);
-  border-color: var(--bleu-400);
+  outline: 3px solid var(--jaune);
+  border-color: var(--jaune);
 }
 
 .commentFooter {
@@ -124,7 +124,7 @@
 .submitButton {
   margin-left: auto;
   background-color: var(--bleu-500);
-  color: #ffffff;
+  color: var(--white);
   border: none;
   border-radius: 10px;
   padding: 0.52rem 0.9rem;
@@ -139,7 +139,7 @@
 }
 
 .submitButton:focus-visible {
-  outline: 3px solid var(--bleu-300);
+  outline: 3px solid var(--jaune);
   outline-offset: 1px;
 }
 
@@ -150,14 +150,14 @@
 
 .feedbackBox {
   margin-top: 2rem;
-  background: #eaf8ef;
-  border: 1px solid #b9dec2;
+  background: var(--c-eaf8ef);
+  border: 1px solid var(--c-b9dec2);
   border-radius: 14px;
   padding: 0.9rem 1rem;
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  color: #245f35;
+  color: var(--c-245f35);
 }
 
 .feedbackIcon {
@@ -173,9 +173,9 @@
 .error {
   margin: 0.8rem 0 0;
   border-radius: 10px;
-  border: 1px solid #f0c2be;
-  background: #fff3f2;
-  color: #9f2f27;
+  border: 1px solid var(--c-f0c2be);
+  background: var(--c-fff3f2);
+  color: var(--c-9f2f27);
   font-size: 0.9rem;
   padding: 0.6rem 0.7rem;
   display: inline-flex;

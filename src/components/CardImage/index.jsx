@@ -30,7 +30,7 @@ export default function CardImage({ to, title, description, image }) {
         />
       </div>
       <div className={styles.cardImageArrow}>
-        <ArrowRight size={24} weight="light" color="#000" />
+        <ArrowRight size={24} weight="light" color="var(--black)" />
       </div>
     </div>
   );

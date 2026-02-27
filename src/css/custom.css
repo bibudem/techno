@@ -3,17 +3,17 @@
 :root {
   --ifm-color-primary:var(--bleu-500);
   --ifm-color-primary-dark: var(--bleu-700);
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary-darker: var(--c-277148);
+  --ifm-color-primary-darkest: var(--c-205d3b);
+  --ifm-color-primary-light: var(--c-33925d);
+  --ifm-color-primary-lighter: var(--c-359962);
+  --ifm-color-primary-lightest: var(--c-3cad6e);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "Figtree", sans-serif;
-  --ifm-breadcrumb-item-background-active: #ffffff; 
+  --ifm-breadcrumb-item-background-active: var(--white); 
   --ifm-menu-color-background-hover : var(--bleu-50);
-  --ifm-color-info-contrast-background: #fff7e8 ;
+  --ifm-color-info-contrast-background: var(--c-fff7e8) ;
   --ifm-alert-border-color : var(--jaune-pale);
   --ifm-alert-border-color : var(--jaune-pale);
   --ifm-color-info-dark : var(--jaune);
@@ -21,20 +21,45 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: var(--c-25c2a0);
+  --ifm-color-primary-dark: var(--c-21af90);
+  --ifm-color-primary-darker: var(--c-1fa588);
+  --ifm-color-primary-darkest: var(--c-1a8870);
+  --ifm-color-primary-light: var(--c-29d5b0);
+  --ifm-color-primary-lighter: var(--c-32d8b4);
+  --ifm-color-primary-lightest: var(--c-4fddbf);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+:where(
+  a[href],
+  button,
+  input,
+  select,
+  textarea,
+  summary,
+  [role='button'],
+  [tabindex]:not([tabindex='-1'])
+):focus-visible {
+  outline: 3px solid var(--jaune) !important;
+  outline-offset: 2px;
 }
 
 .main-wrapper {
   max-width: 1440px;
   margin: auto;
   width: 100%;
+}
+
+/* Évite le chevauchement avec le widget d'accessibilité (coin inférieur droit). */
+.theme-back-to-top-button {
+  bottom: 7.5rem !important;
+}
+
+@media screen and (max-width: 996px) {
+  .theme-back-to-top-button {
+    bottom: 8.25rem !important;
+  }
 }
 
 .docs-wrapper .navbar .navbar__toggle {
@@ -95,7 +120,7 @@ pre {
 .card--clickable:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: #00407f;
+  background-color: var(--bleu-600);
 }
 
 
@@ -122,9 +147,9 @@ html[data-theme="light"] {
   --navbar-separator-bg-c: var(--c-indigo-40);
   --ifm-dropdown-background-color: var(--token-secondary-bg-c);
   --navbar-icon-link-c: var(--c-indigo-60);
-  --navbar-text-color: #5a5f66;
-  --navbar-active-border-color: #000000;
-  --search-kbd-color: #5a5f66;
+  --navbar-text-color: var(--c-5a5f66);
+  --navbar-active-border-color: var(--black);
+  --search-kbd-color: var(--c-5a5f66);
 }
 
 html[data-theme="dark"] {
@@ -272,7 +297,7 @@ p {
 
 .button--primary {
   background-color: var(--ifm-color-primary);
-  color: #fff;
+  color: var(--white);
   border: none;
 }
 
@@ -300,7 +325,7 @@ p {
 
 .button.button--secondary:hover {
   color: var(--bleu-700);
-  border-color: #004080;
+  border-color: var(--c-004080);
   color : var(--bleu-700);
   
 }
@@ -328,7 +353,7 @@ p {
 }
 
 .grid-item {
-  background: #f8f9fa; /* Fond léger */
+  background: var(--c-f8f9fa); /* Fond léger */
   padding: 15px;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -366,7 +391,7 @@ p {
 /* Carte de soutien */
 .support-card {
   background-color:var(--bleu-500); /* bleu UdeM */
-  color: #ffffff;
+  color: var(--white);
   border-radius: var(--ifm-global-radius);
   padding: 1.5rem;
   box-shadow: var(--ifm-global-shadow-lw);
@@ -381,7 +406,7 @@ p {
 .support-card h3 {
   font-size: 1.6rem;
   margin: 0;
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Icône + titre centré */
@@ -396,7 +421,7 @@ p {
 
 /* Liens */
 .support-card a {
-  color: #ffffff;
+  color: var(--white);
   text-decoration: underline;
   transition: color 0.2s ease;
 }
@@ -417,7 +442,7 @@ p {
   display: block;
   margin-top: 1rem;
   margin-bottom: 0.25rem;
-  color: #ffffff;
+  color: var(--white);
 }
 
 
@@ -467,7 +492,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  color: #0057ac !important;
+  color: var(--bleu-500) !important;
 }
 
 .external-highlight-link::after {
@@ -573,7 +598,7 @@ top : 30% !important;
 .klaro .cookie-notice .cn-buttons .cm-btn.cm-btn-success,
 .klaro .cookie-modal .cm-btn.cm-btn-success {
   color:var(--bleu-50);
-  background-color:#0057ac;
+  background-color:var(--bleu-500);
   font-weight:600
 }
 .klaro .cookie-modal a,
@@ -600,9 +625,9 @@ p.purposes,
 .klaro .context-notice .cm-btn.cm-btn-success,
 .klaro .context-notice .cm-btn.cm-btn-info,
 .klaro .context-notice .cm-btn.cm-btn-accept {
-  color:#fff !important;
-  background-color:#0057ac !important;
-  border-color:#0057ac !important;
+  color:var(--white) !important;
+  background-color:var(--bleu-500) !important;
+  border-color:var(--bleu-500) !important;
   font-weight:600;
 }
 
@@ -614,8 +639,17 @@ p.purposes,
 .klaro .context-notice .cm-btn.cm-btn-info:focus-visible,
 .klaro .context-notice .cm-btn.cm-btn-accept:hover,
 .klaro .context-notice .cm-btn.cm-btn-accept:focus-visible {
-  background-color:#0057ac !important;
-  border-color:#0057ac !important;
+  background-color:var(--bleu-500) !important;
+  border-color:var(--bleu-500) !important;
+}
+
+.klaro .context-notice .cm-btn:focus-visible,
+.klaro .context-notice .cm-btn.cm-btn-success:focus-visible,
+.klaro .context-notice .cm-btn.cm-btn-info:focus-visible,
+.klaro .context-notice .cm-btn.cm-btn-accept:focus-visible {
+  background-color:var(--jaune) !important;
+  border-color:var(--jaune) !important;
+  color:var(--black) !important;
 }
 
 /* Klaro contextual consent placeholders are rendered outside .klaro */
@@ -626,9 +660,9 @@ p.purposes,
 .cm-as-context-notice .cm-btn.cm-btn-accept,
 .cm-as-context-notice .cm-btn.cn-ok,
 [data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child {
-  color:#fff !important;
-  background-color:#0057ac !important;
-  border-color:#0057ac !important;
+  color:var(--white) !important;
+  background-color:var(--bleu-500) !important;
+  border-color:var(--bleu-500) !important;
   font-weight:600;
 }
 
@@ -646,15 +680,27 @@ p.purposes,
 .cm-as-context-notice .cm-btn.cn-ok:focus-visible,
 [data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child:hover,
 [data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child:focus-visible {
-  background-color:#0057ac !important;
-  border-color:#0057ac !important;
+  background-color:var(--bleu-500) !important;
+  border-color:var(--bleu-500) !important;
+}
+
+.context-notice .cm-btn.cm-btn-success:focus-visible,
+.context-notice .cm-btn.cm-btn-accept:focus-visible,
+.context-notice .cm-btn.cn-ok:focus-visible,
+.cm-as-context-notice .cm-btn.cm-btn-success:focus-visible,
+.cm-as-context-notice .cm-btn.cm-btn-accept:focus-visible,
+.cm-as-context-notice .cm-btn.cn-ok:focus-visible,
+[data-type="placeholder"] .context-notice .cm-buttons .cm-btn:first-child:focus-visible {
+  background-color:var(--jaune) !important;
+  border-color:var(--jaune) !important;
+  color:var(--black) !important;
 }
 
 .sb-media-blocked-notice {
   padding:1rem;
   border:1px solid var(--ifm-color-emphasis-300);
   border-radius:0.75rem;
-  background:linear-gradient(145deg, #fff9e9 0%, #f8f0d8 100%);
+  background:linear-gradient(145deg, var(--c-fff9e9) 0%, var(--c-f8f0d8) 100%);
   color:var(--ifm-font-color-base);
 }
 
@@ -668,7 +714,7 @@ p.purposes,
   border-radius:999px;
   padding:0.45rem 0.9rem;
   background-color:var(--ifm-color-primary);
-  color:#fff;
+  color:var(--white);
   font-weight:600;
   cursor:pointer;
 }
@@ -676,4 +722,9 @@ p.purposes,
 .sb-media-consent-manage:hover,
 .sb-media-consent-manage:focus-visible {
   background-color:var(--ifm-color-primary-dark);
+}
+
+.sb-media-consent-manage:focus-visible {
+  background-color:var(--jaune);
+  color:var(--black);
 }

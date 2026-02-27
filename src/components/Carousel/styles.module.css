@@ -89,8 +89,8 @@
   -webkit-tap-highlight-color: transparent;
   appearance: none;
 
-  background: #0057ac;
-  border: 1px solid #0057ac;
+  background: var(--bleu-500);
+  border: 1px solid var(--bleu-500);
   border-radius: 999px;
 
   width: 2.6rem;
@@ -107,18 +107,18 @@
   font-size: 0;
   vertical-align: middle;
 
-  color: #ffffff;
+  color: var(--white);
   cursor: pointer;
 }
 
 :global(.embla__button:hover:not(:disabled)) {
-  background: #004a91;
-  border-color: #004a91;
+  background: var(--c-004a91);
+  border-color: var(--c-004a91);
 }
 
 :global(.embla__button:active:not(:disabled)) {
-  background: #003e7a;
-  border-color: #003e7a;
+  background: var(--c-003e7a);
+  border-color: var(--c-003e7a);
 }
 
 :global(.embla__button:disabled) {

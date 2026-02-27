@@ -40,7 +40,7 @@
 
 .heroText {
   font-size: 1.125rem;
-  color: #444;
+  color: var(--c-444444);
   margin-bottom: 1.75rem;
   line-height: 1.2;
 }

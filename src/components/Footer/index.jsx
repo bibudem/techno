@@ -47,7 +47,7 @@ export default function Footer() {
           {/* Bloc Urgence style contactLink, mais avec marge haut */}
           <div className={styles.urgenceInContact}>
             <a href="tel:5143437771" className={styles.contactLink}>
-              <Siren size={20} weight="fill" color="#f04e24" />
+              <Siren size={20} weight="fill" color="var(--rouge-orange-500)" />
               <span>Urgence UdeM - 514 343-7771</span>
             </a>
           </div>
@@ -64,23 +64,23 @@ export default function Footer() {
             <span>Site des bibliothèques UdeM</span>
           </Link>
           <Link to="https://boite-outils.bib.umontreal.ca/" className={styles.linkItem}>
-            <Circle size={20} weight="fill" color="#f04e24"/>
+            <Circle size={20} weight="fill" color="var(--rouge-orange-500)"/>
             <span>Boite à outils</span>
           </Link>
           <Link to="https://studio.bib.umontreal.ca/" className={styles.linkItem}>
-            <Circle size={20} weight="fill" color="#FFCA40"/>
+            <Circle size={20} weight="fill" color="var(--jaune)"/>
             <span>studio•bib</span>
           </Link>
           <Link to="https://umontreal.scholaris.ca/" className={styles.linkItem}>
-            <Circle size={20} weight="fill" color="#024244"/>
+            <Circle size={20} weight="fill" color="var(--vert-fonce)"/>
             <span>Papyrus</span>
           </Link>
           <Link to="https://geoapp.bibl.ulaval.ca/" className={styles.linkItem}>
-            <Circle size={20} weight="fill" color="#CCE2F3"/>
+            <Circle size={20} weight="fill" color="var(--bleu-200)"/>
             <span>GéoIndex</span>
           </Link>
           <Link to="https://calypso.bib.umontreal.ca/" className={styles.linkItem}>
-            <Circle size={20} weight="fill" color="#FEE1DE"/>
+            <Circle size={20} weight="fill" color="var(--rose-300)"/>
             <span>Calypso</span>
           </Link>
         </div>
@@ -137,13 +137,13 @@ export default function Footer() {
               border: "none",
               padding: 0,
               margin: 0,
-              color: "#fff",
+              color: "var(--white)",
               textDecoration: "underline",
               cursor: "pointer",
               font: "inherit"
             }}
             onMouseOver={e => (e.target.style.color = 'var(--color-accent)')}
-            onMouseOut={e => (e.target.style.color = '#fff')}
+            onMouseOut={e => (e.target.style.color = 'var(--white)')}
           >
             Préférences de témoins
           </button>

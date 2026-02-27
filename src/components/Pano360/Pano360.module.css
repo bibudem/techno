@@ -7,7 +7,7 @@
 }
 
 .container:focus {
-  outline: 2px solid var(--bleu-600);
+  outline: 2px solid var(--jaune);
   outline-offset: 2px;
   border-radius: 16px; 
 }

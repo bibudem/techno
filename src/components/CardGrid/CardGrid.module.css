@@ -15,10 +15,10 @@
   flex-direction: column;
   text-decoration: none;
   color: var(--gris-700);
-  border: 1px solid #dde6ef;
+  border: 1px solid var(--c-dde6ef);
   border-radius: 14px;
   overflow: hidden;
-  background: linear-gradient(180deg, #ffffff 0%, #f4f8fc 140%);
+  background: linear-gradient(180deg, var(--white) 0%, var(--c-f4f8fc) 140%);
   box-shadow: 0 8px 18px rgba(14, 29, 58, 0.05);
   transition:
     border-color 0.22s ease,
@@ -31,12 +31,12 @@
 }
 
 .card:hover {
-  border-color: #cedcea;
+  border-color: var(--c-cedcea);
   box-shadow: 0 14px 24px rgba(14, 29, 58, 0.12);
 }
 
 .card:focus-visible {
-  outline: 3px solid var(--bleu-500);
+  outline: 3px solid var(--jaune);
   outline-offset: 2px;
 }
 
@@ -100,7 +100,7 @@
 .cardNoImage .media {
   background: linear-gradient(
     125deg,
-    #fffaf0 0%,
+    var(--c-fffaf0) 0%,
     var(--jaune-pale) 55%,
     var(--jaune) 100%
   );
@@ -149,7 +149,7 @@
 
 .footer {
   margin-top: auto;
-  border-top: 1px solid #dde6ef;
+  border-top: 1px solid var(--c-dde6ef);
   padding: 0.75rem 1rem 0.8rem;
   display: flex;
   align-items: center;

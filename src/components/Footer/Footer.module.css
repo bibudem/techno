@@ -1,5 +1,5 @@
 :root {
-  --color-text: #f5f5f5;
+  --color-text: var(--c-f5f5f5);
   --color-link: var(--bleu-100);
   --color-background: var(--bleu-700);
   --color-background-alt: var(--bleu-500);
@@ -65,9 +65,13 @@
   text-decoration: none;
 }
 
-.contactLink:hover,
-.contactLink:focus {
+.contactLink:hover {
   color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.contactLink:focus-visible {
+  color: var(--jaune);
   text-decoration: underline;
 }
 
@@ -101,9 +105,13 @@
   text-decoration: none;
 }
 
-.linkItem:hover,
-.linkItem:focus {
+.linkItem:hover {
   color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.linkItem:focus-visible {
+  color: var(--jaune);
   text-decoration: underline;
 }
 
@@ -152,13 +160,17 @@
 }
 
 .bottomBar a {
-  color: #fff;
+  color: var(--white);
   text-decoration: underline;
 }
 
-.bottomBar a:hover,
-.bottomBar a:focus {
+.bottomBar a:hover {
   color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.bottomBar a:focus-visible {
+  color: var(--jaune);
   text-decoration: underline;
 }
 

@@ -21,6 +21,11 @@
   background-color: var(--hover-bg-color);
 }
 
+.cardLink:focus-visible .cardRoot {
+  outline: 3px solid var(--jaune);
+  outline-offset: 2px;
+}
+
 .cardLink,
 .cardLink:hover,
 .cardLink:focus,
@@ -77,9 +82,9 @@
 /* === Thème jaune === */
 .jaune {
   --bg-color: var(--jaune);
-  --hover-bg-color: #FFDC81;
-  --icon-color: #BC8800;
-  --link-icon-color: #473F2C;
+  --hover-bg-color: var(--c-ffdc81);
+  --icon-color: var(--c-bc8800);
+  --link-icon-color: var(--c-473f2c);
 }
 
 .jaune .cardIcon svg {
@@ -116,7 +121,7 @@
     max-height: 220px;
     height: auto;
     border-radius: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--black);
     align-items: flex-start;
     gap: 1rem;
   }
