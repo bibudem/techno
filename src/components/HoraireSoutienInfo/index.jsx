@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useId, useMemo, useState } from 'react';
 import styles from './HoraireSoutien.module.css';
 
 // ✅ Version locale de formatDateStr — plus de toISOString()
@@ -17,6 +17,20 @@ function formatDateLocale(d) {
   });
 }
 
+function formatWeekdayShort(d) {
+  return d.toLocaleDateString('fr-CA', {
+    weekday: 'short',
+  }).replace('.', '');
+}
+
+function formatDayLong(d) {
+  return d.toLocaleDateString('fr-CA', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+  });
+}
+
 function getLundi(offset = 0, baseDate = new Date()) {
   const lundi = new Date(baseDate);
   lundi.setDate(baseDate.getDate() - baseDate.getDay() + 1 + offset * 7);
@@ -26,7 +40,9 @@ function getLundi(offset = 0, baseDate = new Date()) {
 export function HoraireSemaine({ codeBib = "ss" }) {
   const [horairesParSemaine, setHorairesParSemaine] = useState(new Map());
   const [offsetSemaine, setOffsetSemaine] = useState(0);
+  const [selectedDayIndex, setSelectedDayIndex] = useState(0);
   const todayStr = formatDateStr(new Date());
+  const pickerId = useId();
 
   useEffect(() => {
     const base = new Date();
@@ -86,6 +102,85 @@ export function HoraireSemaine({ codeBib = "ss" }) {
     horaires.map((h) => [formatDateStr(new Date(h.date)), h.sommaire])
   );
 
+  const dayItems = joursSemaine.map((date, idx) => {
+    const dateStr = formatDateStr(date);
+    const contenu = horairesMap[dateStr] || 'Fermé';
+    return {
+      idx,
+      dateStr,
+      dayNumber: date.getDate(),
+      shortLabel: formatWeekdayShort(date),
+      longLabel: formatDayLong(date),
+      content: contenu,
+      isToday: dateStr === todayStr && offsetSemaine === 0,
+      isClosed: !horairesMap[dateStr] || /\bfermé\b/i.test(contenu),
+    };
+  });
+
+  const todayIndex = dayItems.findIndex((day) => day.isToday);
+
+  const mobileFutureDays = useMemo(() => {
+    const base = new Date();
+    const lundi0 = getLundi(0, base);
+    const list = [];
+
+    for (let weekOffset = 0; weekOffset < 8; weekOffset++) {
+      const horairesWeek = horairesParSemaine.get(weekOffset) || [];
+      const horairesWeekMap = Object.fromEntries(
+        horairesWeek.map((h) => [formatDateStr(new Date(h.date)), h.sommaire])
+      );
+
+      for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
+        const dayDate = new Date(lundi0);
+        dayDate.setDate(lundi0.getDate() + weekOffset * 7 + dayIndex);
+        const dateStr = formatDateStr(dayDate);
+
+        if (dateStr < todayStr) {
+          continue;
+        }
+
+        const content = horairesWeekMap[dateStr] || 'Fermé';
+        list.push({
+          weekOffset,
+          dayIndex,
+          dateStr,
+          label: `${formatDayLong(dayDate)} — ${content}`,
+        });
+      }
+    }
+
+    return list;
+  }, [horairesParSemaine, todayStr]);
+
+  useEffect(() => {
+    if (todayIndex >= 0) {
+      setSelectedDayIndex(todayIndex);
+      return;
+    }
+
+    setSelectedDayIndex((prev) => {
+      const maxIndex = Math.max(dayItems.length - 1, 0);
+      return Math.min(Math.max(prev, 0), maxIndex);
+    });
+  }, [offsetSemaine, todayIndex, dayItems.length]);
+
+  const activeDay = dayItems[selectedDayIndex] || dayItems[0];
+  const mobileSelectValue = mobileFutureDays.some((d) => d.dateStr === activeDay?.dateStr)
+    ? activeDay.dateStr
+    : mobileFutureDays[0]?.dateStr || '';
+
+  function handleMobileDayChange(e) {
+    const selectedDateStr = e.target.value;
+    const targetDay = mobileFutureDays.find((day) => day.dateStr === selectedDateStr);
+
+    if (!targetDay) {
+      return;
+    }
+
+    setOffsetSemaine(targetDay.weekOffset);
+    setSelectedDayIndex(targetDay.dayIndex);
+  }
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
@@ -113,39 +208,62 @@ export function HoraireSemaine({ codeBib = "ss" }) {
         </div>
       </div>
 
-      <div className={styles.tableContainer}>
-        <table className={styles.table}>
-          <thead>
-            <tr>
-              {joursSemaine.map((date) => {
-                const jour = date.toLocaleDateString('fr-CA', {
-                  weekday: 'short',
-                  day: 'numeric',
-                });
-                const isToday = formatDateStr(date) === todayStr && offsetSemaine === 0;
-                return (
-                  <th key={jour} className={isToday ? styles.todayHeader : ''}>
-                    {jour}
-                  </th>
-                );
-              })}
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              {joursSemaine.map((date) => {
-                const dateStr = formatDateStr(date);
-                const isToday = dateStr === todayStr && offsetSemaine === 0;
-                const contenu = horairesMap[dateStr] || 'Fermé';
-                return (
-                  <td key={dateStr} className={isToday ? styles.todayCell : ''}>
-                    {contenu}
-                  </td>
-                );
-              })}
-            </tr>
-          </tbody>
-        </table>
+      <div className={styles.scheduleView}>
+        <div className={styles.mobilePicker}>
+          <label htmlFor={pickerId} className={styles.mobilePickerLabel}>
+            Choisir un jour
+          </label>
+          <select
+            id={pickerId}
+            className={styles.mobileSelect}
+            value={mobileSelectValue}
+            onChange={handleMobileDayChange}
+          >
+            {mobileFutureDays.map((day) => (
+              <option key={day.dateStr} value={day.dateStr}>
+                {day.label}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className={styles.dayTabs} role="tablist" aria-label="Jours de la semaine">
+          {dayItems.map((day) => (
+            <button
+              key={day.dateStr}
+              type="button"
+              role="tab"
+              id={`${pickerId}-tab-${day.idx}`}
+              aria-controls={`${pickerId}-panel`}
+              aria-selected={selectedDayIndex === day.idx}
+              className={`${styles.dayTab} ${
+                selectedDayIndex === day.idx ? styles.dayTabActive : ''
+              } ${day.isToday ? styles.dayTabToday : ''}`}
+              onClick={() => setSelectedDayIndex(day.idx)}
+            >
+              <span className={styles.dayTabName}>{day.shortLabel}</span>
+              <span className={styles.dayTabNumber}>{day.dayNumber}</span>
+            </button>
+          ))}
+        </div>
+
+        {activeDay && (
+          <section
+            className={`${styles.dayPanel} ${activeDay.isToday ? styles.dayPanelToday : ''}`}
+            role="tabpanel"
+            id={`${pickerId}-panel`}
+            aria-labelledby={`${pickerId}-tab-${activeDay.idx}`}
+          >
+            <p className={styles.dayPanelDate}>{activeDay.longLabel}</p>
+            <p
+              className={`${styles.dayPanelValue} ${
+                activeDay.isClosed ? styles.dayPanelClosed : styles.dayPanelOpen
+              }`}
+            >
+              {activeDay.content}
+            </p>
+          </section>
+        )}
       </div>
     </div>
   );
