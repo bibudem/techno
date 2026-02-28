@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 1.05rem 1.05rem 1rem;
@@ -36,12 +37,26 @@
   margin-top: 0.35rem;
 }
 
+.cardWithTags .header {
+  min-height: 5.9rem;
+}
+
 .title {
   margin: 0;
   font-size: 1.14rem;
   line-height: 1.25;
   color: var(--bleu-700);
   font-weight: 700;
+}
+
+.titleLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.titleLink:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .location {
@@ -72,6 +87,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.62rem;
+  flex: 1;
 }
 
 .mapLink {
@@ -95,6 +111,66 @@
   color: var(--c-444444);
   font-size: 0.96rem;
   line-height: 1.5;
+}
+
+.tagsBlock {
+  margin-top: auto;
+  padding-top: 0.15rem;
+}
+
+.tagsLabel {
+  margin: 0 0 0.4rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--c-5a5f66);
+}
+
+.tagsList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.tagItem {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tagText,
+.tagLink {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.54rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--c-eef6fc) 100%);
+  border: 1px solid var(--c-d0e3f0);
+  color: var(--bleu-700);
+  font-size: 0.82rem;
+  line-height: 1.2;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tagLink {
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.tagLink:hover {
+  background: linear-gradient(180deg, var(--bleu-100) 0%, var(--c-e0f0ff) 100%);
+  border-color: var(--bleu-300);
+  color: var(--bleu-700);
+  text-decoration: none;
 }
 
 .footer {
@@ -161,6 +237,10 @@
     font-size: 1.05rem;
   }
 
+  .cardWithTags .header {
+    min-height: 0;
+  }
+
   .location {
     margin-top: 0.6rem;
     font-size: 0.9rem;
@@ -168,6 +248,15 @@
 
   .description {
     font-size: 0.92rem;
+  }
+
+  .tagsLabel {
+    font-size: 0.74rem;
+  }
+
+  .tagText,
+  .tagLink {
+    font-size: 0.8rem;
   }
 
   .footer {
@@ -197,6 +286,10 @@
   color: #edf3fb;
 }
 
+[data-theme='dark'] .titleLink {
+  color: inherit;
+}
+
 [data-theme='dark'] .location {
   background: linear-gradient(180deg, #22344b 0%, #253a54 100%);
   color: #dbe6f2;
@@ -217,6 +310,23 @@
 
 [data-theme='dark'] .description {
   color: #cedaea;
+}
+
+[data-theme='dark'] .tagsLabel {
+  color: #c5d4e7;
+}
+
+[data-theme='dark'] .tagText,
+[data-theme='dark'] .tagLink {
+  background: linear-gradient(180deg, #22344b 0%, #253a54 100%);
+  border-color: #334866;
+  color: #edf3fb;
+}
+
+[data-theme='dark'] .tagLink:hover {
+  background: linear-gradient(180deg, #2a4564 0%, #325174 100%);
+  border-color: #476285;
+  color: #f2f7fd;
 }
 
 [data-theme='dark'] .secondary {

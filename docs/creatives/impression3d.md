@@ -5,8 +5,8 @@ image: "/img/cover/impression3d.webp"
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
-import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import StudioCard from '@site/src/components/StudioCard';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -28,14 +28,79 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 ## Localisation
 
-| **Bibliothèque**                        | **Localisation** | **Modèles disponibles** |
-|-----------------------------------------|-----------------|-------------------------|
-| **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)** | À côté du comptoir. [Voir sur la carte](https://maps.app.goo.gl/irzr8ofQRdBNMFd86) | BambuLab X1C AMS|
-| **[Mathématiques et informatique](https://bib.umontreal.ca/espaces/#math-info)** | [Atelier de fabrication](../espaces/ateliers.md), local 2432. [Voir sur la carte](https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8) | BambuLab X1C AMS, Prusa i3 MK3s+|
-| **[Hubert-Reeves](https://bib.umontreal.ca/espaces/#Hubert-reeves)**        | [Atelier de fabrication](../espaces/ateliers.md), local A-0724.4. [Voir sur la carte](https://maps.app.goo.gl/T6E9TaKNk6dDgrds9) | BambuLab X1C AMS, Prusa i3 MK3s+ |
-| **[Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd)** | [Atelier de fabrication](../espaces/ateliers.md), local D-280-1. [Voir sur la carte](https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8) | Elegoo Saturn 3 Ultra, BambuLab X1C AMS, Prusa i3 MK3s+ |
-| **[Santé](https://bib.umontreal.ca/espaces/#sante)**         | 8<sup>e</sup> étage, en face du comptoir de référence. [Voir sur la carte](https://maps.app.goo.gl/KVE9w3JN2BKp278q8) | Ultimaker S3, Ultimaker 2 |
-| **[Marguerite d'Youville](https://bib.umontreal.ca/espaces/#marguerite-d-youville)**         | [Voir sur la carte](https://g.co/kgs/q8wfQY2) | BambuLab X1C AMS |
+<div
+  className="impression3d-studiocard-grid"
+>
+  <StudioCard
+    title="Aménagement"
+    titleLink="https://bib.umontreal.ca/espaces/#amenagement"
+    location="À côté du comptoir."
+    mapLink="https://maps.app.goo.gl/irzr8ofQRdBNMFd86"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+    ]}
+  />
+
+  <StudioCard
+    title="Mathématiques et informatique"
+    titleLink="https://bib.umontreal.ca/espaces/#math-info"
+    location={<> <a href="../espaces/ateliers.md">Atelier de fabrication</a>, local 2432. </>}
+    mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+      { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
+    ]}
+  />
+
+  <StudioCard
+    title="Hubert-Reeves"
+    titleLink="https://bib.umontreal.ca/espaces/#Hubert-reeves"
+    location={<> <a href="../espaces/ateliers.md">Atelier de fabrication</a>, local A-0724.4. </>}
+    mapLink="https://maps.app.goo.gl/T6E9TaKNk6dDgrds9"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+      { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
+    ]}
+  />
+
+  <StudioCard
+    title="Thérèse-Gouin-Décarie"
+    titleLink="https://bib.umontreal.ca/espaces/#tgd"
+    location={<> <a href="../espaces/ateliers.md">Atelier de fabrication</a>, local D-280-1. </>}
+    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "Elegoo Saturn 3 Ultra", href: "/creatives/impression3d/saturn" },
+      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+      { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
+    ]}
+  />
+
+  <StudioCard
+    title="Santé"
+    titleLink="https://bib.umontreal.ca/espaces/#sante"
+    location={<>8<sup>e</sup> étage, en face du comptoir de référence.</>}
+    mapLink="https://maps.app.goo.gl/KVE9w3JN2BKp278q8"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "Ultimaker S3", href: "/creatives/impression3d/ultimaker" },
+      { label: "Ultimaker 2", href: "/creatives/impression3d/ultimaker" },
+    ]}
+  />
+
+  <StudioCard
+    title="Marguerite d'Youville"
+    titleLink="https://bib.umontreal.ca/espaces/#marguerite-d-youville"
+    mapLink="https://g.co/kgs/q8wfQY2"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+    ]}
+  />
+</div>
 <!-- | **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS | -->
 
 ---

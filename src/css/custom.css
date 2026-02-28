@@ -742,3 +742,17 @@ p.purposes,
   background-color:var(--jaune);
   color:var(--black);
 }
+
+/* Impression 3D - grille des StudioCard */
+.impression3d-studiocard-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+@media screen and (max-width: 996px) {
+  .impression3d-studiocard-grid {
+    grid-template-columns: 1fr;
+  }
+}

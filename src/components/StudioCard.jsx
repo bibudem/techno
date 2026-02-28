@@ -27,67 +27,117 @@ function getLinkProps(link) {
 
 const StudioCard = ({
   title,
+  titleLink,
   location,
   description,
   mapLink,
+  mapText = 'Localiser sur Google Maps',
+  tags = [],
+  tagsLabel = 'Modèles disponibles',
   reserveLink,
   reserveText,
   secondaryLinks = [],
-}) => (
-  <article className={styles.card}>
-    <div className={styles.topBar} aria-hidden="true" />
+}) => {
+  const hasTags = tags.length > 0;
 
-    <div className={styles.header}>
-      <h3 className={styles.title}>{title}</h3>
-      {location && (
-        <p className={styles.location}>
-          <MapPin size={18} weight="fill" aria-hidden="true" />
-          <span>{location}</span>
-        </p>
-      )}
-    </div>
+  return (
+    <article className={`${styles.card} ${hasTags ? styles.cardWithTags : ''}`}>
+      <div className={styles.topBar} aria-hidden="true" />
 
-    <div className={styles.body}>
-      {mapLink && (
-        <Link
-          {...getLinkProps(mapLink)}
-          className={styles.mapLink}
-          data-ignore-external="true"
-        >
-          <ArrowSquareOut size={16} aria-hidden="true" />
-          <span>Localiser sur Google Maps</span>
-        </Link>
-      )}
+      <div className={styles.header}>
+        <h3 className={styles.title}>
+          {titleLink ? (
+            <Link
+              {...getLinkProps(titleLink)}
+              className={styles.titleLink}
+              data-ignore-external="true"
+            >
+              {title}
+            </Link>
+          ) : (
+            title
+          )}
+        </h3>
+        {location && (
+          <p className={styles.location}>
+            <MapPin size={18} weight="fill" aria-hidden="true" />
+            <span>{location}</span>
+          </p>
+        )}
+      </div>
 
-      {description && <p className={styles.description}>{description}</p>}
-    </div>
-
-    {(reserveLink || secondaryLinks.length > 0) && (
-      <div className={styles.footer}>
-        {reserveLink && reserveText && (
+      <div className={styles.body}>
+        {mapLink && (
           <Link
-            {...getLinkProps(reserveLink)}
-            className={`${styles.action} ${styles.primary}`}
+            {...getLinkProps(mapLink)}
+            className={styles.mapLink}
             data-ignore-external="true"
           >
-            <CalendarCheck size={18} aria-hidden="true" />
-            <span>{reserveText}</span>
+            <ArrowSquareOut size={16} aria-hidden="true" />
+            <span>{mapText}</span>
           </Link>
         )}
 
-        {secondaryLinks.slice(0, 2).map(({ href, text }, index) => (
-          <Link
-            key={index}
-            {...getLinkProps(href)}
-            className={`${styles.action} ${styles.secondary}`}
-            data-ignore-external="true"
-          >
-            {text}
-          </Link>
-        ))}
+        {description && <p className={styles.description}>{description}</p>}
+
+        {tags.length > 0 && (
+          <div className={styles.tagsBlock}>
+            <p className={styles.tagsLabel}>{tagsLabel}</p>
+            <ul className={styles.tagsList}>
+              {tags.map((tag, index) => {
+                const tagData =
+                  typeof tag === 'string' ? {label: tag, href: null} : tag;
+
+                if (!tagData?.label) return null;
+
+                return (
+                  <li key={`${tagData.label}-${index}`} className={styles.tagItem}>
+                    {tagData.href ? (
+                      <Link
+                        {...getLinkProps(tagData.href)}
+                        className={styles.tagLink}
+                        data-ignore-external="true"
+                      >
+                        {tagData.label}
+                      </Link>
+                    ) : (
+                      <span className={styles.tagText}>{tagData.label}</span>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
       </div>
-    )}
-  </article>
-);
+
+      {(reserveLink || secondaryLinks.length > 0) && (
+        <div className={styles.footer}>
+          {reserveLink && reserveText && (
+            <Link
+              {...getLinkProps(reserveLink)}
+              className={`${styles.action} ${styles.primary}`}
+              data-ignore-external="true"
+            >
+              <CalendarCheck size={18} aria-hidden="true" />
+              <span>{reserveText}</span>
+            </Link>
+          )}
+
+          {secondaryLinks.slice(0, 2).map(({ href, text }, index) => (
+            <Link
+              key={index}
+              {...getLinkProps(href)}
+              className={`${styles.action} ${styles.secondary}`}
+              data-ignore-external="true"
+            >
+              {text}
+            </Link>
+          ))}
+        </div>
+      )}
+    </article>
+  );
+};
 
 export default StudioCard;
