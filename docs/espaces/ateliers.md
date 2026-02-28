@@ -57,11 +57,7 @@ Les ateliers de fabrication sont accessibles gratuitement à toute la communaut�
   />
   <StudioCard
     title="Bibliothèque Thérèse-Gouin-Décarie"
-    location={
-    <><strong>
-    Pavillon Marie-Victorin, local D-280-1
-     </strong></>
-  }
+    location="Pavillon Marie-Victorin, local D-280-1"
     mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
     description=""
     reserveLink=""
