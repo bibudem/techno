@@ -1,4 +1,29 @@
 import React from 'react';
+import Link from '@docusaurus/Link';
+import { ArrowSquareOut, CalendarCheck, MapPin } from '@phosphor-icons/react';
+import styles from './StudioCard.module.css';
+
+const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
+
+function isExternalLink(link) {
+  return EXTERNAL_LINK_PATTERN.test(link);
+}
+
+function getLinkProps(link) {
+  if (!link) {
+    return { to: '#' };
+  }
+
+  if (isExternalLink(link)) {
+    return {
+      href: link,
+      target: '_blank',
+      rel: 'noopener noreferrer',
+    };
+  }
+
+  return { to: link };
+}
 
 const StudioCard = ({
   title,
@@ -9,71 +34,60 @@ const StudioCard = ({
   reserveText,
   secondaryLinks = [],
 }) => (
-  <div
-    className="card"
-    style={{
-      padding: "1rem",
-      backgroundColor: "var(--c-f9f9f9)",
-      borderRadius: "8px",
-      boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-    }}
-  >
-    <div className="card__header">
-      <h3>{title}</h3>
-    </div>
+  <article className={styles.card}>
+    <div className={styles.topBar} aria-hidden="true" />
 
-    <div className="card__body">
+    <div className={styles.header}>
+      <h3 className={styles.title}>{title}</h3>
       {location && (
-  <p>
-    {typeof location === 'string' ? <strong>{location}</strong> : location}
-  </p>
-)}
-
-      {mapLink && (
-        <p>
-          <a
-            href={mapLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "var(--bleu-500)", textDecoration: "none" }}
-          >
-            Localiser sur Google Maps
-          </a>
+        <p className={styles.location}>
+          <MapPin size={18} weight="fill" aria-hidden="true" />
+          <span>{location}</span>
         </p>
       )}
+    </div>
 
-      {description && <p>{description}</p>}
+    <div className={styles.body}>
+      {mapLink && (
+        <Link
+          {...getLinkProps(mapLink)}
+          className={styles.mapLink}
+          data-ignore-external="true"
+        >
+          <ArrowSquareOut size={16} aria-hidden="true" />
+          <span>Localiser sur Google Maps</span>
+        </Link>
+      )}
+
+      {description && <p className={styles.description}>{description}</p>}
     </div>
 
     {(reserveLink || secondaryLinks.length > 0) && (
-      <div
-        className="card__footer"
-        style={{
-          marginTop: "1rem",
-          display: "flex",
-          justifyContent: "center",
-          gap: "1rem",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className={styles.footer}>
         {reserveLink && reserveText && (
-          <a href={reserveLink} className="button button--primary">
-            {reserveText}
-          </a>
+          <Link
+            {...getLinkProps(reserveLink)}
+            className={`${styles.action} ${styles.primary}`}
+            data-ignore-external="true"
+          >
+            <CalendarCheck size={18} aria-hidden="true" />
+            <span>{reserveText}</span>
+          </Link>
         )}
 
         {secondaryLinks.slice(0, 2).map(({ href, text }, index) => (
-          <a
+          <Link
             key={index}
-            href={href}
-            className="button button--secondary"
+            {...getLinkProps(href)}
+            className={`${styles.action} ${styles.secondary}`}
+            data-ignore-external="true"
           >
             {text}
-          </a>
+          </Link>
         ))}
       </div>
     )}
-  </div>
+  </article>
 );
 
 export default StudioCard;

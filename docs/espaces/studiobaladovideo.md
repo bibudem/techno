@@ -9,6 +9,8 @@ help : crea
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
+import React from 'react';
+import StudioCard from '@site/src/components/StudioCard';
 
 
 <img 
@@ -45,15 +47,27 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
 
 ---
 
-<Link to="#localisation-acces" className="button button--primary">
-  Réserver le studio
-</Link>
-<Link to="/medias/guidebaladovideo" className="button button--secondary">
-  Consulter la documentation
-</Link>
-<Link to="https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled" className="button button--secondary">
-  Obtenir du soutien
-</Link>
+<div
+  className="grid grid--3"
+  style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}
+>
+  <StudioCard
+    title="Bibliothèque des lettres et sciences humaines (BLSH)"
+    location={
+    <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2
+    </strong></>
+  }
+    mapLink="https://maps.app.goo.gl/cXprvQUPjBzQ6c8L8"
+    description={<> À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio.</>
+    }
+    reserveLink="https://calendrier.bib.umontreal.ca/space/27462"
+    reserveText="Réserver"
+    secondaryLinks={[
+      { href: "/medias/guidebaladovideo", text: "Guide d'utilisation" },
+      { href: "https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled", text: "Obtenir du soutien" },
+    ]}
+  />
+</div>
 
 ---
 
@@ -92,30 +106,10 @@ Le studio permet d’intégrer une personne à distance. Il suffit de brancher v
 
 ---
 
-## Localisation et accès {#localisation-acces}
+## Accès {#acces}
 
 Seuls les membres de la communauté UdeM peuvent réserver le studio balado vidéo et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
 
-import React from 'react';
-import StudioCard from '@site/src/components/StudioCard';
-
-<div
-  className="grid grid--3"
-  style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}
->
-  <StudioCard
-    title="Bibliothèque des lettres et sciences humaines (BLSH)"
-    location={
-    <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2
-    </strong></>
-  }
-    mapLink="https://maps.app.goo.gl/cXprvQUPjBzQ6c8L8"
-    description={<> À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio.</>
-    }
-    reserveLink="https://calendrier.bib.umontreal.ca/space/27462"
-    reserveText="Réserver"
-  />
-</div>
 
 ---
 

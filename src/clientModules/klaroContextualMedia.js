@@ -8,13 +8,13 @@ const INLINE_NOTICE_CLASS = 'sb-media-blocked-notice';
 const MANAGE_BUTTON_CLASS = 'sb-media-consent-manage';
 const MEDIA_HOSTS = [
   'youtube.com',
-  'youtube-nocookie.com',
   'loom.com',
   'open.spotify.com',
   'anchor.fm',
   'podbean.com',
   'forms.office.com',
 ];
+const CONSENT_EXEMPT_HOSTS = ['youtube-nocookie.com'];
 
 let mutationObserver;
 let applyTimer;
@@ -27,6 +27,13 @@ function hostMatchesMediaServices(hostname) {
   );
 }
 
+function hostIsConsentExempt(hostname) {
+  const host = hostname.toLowerCase();
+  return CONSENT_EXEMPT_HOSTS.some(
+    (mediaHost) => host === mediaHost || host.endsWith(`.${mediaHost}`),
+  );
+}
+
 function shouldGateIframe(iframe) {
   const src = iframe.getAttribute('src');
   if (!src) return false;
@@ -34,6 +41,7 @@ function shouldGateIframe(iframe) {
   try {
     const iframeUrl = new URL(src, window.location.origin);
     if (iframeUrl.origin === window.location.origin) return false;
+    if (hostIsConsentExempt(iframeUrl.hostname)) return false;
     return hostMatchesMediaServices(iframeUrl.hostname);
   } catch (_err) {
     return false;
@@ -129,6 +137,35 @@ function ensureInlineNotice(iframe) {
     iframe.dataset.sbOriginalDisplay = iframe.style.display || '';
   }
   iframe.style.display = 'none';
+}
+
+function releaseConsentExemptIframes(root = document) {
+  root
+    .querySelectorAll(
+      `iframe[data-name="${SERVICE_NAME}"], iframe[${PROCESSED_ATTR}="true"]`,
+    )
+    .forEach((iframe) => {
+      const currentSrc = iframe.getAttribute('src');
+      const blockedSrc = iframe.getAttribute('data-src');
+      const source = blockedSrc || currentSrc;
+      if (!source) return;
+
+      try {
+        const iframeUrl = new URL(source, window.location.origin);
+        if (!hostIsConsentExempt(iframeUrl.hostname)) return;
+      } catch (_err) {
+        return;
+      }
+
+      if (!currentSrc && blockedSrc) {
+        iframe.setAttribute('src', blockedSrc);
+      }
+
+      iframe.removeAttribute('data-name');
+      iframe.removeAttribute('data-src');
+      iframe.removeAttribute(PROCESSED_ATTR);
+      removeInlineNotice(iframe);
+    });
 }
 
 function syncBlockedMediaNotices(consentGranted) {
@@ -263,6 +300,8 @@ function applyConsentToPreparedElements() {
 }
 
 function processMediaIframes(root = document) {
+  releaseConsentExemptIframes(root);
+
   let mutated = false;
   root.querySelectorAll('iframe[src]').forEach((iframe) => {
     if (prepareIframeForConsent(iframe)) mutated = true;

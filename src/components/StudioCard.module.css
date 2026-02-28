@@ -1,0 +1,232 @@
+.card {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.05rem 1.05rem 1rem;
+  border: 1px solid var(--c-dde6ef);
+  border-radius: 14px;
+  background: linear-gradient(180deg, var(--white) 0%, var(--c-f4f8fc) 125%);
+  box-shadow: 0 8px 20px rgba(14, 29, 58, 0.07);
+  overflow: hidden;
+  transition:
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.card:hover {
+  border-color: var(--c-cedcea);
+  box-shadow: 0 12px 24px rgba(14, 29, 58, 0.12);
+}
+
+.topBar {
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--bleu-700) 0%,
+    var(--bleu-500) 54%,
+    var(--bleu-300) 100%
+  );
+}
+
+.header {
+  margin-top: 0.35rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.14rem;
+  line-height: 1.25;
+  color: var(--bleu-700);
+  font-weight: 700;
+}
+
+.location {
+  margin: 0.72rem 0 0;
+  padding: 0.58rem 0.68rem;
+  display: flex;
+  gap: 0.46rem;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--c-eef6fc) 100%);
+  color: var(--c-333333);
+  line-height: 1.45;
+  font-size: 0.95rem;
+}
+
+.location svg {
+  color: var(--bleu-600);
+  flex: 0 0 auto;
+  margin-top: 0.1rem;
+}
+
+.location strong {
+  color: var(--bleu-700);
+}
+
+.body {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.62rem;
+}
+
+.mapLink {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--bleu-600);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mapLink:hover {
+  color: var(--bleu-700);
+  text-decoration: none;
+}
+
+.description {
+  margin: 0;
+  color: var(--c-444444);
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.action {
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 2.65rem;
+  padding: 0.66rem 1.15rem;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.98rem;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.action:hover {
+  text-decoration: none !important;
+}
+
+.primary {
+  background-color: var(--bleu-500);
+  border-color: var(--bleu-500);
+  color: var(--white);
+}
+
+.primary:hover {
+  background-color: var(--c-004a91);
+  border-color: var(--c-004a91);
+  color: var(--white);
+}
+
+.secondary {
+  background-color: var(--white);
+  border-color: var(--c-d0e3f0);
+  color: var(--bleu-600);
+}
+
+.secondary:hover {
+  background-color: var(--bleu-100);
+  border-color: var(--bleu-300);
+  color: var(--bleu-700);
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    border-radius: 12px;
+    padding: 0.92rem 0.9rem 0.85rem;
+  }
+
+  .title {
+    font-size: 1.05rem;
+  }
+
+  .location {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.92rem;
+  }
+
+  .footer {
+    gap: 0.5rem;
+  }
+
+  .action {
+    width: 100%;
+    justify-content: center;
+    min-height: 2.8rem;
+    font-size: 1rem;
+  }
+}
+
+[data-theme='dark'] .card {
+  border-color: #334866;
+  background: linear-gradient(180deg, #1a263a 0%, #182638 100%);
+  box-shadow: none;
+}
+
+[data-theme='dark'] .card:hover {
+  border-color: #486282;
+  box-shadow: none;
+}
+
+[data-theme='dark'] .title {
+  color: #edf3fb;
+}
+
+[data-theme='dark'] .location {
+  background: linear-gradient(180deg, #22344b 0%, #253a54 100%);
+  color: #dbe6f2;
+}
+
+[data-theme='dark'] .location svg,
+[data-theme='dark'] .location strong {
+  color: #e8f1fb;
+}
+
+[data-theme='dark'] .mapLink {
+  color: #b7d2ed;
+}
+
+[data-theme='dark'] .mapLink:hover {
+  color: #d5e6f7;
+}
+
+[data-theme='dark'] .description {
+  color: #cedaea;
+}
+
+[data-theme='dark'] .secondary {
+  background-color: #1f2d44;
+  border-color: #3a4e69;
+  color: #dbe7f4;
+}
+
+[data-theme='dark'] .secondary:hover {
+  background-color: #29405f;
+  border-color: #476285;
+  color: #eef5fc;
+}
