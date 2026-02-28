@@ -12,7 +12,6 @@ const config = {
 
   url: 'https://studio.bib.umontreal.ca',
   baseUrl: '/',
-  trailingSlash: false,
 
   organizationName: 'bibudem',
   projectName: 'techno',
