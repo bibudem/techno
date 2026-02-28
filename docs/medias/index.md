@@ -18,12 +18,14 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Espaces équipés pour l’enregistrement de balados audio et vidéo.",
       link: "/espaces/studiosbalado",
       icon: "Microphone",
+      image: "/img/cover/baladoaudio.webp",
     },
     {
       title: "Studio vidéo",
       description: "Espace équipé pour la captation vidéo de projets audiovisuels.",
       link: "/espaces/studiovideo",
       icon: "VideoCamera",
+      image: "/img/cover/studiovideo.webp",
     },
   ]}
 />
@@ -37,7 +39,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Ordinateurs équipés pour le montage audio, vidéo et l'infographie. Accessibles avec ou sans réservation.",
       link: "/medias/postes-edition",
       icon: "DesktopTower",
-      petit : true,
+      image: "/img/cover/edition.webp",
     },
   ]}
 />
@@ -51,18 +53,21 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Étapes et outils pour créer un balado de l'enregistrement jusqu'à la diffusion.",
       link: "/medias/balado",
       icon: "BookOpenText",
+      image: "/img/cover/studiolsh.webp",
     },
     {
       title: "Guide balado vidéo",
       description: "Guide d'utilisation du studio de balado vidéo",
       link: "/medias/guidebaladovideo",
       icon: "Waveform",
+      image: "/img/cover/baladovideo.webp",
     },
     {
       title: "RODECaster Pro II",
       description: "Guide d'utilisation de la console audio RØDECaster pour l'enregistrement.",
       link: "/medias/rodecaster",
       icon: "Waveform",
+      image: "/img/cover/baladocover.webp",
     },
     {
       title: "Audacity",
