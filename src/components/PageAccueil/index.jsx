@@ -61,7 +61,7 @@ const infoHeroes = [
     title: 'Postes Apportez Votre Appareil',
     description: 'Étendez votre horizon de travail.',
     href: '/informatique/ava',
-    image: '/img/home-ava.webp',
+    image: '/img/cover/ordinateurs.webp',
   },
 ];
 
