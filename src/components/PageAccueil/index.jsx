@@ -44,7 +44,7 @@ const miniHeroes = [
   {
     title: 'Réalité virtuelle',
     description:
-      'Explorez des expériences immersives avec les casques Meta Quest 3 disponibles en bibliothèque.',
+      'Explorez des expériences immersives avec les casques Meta Quest 3.',
     href: '/creatives/vr',
     image: '/img/cover/vr.webp',
   },

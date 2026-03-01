@@ -20,7 +20,7 @@ import Disponibilite from '@site/src/components/Disponibilite';
     borderRadius: "8px"
   }} 
 />
-Les bibliothèques de l’Université de Montréal mettent à la disposition de la communauté UdeM 20 casques de réalité virtuelle Meta Quest 3, répartis dans 9 bibliothèques. Ces équipements ont pour but d'aider à la découverte de la réalité virtuelle à travers une sélection variée d’expériences déjà téléchargées : animation, applications en lien avec les sciences ou la détente, documentaires et jeux.
+Les bibliothèques de l’Université de Montréal mettent à la disposition de la communauté UdeM 20 casques de réalité virtuelle Meta Quest 3, répartis dans 10 bibliothèques. Ces équipements ont pour but d'aider à la découverte de la réalité virtuelle à travers une sélection variée d’expériences déjà téléchargées : animation, applications en lien avec les sciences ou la détente, documentaires et jeux.
 
 Le tout a été réalisé grâce au Fonds d'amélioration de la vie étudiante (FAVE) et des Frais d'amélioration des services technologiques et informatiques et des collections des bibliothèques (STIC).
 
