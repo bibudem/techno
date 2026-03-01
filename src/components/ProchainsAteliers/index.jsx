@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../PageAccueil/styles.module.css';
-import { CalendarBlank, MapPin, Monitor } from '@phosphor-icons/react';
+import { CalendarBlank, MapPin, Monitor, ArrowRight } from '@phosphor-icons/react';
 
 function parseDateFr(dateStr) {
   const mois = {
@@ -62,12 +62,12 @@ export default function ProchainsAteliers() {
 
   return (
     <div className={styles.cardWorkshops}>
-      <h2 className={styles.cardHeader}>Prochains ateliers</h2>
+      <h2 className={styles.cardHeader}>Prochaines formations</h2>
       <ul className={styles.cardList}>
         {loading ? (
           <li>Chargement...</li>
         ) : formations.length === 0 ? (
-          <li>Aucun atelier à venir.</li>
+          <li>Aucune formation à venir.</li>
         ) : (
           formations.map(({ date, titre, typeLocalisation, url, lieu }, idx) => (
             <li key={idx} className={styles.cardItem}>
@@ -104,9 +104,15 @@ export default function ProchainsAteliers() {
       <div className={styles.cardFooter}>
         <a
           href="https://calendrier.bib.umontreal.ca/calendar?cid=7690&t=m&d=0000-00-00&cal=7690&inc=0"
-          className={styles.cardMore}
+          className={`button button--secondary ${styles.spacesButtonLink}`}
         >
-          Voir tous les ateliers →
+          <span>Voir toutes les formations</span>
+          <ArrowRight
+            size={20}
+            weight="light"
+            className={styles.spacesButtonIcon}
+            aria-hidden="true"
+          />
         </a>
       </div>
     </div>

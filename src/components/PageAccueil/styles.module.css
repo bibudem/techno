@@ -95,17 +95,16 @@
 }
 
 .spacesContainer {
-  max-width: 100%;
-  margin: 0 2rem;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(320px, 1.1fr) minmax(280px, 0.9fr);
   align-items: center;
-  gap: 3rem;
+  gap: clamp(1.5rem, 4vw, 3rem);
 }
 
 .spacesText {
-  flex: 1 1 500px;
-  min-width: 300px;
+  min-width: 0;
 }
 
 .spacesTitle {
@@ -120,36 +119,38 @@
   line-height: 1.8;
   margin-bottom: 2.5rem;
   color: var(--c-d4d4d8);
-  max-width: 90%;
+  max-width: 62ch;
 }
 
-.spacesButton {
-  background-color: var(--white);
-  color: var(--c-0d0c2b);
-  padding: 0.9rem 2rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  display: inline-block;
+.spacesButtonLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.spacesButtonIcon {
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.spacesButtonLink:hover .spacesButtonIcon,
+.spacesButtonLink:focus-visible .spacesButtonIcon {
+  transform: translateX(3px);
 }
 
 .spacesImages {
-  flex: 1 1 600px;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding-bottom: 1rem;
+  width: min(100%, 500px);
+  justify-self: end;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.75rem, 2vw, 1.25rem);
 }
 
 .spacesImageWrapper {
   position: relative;
-  width: clamp(100px, 9vw, 160px);
-  height: clamp(250px, 38vw, 350px);
+  width: 100%;
+  aspect-ratio: 3 / 4;
   border-radius: 16px;
-  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -171,6 +172,109 @@
   pointer-events: none;
 }
 
+.miniHeroesSection {
+  padding: 2rem 0 0;
+}
+
+.miniHeroesContainer {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.miniHeroCard {
+  position: relative;
+  min-height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: var(--white) !important;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1.25rem 1.25rem 1.35rem;
+  isolation: isolate;
+  transform: translateY(0);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.miniHeroCard::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    112deg,
+    rgba(13, 12, 43, 0.9) 0%,
+    rgba(13, 12, 43, 0.65) 45%,
+    rgba(13, 12, 43, 0.25) 100%
+  );
+  z-index: 0;
+  transition: background 0.25s ease;
+}
+
+.miniHeroCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(13, 12, 43, 0.18);
+  color: var(--white) !important;
+}
+
+.miniHeroCard:focus-visible {
+  outline: 2px solid var(--jaune);
+  outline-offset: 2px;
+}
+
+.miniHeroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 80%;
+}
+
+.miniHeroTitle {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+  line-height: 1.2;
+  color: var(--white);
+}
+
+.miniHeroText {
+  margin: 0;
+  color: #f4f4f5 !important;
+  line-height: 1.5;
+}
+
+.miniHeroCard:hover .miniHeroText,
+.miniHeroCard:focus-visible .miniHeroText {
+  color: #f4f4f5 !important;
+}
+
+.miniHeroArrow {
+  position: relative;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  background-color: var(--jaune);
+  color: var(--black);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: translateX(0);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.miniHeroCard:hover .miniHeroArrow,
+.miniHeroCard:focus-visible .miniHeroArrow {
+  transform: translateX(3px);
+  background-color: var(--c-ffdc81);
+}
+
 .cardsSection {
   background-color: var(--white);
   padding: 2rem 0;
@@ -187,15 +291,13 @@
 .leftColumn {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 1rem;
   flex: 1;
   min-width: 280px;
 }
 
-.leftColumn :global(.cardMedia) {
+.leftMiniHeroCard {
   flex: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 .rightColumn {
@@ -323,7 +425,7 @@
   }
 
   .leftColumn {
-    row-gap: 0rem;
+    row-gap: 0;
   }
 
   .cardWorkshops {
@@ -344,18 +446,62 @@
     border-radius: 0;
   }
 
-  #bouton-espaces {
-    display: block !important;
+  .spacesContainer {
+    margin: 0 1rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .spacesDescription {
+    max-width: 100%;
+  }
+
+  .spacesButtonLink {
+    display: flex !important;
+    width: max-content;
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center !important;
   }
 
   .spacesImages {
-    display: flex;
+    width: 100%;
+    max-width: 460px;
+    justify-self: center;
     gap: 0.6rem;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
+  }
+
+  .miniHeroesSection {
+    padding: 0;
+  }
+
+  .miniHeroesContainer {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .miniHeroCard {
+    min-height: 180px;
+    border-radius: 0;
+  }
+
+  .miniHeroContent {
+    max-width: calc(100% - 4rem);
+  }
+
+  .miniHeroCard,
+  .miniHeroArrow,
+  .spacesButtonIcon {
+    transition: none !important;
+  }
+
+  .miniHeroCard:hover,
+  .miniHeroCard:focus-visible,
+  .miniHeroCard:hover .miniHeroArrow,
+  .miniHeroCard:focus-visible .miniHeroArrow,
+  .spacesButtonLink:hover .spacesButtonIcon,
+  .spacesButtonLink:focus-visible .spacesButtonIcon {
+    transform: none !important;
   }
 }
 
