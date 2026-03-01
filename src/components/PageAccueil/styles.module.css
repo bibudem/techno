@@ -88,7 +88,7 @@
 }
 
 .spacesSection {
-  background-color: var(--c-0d0c2b);
+  background-color: var(--gris-800);
   color: var(--white);
   padding: 6rem 1rem;
   border-radius: 16px;
@@ -182,7 +182,7 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .miniHeroCard {
