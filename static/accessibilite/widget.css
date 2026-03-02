@@ -23,6 +23,11 @@ body.open-dyslexic *:not(i) {
   font-family: "Open Dyslexic" !important;
 }
 
+/* Agrandissement global modéré pour préserver la mise en page */
+html.readability-large-text {
+  font-size: 112.5%;
+}
+
 :root {
   --widget-panel-bg: #ffffff;
   --widget-panel-border: var(--ifm-color-emphasis-300, #cfd3d7);

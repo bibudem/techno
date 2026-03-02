@@ -14,15 +14,17 @@ function ensureWarmOverlay(shouldEnable) {
 }
 
 function applyAccessibilitePrefs() {
-  // On relit localStorage et on (re)pose les classes sur <body>
+  // On relit localStorage et on (re)pose les classes
   const warm = localStorage.warm_background === 'true';
   const hideImages = localStorage.hide_all_images === 'true';
   const dyslexic = localStorage.open_dyslexic_font === 'true';
   const highlight = localStorage.highlight_links === 'true';
+  const largeText = localStorage.getItem('large_text') === 'true';
 
   document.body.classList.toggle('readability-hide-images', hideImages);
   document.body.classList.toggle('open-dyslexic', dyslexic);
   document.body.classList.toggle('readability-highlight-links-on', highlight);
+  document.documentElement.classList.toggle('readability-large-text', largeText);
 
   ensureWarmOverlay(warm);
 }

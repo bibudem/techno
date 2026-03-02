@@ -273,6 +273,14 @@ var outil_accessibilite = {
     localStorage.setItem('theme', mode);
   },
 
+  set_large_text: function (enabled) {
+    const root = document.documentElement;
+    const active = Boolean(enabled);
+
+    root.classList.toggle('readability-large-text', active);
+    localStorage.setItem('large_text', active ? 'true' : 'false');
+  },
+
   check_localstorage_toggles: function () {
 
     if (localStorage.widget_hidden === 'true') {
@@ -303,6 +311,13 @@ var outil_accessibilite = {
     if (darkModeToggle) {
       darkModeToggle.checked = outil_accessibilite.is_dark_mode_enabled();
     }
+
+    const largeTextToggle = document.getElementById("large-text-toggle");
+    if (largeTextToggle) {
+      const largeTextEnabled = localStorage.getItem('large_text') === 'true';
+      outil_accessibilite.set_large_text(largeTextEnabled);
+      largeTextToggle.checked = largeTextEnabled;
+    }
   },
 
 
@@ -314,6 +329,11 @@ var outil_accessibilite = {
     document.getElementById("dark-mode-toggle")
       .addEventListener('click', e => {
         outil_accessibilite.set_dark_mode(e.target.checked);
+      });
+
+    document.getElementById("large-text-toggle")
+      .addEventListener('change', e => {
+        outil_accessibilite.set_large_text(e.target.checked);
       });
 
     document.getElementById("warm-background-toggle")
