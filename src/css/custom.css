@@ -609,6 +609,17 @@ html[data-theme='dark'] .table-of-contents__link--active {
   }
 }
 
+/* bib-avis (composant externe) */
+bib-avis {
+  --avis-bib-text: var(--gris-800);
+  --avis-bib-link: var(--bleu-600);
+}
+
+html[data-theme='dark'] bib-avis {
+  color: var(--gris-800);
+  color-scheme: light;
+}
+
 
 /* LibChat */
 
