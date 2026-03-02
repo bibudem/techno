@@ -16,6 +16,24 @@
   transform: translateY(8px);
 }
 
+.logoLight,
+.logoDark {
+  display: none !important;
+}
+
+html[data-theme='dark'] .logoDark {
+  display: block !important;
+}
+
+html[data-theme='light'] .logoLight {
+  display: block !important;
+}
+
+/* Fallback (avant initialisation complète du data-theme) */
+html:not([data-theme='dark']) .logoLight {
+  display: block !important;
+}
+
 .separatorWrap {
   display: flex;
   align-items: center;
