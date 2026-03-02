@@ -260,7 +260,7 @@ var outil_accessibilite = {
     const root = document.documentElement;
     const attrTheme = root.getAttribute('data-theme');
     const storedTheme = localStorage.getItem('theme');
-    const currentTheme = attrTheme || storedTheme || 'light';
+    const currentTheme = storedTheme || attrTheme || 'light';
     return currentTheme === 'dark';
   },
 
@@ -327,7 +327,7 @@ var outil_accessibilite = {
   add_listeners_to_toggles: function () {
 
     document.getElementById("dark-mode-toggle")
-      .addEventListener('click', e => {
+      .addEventListener('change', e => {
         outil_accessibilite.set_dark_mode(e.target.checked);
       });
 

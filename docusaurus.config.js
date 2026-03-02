@@ -104,7 +104,7 @@ onBrokenLinks: 'warn',
       ],
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       sidebar: {

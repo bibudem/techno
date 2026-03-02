@@ -13,7 +13,19 @@ function ensureWarmOverlay(shouldEnable) {
   }
 }
 
+function applyThemePref() {
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme !== 'dark' && storedTheme !== 'light') return;
+
+  const root = document.documentElement;
+  root.setAttribute('data-theme', storedTheme);
+  root.setAttribute('data-theme-choice', storedTheme);
+}
+
 function applyAccessibilitePrefs() {
+  // Réapplique explicitement le thème choisi (robuste au reload et nouvel onglet)
+  applyThemePref();
+
   // On relit localStorage et on (re)pose les classes
   const warm = localStorage.warm_background === 'true';
   const hideImages = localStorage.hide_all_images === 'true';
