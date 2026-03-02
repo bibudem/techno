@@ -69,6 +69,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
+html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--white) !important;
+
+}
+
 :where(
   a[href],
   button,
@@ -123,6 +128,18 @@
   background-size: 1.3rem;
 }
 
+html[data-theme='dark'] .theme-doc-sidebar-container .menu .menu__link--active {
+  color: var(--bleu-50) !important;
+}
+
+html[data-theme='dark']
+  .theme-doc-sidebar-container
+  .menu
+  .menu__link--active:not(.menu__link--sublist) {
+  background-color: var(--gris-700) !important;
+  /* color: var(--bleu-300) !important; */
+}
+
 .container {
   margin-bottom: 42px;
   padding-left: 42px;
@@ -142,6 +159,14 @@
 .tabs__item--active {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  color: var(--bleu-700) !important;
+  border-bottom-color: var(--bleu-500) !important;
+}
+
+html[data-theme='dark'] .tabs__item--active {
+  color: var(--white) !important;
+  border-bottom-color: var(--bleu-100) !important;
+  background-color: var(--gris-700);
 }
 
 pre {
@@ -152,6 +177,11 @@ pre {
   border-radius: 32px;
 }
 
+html[data-theme='dark'] .card {
+  background: linear-gradient(155deg, var(--gris-700) 0%, var(--gris-800) 100%);
+  border: 1px solid var(--gris-600);
+}
+
 
 
 
@@ -159,6 +189,11 @@ pre {
   transform: translateY(-4px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: var(--bleu-600);
+}
+
+html[data-theme='dark'] .card--clickable:hover {
+  background-color: var(--gris-700);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
 
@@ -344,6 +379,17 @@ p {
   background-color: var(--ifm-color-primary-dark);
 }
 
+html[data-theme='dark'] .button.button--primary {
+  background-color: var(--bleu-500);
+  color: var(--white);
+}
+
+html[data-theme='dark'] .button.button--primary:hover,
+html[data-theme='dark'] .button.button--primary:focus-visible {
+  background-color: var(--bleu-600);
+  color: var(--white);
+}
+
 .button--block {
   display: inline-block;
 }
@@ -402,6 +448,10 @@ p {
 /* Augmenter la taille de la police de la table des matieres */
 .table-of-contents {
   font-size: 1rem;
+}
+
+html[data-theme='dark'] .table-of-contents__link--active {
+  color: var(--bleu-300) !important;
 }
 
 /* Cacher le TOC s'il ne contient qu'un seul élément */

@@ -256,6 +256,23 @@ var outil_accessibilite = {
     localStorage.widget_hidden = value;
   },
 
+  is_dark_mode_enabled: function () {
+    const root = document.documentElement;
+    const attrTheme = root.getAttribute('data-theme');
+    const storedTheme = localStorage.getItem('theme');
+    const currentTheme = attrTheme || storedTheme || 'light';
+    return currentTheme === 'dark';
+  },
+
+  set_dark_mode: function (enabled) {
+    const mode = enabled ? 'dark' : 'light';
+    const root = document.documentElement;
+
+    root.setAttribute('data-theme', mode);
+    root.setAttribute('data-theme-choice', mode);
+    localStorage.setItem('theme', mode);
+  },
+
   check_localstorage_toggles: function () {
 
     if (localStorage.widget_hidden === 'true') {
@@ -281,6 +298,11 @@ var outil_accessibilite = {
       outil_accessibilite.hide_show_highlighted_links('true');
       document.getElementById("highlight-links-toggle").checked = true;
     }
+
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    if (darkModeToggle) {
+      darkModeToggle.checked = outil_accessibilite.is_dark_mode_enabled();
+    }
   },
 
 
@@ -288,6 +310,11 @@ var outil_accessibilite = {
   // Toggles
   // ===============================
   add_listeners_to_toggles: function () {
+
+    document.getElementById("dark-mode-toggle")
+      .addEventListener('click', e => {
+        outil_accessibilite.set_dark_mode(e.target.checked);
+      });
 
     document.getElementById("warm-background-toggle")
       .addEventListener('click', e => {

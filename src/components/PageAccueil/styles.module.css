@@ -277,7 +277,6 @@
 }
 
 .cardsSection {
-  background-color: var(--white);
   padding: 2rem 0;
 }
 
@@ -393,6 +392,52 @@
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
+}
+
+html[data-theme='dark'] .cardWorkshops {
+  background-color: var(--gris-800);
+  border: 1px solid var(--gris-600);
+}
+
+html[data-theme='dark'] .cardHeader {
+  background-color: var(--jaune);
+  color: var(--bleu-700);
+}
+
+html[data-theme='dark'] .cardList,
+html[data-theme='dark'] .cardList li,
+html[data-theme='dark'] .cardItem,
+html[data-theme='dark'] .cardItemTop {
+  color: var(--bleu-50);
+}
+
+html[data-theme='dark'] .cardDate {
+  color: var(--bleu-100);
+}
+
+html[data-theme='dark'] .cardLocation {
+  color: var(--jaune-pale);
+}
+
+html[data-theme='dark'] .cardTitle,
+html[data-theme='dark'] .cardTitle a {
+  color: var(--white);
+}
+
+html[data-theme='dark'] .cardFooter {
+  border-top: 1px solid var(--gris-600);
+}
+
+html[data-theme='dark'] .cardFooter :global(.button.button--secondary) {
+  background-color: var(--gris-700);
+  color: var(--bleu-100);
+  border-color: var(--bleu-300);
+}
+
+html[data-theme='dark'] .cardFooter :global(.button.button--secondary:hover) {
+  background-color: var(--gris-600);
+  color: var(--white);
+  border-color: var(--bleu-200);
 }
 
 .homepage-section {

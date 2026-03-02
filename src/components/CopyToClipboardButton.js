@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { useColorMode } from "@docusaurus/theme-common";
 
 export default function CopyToClipboardButton({ text }) {
   const [copied, setCopied] = useState(false);
   const [hover, setHover] = useState(false);
+  const { colorMode } = useColorMode();
+  const isDark = colorMode === "dark";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(text).then(() => {
@@ -25,7 +28,9 @@ export default function CopyToClipboardButton({ text }) {
     >
       <code 
         style={{ 
-          backgroundColor: "var(--gris-50)", 
+          backgroundColor: isDark ? "var(--gris-700)" : "var(--gris-50)",
+          color: isDark ? "var(--bleu-50)" : "var(--gris-700)",
+          border: isDark ? "1px solid var(--gris-500)" : "1px solid var(--gris-200)",
           padding: "3px 6px", 
           borderRadius: "4px", 
           wordBreak: "break-word", 
@@ -45,8 +50,8 @@ export default function CopyToClipboardButton({ text }) {
             top: "-30px",
             left: "50%",
             transform: "translateX(-50%)",
-            backgroundColor: "var(--gris-600)",
-            color: "var(--white)",
+            backgroundColor: isDark ? "var(--gris-100)" : "var(--gris-600)",
+            color: isDark ? "var(--bleu-700)" : "var(--white)",
             padding: "5px 10px",
             borderRadius: "5px",
             fontSize: "12px",
@@ -66,8 +71,8 @@ export default function CopyToClipboardButton({ text }) {
             top: "-30px",
             left: "50%",
             transform: "translateX(-50%)",
-            backgroundColor: "var(--gris-700)",
-            color: "var(--white)",
+            backgroundColor: isDark ? "var(--bleu-300)" : "var(--gris-700)",
+            color: isDark ? "var(--bleu-700)" : "var(--white)",
             padding: "5px 10px",
             borderRadius: "5px",
             fontSize: "12px",

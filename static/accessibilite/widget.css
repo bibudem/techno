@@ -29,6 +29,9 @@ body.open-dyslexic *:not(i) {
   --widget-panel-text: #1c1e21;
   --widget-switch-track: var(--ifm-color-emphasis-200, #e6e8ea);
   --widget-switch-thumb: #ffffff;
+  --widget-toggle-bg: var(--bleu-500, #0057ac);
+  --widget-toggle-bg-hover: var(--bleu-600, #00407f);
+  --widget-toggle-text: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -37,6 +40,9 @@ body.open-dyslexic *:not(i) {
   --widget-panel-text: #f2f6fb;
   --widget-switch-track: #30435b;
   --widget-switch-thumb: #f6f9fd;
+  --widget-toggle-bg: var(--bleu-500, #0057ac);
+  --widget-toggle-bg-hover: var(--bleu-600, #00407f);
+  --widget-toggle-text: #ffffff;
 }
 
 /* ============================================================
@@ -203,17 +209,18 @@ body.readability-highlight-links-on button:hover {
   font-size: 1rem;
   line-height: 1.2;
 
-  background: var(--ifm-color-primary, #0057ac);
-  color: #fff;
+  background: var(--widget-toggle-bg);
+  color: var(--widget-toggle-text);
 
   padding: 10px 36px 10px 12px;
-  border-radius: 12px;
+  border-radius: 12px 12px 0 0;
 
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
 }
 
 #readability-widget #widget-toggle button:hover {
-  filter: brightness(0.97);
+  background: var(--widget-toggle-bg-hover);
+  filter: none;
 }
 
 /* Focus visible (UdeM/Docusaurus) */
@@ -251,6 +258,7 @@ body.readability-highlight-links-on button:hover {
 /* Panneau */
 #readability-widget.open #widget-content {
   display: block;
+  margin-top: 8px;
 }
 
 #readability-widget #widget-content {
@@ -263,7 +271,7 @@ body.readability-highlight-links-on button:hover {
   font-weight: 400;
 
   padding: 16px;
-  margin-top: 8px;
+  margin-top: 0;
   box-shadow: 0 16px 44px rgba(0, 0, 0, 0.18);
 
   max-width: 400px;
@@ -316,7 +324,7 @@ body.readability-highlight-links-on button:hover {
 #readability-widget.widget-hidden #widget-toggle button:hover {
   position: relative;
   right: 156px;
-  background-color: var(--ifm-color-danger, #d33);
+  background-color: var(--bleu-500);
 }
 
 /* ---------------------------
