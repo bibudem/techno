@@ -1,8 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
+function isDarkModeActive() {
+  if (typeof document === 'undefined') return false;
+
+  const root = document.documentElement;
+  const attrTheme = root.getAttribute('data-theme');
+  const storedTheme = window.localStorage.getItem('theme');
+  const activeTheme = attrTheme || storedTheme || 'light';
+
+  return activeTheme === 'dark';
+}
+
 export default function LogoWrapper() {
+  const [isDark, setIsDark] = useState(isDarkModeActive);
+
+  useEffect(() => {
+    const root = document.documentElement;
+    const refresh = () => setIsDark(isDarkModeActive());
+
+    refresh();
+
+    const observer = new MutationObserver(refresh);
+    observer.observe(root, {
+      attributes: true,
+      attributeFilter: ['data-theme', 'data-theme-choice', 'class'],
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div
       className={styles.wrapper}
@@ -10,16 +38,10 @@ export default function LogoWrapper() {
       {/* Logo Bibliothèques (légèrement plus bas) */}
       <Link to="https://bib.umontreal.ca">
         <img
-          src="/img/logobib.svg"
+          src={isDark ? "/img/logobib-dark.svg" : "/img/logobib.svg"}
           alt="Bibliothèques UdeM"
           height="36"
-          className={`${styles.logoBase} ${styles.logoBib} ${styles.logoLight}`}
-        />
-        <img
-          src="/img/logobib-dark.svg"
-          alt="Bibliothèques UdeM"
-          height="36"
-          className={`${styles.logoBase} ${styles.logoBib} ${styles.logoDark}`}
+          className={`${styles.logoBase} ${styles.logoBib}`}
         />
       </Link>
 
@@ -35,16 +57,10 @@ export default function LogoWrapper() {
       {/* Logo Studio (légèrement plus bas) */}
       <Link to="/" className={styles.studioLink}>
         <img
-          src="/img/logostudio.svg"
+          src={isDark ? "/img/logostudio-dark.svg" : "/img/logostudio.svg"}
           alt="studio•bib"
           height="26"
-          className={`${styles.logoBase} ${styles.logoStudio} ${styles.logoLight}`}
-        />
-        <img
-          src="/img/logostudio-dark.svg"
-          alt="studio•bib"
-          height="26"
-          className={`${styles.logoBase} ${styles.logoStudio} ${styles.logoDark}`}
+          className={`${styles.logoBase} ${styles.logoStudio}`}
         />
       </Link>
     </div>

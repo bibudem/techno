@@ -16,10 +16,6 @@
   transform: translateY(8px);
 }
 
-.logoDark {
-  display: none;
-}
-
 .separatorWrap {
   display: flex;
   align-items: center;
@@ -34,12 +30,4 @@
 
 .studioLink {
   margin-right: 1.5rem;
-}
-
-html[data-theme='dark'] .logoLight {
-  display: none;
-}
-
-html[data-theme='dark'] .logoDark {
-  display: block;
 }
