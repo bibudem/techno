@@ -451,6 +451,24 @@ html[data-theme='dark'] .button.button--primary:focus-visible {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+html[data-theme='dark'] .grid-item {
+  background: linear-gradient(155deg, var(--gris-700) 0%, var(--gris-800) 100%);
+  border: 1px solid var(--gris-600);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme='dark'] .grid-item h3 {
+  color: var(--white);
+}
+
+html[data-theme='dark'] .grid-item a {
+  color: var(--bleu-100);
+}
+
+html[data-theme='dark'] .grid-item a:hover {
+  color: var(--white);
+}
+
 
 /* Augmenter la taille de la police de la table des matieres */
 .table-of-contents {
