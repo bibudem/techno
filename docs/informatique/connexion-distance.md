@@ -21,6 +21,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 import PostesDisponibles from '@site/src/components/PostesDisponibles';
 
 Besoin d'accéder à un logiciel des bibliothèques comme Antidote, Stata ou ArcGIS de chez vous? Utilisez nos postes publics à distance.
@@ -160,7 +161,7 @@ Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documen
 2. Cliquer l’icône du VPN (en haut ou en bas de l’écran), ensuite **Ouvrir**.
 3. Cliquer **+**.
 4. Nom = **VPN UdeM Etudiant**.
-5. URL = **vpn.umontreal.ca/etudiants**.
+5. URL = <CopyToClipboardButton text="vpn.umontreal.ca/etudiants"/>.
 6. Cliquer **Ajouter**.
 7. Cliquer **Connexion** pour démarrer la connexion.
    
