@@ -30,7 +30,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
   <TabItem value="windows" label="Windows">
     **Utiliser le navigateur Chrome, Firefox ou Edge.**
 
-    1. Ouvrir [vpn.umontreal.ca/campus](https://vpn.umontreal.ca/campus).
+    1. Ouvrir [vpn.umontreal.ca/campus](https://vpn.umontreal.ca/campus)..
     2. S’authentifier avec ses informations d'authentification.
     3. À droite, cliquer **Démarrer**.
     4. Cliquer **Télécharger**.
