@@ -34,6 +34,13 @@ import CardGrid from "@site/src/components/CardGrid";
       icon : "Cube",
       image: "/img/cover/zines.webp",
     },
+            {
+      title: "Laboratoire de visualisation",
+      description: "Un environnement pour interagir avec des données visuelles sur grand écran.",
+      link: "visualisation",
+      icon : "TreeStructure",
+      image: "/img/cover/labvisu.webp",
+    },
     {
       title: "Salles de visionnement",
       description: "Un espace confortable pour visionner des contenus multimédias.",
@@ -55,13 +62,7 @@ import CardGrid from "@site/src/components/CardGrid";
       icon : "VideoCamera",
       image: "/img/cover/studiovideo.webp",
     },
-        {
-      title: "Laboratoire de visualisation",
-      description: "Un environnement pour interagir avec des données visuelles sur grand écran.",
-      link: "visualisation",
-      icon : "TreeStructure",
-      image: "/img/cover/labvisu.webp",
-    },
+
   ]}
 />
 
