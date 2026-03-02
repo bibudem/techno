@@ -20,6 +20,7 @@ function applyThemePref() {
   const root = document.documentElement;
   root.setAttribute('data-theme', storedTheme);
   root.setAttribute('data-theme-choice', storedTheme);
+  window.dispatchEvent(new Event('themechange'));
 }
 
 function applyAccessibilitePrefs() {

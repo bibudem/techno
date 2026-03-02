@@ -271,6 +271,7 @@ var outil_accessibilite = {
     root.setAttribute('data-theme', mode);
     root.setAttribute('data-theme-choice', mode);
     localStorage.setItem('theme', mode);
+    window.dispatchEvent(new Event('themechange'));
   },
 
   set_large_text: function (enabled) {
