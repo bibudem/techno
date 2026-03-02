@@ -112,13 +112,13 @@
 }
 
 :global(.embla__button:hover:not(:disabled)) {
-  background: var(--c-004a91);
-  border-color: var(--c-004a91);
+  background: var(--bleu-600);
+  border-color: var(--bleu-600);
 }
 
 :global(.embla__button:active:not(:disabled)) {
-  background: var(--c-003e7a);
-  border-color: var(--c-003e7a);
+  background: var(--bleu-600);
+  border-color: var(--bleu-600);
 }
 
 :global(.embla__button:disabled) {

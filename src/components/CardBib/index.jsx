@@ -25,20 +25,20 @@ export default function CardBib({
   const colorMap = {
     bleu: {
       bg: 'var(--bleu-500)',
-      hoverBg: 'var(--c-004c94)',
-      iconColor: 'var(--c-ffffff88)',
+      hoverBg: 'var(--bleu-600)',
+      iconColor: 'var(--gris-50)',
       linkIconColor: 'var(--white)',
     },
     jaune: {
       bg: 'var(--jaune)',
-      hoverBg: 'var(--c-ffdc81)',
-      iconColor: 'var(--c-bc8800)',
-      linkIconColor: 'var(--c-473f2c)',
+      hoverBg: 'var(--jaune-pale)',
+      iconColor: 'var(--jaune-700)',
+      linkIconColor: 'var(--gris-700)',
     },
     vertFonce: {
-      bg: 'var(--c-2e7d32)',
-      hoverBg: 'var(--c-1b5e20)',
-      iconColor: 'var(--c-ffffff88)',
+      bg: 'var(--vert-500)',
+      hoverBg: 'var(--vert-fonce)',
+      iconColor: 'var(--gris-50)',
       linkIconColor: 'var(--white)',
     },
   };

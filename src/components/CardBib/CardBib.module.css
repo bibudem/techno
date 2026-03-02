@@ -82,9 +82,9 @@
 /* === Thème jaune === */
 .jaune {
   --bg-color: var(--jaune);
-  --hover-bg-color: var(--c-ffdc81);
-  --icon-color: var(--c-bc8800);
-  --link-icon-color: var(--c-473f2c);
+  --hover-bg-color: var(--jaune-pale);
+  --icon-color: var(--jaune-700);
+  --link-icon-color: var(--gris-700);
 }
 
 .jaune .cardIcon svg {

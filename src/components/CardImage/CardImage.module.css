@@ -76,5 +76,5 @@
 
 .cardImage:hover .cardImageArrow {
   transform: translate(0.2rem, -50%);
-  background-color: var(--c-ffdc81);
+  background-color: var(--jaune-pale);
 }

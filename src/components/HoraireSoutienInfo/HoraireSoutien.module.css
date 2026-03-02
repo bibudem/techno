@@ -1,9 +1,9 @@
 .wrapper {
   margin: 1.2rem 0;
   padding: 1rem;
-  border: 1px solid var(--c-dde6ef);
+  border: 1px solid var(--gris-100);
   border-radius: 14px;
-  background: linear-gradient(180deg, var(--white) 0%, var(--c-eef6fc) 120%);
+  background: linear-gradient(180deg, var(--white) 0%, var(--bleu-50) 120%);
   box-shadow: 0 8px 20px rgba(14, 29, 58, 0.07);
 }
 
@@ -13,7 +13,7 @@
   align-items: flex-end;
   flex-wrap: wrap;
   gap: 0.75rem;
-  border-bottom: 1px solid var(--c-dde6ef);
+  border-bottom: 1px solid var(--gris-100);
   padding-bottom: 0.85rem;
 }
 
@@ -27,7 +27,7 @@
 .dateRange {
   margin: 0.28rem 0 0;
   font-size: 0.93rem;
-  color: var(--c-5a5f66);
+  color: var(--gris-600);
 }
 
 .navButtons {
@@ -45,7 +45,7 @@
   line-height: 1;
   color: var(--bleu-600);
   background-color: var(--white);
-  border: 1px solid var(--c-cfdceb);
+  border: 1px solid var(--bleu-200);
   border-radius: 999px;
   cursor: pointer;
   transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
@@ -75,16 +75,16 @@
   margin-bottom: 0.35rem;
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--c-5a5f66);
+  color: var(--gris-600);
 }
 
 .mobileSelect {
   width: 100%;
   padding: 0.55rem 0.7rem;
-  border: 1px solid var(--c-cfdceb);
+  border: 1px solid var(--bleu-200);
   border-radius: 10px;
   background-color: var(--white);
-  color: var(--c-333333);
+  color: var(--gris-700);
   font-size: 0.95rem;
 }
 
@@ -96,7 +96,7 @@
 
 .dayTab {
   min-height: 4.1rem;
-  border: 1px solid var(--c-dde6ef);
+  border: 1px solid var(--gris-100);
   border-radius: 10px;
   background: linear-gradient(180deg, var(--bleu-50) 0%, var(--bleu-100) 100%);
   padding: 0.45rem 0.35rem;
@@ -142,7 +142,7 @@
 
 .dayTabToday:not(.dayTabActive) {
   border-color: var(--bleu-300);
-  background: linear-gradient(180deg, var(--c-eef6fc) 0%, var(--bleu-100) 100%);
+  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--bleu-100) 100%);
 }
 
 .dayTabToday:not(.dayTabActive) .dayTabName {
@@ -152,9 +152,9 @@
 .dayPanel {
   margin-top: 0.75rem;
   min-height: 5.2rem;
-  border: 1px solid var(--c-dde6ef);
+  border: 1px solid var(--gris-100);
   border-radius: 12px;
-  background: linear-gradient(180deg, var(--white) 0%, var(--c-eef6fc) 100%);
+  background: linear-gradient(180deg, var(--white) 0%, var(--bleu-50) 100%);
   padding: 0.85rem 1rem;
   display: flex;
   flex-direction: column;
@@ -170,7 +170,7 @@
 .dayPanelDate {
   margin: 0;
   font-size: 0.88rem;
-  color: var(--c-5a5f66);
+  color: var(--gris-600);
   text-transform: capitalize;
 }
 
@@ -187,7 +187,7 @@
 }
 
 .dayPanelClosed {
-  color: var(--c-666666);
+  color: var(--gris-600);
   font-style: italic;
   font-weight: 600;
 }

@@ -6,9 +6,9 @@
   display: flex;
   flex-direction: column;
   padding: 1.05rem 1.05rem 1rem;
-  border: 1px solid var(--c-dde6ef);
+  border: 1px solid var(--gris-100);
   border-radius: 14px;
-  background: linear-gradient(180deg, var(--white) 0%, var(--c-f4f8fc) 125%);
+  background: linear-gradient(180deg, var(--white) 0%, var(--gris-50) 125%);
   box-shadow: 0 8px 20px rgba(14, 29, 58, 0.07);
   overflow: hidden;
   transition:
@@ -17,7 +17,7 @@
 }
 
 .card:hover {
-  border-color: var(--c-cedcea);
+  border-color: var(--bleu-200);
   box-shadow: 0 12px 24px rgba(14, 29, 58, 0.12);
 }
 
@@ -66,8 +66,8 @@
   gap: 0.46rem;
   align-items: flex-start;
   border-radius: 10px;
-  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--c-eef6fc) 100%);
-  color: var(--c-333333);
+  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--bleu-50) 100%);
+  color: var(--gris-700);
   line-height: 1.45;
   font-size: 0.95rem;
 }
@@ -108,7 +108,7 @@
 
 .description {
   margin: 0;
-  color: var(--c-444444);
+  color: var(--gris-700);
   font-size: 0.96rem;
   line-height: 1.5;
 }
@@ -124,7 +124,7 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-weight: 700;
-  color: var(--c-5a5f66);
+  color: var(--gris-600);
 }
 
 .tagsList {
@@ -149,8 +149,8 @@
   align-items: center;
   padding: 0.28rem 0.54rem;
   border-radius: 999px;
-  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--c-eef6fc) 100%);
-  border: 1px solid var(--c-d0e3f0);
+  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--bleu-50) 100%);
+  border: 1px solid var(--bleu-200);
   color: var(--bleu-700);
   font-size: 0.82rem;
   line-height: 1.2;
@@ -167,7 +167,7 @@
 }
 
 .tagLink:hover {
-  background: linear-gradient(180deg, var(--bleu-100) 0%, var(--c-e0f0ff) 100%);
+  background: linear-gradient(180deg, var(--bleu-100) 0%, var(--bleu-100) 100%);
   border-color: var(--bleu-300);
   color: var(--bleu-700);
   text-decoration: none;
@@ -210,14 +210,14 @@
 }
 
 .primary:hover {
-  background-color: var(--c-004a91);
-  border-color: var(--c-004a91);
+  background-color: var(--bleu-600);
+  border-color: var(--bleu-600);
   color: var(--white);
 }
 
 .secondary {
   background-color: var(--white);
-  border-color: var(--c-d0e3f0);
+  border-color: var(--bleu-200);
   color: var(--bleu-600);
 }
 
