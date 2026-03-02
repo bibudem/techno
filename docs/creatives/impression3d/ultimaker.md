@@ -3,7 +3,7 @@ id : ultimaker
 title : Ultimaker
 ---
 
-:::info
+:::note
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
 :::
 
@@ -30,7 +30,7 @@ Le bloc d’extrusion est doté de deux extrudeurs permettant d’imprimer facil
 
 Le *feeder* se trouve à l’arrière de l’imprimante et le filament passe par un tube pour être acheminé à l’extrudeur.  
 
-:::info
+:::note
 Ressources en ligne
 [Site officiel Ultimaker](https://ultimaker.com/3d-printers/s-series/ultimaker-s3/)
 :::

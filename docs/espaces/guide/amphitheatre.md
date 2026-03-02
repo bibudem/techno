@@ -3,7 +3,7 @@ title: Guide d'utilisation de l'amphithéâtre
 breadcrumbs: true
 ---
 
-:::info Utilisation du projecteur 16mm
+:::note Utilisation du projecteur 16mm
 Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [guide d'utilisation du projecteur 16mm (PDF)](/pdf/E61-local-2078-documentation-16mm.pdf).
 ::: 
 
@@ -46,7 +46,7 @@ Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [g
   <img src="/img/docs/panneau.webp" alt="Amphithéâtre" style={{ width: '200px', maxWidth: '100%', height: 'auto', flexShrink: 0 }} />
 
 </div>
-:::info Configuration du son 7.1 sur Windows
+:::note Configuration du son 7.1 sur Windows
 - En bas à droite de l’écran, cliquer sur l’icône du haut-parleur.
 - Choisir **Autres paramètres de volume**.
 - À la fenêtre Système → Son, dans la section **Avancé**, appuyer sur le bouton **Autres paramètres audio**. 

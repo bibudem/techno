@@ -78,7 +78,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
        - **Mot de passe** : votre mot de passe
   5. Dans la fenêtre qui s'ouvre, cliquer **Oui**
     
-    :::info Astuce
+    :::note Astuce
     Si on vous demande d’entrer uniquement votre mot de passe, cliquez sur **Plus d’options** → **Utiliser un autre compte**, puis authentifiez-vous.
     :::
   

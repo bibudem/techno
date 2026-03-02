@@ -39,7 +39,7 @@ Le mur vidéo se divise en 2 : le poste maître sur le ⅔ et 1 connexion sans f
 
 Le mur vidéo se divise en 3, permettant à 3 périphériques de se connecter sans fil simultanément.
 
-:::info Remarque
+:::note Remarque
 Seul le flux vidéo projeté par le poste maître est tactile.
 :::
 
@@ -53,7 +53,7 @@ Seul le flux vidéo projeté par le poste maître est tactile.
     - 9 écrans de gauche : [http://mila1553g.psf.udem](http://mila1553g.psf.udem/)
 - Télécharger le logiciel Air Media et suivre les instructions.
 
-:::info Remarque
+:::note Remarque
     - La transmission sans fil se fait en 1920x1080 (Full HD).
     - Le tactile ne fonctionne pas sur les périphériques externes dans ce mode d’affichage.
 :::

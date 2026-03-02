@@ -32,7 +32,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 4. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
 5. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
 
-:::info Si vous n'arrivez pas à ouvrir le fichier téléchargé
+:::note Si vous n'arrivez pas à ouvrir le fichier téléchargé
 Ouvrir le dossier des téléchargements, localiser le fichier d’installation EndNote (débute par UdeM_), cliquer avec le bouton droit de la souris sur le fichier puis sélectionner **Exécuter en tant qu’administrateur**. Ne le renommez pas.
 
 Si le document n'y est pas, aller dans les téléchargements du navigateur (en haut à droite), cliquer le document téléchargé et cliquer **Conserver**. Si le message **Vérifiez que vous faites confiance…** ou **Cette application risque d’endommager votre appareil** s’affiche :
@@ -52,7 +52,7 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite **Installation du logiciel**.
 6. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
 
-:::info IMPORTANT : Si un message d’erreur s’affiche 
+:::note IMPORTANT : Si un message d’erreur s’affiche 
 
 Message d’erreur Impossible d’ouvrir sous macOS :
 Cliquer **menu Pomme** → **Préférences Système** (ou **Réglages système**) → **Confidentialité & sécurité** → **Ouvrir quand même**
@@ -98,7 +98,7 @@ Pour changer cela, cliquer sur ***Modifier*** → ***Préférences*** → ***Bib
 Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
 Pour changer cela, cliquer sur ***EndNote2025*** → ***Réglages*** → ***Bibliothèques*** et choisir l’option voulue.
 
-:::info Important
+:::note Important
 Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
 :::
 

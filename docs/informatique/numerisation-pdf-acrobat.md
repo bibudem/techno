@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 2. Cliquer sur le bouton **Windows** → **Adobe Acrobat Pro**.  
 3. Cliquer sur **Fichier** → **Créer** → **Fichier PDF à partir d'un scanner**.  
 4. Paramètre par défaut = Couleur, format lettre, 300ppp.  
-   :::info Facultatif
+   :::note Facultatif
    Vous pouvez choisir noir et blanc, niveaux de gris ou photo couleur.
    :::
 5. Cliquer **Numériser**.  

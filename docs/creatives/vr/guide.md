@@ -39,7 +39,7 @@ help : crea
 - Sélectionner une application et la lancer
 - Pour quitter une application en cours, cliquer sur le bouton META de la manette droite puis quitter l'application
 
-:::info
+:::note
     Envie de nous suggérer une application? Envoyer un courriel à studio@bib.umontreal.ca afin de nous en faire part !
     :::
 

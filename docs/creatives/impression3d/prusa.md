@@ -4,7 +4,7 @@ title: Prusa i3 Mk3s+
 ---
 
 
-:::info
+:::note
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
 :::
 
@@ -29,7 +29,7 @@ Le bloc d’extrusion est monté sur deux axes (X et Z), et le plateau est mont�
 
 Le *feeder* se trouve directement sur le dessus du bloc d’extrusion.
 
-:::info
+:::note
 Ressources en ligne
 [Original Prusa i3 MK3S+ | Original Prusa 3D printers directly from Josef Prusa](https://www.prusa3d.com/fr/categorie/original-prusa-i3-mk3s/)
 :::
@@ -72,7 +72,7 @@ Bien sécher le filament avant utilisation
 En aucun cas, vous ne devriez forcer, au risque d’endommager l’imprimante. Dans le doute, demandez de l’aide.
 :::
 
-:::info
+:::note
 Ressources en ligne
 [Prusa Printer: Changing Filament](https://youtu.be/12bYIGgkqIQ)
 :::
@@ -163,7 +163,7 @@ Avant de lancer l’impression ou de changer le filament, vous devez nettoyer le
 3. L’imprimante prendra quelques minutes pour se chauffer. Une calibration sur plusieurs points sera faite, et ensuite l’impression commencera.
 4. Il est important de surveiller les premières couches de l’impression afin de s’assurer que le modèle adhère au plateau.
 
-:::info
+:::note
 Ressources en ligne
 [Première impression avec PrusaSlicer](https://help.prusa3d.com/fr/article/premiere-impression-avec-prusaslicer_1753)
 [Prusa Knowledge Base](https://help.prusa3d.com/fr/article/supports_1698)
@@ -189,7 +189,7 @@ Ressources en ligne
 9. Dans PrusaSlicer, relancer le Configuration Wizard, et cocher la nouvelle buse utilisée afin que les paramètres soient par défaut.
 10. Calibrer la première couche (*First layer calibration*). 
 
-:::info
+:::note
 Ressources en ligne
 [Calibration de la première couche (i3) | Prusa Knowledge Base](https://help.prusa3d.com/fr/article/calibration-de-la-premiere-couche-i3_112364)
 [Changing or replacing the nozzle](https://help.prusa3d.com/en/article/changing-or-replacing-the-nozzle-mk2-5s-mk3s-mk3s_2069)

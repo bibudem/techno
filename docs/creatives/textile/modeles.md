@@ -40,7 +40,7 @@ Pour vous déplacer d’une page à l’autre utiliser les flèches gauche droit
 
 Si votre texte en trop grand pour la machine vous pouvez tout d’abord réduire la taille de votre police : avec les 3 carrés en bas à gauche
 
-:::info
+:::note
    Si votre texte est trop long, la machine vous proposera automatiquement de tourner le texte à 90 degrés. Rien ne vous empêchera de le modifier par la suite.
 :::
 

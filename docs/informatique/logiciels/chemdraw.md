@@ -16,7 +16,7 @@ et à la [Bibliothèque Hubert-Reeves](https://bib.umontreal.ca/espaces/#Hubert-
 2. Vous serez redirigé [vers cette page](https://perkinelmer.flexnetoperations.com/).
 3. Cliquer ***New User*** et ***Sign Up*** ensuite s’enregistrer avec votre adresse de courriel institutionnel @umontreal.ca et choisir un mot de passe.
 
-:::info Note 
+:::note Note 
 Utilisateurs déjà inscrits : vous pourriez avoir à vous inscrire à nouveau.
 :::
 
@@ -28,7 +28,7 @@ Utilisateurs déjà inscrits : vous pourriez avoir à vous inscrire à nouveau.
 
 5. Cliquer *ChemDraw Professionnal*.
 
-:::info Note
+:::note Note
 Si la dernière version ne s’installe pas sur votre ordinateur, sélectionner l’onglet ***Previous versions*** et installer l’avant dernière version.
 :::
 
@@ -54,7 +54,7 @@ Si la dernière version ne s’installe pas sur votre ordinateur, sélectionner 
 4. Sélectionner ***Activate or deactivate online***.
 5. Le logiciel est maintenant installé et la licence activée.
 
-:::info Pour désactiver la licence
+:::note Pour désactiver la licence
 1. Ouvrir le logiciel
 2. Cliquer ***Help*** → ***Licencing***
 3. Cliquer ***Deactivate***

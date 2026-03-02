@@ -37,7 +37,7 @@ Consulter [le guide d'utilisation de Zotero](https://boite-outils.bib.umontreal.
 3. Installer l’application Zotero.
 4. Installer le connecteur Zotero via votre navigateur Web (Safari, Firefox, Chrome, Edge).
 
-:::info Pour les utilisateurs de Safari
+:::note Pour les utilisateurs de Safari
 Pour activer Zotero dans Safari, ouvrir Safari, aller dans le menu **Safari** → **Réglages** → **Extensions** → **Zotero Connector** et cocher **Activer**.
 :::
 

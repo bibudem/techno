@@ -77,7 +77,7 @@ L’université fournit gratuitement le logiciel d’analyse statistique IBM SPS
 </TabItem>
 </Tabs>
 
-:::info Problème de licence?
+:::note Problème de licence?
 Supprimer le logiciel → redémarrer l’ordinateur → recommencer l’installation.
 :::
 

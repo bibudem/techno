@@ -28,7 +28,7 @@ import Link from '@docusaurus/Link';
 
 Le Service d'Impression de l'UdeM (SIUM) offre des services d'impression, de photocopie et de numérisation dans les bibliothèques de l'UdeM, accessibles depuis les ordinateurs publics ou les appareils personnels.
 
-:::info  
+:::note  
 Ce service est payant. Consultez la [tarification du SIUM](https://sium.umontreal.ca/libre-service.html) pour connaître les coûts.  
 :::
 

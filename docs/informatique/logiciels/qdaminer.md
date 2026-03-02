@@ -47,7 +47,7 @@ Supprimez le logiciel, redémarrez, puis réinstallez.
 </TabItem>
 <TabItem value="macos" label="macOS">
 
-:::info IMPORTANT : 
+:::note IMPORTANT : 
 Le logiciel QDA Miner n'est pas disponible pour le Mac.
 Vous pouvez utiliser le logiciel sur :
 - [les ordinateurs publics en libre-service en bibliothèque](https://studio.bib.umontreal.ca/informatique/ordinateurs/)

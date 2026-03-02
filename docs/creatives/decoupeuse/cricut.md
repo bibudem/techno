@@ -211,7 +211,7 @@ Conçu pour les découpes de tissus tels que :
 - Utiliser une lingette sans alcool.
 - Lavage au savon à l'eau froide et séchage à l'air.
 
-:::info Ressources en ligne
+:::note Ressources en ligne
     [https://www.daydreamintoreality.com/cricut-mats/](https://www.daydreamintoreality.com/cricut-mats/)
 :::
 
@@ -381,7 +381,7 @@ Cet outil permet d'effectuer des rainures sur les matériaux. Ceci permet ensuit
 
 <!-- ![Untitled](/img/docs/cricut55.webp) -->
 
-:::info "Ressources en ligne"
+:::note "Ressources en ligne"
     [Blades, Tools and Accessories -  Cricut Design](https://help.cricut.com/hc/en-us/categories/360000821854-Blades-Tools-and-Accessories)
 :::
 

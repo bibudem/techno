@@ -28,7 +28,7 @@ Pour importer l'image, ouvrir Inkscape puis ouvrir un **Nouveau Document**.
 
 Aller dans le coin supérieur gauche → **Fichier** → **Importer**.
 
-:::info Astuce
+:::note Astuce
     Avec ce même chemin, vous verrez l’option **Importer une image du web**, vous pourrez y chercher différents modèles enregistrés par la communauté Inkscape.
     Choisir une image la plus propre possible, c’est a dire la moins pixélisée car cela affectera le rendu de votre broderie.
 :::
@@ -118,7 +118,7 @@ Exemple :
 
 ![](/img/docs/transformer_une_image_complexe_avec_Inkscape_11.webp)
 
-:::info Astuce
+:::note Astuce
     À cette étape, vous pouvez organiser vous-même l’ordre des `paths`. Notamment pour éviter les sauts de fil entre les éléments lors de la broderie
 :::
 

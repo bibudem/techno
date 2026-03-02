@@ -152,7 +152,7 @@
   },
   "theme.admonition.info": {
     "message": "info",
-    "description": "The default label used for the Info admonition (:::info)"
+    "description": "The default label used for the Info admonition (:::note)"
   },
   "theme.admonition.note": {
     "message": "remarque",

@@ -44,7 +44,7 @@ help : info
 8.	Limiter l’utilisation excessive du nombre de concepts. Une carte conceptuelle est habituellement un résumé. Très grande elle devient complexe et plus dure à comprendre.
 9.	Si trop de concepts sont présents et que l’impression sur feuille 8½X11 demeure problématique, songer à imprimer la carte sur du papier 8½X14, aussi disponible dans les imprimantes publiques des bibliothèques. Si rien n’y fait, l’impression sur plusieurs pages ne pourra pas être évitée.
 
-:::info Attention
+:::note Attention
 - Par défaut, le fichier sera enregistré dans le dossier Mes documents\My Cmaps
 - Le fichier portera l’extension .cmap (exemple : nom_du_schema.cmap)
 - Pour envoyer le schéma par courriel ou pour le sauvegarder sur un média externe, utiliser le fichier .cmap seulement. **Ne pas utiliser le fichier project.idx aussi présent dans le même répertoire.**

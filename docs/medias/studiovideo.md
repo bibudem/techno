@@ -110,7 +110,7 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 
 ### Source 4 : Table de présentation vue de haut
 
-:::info
+:::note
 Ce mode n’est disponible qu’à la Bibliothèque Thérèse-Gouin-Décarie
 :::
 

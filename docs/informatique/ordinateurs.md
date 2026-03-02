@@ -40,7 +40,7 @@ L’accès se fait au moyen d’un code d’accès et d’un mot de passe.
 
 ---
 
-:::info Le saviez-vous?
+:::note Le saviez-vous?
 Nous offrons des ordinateurs puissants pour les travaux vidéos ou graphiques. Consultez la page [Postes d'édition](../medias/postes-edition.md).
 :::
 

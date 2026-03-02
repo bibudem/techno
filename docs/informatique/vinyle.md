@@ -51,7 +51,7 @@ Nous ne pouvons malheureusement pas accepter de demandes provenant de l’extern
 
 ---
 
-:::info
+:::note
 Pour toute demande d’aide ou de soutien pour vos projets spéciaux, adressez-vous au comptoir de la [Bibliothèque de musique](https://bib.umontreal.ca/espaces/#musique).
 :::
 
