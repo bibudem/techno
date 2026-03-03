@@ -208,16 +208,6 @@ html[data-theme='dark'] .card--clickable:hover {
   font-weight: 700 !important;
 }
 
-/* Conserve la persistance native du thème, mais masque le toggle Docusaurus.
-   Le basculement dark/light se fait via le widget Accessibilité. */
-.navbar__items--right [class*='colorModeToggle'],
-.navbar-sidebar .clean-btn[class*='toggleButton'] {
-  display: none !important;
-}
-
-
-
-
 html[data-theme="light"] {
   --navbar-link-c: var(--bleu-700);
   --navbar-separator-bg-c: var(--gris-300);

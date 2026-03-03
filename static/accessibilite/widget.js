@@ -24,6 +24,7 @@ var outil_accessibilite = {
         outil_accessibilite.close_on_escape();
         outil_accessibilite.set_hidden_event_listener();
         outil_accessibilite.check_localstorage_toggles();
+        outil_accessibilite.watch_theme_sync();
         outil_accessibilite.show_widget_to_users();
         outil_accessibilite.watch_klaro_visibility();
 
@@ -256,11 +257,54 @@ var outil_accessibilite = {
     localStorage.widget_hidden = value;
   },
 
+  sync_dark_mode_toggle: function () {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    if (!darkModeToggle) return;
+
+    darkModeToggle.checked = outil_accessibilite.is_dark_mode_enabled();
+  },
+
+  request_docusaurus_color_mode: function (mode) {
+    window.dispatchEvent(
+      new CustomEvent('sb:request-color-mode', {
+        detail: { mode: mode },
+      }),
+    );
+  },
+
+  watch_theme_sync: function () {
+    if (outil_accessibilite._theme_sync_started) return;
+    outil_accessibilite._theme_sync_started = true;
+
+    const sync = function () {
+      outil_accessibilite.sync_dark_mode_toggle();
+    };
+
+    sync();
+
+    const root = document.documentElement;
+    if (root) {
+      const observer = new MutationObserver(sync);
+      observer.observe(root, {
+        attributes: true,
+        attributeFilter: ['data-theme', 'data-theme-choice'],
+      });
+    }
+
+    window.addEventListener('themechange', sync);
+    window.addEventListener('sb:color-mode-changed', sync);
+    window.addEventListener('storage', function (event) {
+      if (!event || typeof event.key !== 'string') return;
+      if (!event.key.startsWith('theme')) return;
+      sync();
+    });
+  },
+
   is_dark_mode_enabled: function () {
     const root = document.documentElement;
     const attrTheme = root.getAttribute('data-theme');
     const storedTheme = localStorage.getItem('theme');
-    const currentTheme = storedTheme || attrTheme || 'light';
+    const currentTheme = attrTheme || storedTheme || 'light';
     return currentTheme === 'dark';
   },
 
@@ -268,10 +312,15 @@ var outil_accessibilite = {
     const mode = enabled ? 'dark' : 'light';
     const root = document.documentElement;
 
+    // Synchronise le mode via le provider Docusaurus (source de vérité React).
+    outil_accessibilite.request_docusaurus_color_mode(mode);
+
+    // Fallback immédiat pour conserver un rendu cohérent avant hydratation.
     root.setAttribute('data-theme', mode);
     root.setAttribute('data-theme-choice', mode);
     localStorage.setItem('theme', mode);
     window.dispatchEvent(new Event('themechange'));
+    outil_accessibilite.sync_dark_mode_toggle();
   },
 
   set_large_text: function (enabled) {
@@ -308,10 +357,7 @@ var outil_accessibilite = {
       document.getElementById("highlight-links-toggle").checked = true;
     }
 
-    const darkModeToggle = document.getElementById("dark-mode-toggle");
-    if (darkModeToggle) {
-      darkModeToggle.checked = outil_accessibilite.is_dark_mode_enabled();
-    }
+    outil_accessibilite.sync_dark_mode_toggle();
 
     const largeTextToggle = document.getElementById("large-text-toggle");
     if (largeTextToggle) {
