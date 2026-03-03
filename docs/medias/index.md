@@ -60,7 +60,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Guide d'utilisation du studio de balado vidéo",
       link: "/medias/guidebaladovideo",
       icon: "Waveform",
-      image: "/img/cover/baladovideo.webp",
+      image: "/img/cover/studiobalado.webp",
     },
     {
       title: "RODECaster Pro II",
