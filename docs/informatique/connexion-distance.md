@@ -40,10 +40,6 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 
 ---
 
-:::danger Attention
-En raison de travaux en cours à la Bibliothèque des lettres et sciences humaines, aucun poste n’est accessible pour le moment.
-:::
-
 ## Postes actuellement disponibles
 
 Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](/informatique/logiciels) pour plus de détails.
