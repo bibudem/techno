@@ -45,7 +45,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
   <StudioCard
     title="Mathématiques et informatique"
     titleLink="https://bib.umontreal.ca/espaces/#math-info"
-    location={<> <a href="../espaces/ateliers.md">Atelier de fabrication</a>, local 2432. </>}
+    location={<> <a href="../espaces/ateliers">Atelier de fabrication</a>, local 2432. </>}
     mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
     mapText="Voir sur la carte"
     tags={[
@@ -57,7 +57,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
   <StudioCard
     title="Hubert-Reeves"
     titleLink="https://bib.umontreal.ca/espaces/#Hubert-reeves"
-    location={<> <a href="../espaces/ateliers.md">Atelier de fabrication</a>, local A-0724.4. </>}
+    location={<> <a href="../espaces/ateliers">Atelier de fabrication</a>, local A-0724.4. </>}
     mapLink="https://maps.app.goo.gl/T6E9TaKNk6dDgrds9"
     mapText="Voir sur la carte"
     tags={[
@@ -69,7 +69,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
   <StudioCard
     title="Thérèse-Gouin-Décarie"
     titleLink="https://bib.umontreal.ca/espaces/#tgd"
-    location={<> <a href="../espaces/ateliers.md">Atelier de fabrication</a>, local D-280-1. </>}
+    location={<> <a href="../espaces/ateliers">Atelier de fabrication</a>, local D-280-1. </>}
     mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
     mapText="Voir sur la carte"
     tags={[
