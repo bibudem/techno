@@ -45,7 +45,9 @@ Seul le flux vidéo projeté par le poste maître est tactile.
 
 ## Connexion sans fil
 
-- Sélectionner le mode avec WI-FI (2, 3 ou 4) sur la borne tactile.
+[Suivre la procédure suivante](../../informatique/connexion-ecrans#procedure) pour connecter un périphérique sans fil au mur de visualisation.
+
+<!-- - Sélectionner le mode avec WI-FI (2, 3 ou 4) sur la borne tactile.
 - Connecter votre périphérique au réseau sans fil **UdeM avec cryptage**.
 - Ouvrir le navigateur et accéder à l'adresse indiquée sur l'écran :
     - 9 écrans de droite : [http://mila1553d.psf.udem](http://mila1553d.psf.udem/)
@@ -73,7 +75,7 @@ Lors de la connexion du Air Media et au moment où le logiciel demande le code N
     
 2. Entrer les 4 chiffres (NIP) affichés sur l’écran du mur de visualisation. 
     
-    ![](/img/docs/labovisu-wifi3.webp)
+    ![](/img/docs/labovisu-wifi3.webp) -->
     
 
 ## Son

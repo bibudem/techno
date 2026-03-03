@@ -24,7 +24,7 @@ Vous pouvez y connecter votre ordinateur, tablette ou téléphone pour afficher 
 
 ---
 
-## Procédure
+## Procédure {#procedure}
 
 Assurez-vous d’être connecté au réseau WI-FI **UdeM avec cryptage** et que le Bluetooth de votre appareil est activé.
 
