@@ -12,8 +12,6 @@
   --theme-menu-hover: var(--bleu-50);
   --theme-menu-active: var(--bleu-100);
   --theme-breadcrumb-active: var(--bleu-50);
-  --theme-info-contrast-bg: var(--bleu-50);
-  --theme-alert-border: var(--jaune-pale);
 
   --ifm-color-primary: var(--bleu-500);
   --ifm-color-primary-dark: var(--bleu-600);
@@ -34,9 +32,6 @@
   --ifm-menu-color-background-hover: var(--theme-menu-hover);
   --ifm-menu-color-background-active: var(--theme-menu-active);
   --ifm-breadcrumb-item-background-active: var(--theme-breadcrumb-active);
-  --ifm-color-info-contrast-background: var(--theme-info-contrast-bg);
-  --ifm-alert-border-color: var(--theme-alert-border);
-  --ifm-color-info-dark: var(--jaune);
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: "Figtree", sans-serif;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -54,8 +49,6 @@
   --theme-menu-hover: var(--gris-700);
   --theme-menu-active: var(--gris-600);
   --theme-breadcrumb-active: var(--gris-700);
-  --theme-info-contrast-bg: var(--gris-700);
-  --theme-alert-border: var(--jaune-700);
 
   --ifm-color-primary: var(--bleu-400);
   --ifm-color-primary-dark: var(--bleu-500);
@@ -66,6 +59,9 @@
   --ifm-color-primary-lightest: var(--bleu-100);
   --ifm-link-color: var(--bleu-200);
   --ifm-link-hover-color: var(--bleu-100);
+  --ifm-color-info-contrast-background: var(--gris-700);
+  --ifm-alert-border-color: var(--jaune-700);
+  --ifm-color-info-dark: var(--jaune);
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
