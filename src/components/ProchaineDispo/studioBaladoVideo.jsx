@@ -92,7 +92,7 @@ export default function StudioBaladoVideo({ reserveLink, reserveText = "Réserve
         <div className={styles.layout}>
           <div className={styles.content}>
             <p className={styles.label}>Prochaine disponibilité</p>
-            <p className={styles.main}>Aucune disponibilité prochaine</p>
+            <p className={styles.main}>Aucune disponibilité dans les 14 prochains jours</p>
           </div>
           {reserveButton}
         </div>
