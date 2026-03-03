@@ -37,6 +37,7 @@ const StudioCard = ({
   reserveLink,
   reserveText,
   secondaryLinks = [],
+  beforeReserve,
 }) => {
   const hasTags = tags.length > 0;
 
@@ -110,6 +111,8 @@ const StudioCard = ({
           </div>
         )}
       </div>
+
+      {beforeReserve && <div className={styles.beforeReserve}>{beforeReserve}</div>}
 
       {(reserveLink || secondaryLinks.length > 0) && (
         <div className={styles.footer}>

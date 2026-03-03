@@ -1,0 +1,127 @@
+.box {
+  border-radius: 12px;
+  border: 1px solid var(--bleu-200);
+  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--white) 100%);
+  padding: 0.72rem 0.84rem;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.content {
+  min-width: 0;
+  flex: 1;
+}
+
+.label {
+  margin: 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--gris-600);
+}
+
+.main {
+  margin: 0.28rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: var(--bleu-700);
+}
+
+.sub {
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--gris-700);
+}
+
+.reserve {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid var(--bleu-500);
+  background-color: var(--bleu-500);
+  color: var(--white);
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.reserve:hover {
+  background-color: var(--bleu-600);
+  border-color: var(--bleu-600);
+  color: var(--white);
+}
+
+.error {
+  border-color: var(--rose-500);
+  background: linear-gradient(180deg, var(--rose-100) 0%, var(--white) 100%);
+}
+
+.error .main {
+  color: var(--rouge-orange-600);
+}
+
+.loading,
+.empty {
+  background: linear-gradient(180deg, var(--gris-50) 0%, var(--white) 100%);
+}
+
+[data-theme='dark'] .box {
+  border-color: #3f5b79;
+  background: linear-gradient(180deg, #203149 0%, #1a2a40 100%);
+}
+
+[data-theme='dark'] .label {
+  color: #b9cbe0;
+}
+
+[data-theme='dark'] .main {
+  color: #edf3fb;
+}
+
+[data-theme='dark'] .sub {
+  color: #d3e1ef;
+}
+
+[data-theme='dark'] .error {
+  border-color: #92524d;
+  background: linear-gradient(180deg, #3d2726 0%, #332122 100%);
+}
+
+[data-theme='dark'] .error .main {
+  color: #ffb6ae;
+}
+
+[data-theme='dark'] .reserve {
+  background-color: #2f6ca6;
+  border-color: #2f6ca6;
+  color: #f3f8ff;
+}
+
+[data-theme='dark'] .reserve:hover {
+  background-color: #3f7ab3;
+  border-color: #3f7ab3;
+}
+
+@media screen and (max-width: 640px) {
+  .layout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .reserve {
+    width: 100%;
+  }
+}

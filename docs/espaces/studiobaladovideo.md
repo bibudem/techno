@@ -62,16 +62,13 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
     mapLink="https://maps.app.goo.gl/cXprvQUPjBzQ6c8L8"
     description={<> À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio.</>
     }
-    reserveLink="https://calendrier.bib.umontreal.ca/space/27462"
-    reserveText="Réserver"
+    beforeReserve={<StudioBaladoVideo reserveLink="https://calendrier.bib.umontreal.ca/space/27462" reserveText="Réserver" />}
     secondaryLinks={[
       { href: "/medias/guidebaladovideo", text: "Guide d'utilisation" },
       { href: "https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled", text: "Obtenir du soutien" },
     ]}
   />
 </div>
-
-<StudioBaladoVideo />
 
 ---
 

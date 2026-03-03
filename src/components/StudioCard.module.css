@@ -181,6 +181,10 @@
   gap: 0.55rem;
 }
 
+.beforeReserve {
+  margin-top: 0.45rem;
+}
+
 .action {
   border-radius: 999px;
   display: inline-flex;
