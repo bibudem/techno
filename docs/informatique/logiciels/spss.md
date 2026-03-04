@@ -19,7 +19,7 @@ L’université fournit gratuitement le logiciel d’analyse statistique IBM SPS
 
 **Préalables**
 - Avoir ses [informations d'authentification](../authentification).
-- Un système d’exploitation compatible (macOS 10.15+ ou Windows 10 ou 11)
+- Un système d’exploitation compatible (macOS 10.15+, Windows 10 ou 11)
 - **Important : avoir redémarré son ordinateur**
 - **S’assurer que les paramètres d’heure, de date et de fuseau horaire correspondent à ceux de Montréal.**
 - **Ne pas utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un)**
@@ -29,7 +29,9 @@ L’université fournit gratuitement le logiciel d’analyse statistique IBM SPS
 
 1. Accéder à la logithèque [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer sur **Valider**.
-3. Dans la liste déroulante, sélectionner **SPSS 31** et votre système d'exploitation.
+3. Dans la liste déroulante, sélectionner **SPSS** selon votre système d'exploitation.
+- **SPSS 29** pour Windows 10 ou macOS 10.15 à 13
+- **SPSS 31** pour Windows 11 ou macOS 14 à 26
 4. Corriger la langue (au besoin) puis cliquer Suivant et Installation du logiciel.
 5. Enregistrer puis exécuter le fichier d'installation.
 
@@ -71,7 +73,7 @@ L’université fournit gratuitement le logiciel d’analyse statistique IBM SPS
 
 1. Fermer le logiciel SPSS.
 2. Aller dans le dossier **Applications**, mettre le dossier **IBM SPSS Statistics** dans la Corbeille.
-3. Vider la corbeille.
+3. **Vider la corbeille.**
 4. **Redémarrer votre ordinateur**.
 
 </TabItem>
