@@ -264,10 +264,13 @@ var outil_accessibilite = {
     darkModeToggle.checked = outil_accessibilite.is_dark_mode_enabled();
   },
 
-  request_docusaurus_color_mode: function (mode) {
+  request_docusaurus_color_mode: function (mode, source) {
     window.dispatchEvent(
       new CustomEvent('sb:request-color-mode', {
-        detail: { mode: mode },
+        detail: {
+          mode: mode,
+          source: source || 'widget',
+        },
       }),
     );
   },
@@ -313,7 +316,7 @@ var outil_accessibilite = {
     const root = document.documentElement;
 
     // Synchronise le mode via le provider Docusaurus (source de vérité React).
-    outil_accessibilite.request_docusaurus_color_mode(mode);
+    outil_accessibilite.request_docusaurus_color_mode(mode, 'widget');
 
     // Fallback immédiat pour conserver un rendu cohérent avant hydratation.
     root.setAttribute('data-theme', mode);
