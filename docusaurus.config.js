@@ -16,8 +16,7 @@ const config = {
   organizationName: 'bibudem',
   projectName: 'techno',
 
-onBrokenLinks: 'warn',
-
+  onBrokenLinks: 'warn',
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',

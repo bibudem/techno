@@ -1,11 +1,44 @@
-import React, { useState } from "react";
-import { useColorMode } from "@docusaurus/theme-common";
+import React, { useEffect, useState } from "react";
+
+function getIsDarkTheme() {
+  if (typeof document === "undefined") return false;
+  return document.documentElement.getAttribute("data-theme") === "dark";
+}
 
 export default function CopyToClipboardButton({ text }) {
   const [copied, setCopied] = useState(false);
   const [hover, setHover] = useState(false);
-  const { colorMode } = useColorMode();
-  const isDark = colorMode === "dark";
+  const [isDark, setIsDark] = useState(getIsDarkTheme);
+
+  useEffect(() => {
+    const updateTheme = () => setIsDark(getIsDarkTheme());
+    updateTheme();
+
+    const observer = new MutationObserver((mutations) => {
+      const hasThemeMutation = mutations.some(
+        (mutation) =>
+          mutation.type === "attributes" &&
+          mutation.attributeName === "data-theme",
+      );
+      if (hasThemeMutation) {
+        updateTheme();
+      }
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"],
+    });
+
+    window.addEventListener("themechange", updateTheme);
+    window.addEventListener("sb:color-mode-changed", updateTheme);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("themechange", updateTheme);
+      window.removeEventListener("sb:color-mode-changed", updateTheme);
+    };
+  }, []);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(text).then(() => {

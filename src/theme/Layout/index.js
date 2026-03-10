@@ -3,10 +3,12 @@ import Layout from '@theme-original/Layout';
 import LienExterne from '@site/src/components/LienExterne';
 import LibChatWidget from '@site/src/components/LibChatWidget';
 import AvisBib from '@site/src/components/AvisBib';
+import AvisUrgenceUdeM from '@site/src/components/AvisUrgenceUdeM';
 
 export default function LayoutWrapper(props) {
   return (
     <>
+      <AvisUrgenceUdeM />
       <AvisBib />
       <Layout {...props} />
       <LienExterne />

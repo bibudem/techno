@@ -1,13 +1,8 @@
 import React from 'react';
-import {useLocation} from '@docusaurus/router';
-import {useThemeConfig} from '@docusaurus/theme-common';
 import Link from '@docusaurus/Link';
 import styles from './Breadcrumbs.module.css';
 
 export default function CustomBreadcrumbs({items}) {
-  const location = useLocation();
-  const {breadcrumbs} = useThemeConfig();
-
   // Cas vide
   if (!items || items.length === 0) return null;
 

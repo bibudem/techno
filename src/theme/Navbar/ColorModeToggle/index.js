@@ -1,16 +1,58 @@
 import React, { useEffect, useRef } from 'react';
 import NavbarColorModeToggle from '@theme-original/Navbar/ColorModeToggle';
-import { useColorMode } from '@docusaurus/theme-common';
 import {hasKlaroConsent} from '@site/src/utils/consent';
 
 const REQUEST_COLOR_MODE_EVENT = 'sb:request-color-mode';
 const COLOR_MODE_CHANGED_EVENT = 'sb:color-mode-changed';
 const DARK_MODE_ACTIVATION_EVENT = 'dark_mode_activation';
+const COLOR_MODE_STORAGE_KEY = 'theme';
 
 function normalizeColorMode(value) {
   if (value === 'dark') return 'dark';
   if (value === 'light') return 'light';
   return null;
+}
+
+function getCurrentColorMode() {
+  if (typeof document === 'undefined') return 'light';
+  return normalizeColorMode(document.documentElement.getAttribute('data-theme')) || 'light';
+}
+
+function getStoredColorMode() {
+  if (typeof window === 'undefined') return null;
+  try {
+    return normalizeColorMode(window.localStorage.getItem(COLOR_MODE_STORAGE_KEY));
+  } catch {
+    return null;
+  }
+}
+
+function requestColorModeChange(requestedMode) {
+  const previousMode = getCurrentColorMode();
+  if (previousMode === requestedMode) return;
+
+  try {
+    window.localStorage.setItem(COLOR_MODE_STORAGE_KEY, requestedMode);
+  } catch {
+    // Ignore localStorage access failures.
+  }
+
+  document.documentElement.setAttribute('data-theme', requestedMode);
+
+  // Notify Docusaurus provider (same tab) via synthetic storage event.
+  try {
+    window.dispatchEvent(
+      new StorageEvent('storage', {
+        key: COLOR_MODE_STORAGE_KEY,
+        oldValue: previousMode,
+        newValue: requestedMode,
+        storageArea: window.localStorage,
+        url: window.location.href,
+      }),
+    );
+  } catch {
+    // Fallback: color mode is still applied via data-theme attribute.
+  }
 }
 
 function trackDarkModeActivation(source) {
@@ -24,7 +66,6 @@ function trackDarkModeActivation(source) {
 }
 
 function ColorModeSyncBridge() {
-  const { colorMode, colorModeChoice, setColorMode } = useColorMode();
   const previousModeRef = useRef(null);
   const pendingSourceRef = useRef('unknown');
 
@@ -58,46 +99,75 @@ function ColorModeSyncBridge() {
       if (!requestedMode) return;
       pendingSourceRef.current = event?.detail?.source || 'widget';
 
-      setColorMode(requestedMode);
+      requestColorModeChange(requestedMode);
     };
 
     window.addEventListener(REQUEST_COLOR_MODE_EVENT, onColorModeRequest);
     return () => {
       window.removeEventListener(REQUEST_COLOR_MODE_EVENT, onColorModeRequest);
     };
-  }, [setColorMode]);
+  }, []);
 
   useEffect(() => {
-    const effectiveMode = colorMode === 'dark' ? 'dark' : 'light';
-    const selectedMode = normalizeColorMode(colorModeChoice) || effectiveMode;
-    const previousMode = previousModeRef.current;
+    const emitColorModeEvent = () => {
+      const effectiveMode = getCurrentColorMode();
+      const selectedMode = getStoredColorMode() || effectiveMode;
+      const previousMode = previousModeRef.current;
 
-    window.dispatchEvent(
-      new CustomEvent(COLOR_MODE_CHANGED_EVENT, {
-        detail: {
-          mode: effectiveMode,
-          choice: selectedMode,
-        },
-      }),
-    );
+      if (previousMode === effectiveMode) {
+        pendingSourceRef.current = 'unknown';
+        return;
+      }
 
-    // Compatibilite avec le code existant du site (observateurs deja en place).
-    window.dispatchEvent(new Event('themechange'));
+      window.dispatchEvent(
+        new CustomEvent(COLOR_MODE_CHANGED_EVENT, {
+          detail: {
+            mode: effectiveMode,
+            choice: selectedMode,
+          },
+        }),
+      );
 
-    // Ignore la premiere passe (etat initial), puis suit seulement les activations.
-    if (previousMode === null) {
+      // Compatibility with existing site listeners.
+      window.dispatchEvent(new Event('themechange'));
+
+      if (previousMode !== null && effectiveMode === 'dark') {
+        trackDarkModeActivation(pendingSourceRef.current);
+      }
+
       previousModeRef.current = effectiveMode;
       pendingSourceRef.current = 'unknown';
-      return;
-    }
+    };
 
-    if (previousMode !== effectiveMode && effectiveMode === 'dark') {
-      trackDarkModeActivation(pendingSourceRef.current);
-    }
+    const observer = new MutationObserver((mutations) => {
+      const hasThemeMutation = mutations.some(
+        (mutation) =>
+          mutation.type === 'attributes' &&
+          mutation.attributeName === 'data-theme',
+      );
+      if (hasThemeMutation) {
+        emitColorModeEvent();
+      }
+    });
 
-    previousModeRef.current = effectiveMode;
-    pendingSourceRef.current = 'unknown';
-  }, [colorMode, colorModeChoice]);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
+
+    const onStorage = (event) => {
+      if (event?.key && event.key !== COLOR_MODE_STORAGE_KEY) return;
+      emitColorModeEvent();
+    };
+
+    window.addEventListener('storage', onStorage);
+    emitColorModeEvent();
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('storage', onStorage);
+    };
+  }, []);
 
   return null;
 }
