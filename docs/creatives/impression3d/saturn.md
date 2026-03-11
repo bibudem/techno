@@ -144,7 +144,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![Photo nettoyage_modele_elegoo_1] 
+![/img/docs/nettoyage_modele_elegoo_1.jpg] 
 
  
 
@@ -152,7 +152,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![Photo nettoyage_modele_elegoo_2] 
+![/img/docs/nettoyage_modele_elegoo_2.jpg2] 
 
  
 
@@ -160,7 +160,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![Photo nettoyage_modele_elegoo_5] 
+![/img/docs/nettoyage_modele_elegoo_5.jpg] 
 
  
 
@@ -168,11 +168,11 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![Photo nettoyage_modele_elegoo_7] 
+![/img/docs/nettoyage_modele_elegoo_7.jpg] 
 
  
 
-![Photo nettoyage_modele_elegoo_8] 
+![/img/docs/nettoyage_modele_elegoo_8.jpg] 
 
  
 
@@ -180,73 +180,50 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![Photo nettoyage_modele_elegoo_9] 
+![/img/docs/nettoyage_modele_elegoo_9.jpg] 
 
  
 
-![Photo nettoyage_modele_elegoo_10] 
+![/img/docs/nettoyage_modele_elegoo_10.jpg] 
 
  
 
-6) Ouvrir le bac de nettoyage  
+6) Ouvrir le bac de nettoyage
 
-7) Sortir la grille située à l'intérieur 
+![/img/docs/nettoyage_modele_elegoo_11.jpg] 
 
-8) Ydéposer les modèles à nettoyer à l'aide de la pince 
+8) Sortir la grille située à l'intérieur
 
-9) Replacer la grille dans la cuve  
+![/img/docs/nettoyage_modele_elegoo_12.jpg] 
 
-10) Remettre le couvercle 
+10) Y déposer les modèles à nettoyer à l'aide de la pince
 
-11) Appuyer sur le bouton et lancer le nettoyage de 3 minutes  
+![/img/docs/nettoyage_modele_elegoo_14.jpg]
 
- 
+12) Replacer la grille dans la cuve
 
-![Photo nettoyage_modele_elegoo_11] 
+![/img/docs/nettoyage_modele_elegoo_15.jpg] 
 
- 
+13) Remettre le couvercle 
 
-![Photo nettoyage_modele_elegoo_12] 
+14) Appuyer sur le bouton et lancer le nettoyage de 3 minutes  
 
- 
+![/img/docs/nettoyage_modele_elegoo_16.jpg]
 
-![Photo nettoyage_modele_elegoo_14] 
-
- 
-
-![Photo nettoyage_modele_elegoo_15] 
-
- 
-
-![Photo nettoyage_modele_elegoo_16] 
-
- 
 
 12) Sortir les modèle de la cuve de nettoyage  
 
- 
+![/img/docs/nettoyage_modele_elegoo_28.jpg] 
 
-![Photo nettoyage_modele_elegoo_28] 
-
- 
-
-![Photo nettoyage_modele_elegoo_29] 
-
- 
+![/img/docs/nettoyage_modele_elegoo_29.jpg] 
 
 13) Placer les modèles dans machine à UV pour 5 à 10 minutes (ensuite les laisser sécher sur le rebord d'une fenêtre au soleil) 
 
- 
+![/img/docs/nettoyage_modele_elegoo_31.jpg] 
 
-![Photo nettoyage_modele_elegoo_31] 
+![/img/docs/nettoyage_modele_elegoo_32.jpg2] 
 
- 
-
-![Photo nettoyage_modele_elegoo_32] 
-
- 
-
-![Photo nettoyage_modele_elegoo_33] 
+![/img/docs/nettoyage_modele_elegoo_33.jpg] 
 
 
 ## Nettoyage de l'Elegoo Saturn 3, ses accessoires et l'espace de travail 
