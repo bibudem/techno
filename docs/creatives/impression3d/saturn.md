@@ -11,7 +11,7 @@ L’avantage de l’impression à résine par rapport à l’impression avec des
 L'imprimante Elegoo Saturn 3 Ultra utilise des résines qui nécessitent une manipulation prudente. Un purificateur d'air est mis en place à côté en plus de la bonne ventilation assurée dans le laboratoire. Nous conseillons fortement les utilisateurs de porter masque, gants, lunettes et blouse de protection pour éviter tout contact cutané. 
 
  
-![Photo tenue] 
+![/img/docs/tenue.jpg] 
 
 :::warning
    Nous préconisons fortement de demander une formation lors de la première utilisation de l'imprimante à résine avec de s'assurer que les procédures de mise en place (5-10 minutes) et de nettoyage (20-30 minutes) seront comprises et appliquées lors de vos prochaines manipulations. 
@@ -32,7 +32,7 @@ La version basique de ce logiciel est gratuite, il n'est pas nécessaire de se c
 
  
 
-![static/img/docs/chitubox_3.jpg] 
+![/img/docs/chitubox_3.jpg] 
 
  
 
@@ -40,7 +40,7 @@ Une fois le logiciel ouvert cliquer sur **New project** dans le coin supérieur 
 
  
 
-![static/img/docs/chitubox_1.jpg] 
+![/img/docs/chitubox_1.jpg] 
 
  
 
@@ -48,7 +48,7 @@ Une page s'ouvre avec votre plateau et les différents onglets de préparation
 
  
 
-![static/img/docs/chitubox_2.jpg] 
+![/img/docs/chitubox_2.jpg] 
 
  
 
@@ -56,7 +56,7 @@ Glisser et déposer votre fichier .stl afin de voir apparaître votre modèle su
 
  
 
-![static/img/docs/chitubox_4.jpg] 
+![/img/docs/chitubox_4.jpg] 
 
  
 
@@ -68,11 +68,11 @@ Cliquer sur **Support** → **Auto support** → Régler les paramètres de supp
 
  
 
-![static/img/docs/chitubox_5.jpg] 
+![/img/docs/chitubox_5.jpg] 
 
  
 
-![static/img/docs/chitubox_6.jpg] 
+![/img/docs/chitubox_6.jpg] 
 
  
 
@@ -84,7 +84,7 @@ CLiquer sur **Export** → **Slice** → **Slice and Save** → sélectionner l'
 
  
 
-![static/img/docs/chitubox_7.jpg] 
+![/img/docs/chitubox_7.jpg] 
 
 
 ## Préparation de la machine à résine et lancer une impression  
@@ -93,65 +93,43 @@ CLiquer sur **Export** → **Slice** → **Slice and Save** → sélectionner l'
 
 Ouvrir imprimante  
 
+![/img/docs/prep_1.jpg] 
+
 S'assurer que le bac à résine est propre  
+
+![/img/docs/prep_2.jpg] 
 
 S'assurer que les vis fixant le bac sont bien serrées  
 
+![/img/docs/prep_5.jpg] 
+
 Secouer la bouteille de résine avec le bouchon fermé  
 
+![/img/docs/prep_3.jpg] 
+
 Ne pas dépasser le repère de hauteur max  
+
+![/img/docs/prep_6.jpg] 
 
 Refermer l'imprimante  
 
 Brancher la clé USB 
 
+![static/img/docs/prep_8.jpg] 
+
  Cliquer sur **Impression** → **fichier USB** → sélectionner le **modèle** dans la liste → Cliquer sur **Impression**  
+
+ ![/img/docs/prep_9.jpg] 
+
+![/img/docs/prep_10.jpg] 
+
+![/img/docs/prep_11.jpg] 
+
+![/img/docs/prep_12.jpg]
 
 L’impression est lancée. L’écran indique le % terminé et le temps restant 
 
- 
-
-![Photo prep_1] 
-
- 
-
-![Photo prep_2] 
-
- 
-
-![Photo prep_3] 
-
- 
-
-![Photo prep_5] 
-
- 
-
-![Photo prep_6] 
-
- 
-
-![Photo prep_8] 
-
- 
-
-![Photo prep_9] 
-
- 
-
-![Photo prep_10] 
-
- 
-
-![Photo prep_11] 
-
- 
-
-![Photo prep_12] 
-
- 
-
-![Photo prep_13] 
+![/img/docs/prep_13.jpg] 
 
 
 ## Fin de l'impression et nettoyage du modèle 
