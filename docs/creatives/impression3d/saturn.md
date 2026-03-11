@@ -238,11 +238,11 @@ Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes e
 
  
 
-![Photo nettoyage_imprimante_elegoo_18] 
+![/img/docs/nettoyage_imprimante_elegoo_18.jpg] 
 
  
 
-![Photo nettoyage_imprimante_elegoo_20] 
+![/img/docs/nettoyage_imprimante_elegoo_20.jpg] 
 
  
 
@@ -250,11 +250,11 @@ Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes e
 
  
 
-![Photo nettoyage_imprimante_elegoo_21] 
+![/img/docs/nettoyage_imprimante_elegoo_21.jpg] 
 
  
 
-![Photo nettoyage_imprimante_elegoo_22] 
+![/img/docs/nettoyage_imprimante_elegoo_22.jpg] 
 
  
 
@@ -271,32 +271,31 @@ Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes e
 
  
 
-![Photo nettoyage_modele_elegoo_24] 
+![/img/docs/nettoyage_imprimante_elegoo_24.jpg] 
 
  
 
 6) Vider le surplus restant de résine non utilisée lors de l’impression délicatement dans sa bouteille d’origine en le passant dans un filtre.  
 
-![Photo nettoyage_modele_elegoo_25] 
+![/img/docs/nettoyage_imprimante_elegoo_25.jpg] 
 
-![Photo nettoyage_modele_elegoo_26] 
+![/img/docs/nettoyage_imprimante_elegoo_26.jpg] 
 
  
-
 7) Laisser le support à résine s’égoutter au-dessus de la bouteille avec le système prévu à cet effet. Vous pouvez utiliser délicatement la raclette pour rassembler le surplus. Attention de ne pas percer le support en film plastique lors de cette étape. 
 
-![Photo nettoyage_modele_elegoo_27] 
+![/img/docs/nettoyage_imprimante_elegoo_27.jpg] 
 
-![Photo nettoyage_modele_elegoo_28] 
+![/img/docs/nettoyage_imprimante_elegoo_28.jpg] 
 
  
 
 8) Déposer le support égoutté sur le tapis propre sur le chariot. Utiliser le spray à alcool pour en déposer sur tout la surface du support. Utiliser un chiffon propre pour retirer les dernières traces de résine. 
  
 
-![Photo nettoyage_modele_elegoo_29] 
+![/img/docs/nettoyage_imprimante_elegoo_29.jpg] 
 
-![Photo nettoyage_modele_elegoo_30] 
+![/img/docs/nettoyage_imprimante_elegoo_30.jpg] 
 
  
 9) Revisser le récipient à résine propre sur son emplacement d’origine pour la personne suivante 
