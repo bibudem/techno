@@ -39,14 +39,14 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       description: "Imprimez vos documents depuis les ordinateurs publics ou votre appareil.",
       link: "impression",
       icon : "Printer",
-      image: "/img/cover/numeriseur.webp",
+      image: "/img/cover/imprimantesium.webp",
     },
     {
       title: "Numérisation",
       description: "Scannez vos documents et envoyez-les directement par courriel.",
       link: "numerisation",
       icon : "Scan",
-      image: "/img/cover/czur.webp",
+      image: "/img/cover/numeriseur.webp",
     },
     {
       title: "Ordinateurs",
