@@ -2,7 +2,7 @@
 
 ---
 
-# Elegoo Saturn 3 Ultra 12K
+# Imprimante à résine Elegoo Saturn 3 Ultra 12K
 
 ## Présentation
 
@@ -20,104 +20,328 @@
 
 [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd), Atelier de fabrication, 2<sup>e</sup> étage.
 
-## Découpe avec Chitubox
+## Préparation de votre modèle avec CHITUBOX 
 
-Chitubox Basic est un logiciel gratuit d'impression 3D conçu pour simplifier le processus de préparation des modèles avant l'impression. Il vous permet de découper et de convertir facilement des fichiers 3D en fichiers imprimables.
+ 
 
-### Ajout de l'imprimante
+Télécharger la version basique du logiciel [CHITUBOX](https://www.google.com/aclk?sa=L&ai=DChsSEwjBv8CQ2sSQAxW9aEcBHTWRFhYYACICCAEQABoCcXU&co=1&ase=2&gclid=Cj0KCQjwsPzHBhDCARIsALlWNG3GpgkgDDfnslueZqbqmnnll7-_WXi9I6aLRlGC449ELmYAv1AZe3AaAjq8EALw_wcB&cid=CAASmAHkaAFQzO_4d96pIiyW1wca0Mnv8zH5NXLZEjdWGoTqWsixetcAQNy6t9qyCdFPVr6AYPOPRUsqruGcCjUcgdVtZT7Oa4AMf55NiHv5T7cAFkS0JrhNXVINpQY0xjF9c6aH-SVczNLZdw-oErFsdka4kRyjEuE781C9thte1vehUw1LJLKj_SomqFDhM0JEg47zyTYS9xraQA&cce=2&category=acrcp_v1_32&sig=AOD64_3XzBLMCt_zRkcjkEPm3eN1ZOxPcQ&q&nis=4&adurl&ved=2ahUKEwj_mbmQ2sSQAxUzKVkFHWCJAkYQ0Qx6BAgMEAE) 
 
-Si ce n’est pas déjà fait, vous devriez ajouter l'imprimante. Cliquer sur le bouton **Ajouter** sur la barre de gestion de la machine, et sélectionner **ELEGOO Saturn Ultra** dans la liste.
+ 
 
-![](/img/docs/chitubox-1.webp)
+La version basique de ce logiciel est gratuite, il n'est pas nécessaire de se créer un compte/s'identifier 
 
-### Importation du modèle
+ 
 
-Vous pouvez facilement importer des fichiers existants dans Chitubox en utilisant la fenêtre de dialogue ou la fonction de glisser-déposer. 
+![Photo Chitubox_3] 
 
-1. Cliquer sur le bouton de menu situé dans le coin supérieur gauche de la fenêtre principale.
-2. Choisir l'option **Projet ouvert** si vous souhaitez charger un projet existant. Si vous préférez ouvrir un fichier maillé 3D, sélectionner **Ouvert...**.
-3. Parcourir vos fichiers pour trouver le fichier 3D que vous souhaitez importer.
+ 
 
-Pour connaître les types de fichiers 3D pris en charge, [consultez le manuel Chitubox](https://docs.chitubox.com/en-US/chitubox-basic/latest/introduction).
+Une fois le logiciel ouvert cliquer sur **New project** dans le coin supérieur gauche de l'écran 
 
-### Ajout de supports
+ 
 
-Les supports sont des structures temporaires qui aident à maintenir les parties du modèle en place pendant l'impression.
-Il est peu probable que le modèle puisse être imprimé avec succès sans l'ajout de supports. Dans notre exemple, il ne présente qu'un seul point de contact sur la plaque de construction, ce qui le rend instable, étant donné que son centre de gravité se situe au-dessus de ce point. Pour remédier à cette situation, vous pouvez cliquer sur l'icône de support située en haut à droite de la fenêtre principale afin d'accéder à la fenêtre de gestion des supports. 
+![Photo Chitubox_1] 
 
-![](/img/docs/chitubox-2.webp)
+ 
 
-Pour plus de simplicité, vous pouvez choisir de générer du support automatiquement. Cliquer sur le bouton **Soutien automatique** (*Auto support*).
+Une page s'ouvre avec votre plateau et les différents onglets de préparation 
 
-![](/img/docs/chitubox-3.webp)
+ 
 
-### Découpe du modèle
+![Photo Chitubox_2] 
 
-Pour retourner à la fenêtre principale, cliquer sur le bouton de configuration du fichier situé dans le coin supérieur droit.
+ 
 
-![](/img/docs/chitubox-4.webp)
+Glisser et déposer votre fichier .stl afin de voir apparaître votre modèle sur le plateau 
 
-Appuyer ensuite sur le bouton **Trancher** situé dans le coin inférieur droit pour découper le modèle. Cette opération prendra un certain temps en fonction de la taille et de la complexité du modèle, ainsi que des supports. Elle permet de convertir le fichier 3D en un fichier imprimable compatible avec l'imprimante.
+ 
 
-### Prévisualisation de la découpe
+![Photo Chitubox_4] 
 
-Après avoir découpé le modèle, vous pouvez visualiser celui-ci dans la fenêtre de prévisualisation. Cette fenêtre se compose de deux parties : à gauche, vous avez un aperçu du modèle, à droite, vous pouvez voir les différentes couches.
+ 
 
-En bas de la fenêtre de prévisualisation, vous trouverez le panneau des paramètres d'impression, qui affiche les réglages actuels pour l'impression du modèle. Vous avez la possibilité d'ajuster ces paramètres avant de sauvegarder le modèle tranché.
+Supports pour éviter de coller à la plaque directement  
 
-Dans le coin supérieur droit de la fenêtre de prévisualisation, vous trouverez des informations relatives à l'impression, telles que le type de machine, la résine utilisée, le volume, le poids, le coût et le temps d'impression.
+ 
 
-### Sauvegarde du modèle tranché
+Cliquer sur **Support** → **Auto support** → Régler les paramètres de supports → cliquer sur **Apply** 
 
-Finalisez en cliquant sur le bouton **Enregistrer** situé dans le coin inférieur droit pour ouvrir la fenêtre de sauvegarde.
+ 
 
-:::warning Attention
-Il est fortement recommandé d'enregistrer le modèle tranché sur l'ordinateur avant de le transférer sur une clé USB.
-:::
+![Photo Chitubox_5] 
 
-## Première impression
+ 
 
-### Avant de commencer
+![Photo Chitubox_6] 
 
-- N'oubliez pas de porter des gants et un masque lorsque vous manipulez la résine.
-- Nettoyez l'imprimante régulièrement pour garantir son bon fonctionnement.
-- Consultez le manuel d'utilisation ou un membre du personnel des bibliothèques pour obtenir des instructions plus détaillées.
-- Préparez votre espace de travail :
-    - Assurez-vous qu'il y a suffisamment d'espace autour de l'imprimante pour la ventilation et l'accès.
-    - La température ambiante optimale se situe entre 20°C et 30°C.
+ 
 
-### Préparation de l'impression
+Une fois le modèle prêt il faut le découper et l'exporter vers une clé USB 
 
-1. Choisir votre résine :
-    - Utiliser la résine Elegoo résine 8K, mais d'autres résines compatibles peuvent également être utilisées si besoin.
-    - Consulter un membre du personnel TGD pour accéder aux bouteilles de résine dans l’armoire, si jamais il n’en reste plus.
-    - Il faut bien secouer et mélanger la résine dans la bouteille avant de l’utiliser.
-2. Verser la résine dans le bac:
-    - Verser la résine délicatement dans le bac jusqu’à la hauteur maximale indiquée dans le bac.
-3. Préparez votre fichier d'impression:
-    - Utiliser un logiciel de modélisation 3D pour créer votre modèle 3D ou importer votre modèle sur votre ordinateur.
-    - Exporter votre modèle au format STL ou Chitubox.
-    - Télécharger et installer Chitubox sur votre ordinateur ou utiliser le logiciel Chitubox déjà installé sur nos postes pour trancher votre modèle et générer les fichiers d'impression.
+ 
 
-### Transfert des fichiers d'impression à l'imprimante
+CLiquer sur **Export** → **Slice** → **Slice and Save** → sélectionner l'emplacement de la clé USB dans l'explorateur de fichier 
 
-- Connecter la clé USB jaune Saturn à l’ordinateur et copier les fichiers d'impression dessus.
-- Insérer la clé USB dans le port USB de l'imprimante.
+ 
 
-### Début de l'impression
+![Photo Chitubox_7] 
 
-1. Allumer l'imprimante et sélectionnez l'option d'impression à partir du menu.
-2. Choisisser le fichier d'impression que vous souhaitez lancer.
-3. Confirmer les paramètres d'impression, tels que la résolution, la vitesse d'impression et le nombre de couches. Normalement c’est déjà configuré par défaut.
-4. Appuyer sur le bouton **Démarrer** pour lancer l'impression.
 
-### Suivi de l'impression
+## Préparation de la machine à résine et lancer une impression  
 
-Surveiller l'état de l'impression à partir de l'écran LCD de l'imprimante.
+ 
 
-### Fin de l'impression
+Ouvrir imprimante  
 
-1. Lorsque l'impression est terminée, l'imprimante émet un signal sonore.
-2. Retirer le plateau d'impression de l'imprimante.
-3. Retirer délicatement l'objet imprimé du plateau.
-4. Nettoyer le plateau d'impression et le bac à résine.
+S'assurer que le bac à résine est propre  
+
+S'assurer que les vis fixant le bac sont bien serrées  
+
+Secouer la bouteille de résine avec le bouchon fermé  
+
+Ne pas dépasser le repère de hauteur max  
+
+Refermer l'imprimante  
+
+Brancher la clé USB 
+
+ Cliquer sur **Impression** → **fichier USB** → sélectionner le **modèle** dans la liste → Cliquer sur **Impression**  
+
+L’impression est lancée. L’écran indique le % terminé et le temps restant 
+
+ 
+
+![Photo prep_1] 
+
+ 
+
+![Photo prep_2] 
+
+ 
+
+![Photo prep_3] 
+
+ 
+
+![Photo prep_5] 
+
+ 
+
+![Photo prep_6] 
+
+ 
+
+![Photo prep_8] 
+
+ 
+
+![Photo prep_9] 
+
+ 
+
+![Photo prep_10] 
+
+ 
+
+![Photo prep_11] 
+
+ 
+
+![Photo prep_12] 
+
+ 
+
+![Photo prep_13] 
+
+
+## Fin de l'impression et nettoyage du modèle 
+
+ 
+
+Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé : 
+
+ 
+
+1) A l'aide de la raclette, faire tomber dans le bac à résine le surplus de résine situé au dessus du support  
+
+ 
+
+![Photo nettoyage_modele_elegoo_1] 
+
+ 
+
+2) Dévisser légèrement la vis qui fixe le support (pas complètement sinon le support tombe) 
+
+ 
+
+![Photo nettoyage_modele_elegoo_2] 
+
+ 
+
+3) Saisir et tirer vers vous le support afin de le retirer de son axe 
+
+ 
+
+![Photo nettoyage_modele_elegoo_5] 
+
+ 
+
+4) Déposer le support avec le modèle collé dessus sur le chariot à l'emplacement prévu à cet effet 
+
+ 
+
+![Photo nettoyage_modele_elegoo_7] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_8] 
+
+ 
+
+5) Avec la raclette détacher du support les modèles 
+
+ 
+
+![Photo nettoyage_modele_elegoo_9] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_10] 
+
+ 
+
+6) Ouvrir le bac de nettoyage  
+
+7) Sortir la grille située à l'intérieur 
+
+8) Ydéposer les modèles à nettoyer à l'aide de la pince 
+
+9) Replacer la grille dans la cuve  
+
+10) Remettre le couvercle 
+
+11) Appuyer sur le bouton et lancer le nettoyage de 3 minutes  
+
+ 
+
+![Photo nettoyage_modele_elegoo_11] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_12] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_14] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_15] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_16] 
+
+ 
+
+12) Sortir les modèle de la cuve de nettoyage  
+
+ 
+
+![Photo nettoyage_modele_elegoo_28] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_29] 
+
+ 
+
+13) Placer les modèles dans machine à UV pour 5 à 10 minutes (ensuite les laisser sécher sur le rebord d'une fenêtre au soleil) 
+
+ 
+
+![Photo nettoyage_modele_elegoo_31] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_32] 
+
+ 
+
+![Photo nettoyage_modele_elegoo_33] 
+
+
+## Nettoyage de l'Elegoo Saturn 3, ses accessoires et l'espace de travail 
+
+ 
+
+Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes en papier propres pour gagner du temps. Si vous êtes au moins deux, la seconde personne peut simplement vous donner les serviettes au fur et à mesure. 
+
+ 
+
+1) Nettoyer le support avec du papier et de l'alcool 
+
+ 
+
+![Photo nettoyage_imprimante_elegoo_18] 
+
+ 
+
+![Photo nettoyage_imprimante_elegoo_20] 
+
+ 
+
+2) Jeter le surplus de résine solide dans le bac prévu à cet effet 
+
+ 
+
+![Photo nettoyage_imprimante_elegoo_21] 
+
+ 
+
+![Photo nettoyage_imprimante_elegoo_22] 
+
+ 
+
+3) Replacer le support propre sur son axe et resserrer la vis  
+
+ 
+
+4) Préparer le support pour remettre la résine non utilisée dans sa bouteille d'origine : 
+
+ 
+ 
+
+5) Dévisser les deux vis qui fixent le bac à résine à l'imprimante 
+
+ 
+
+![Photo nettoyage_modele_elegoo_24] 
+
+ 
+
+6) Vider le surplus restant de résine non utilisée lors de l’impression délicatement dans sa bouteille d’origine en le passant dans un filtre.  
+
+![Photo nettoyage_modele_elegoo_25] 
+
+![Photo nettoyage_modele_elegoo_26] 
+
+ 
+
+7) Laisser le support à résine s’égoutter au-dessus de la bouteille avec le système prévu à cet effet. Vous pouvez utiliser délicatement la raclette pour rassembler le surplus. Attention de ne pas percer le support en film plastique lors de cette étape. 
+
+![Photo nettoyage_modele_elegoo_27] 
+
+![Photo nettoyage_modele_elegoo_28] 
+
+ 
+
+8) Déposer le support égoutté sur le tapis propre sur le chariot. Utiliser le spray à alcool pour en déposer sur tout la surface du support. Utiliser un chiffon propre pour retirer les dernières traces de résine. 
+ 
+
+![Photo nettoyage_modele_elegoo_29] 
+
+![Photo nettoyage_modele_elegoo_30] 
+
+ 
+9) Revisser le récipient à résine propre sur son emplacement d’origine pour la personne suivante 
