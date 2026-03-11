@@ -4,25 +4,23 @@
 
 # Imprimante à résine Elegoo Saturn 3 Ultra 12K
 
-## Présentation
+L’impression à résine de la bibliothèque Thérèse-Gouin-Décarie utilise des résines photopolymères végétales à base de soja et la technologie de source de lumière COB + réfractive pour une précision maximale. La source de lumière COB (Chip on Board) est une technologie LED avancée où plusieurs puces forment un seul module compact et très lumineux. Elle offre une lumière uniforme, précise et intense. 
 
-| Elegoo Saturn 3 Ultra 12K||
-|-----|-----|
-|Écran LCD|	LCD Mono 12K de 10 pouces|
-|Logiciel de découpe| CHITUBOX & Voxeldance Tango|
-|Technologie| Stéréolithographie MSLA|
-|Épaisseur de couche| 0,01 - 0,2mm|
-|Vitesse d'impression| MAX 150mm/h|
-|Volume de construction| 218,88mm (L) * 122,88mm (l) * 260mm (H)|
-|Dimensions de l'imprimante| 305,9mm (L) * 273mm (l) * 562,5mm (H)|
+L’avantage de l’impression à résine par rapport à l’impression avec des filaments réside dans sa grande précision. On peut imprimer des petites pièces avec beaucoup de détails mais l’impression demande plus de temps. 
+
+L'imprimante Elegoo Saturn 3 Ultra utilise des résines qui nécessitent une manipulation prudente. Un purificateur d'air est mis en place à côté en plus de la bonne ventilation assurée dans le laboratoire. Nous conseillons fortement les utilisateurs de porter masque, gants, lunettes et blouse de protection pour éviter tout contact cutané. 
+
+ 
+![Photo tenue] 
+
+:::caution Nous préconisons fortement de demander une formation lors de la première utilisation de l'imprimante à résine avec de s'assurer que les procédures de mise en place (5-10 minutes) et de nettoyage (20-30 minutes) seront comprises et appliquées lors de vos prochaines manipulations. 
 
 ### Localisation
 
 [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd), Atelier de fabrication, 2<sup>e</sup> étage.
 
-## Préparation de votre modèle avec CHITUBOX 
 
- 
+## Préparation de votre modèle avec CHITUBOX 
 
 Télécharger la version basique du logiciel [CHITUBOX](https://www.google.com/aclk?sa=L&ai=DChsSEwjBv8CQ2sSQAxW9aEcBHTWRFhYYACICCAEQABoCcXU&co=1&ase=2&gclid=Cj0KCQjwsPzHBhDCARIsALlWNG3GpgkgDDfnslueZqbqmnnll7-_WXi9I6aLRlGC449ELmYAv1AZe3AaAjq8EALw_wcB&cid=CAASmAHkaAFQzO_4d96pIiyW1wca0Mnv8zH5NXLZEjdWGoTqWsixetcAQNy6t9qyCdFPVr6AYPOPRUsqruGcCjUcgdVtZT7Oa4AMf55NiHv5T7cAFkS0JrhNXVINpQY0xjF9c6aH-SVczNLZdw-oErFsdka4kRyjEuE781C9thte1vehUw1LJLKj_SomqFDhM0JEg47zyTYS9xraQA&cce=2&category=acrcp_v1_32&sig=AOD64_3XzBLMCt_zRkcjkEPm3eN1ZOxPcQ&q&nis=4&adurl&ved=2ahUKEwj_mbmQ2sSQAxUzKVkFHWCJAkYQ0Qx6BAgMEAE) 
 
