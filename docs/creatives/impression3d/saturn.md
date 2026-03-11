@@ -30,7 +30,7 @@ La version basique de ce logiciel est gratuite, il n'est pas nécessaire de se c
 
  
 
-![Photo Chitubox_3] 
+![static/img/docs/chitubox_3.jpg] 
 
  
 
@@ -38,7 +38,7 @@ Une fois le logiciel ouvert cliquer sur **New project** dans le coin supérieur 
 
  
 
-![Photo Chitubox_1] 
+![static/img/docs/chitubox_1.jpg] 
 
  
 
@@ -46,7 +46,7 @@ Une page s'ouvre avec votre plateau et les différents onglets de préparation
 
  
 
-![Photo Chitubox_2] 
+![static/img/docs/chitubox_2.jpg] 
 
  
 
@@ -54,7 +54,7 @@ Glisser et déposer votre fichier .stl afin de voir apparaître votre modèle su
 
  
 
-![Photo Chitubox_4] 
+![static/img/docs/chitubox_4.jpg] 
 
  
 
@@ -66,11 +66,11 @@ Cliquer sur **Support** → **Auto support** → Régler les paramètres de supp
 
  
 
-![Photo Chitubox_5] 
+![static/img/docs/chitubox_5.jpg] 
 
  
 
-![Photo Chitubox_6] 
+![static/img/docs/chitubox_6.jpg] 
 
  
 
@@ -82,7 +82,7 @@ CLiquer sur **Export** → **Slice** → **Slice and Save** → sélectionner l'
 
  
 
-![Photo Chitubox_7] 
+![static/img/docs/chitubox_7.jpg] 
 
 
 ## Préparation de la machine à résine et lancer une impression  
