@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import Link from "@docusaurus/Link";
 import styles from "./studioBaladoVideo.module.css";
 
+// Interrupteur temporaire: remettre a false pour reactiver le bloc "Prochaine disponibilite".
+const TEMP_DISABLE_NEXT_AVAILABILITY = true;
+
 const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
 
 function getLinkProps(link) {
@@ -37,6 +40,10 @@ export default function StudioBaladoVideo({ reserveLink, reserveText = "Réserve
   const [error, setError] = useState(false);
 
   useEffect(() => {
+    if (TEMP_DISABLE_NEXT_AVAILABILITY) {
+      return;
+    }
+
     const url = "https://ordo.bib.umontreal.ca/webhook/api/studio-balado-video";
 
     fetch(url, { cache: "no-store" })
@@ -57,6 +64,10 @@ export default function StudioBaladoVideo({ reserveLink, reserveText = "Réserve
       {reserveText}
     </Link>
   ) : null;
+
+  if (TEMP_DISABLE_NEXT_AVAILABILITY) {
+    return reserveButton;
+  }
 
   if (error) {
     return (
