@@ -14,6 +14,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 
 - Avoir ses [informations d'authentification](../authentification).
 - Avoir une version à jour de [Microsoft Office 365](office).
+- Un système d’exploitation compatible (macOS 11+, Windows 10 ou 11)
 - Important : **avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé**.
 - S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
 - Ne **pas** utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un).
@@ -28,7 +29,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 
 1. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
-3. Sélectionner **EndNote 2025 (Windows)** dans La liste des logiciels autorisés.
+3. Sélectionner **EndNote 2025.2 (Windows)** dans La liste des logiciels autorisés.
 4. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
 5. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
 
@@ -47,21 +48,20 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 
 1. Avec **Safari**, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
-3. Sélectionner EndNote 2025 (macOS) dans La liste des logiciels autorisés.
+3. Sélectionner **EndNote 2025.2 (macOS)** dans La liste des logiciels autorisés.
 4. Lire les informations à l’écran et cliquer **Valider** → **Suivant**.
 5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite **Installation du logiciel**.
 6. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
 
-:::note IMPORTANT : Si un message d’erreur s’affiche 
+:::note IMPORTANT : Si un message d’erreur Impossible d’ouvrir sous macOS s’affiche 
 
-Message d’erreur Impossible d’ouvrir sous macOS :
-Cliquer **menu Pomme** → **Préférences Système** (ou **Réglages système**) → **Confidentialité & sécurité** → **Ouvrir quand même**
+Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécurité** → **Ouvrir quand même**
 :::
 
 7. Seulement si une une fenêtre s’ouvre ```Would you like to overwrite the EndNote X9 at /Applications/EndNote X9 ?```, Cocher ***Yes*** pour écraser la version antérieure.
-8. Seulement si ce message s’affiche : ```This library was created using an earlier version of EndNote and needs to be converted for use with this version of EndNote…```, Cliquer sur ***Yes*** pour créer une version convertie de votre base de données EndNote (pour une première installation d’EndNote, cliquer aussi sur ***Yes*** pour générer une première base de données dans le bon format). La version originale sera conservée et pourra être utilisée avec EndNoteX9.2 et moins. La version convertie pourra être utilisée uniquement avec EndNote X9.3 et plus.
-9. Seulement si vous avez eu les deux messages des points 7 et 8 : Renommer votre version convertie pour la distinguer de la version originale, par exemple : ```bd-convertie```. Votre base de données convertie s’ouvrira dans EndNote 20.
-10.  Si le logiciel est installé pour la première fois, lors de la première ouverture du logiciel il sera alors nécessaire de créer une nouvelle librairie en cliquant : ***File*** → ***New*** → ***Save***.
+8. Seulement si ce message s’affiche : ```This library was created using an earlier version of EndNote and needs to be converted for use with this version of EndNote…```, Cliquer  ***Yes*** pour créer une version convertie de votre base de données EndNote (pour une première installation d’EndNote, cliquer aussi ***Yes*** pour générer une première base de données dans le bon format). La version originale sera conservée et pourra être utilisée avec EndNoteX9.2 et moins. La version convertie pourra être utilisée uniquement avec EndNote X9.3 et plus.
+9. Seulement si vous avez eu les deux messages des points 7 et 8 : Renommer votre version convertie pour la distinguer de la version originale, par exemple : ```bd-convertie```. Votre base de données convertie s’ouvrira dans EndNote 2025.
+10.   Si le logiciel est installé pour la première fois, lors de la première ouverture du logiciel il sera alors nécessaire de créer une nouvelle librairie en cliquant : ***File*** → ***New*** → ***Save***.
 
 </TabItem>
 </Tabs>
