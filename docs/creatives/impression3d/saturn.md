@@ -115,7 +115,7 @@ Refermer l'imprimante
 
 Brancher la clé USB 
 
-![](static/img/docs/prep_8.jpg)
+![](/img/docs/prep_8.jpg)
 
  Cliquer sur **Impression** → **fichier USB** → sélectionner le **modèle** dans la liste → Cliquer sur **Impression**  
 
@@ -152,7 +152,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_2.jpg2)
+![](/img/docs/nettoyage_modele_elegoo_2.jpg)
 
  
 
@@ -221,7 +221,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
 ![](/img/docs/nettoyage_modele_elegoo_31.jpg)
 
-![](/img/docs/nettoyage_modele_elegoo_32.jpg2)
+![](/img/docs/nettoyage_modele_elegoo_32.jpg)
 
 ![](/img/docs/nettoyage_modele_elegoo_33.jpg)
 
