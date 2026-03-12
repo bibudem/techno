@@ -11,7 +11,7 @@ L’avantage de l’impression à résine par rapport à l’impression avec des
 L'imprimante Elegoo Saturn 3 Ultra utilise des résines qui nécessitent une manipulation prudente. Un purificateur d'air est mis en place à côté en plus de la bonne ventilation assurée dans le laboratoire. Nous conseillons fortement les utilisateurs de porter masque, gants, lunettes et blouse de protection pour éviter tout contact cutané. 
 
  
-![](/img/docs/tenue.jpg)
+![](/img/docs/tenue.webp)
 
 :::warning
    Nous préconisons fortement de demander une formation lors de la première utilisation de l'imprimante à résine avec de s'assurer que les procédures de mise en place (5-10 minutes) et de nettoyage (20-30 minutes) seront comprises et appliquées lors de vos prochaines manipulations. 
@@ -32,7 +32,7 @@ La version basique de ce logiciel est gratuite, il n'est pas nécessaire de se c
 
  
 
-![](/img/docs/chitubox_3.jpg)
+![](/img/docs/chitubox_3.webp)
 
  
 
@@ -40,7 +40,7 @@ Une fois le logiciel ouvert cliquer sur **New project** dans le coin supérieur 
 
  
 
-![](/img/docs/chitubox_1.jpg)
+![](/img/docs/chitubox_1.webp)
 
  
 
@@ -48,7 +48,7 @@ Une page s'ouvre avec votre plateau et les différents onglets de préparation
 
  
 
-![](/img/docs/chitubox_2.jpg)
+![](/img/docs/chitubox_2.webp)
 
  
 
@@ -56,7 +56,7 @@ Glisser et déposer votre fichier .stl afin de voir apparaître votre modèle su
 
  
 
-![](/img/docs/chitubox_4.jpg)
+![](/img/docs/chitubox_4.webp)
 
  
 
@@ -68,11 +68,11 @@ Cliquer sur **Support** → **Auto support** → Régler les paramètres de supp
 
  
 
-![](/img/docs/chitubox_5.jpg)
+![](/img/docs/chitubox_5.webp)
 
  
 
-![](/img/docs/chitubox_6.jpg)
+![](/img/docs/chitubox_6.webp)
 
  
 
@@ -84,7 +84,7 @@ CLiquer sur **Export** → **Slice** → **Slice and Save** → sélectionner l'
 
  
 
-![](/img/docs/chitubox_7.jpg)
+![](/img/docs/chitubox_7.webp)
 
 
 ## Préparation de la machine à résine et lancer une impression  
@@ -93,43 +93,43 @@ CLiquer sur **Export** → **Slice** → **Slice and Save** → sélectionner l'
 
 Ouvrir imprimante  
 
-![](/img/docs/prep_1.jpg)
+![](/img/docs/prep_1.webp)
 
 S'assurer que le bac à résine est propre  
 
-![](/img/docs/prep_2.jpg)
+![](/img/docs/prep_2.webp)
 
 S'assurer que les vis fixant le bac sont bien serrées  
 
-![](/img/docs/prep_5.jpg)
+![](/img/docs/prep_5.webp)
 
 Secouer la bouteille de résine avec le bouchon fermé  
 
-![](/img/docs/prep_3.jpg)
+![](/img/docs/prep_3.webp)
 
 Ne pas dépasser le repère de hauteur max  
 
-![](/img/docs/prep_6.jpg)
+![](/img/docs/prep_6.webp)
 
 Refermer l'imprimante  
 
 Brancher la clé USB 
 
-![](/img/docs/prep_8.jpg)
+![](/img/docs/prep_8.webp)
 
  Cliquer sur **Impression** → **fichier USB** → sélectionner le **modèle** dans la liste → Cliquer sur **Impression**  
 
-![](/img/docs/prep_9.jpg)
+![](/img/docs/prep_9.webp)
 
-![](/img/docs/prep_10.jpg)
+![](/img/docs/prep_10.webp)
 
-![](/img/docs/prep_11.jpg)
+![](/img/docs/prep_11.webp)
 
-![](/img/docs/prep_12.jpg)
+![](/img/docs/prep_12.webp)
 
 L’impression est lancée. L’écran indique le % terminé et le temps restant 
 
-![](/img/docs/prep_13.jpg)
+![](/img/docs/prep_13.webp)
 
 
 ## Fin de l'impression et nettoyage du modèle 
@@ -144,7 +144,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_1.jpg)
+![](/img/docs/nettoyage_modele_elegoo_1.webp)
 
  
 
@@ -152,7 +152,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_2.jpg)
+![](/img/docs/nettoyage_modele_elegoo_2.webp)
 
  
 
@@ -160,7 +160,7 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_5.jpg)
+![](/img/docs/nettoyage_modele_elegoo_5.webp)
 
  
 
@@ -168,11 +168,11 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_7.jpg)
+![](/img/docs/nettoyage_modele_elegoo_7.webp)
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_8.jpg)
+![](/img/docs/nettoyage_modele_elegoo_8.webp)
 
  
 
@@ -180,50 +180,50 @@ Une fois l'impression terminée il faut défaire et nettoyer le modèle imprimé
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_9.jpg)
+![](/img/docs/nettoyage_modele_elegoo_9.webp)
 
  
 
-![](/img/docs/nettoyage_modele_elegoo_10.jpg)
+![](/img/docs/nettoyage_modele_elegoo_10.webp)
 
  
 
 6) Ouvrir le bac de nettoyage
 
-![](/img/docs/nettoyage_modele_elegoo_11.jpg)
+![](/img/docs/nettoyage_modele_elegoo_11.webp)
 
 8) Sortir la grille située à l'intérieur
 
-![](/img/docs/nettoyage_modele_elegoo_12.jpg)
+![](/img/docs/nettoyage_modele_elegoo_12.webp)
 
 10) Y déposer les modèles à nettoyer à l'aide de la pince
 
-![](/img/docs/nettoyage_modele_elegoo_14.jpg)
+![](/img/docs/nettoyage_modele_elegoo_14.webp)
 
 12) Replacer la grille dans la cuve
 
-![](/img/docs/nettoyage_modele_elegoo_15.jpg)
+![](/img/docs/nettoyage_modele_elegoo_15.webp)
 
 13) Remettre le couvercle 
 
 14) Appuyer sur le bouton et lancer le nettoyage de 3 minutes  
 
-![](/img/docs/nettoyage_modele_elegoo_16.jpg)
+![](/img/docs/nettoyage_modele_elegoo_16.webp)
 
 
 12) Sortir les modèle de la cuve de nettoyage  
 
-![](/img/docs/nettoyage_modele_elegoo_28.jpg)
+![](/img/docs/nettoyage_modele_elegoo_28.webp)
 
-![](/img/docs/nettoyage_modele_elegoo_29.jpg)
+![](/img/docs/nettoyage_modele_elegoo_29.webp)
 
 13) Placer les modèles dans machine à UV pour 5 à 10 minutes (ensuite les laisser sécher sur le rebord d'une fenêtre au soleil) 
 
-![](/img/docs/nettoyage_modele_elegoo_31.jpg)
+![](/img/docs/nettoyage_modele_elegoo_31.webp)
 
-![](/img/docs/nettoyage_modele_elegoo_32.jpg)
+![](/img/docs/nettoyage_modele_elegoo_32.webp)
 
-![](/img/docs/nettoyage_modele_elegoo_33.jpg)
+![](/img/docs/nettoyage_modele_elegoo_33.webp)
 
 
 ## Nettoyage de l'Elegoo Saturn 3, ses accessoires et l'espace de travail 
@@ -238,11 +238,11 @@ Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes e
 
  
 
-![](/img/docs/nettoyage_imprimante_elegoo_18.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_18.webp)
 
  
 
-![](/img/docs/nettoyage_imprimante_elegoo_20.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_20.webp)
 
  
 
@@ -250,11 +250,11 @@ Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes e
 
  
 
-![](/img/docs/nettoyage_imprimante_elegoo_21.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_21.webp)
 
  
 
-![](/img/docs/nettoyage_imprimante_elegoo_22.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_22.webp)
 
  
 
@@ -271,31 +271,31 @@ Si vous faites le nettoyage seul, préparez à l’avance un tas de serviettes e
 
  
 
-![](/img/docs/nettoyage_imprimante_elegoo_24.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_24.webp)
 
  
 
 6) Vider le surplus restant de résine non utilisée lors de l’impression délicatement dans sa bouteille d’origine en le passant dans un filtre.  
 
-![](/img/docs/nettoyage_imprimante_elegoo_25.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_25.webp)
 
-![](/img/docs/nettoyage_imprimante_elegoo_26.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_26.webp)
 
  
 7) Laisser le support à résine s’égoutter au-dessus de la bouteille avec le système prévu à cet effet. Vous pouvez utiliser délicatement la raclette pour rassembler le surplus. Attention de ne pas percer le support en film plastique lors de cette étape. 
 
-![](/img/docs/nettoyage_imprimante_elegoo_27.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_27.webp)
 
-![](/img/docs/nettoyage_imprimante_elegoo_28.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_28.webp)
 
  
 
 8) Déposer le support égoutté sur le tapis propre sur le chariot. Utiliser le spray à alcool pour en déposer sur tout la surface du support. Utiliser un chiffon propre pour retirer les dernières traces de résine. 
  
 
-![](/img/docs/nettoyage_imprimante_elegoo_29.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_29.webp)
 
-![](/img/docs/nettoyage_imprimante_elegoo_30.jpg)
+![](/img/docs/nettoyage_imprimante_elegoo_30.webp)
 
  
 9) Revisser le récipient à résine propre sur son emplacement d’origine pour la personne suivante 
