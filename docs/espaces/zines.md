@@ -26,6 +26,12 @@ import Pano360 from '@site/src/components/Pano360';
 
 L’atelier de zines est un lieu idéal pour concevoir ou finaliser un zine réalisé dans le cadre d’un cours, approfondir une démarche de recherche-création ou expérimenter de nouvelles formes de communication des connaissances. 
 
+:::danger Avis - TRAVAUX
+En raison de travaux majeurs, le 2ème étage de la Bibliothèque des lettres et sciences humaines (BLSH) fera l’objet d’une **fermeture partielle du 16 mars au 12 avril inclusivement**.
+
+**L'Atelier de zines ne sera pas accessible** durant cette période.
+:::
+
 ## Qu’est-ce qu’un zine?
 
 Un zine est une forme d’autopublication imprimée et fabriquée à la main qui circule en dehors des circuits traditionnels de l’édition.
