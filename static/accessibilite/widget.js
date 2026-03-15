@@ -27,6 +27,7 @@ var outil_accessibilite = {
         outil_accessibilite.watch_theme_sync();
         outil_accessibilite.show_widget_to_users();
         outil_accessibilite.watch_klaro_visibility();
+        outil_accessibilite.watch_footer_safe_zone();
 
       })
       .catch(err => {
@@ -73,6 +74,37 @@ var outil_accessibilite = {
 
     if (outil_accessibilite.is_klaro_visible()) return true;
     return !hasKlaroRoot;
+  },
+
+  get_footer_overlap_offset: function () {
+    const footer = document.querySelector('[data-site-footer]');
+    if (!footer) return 0;
+
+    const rect = footer.getBoundingClientRect();
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+    if (rect.top >= viewportHeight || rect.bottom <= 0) {
+      return 0;
+    }
+
+    const overlapHeight = Math.min(viewportHeight, rect.bottom) - Math.max(0, rect.top);
+    return Math.max(0, overlapHeight);
+  },
+
+  sync_widget_bottom_position: function () {
+    const el = document.getElementById('readability-widget');
+    const content = document.getElementById("widget-content");
+    if (!el || !content) return;
+
+    const footerOffset = outil_accessibilite.get_footer_overlap_offset();
+    el.classList.toggle('footer-docked', footerOffset > 0);
+
+    if (el.classList.contains('open')) {
+      el.style.bottom = footerOffset + "px";
+      return;
+    }
+
+    el.style.bottom = (footerOffset - content.offsetHeight) + "px";
   },
 
   sync_widget_visibility_with_klaro: function () {
@@ -122,6 +154,28 @@ var outil_accessibilite = {
     document.addEventListener('visibilitychange', refresh);
   },
 
+  watch_footer_safe_zone: function () {
+    if (outil_accessibilite._footer_safe_zone_watcher_started) return;
+    outil_accessibilite._footer_safe_zone_watcher_started = true;
+
+    const requestSync = function () {
+      if (outil_accessibilite._footer_safe_zone_raf_id) return;
+
+      outil_accessibilite._footer_safe_zone_raf_id = window.requestAnimationFrame(function () {
+        outil_accessibilite._footer_safe_zone_raf_id = null;
+        outil_accessibilite.sync_widget_bottom_position();
+      });
+    };
+
+    window.addEventListener('scroll', requestSync, { passive: true });
+    window.addEventListener('resize', requestSync);
+    window.addEventListener('orientationchange', requestSync);
+    window.addEventListener('focus', requestSync);
+    document.addEventListener('visibilitychange', requestSync);
+
+    requestSync();
+  },
+
   show_widget_to_users: function () {
     const startedAt = Date.now();
     const maxWaitForKlaroMs = 10000;
@@ -147,6 +201,7 @@ var outil_accessibilite = {
       outil_accessibilite.close_widget();
       widget.style.opacity = 1;
       outil_accessibilite.sync_widget_visibility_with_klaro();
+      outil_accessibilite.sync_widget_bottom_position();
     }, 100);
   },
 
@@ -173,7 +228,7 @@ var outil_accessibilite = {
 
     el.classList.remove('closed', 'widget-hidden');
     el.classList.add('open');
-    el.style.bottom = "0px";
+    outil_accessibilite.sync_widget_bottom_position();
 
     outil_accessibilite.set_widget_hidden_local_storage('false');
     outil_accessibilite.enable_internal_tabbing();
@@ -181,12 +236,11 @@ var outil_accessibilite = {
 
   close_widget: function () {
     const el = document.getElementById('readability-widget');
-    const content = document.getElementById("widget-content");
 
     el.classList.remove('open');
     el.classList.add('closed');
 
-    el.style.bottom = -(content.offsetHeight) + "px";
+    outil_accessibilite.sync_widget_bottom_position();
 
     outil_accessibilite.disable_internal_tabbing();
   },

@@ -21,7 +21,7 @@ import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} data-site-footer>
       <h2 className={styles.footerTitle}>
         Les bibliothèques de l'Université de Montréal - studio•bib
       </h2>
