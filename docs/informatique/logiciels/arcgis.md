@@ -8,7 +8,7 @@ ArcGIS Pro est une application qui permet d’explorer, visualiser et analyser d
 
 ## Préalables
 
-- Avoir ses [informations d'authentification](../authentification).
+- Avoir ses [informations d'authentification](https://studio.bib.umontreal.ca/informatique/authentification).
 - Important : avoir redémarré son ordinateur.
 
 ## Information et guide d'installation
