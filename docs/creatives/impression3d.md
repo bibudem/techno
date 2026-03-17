@@ -82,7 +82,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
   <StudioCard
     title="Santé"
     titleLink="https://bib.umontreal.ca/espaces/#sante"
-    location={<>8<sup>e</sup> étage, en face du comptoir de référence.</>}
+    location={<>6<sup>e</sup> étage, à l'entrée de la bibliothèque.</>}
     mapLink="https://maps.app.goo.gl/KVE9w3JN2BKp278q8"
     mapText="Voir sur la carte"
     tags={[
