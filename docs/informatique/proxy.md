@@ -218,7 +218,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
         2. Sous **Utiliser un script d’installation**, cliquer **Configurer**.  
         3. Désactiver **Utiliser un script de configuration**.
         4. Cliquer **Enregistrer**
-        5. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        5. [Vider la mémoire cache de votre navigateur](#depannage).
         6. **Redémarrer l'ordinateur**.
       </TabItem>
       
@@ -226,7 +226,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
         1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
         2. Désactiver **Utiliser un script de configuration**.
         3. Cliquer **Enregistrer**
-        4. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        4. [Vider la mémoire cache de votre navigateur](#depannage).
         5. **Redémarrer l'ordinateur**.
       </TabItem>
     </Tabs>
@@ -240,7 +240,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
         3. Cliquer **Détails**.
         4. Sélectionner l'onglet **Serveurs mandataires** → Désactiver **Configuration de serveur mandataire automatique**.
         5. Cliquer **Ok**.
-        6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        6. [Vider la mémoire cache de votre navigateur](#depannage).
         7. **Redémarrer l'ordinateur**.
 
       </TabItem>
@@ -252,7 +252,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
         3. Cliquer **Avancé**.  
         4. Sélectionner l'onglet **Proxys** → Désactiver **Configuration de serveur mandataire automatique**.  
         5. Cliquer **Ok**.
-        6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        6. [Vider la mémoire cache de votre navigateur](#depannage).
         7. **Redémarrer l'apapreil**.
       </TabItem>
     </Tabs>
@@ -262,7 +262,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
         1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
         2. Sous **Serveur mandataire HTTP**, sélectionner **Non**.
         3. Cliquer **Enregistrer**
-        4. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+        4. [Vider la mémoire cache de votre navigateur](#depannage).
         5. **Redémarrer l'apapreil**.
   </TabItem>
 
@@ -271,7 +271,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
     2. **Plus de paramètres → Modifier le réseau → Options avancées**.  
     3. Sous **Serveur mandataire**, sélectionner **Aucun**.  
     4. **Enregistrer**.
-    5. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+    5. [Vider la mémoire cache de votre navigateur](#depannage).
     6. **Redémarrer l'apapreil**.
   </TabItem>
   <TabItem value="Linux" label="Linux">
@@ -280,7 +280,7 @@ Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontrea
     3. Cliquer **Réseau**
     4. Activer **Serveur mandataire** ou **Proxy**
     5. Cliquer **Désactiver**, Fermer la fenêtre
-    6. [Vider la mémoire cache de votre navigateur](http://localhost:3000/informatique/proxy#depannage).
+    6. [Vider la mémoire cache de votre navigateur](#depannage).
     7. **Redémarrer l'apapreil**.
   </TabItem>
 </Tabs>
