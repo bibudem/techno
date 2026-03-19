@@ -138,7 +138,7 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ![](/img/docs/configurer_bambu_studio_31.webp)
 
-3.	Vérifier que le plateau sélectionné correspond bien au plateau utilisé dans l’imprimante (texturé dans notre exemple).
+3.	Vérifier que le plateau sélectionné correspond bien au plateau utilisé dans l’imprimante (texturé dans notre exemple mais existe aussi en version Smooth PEI dans le réseau).
 
 ![](/img/docs/configurer_bambu_studio_27.webp)
 
