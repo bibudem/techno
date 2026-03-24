@@ -49,13 +49,13 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 <Tabs groupId="payment-method">
   <TabItem value="online" label="En ligne">
     1. Ouvrir le [**Compte électronique d'impression**](https://sium.umontreal.ca/compte-cei.html).
-    2. S’authentifier avec son code d'accès et son mot de passe.
-    3. Dans le menu de gauche, cliquer **Utiliser carte de crédit** ou **Utiliser une carte prépayée** (en vente à la librairie).
+    2. S’authentifier avec son **code d'accès ou courriel UdeM** et son mot de passe.
+    3. Dans le menu de gauche, cliquer **Utiliser carte de crédit** ou **Utiliser une carte prépayée** (en vente à la [librairie](https://www.librairie.umontreal.ca/Message.aspx?msg=msg_nous_joindre)).
     4. Suivre les instructions.
   </TabItem>
   <TabItem value="cash" label="En argent comptant">
     1. Appuyer sur <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>.
-    2. S’authentifier avec son code d'accès et son mot de passe.
+    2. S’authentifier avec son **code d'accès ou courriel UdeM** et son mot de passe.
     3. Insérer la monnaie.
 
     [Trouver une borne de chargement](https://sium.umontreal.ca/bornes.html)
@@ -72,7 +72,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 
     1. Ouvrir le [**Compte électronique d'impression**](https://sium.umontreal.ca/compte-cei.html).
     2. Sélectionner **Sur le campus** (ordinateur personnel).
-    3. S’authentifier avec son code d'accès et son mot de passe.
+    3. S’authentifier avec son **code d'accès ou courriel UdeM** et son mot de passe.
     4. Dans le menu de gauche, cliquer **Impression Web**.
     5. Cliquer **Envoyer un travail**.
     6. Sélectionner le nom de l’imprimante (ex. Noir Recto Verso Web).
@@ -91,7 +91,7 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
     **S'assurer d'avoir utilisé le bon format de papier :**  
     - 8.5 x 11 (lettre)  
     - 8.5 x 14 (légal)  
-    - 11 x 17  
+    - 11 x 17 (Tabloïd)
 
     Les impressions lancées restent en mémoire 24 heures avant d'être supprimées.
   </TabItem>
@@ -101,10 +101,10 @@ Le compte électronique d'impression permet d'ajouter des fonds ou de demander u
 
 ## Récupérer vos impressions {#recuperer-impressions}
 
-1. S’authentifier sur l'imprimante avec son code d'accès et son mot de passe.
-2. Appuyer sur **PaperCut** en haut de l’écran.
+1. S’authentifier sur l'imprimante avec son **code d'accès ou courriel UdeM** et son mot de passe.
+2. Appuyer **PaperCut** en haut de l’écran.
 3. Sélectionner le document.
-4. Appuyer sur **Imprimer**.
+4. Appuyer **Imprimer**.
 
 [Localisation des imprimantes libre-service](https://sium.umontreal.ca/imprimantes.html)
 
