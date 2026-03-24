@@ -1,14 +1,67 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { useLocation } from '@docusaurus/router';
 
 const AVIS_SCRIPT_SRC = 'https://cdn.jsdelivr.net/gh/bibudem/ui@latest/dist/bib-avis.min.js';
 const AVIS_SHADOW_STYLE_ID = 'avis-bib-theme-fix';
+const AVIS_SERVICE_URL = 'https://avis.bib.umontreal.ca/api/avis';
+const AVIS_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 
 function isDarkThemeEnabled() {
   return document.documentElement.getAttribute('data-theme') === 'dark';
 }
 
 export default function AvisBib() {
+  const { pathname } = useLocation();
   const avisRef = useRef(null);
+  const lastPathnameRef = useRef(pathname);
+  const lastRefreshRef = useRef(Date.now());
+  const [refreshKey, setRefreshKey] = useState(() => Date.now());
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return undefined;
+
+    const refreshAvis = (force = false) => {
+      const now = Date.now();
+
+      if (!force && now - lastRefreshRef.current < AVIS_REFRESH_INTERVAL_MS) {
+        return;
+      }
+
+      lastRefreshRef.current = now;
+      setRefreshKey(now);
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        refreshAvis();
+      }
+    };
+
+    const intervalId = window.setInterval(() => {
+      if (document.visibilityState === 'visible') {
+        refreshAvis();
+      }
+    }, AVIS_REFRESH_INTERVAL_MS);
+
+    window.addEventListener('focus', handleVisibilityChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      window.removeEventListener('focus', handleVisibilityChange);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.clearInterval(intervalId);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (lastPathnameRef.current === pathname) {
+      return;
+    }
+
+    lastPathnameRef.current = pathname;
+    lastRefreshRef.current = Date.now();
+    setRefreshKey(lastRefreshRef.current);
+  }, [pathname]);
 
   useEffect(() => {
     const host = avisRef.current;
@@ -16,6 +69,7 @@ export default function AvisBib() {
 
     let pollId = null;
     let pollCount = 0;
+    let scriptNode = document.querySelector(`script[src="${AVIS_SCRIPT_SRC}"]`);
 
     const ensureShadowThemeStyle = () => {
       if (!host.shadowRoot) return false;
@@ -65,18 +119,23 @@ export default function AvisBib() {
       ensureShadowThemeStyle();
     };
 
-    const existingScript = document.querySelector(`script[src="${AVIS_SCRIPT_SRC}"]`);
+    const handleScriptLoad = () => {
+      syncTheme();
+    };
 
-    if (!existingScript) {
+    if (!scriptNode) {
       const script = document.createElement('script');
       script.src = AVIS_SCRIPT_SRC;
       script.type = 'module';
       script.async = true;
       script.dataset.avisBib = 'true';
-      script.addEventListener('load', syncTheme);
+      script.addEventListener('load', handleScriptLoad);
       document.body.appendChild(script);
-    } else {
+      scriptNode = script;
+    } else if (window.customElements?.get('bib-avis')) {
       syncTheme();
+    } else {
+      scriptNode.addEventListener('load', handleScriptLoad);
     }
 
     const themeObserver = new MutationObserver(syncTheme);
@@ -97,13 +156,17 @@ export default function AvisBib() {
     return () => {
       themeObserver.disconnect();
       if (pollId) window.clearInterval(pollId);
+      if (scriptNode) {
+        scriptNode.removeEventListener('load', handleScriptLoad);
+      }
     };
-  }, []);
+  }, [refreshKey]);
 
   return (
     <bib-avis
+      key={refreshKey}
       ref={avisRef}
-      service="https://avis.bib.umontreal.ca/api/avis"
+      service={AVIS_SERVICE_URL}
       bouton-fermer
     ></bib-avis>
   );
