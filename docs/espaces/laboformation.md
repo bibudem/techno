@@ -12,23 +12,11 @@ Aux Bibliothèques de l'UdeM vous pouvez réserver un laboratoire de formation. 
 
 ## Localisations, capacité et numéro de salle
 
-### 1. Bibliothèque des Lettres et Sciences Humaines
+### Bibliothèque Hubert Reeves
 
-- Salle 1088 (29 places)
-- Salle 1094 (10 places)
-Sur demande un mur mobile permet de jumeler les deux laboratoires en un seul grand (40 places)
-- Salle 2074 (46 places)
+Numéro et capacité de la salle : A-1544 - 32 places
+À quoi a-t-on accès : 32 ordinateurs à double écrans équipés de logiciels de bureautique et spécialisés + 5 télés de projection
+Qui peut réserver : accès libre sans réservation en dehors des heures consacrées aux activités de formation
+Informations, réservations et demandes particulières : [Benjamin Constantineau](mailto:benjamin.constantineau@umontreal.ca), chef de bibliothèque
 
-Réservation et demandes particulières : [Pascal Martinolli](mailto:pascal.martinolli@umontreal.ca), bibliothécaire
 
-### 2. Bibliothèque Hubert Reeves
-
-(Informations à venir)
-
-### 3. Bibliothèque de la Santé
-
-(Informations à venir)
-
-### 4. Bibliothèque de Kinésiologie
-
-(Informations à venir)
