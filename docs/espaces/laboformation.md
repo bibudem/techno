@@ -12,6 +12,7 @@ Aux Bibliothèques de l'UdeM vous pouvez réserver un laboratoire de formation. 
 
 ## Localisations, capacité et numéro de salle
 
+
 ### Bibliothèque Hubert Reeves
 
 Numéro et capacité de la salle : A-1544 (32 places)
@@ -21,6 +22,7 @@ Numéro et capacité de la salle : A-1544 (32 places)
 Qui peut réserver : accès libre sans réservation en dehors des heures consacrées aux activités de formation, réservable uniquement par la communauté enseignante et le personnel de l'UdeM
 
 Informations, réservations et demandes particulières : [Benjamin Constantineau](mailto:benjamin.constantineau@umontreal.ca), chef de bibliothèque
+
 
 ### Bibliothèque des lettres et sciences humaines
 
@@ -32,6 +34,7 @@ Qui peut réserver : réservable uniquement par la communauté enseignante et 
 
 Informations, réservations et demandes particulières : [Pascal Martinolli](mailto:pascal.martinolli@umontreal.ca), bibliothécaire
 
+
 ### Bibliothèque de la santé
 
 1) Numéro et capacité de la salle : L-868 (20 places)
@@ -41,6 +44,7 @@ Informations, réservations et demandes particulières : [Pascal Martinolli](mai
 Qui peut réserver : accès libre sans réservation en dehors des heures consacrées aux activités de formation, réservable uniquement par la communauté enseignante et le personnel de l'UdeM
 
 Informations, réservations et demandes particulières : [Benjamin Constantineau](mailto:benjamin.constantineau@umontreal.ca), chef de bibliothèque
+
 
 
 ### Bibliothèque de kinésiologie
