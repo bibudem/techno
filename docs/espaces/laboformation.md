@@ -8,7 +8,8 @@ pagination_prev: null
 
 # Laboratoires de formation
 
-Aux Bibliothèques de l'UdeM vous pouvez réserver un laboratoire de formation. Chaque salle de formation est équipée d'ordinateurs avec les logiciels de bureautique et spécialisés. Réservés aux employés des Bibliothèques, il est possible de réserver ces espaces pouvant accueillir des groupes de 10 à environ 50 personnes selon leur capacité. 
+Aux Bibliothèques de l'UdeM vous pouvez réserver un laboratoire de formation. Chaque salle de formation est équipée d'ordinateurs avec les logiciels de bureautique et spécialisés. Certaines sont accessibles en accès libre et d'autres sur réservation. Réservable uniquement par la communauté enseignante et le personnel de l'UdeM. Elles peuvent accueillir des groupes de 10 à environ 50 personnes selon leur capacité. 
+
 
 ## Localisations, capacité et numéro de salle
 
