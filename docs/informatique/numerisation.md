@@ -48,22 +48,33 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
   </TabItem>
 
   <TabItem value="moyen-format" label="Moyen format">
-    - Hubert-Reeves : À la cartothèque, local A-0724.
+    - [Hubert-Reeves : À la cartothèque, local A-0724.](https://bib.umontreal.ca/espaces/#Hubert-reeves)
   </TabItem>
 
   <TabItem value="grand-format" label="Grand format">
-    - Hubert-Reeves : À la cartothèque, local A-0724.  
-    - Centre de conservation Marcel-Laurin
+    - [Hubert-Reeves : À la cartothèque, local A-0724.](https://bib.umontreal.ca/espaces/#Hubert-reeves)  
+    - [Centre de conservation Marcel-Laurin](https://bib.umontreal.ca/espaces/#marcel-laurin)
   </TabItem>
 
   <TabItem value="microformes" label="Microformes">
-    - Centre de conservation Lionel-Groulx
+    - [Centre de conservation Lionel-Groulx](https://bib.umontreal.ca/espaces/#conservation)
   </TabItem>
 </Tabs>
 
 ---
 
-## Numérisation avec les imprimantes du SIUM {#sium}
+## Numérisation avec Epson Scan (gratuit) {#epsonscan}
+
+1. Placer l’image à numériser sur la vitre du numériseur, en haut à gauche.  
+2. Cliquer le bouton **Windows** → **Numérisation** → **EPSON Scan**.  
+3. Configurer les paramètres recommandés, mais modifiables :  
+4. Cliquer **Aperçu** pour visualiser l’image à numériser.  
+5. Dans la nouvelle fenêtre, encadrer le document ou la partie du document à numériser.  
+6. Cliquer s**Numériser**, choisissez ensuite l’emplacement où enregistrer le document, le format de l’image (PDF, JPEG...) et cliquez **OK**.  
+7. Enregistrer le document.
+---
+
+## Numérisation avec les imprimantes du SIUM (payant) {#sium}
 
 Le Service d'Impression de l'UdeM offre également un service payant de numérisation disponible à partir des imprimantes publiques des bibliothèques. Pour l'utiliser, il faudra d’abord [créditer son compte électronique d’impression](https://sium.umontreal.ca/compte-cei.html).
 
@@ -75,7 +86,7 @@ Le Service d'Impression de l'UdeM offre également un service payant de numéris
 <br/>
 
 1. Déposer le document sur la surface de numérisation (ou dans le chargeur de documents, 35 feuilles maximum).  
-2. S’authentifier sur l’imprimante avec votre code d’accès et mot de passe.  
+2. S’authentifier sur l’imprimante avec votre **code d’accès** ou **courriel UdeM** et mot de passe.  
 3. Cliquer **Suivant** après avoir pris connaissance des crédits d’impression au dossier.  
 4. Cliquer **Envoi personnel (E-mail)** en haut de l’écran.  
 5. Cliquer **Départ**.  
@@ -83,16 +94,3 @@ Le Service d'Impression de l'UdeM offre également un service payant de numéris
 :::warning Attention
 L'option de l’envoi personnel (E-mail) ne sera pas offerte si vous avez redirigé votre courriel institutionnel vers une autre adresse de courriel.
 :::
-
----
-
-## Numérisation petit format avec Epson Scan {#epsonscan}
-
-1. Placer l’image à numériser sur la vitre du numériseur, en haut à gauche.  
-2. Cliquer sur le bouton **Windows** → **Numérisation** → **EPSON Scan**.  
-3. Configurer les paramètres recommandés, mais modifiables :  
-4. Cliquer sur **Aperçu** pour visualiser l’image à numériser.  
-5. Dans la nouvelle fenêtre, encadrer le document ou la partie du document à numériser.  
-6. Cliquer sur **Numériser**, choisissez ensuite l’emplacement où enregistrer le document, le format de l’image (PDF, JPEG...) et cliquez sur **OK**.  
-7. Enregistrer le document.
-
