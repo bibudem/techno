@@ -24,13 +24,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-:::danger Fermeture du studio à la Bibliothèque Thérèse-Gouin-Décarie
-Le studio vidéo est fermé en raison de travaux d’entretien.
-
-Réouverture prévue à l’hiver.
-:::
-
-:::danger Avis - Studio balado vidéo (BLSH)
+:::danger Avis - Studio vidéo (BLSH)
 En raison de travaux majeurs, le 2ème étage de la Bibliothèque des lettres et sciences humaines (BLSH) fera l’objet d’une **fermeture partielle du 9 mars au 6 avril inclusivement**.
 
 Le **studio vidéo ne sera pas accessible** durant cette période.
