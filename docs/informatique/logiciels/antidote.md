@@ -12,6 +12,6 @@ Le logiciel est aussi disponible en accès à distance. Consultez la page [Conne
 ## Aide
 
 - [Introduction à l'utilisation d'Antidote](../../../static/pdf/ATD1-introduction-antidote.pdf)
-- [Guide d'utilisateur par le développeur Druide](https://www.antidote.info/fr/documentation/guide-utilisation/avant-propos?guide=a11)
+- [Guide d'utilisateur par le développeur Druide](https://www.antidote.info/fr/documentation/guide-utilisation/avant-propos?guide=a12)
 
 ---
