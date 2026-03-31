@@ -89,7 +89,6 @@ const sidebars = {
       link: { type: 'doc', id: 'informatique/index' }, 
       items: [
         'informatique/authentification',
-        'informatique/reseau',
         {
           type: "category",
           label: "Accès hors campus",
@@ -101,6 +100,7 @@ const sidebars = {
             "informatique/vpn",
           ],
         },
+        'informatique/reseau',
         'informatique/impression',
         {
           type: "category",
