@@ -21,18 +21,18 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       image: "/img/cover/authentification.webp",
     },
     {
-      title: "Réseau sans fil",
-      description: "Connectez-vous au Wi-Fi sécurisé du campus.",
-      link: "reseau",
-      icon : "WifiHigh",
-      image: "/img/cover/reseau.webp",
-    },
-    {
       title: "Accès hors campus",
       description: "Utilisez le proxy ou le VPN pour accéder aux ressources à distance.",
       link: "hors-campus",
       icon : "Network",
       image: "/img/cover/horscampus.webp",
+    },
+    {
+      title: "Réseau sans fil",
+      description: "Connectez-vous au Wi-Fi sécurisé du campus.",
+      link: "reseau",
+      icon : "WifiHigh",
+      image: "/img/cover/reseau.webp",
     },
     {
       title: "Impression",
