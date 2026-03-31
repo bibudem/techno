@@ -15,7 +15,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 - Avoir ses [informations d'authentification](../authentification).
 - Avoir une version à jour de [Microsoft Office 365](office).
 - Un système d’exploitation compatible (macOS 11+, Windows 10 ou 11)
-- Important : **avoir redémarré son ordinateur et s’assurer que Microsoft Word est fermé**.
+- Important : **avoir redémarré votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert**.
 - S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
 - Ne **pas** utiliser de VPN lors de l’installation (déconnecter votre VPN si vous en avez un).
 - Ne pas changer le dossier d’installation par défaut.
@@ -27,11 +27,12 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 <Tabs groupId="os-tabs">
       <TabItem value="windows" label="Windows">
 
-1. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
-2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
-3. Sélectionner **EndNote 2025.2 (Windows)** dans La liste des logiciels autorisés.
-4. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
-5. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
+1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
+2. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
+3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
+4. Sélectionner **EndNote 2025.2 (Windows)** dans La liste des logiciels autorisés.
+5. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
+6. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
 
 :::note Si vous n'arrivez pas à ouvrir le fichier téléchargé
 Ouvrir le dossier des téléchargements, localiser le fichier d’installation EndNote (débute par UdeM_), cliquer avec le bouton droit de la souris sur le fichier puis sélectionner **Exécuter en tant qu’administrateur**. Ne le renommez pas.
@@ -46,12 +47,13 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 
 <TabItem value="macos" label="macOS">
 
-1. Avec **Safari**, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
-2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
-3. Sélectionner **EndNote 2025.2 (macOS)** dans La liste des logiciels autorisés.
-4. Lire les informations à l’écran et cliquer **Valider** → **Suivant**.
-5. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Cliquer ensuite **Installation du logiciel**.
-6. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
+1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
+2. Avec **Safari**, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
+3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
+4. Sélectionner **EndNote 2025.2 (macOS)** dans La liste des logiciels autorisés.
+5. Lire les informations à l’écran et cliquer **Valider** → **Suivant**.
+6. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Ensuite cliquer **Installation du logiciel**.
+7. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
 
 :::note IMPORTANT : Si un message d’erreur Impossible d’ouvrir sous macOS s’affiche 
 
@@ -91,12 +93,12 @@ Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécu
 <TabItem value="windows" label="Windows">
 
 Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
-Pour changer cela, cliquer sur ***Modifier*** → ***Préférences*** → ***Bibliothèques*** et choisir l’option voulue.
+Pour changer cela, cliquer ***Modifier*** → ***Préférences*** → ***Bibliothèques*** et choisir l’option voulue.
 </TabItem>
 <TabItem value="macos" label="macOS">
 
 Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
-Pour changer cela, cliquer sur ***EndNote2025*** → ***Réglages*** → ***Bibliothèques*** et choisir l’option voulue.
+Pour changer cela, cliquer ***EndNote2025*** → ***Réglages*** → ***Bibliothèques*** et choisir l’option voulue.
 
 :::note Important
 Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
