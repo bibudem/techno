@@ -6,23 +6,26 @@ breadcrumbs: true
 help : crea
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Avant l’enregistrement {#avant-enregistrement}
 1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.
 2. Appuyer sur le bouton jaune au centre de la console.
 
 ![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.webp)
 
-3. Les lumières et caméras s’allumeront automatiquement. Éteindre l’éclairage ambiant (néons au plafond). 
+3. Les lumières et la caméra s’allumeront automatiquement. Éteindre l’éclairage ambiant (néons au plafond). 
 4. L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
 
 ![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.webp)
 
-5. La mise au point des caméras se fait automatiquement au démarrage. Si nécessaire éteindre le système et le redémarrer pour effectuer de nouveau la mise au point.
+5. La mise au point de la caméra se fait automatiquement au démarrage.
 
 6. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
 7. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
-![L'interface de la console pour contrôler le système]()
+<!-- ![L'interface de la console pour contrôler le système]() -->
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
@@ -59,40 +62,73 @@ Recommandations pour un bon cadrage :
 ## Choisir un mode de présentation
 
 Le studio propose différents modes de présentations. Vous pouvez en choisir en appuyant sur le bouton **Fonds** de la console de contrôle.
+À noter que les modes **C**, **D** et **E** nécessitent de brancher votre ordinateur au câble HDMI identifié pour fonctionner correctement.
 
-![L'interface de la console pour choisir les fonds](/img/docs/studio-interface-control-5.webp)
+:::warning Attention
+Il est recommandé de porter des vêtements de couleurs différentes du vert pour éviter les problèmes d’incrustation.
+:::
 
-1. Le fond virtuel (A)
+<!-- ![L'interface de la console pour choisir les fonds](/img/docs/guidevideolsh_interface_mode.png) -->
 
-![Le fond virtuel](/img/guidevideolsh_fond_virtuel_A.png)
+<Tabs>
 
-2. Le fond noir (B)
+<TabItem value="A" label=" A - Fond virtuel">
 
-![Le fond noir](/img/guidevideolsh_fond_noir_B.png)
+### Le fond virtuel (A)
 
-3. Le mode présentation (C)
+![Le fond virtuel](/img/docs/guidevideolsh_fond_virtuel_A.png)
 
-Fonctionne en branchant votre ordinateur au câble HDMI identifier et vous êtes incrusté avec ce qu'affiche votre ordinateur
+</TabItem>
 
-![Le mode presentation](/img/guidevideolsh_mode_presentation_C.png)
+<TabItem value="B" label="B - Fond noir">
 
-4. Le mode personnalisé (D)
+### Le fond noir (B)
 
-Fonctionne en branchant votre ordinateur au câble HDMI identifier et vous êtes au premier plan avec ce qu'affiche votre ordinateur au second plan
+![Le fond noir](/img/docs/guidevideolsh_fond_noir_B.png)
 
-![Le mode personnalisé](/img/guidevideolsh_mode_fond_ecran_D.png)
+</TabItem>
 
-5. Le mode entretien (E)
+<TabItem value="C" label="C - Présentation">
 
-Fonctionne en branchant votre ordinateur au câble HDMI identifier et vous apparaissez aux côtés de votre interlocuteur à distance
+### Le mode présentation (C)
 
-![Le mode entretien](/img/guidevideolsh_entretien_distance_E.png)
+Fonctionne en branchant votre ordinateur au câble HDMI identifié : vous êtes alors incrusté à l’image, superposé au contenu affiché sur votre ordinateur.
 
-6. Le mode fond vert (Fond vert)
+![Le mode presentation](/img/docs/guidevideolsh_mode_presentation_C.png)
 
-Permet une incrustation en post production durant le montage
+</TabItem>
 
-![Le mode fond vert](/img/guidevideolsh_fond_vert.png)
+<TabItem value="D" label="D - Personnalisé">
+
+### Le mode personnalisé (D)
+
+Fonctionne en branchant votre ordinateur au câble HDMI identifié : votre image est alors au premier plan, avec le contenu affiché à l’écran en arrière-plan.
+
+![Le mode personnalisé](/img/docs/guidevideolsh_mode_fond_ecran_D.png)
+
+</TabItem>
+
+<TabItem value="E" label="E - Entretien">
+
+### Le mode entretien (E)
+
+Fonctionne en branchant votre ordinateur au câble HDMI identifié : vous apparaissez à l’écran aux côtés de votre interlocuteur à distance.
+
+![Le mode entretien](/img/docs/guidevideolsh_entretien_distance_E.png)
+
+</TabItem>
+
+<TabItem value="fond-vert" label="Fond vert">
+
+### Le mode fond vert
+
+Permet une incrustation en post-production.
+
+![Le mode fond vert](/img/docs/guidevideolsh_fond_vert.png)
+
+</TabItem>
+
+</Tabs>
 
 ---
 
@@ -110,7 +146,7 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 2. Débrancher le disque dur et le brancher en utilisant le câble **transfert** sur votre ordinateur pour transférer les fichiers.
 
 :::warning Attention 
-Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage). 
+Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement.
 :::
 
 ---
@@ -124,4 +160,4 @@ Faites une copie de sauvegarde dans votre espace infonuagique ou une 2ème copie
 :::
 
 ## Fin de session
-- Appuyer sur le bouton jaune **Fermer** pour éteindre les caméras et les lumières.
+- Appuyer sur le bouton jaune **Fermer** pour éteindre le système.
