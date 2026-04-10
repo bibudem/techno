@@ -3,7 +3,7 @@ title : Guide du studio vidéo
 help : crea
 ---
 
-Le studio d’enregistrement vidéo de la bibliothèque Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
+Le studio d’enregistrement vidéo de la bibliothèque Thérèse-Gouin-Décarie (TGD) permet de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
 
 ---
 
