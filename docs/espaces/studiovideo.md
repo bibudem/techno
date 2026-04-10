@@ -25,11 +25,7 @@ import Pano360 from '@site/src/components/Pano360';
 />
 
 :::danger Avis - Studio vidéo (BLSH)
-En raison de travaux majeurs, le 2ème étage de la Bibliothèque des lettres et sciences humaines (BLSH) fera l’objet d’une **fermeture partielle du 9 mars au 6 avril inclusivement**.
-
-Le **studio vidéo ne sera pas accessible** durant cette période.
-
-Pour toute question ou pour discuter d’une solution alternative, écrivez-nous : **studio@bib.umontreal.ca**.
+En raison d’une mise à niveau du studio vidéo de la Bibliothèque des lettres et sciences humaines (BLSH), celui-ci ne sera pas accessible jusqu’au 14 avril.
 :::
 
 Le studio d’enregistrement vidéo propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous 5 différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone!
