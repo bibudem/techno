@@ -116,13 +116,8 @@ Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l�
 ---
 
 ## Structure des fichiers
-- Dossier Audio : Contient toutes les pistes audio en .wav, incluant le fichier Live-Mix.wav (mix complet de toutes les pistes).
-- Dossier Vidéo : Contient les enregistrements de chaque caméra séparément.
-- Fichier Default_aaaa-mm-jj.mp4 : Montage final automatisé (audio + vidéo synchronisés).
-
-### Conseils
-- Si vous avez besoin seulement du son : le fichier Live-Mix.wav suffit.
-- Si vous souhaitez récupérer la vidéo : copier le contenu du dossier Vidéo.
+- Dossier Audio : Contient la piste audio en .wav.
+- Dossier Vidéo : Contient l'enregistrement de la caméra.
 
 :::warning Recommandation
 Faites une copie de sauvegarde dans votre espace infonuagique ou une 2ème copie dans un autre périphérique.
