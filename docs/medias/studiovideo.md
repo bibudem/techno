@@ -3,7 +3,7 @@ title : Guide du studio vidéo
 help : crea
 ---
 
-Les studios d’enregistrement vidéo des bibliothèques des [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) (BLSH) et Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
+Le studio d’enregistrement vidéo de la bibliothèque Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
 
 ---
 
@@ -110,10 +110,6 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 
 ### Source 4 : Table de présentation vue de haut
 
-:::note
-Ce mode n’est disponible qu’à la Bibliothèque Thérèse-Gouin-Décarie
-:::
-
 
 ![](/img/docs/studiovideo10.webp)
 
@@ -124,23 +120,14 @@ Ce mode n’est disponible qu’à la Bibliothèque Thérèse-Gouin-Décarie
 ## Bon à savoir {#bon-a-savoir}
 
 Utiliser la télécommande de la caméra pour obtenir les cadrages de caméra désirés.
-
-- **Bibliothèque des lettres et sciences humaines**
     
-    ![](/img/docs/studiovideo12.webp)
+ ![](/img/docs/studiovideo13.webp)
+      
+ Utilisez les boutons de la télécommande pour la **caméra du haut**.
     
-
-- **Bibliothèque Thérèse-Gouin-Décarie**
+ ![](/img/docs/studiovideo14.webp)
     
-    ![](/img/docs/studiovideo13.webp)
-    
-    **Bibliothèque Thérèse-Gouin-Décarie** : 
-    
-    Utilisez les boutons de la télécommande pour la **caméra du haut**.
-    
-    ![](/img/docs/studiovideo14.webp)
-    
-- Un ordinateur relié à l'écran mobile est mis à votre disposition pour diffuser des images.
+- Un câble HDMI relié à l'écran mobile est mis à votre disposition pour diffuser des images.
 - Des fiches murales permettent de transférer des fichiers vers l’ordinateur.
 - Le port de vêtements clairs est conseillé.
 - Bien étirer le rideau noir pour assurer un fond uniforme.
