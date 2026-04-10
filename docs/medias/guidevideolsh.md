@@ -17,25 +17,12 @@ help : crea
 
 ![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.webp)
 
-5.  Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant. Un micro est désactivé lorsque le bouton est rouge.
-6.  Les micros 3 et 4 fonctionnent de pair : si le bouton est rouge les deux sont éteints et inversement.
+5. La mise au point des caméras se fait automatiquement au démarrage. Si nécessaire éteindre le système et le redémarrer pour effectuer de nouveau la mise au point.
 
-7. La mise au point des caméras se fait automatiquement au démarrage. Si nécessaire éteindre le système et le redémarrer pour effectuer de nouveau la mise au point.
+6. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
+7. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
-8. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
-9. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
-
-![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
-
-10. Ajuster le niveau des casques d'écoute si nécessaire. Le volume des casques est contrôlé par les boutons situés en haut de la console de contrôle.
-
-![L'interface de contrôle du niveau des casques d'écoute](/img/docs/studio-interface-control-4.webp)
-
-:::warning Option
-Il est possible d'éteindre les caméras pour utiliser le studio en mode audio uniquement. 
-Appuyer sur le bouton **Éteindre les caméras** pour les éteindre. 
-Vous pouvez les rallumer à tout moment en appuyant à nouveau sur le bouton.
-:::
+![L'interface de la console pour contrôler le système]()
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
@@ -61,19 +48,51 @@ Pour macOS :
 
 ## Positionnement dans le studio
 
-Les caméras du studio sont fixes et préréglées. **Merci de ne pas les déplacer, ni les manipuler physiquement**.
+La caméra du studio est fixe et préréglée. **Merci de ne pas la déplacer, ni la manipuler physiquement**.
 
 Recommandations pour un bon cadrage : 
-- La flèche blanche indique la position idéale pour vous installer. Utiliser l’écran de retour vidéo pour vérifier votre position à l’image;
+- Utiliser l’écran de retour vidéo pour vérifier votre position à l’image;
 - Ajuster votre siège ou vous repositionner pour ajuster votre position à l'écran, plutôt que de déplacer la caméra.
 
 ---
 
-## Choisir une ambiance
+## Choisir un mode de présentation
 
-Le studio propose différentes ambiances d'éclairage. Vous pouvez en choisir en appuyant sur le bouton **Ambiance** de la console de contrôle.
+Le studio propose différents modes de présentations. Vous pouvez en choisir en appuyant sur le bouton **Fonds** de la console de contrôle.
 
-![L'interface de la console pour choisir l'ambiance](/img/docs/studio-interface-control-5.webp)
+![L'interface de la console pour choisir les fonds](/img/docs/studio-interface-control-5.webp)
+
+1. Le fond virtuel (A)
+
+![Le fond virtuel](/img/guidevideolsh_fond_virtuel_A.png)
+
+2. Le fond noir (B)
+
+![Le fond noir](/img/guidevideolsh_fond_noir_B.png)
+
+3. Le mode présentation (C)
+
+Fonctionne en branchant votre ordinateur au câble HDMI identifier et vous êtes incrusté avec ce qu'affiche votre ordinateur
+
+![Le mode presentation](/img/guidevideolsh_mode_presentation_C.png)
+
+4. Le mode personnalisé (D)
+
+Fonctionne en branchant votre ordinateur au câble HDMI identifier et vous êtes au premier plan avec ce qu'affiche votre ordinateur au second plan
+
+![Le mode personnalisé](/img/guidevideolsh_mode_fond_ecran_D.png)
+
+5. Le mode entretien (E)
+
+Fonctionne en branchant votre ordinateur au câble HDMI identifier et vous apparaissez aux côtés de votre interlocuteur à distance
+
+![Le mode entretien](/img/guidevideolsh_entretien_distance_E.png)
+
+6. Le mode fond vert (Fond vert)
+
+Permet une incrustation en post production durant le montage
+
+![Le mode fond vert](/img/guidevideolsh_fond_vert.png)
 
 ---
 
@@ -103,8 +122,7 @@ Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l�
 
 ### Conseils
 - Si vous avez besoin seulement du son : le fichier Live-Mix.wav suffit.
-- Si vous souhaitez récupérer les caméras séparément : copier le contenu du dossier Vidéo.
-- Pour un montage automatisé complet : copier le fichier Default_... .mp4 à la racine du disque.
+- Si vous souhaitez récupérer la vidéo : copier le contenu du dossier Vidéo.
 
 :::warning Recommandation
 Faites une copie de sauvegarde dans votre espace infonuagique ou une 2ème copie dans un autre périphérique.
