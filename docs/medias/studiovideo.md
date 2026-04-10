@@ -1,5 +1,5 @@
 ---
-title : Guide du studio vidéo
+title : Guide du studio vidéo Thérèse-Gouin-Décarie
 help : crea
 ---
 
