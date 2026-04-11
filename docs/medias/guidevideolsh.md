@@ -152,3 +152,7 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 
 ## Fin de session
 - Appuyer sur le bouton jaune **Fermer** pour éteindre le système.
+
+---
+
+Crédit photo : «&nbsp;<a href="https://www.flickr.com/photos/nasa2explore/55185633398" title="Hello, World">Hello, World</a>&nbsp;» par <a href="https://www.flickr.com/photos/nasa2explore/">NASA Johnson</a>, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr" rel="license noopener noreferrer">CC BY-NC-ND 4.0</a>
