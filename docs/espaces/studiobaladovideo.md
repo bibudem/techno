@@ -31,10 +31,11 @@ import StudioBaladoVideo from '@site/src/components/ProchaineDispo/studioBaladoV
 Le studio balado vidéo de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) est aménagé pour la captation vidéo de balados, dans un cadre simple, autonome et accessible. Il permet également l’enregistrement d’entrevues ou de présentations liées à ce type de format, sans nécessiter d’expertise technique préalable. Le studio peut accueillir jusqu’à 4 personnes.
 
 
-<!-- :::danger Bruit lié aux travaux
-En raison de travaux en cours à la Bibliothèque des lettres et sciences humaines, des perturbations sonores pourraient influencer la qualité des enregistrements au studio.
-[Consultez la nouvelle à ce sujet](https://bib.umontreal.ca/nouvelles/2026/annonce-travaux-bibliotheque-LSH/).
-::: -->
+:::danger Bruit lié aux travaux
+En raison de travaux en cours à la Bibliothèque des lettres et sciences humaines, du bruit pourrait être présent jusqu’à 14h. Cela peut nuire à la qualité des enregistrements audio et vidéo.
+
+[Consultez la nouvelle à ce sujet](https://bib.umontreal.ca/nouvelles/2026/annonce-travaux-bibliotheque-LSH-suite).
+:::
 
 
 ---

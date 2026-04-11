@@ -25,6 +25,12 @@ import Pano360 from '@site/src/components/Pano360';
 
 Le studio vidéo de la [Bibliothèque des lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) est conçu pour la captation vidéo individuelle, avec incrustation en temps réel, dans un environnement simple, autonome et accessible. Il permet de produire des présentations ou des interventions à l’image avec une qualité visuelle exceptionnelle, et intègre un prompteur facilitant une lecture fluide et naturelle à l’écran, sans nécessiter d’expertise technique préalable. Le studio est optimisé pour une utilisation par une seule personne.
 
+:::danger Bruit lié aux travaux
+En raison de travaux en cours à la Bibliothèque des lettres et sciences humaines, du bruit pourrait être présent jusqu’à 14h. Cela peut nuire à la qualité des enregistrements audio et vidéo.
+
+[Consultez la nouvelle à ce sujet](https://bib.umontreal.ca/nouvelles/2026/annonce-travaux-bibliotheque-LSH-suite).
+:::
+
 ---
 
 <div
