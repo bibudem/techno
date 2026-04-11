@@ -64,7 +64,20 @@ const config = {
       },
     ],
   ],
-  plugins: [disableIncompatibleWebpackbar],
+  plugins: [
+    disableIncompatibleWebpackbar,
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: ['/espaces/studiovideo'],
+            to: '/espaces/studiosvideo',
+          },
+        ],
+      },
+    ],
+  ],
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
     require.resolve('./src/clientModules/klaroLoader.js'),

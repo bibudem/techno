@@ -83,9 +83,15 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 <CardGrid
   items={[
     {
-      title: "Guide du studio vidéo",
-      description: "Guide d'utilisation du studio vidéo pour vos projets audiovisuels.",
-      link: "/medias/studiovideo",
+      title: "Guide du studio vidéo LSH",
+      description: "Guide d'utilisation du studio vidéo LSH",
+      link: "/medias/guidevideolsh",
+      icon: "BookOpenText",
+    },
+        {
+      title: "Guide du studio vidéo TGD",
+      description: "Guide d'utilisation du studio vidéo TGD",
+      link: "/medias/guidevideotgd",
       icon: "BookOpenText",
     },
     {
