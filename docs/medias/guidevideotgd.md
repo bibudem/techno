@@ -1,9 +1,12 @@
 ---
-title : Guide du studio vidéo
+title : Guide du studio vidéo TGD
+description : Guide d'utilisation du studio vidéo TGD
+slug: /medias/guidevideotgd
+breadcrumbs: true
 help : crea
 ---
 
-Les studios d’enregistrement vidéo des bibliothèques des [Lettres et sciences humaines](https://bib.umontreal.ca/espaces/#lsh) (BLSH) et Thérèse-Gouin-Décarie (TGD) permettent de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
+Le studio vidéo de la Bibliothèque Thérèse-Gouin-Décarie (TGD) permet de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
 
 ---
 
@@ -117,17 +120,8 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 ## Bon à savoir {#bon-a-savoir}
 
 Utiliser la télécommande de la caméra pour obtenir les cadrages de caméra désirés.
-
-- **Bibliothèque des lettres et sciences humaines**
-    
-    ![](/img/docs/studiovideo12.webp)
-    
-
-- **Bibliothèque Thérèse-Gouin-Décarie**
     
     ![](/img/docs/studiovideo13.webp)
-    
-    **Bibliothèque Thérèse-Gouin-Décarie** : 
     
     Utilisez les boutons de la télécommande pour la **caméra du haut**.
     

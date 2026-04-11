@@ -23,7 +23,7 @@ import Pano360 from '@site/src/components/Pano360';
   }} 
 />
 
-Le studio vidéo de la [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd) propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous 5 différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone. Le studio est optimisé pour une utilisation pour deux personnes.
+Le studio vidéo de la [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umontreal.ca/espaces/#tgd) propose à la communauté UdeM tout l’équipement pour concevoir des vidéos de qualité sous différents modes de présentation. Son environnement simplifié permet de produire des enregistrements sans se soucier des détails techniques. Le studio est conçu pour favoriser une utilisation en pleine autonomie : seule une clé USB est nécessaire pour activer les éclairages, la caméra, ainsi qu’un microphone. Le studio est optimisé pour une utilisation pour deux personnes.
 
 ---
 
