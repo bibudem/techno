@@ -129,7 +129,18 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
     ({
+
+      announcementBar: {
+      id: 'nouveau-studio-video',
+      content:
+      '🎥 Nouveau : découvrez le studio vidéo - incrustation en temps réel, prompteur et qualité professionnelle. <a href="/espaces/studiovideolsh">En savoir plus</a>.',
+      backgroundColor: '#fff4e5',
+      textColor: '#663c00',
+      isCloseable: true,
+    },
+
       metadata: [
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: '/img/miniature.jpg' },
