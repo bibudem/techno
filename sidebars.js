@@ -73,7 +73,18 @@ const sidebars = {
 
 
 
-        'espaces/studiovideo',
+           {
+          type: "category",
+          label: "Studios vidéo",
+          collapsed: true, 
+          collapsible: true,
+          link: { type: 'doc', id: 'espaces/studiosvideo' }, 
+
+          items: [
+            "espaces/studiovideolsh",
+            "espaces/studiovideotgd",
+          ],
+        },
         
       ],
     },
@@ -430,7 +441,7 @@ const sidebars = {
         // link: undefined,
 items: [
     { type: "link", label: "Studios balado", href: "/espaces/studiosbalado" },
-    { type: "link", label: "Studio vidéo", href: "/espaces/studiovideo" },
+    { type: "link", label: "Studios vidéo", href: "/espaces/studiosvideo" },
   ],
       },
 
@@ -446,6 +457,8 @@ items: [
         items: [
           "medias/balado",
           "medias/guidebaladovideo", 
+          "medias/guidevideolsh",
+          "medias/guidevideotgd",
           "medias/rodecaster",
           "medias/audacity",
         ],
@@ -458,7 +471,6 @@ items: [
         collapsed: true,
         // link: undefined,
         items: [
-          "medias/studiovideo",
           "medias/adoberush",
           "medias/obs",
         ],

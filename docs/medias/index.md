@@ -21,9 +21,9 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       image: "/img/cover/baladoaudio.webp",
     },
     {
-      title: "Studio vidéo",
-      description: "Espace équipé pour la captation vidéo de projets audiovisuels.",
-      link: "/espaces/studiovideo",
+      title: "Studios vidéo",
+      description: "Espaces équipés pour la captation vidéo de projets audiovisuels.",
+      link: "/espaces/studiosvideo",
       icon: "VideoCamera",
       image: "/img/cover/studiovideo.webp",
     },

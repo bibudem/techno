@@ -1,5 +1,5 @@
 ---
-title: Guide d'utilisation du studio vidéo LSH
+title: Guide du studio vidéo LSH
 description: Guide pour la prise en main du studio vidéo de la Bibliothèque des lettres et sciences humaines.
 slug: /medias/guidevideolsh
 breadcrumbs: true
@@ -68,53 +68,53 @@ Le studio propose différents modes de présentations. Vous pouvez en choisir en
 Il est recommandé de porter des vêtements de couleurs différentes du vert pour éviter les problèmes d’incrustation.
 :::
 
-<!-- ![L'interface de la console pour choisir les fonds](/img/docs/guidevideolsh_interface_mode.png) -->
+<!-- ![L'interface de la console pour choisir les fonds](/img/docs/guidevideolsh_interface_mode.webp) -->
 
 <Tabs>
 
-<TabItem value="A" label=" A - Fond virtuel">
+<TabItem value="A" label="Fond virtuel">
 
-### Le fond virtuel (A)
+### Le fond virtuel (Bouton A)
 
-![Le fond virtuel](/img/docs/guidevideolsh_fond_virtuel_A.png)
-
-</TabItem>
-
-<TabItem value="B" label="B - Fond noir">
-
-### Le fond noir (B)
-
-![Le fond noir](/img/docs/guidevideolsh_fond_noir_B.png)
+![Le fond virtuel](/img/docs/guidevideolsh_fond_virtuel_A.webp)
 
 </TabItem>
 
-<TabItem value="C" label="C - Présentation">
+<TabItem value="B" label="Fond noir">
 
-### Le mode présentation (C)
+### Le fond noir (Bouton B)
+
+![Le fond noir](/img/docs/guidevideolsh_fond_noir_B.webp)
+
+</TabItem>
+
+<TabItem value="C" label="Présentation">
+
+### Le mode présentation (Bouton C)
 
 Fonctionne en branchant votre ordinateur au câble HDMI identifié : vous êtes alors incrusté à l’image, superposé au contenu affiché sur votre ordinateur.
 
-![Le mode presentation](/img/docs/guidevideolsh_mode_presentation_C.png)
+![Le mode présentation](/img/docs/guidevideolsh_mode_presentation_C.webp)
 
 </TabItem>
 
-<TabItem value="D" label="D - Personnalisé">
+<TabItem value="D" label="Personnalisé">
 
-### Le mode personnalisé (D)
+### Le mode personnalisé (Bouton D)
 
 Fonctionne en branchant votre ordinateur au câble HDMI identifié : votre image est alors au premier plan, avec le contenu affiché à l’écran en arrière-plan.
 
-![Le mode personnalisé](/img/docs/guidevideolsh_mode_fond_ecran_D.png)
+![Le mode personnalisé](/img/docs/guidevideolsh_mode_fond_ecran_D.webp)
 
 </TabItem>
 
-<TabItem value="E" label="E - Entretien">
+<TabItem value="E" label="Entretien">
 
-### Le mode entretien (E)
+### Le mode entretien (Bouton E)
 
 Fonctionne en branchant votre ordinateur au câble HDMI identifié : vous apparaissez à l’écran aux côtés de votre interlocuteur à distance.
 
-![Le mode entretien](/img/docs/guidevideolsh_entretien_distance_E.png)
+![Le mode entretien](/img/docs/guidevideolsh_entretien_distance_E.webp)
 
 </TabItem>
 
@@ -124,7 +124,7 @@ Fonctionne en branchant votre ordinateur au câble HDMI identifié : vous appara
 
 Permet une incrustation en post-production.
 
-![Le mode fond vert](/img/docs/guidevideolsh_fond_vert.png)
+![Le mode fond vert](/img/docs/guidevideolsh_fond_vert.webp)
 
 </TabItem>
 
@@ -136,9 +136,7 @@ Permet une incrustation en post-production.
 Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams) :
 1. Brancher le câble HDMI (identifié) à votre ordinateur.
 2. Dans les paramètres audio de votre application, sélectionner RØDECaster ou RODE RCV comme entrée et sortie audio.
-3. L’image de votre ordinateur s’affichera automatiquement à l’écran du studio.
-4. Dès qu’un signal audio est détecté, la console bascule automatiquement sur l’entrée HDMI, ce qui permet à l’invité ou à l’invitée d’apparaître à l’écran et dans l’enregistrement.
-
+3. L’image de votre ordinateur s’affichera automatiquement à l’écran du studio. Choisir le mode **Entretien** (Bouton E) pour apparaître à l’écran aux côtés de votre interlocuteur à distance.
 ---
 
 ## Terminer l'enregistrement {#terminer-enregistrement}
@@ -146,18 +144,11 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 2. Débrancher le disque dur et le brancher en utilisant le câble **transfert** sur votre ordinateur pour transférer les fichiers.
 
 :::warning Attention 
-Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement.
+- Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement.
+- Faites une copie de sauvegarde dans votre espace infonuagique ou une 2ème copie dans un autre périphérique.
 :::
 
 ---
-
-## Structure des fichiers
-- Dossier Audio : Contient la piste audio en .wav.
-- Dossier Vidéo : Contient l'enregistrement de la caméra.
-
-:::warning Recommandation
-Faites une copie de sauvegarde dans votre espace infonuagique ou une 2ème copie dans un autre périphérique.
-:::
 
 ## Fin de session
 - Appuyer sur le bouton jaune **Fermer** pour éteindre le système.

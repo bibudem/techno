@@ -1,6 +1,26 @@
 import { themes as prismThemes } from 'prism-react-renderer'
 import remarkInsertHelp from './src/utils/remark-insert-help.js'
 
+function disableIncompatibleWebpackbar() {
+  return {
+    name: 'disable-incompatible-webpackbar',
+    configureWebpack(config, isServer, { currentBundler }) {
+      if (currentBundler.name !== 'webpack') {
+        return {}
+      }
+
+      const plugins = (config.plugins ?? []).filter(
+        (plugin) => plugin?.constructor?.name !== 'WebpackBarPlugin',
+      )
+
+      return {
+        mergeStrategy: { plugins: 'replace' },
+        plugins,
+      }
+    },
+  }
+}
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -44,6 +64,7 @@ const config = {
       },
     ],
   ],
+  plugins: [disableIncompatibleWebpackbar],
   clientModules: [
     // require.resolve('./src/clientModules/udemConsent.js'), 
     require.resolve('./src/clientModules/klaroLoader.js'),

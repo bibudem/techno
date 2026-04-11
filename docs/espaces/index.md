@@ -57,8 +57,8 @@ import CardGrid from "@site/src/components/CardGrid";
     },
     {
       title: "Studios vidéo",
-      description: "Un espace équipé pour filmer des vidéos facilement.",
-      link: "studiovideo",
+      description: "des espaces équipés pour filmer des vidéos facilement.",
+      link: "studiosvideo",
       icon : "VideoCamera",
       image: "/img/cover/studiovideo.webp",
     },
