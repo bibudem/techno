@@ -455,10 +455,7 @@ items: [
         collapsed: true,
         // link: undefined,
         items: [
-          "medias/balado",
-          "medias/guidebaladovideo", 
-          "medias/guidevideolsh",
-          "medias/guidevideotgd",
+          "medias/balado", 
           "medias/rodecaster",
           "medias/audacity",
         ],
@@ -473,6 +470,9 @@ items: [
         items: [
           "medias/adoberush",
           "medias/obs",
+          "medias/guidebaladovideo",
+          "medias/guidevideolsh",
+          "medias/guidevideotgd",
         ],
       },
 
