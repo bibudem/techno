@@ -3,6 +3,7 @@ title: Guide du studio vidéo LSH
 description: Guide pour la prise en main du studio vidéo de la Bibliothèque des lettres et sciences humaines.
 slug: /medias/guidevideolsh
 breadcrumbs: true
+toc_max_heading_level: 2
 help : crea
 ---
 
