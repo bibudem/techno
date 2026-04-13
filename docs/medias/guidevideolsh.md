@@ -11,21 +11,14 @@ import TabItem from '@theme/TabItem';
 
 ## Avant l’enregistrement {#avant-enregistrement}
 1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.
-2. Appuyer sur le bouton jaune au centre de la console.
-
-![Le bouton jaune au milieu de la console](/img/docs/studio-interface-control-1.webp)
-
+2. Appuyer sur le bouton jaune <img src="/img/docs/boutonjaune.png" alt="Le bouton jaune au milieu de la console" width="30" /> au centre de la console.
 3. Les lumières et la caméra s’allumeront automatiquement. Éteindre l’éclairage ambiant (néons au plafond). 
 4. L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
 
-![L'écran de retour avec l'espace libre disponible](/img/docs/studio-interface-control-3.webp)
+<img src="/img/docs/studio-interface-control-3.png" alt="L'écran de retour avec l'espace libre disponible" width="500" />
 
-5. La mise au point de la caméra se fait automatiquement au démarrage.
-
-6. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
-7. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
-
-<!-- ![L'interface de la console pour contrôler le système]() -->
+5. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
+6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
 <details>
   <summary>**Comment formater le disque dur?**</summary>
