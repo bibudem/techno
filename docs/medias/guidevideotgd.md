@@ -131,6 +131,7 @@ Permet une incrustation en post-production.
 
 </Tabs>
 
+---
 
 ## Bon à savoir {#bon-a-savoir}
 
