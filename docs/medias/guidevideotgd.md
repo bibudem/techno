@@ -6,6 +6,9 @@ breadcrumbs: true
 help : crea
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Le studio vidéo de la Bibliothèque Thérèse-Gouin-Décarie (TGD) permet de créer en toute simplicité des vidéos dans un espace spécifiquement aménagé. Vous aurez seulement besoin d'une clé USB. C'est l'endroit idéal pour pratiquer une présentation orale, créer des capsules de formation, ajouter du contenu vidéo dans un travail ou réaliser une présentation par affiche avec incrustation d’images!
 
 ---
@@ -50,7 +53,11 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
 
 4 différents modes d’enregistrement sont disponibles pour créer votre vidéo. Le panneau de sélection des 4 sources se trouve au mur.
 
-### Source 1 : Présentation standard avec ou sans écran mobile
+<Tabs>
+
+<TabItem value="A" label="Présentation standard">
+
+### Présentation standard (Source 1)
 
 #### Avec écran mobile
 
@@ -71,9 +78,11 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
 
 ![](/img/docs/studiovideo5.webp)
 
----
+</TabItem>
 
-### Source 2 : Présentation avec tableau lumineux transparent
+<TabItem value="B" label="Tableau lumineux">
+
+### Tableau lumineux (Source 2)
 
 ![](/img/docs/studiovideo6.webp)
 
@@ -92,10 +101,13 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
    
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NFxWiwcch58?si=pbdOBazs5mbB1e-V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
----
+</TabItem>
 
+<TabItem value="C" label="Fond vert">
 
-### Source 3 : Présentation sur fond vert
+### Le mode fond vert (Source 3)
+
+Permet une incrustation en post-production.
 
 ![](/img/docs/studiovideo8.webp)
 
@@ -103,19 +115,22 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 
 - Ne porter aucun vêtement vert.
 - Utiliser une image de fond neutre ou générale.
-- Tirer le rideau noir pour faire place au mur vert (à la Bibliothèque Thérèse-Gouin-Décarie) ou au rideau métallique (Bibliothèque des lettres et sciences humaines).
-- L’incrustation d’image se fait en postproduction, grâce aux logiciels de montage tels Adobe Premiere Pro ou Davinci Resolve.
+- Tirer le rideau noir pour faire place au mur vert (à la Bibliothèque Thérèse-Gouin-Décarie) ou au rideau métallique (Bibliothèque des lettres et sciences humaines).   
 
----
+</TabItem>
 
-### Source 4 : Table de présentation vue de haut
+<TabItem value="D" label="Vue de haut">
 
+### Le mode vue de haut (Source 4)
 
 ![](/img/docs/studiovideo10.webp)
 
 ![](/img/docs/studiovideo11.webp)
 
----
+</TabItem>
+
+</Tabs>
+
 
 ## Bon à savoir {#bon-a-savoir}
 
