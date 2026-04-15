@@ -23,7 +23,7 @@ Direction de la recherche et des initiatives numériques (DRIN)
 
 ---
 
-# **Atelier de fabrication**
+# **[Atelier de fabrication](https://studio.bib.umontreal.ca/espaces/ateliers)**
 
 ---
 
@@ -52,7 +52,7 @@ Direction de la recherche et des initiatives numériques (DRIN)
   data-background-position="bottom 30px right 40px"
   data-background-repeat="no-repeat">
 
-# **Impression 3D**
+# **[Impression 3D](https://studio.bib.umontreal.ca/creatives/impression3d)**
 
 - Parcs d’imprimantes Bambu Lab, Ultimaker, Prusa
 - +18 imprimantes disponibles
@@ -184,19 +184,14 @@ Voir la liste complète des logiciels disponibles
   data-background-repeat="no-repeat">
 
 
-# **[Studio vidéo](https://studio.bib.umontreal.ca/espaces/studiovideo)**  
-### (en révision majeure)
+# **[Studios vidéo](https://studio.bib.umontreal.ca/espaces/studiosvideo)**  
 
-- Tournages pédagogiques  
-- Captations institutionnelles  
 - Éclairage studio  
-- Caméras Full HD, micros, fond uni  
-- Prochaines améliorations :
-  - automatisation  
-  - amélioration de la qualité
-  - Prompteur
-  - scénarios préconfigurés  
-  - ergonomie  
+- Caméras Full HD, micros, fond vert
+- automatisation  
+- Prompteur
+- différents modes de présentation  
+  
 
 </section>
 
@@ -447,6 +442,8 @@ Elles sont devenues des lieux où l’on crée, explore, expérimente, diffuse.*
 **studio.bib.umontreal.ca**  
 
 **studio@bib.umontreal.ca**
+
+**emir.chouchane@umontreal.ca**
 
 </section>
 
