@@ -61,6 +61,7 @@ Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement
 :::
 
 ### Extension Zutilo
+**L'extention Zutilo n'est présentement pas compatible avec la version de Zotero la plus récente Zotero version 9 sortire en avril 2026, la mise èa jour de ce plugin prend habituellement 3-4 mois.**
 Il est recommandé d’installer l’extension Zutilo pour bénéficier de fonctionnalités supplémentaires. [Télécharger](https://github.com/wshanks/Zutilo/releases) sur votre ordinateur le fichier *.xpi de l’extension, puis aller dans **Zotero → Outils → Extensions → Roue → Install Plugin From File** : choisir et ouvrir le fichier XPI. Parfois, il faut redémarrer Zotero (voir site Web LGB ci-dessous).
 
 ### Astuces 
@@ -85,6 +86,7 @@ Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement
 :::
 
 ### Extension Zutilo
+**L'extention Zutilo n'est présentement pas compatible avec la version de Zotero la plus récente Zotero version 9 sortire en avril 2026, la mise èa jour de ce plugin prend habituellement 3-4 mois.**
 Il est recommandé d’installer l’extension Zutilo pour bénéficier de fonctionnalités supplémentaires. [Télécharger](https://github.com/wshanks/Zutilo/releases) sur votre ordinateur le fichier *.xpi de l’extension, puis aller dans **Zotero → Outils → Extensions → Roue → Install Plugin From File** : choisir et ouvrir le fichier XPI. Parfois, il faut redémarrer Zotero (voir site Web LGB ci-dessous).
 
 ### Astuces 
