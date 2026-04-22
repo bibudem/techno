@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useHistory } from "@docusaurus/router";
+import Link from "@docusaurus/Link";
 import Papa from "papaparse";
 import {
   PlugsConnected,
@@ -30,11 +30,31 @@ const biblioLinks = {
 
 // Composant pour afficher un logiciel
 const Logiciel = ({ nom, categorie, description, libre, distance, lien, bibliotheques = "" }) => {
-  const history = useHistory();
+  const hasGuide = Boolean(lien);
+  const isExternalGuide = /^https?:\/\//i.test(lien);
 
   return (
     <div className="logiciel">
-      <h3>{nom}</h3>
+      <h3>
+        {hasGuide ? (
+          isExternalGuide ? (
+            <a
+              className="logiciel-title-link"
+              href={lien}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {nom}
+            </a>
+          ) : (
+            <Link className="logiciel-title-link" to={lien}>
+              {nom}
+            </Link>
+          )
+        ) : (
+          nom
+        )}
+      </h3>
       <p className="categorie-label">{categorie}</p>
       <p>{description}</p>
 
@@ -56,16 +76,23 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
           </a>
         )}
 
-        {lien && (
-          <a
-            className="tag tag--clickable guide-link"
-            href={lien}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LinkSimple size={16} weight="bold" />
-            Guides
-          </a>
+        {hasGuide && (
+          isExternalGuide ? (
+            <a
+              className="tag tag--clickable guide-link"
+              href={lien}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkSimple size={16} weight="bold" />
+              Guides
+            </a>
+          ) : (
+            <Link className="tag tag--clickable guide-link" to={lien}>
+              <LinkSimple size={16} weight="bold" />
+              Guides
+            </Link>
+          )
         )}
       </div>
 
@@ -138,12 +165,14 @@ const LogicielCatalogue = () => {
           placeholder="Rechercher un logiciel..."
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
+          aria-label="Rechercher un logiciel"
           className="search-bar"
         />
 
         <select
           value={selectedCategory}
           onChange={e => setSelectedCategory(e.target.value)}
+          aria-label="Filtrer les logiciels par catégorie"
           className="category-filter"
         >
           {categories.map((category, index) => (
@@ -156,7 +185,7 @@ const LogicielCatalogue = () => {
         {filteredLogiciels.length > 0 ? (
           filteredLogiciels.map((logiciel, index) => <Logiciel key={index} {...logiciel} />)
         ) : (
-          <p>Aucun logiciel trouvé.</p>
+          <p className="catalogue-empty">Aucun logiciel trouvé.</p>
         )}
       </div>
     </div>
