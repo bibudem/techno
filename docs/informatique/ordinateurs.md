@@ -65,7 +65,7 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
     marginTop: "1.5rem"
   }}
 >
-  <Disponibilite label="Aménagement" oclc="1194592312" />
+  <!-- <Disponibilite label="Aménagement" oclc="1194592312" /> -->
   <Disponibilite label="Droit" oclc="1287017409" />
   <Disponibilite label="Campus Laval" oclc="1287017250" />
   <Disponibilite label="Hubert-Reeves" oclc="1240170705" />
@@ -75,9 +75,9 @@ Des ordinateurs portables sont disponibles pour la communauté étudiante de l'U
 
     Adressez-vous au comptoir de prêt des bibliothèques concernées.
 
-    :::note Surface Book 2
+    <!-- :::note Surface Book 2
     La Bibliothèque d'aménagement offre le prêt d'ordinateurs Surface Book 2 qui allient la polyvalence d’un ordinateur portable, d’une tablette et d’un studio portable. Ils sont équipés d’un stylet et ont une licence Adobe Creative Cloud. Ces ordinateurs doivent être utilisés à l'intérieur de la Bibliothèque d'aménagement.
-    :::
+    ::: -->
   </TabItem>
 
   <TabItem value="pret-7j" label="Prêt 7 jours">
