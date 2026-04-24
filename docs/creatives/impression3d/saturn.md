@@ -3,8 +3,7 @@
 ---
 
 :::danger Imprimante non disponible
-En raison d'une panne, l'imprimante à résine sera indisponible pour une durée inderterminée
-Merci de votre compréhension
+En raison d'une panne, l'imprimante à résine sera indisponible pour une durée inderterminée. Merci de votre compréhension
 :::
 
 # Imprimante à résine Elegoo Saturn 3 Ultra 12K
