@@ -2,6 +2,11 @@
 
 ---
 
+:::danger Imprimante non disponible
+En raison d'une panne, l'imprimante à résine sera indisponible pour une durée inderterminée
+Merci de votre compréhension
+:::
+
 # Imprimante à résine Elegoo Saturn 3 Ultra 12K
 
 L’impression à résine de la bibliothèque Thérèse-Gouin-Décarie utilise des résines photopolymères végétales à base de soja et la technologie de source de lumière COB + réfractive pour une précision maximale. La source de lumière COB (Chip on Board) est une technologie LED avancée où plusieurs puces forment un seul module compact et très lumineux. Elle offre une lumière uniforme, précise et intense. 
