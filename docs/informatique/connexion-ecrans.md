@@ -51,7 +51,7 @@ Assurez-vous d’être connecté au réseau WI-FI **UdeM avec cryptage** et que 
 - Sélectionner le numéro du local
 - Saisir le code PIN affiché en haut de l’écran
   
-  Les utilisateurs Google Pixel doivent plutôt utiliser [vSolution App] (https://play.google.com/store/apps/details?id=com.wolfvision.phoenix)
+  Les utilisateurs Google Pixel doivent plutôt utiliser [vSolution App](https://play.google.com/store/apps/details?id=com.wolfvision.phoenix)
 
 :::caution
 Le système de projection sans fil présente certaines difficultés de compatibilité avec les appareils de la gamme Google Pixel. 
