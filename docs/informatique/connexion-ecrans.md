@@ -50,6 +50,8 @@ Assurez-vous d’être connecté au réseau WI-FI **UdeM avec cryptage** et que 
 - Choisir **Diffuser**, **Smart View** ou **Screencast**
 - Sélectionner le numéro du local
 - Saisir le code PIN affiché en haut de l’écran
+  
+  Les utilisateurs Google Pixel doivent plutôt utiliser [vSolution App] (https://play.google.com/store/apps/details?id=com.wolfvision.phoenix)
 
 :::caution
 Le système de projection sans fil présente certaines difficultés de compatibilité avec les appareils de la gamme Google Pixel. 
@@ -65,4 +67,4 @@ Le système de projection sans fil présente certaines difficultés de compatibi
 - [**Bibliothèque de santé**](https://bib.umontreal.ca/espaces/#sante) : L812, L840, L849, L871, L873, L875, L878, L882 et L884. [Réserver un local](https://calendrier.bib.umontreal.ca/spaces?lid=2145&gid=0&c=0).
 - [**Bibliothèque de kinésiologie**](https://bib.umontreal.ca/espaces/#kinesiologie) : locaux 8245-1, 8259-1 et 8259-2. [Réserver un local](https://calendrier.bib.umontreal.ca/spaces?lid=2140&gid=3975).
 - [**Bibliothèque Hubert Reeves**](https://bib.umontreal.ca/espaces/#Hubert-reeves) : [Laboratoire de visualisation](../espaces/visualisation.md)  
-- [**Bibliothèque des lettres et sciences humaines**](https://bib.umontreal.ca/espaces/#lsh) : Laboratoire de formation, local 2076-4 
+- [**Bibliothèque des lettres et sciences humaines**](https://bib.umontreal.ca/espaces/#lsh) : Salles de travail en équipe 5113, 5123 et 6123. Laboratoire de formation, local 2076-4.

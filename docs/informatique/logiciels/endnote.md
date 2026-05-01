@@ -27,6 +27,8 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 <Tabs groupId="os-tabs">
       <TabItem value="windows" label="Windows">
 
+
+# Étape 1 – Installer EndNote
 1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
 2. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
@@ -43,6 +45,74 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
     3. Ouvrir le fichier.
 :::
 
+---
+
+# Étape 2 – Créer un dossier et une bibliothèque EndNote
+
+> ⚠️ **Attention**  
+> Ne jamais utiliser une bibliothèque EndNote directement sur un service infonuagique (ex. : iCloud, OneDrive, Google Drive, Dropbox).  
+> Choisir un emplacement local non synchronisé automatiquement (ex. : `C:\endnote`).
+
+## Créer un dossier
+
+- Ouvrir l’Explorateur Windows  
+- Cliquer **Ce PC → Windows (C:)**  
+- Faire un clic droit → **Nouveau → Dossier**  
+- Nommer le dossier : `endnote`  
+
+*Si vous avez déjà une bibliothèque, vous pouvez la déposer dans ce dossier (`fichier.enl` et dossier `.data`).*
+
+## Créer une nouvelle bibliothèque
+
+- Ouvrir **EndNote**  
+- Cliquer **Fichier → Nouveau**  
+- Nommer et enregistrer la bibliothèque dans le dossier créé à l’étape 7 (ex. : `C:\endnote`)
+- Cette bibliothèque s’ouvrira et sera accessible.
+
+## Comportement par défaut
+
+Par défaut, EndNote ouvre la dernière bibliothèque utilisée.  
+
+Pour modifier ce comportement :  
+**Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
+
+
+---
+
+# Étape 3 – Synchroniser votre bibliothèque avec EndNote Online (recommandé)
+
+La synchronisation permet de stocker vos références sur les serveurs d’EndNote pour ensuite accéder à votre bibliothèque à partir de tout autre ordinateur, et permet le partage de votre bibliothèque.
+
+**Attention:** Il n'est pas recommandé d'utiliser cette fonctionnalité si vous possédez plusieurs bibliothèques EndNote sur votre ordinateur. Veuillez alors effectuer la sauvegarde manuelle présentée à l’étape suivante.
+
+1. Ouvrir **EndNote**  
+2. Cliquer **Modifier → Préférences → Activer Sync**  
+3. Suivre les instructions à l’écran  
+
+
+---
+
+# Étape 4 – Effectuer une copie de sauvegarde (recommandé)
+
+Il est recommandé de faire régulièrement des copies de sauvegarde de votre bibliothèque.
+
+Une bibliothèque EndNote est composée de :
+- un fichier `.enl`  
+- un dossier `.data`  
+
+Il est possible de les compresser en un seul fichier `.enlx` pour ensuite le copier sur un nuage.
+
+1. Dans EndNote, ouvrir la bibliothèque à compresser  
+2. Cliquer **Fichier → Compresser la bibliothèque (.enlx)**  
+3. Sélectionner :
+   - **Créer**  
+   - **Avec des pièces jointes**  
+   - **Toutes les références de la bibliothèque**  
+4. Cliquer **Suivant**  
+5. Choisir l’emplacement d’enregistrement (idéalement dans un dossier synchronisé dans le nuage)  
+6. Cliquer **Enregistrer**  
+
+> 💡 Il est recommandé d’ajouter la date au début du nom du fichier.
 </TabItem>
 
 <TabItem value="macos" label="macOS">
@@ -60,40 +130,87 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécurité** → **Ouvrir quand même**
 :::
 
-7. Seulement si une une fenêtre s’ouvre ```Would you like to overwrite the EndNote X9 at /Applications/EndNote X9 ?```, Cocher ***Yes*** pour écraser la version antérieure.
-8. Seulement si ce message s’affiche : ```This library was created using an earlier version of EndNote and needs to be converted for use with this version of EndNote…```, Cliquer  ***Yes*** pour créer une version convertie de votre base de données EndNote (pour une première installation d’EndNote, cliquer aussi ***Yes*** pour générer une première base de données dans le bon format). La version originale sera conservée et pourra être utilisée avec EndNoteX9.2 et moins. La version convertie pourra être utilisée uniquement avec EndNote X9.3 et plus.
-9. Seulement si vous avez eu les deux messages des points 7 et 8 : Renommer votre version convertie pour la distinguer de la version originale, par exemple : ```bd-convertie```. Votre base de données convertie s’ouvrira dans EndNote 2025.
-10.   Si le logiciel est installé pour la première fois, lors de la première ouverture du logiciel il sera alors nécessaire de créer une nouvelle librairie en cliquant : ***File*** → ***New*** → ***Save***.
+---
+
+# Étape 2 – Créer un dossier et une bibliothèque EndNote
+
+> ⚠️ **Attention**  
+> Ne jamais utiliser une bibliothèque EndNote directement sur un service infonuagique (ex. : iCloud, OneDrive, Google Drive, Dropbox).  
+> Choisir un emplacement local non synchronisé automatiquement (ex. : `C:\endnote`).
+
+## Créer un dossier
+
+- Ouvrir Finder  
+- Cliquer **Finder → Aller → Départ**  
+- Cliquer en haut → **Fichier → Nouveau Dossier**  
+- Nommer le dossier : `endnote`  
+
+*Si vous avez déjà une bibliothèque, vous pouvez la déposer dans ce dossier (`fichier.enl` et dossier `.data`).*
+
+## Créer une nouvelle bibliothèque
+
+- Ouvrir **EndNote**  
+- Cliquer **Fichier → Nouveau**  
+- Nommer et enregistrer la bibliothèque dans le dossier créé à l’étape 7 (ex. : `C:\endnote`)  
+- Cette bibliothèque s’ouvrira et sera accessible.
+
+## Comportement par défaut
+
+Par défaut, EndNote ouvre la dernière bibliothèque utilisée.  
+
+Pour modifier ce comportement :  
+**Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
+
+
+---
+
+# Étape 3 – Synchroniser votre bibliothèque avec EndNote Online (recommandé)
+
+La synchronisation permet de stocker vos références sur les serveurs d’EndNote pour ensuite accéder à votre bibliothèque à partir de tout autre ordinateur, et permet le partage de votre bibliothèque.
+
+**Attention:** Il n'est pas recommandé d'utiliser cette fonctionnalité si vous possédez plusieurs bibliothèques EndNote sur votre ordinateur. Veuillez alors effectuer la sauvegarde manuelle présentée à l’étape suivante.
+
+1. Ouvrir **EndNote**  
+2. Cliquer **Modifier → Préférences → Activer Sync**  
+3. Suivre les instructions à l’écran  
+
+
+---
+
+# Étape 4 – Effectuer une copie de sauvegarde (recommandé)
+
+Il est recommandé de faire régulièrement des copies de sauvegarde de votre bibliothèque.
+
+Une bibliothèque EndNote est composée de :
+- un fichier `.enl`  
+- un dossier `.data`  
+
+Il est possible de les compresser en un seul fichier `.enlx` pour ensuite le copier sur un nuage.
+
+1. Dans EndNote, ouvrir la bibliothèque à compresser  
+2. Cliquer **Fichier → Compresser la bibliothèque (.enlx)**  
+3. Sélectionner :
+   - **Créer**  
+   - **Avec des pièces jointes**  
+   - **Toutes les références de la bibliothèque**  
+4. Cliquer **Suivant**  
+5. Choisir l’emplacement d’enregistrement (idéalement dans un dossier synchronisé dans le nuage)  
+6. Cliquer **Enregistrer**  
+
+> 💡 Il est recommandé d’ajouter la date au début du nom du fichier.
 
 </TabItem>
 </Tabs>
 
-## Mise à jour
+
+## Si problème barre word
 
 <Tabs groupId="os-tabs">
 <TabItem value="windows" label="Windows">
 
-1. Ouvrir EndNote.
-2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu *Aide*** → ***Rechercher les mises à jour***
 
-</TabItem>
-<TabItem value="macos" label="macOS">
 
-1. Ouvrir EndNote.
-2. Si proposé, procéder au téléchargement et à l’installation des mises à jour.
-3. Vérifier la présence d’autres mises à jour et les installer dans le **Menu EndNote 2025** → ***Rechercher des mises à jour***
 
-</TabItem>
-</Tabs>
-
-## Ouverture du logiciel
-
-<Tabs groupId="os-tabs">
-<TabItem value="windows" label="Windows">
-
-Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
-Pour changer cela, cliquer ***Modifier*** → ***Préférences*** → ***Bibliothèques*** et choisir l’option voulue.
 </TabItem>
 <TabItem value="macos" label="macOS">
 
@@ -103,31 +220,6 @@ Pour changer cela, cliquer ***EndNote2025*** → ***Réglages*** → ***Biblioth
 :::note Important
 Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
 :::
-
-</TabItem>
-</Tabs>
-
-## Configuration initiale
-
-<Tabs groupId="os-tabs">
-<TabItem value="windows" label="Windows">
-
-1. Sous ***Modifier*** → ***Préférences*** → ***Rechercher le texte intégral***, cocher ***OpenURL***
-2. Dans ***Chemin OpenURL***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
-3. Cocher ***PubMed LinkOut (U.S. National Library of Medicine)***.
-4. S'assurer que la case *Invoquer automatiquement la fonction Rechercher le texte intégral pour les références nouvellement importées* est **décochée**.
-5. Sous ***Modifier*** → ***Préférences*** → ***URLs et liens***, remplacer les informations présentes dans la boîte **Arguments OpenURL**, en copiant la ligne de commande suivante : <CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
-1. Cliquer **OK**.
-</TabItem>
-
-<TabItem value="macos" label="macOS">
-
-1. Sous ***EndNote2025*** → ***Réglages*** → ***Rechercher le texte intégral***, cocher ***OpenURL***
-2. Dans ***Chemin OpenURL***, copier et coller le lien suivant : <CopyToClipboardButton text="https://umontreal.on.worldcat.org/atoztitles/link"/>
-3. Cocher ***PubMed LinkOut (U.S. National Library of Medicine)***.
-4. S'assurer que la case *Invoquer automatiquement la fonction Rechercher le texte intégral pour les références nouvellement importées* est **décochée**.
-5. Sous ***EndNote2025*** → ***Réglages*** → ***URLs et liens***, remplacer les informations présentes dans la boîte ***Arguments OpenURL***, en copiant la ligne de commande suivante : <CopyToClipboardButton text="?sid=endnote&aufirst=AUFIRST&aulast=AULAST&issn=ISSN&isbn=ISBN&atitle=ATITLE&title=TITLE&volume=VOLUME&issue=ISSUE&date=DATE&spage=SPAGE&epage=EPAGE" />
-6. Cliquer **Enregistrer**.
 
 </TabItem>
 </Tabs>
