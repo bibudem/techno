@@ -38,16 +38,12 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 ## Localisation
 
 <details>
-<<<<<<< HEAD
-  <summary>**Bibliothèque de droit - 17 postes**</summary>
-=======
-  <summary>**Bibliothèque d'aménagement**</summary>
+  <summary>**Bibliothèque d'aménagement - 2 postes**</summary>
   - 2 postes : section arrière
 </details>
 
 <details>
-  <summary>**Bibliothèque de droit**</summary>
->>>>>>> e2ebd21d297dd63f2d1e512528dedba732edfaca
+  <summary>**Bibliothèque de droit - 17 postes**</summary>
   - 17 postes : 
     - 14 dans les salles de travail pour cycles supérieurs :
       - 10 avec écran standard.
