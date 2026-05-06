@@ -76,6 +76,11 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
     - 3 dans la salle de lecture.
 </details>
 
+<details>
+  <summary>**Bibliothèque de médecine vétérinaire**</summary>
+  - 2 postes : situés dans l'aire publique    
+</details>
+
 ---
 
 ## Aide
