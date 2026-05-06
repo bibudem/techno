@@ -38,6 +38,22 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 ## Localisation
 
 <details>
+  <summary>**Bibliothèque de droit**</summary>
+  - 17 postes : 
+    - 14 dans les salles de travail pour cycles supérieurs :
+      - 10 avec écran standard.
+      - 4 avec écran ultralarge 21:9. 
+    - 3 dans la salle de lecture.
+</details>
+
+<details>
+<summary>**Bibliothèque Hubert-Reeves**</summary>
+- 6 postes :
+  - 5 à la cartothèque.
+  - 1 à l'entrée A.
+</details>
+
+<details>
   <summary>**Bibliothèque des lettres et sciences humaines**</summary>
   - 20 postes :
     - 1 au service Accessibilité local 1085-2.
@@ -49,31 +65,8 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 </details>
 
 <details>
-<summary>**Bibliothèque de la santé**</summary>
-- 5 postes :
-    - 4 au 6<sup>e</sup> étage.
-    - 1 au 8<sup>e</sup> étage.
-</details>
-
-<details>
-<summary>**Bibliothèque Hubert-Reeves**</summary>
-- 6 postes :
-  - 5 à la cartothèque.
-  - 1 à l'entrée A.
-</details>
-
-<details>
   <summary>**Bibliothèque de mathématiques et informatique**</summary>
   - 6 postes : situés dans la zone de silence. 
-</details>
-
-<details>
-  <summary>**Bibliothèque de droit**</summary>
-  - 17 postes : 
-    - 14 dans les salles de travail pour cycles supérieurs :
-      - 10 avec écran standard.
-      - 4 avec écran ultralarge 21:9. 
-    - 3 dans la salle de lecture.
 </details>
 
 <details>
@@ -81,6 +74,12 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
   - 2 postes : situés dans l'aire publique    
 </details>
 
+<details>
+<summary>**Bibliothèque de la santé**</summary>
+- 5 postes :
+    - 4 au 6<sup>e</sup> étage.
+    - 1 au 8<sup>e</sup> étage.
+</details>
 ---
 
 ## Aide
