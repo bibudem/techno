@@ -64,5 +64,5 @@ Le système de projection sans fil présente certaines difficultés de compatibi
 
 - [**Bibliothèque Hubert-Reeves**](https://bib.umontreal.ca/espaces/#Hubert-reeves) : [Laboratoire de visualisation](../espaces/visualisation.md).
 - [**Bibliothèque de kinésiologie**](https://bib.umontreal.ca/espaces/#kinesiologie) : locaux 8245-1, 8259-1 et 8259-2. [Réserver un local](https://calendrier.bib.umontreal.ca/spaces?lid=2140&gid=3975).
-- [**Bibliothèque des lettres et sciences humaines**](https://bib.umontreal.ca/espaces/#lsh) : Salles de travail en équipe 3023, 5113, 5123 et 6123. [Réserver un local](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=0&c=0).
+- [**Bibliothèque des lettres et sciences humaines**](https://bib.umontreal.ca/espaces/#lsh) : Salles de travail en équipe 3023, 5113, 5123 et 6123. [Réserver un local](https://calendrier.bib.umontreal.ca/spaces?lid=2019&gid=0&c=0). Local 2076-4 - [Atelier de zines](../espaces/zines.md).
 - [**Bibliothèque de la santé**](https://bib.umontreal.ca/espaces/#sante) : L812, L840, L849, L871, L873, L875, L878, L882 et L884. [Réserver un local](https://calendrier.bib.umontreal.ca/spaces?lid=2145&gid=0&c=0).
