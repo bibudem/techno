@@ -31,7 +31,7 @@ help : crea
 
 - Une fois allumé on se retrouve dans le salon des Bibliothèques
 ![VR5](/img/docs/VR5.webp)
-- S'assurer que le Wi-fi est connecté. Dans le pavillon d'emprunt du casque la connexion devrait se faire automatiquement. Chez vous il faut sélectionner le réseau souhaité et entrer le code correspondant pour s'y connecter
+- En dehors de l'UdeM, se connecter normalement au wifi. Sur le campus il est impossible de se connecter à UdeM avec cryptage. Mais il est possible d'utiliser le casque sans se connecter au réseau wifi.
 ![VRX-wifi](/img/docs/VRX-wifi.webp)
 ![VRX-wifi-2](/img/docs/VRX-wifi-2.webp)
 - Une fois connecté, retourner à l'écran d'acceuil pour faire apparaître la liste des applications disponibles
