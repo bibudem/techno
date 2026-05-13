@@ -53,6 +53,19 @@ Assurez-vous d’être connecté au réseau Wi-Fi **UdeM avec cryptage** et que 
   
 :::caution
 Le système de projection sans fil présente certaines difficultés de compatibilité avec les appareils de la gamme Google Pixel. Les utilisateurs de ces appareils doivent utiliser l'application [vSolution App](https://play.google.com/store/apps/details?id=com.wolfvision.phoenix)
+
+1.	Ouvrir vSolution App
+2.	En bas, cliquer le **2e onglet**
+3.	Cliquer « + »
+4.	Saisir l'adresse IP indiquée à l’écran (ex. : 10.67.246.234) → appuyer **Ajouter un appareil**
+5.	Appuyer sur l’appareil voulu (ex. : BIB-BLSH-5123)
+6.	Dans le Sélecteur de Mode, sélectionner **Écran de partage** (si demandé, cliquer autoriser) 
+7.	Appuyer **Écran de partage**
+8.	Dans le champ **Nom de fenêtre** entrer le nom de la salle (ex. : BIB-BLSH-5123)
+9.	Dans le champ PIN, entrer le code à 4 chiffres qui s’affiche en haut de l’écran
+10.	Cliquer **Partage**
+11.	Sélectionner **Partager l’intégralité de l’écran** et **Partager l’écran**
+
 :::
 
 </TabItem>
