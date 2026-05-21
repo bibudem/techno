@@ -88,7 +88,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 
 <details>
 <summary>**Bibliothèque Thérèse-Gouin-Décarie - 3 postes**</summary>
-- 5 postes :
+- 3 postes :
     - 2 au 2<sup>e</sup> étage, section de la rotonde.
     - 1 au 3<sup>e</sup> étage.
 </details>
