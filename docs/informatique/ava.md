@@ -82,8 +82,15 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 <details>
 <summary>**Bibliothèque de la santé - 5 postes**</summary>
 - 5 postes :
-    - 4 au 6<sup>e</sup> étage.
-    - 1 au 8<sup>e</sup> étage.
+    - 4 au 2<sup>e</sup> étage.
+    - 1 au 3<sup>e</sup> étage.
+</details>
+
+<details>
+<summary>**Bibliothèque Thérèse-Gouin-Décarie - 3 postes**</summary>
+- 5 postes :
+    - 2 au 2<sup>e</sup> étage, section de la rotonde.
+    - 1 au 3<sup>e</sup> étage.
 </details>
 ---
 
