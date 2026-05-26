@@ -106,7 +106,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 ---
 
 :::tip Revalorisation des filaments 3D - projet FilUM
-Les bibliothèques participent au **projet FilUM**, une initiative du laboratoire de chimie [LabLaventure](https://www.laventurelab.com/) de l’Université de Montréal, qui vise à revaloriser les matériaux résiduels de l’impression 3D en nouveaux filaments utilisables pour de futures impressions.
+Les bibliothèques participent au **projet FilUM**, une initiative du laboratoire de chimie [LabLaventure]([https://www.laventurelab.com/](https://www.laventurelab.com/project-1)) de l’Université de Montréal, qui vise à revaloriser les matériaux résiduels de l’impression 3D en nouveaux filaments utilisables pour de futures impressions.
 
 Cette collaboration permet de donner une seconde vie aux déchets de filament et de contribuer à une impression 3D plus durable et responsable.
 :::
