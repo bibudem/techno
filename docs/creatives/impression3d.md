@@ -115,7 +115,7 @@ Cette collaboration permet de donner une seconde vie aux déchets de filament et
   <iframe
     width="360"
     height="640"
-    src="https://www.youtube.com/shorts/92DW3QDXqRw"
+    src="https://youtube-nocookie.com/embed/92DW3QDXqRw?si=7JuHmUSXvl6aZX4f"
     title="YouTube video player"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
