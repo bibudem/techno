@@ -136,7 +136,7 @@ Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécu
 
 > ⚠️ **Attention**  
 > Ne jamais utiliser une bibliothèque EndNote directement sur un service infonuagique (ex. : iCloud, OneDrive, Google Drive, Dropbox).  
-> Choisir un emplacement local non synchronisé automatiquement (ex. : `C:\endnote`).
+> Choisir un emplacement local non synchronisé automatiquement (ex. : `Départ\endnote`).
 
 ## Créer un dossier
 
@@ -151,7 +151,7 @@ Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécu
 
 - Ouvrir **EndNote**  
 - Cliquer **Fichier → Nouveau**  
-- Nommer et enregistrer la bibliothèque dans le dossier créé à l’étape 7 (ex. : `C:\endnote`)  
+- Nommer et enregistrer la bibliothèque dans le dossier créé à l’étape précédente (ex. : `Départ\endnote`)  
 - Cette bibliothèque s’ouvrira et sera accessible.
 
 ## Comportement par défaut
