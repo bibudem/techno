@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
         2. Désactiver **Détecter automatiquement les paramètres**.  
         3. Sous **Utiliser un script d’installation**, cliquer **Configurer**.  
         4. Activer **Utiliser un script de configuration**.  
-        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
+        5. Saisir <CopyToClipboardButton text="https://proxy.umontreal.ca"/>.  
         6. Cliquer **Enregistrer**.
 
         **Tutoriel vidéo**  
@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
       <TabItem value="Windows10" label="Windows 10">
         1. **Démarrer → Paramètres → Réseau et Internet → Proxy**.  
         2. Activer **Utiliser un script d’installation**.  
-        3. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
+        3. Saisir <CopyToClipboardButton text="https://proxy.umontreal.ca"/>.  
         4. Cliquer **Enregistrer**.
 
         **Tutoriel vidéo**  
@@ -123,7 +123,7 @@ import TabItem from '@theme/TabItem';
     1. Glisser le doigt du haut vers le bas (2 fois) et toucher le Wi‑Fi.  
     2. **Plus de paramètres → Modifier le réseau → Options avancées**.  
     3. Sous **Serveur mandataire**, sélectionner **Config. auto du mandataire**.  
-    4. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
+    4. Saisir <CopyToClipboardButton text="https://proxy.umontreal.ca"/>.  
     5. **Enregistrer**.
   </TabItem>
   <TabItem value="Linux" label="Linux">
@@ -132,7 +132,7 @@ import TabItem from '@theme/TabItem';
     3. Cliquer **Réseau**
     4. Activer **Serveur mandataire** ou **Proxy**
     5. Cliquer **Automatique**
-    6. Dans URL de configuration, taper sans espace <CopyToClipboardButton text="http://proxy.umontreal.ca"/>
+    6. Dans URL de configuration, taper sans espace <CopyToClipboardButton text="https://proxy.umontreal.ca"/>
     7. Fermer la fenêtre
   </TabItem>
 </Tabs>
