@@ -6,6 +6,8 @@ help: info
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import React from 'react';
+import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
 **TEMPORAIRE - VPN Cisco Secure Client - page temporaire** 
 Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
@@ -16,26 +18,29 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    Prérequis : macOS 14 et ultérieur.
+    Prérequis : macOS 13 et ultérieur.
     **Utiliser le navigateur internet Safari.**
 
     1. Ouvrir [vpn-client.umontreal.ca](https://vpn-client.umontreal.ca).
     2. S’authentifier avec ses informations d'authentification.
     3. Cliquer **Télécharger pour MacOS**
     4. Ouvrir le fichier téléchargé et suivre les instructions à l'écran. Si demandé, entrer le mot de passe de votre ordinateur.
-    5. Lorsque la fenêtre **AnyConnect VPN Service Not Enabled" s'affiche, cliquer **Open System Settings**
+    5. Lorsque la fenêtre **AnyConnect VPN Service Not Enabled** s'affiche, cliquer **Open System Settings**
     6. ACTIVER **Cisco Secure Client - AnyConnect VPN Service**.
     7. ACTIVER **Cisco Secure Client - AnyConnect VPN Service.app**.
     8. Lorsque la fenêtre contextuelle **Cisco Secure Client - Socket Filter** s'affiche, cliquer **Ouvrir Réglages système**
     9. ACTIVER **Cisco Secure Client - Socket Filter.app**.
     10. Cliquer **Autoriser**
-    11. Ouvrir **Cisco Secure Client** dans Finder->Application
+    11. Ouvrir **Cisco Secure Client** dans **Finder->Application**
     12. Inscrire **vpn-cisco.umontreal.ca** et cliquer **Connexion**
     13. S’authentifier
     14. Le premier branchement VPN est effectué.L’icône au coin supérieur droit de l’écran indique la connexion au VPN.
+
+    Lien vers la procédure détaillée des [Technologies de l'information.](https://wiki.umontreal.ca/download/attachments/127184779/VPN%20Anyconnect%20pour%20MAC.pdf?version=5&modificationDate=1780515269000&api=v2)
   </TabItem>
 
   <TabItem value="windows" label="Windows">
+    Prérequis : Windows 10 et 11.
     **Utiliser le navigateur Chrome, Firefox ou Edge.**
 
     1. Ouvrir [vpn-client.umontreal.ca](https://vpn-client.umontreal.ca).
@@ -47,25 +52,44 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     7. Cliquer **Se connecter**.
     8. S’authentifier à nouveau avec ses informations d'authentification.
     9. Le premier branchement VPN est effectué.L’icône Cisco Secure Client apparaît en bas à droite de l’écran pour indiquer la connexion au VPN.
+
+    Lien vers la procédure détaillée des [Technologies de l'information.](https://wiki.umontreal.ca/spaces/SIE/pages/127184779/FAQ+VPN#expand-CommentinstallerlapplicationVPNsurunordinateurWindows)
   </TabItem>
 
   <TabItem value="ios" label="iOS">
+    Prérequis : iOS et iPadOS version 13 et ultérieur.
+
     1. [Télécharger l'application Cisco Secure Client](https://apps.apple.com/us/app/cisco-secure-client/id1135064690) sur l'App Store.
-    2. Lancer l'application et dans la case URL, entrer `vpn.umontreal.ca/campus` et appuyer sur **Connexion**.
-    3. Dans Nom d'utilisateur, entrer son code d'accès et appuyer sur **Connexion**.
-    4. Autoriser Secure Access à ajouter des configurations VPN en appuyant sur **Autoriser**, puis entrer le code de déverrouillage de l'appareil.
-    5. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer sur **Se connecter**.
-    6. Procéder à l'authentification à deux facteurs (A2F).
-    7. La connexion au VPN est faite.
+    2. Ouvrir l'app **Cissco Secure Client**
+    3. Appuyer **Connexions**
+    4. Cliquer **Ajouter une connexion VPN..**
+    5. Dans la case Adresse du serveur, entrer `vpn-cisco.umontreal.ca` et appuyer **Enregistrer**.
+    6. Appuyer **Autoriser**
+    7. Activer le bouton **VPN AnyConnect**
+    8. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer **Se connecter**.
+    9.  Procéder à l'authentification à deux facteurs (A2F).
+    10. La connexion au VPN est faite.
+
+    Lien vers la procédure détaillée des [Technologies de l'information.](https://wiki.umontreal.ca/download/attachments/127184779/Procedure_AnyConnect_Iphone_UdeM_UdeM%20C.pdf?version=1&modificationDate=1779735926000&api=v2)
   </TabItem>
 
   <TabItem value="android" label="Android">
-    1. [Télécharger l'application Ivanti Secure Access Client](https://play.google.com/store/apps/details?id=net.pulsesecure.pulsesecure) sur le Play Store.
-    2. Appuyer sur **Ajouter une nouvelle connexion** et dans la case URL, entrer : `vpn.umontreal.ca/campus`.
-    3. Appuyer sur la connexion `vpn.umontreal.ca/campus` et appuyer **Connecter**.
-    4. S’authentifier avec ses informations d'authentification.
-    5. Procéder à l'authentification à deux facteurs (A2F).
-    6. L’icône Service VPN s’affiche en bas à droite à droite de l’écran, la connexion est faite.
+    1. [Télécharger et installer l'application Cisco Secure Client-AnyConnect](https://play.google.com/store/apps/details?id=com.cisco.anyconnect.vpn.android.avf) sur le Play Store.
+    2. Ouvrir l'application et accepter les conditions.
+    3. Cliquer **Autoriser**.
+    4. Appuyer **Connexions**.
+    5. Appuyer le bouton **"+"** (en bas à droite).
+    6. Dans la case **Adresse du serveur**, entrer `vpn-cisco.umontreal.ca` et appuyer **Terminer**.
+    7. Cliquer la flèche retour pour revenir à l'écran précédent.
+    8. Appuyer **Connexions**
+    9. Sélectionner **UdeM Campus**.
+    10. Activer le bouton **VPN AnyConnect**.
+    11. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer **Se connecter**.
+    12. Procéder à l'authentification à deux facteurs (A2F).
+    13. La connexion au VPN est établie.
+  
+    Lien vers la procédure détaillée des [Technologies de l'information.](https://wiki.umontreal.ca/download/attachments/127184779/Procedure_AnyConnect_Android_UdeM.pdf?version=5&modificationDate=1779739032000&api=v2)
+
   </TabItem>
 </Tabs>
 
@@ -87,6 +111,23 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     3. S’authentifier avec ses informations d'authentification.
     4. Pour se déconnecter, cliquer l'icône Cisco Secure Client (en bas à droite) et sélectionner **Déconnecter**.
   </TabItem>
+
+  <TabItem value="iOS" label="iOS">
+    1. Ouvrir l'app **Cissco Secure Client**.
+    2. Activer le bouton **VPN AnyConnect**.
+    3. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer sur **Se connecter**.
+    4.  Procéder à l'authentification à deux facteurs (A2F).
+    5. La connexion au VPN est faite.
+    6. Pour se déconnecter, **fermer le bouton VPN Anyconnect* dans Cisco Secure Client.
+  </TabItem>
+  <TabItem value="android" label="Android">
+    1. Ouvrir l'application
+    2. Activer le bouton **VPN AnyConnect**.
+    3. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer **Se connecter**.
+    4. Procéder à l'authentification à deux facteurs (A2F).
+    5. La connexion au VPN est établie.
+    6. Pour se séconnecter désactiver le bouton **VPN AnyConnect**.
+  </TabItem>
 </Tabs>
 
 ---
@@ -95,17 +136,16 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    **Nous devons réfléchir aux éléments à mettre dans cette sescion.**
+    <!-- **Nous devons réfléchir aux éléments à mettre dans cette sescion.**
     Si vous obtenez le message d’erreur `Impossible d’ouvrir le fichier PulseSecureAppLauncher.mpkg, car Apple ne peut pas vérifier s’il contient des logiciels malveillants.` :
-
     - 1re solution : Glisser l'icône `PulseSecureAppLauncher.mpkg` dans le dossier Bureau et lancer l'application.
-    - 2e solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**.
+    - 2e solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**. -->
   </TabItem>
 
   <TabItem value="windows" label="Windows">
-  **Nous devons réfléchir aux éléments à mettre dans cette sescion.**
+    <!-- **Nous devons réfléchir aux éléments à mettre dans cette sescion.**
     1. Lors de l'installation, si plus rien ne se passe, redémarrer votre ordinateur, relancer la page [vpn.umontreal.ca/campus](https://vpn.umontreal.ca/campus) et cliquer à nouveau sur le bouton **Démarrer**.
-    2. Essayer dans un autre navigateur.
+    2. Essayer dans un autre navigateur.-->
   </TabItem>
 </Tabs>
 
