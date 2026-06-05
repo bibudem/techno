@@ -48,23 +48,24 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
   1. S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
   2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
   3. S’authentifier avec [vos informations d'authentification](../authentification).
-  4. Cliquer **Applications** dans le menu à gauche puis **Toutes les applications**
-  5. Cliquer **Installer des Applications** puis **Applications Microsoft 365**.
+  4. Cliquer le **Lanceur Applications** dans le menu à gauche (un carré).
+  5. Cliquer **Autres applications**, **Installer des Applications** puis **Applications Microsoft 365**.
   6. Sélectionner la langue **Français (France)**
   7. Cliquer **Installer Office** et ouvrir le ficher téléchargé pour démarrer l’installation.
 
   </TabItem>
 
   <TabItem value="macos" label="macOS">
-  **Prérequis** : macOS 13 et ultérieur
+  **Prérequis** : macOS 14 et ultérieur
 
   **Applications incluses** : Word, Excel, PowerPoint, Outlook, OneNote, Teams, OneDrive.
 
   1. S’assurer que l’ordinateur affiche **la bonne date, la bonne heure, le bon pays (Canada) et le bon fuseau horaire** et **redémarrer l'ordinateur**.
   2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
   3. S’authentifier avec [vos informations d'authentification](../authentification)
-  4. Cliquer **Applications** dans le menu à gauche.
-  5. Cliquer **Installer des Applis** puis **Applications Microsoft 365** et ouvrir le fichier téléchargé pour démarrer l’installation.
+  4. Cliquer le **Lanceur Applications** dans le menu à gauche (un carré). 
+  5. Cliquer **Autres applications**, **Installer des Applications** puis **Applications Microsoft 365**.
+  6. Ouvrir le fichier téléchargé pour démarrer l’installation.
 
   </TabItem>
 
