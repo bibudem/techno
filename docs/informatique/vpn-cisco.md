@@ -9,7 +9,6 @@ import TabItem from '@theme/TabItem';
 import React from 'react';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
-**TEMPORAIRE - VPN Cisco Secure Client - page temporaire** 
 Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
 ---
