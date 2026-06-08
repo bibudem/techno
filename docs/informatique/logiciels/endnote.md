@@ -27,7 +27,6 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 <Tabs groupId="os-tabs">
       <TabItem value="windows" label="Windows">
 
-
 # Étape 1 – Installer EndNote
 1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
 2. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
@@ -53,7 +52,7 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 > Ne jamais utiliser une bibliothèque EndNote directement sur un service infonuagique (ex. : iCloud, OneDrive, Google Drive, Dropbox).  
 > Choisir un emplacement local non synchronisé automatiquement (ex. : `C:\endnote`).
 
-## Créer un dossier
+# Créer un dossier
 
 - Ouvrir l’Explorateur Windows  
 - Cliquer **Ce PC → Windows (C:)**  
@@ -62,37 +61,23 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 
 *Si vous avez déjà une bibliothèque, vous pouvez la déposer dans ce dossier (`fichier.enl` et dossier `.data`).*
 
-## Créer une nouvelle bibliothèque
+# Créer une nouvelle bibliothèque
 
 - Ouvrir **EndNote**  
 - Cliquer **Fichier → Nouveau**  
 - Nommer et enregistrer la bibliothèque dans le dossier créé à l’étape 7 (ex. : `C:\endnote`)
 - Cette bibliothèque s’ouvrira et sera accessible.
 
-## Comportement par défaut
+# Comportement par défaut
 
 Par défaut, EndNote ouvre la dernière bibliothèque utilisée.  
 
 Pour modifier ce comportement :  
 **Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
 
-
 ---
 
-# Étape 3 – Synchroniser votre bibliothèque avec EndNote Online (recommandé)
-
-La synchronisation permet de stocker vos références sur les serveurs d’EndNote pour ensuite accéder à votre bibliothèque à partir de tout autre ordinateur, et permet le partage de votre bibliothèque.
-
-**Attention:** Il n'est pas recommandé d'utiliser cette fonctionnalité si vous possédez plusieurs bibliothèques EndNote sur votre ordinateur. Veuillez alors effectuer la sauvegarde manuelle présentée à l’étape suivante.
-
-1. Ouvrir **EndNote**  
-2. Cliquer **Modifier → Préférences → Activer Sync**  
-3. Suivre les instructions à l’écran  
-
-
----
-
-# Étape 4 – Effectuer une copie de sauvegarde (recommandé)
+# Étape 3 – Effectuer une copie de sauvegarde (recommandé)
 
 Il est recommandé de faire régulièrement des copies de sauvegarde de votre bibliothèque.
 
@@ -113,10 +98,25 @@ Il est possible de les compresser en un seul fichier `.enlx` pour ensuite le cop
 6. Cliquer **Enregistrer**  
 
 > 💡 Il est recommandé d’ajouter la date au début du nom du fichier.
+
+
+---
+
+# Étape 4 – Synchroniser votre bibliothèque avec EndNote Online (Facultatif)
+
+La synchronisation permet de stocker vos références sur les serveurs d’EndNote pour ensuite accéder à votre bibliothèque à partir de tout autre ordinateur, et permet le partage de votre bibliothèque.
+
+**Attention:** Il n'est pas recommandé d'utiliser cette fonctionnalité si vous possédez plusieurs bibliothèques EndNote sur votre ordinateur. Veuillez alors effectuer la sauvegarde manuelle présentée à l’étape suivante.
+
+1. Ouvrir **EndNote**  
+2. Cliquer **Modifier → Préférences → Activer Sync**  
+3. Suivre les instructions à l’écran  
+
 </TabItem>
 
 <TabItem value="macos" label="macOS">
 
+# Étape 1 – Installer EndNote
 1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
 2. Avec **Safari**, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
@@ -138,7 +138,7 @@ Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécu
 > Ne jamais utiliser une bibliothèque EndNote directement sur un service infonuagique (ex. : iCloud, OneDrive, Google Drive, Dropbox).  
 > Choisir un emplacement local non synchronisé automatiquement (ex. : `Départ\endnote`).
 
-## Créer un dossier
+# Créer un dossier
 
 - Ouvrir Finder  
 - Cliquer **Finder → Aller → Départ**  
@@ -147,14 +147,14 @@ Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécu
 
 *Si vous avez déjà une bibliothèque, vous pouvez la déposer dans ce dossier (`fichier.enl` et dossier `.data`).*
 
-## Créer une nouvelle bibliothèque
+# Créer une nouvelle bibliothèque
 
 - Ouvrir **EndNote**  
 - Cliquer **Fichier → Nouveau**  
 - Nommer et enregistrer la bibliothèque dans le dossier créé à l’étape précédente (ex. : `Départ\endnote`)  
 - Cette bibliothèque s’ouvrira et sera accessible.
 
-## Comportement par défaut
+# Comportement par défaut
 
 Par défaut, EndNote ouvre la dernière bibliothèque utilisée.  
 
@@ -164,20 +164,7 @@ Pour modifier ce comportement :
 
 ---
 
-# Étape 3 – Synchroniser votre bibliothèque avec EndNote Online (recommandé)
-
-La synchronisation permet de stocker vos références sur les serveurs d’EndNote pour ensuite accéder à votre bibliothèque à partir de tout autre ordinateur, et permet le partage de votre bibliothèque.
-
-**Attention:** Il n'est pas recommandé d'utiliser cette fonctionnalité si vous possédez plusieurs bibliothèques EndNote sur votre ordinateur. Veuillez alors effectuer la sauvegarde manuelle présentée à l’étape suivante.
-
-1. Ouvrir **EndNote**  
-2. Cliquer **Modifier → Préférences → Activer Sync**  
-3. Suivre les instructions à l’écran  
-
-
----
-
-# Étape 4 – Effectuer une copie de sauvegarde (recommandé)
+# Étape 3 – Effectuer une copie de sauvegarde (recommandé)
 
 Il est recommandé de faire régulièrement des copies de sauvegarde de votre bibliothèque.
 
@@ -198,6 +185,18 @@ Il est possible de les compresser en un seul fichier `.enlx` pour ensuite le cop
 6. Cliquer **Enregistrer**  
 
 > 💡 Il est recommandé d’ajouter la date au début du nom du fichier.
+
+---
+
+# Étape 4 – Synchroniser votre bibliothèque avec EndNote Online (Facultatif)
+
+La synchronisation permet de stocker vos références sur les serveurs d’EndNote pour ensuite accéder à votre bibliothèque à partir de tout autre ordinateur, et permet le partage de votre bibliothèque.
+
+**Attention:** Il n'est pas recommandé d'utiliser cette fonctionnalité si vous possédez plusieurs bibliothèques EndNote sur votre ordinateur. Veuillez alors effectuer la sauvegarde manuelle présentée à l’étape suivante.
+
+1. Ouvrir **EndNote**  
+2. Cliquer **Modifier → Préférences → Activer Sync**  
+3. Suivre les instructions à l’écran  
 
 </TabItem>
 </Tabs>
