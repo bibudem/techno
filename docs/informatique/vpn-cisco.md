@@ -135,9 +135,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    Si vous obtenez le message d’erreur `La capacité de connexio n'est pas disponible, contacter ` :
-    - 1re solution : Glisser l'icône `PulseSecureAppLauncher.mpkg` dans le dossier Bureau et lancer l'application.
-    - 2e solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**.
+    Si vous obtenez le message d’erreur `La capacité de connexion n'est pas disponible`, contacter [Les Technologies de l'information](https://ti.umontreal.ca/besoin-daide/#soutien-informatique).
   </TabItem>
 
   <TabItem value="windows" label="Windows">
