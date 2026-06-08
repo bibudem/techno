@@ -31,9 +31,9 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     9. ACTIVER **Cisco Secure Client - Socket Filter.app**.
     10. Cliquer **Autoriser**
     11. Ouvrir **Cisco Secure Client** dans **Finder->Application**
-    12. Inscrire **vpn-cisco.umontreal.ca** et cliquer **Connexion**
+    12. Inscrire <CopyToClipboardButton text="vpn-cisco.umontreal.ca"/> et cliquer **Connexion**
     13. S’authentifier
-    14. Le premier branchement VPN est effectué.L’icône au coin supérieur droit de l’écran indique la connexion au VPN.
+    14. Le premier branchement VPN est effectué. L’icône au coin supérieur droit de l’écran indique la connexion au VPN.
 
     Lien vers la procédure détaillée des [Technologies de l'information.](https://wiki.umontreal.ca/download/attachments/127184779/VPN%20Anyconnect%20pour%20MAC.pdf?version=5&modificationDate=1780515269000&api=v2)
   </TabItem>
@@ -47,7 +47,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     3. Cliquer **Download for Windows**.
     4. Ouvrir le fichier téléchargé.
     5. Suivre les instructions à l'écran et cliquer **Oui** si demandé.
-    6. Ouvrir Cisco Secure Client et inscrire le lien suivant **vpn-cisco.umontreal.ca**
+    6. Ouvrir Cisco Secure Client et inscrire <CopyToClipboardButton text="vpn-cisco.umontreal.ca"/>
     7. Cliquer **Se connecter**.
     8. S’authentifier à nouveau avec ses informations d'authentification.
     9. Le premier branchement VPN est effectué.L’icône Cisco Secure Client apparaît en bas à droite de l’écran pour indiquer la connexion au VPN.
@@ -62,7 +62,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     2. Ouvrir l'app **Cissco Secure Client**
     3. Appuyer **Connexions**
     4. Cliquer **Ajouter une connexion VPN..**
-    5. Dans la case Adresse du serveur, entrer `vpn-cisco.umontreal.ca` et appuyer **Enregistrer**.
+    5. Dans la case Adresse du serveur, inscrire <CopyToClipboardButton text="vpn-cisco.umontreal.ca"/> et appuyer **Enregistrer**.
     6. Appuyer **Autoriser**
     7. Activer le bouton **VPN AnyConnect**
     8. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer **Se connecter**.
@@ -78,7 +78,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     3. Cliquer **Autoriser**.
     4. Appuyer **Connexions**.
     5. Appuyer le bouton **"+"** (en bas à droite).
-    6. Dans la case **Adresse du serveur**, entrer `vpn-cisco.umontreal.ca` et appuyer **Terminer**.
+    6. Dans la case **Adresse du serveur**, inscrire <CopyToClipboardButton text="vpn-cisco.umontreal.ca"/> et appuyer **Terminer**.
     7. Cliquer la flèche retour pour revenir à l'écran précédent.
     8. Appuyer **Connexions**
     9. Sélectionner **UdeM Campus**.
@@ -135,10 +135,9 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    <!-- **Nous devons réfléchir aux éléments à mettre dans cette sescion.**
-    Si vous obtenez le message d’erreur `Impossible d’ouvrir le fichier PulseSecureAppLauncher.mpkg, car Apple ne peut pas vérifier s’il contient des logiciels malveillants.` :
+    Si vous obtenez le message d’erreur `La capacité de connexio n'est pas disponible, contacter ` :
     - 1re solution : Glisser l'icône `PulseSecureAppLauncher.mpkg` dans le dossier Bureau et lancer l'application.
-    - 2e solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**. -->
+    - 2e solution : Ouvrir **Préférences Système** → **Sécurité et confidentialité** → **Général** → **Ouvrir quand même**.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
