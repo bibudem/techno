@@ -2,6 +2,7 @@
 title : EndNote
 description : Guide pour l'installation et l'utilisation du logiciel de gestion de références bibliographiques EndNote.
 help : info
+toc_max_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
