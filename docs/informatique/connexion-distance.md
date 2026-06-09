@@ -140,7 +140,7 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 
 ## Les fois suivantes
 
-1. Se connecter au **VPN UdeM Campus** (ou UdeM SAM si vous avez un statut d'étudiant et employé)
+1. Se connecter au **VPN UdeM Campus**
 2. Cliquer sur un poste actuellement disponible.
 
 :::warning Attention
