@@ -21,8 +21,8 @@ Le client VPN Cisco Secure Client remplacere Ivanti Secure Access. Dès le 14 ju
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    Prérequis : macOS 13 et ultérieur.
-    **Utiliser le navigateur internet Safari.**
+    Prérequis : macOS 14 et ultérieur.
+    **Utiliser le navigateur internet Safar, Chrome ou Firefox.**
 
     1. Ouvrir [vpn-client.umontreal.ca](https://vpn-client.umontreal.ca).
     2. S’authentifier avec ses informations d'authentification.
