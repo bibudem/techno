@@ -12,7 +12,7 @@ import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
 :::note Nouveau VPN Cisco Secure Client
-Le client VPN Cisco Secure Client remplacera Ivanti Secure Access. Dès le 14 juin, seule l’application Cisco Secure Client pourra être utilisée pour se connecter au VPN. [Consulter le communiqué](https://ti.umontreal.ca/fileadmin/ti/documents/Actualites_communiques_pdf/Remplacement_service_VPN_2026-06-01.pdf) et la [FAQ](https://wiki.umontreal.ca/spaces/SIE/pages/127184779/FAQ+VPN) des Technologies de l'information.
+Le client VPN Cisco Secure Client remplace Ivanti Secure Access. Dès le 14 juin, seule l’application Cisco Secure Client pourra être utilisée pour se connecter au VPN. [Consulter le communiqué](https://ti.umontreal.ca/fileadmin/ti/documents/Actualites_communiques_pdf/Remplacement_service_VPN_2026-06-01.pdf) et la [FAQ](https://wiki.umontreal.ca/spaces/SIE/pages/127184779/FAQ+VPN) des Technologies de l'information.
 :::
 
 ---
