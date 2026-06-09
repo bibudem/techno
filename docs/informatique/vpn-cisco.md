@@ -11,6 +11,10 @@ import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
 Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
+:::note Nouveau VPN Cisco Secure Client
+Le client VPN Cisco Secure Client remplacere Ivanti Secure Access. L'application Ivanti Pulse Secure demeurera accessible jusqu’au 13 juin. Après cette date, seule l’application Cisco Secure Client pourra être utilisée pour se connecter au VPN. [Consulter le communiqué des Technologies de l'information](https://ti.umontreal.ca/fileadmin/ti/documents/Actualites_communiques_pdf/Remplacement_service_VPN_2026-06-01.pdf).
+:::
+
 ---
 
 ## Installation
@@ -135,13 +139,11 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
-    Si vous obtenez le message d’erreur `La capacité de connexion n'est pas disponible`, contacter [Les Technologies de l'information](https://ti.umontreal.ca/besoin-daide/#soutien-informatique).
+    Si vous obtenez le message d’erreur **VPN AnyConnect** : « La capacité de connexion n'est pas disponible », vérifiez que vous n'avez pas déjà une connexion VPN active. Déconnectez tout autre VPN avant de tenter une nouvelle connexion.
   </TabItem>
 
   <TabItem value="windows" label="Windows">
-    <!-- **Nous devons réfléchir aux éléments à mettre dans cette sescion.**
-    1. Lors de l'installation, si plus rien ne se passe, redémarrer votre ordinateur, relancer la page [vpn.umontreal.ca/campus](https://vpn.umontreal.ca/campus) et cliquer à nouveau sur le bouton **Démarrer**.
-    2. Essayer dans un autre navigateur.-->
+    Si vous obtenez le message d’erreur **VPN AnyConnect** : « La capacité de connexion n'est pas disponible », vérifiez que vous n'avez pas déjà une connexion VPN active. Déconnectez tout autre VPN avant de tenter une nouvelle connexion.
   </TabItem>
 </Tabs>
 
@@ -164,5 +166,26 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     3. Sélectionner les items **Cisco Secure Client - AnyConnect VPN** et **Cisco Secure Client - Diagnosis and reporting tool** puis **Désinstaller**.
     4. Cliquer **Oui** pour redémarrer si demandé.
     5. **Redémarrer l’ordinateur**.
+  </TabItem>
+</Tabs>
+
+---
+
+## Désinstallation Ivanti Pulse Secure{#desinstallation-ivanti}
+
+<Tabs groupId="os">
+  <TabItem value="macos" label="macOS">
+    1. Cliquer sur l'icône **Ivanti Secure Access Client** (en haut à droite) et quitter l'application.
+    2. Aller à **Finder** → **Applications** → Clic droit sur **Ivanti Secure Access Client** → Placer dans la corbeille.
+    3. Cliquer **No** à **save configuration**.
+    4. Vider la corbeille.
+  </TabItem>
+
+  <TabItem value="windows" label="Windows">
+    1. Cliquer le bouton **Démarrer**, puis **Paramètres**.
+    2. Cliquer **Applications**.
+    3. Sélectionner tous les items **Pulse Secure** et **Ivanti Secure Access Client** puis **Désinstaller**.
+    4. Cliquer **Oui** pour redémarrer si demandé.
+    5. Redémarrer l’ordinateur.
   </TabItem>
 </Tabs>
