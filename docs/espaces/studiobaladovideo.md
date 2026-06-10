@@ -61,6 +61,10 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
   />
 </div>
 
+:::tip Vous réalisez une vidéo en solo? 
+Si vous souhaitez enregistrer une présentation, une capsule vidéo, une démonstration ou tout autre projet vidéo individuel, nous vous recommandons d'utiliser le [Studio vidéo](studiovideolsh.md)!
+:::
+
 ---
 
 ## Présentation en vidéo

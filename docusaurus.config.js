@@ -47,6 +47,11 @@ const config = {
     defaultLocale: 'fr',
     locales: ['fr'],
   },
+  
+  // future: {
+  //   v4: true, 
+  //   faster: true, 
+  // },
 
   themes: [
     [
