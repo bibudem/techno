@@ -42,6 +42,3 @@ La salle 2076-1, située à la [Bibliothèque des lettres et sciences humaines](
   alt="Salle de visionnement en équipe en vue 360°"
 />
 
-<p style={{ fontSize: '0.8em' }}>
-  Crédit photo 360 : Stratégies numériques de la FAS - 2025.
-</p>

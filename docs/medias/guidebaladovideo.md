@@ -8,11 +8,11 @@ help : crea
 
 ## Avant l’enregistrement {#avant-enregistrement}
 1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.
-2. Appuyer sur le bouton jaune <img src="/img/docs/boutonjaune.png" alt="Le bouton jaune au milieu de la console" width="30" /> au centre de la console.
+2. Appuyer sur le bouton jaune <img src="/img/docs/boutonjaune.webp" alt="Le bouton jaune au milieu de la console" width="30" /> au centre de la console.
 3. Les lumières et caméras s’allumeront automatiquement. Éteindre l’éclairage ambiant (néons au plafond). 
 4. L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
 
-<img src="/img/docs/studio-interface-control-3.png" alt="L'écran de retour avec l'espace libre disponible" width="500" />
+<img src="/img/docs/studio-interface-control-3.webp" alt="L'écran de retour avec l'espace libre disponible" width="500" />
 
 5.  Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant. Un micro est désactivé lorsque le bouton est rouge.
 6.  Les micros 3 et 4 fonctionnent de pair : si le bouton est rouge, les deux sont éteints et inversement.
