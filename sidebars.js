@@ -201,6 +201,11 @@ const sidebars = {
             },
             {
               type: 'doc',
+              id: 'informatique/logiciels/cisco',
+              className: 'hidden',
+            },
+            {
+              type: 'doc',
               id: 'informatique/logiciels/cmaptools',
               className: 'hidden',
             },
