@@ -15,7 +15,7 @@ La suite **Microsoft Office 365** est offerte gratuitement à toute la communaut
 L'offre comprend les services en ligne et logiciels suivants :
 
 - **Courriel institutionnel** `@umontreal.ca`
-- **Espace de stockage [OneDrive](https://studio.bib.umontreal.ca/informatique/logiciels/onedrive)** : 10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés
+- **Espace de stockage [OneDrive](/docs/informatique/logiciels/onedrive.md)** : 10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés
 - **Logiciels de productivité** : Word, Excel, PowerPoint, OneNote
 - **Communication et réunions** : Teams, Outlook
 
@@ -29,7 +29,7 @@ L’utilisation des logiciels ne sera plus possible lorsque le membre de la comm
 
 - Disponible sur **tous les ordinateurs des bibliothèques**.
 - [Téléchargement et installation](#installation).
-- [Accès à distance](../connexion-distance).
+- [Accès à distance](/docs/informatique/connexion-distance.md).
 
 ---
 
@@ -47,7 +47,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
   1. S’assurer que les paramètres **d’heure, de date, de pays et de fuseau horaire correspondent à ceux de Montréal**
   2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
-  3. S’authentifier avec [vos informations d'authentification](../authentification).
+  3. S’authentifier avec [vos informations d'authentification](/docs/informatique/authentification.md).
   4. Cliquer le **Lanceur Applications** dans le menu à gauche (un carré).
   5. Cliquer **Autres applications**, **Installer des Applications** puis **Applications Microsoft 365**.
   6. Sélectionner la langue **Français (France)**
@@ -62,7 +62,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
   1. S’assurer que l’ordinateur affiche **la bonne date, la bonne heure, le bon pays (Canada) et le bon fuseau horaire** et **redémarrer l'ordinateur**.
   2. Accéder au portail **[o365.umontreal.ca](https://o365.umontreal.ca)**
-  3. S’authentifier avec [vos informations d'authentification](../authentification)
+  3. S’authentifier avec [vos informations d'authentification](/docs/informatique/authentification.md)
   4. Cliquer le **Lanceur Applications** dans le menu à gauche (un carré). 
   5. Cliquer **Autres applications**, **Installer des Applications** puis **Applications Microsoft 365**.
   6. Ouvrir le fichier téléchargé pour démarrer l’installation.
@@ -99,7 +99,7 @@ Il est recommandé de désinstaller toutes les versions précédentes d'Office a
 
 1. Ouvrir **Word**.
 2. Cliquer **Connexion** (en haut à droite) et entrer votre courriel UdeM.
-3. Suivre [la procédure d'authentification](../authentification).
+3. Suivre [la procédure d'authentification](/docs/informatique/authentification.md).
 
 ---
 
