@@ -1,5 +1,5 @@
 ---
-title : Ivanti Secure Access Client (VPN)
+title : Cisco Secure Client (VPN)
 description : Logiciel de sécurisation de connexion
 help : info
 ---
