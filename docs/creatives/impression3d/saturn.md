@@ -24,11 +24,9 @@ L'imprimante Elegoo Saturn 3 Ultra utilise des résines qui nécessitent une man
 
 ## Préparation de votre modèle avec CHITUBOX 
 
-Télécharger la version basique du logiciel [CHITUBOX](https://www.google.com/aclk?sa=L&ai=DChsSEwjBv8CQ2sSQAxW9aEcBHTWRFhYYACICCAEQABoCcXU&co=1&ase=2&gclid=Cj0KCQjwsPzHBhDCARIsALlWNG3GpgkgDDfnslueZqbqmnnll7-_WXi9I6aLRlGC449ELmYAv1AZe3AaAjq8EALw_wcB&cid=CAASmAHkaAFQzO_4d96pIiyW1wca0Mnv8zH5NXLZEjdWGoTqWsixetcAQNy6t9qyCdFPVr6AYPOPRUsqruGcCjUcgdVtZT7Oa4AMf55NiHv5T7cAFkS0JrhNXVINpQY0xjF9c6aH-SVczNLZdw-oErFsdka4kRyjEuE781C9thte1vehUw1LJLKj_SomqFDhM0JEg47zyTYS9xraQA&cce=2&category=acrcp_v1_32&sig=AOD64_3XzBLMCt_zRkcjkEPm3eN1ZOxPcQ&q&nis=4&adurl&ved=2ahUKEwj_mbmQ2sSQAxUzKVkFHWCJAkYQ0Qx6BAgMEAE) 
+Télécharger la version basique du logiciel [CHITUBOX](https://www.chitubox.com/en/index) 
 
- 
-
-La version basique de ce logiciel est gratuite, il n'est pas nécessaire de se créer un compte/s'identifier 
+La version basique de ce logiciel est gratuite, il n'est pas nécessaire de se créer un compte/s'identifier.
 
  
 
