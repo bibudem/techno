@@ -74,13 +74,13 @@ Si le document n'y est pas, aller dans les téléchargements du navigateur (en h
 Par défaut, EndNote ouvre la dernière bibliothèque utilisée.  
 
 Pour modifier ce comportement :  
-**Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
+Cliquer **Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
 
 ---
 
 ### Étape 3 – Effectuer une copie de sauvegarde (recommandé)
 
-Il est recommandé de faire régulièrement des copies de sauvegarde de votre bibliothèque.
+Il est recommandé d’effectuer régulièrement des copies de sauvegarde de votre bibliothèque.
 
 Une bibliothèque EndNote est composée de :
 - un fichier `.enl`  
@@ -160,14 +160,14 @@ Cliquer **menu Pomme** → **Réglages système** → **Confidentialité & sécu
 Par défaut, EndNote ouvre la dernière bibliothèque utilisée.  
 
 Pour modifier ce comportement :  
-**Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
+Cliquer **Modifier → Préférences → Bibliothèques** et choisir l’option voulue  
 
 
 ---
 
 ### Étape 3 – Effectuer une copie de sauvegarde (recommandé)
 
-Il est recommandé de faire régulièrement des copies de sauvegarde de votre bibliothèque.
+Il est recommandé d’effectuer régulièrement des copies de sauvegarde de votre bibliothèque.
 
 Une bibliothèque EndNote est composée de :
 - un fichier `.enl`  
