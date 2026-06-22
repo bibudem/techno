@@ -141,7 +141,7 @@ Le client VPN Cisco Secure Client remplace Ivanti Secure Access. Dès le 14 juin
   <TabItem value="macos" label="macOS">
     Si vous obtenez le message d’erreur **VPN AnyConnect** : « La capacité de connexion n'est pas disponible », vérifiez que vous n'avez pas déjà une connexion VPN active.
     1. **Déconnectez tout autre VPN** avant de tenter une nouvelle connexion.
-   
+
     2. Si le problème persiste, vérifiez que les trois services suivants sont activés dans **Pomme > Réglages système > Général > Éléments d’ouverture et extensions**. Faites défiler la page vers le bas afin de tous les voir.
    
         ACTIVER **Cisco Secure Client - AnyConnect VPN Service**.
@@ -152,6 +152,8 @@ Le client VPN Cisco Secure Client remplace Ivanti Secure Access. Dès le 14 juin
 
 
     3. Une fois les services activés, réessayez la connexion VPN.
+
+    4. Si le problème persiste, **redémarrer l'ordinateur** et essayer à nouveau.
 
   </TabItem>
 
