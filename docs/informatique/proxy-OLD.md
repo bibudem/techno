@@ -2,6 +2,7 @@
 title: Configurer le serveur mandataire (proxy)
 description: Guide pour configurer le serveur mandataire (proxy) afin d'accéder aux ressources électroniques.
 help: info
+draft: true
 ---
 
 import React from 'react';
@@ -115,7 +116,8 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="iOS" label="iOS">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) à la place du Proxy.
+    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le VPN à la place du Proxy.
+    La configuration du proxy sur iOS est disponible pour les connexions Wi‑Fi seulement, pas cellulaires.
     :::
 
     1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
