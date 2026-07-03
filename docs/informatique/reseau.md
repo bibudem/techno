@@ -182,6 +182,15 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
   <TabItem value="android" label="Android">
     1. Aller dans **Paramètres** → **Wi-Fi**.  
     2. Appuyer longuement sur le réseau **UdeM avec cryptage** et sélectionner **Retirer le réseau**.
+    3. Se connecter à nouveau
+
+    En cas de problème :
+
+    - À noter que plusieurs tentatives de connexion effectuées avec les mauvaises options peuvent entraîner un blocage temporaire de 30 minutes
+    - Déconnectez-vous de tous les réseaux Wi-Fi de l'UdeM (*Udem avec cryptage, Eduroam, UdeM-Visiteurs*)
+    - Redémarrez votre appareil
+    - Attendez 30 minutes
+    - Sélectionnez Utiliser Adresse MAC du téléphone au lieu de Utiliser adresse MAC aléatoire lors de la connexion (en bas complètement)
   </TabItem>
 
   <TabItem value="chromebook" label="Chromebook">
