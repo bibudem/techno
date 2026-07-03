@@ -62,7 +62,7 @@ import TabItem from '@theme/TabItem';
     <Tabs groupId="macOS">
     <TabItem value="13 et ultérieurs" label="13 et ultérieurs (récents)">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur Mac, veuillez utiliser Chrome, Firefox, Edge ou Brave à la place de Safari.
+    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur Mac, veuillez utiliser Chrome, Firefox, Edge ou Brave plutôt que Safari.
     :::
        
         1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.
@@ -87,7 +87,7 @@ import TabItem from '@theme/TabItem';
   
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs (anciens)">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur Mac, veuillez utiliser Chrome, Firefox, Edge ou Brave à la place de Safari.
+    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur Mac, veuillez utiliser Chrome, Firefox, Edge ou Brave plutôt que Safari.
     :::
         1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
         2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
@@ -115,7 +115,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="iOS" label="iOS">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) à la place du Proxy.
+    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) plutôt que le Proxy.
     :::
 
     1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
