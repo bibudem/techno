@@ -54,7 +54,7 @@ Pour aller plus loin sur la sélection des motifs :
 
 Format à privilégier : PNG (de meilleure qualité).
 
-- [En suivant cette procédure vous pourrez transformer vos images en “broderies”](#)
+- [En suivant cette procédure vous pourrez transformer vos images en “broderies”](/docs/creatives/textile/inkscape-simple.md)
 
 ### Préparation matérielle de la brodeuse
 
