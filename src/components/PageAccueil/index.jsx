@@ -11,6 +11,7 @@ import {
   Network,
   Microphone,
   ArrowRight,
+  Warning,
 } from '@phosphor-icons/react';
 
 const images = [
@@ -100,6 +101,28 @@ export default function PageAccueil() {
   <div className={styles.introButtons}>{/* Boutons */}</div>
 </div>
       </section>
+
+      <aside className={styles.proxyNotice} aria-label="Avis de service">
+        <div className={styles.proxyNoticeInner}>
+          <h2 className={styles.proxyNoticeTitle}>
+            <Warning
+              size={34}
+              weight="fill"
+              className={styles.proxyNoticeIcon}
+              aria-hidden="true"
+            />
+            Service Proxy : changements à venir
+          </h2>
+          <p className={styles.proxyNoticeText}>
+            À compter du 13 juillet, le service Proxy évolue : iOS n’est plus
+            pris en charge et Safari sur macOS n’est plus compatible.{' '}
+            <a href="/informatique/proxy" className={styles.proxyNoticeLink}>
+              Consultez la documentation
+            </a>{' '}
+            pour connaître les changements et les solutions de rechange.
+          </p>
+        </div>
+      </aside>
 
       <section className="homepage-section">
         <CardRow>
