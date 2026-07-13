@@ -69,7 +69,7 @@ import TabItem from '@theme/TabItem';
         2. Cliquer **Réglages Wi‑Fi**. Si un cadenas fermé s’affiche, cliquer pour le débloquer.  
         3. Cliquer **Détails**.
         4. Sélectionner l'onglet **Serveurs mandataires** → activer **Configuration de serveur mandataire automatique**.
-        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
+        5. Saisir <CopyToClipboardButton text="https://proxy.umontreal.ca"/>.
         6. Cliquer **OK**, puis **Appliquer**.
 
         **Tutoriel vidéo**  
@@ -93,7 +93,7 @@ import TabItem from '@theme/TabItem';
         2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
         3. Cliquer **Avancé**.  
         4. Sélectionner l'onglet **Proxys** → activer **Configuration de serveur mandataire automatique**.  
-        5. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.
+        5. Saisir <CopyToClipboardButton text="https://proxy.umontreal.ca"/>.
         6. Cliquer **OK**, puis **Appliquer**.
 
         Pour désinstaller le proxy, refaire les mêmes étapes et désactiver **Configuration de serveur mandataire automatique** à l’étape 4.
@@ -117,11 +117,6 @@ import TabItem from '@theme/TabItem';
     :::warning Attention
     Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) plutôt que le Proxy.
     :::
-
-    1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
-    2. Sous **Serveur mandataire HTTP**, sélectionner **Automatique**.  
-    3. Saisir <CopyToClipboardButton text="http://proxy.umontreal.ca"/>.  
-    4. **Enregistrer**.
   </TabItem>
 
   <TabItem value="Android" label="Android">
@@ -146,7 +141,7 @@ import TabItem from '@theme/TabItem';
 
 ## Étape 2 - Tester la configuration {#tester-configuration}
 
-1. Ouvrir [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  
+1. Ouvrir [testproxy.umontreal.ca](https://testproxy.umontreal.ca).  
 2. S'authentifier avec vos identifiants UdeM.  
 3. Vérifier que vous voyez le message **« Votre configuration Proxy est fonctionnelle »**.
 
@@ -178,7 +173,7 @@ import TabItem from '@theme/TabItem';
    - Cliquer sur **Je prends le risque**  
    - Entrer `ntlm` dans la boîte **Rechercher** et appuyer sur **Entrée**  
    - Double-cliquer sur `network.automatic-ntlm-auth.allow-proxies` pour changer la valeur à **False**  
-   - Tester la configuration à l'adresse : [testproxy.umontreal.ca](http://testproxy.umontreal.ca)
+   - Tester la configuration à l'adresse : [testproxy.umontreal.ca](https://testproxy.umontreal.ca)
   </TabItem>
 
   <TabItem value="ViderCache" label="Vider le cache">
@@ -210,7 +205,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-Tester la configuration à : [testproxy.umontreal.ca](http://testproxy.umontreal.ca).  
+Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontreal.ca).  
 
 ## Désinstaller {#desinstaller}
 
