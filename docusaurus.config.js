@@ -79,6 +79,10 @@ const config = {
             from: ['/espaces/studiovideo'],
             to: '/espaces/studiosvideo',
           },
+          {
+            from: ['/espaces/studioaudio'],
+            to: '/espaces/studiosbalado',
+          },
         ],
       },
     ],
