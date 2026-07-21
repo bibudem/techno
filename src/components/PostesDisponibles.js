@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
-const rdpConfig = (addr) => `
-screen mode id:i:2
+const SERVICE_URL =
+  "https://api.bib.umontreal.ca/disponibilite/ordinateurs/?lieu=RDP";
+
+const rdpConfig = (addr) => `screen mode id:i:2
 session bpp:i:32
 winposstr:s:0,1,691,455,2274,1457
 compression:i:1
@@ -40,72 +42,150 @@ promptcredentialonce:i:0
 use redirection server name:i:0
 rdgiskdcproxy:i:0
 use multimon:i:0
-gatewaybrokeringtype:i:0`;
+gatewaybrokeringtype:i:0
+`;
+
+const getPosteAddress = (posteId) => {
+  const id = String(posteId).trim();
+  const domain = id.toLowerCase().includes("sap")
+    ? ".bib.umontreal.ca"
+    : ".fil.umontreal.ca";
+
+  return `${id}${domain}`;
+};
+
+const downloadRdpFile = (addr) => {
+  const blob = new Blob([rdpConfig(addr)], {
+    type: "application/x-rdp;charset=utf-8",
+  });
+
+  const url = URL.createObjectURL(blob);
+
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `${addr}.rdp`;
+  link.style.display = "none";
+
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+
+  window.setTimeout(() => {
+    URL.revokeObjectURL(url);
+  }, 100);
+};
 
 const PostesDisponibles = ({ zone }) => {
   const [postes, setPostes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const serviceUrl = "https://api.bib.umontreal.ca/disponibilite/ordinateurs/?lieu=RDP";
 
   useEffect(() => {
-    let isMounted = true;
+    if (!zone) {
+      setPostes([]);
+      setLoading(false);
+      setError("Aucune zone n’a été spécifiée.");
+      return;
+    }
 
-    const fetchPostes = async () => {
+    const controller = new AbortController();
+    let timeoutId;
+
+    const fetchPostes = async (initialLoad = false) => {
+      if (initialLoad) {
+        setLoading(true);
+      }
+
       try {
-        const response = await fetch(`${serviceUrl}&zone=${zone}`);
-        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+        const response = await fetch(
+          `${SERVICE_URL}&zone=${encodeURIComponent(zone)}`,
+          {
+            signal: controller.signal,
+            headers: {
+              Accept: "application/json",
+            },
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(`Erreur HTTP : ${response.status}`);
+        }
 
         const data = await response.json();
-        if (isMounted) {
-          setPostes(data.filter(poste => poste.state !== "active" && poste.enabled));
-          setLoading(false);
+
+        if (!Array.isArray(data)) {
+          throw new Error("La réponse de l’API n’est pas un tableau.");
         }
+
+        const postesDisponibles = data.filter(
+          (poste) =>
+            poste &&
+            poste.id &&
+            poste.enabled === true &&
+            poste.state !== "active"
+        );
+
+        setPostes(postesDisponibles);
+        setError(null);
       } catch (err) {
-        if (isMounted) {
-          setError("Erreur de connexion. Réessai dans quelques instants...");
+        if (err.name !== "AbortError") {
+          console.error(
+            "Impossible de récupérer les postes disponibles :",
+            err
+          );
+
+          setError(
+            "Erreur de connexion. Nouvelle tentative dans quelques instants…"
+          );
+        }
+      } finally {
+        if (!controller.signal.aborted) {
           setLoading(false);
+
+          timeoutId = window.setTimeout(() => {
+            fetchPostes(false);
+          }, 5000);
         }
       }
     };
 
-    fetchPostes();
-    const interval = setInterval(fetchPostes, 5000); // Mise à jour toutes les 5 sec
+    fetchPostes(true);
 
     return () => {
-      isMounted = false;
-      clearInterval(interval);
+      controller.abort();
+      window.clearTimeout(timeoutId);
     };
   }, [zone]);
 
-  const generateRdpFile = (addr) => {
-    const file = new Blob([rdpConfig(addr)], { type: "application/x-rdp" });
-    return URL.createObjectURL(file);
-  };
+  if (loading) {
+    return <p>Chargement des postes disponibles…</p>;
+  }
 
   return (
     <div>
-      {loading && <p>⏳ Chargement des postes disponibles...</p>}
-      {error && <p>❌ {error}</p>}
-      {!loading && !error && (
+      {error ? (
+        <p role="alert">❌ {error}</p>
+      ) : postes.length === 0 ? (
+        <p>Aucun poste disponible.</p>
+      ) : (
         <ul>
-          {postes.length === 0 ? (
-            <p>Aucun poste disponible.</p>
-          ) : (
-            postes.map((poste) => {
-              const domain = poste.id.toLowerCase().includes("sap") ? ".bib.umontreal.ca" : ".fil.umontreal.ca";
-              const addr = poste.id + domain;
-              const downloadUrl = generateRdpFile(addr);
+          {postes.map((poste) => {
+            const addr = getPosteAddress(poste.id);
 
-              return (
-                <li key={poste.id}>
-                  <a href={downloadUrl} download={`${addr}.rdp`}>
-                    {addr.replace(".fil.umontreal.ca", "").replace(".bib.umontreal.ca", "")}
-                  </a>
-                </li>
-              );
-            })
-          )}
+            return (
+              <li key={poste.id}>
+                <a
+                  href="#"
+                  onClick={(event) => {
+                    event.preventDefault();
+                    downloadRdpFile(addr);
+                  }}
+                >
+                  {poste.id}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>
