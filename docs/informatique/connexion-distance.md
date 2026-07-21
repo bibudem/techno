@@ -44,6 +44,10 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 
 Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](/informatique/logiciels) pour plus de détails.
 
+:::warning
+Les postes à distance sont temporairement inaccessibles en raison d’une panne technique. Nous sommes désolés des inconvénients et mettons tout en œuvre pour rétablir le service rapidement.
+:::
+
 <div className="grid-container">
   
   <div className="grid-item">
