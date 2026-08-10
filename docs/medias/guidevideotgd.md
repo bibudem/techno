@@ -55,6 +55,10 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
     Attention, pour changer entre les caméras 1-2-3 et la caméra 4 : il faut choisir la bonne caméra en sélectionnant la bonne source au mur + passer du mode 1 à 2 sur le boitier switch en fonction de la source souhaitée
 :::
 
+![](/img/docs/meuble_TGD.jpg)
+
+![](/img/docs/switch_cam_TGD.jpg)
+
 4 différents modes d’enregistrement sont disponibles pour créer votre vidéo. Le panneau de sélection des 4 sources se trouve au mur.
 
 <Tabs>
