@@ -52,10 +52,12 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
 ## Les différents modes de présentation
 
 :::warning
-    Attention, pour changer entre les caméras 1-2-3 et la caméra 4 : il faut choisir la bonne caméra en sélectionnant la bonne source au mur + passer du mode 1 à 2 sur le boitier switch en fonction de la source souhaitée
+    Attention, pour changer entre les caméras 1-2-3 et la caméra 4 : il faut choisir la bonne caméra en sélectionnant la bonne source au mur + passer du mode 1 à 2 sur le boitier switch qui se trouve dans la porte milieu du meuble, étage du haut, en fonction de la source souhaitée...
 :::
 
 ![](/img/docs/meuble_TGD.jpg)
+
+Input 1 = Caméra 4; Input 2 = Caméras 1 à 3
 
 ![](/img/docs/switch_cam_TGD.jpg)
 
