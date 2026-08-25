@@ -52,7 +52,7 @@ Matériel disponible à l’atelier :
     title="Bibliothèque des lettres et sciences humaines"
     location="Pavillon Samuel-Bronfman, local 2076-4"
     mapLink="https://share.google/L5433dSpcvXkJi10K"
-    description="L’atelier de zines est accessible gratuitement à toute la communauté UdeM. L’atelier est ouvert les mardis et mercredis de 15 h 40 à 16 h 40 et les mercredis et jeudis en matinée, de 11 h 30 à 12 h 30."
+    description="L’atelier de zines est accessible gratuitement à toute la communauté UdeM. L’atelier est ouvert les mardis, mercredis et jeudis de 16 h  à 17 h et les mercredis et vendredis en matinée, de 11 h 30 à 12 h 30."
     reserveLink=""
     reserveText=""
   />
