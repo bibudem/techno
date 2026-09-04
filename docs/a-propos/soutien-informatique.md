@@ -11,7 +11,7 @@ import LibChatWidget from '@site/src/components/LibChatWidget';
 <HideLastUpdated/>
 
 import CardGrid from "@site/src/components/CardGrid";
-import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
+import { HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
 Discutez avec un technicien en soutien informatique [**par clavardage**](#clavardage) ou [**sur place**](https://bib.umontreal.ca/espaces/#lsh) à la Bibliothèque des lettres et sciences humaines (BLSH).
 

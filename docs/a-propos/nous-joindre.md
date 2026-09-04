@@ -6,7 +6,7 @@ image: "/img/cover/contact.webp"
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
-import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
+import { HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';

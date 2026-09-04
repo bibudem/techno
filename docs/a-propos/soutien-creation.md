@@ -12,7 +12,7 @@ import FormulaireContactAPI from '@site/src/components/FormulaireContactAPI';
 <HideLastUpdated/>
 
 import CardGrid from "@site/src/components/CardGrid";
-import { HoraireAujourdhui, HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
+import { HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 
 Nous offrons du soutien pour vos projets créatifs et vos productions multimédias. Notre équipe est là pour vous accompagner!
 
