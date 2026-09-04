@@ -8,6 +8,15 @@ import React from 'react';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import {useStorageSlot} from '@docusaurus/theme-common';
+
+export function HideForIOS({children}) {
+  const [osTab] = useStorageSlot('docusaurus.tab.os-tabs');
+  if (osTab === 'iOS') {
+    return null;
+  }
+  return <>{children}</>;
+}
 
 # Configurer le serveur mandataire (proxy)
 
@@ -137,6 +146,8 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
+<HideForIOS>
+
 ---
 
 ## Étape 2 - Tester la configuration {#tester-configuration}
@@ -206,6 +217,8 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontreal.ca).  
+
+</HideForIOS>
 
 ## Désinstaller {#desinstaller}
 
