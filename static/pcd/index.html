@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Processing Community Day</title>
+<meta name="description" content="Processing Community Day - journée de la communauté Processing à l'Université de Montréal, célébrant les 25 ans de la fondation Processing.">
+<meta name="theme-color" id="theme-color-meta" content="#fafaf8">
+<link rel="icon" href="images/logos/favicon.ico" sizes="any">
+<script>
+(function(){
+  try {
+    var stored = localStorage.getItem('pcd-theme');
+    document.documentElement.setAttribute('data-theme', stored === 'dark' ? 'dark' : 'light');
+  } catch (e) {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Passer au contenu principal</a>
+
+<nav id="navbar" aria-label="Navigation principale">
+  <div class="nav-inner">
+    <a href="#accueil" class="nav-logo">PCD<span class="logo-accent">_</span>MTL<span class="logo-accent">26</span></a>
+    <div class="nav-controls">
+      <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Activer le mode sombre">
+        <span class="theme-toggle-track" aria-hidden="true">
+          <span class="theme-toggle-thumb">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </span>
+        </span>
+      </button>
+      <button id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-text">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div id="nav-links" aria-hidden="true">
+  <ul>
+    <li><a href="#accueil"><span class="nav-num">00</span>Accueil</a></li>
+    <li><a href="#processing"><span class="nav-num">01</span>À propos</a></li>
+    <li><a href="#programme"><span class="nav-num">02</span>Programme</a></li>
+    <li><a href="#participer"><span class="nav-num">03</span>Participer</a></li>
+    <li><a href="#faq"><span class="nav-num">04</span>FAQ</a></li>
+    <li><a href="#contact"><span class="nav-num">05</span>Contact</a></li>
+  </ul>
+</div>
+
+<main id="main-content">
+
+  <!-- ACCUEIL -->
+  <section id="accueil" class="section hero" aria-labelledby="accueil-heading">
+    <div id="p5-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow">- 24 octobre 2026 · Université de Montréal -</p>
+      <h1 id="accueil-heading" tabindex="-1">Processing<br>Community Day</h1>
+      <p class="hero-translation">Journée de la communauté Processing</p>
+      <p class="hero-year">2026</p>
+      <p class="hero-sub">Une journée pour célébrer l'art, le code et le logiciel libre à l'occasion des 25 ans de la fondation Processing.</p>
+      <a href="#inscription" class="btn">S'inscrire</a>
+    </div>
+    <a href="#processing" class="scroll-cue" aria-label="Défiler vers la section suivante">↓</a>
+  </section>
+
+  <!-- C'EST QUOI PROCESSING -->
+  <section id="processing" class="section" aria-labelledby="processing-heading">
+    <span class="deco-mark" aria-hidden="true" style="top:-3%;right:-2%;font-size:23.2rem;transform:translateY(var(--parallax-y,0px)) rotate(12deg);opacity:.08;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="top:18%;left:2%;font-size:13.0rem;transform:translateY(var(--parallax-y,0px)) rotate(-10deg);opacity:.1;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:-4%;right:12%;font-size:18.8rem;transform:translateY(var(--parallax-y,0px)) rotate(-15deg);opacity:.07;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:10%;left:20%;font-size:11.6rem;transform:translateY(var(--parallax-y,0px)) rotate(9deg);opacity:.09;">+</span>
+    <div class="container">
+      <span class="tag">01</span>
+      <h2 id="processing-heading">À propos</h2>
+      <div class="two-col">
+        <p>Le Processing Community Day (PCD) est un événement local et indépendant organisé par des membres de la communauté du code créatif. Il s'inscrit dans un réseau international de rencontres portées par des passionné·es de Processing et soutenues par la <a href="https://processingfoundation.org" target="_blank" rel="noopener" class="text-link">Processing Foundation<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>.</p>
+        <p>Nous sommes une équipe interdisciplinaire et nous organisons le PCD à Montréal pour réunir artistes, développeur·euses, étudiant·es et curieux·ses autour du code créatif et de l'art numérique, dans un esprit d'ouverture, de partage, d'expérimentation et d'accessibilité.</p>
+      </div>
+
+      <div class="subsection">
+        <h3>Qu'est-ce qu'on fait le 24 octobre pour le PCD de Montréal?</h3>
+        <div class="two-col">
+          <div>
+            <p>On se retrouve pour créer, expérimenter et partager autour du code créatif.  On contribue à la littératie numérique collective, à travers une pratique créative et artistique.</p>
+            <p>Tout au long de la journée, les participant·es imagineront et programmeront une œuvre visuelle à l'aide de Processing. On code, on échange des idées, on expérimente et on s'entraide, puis on termine la journée en présentant les créations réalisées.</p>
+          </div>
+          <div>
+            <p>Que vous soyez débutant·e, curieux·se ou expérimenté·e, tout le monde est bienvenu. Aucune expérience en programmation n'est nécessaire : il suffit d'avoir envie de découvrir, de créer et de partager.</p>
+            <p>Rendez-vous au campus MIL de l'Université de Montréal!</p>
+          </div>
+        </div>
+
+
+      <div class="subsection">
+        <h3>Qu'est-ce que Processing?</h3>
+        <div class="two-col">
+          <p>Processing est un langage de programmation et un environnement de développement créés pour les artistes, designers et créateurs visuels. Depuis plus de 20 ans, ce logiciel libre permet d'apprendre à coder à travers le dessin, l'animation et l'interactivité.</p>
+          <p>Sa version pour le web, <strong>p5.js</strong>, rend la création visuelle accessible à toutes et tous, directement dans le navigateur - sans installation. Vous pouvez faire l'expérience de p5.js live en interagissant avec l'animation dans le fond de la section Accueil.</p>
+        </div>
+
+        <div class="resources">
+          <p class="resources-intro">Pour en savoir plus <span class="lang-note">(en anglais)</span></p>
+          <div class="resource-groups">
+            <div class="resource-group">
+              <h4>Éditeurs en ligne</h4>
+              <ul>
+                <li><a href="https://openprocessing.org" target="_blank" rel="noopener">OpenProcessing<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a></li>
+                <li><a href="https://editor.p5js.org" target="_blank" rel="noopener">p5.js web editor<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a></li>
+              </ul>
+            </div>
+            <div class="resource-group">
+              <h4>Documentation</h4>
+              <ul>
+                <li><a href="https://processing.org/reference" target="_blank" rel="noopener">Processing<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a></li>
+                <li><a href="https://p5js.org/reference/" target="_blank" rel="noopener">p5.js<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a></li>
+              </ul>
+            </div>
+            <div class="resource-group">
+              <h4>Exemples</h4>
+              <ul>
+                <li><a href="https://processing.org/examples" target="_blank" rel="noopener">Processing<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a></li>
+                <li><a href="https://p5js.org/examples/" target="_blank" rel="noopener">p5.js<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMME -->
+  <section id="programme" class="section alt" aria-labelledby="programme-heading">
+    <span class="deco-mark" aria-hidden="true" style="top:-4%;left:-2%;font-size:20.3rem;transform:translateY(var(--parallax-y,0px)) rotate(-10deg);opacity:.08;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="top:20%;right:5%;font-size:11.6rem;transform:translateY(var(--parallax-y,0px)) rotate(15deg);opacity:.1;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:-3%;left:18%;font-size:21.8rem;transform:translateY(var(--parallax-y,0px)) rotate(8deg);opacity:.06;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:15%;right:-2%;font-size:13.0rem;transform:translateY(var(--parallax-y,0px)) rotate(-12deg);opacity:.1;">+</span>
+    <div class="container">
+      <span class="tag">02</span>
+      <h2 id="programme-heading">Programme</h2>
+      <p class="section-date">24 octobre 2026 · Événement en français</p>
+      <ul class="schedule">
+        <li>
+          <span class="time">10h30 – 11h00</span>
+          <span class="event">Arrivée et café</span>
+          <span class="desc">Accueil des participant·es</span>
+        </li>
+        <li>
+          <span class="time">11h00 – 11h30</span>
+          <span class="event">Introduction et tour de table</span>
+          <span class="desc">Présentation de la journée et des participant·es</span>
+        </li>
+        <li>
+          <span class="time">11h30 – 13h30</span>
+          <span class="event">Programmation d'une œuvre d'art</span>
+        </li>
+        <li>
+          <span class="time">13h30 – 14h00</span>
+          <span class="event">Pause dîner</span>
+        </li>
+        <li>
+          <span class="time">14h00 – 16h30</span>
+          <span class="event">Programmation d'une œuvre d'art (suite)</span>
+        </li>
+        <li>
+          <span class="time">16h30 – 17h00</span>
+          <span class="event">Pause</span>
+        </li>
+        <li>
+          <span class="time">17h00 – 17h30</span>
+          <span class="event">Présentation de Marion Schneider</span>
+          <span class="desc">Conférence invitée</span>
+        </li>
+        <li>
+          <span class="time">17h30 – 18h30</span>
+          <span class="event">Présentation des œuvres</span>
+          <span class="desc">Partage des œuvres programmées au cours de la journée</span>
+        </li>
+      </ul>
+      <p class="schedule-note">Des collations seront servies tout au long de la journée, et de la pizza sera offerte au dîner.</p>
+
+      <div class="subsection" id="invitee">
+        <h3>Invité·e : Marion Schneider</h3>
+        <div class="guest">
+          <img src="images/portraits/marion.jpg" alt="Portrait en noir et blanc de Marion Schneider, artiste numérique" class="guest-photo">
+          <div class="guest-bio">
+            <p>Marion Schneider est une artiste numérique non-binaire qui vit et travaille à Montréal. Sa pratique interdisciplinaire, engagée et poétique, explore le sentimentalisme, la queerness et l'écologie à travers la robotique, les installations et l'art web.</p>
+            <a href="https://schneidermarion.net" target="_blank" rel="noopener" class="guest-link">schneidermarion.net<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span> →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTICIPER -->
+  <section id="participer" class="section" aria-labelledby="participer-heading">
+    <span class="deco-mark" aria-hidden="true" style="top:-3%;right:-2%;font-size:18.8rem;transform:translateY(var(--parallax-y,0px)) rotate(-14deg);opacity:.08;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="top:22%;left:3%;font-size:11.6rem;transform:translateY(var(--parallax-y,0px)) rotate(9deg);opacity:.1;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:-4%;right:15%;font-size:14.5rem;transform:translateY(var(--parallax-y,0px)) rotate(13deg);opacity:.09;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:12%;left:-2%;font-size:20.3rem;transform:translateY(var(--parallax-y,0px)) rotate(-9deg);opacity:.06;">−</span>
+    <div class="container">
+      <span class="tag">03</span>
+      <h2 id="participer-heading">Participer</h2>
+
+      <div class="subsection" id="inscription">
+        <h3>Inscription</h3>
+        <p>La participation est gratuite mais les places sont limitées. Réservez la vôtre dès maintenant pour rejoindre la communauté Processing le temps d'une journée.</p>
+        <a href="https://umontreal.libwizard.com/f/pcd_mtl26" target="_blank" rel="noopener" class="btn large">Réserver ma place<svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+        <p class="fine-print">Aucune expérience en programmation n'est requise.</p>
+      </div>
+
+      <div class="subsection" id="lieu">
+        <h3>S'y rendre</h3>
+        <div class="venue">
+          <div class="venue-info">
+            <h4>Adresse</h4>
+            <p class="venue-address">
+              Bibliothèque Hubert-Reeves, Aile A<br>
+              Campus MIL - Université de Montréal<br>
+              1375, avenue Thérèse-Lavoie-Roux<br>
+              Montréal (Québec) H2V 0B3
+            </p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Campus+MIL+Universit%C3%A9+de+Montr%C3%A9al+1375+avenue+Th%C3%A9r%C3%A8se-Lavoie-Roux+Montr%C3%A9al" target="_blank" rel="noopener" class="guest-link">Ouvrir dans Google Maps<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span> →</a>
+
+            <p class="venue-note">Nous encourageons fortement l'utilisation du transport collectif ou actif pour vous rendre sur le campus.</p>
+
+            <h4>Métro</h4>
+            <p>Stations <strong>Acadie</strong> ou <strong>Outremont</strong> (ligne bleue), à environ 5 minutes à pied.</p>
+
+            <h4>Autobus</h4>
+            <p>Lignes <strong>80</strong>, <strong>119</strong>, <strong>160</strong> et <strong>161</strong> de la STM. Horaires et trajets sur <a href="https://www.stm.info/fr" target="_blank" rel="noopener" class="text-link">stm.info<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>.</p>
+
+            <h4>Vélo</h4>
+            <p>Plusieurs stations <strong>BIXI</strong> se trouvent à proximité du campus.</p>
+
+            <h4>Accessibilité</h4>
+            <p>Le bâtiment est accessible aux personnes à mobilité réduite.</p>
+          </div>
+          <div class="venue-map">
+            <iframe
+              src="https://www.google.com/maps?q=Campus+MIL+Universit%C3%A9+de+Montr%C3%A9al,+1375+avenue+Th%C3%A9r%C3%A8se-Lavoie-Roux,+Montr%C3%A9al&output=embed"
+              width="100%" height="100%"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Carte Google Maps montrant le Campus MIL de l'Université de Montréal">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section alt" aria-labelledby="faq-heading">
+    <span class="deco-mark" aria-hidden="true" style="top:-2%;left:-3%;font-size:17.4rem;transform:translateY(var(--parallax-y,0px)) rotate(11deg);opacity:.09;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="top:15%;right:2%;font-size:13.0rem;transform:translateY(var(--parallax-y,0px)) rotate(-13deg);opacity:.1;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:-3%;left:8%;font-size:14.5rem;transform:translateY(var(--parallax-y,0px)) rotate(-7deg);opacity:.08;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:8%;right:-3%;font-size:20.3rem;transform:translateY(var(--parallax-y,0px)) rotate(15deg);opacity:.06;">+</span>
+    <div class="container narrow">
+      <span class="tag">04</span>
+      <h2 id="faq-heading">FAQ</h2>
+      <div class="accordion">
+        <details>
+          <summary>Dois-je apporter mon ordinateur portable?</summary>
+          <p>Oui, idéalement. Si vous n'en avez pas, les bibliothèques de l'UdeM vous en fourniront un sur place. Aucune installation préalable n'est requise, tout se fait dans le navigateur.</p>
+        </details>
+        <details>
+          <summary>L'événement est-il accessible aux débutant·es?</summary>
+          <p>Absolument. Le Processing Community Day s'adresse à toutes les personnes curieuses, peu importe leur niveau en programmation.</p>
+        </details>
+        <details>
+          <summary>Dois-je faire partie de la communauté UdeM?</summary>
+          <p>Non, c'est ouvert à toutes et tous.</p>
+        </details>
+        <details>
+          <summary>Dans quelle langue se déroule l'événement?</summary>
+          <p>L'événement se déroule entièrement en français.</p>
+        </details>
+        <details>
+          <summary>La journée est-elle gratuite?</summary>
+          <p>Oui, l'inscription et la participation sont entièrement gratuites, dîner inclus.</p>
+        </details>
+        <details>
+          <summary>Puis-je proposer un atelier ou une conférence?</summary>
+          <p>Nous sommes ouvert·es aux suggestions pour les prochaines sessions. Écrivez-nous via la section <a href="#contact" class="text-link">Contact</a> pour soumettre votre proposition.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section" aria-labelledby="contact-heading">
+    <span class="deco-mark" aria-hidden="true" style="top:-3%;left:-2%;font-size:14.5rem;transform:translateY(var(--parallax-y,0px)) rotate(-11deg);opacity:.09;">−</span>
+    <span class="deco-mark" aria-hidden="true" style="top:5%;right:-2%;font-size:20.3rem;transform:translateY(var(--parallax-y,0px)) rotate(9deg);opacity:.07;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:5%;left:10%;font-size:11.6rem;transform:translateY(var(--parallax-y,0px)) rotate(14deg);opacity:.11;">+</span>
+    <span class="deco-mark" aria-hidden="true" style="bottom:-3%;right:12%;font-size:17.4rem;transform:translateY(var(--parallax-y,0px)) rotate(-10deg);opacity:.08;">−</span>
+    <div class="container center">
+      <span class="tag">05</span>
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-intro">
+        <p>Une question, une idée, une envie de collaborer? Écrivez-nous.</p>
+        <a href="mailto:studio@bib.umontreal.ca" class="contact-email">studio@bib.umontreal.ca</a>
+        <nav class="socials" aria-label="Réseaux sociaux">
+          <a href="https://github.com/sparkrew/PCDMontreal" target="_blank" rel="noopener">GitHub<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+        </nav>
+      </div>
+
+      <div class="subsection">
+        <h3>Organisateur·rices</h3>
+        <ul class="team">
+          <li>
+            <img src="images/portraits/photo-benoit.jpg" alt="Portrait de Benoit Baudry" class="team-photo">
+            <p class="team-name">Benoit Baudry</p>
+            <p class="team-role">Professeur titulaire - Université de Montréal</p>
+            <p class="team-links">
+              <a href="https://github.com/bbaudry/" target="_blank" rel="noopener">GitHub<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+              <a href="https://softwarediversity.eu/" target="_blank" rel="noopener">Site<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+              <a href="mailto:benoit.baudry@umontreal.ca">Courriel</a>
+            </p>
+          </li>
+          <li>
+            <img src="images/portraits/photo-lena.jpg" alt="Portrait de Lena Krause" class="team-photo">
+            <p class="team-name">Lena Krause</p>
+            <p class="team-role">Candidate au doctorat - Université de Montréal</p>
+            <p class="team-links">
+              <a href="https://github.com/lenaMK" target="_blank" rel="noopener">GitHub<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+              <a href="https://lenamk.site/" target="_blank" rel="noopener">Site<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+              <a href="mailto:lena.krause@umontreal.ca">Courriel</a>
+            </p>
+          </li>
+          <li>
+            <img src="images/portraits/photo-marion.jpg" alt="Portrait de Marion Schneider" class="team-photo">
+            <p class="team-name">Marion Schneider</p>
+            <p class="team-role">Artiste</p>
+            <p class="team-links">
+              <a href="https://github.com/noiramschneider" target="_blank" rel="noopener">GitHub<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+              <a href="https://schneidermarion.net" target="_blank" rel="noopener">Site<span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+              <a href="mailto:schneidermarionx@gmail.com">Courriel</a>
+            </p>
+          </li>
+          <li>
+            <img src="images/portraits/photo-indiana.jpg" alt="Portrait de Indiana Delsart" class="team-photo">
+            <p class="team-name">Indiana Delsart</p>
+            <p class="team-role">Bibliothécaire - Université de Montréal</p>
+            <p class="team-links">
+              <a href="mailto:indiana.delsart@umontreal.ca">Courriel</a>
+            </p>
+          </li>
+          <li>
+            <img src="images/portraits/photo-emir.jpg" alt="Portrait de Emir Chouchane" class="team-photo">
+            <p class="team-name">Emir Chouchane</p>
+            <p class="team-role">Conseiller en médiation technologique - Université de Montréal</p>
+            <p class="team-links">
+              <a href="mailto:emir.chouchane@umontreal.ca">Courriel</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="deco-mark" aria-hidden="true" style="top:-5%;left:-2%;font-size:13.0rem;transform:translateY(var(--parallax-y,0px)) rotate(-10deg);opacity:.07;">+</span>
+  <span class="deco-mark" aria-hidden="true" style="bottom:-5%;right:-2%;font-size:13.0rem;transform:translateY(var(--parallax-y,0px)) rotate(12deg);opacity:.07;">−</span>
+  <div class="footer-inner">
+    <p class="footer-tag">PCD<span class="logo-accent">_</span>MTL<span class="logo-accent">26</span></p>
+    <p class="footer-thanks">Une journée organisée grâce au soutien de</p>
+    <div class="footer-logos">
+      <a href="https://umontreal.ca" target="_blank" rel="noopener"><img src="images/logos/logo-udem.svg" alt="Université de Montréal" class="logo-light"><img src="images/logos/logo-udem-dark.svg" alt="Université de Montréal" class="logo-dark"><span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+      <a href="https://bib.umontreal.ca" target="_blank" rel="noopener"><img src="images/logos/logo-bib.svg" alt="Bibliothèques de l'Université de Montréal" class="logo-light"><img src="images/logos/logo-bib-dark.svg" alt="Bibliothèques de l'Université de Montréal" class="logo-dark"><span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+      <a href="https://ivado.ca" target="_blank" rel="noopener"><img src="images/logos/logo-ivado.svg" alt="IVADO" class="logo-light"><img src="images/logos/logo-ivado-dark.svg" alt="IVADO" class="logo-dark"><span class="visually-hidden"> (s'ouvre dans un nouvel onglet)</span></a>
+    </div>
+    <p class="footer-copy">Processing Community Day - Journée de la communauté Processing - Université de Montréal - 2026</p>
+  </div>
+</footer>
+
+<button id="back-to-top" class="back-to-top" aria-label="Retour en haut de la page" aria-hidden="true">
+  <span class="back-to-top-label" aria-hidden="true">Retour en haut</span>
+  <span aria-hidden="true">↑</span>
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
