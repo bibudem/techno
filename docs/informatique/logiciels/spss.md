@@ -31,7 +31,8 @@ L’université fournit gratuitement le logiciel d’analyse statistique IBM SPS
 2. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer sur **Valider**.
 3. Dans la liste déroulante, sélectionner **SPSS** selon votre système d'exploitation.
 - **SPSS 29** pour Windows 10 ou macOS 10.15 à 13
-- **SPSS 31** pour Windows 11 ou macOS 14 à 26
+- **SPSS 31** pour Windows 11 ou macOS 14
+- **SPSS 32** pour Windows 11 ou macOS 15 et ultérieur
 4. Corriger la langue (au besoin) puis cliquer Suivant et Installation du logiciel.
 5. Enregistrer puis exécuter le fichier d'installation.
 
