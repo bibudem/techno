@@ -160,13 +160,20 @@ if (!prefersReducedMotion && 'IntersectionObserver' in window) {
   revealTargets.forEach((el) => revealObserver.observe(el));
 }
 
-/* ---------- PARALLAX LÉGER SUR LA DÉCO (+, −, ;, //, (), [], {}) ---------- */
+/* ---------- PARALLAX SUR LA DÉCO (+ et −) — vitesse propre à chaque élément, basée sur sa taille ---------- */
 if (!prefersReducedMotion) {
-  const SPEEDS = [0.12, 0.18, 0.24, 0.14, 0.2, 0.16, 0.22];
-  const decoData = Array.from(document.querySelectorAll('.deco-mark')).map((el, i) => ({
-    el,
-    speed: SPEEDS[i % SPEEDS.length],
-  }));
+  const MIN_SPEED = 0.05;
+  const MAX_SPEED = 0.45;
+  const decoEls = Array.from(document.querySelectorAll('.deco-mark'));
+  const sizes = decoEls.map((el) => parseFloat(getComputedStyle(el).fontSize));
+  const minSize = Math.min(...sizes);
+  const maxSize = Math.max(...sizes);
+  const sizeRange = maxSize - minSize || 1;
+
+  const decoData = decoEls.map((el, i) => {
+    const t = (sizes[i] - minSize) / sizeRange;
+    return { el, speed: MIN_SPEED + t * (MAX_SPEED - MIN_SPEED) };
+  });
 
   let parallaxTicking = false;
   function updateParallax() {
