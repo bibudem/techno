@@ -262,9 +262,7 @@ const sketch = (p) => {
 
     const maxDist = 170;
     const lineRGB = isDark ? [111, 177, 255] : [0, 87, 172];
-    const linkColors = isDark
-      ? { lime: [31, 239, 24], purple: [163, 116, 223] }
-      : { lime: [11, 122, 15], purple: [88, 0, 196] };
+    const linkColors = { lime: [208, 219, 0], purple: [88, 0, 196] };
     for (let i = 0; i < particles.length; i++) {
       for (let j = i + 1; j < particles.length; j++) {
         const d = p.dist(
