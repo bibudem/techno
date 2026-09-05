@@ -15,6 +15,8 @@
   --accent-text:#0057ac;
   --accent-funk:#F605BE;
   --accent-console:#1FEF18;
+  --accent-lime:#0B7A0F;
+  --accent-purple:#5800C4;
   --accent-on-dark:#6fb1ff;
   --overlay-bg:#111111;
   --overlay-ink:#fafaf8;
@@ -34,6 +36,8 @@
   --ink:#f2f2ef;
   --ink-soft:#a8a8a3;
   --accent-text:#6fb1ff;
+  --accent-lime:#1FEF18;
+  --accent-purple:#A374DF;
   --line:#333330;
   --nav-bg:rgba(18,18,18,0.85);
   color-scheme:dark;
@@ -76,7 +80,7 @@ a{color:inherit;text-decoration:none;}
   background:var(--overlay-bg);
   color:var(--overlay-ink);
   padding:12px 20px;
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.9rem;
   border-radius:2px;
   transition:top .2s ease;
@@ -88,7 +92,9 @@ a{color:inherit;text-decoration:none;}
   outline-offset:3px;
 }
 
-h1,h2,h3{font-family:var(--display);font-weight:400;letter-spacing:-0.02em;}
+h1,h2,h3{font-weight:400;letter-spacing:-0.02em;}
+h1{font-family:var(--display);}
+h2,h3{font-family:var(--mono);}
 h1,h2{font-weight:700;}
 
 /* NAV */
@@ -115,7 +121,7 @@ body.nav-open .logo-accent{color:var(--accent-on-dark);}
   padding:0 32px;
 }
 .nav-logo{
-  font-family:var(--display);font-weight:400;font-size:1.05rem;
+  font-family:var(--mono);font-weight:400;font-size:1.05rem;
   color:var(--ink);
   z-index:2001;
   position:relative;
@@ -194,7 +200,7 @@ body.nav-open .theme-icon{color:var(--overlay-bg);}
   position:relative;
 }
 .nav-toggle-text{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.82rem;
   color:var(--ink);
   text-transform:lowercase;
@@ -255,7 +261,7 @@ body.nav-open .theme-icon{color:var(--overlay-bg);}
   align-items:baseline;
   justify-content:center;
   gap:16px;
-  font-family:var(--display);
+  font-family:var(--mono);
   font-weight:600;
   font-size:clamp(1.6rem,5vw,3rem);
   color:var(--overlay-ink);
@@ -316,7 +322,7 @@ body.nav-open .theme-icon{color:var(--overlay-bg);}
   background:var(--ink);
   color:var(--bg);
   border:none;
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:1.2rem;
   line-height:1;
   cursor:pointer;
@@ -372,11 +378,12 @@ body.nav-open .theme-icon{color:var(--overlay-bg);}
   font-family:var(--sans);
   font-weight:700;
   line-height:1;
-  color:var(--ink-soft);
   pointer-events:none;
   user-select:none;
   z-index:0;
 }
+.deco-mark.plus{color:var(--accent-lime);}
+.deco-mark.minus{color:var(--accent-purple);}
 footer{position:relative;overflow:hidden;}
 @media (max-width:768px){
   .deco-mark{display:none;}
@@ -402,7 +409,7 @@ footer{position:relative;overflow:hidden;}
 .container.center{text-align:center;}
 
 .tag{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.8rem;
   color:var(--accent-text);
   display:block;
@@ -416,7 +423,7 @@ h2{
 }
 
 .section-date{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.95rem;
   color:var(--accent-text);
   margin-top:-24px;
@@ -437,7 +444,7 @@ h2{
   margin-top:40px;
 }
 .resources-intro{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.85rem;
   color:var(--ink-soft);
   margin-bottom:20px;
@@ -452,7 +459,7 @@ h2{
   gap:32px;
 }
 .resource-group h4{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.9rem;
   font-weight:600;
   margin-bottom:12px;
@@ -509,7 +516,7 @@ h2{
   display:block;
 }
 .team-name{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-weight:600;
   font-size:1rem;
   line-height:1.3;
@@ -529,7 +536,7 @@ h2{
   flex-wrap:wrap;
 }
 .team-links a{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.8rem;
   color:var(--accent-text);
   border-bottom:1px solid var(--accent-text);
@@ -560,7 +567,7 @@ h2{
   max-width:800px;
 }
 .eyebrow{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:1.05rem;
   color:var(--ink-soft);
   margin-bottom:24px;
@@ -580,7 +587,7 @@ h2{
   letter-spacing:0.01em;
 }
 .hero-year{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-weight:700;
   font-size:clamp(2.2rem,6vw,4rem);
   line-height:1;
@@ -598,7 +605,7 @@ h2{
 .scroll-cue{
   position:absolute;
   bottom:32px;left:50%;transform:translateX(-50%);
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:1.2rem;
   color:var(--ink-soft);
   z-index:2;
@@ -614,7 +621,7 @@ h2{
   display:inline-flex;
   align-items:center;
   gap:10px;
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.9rem;
   padding:14px 32px;
   background:var(--accent);
@@ -652,7 +659,7 @@ h2{
   margin-bottom:20px;
 }
 .guest-link{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.95rem;
   color:var(--accent-text);
   border-bottom:1px solid var(--accent-text);
@@ -675,7 +682,7 @@ h2{
   align-items:start;
 }
 .venue-info h4{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:1rem;
   font-weight:600;
   margin:28px 0 10px;
@@ -683,7 +690,7 @@ h2{
 .venue-info h4:first-child{margin-top:0;}
 .venue-info p{color:var(--ink-soft);font-size:1rem;max-width:48ch;}
 .venue-address{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-style:normal;
   line-height:1.7;
 }
@@ -715,7 +722,7 @@ h2{
   align-items:baseline;
 }
 .schedule .time{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.85rem;
   color:var(--accent-text);
 }
@@ -723,7 +730,7 @@ h2{
   color:var(--accent-funk);
 }
 .schedule .event{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-weight:600;
   font-size:0.95rem;
 }
@@ -748,7 +755,7 @@ h2{
   padding:20px 0;
 }
 .accordion summary{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:1rem;
   font-weight:500;
   cursor:pointer;
@@ -780,7 +787,7 @@ h2{
   margin:0 auto;
 }
 .contact-email{
-  font-family:var(--display);
+  font-family:var(--mono);
   display:inline-block;
   margin:20px 0 28px;
   font-size:1.1rem;
@@ -793,7 +800,7 @@ h2{
   justify-content:center;
 }
 .socials a{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-size:0.85rem;
   color:var(--ink-soft);
 }
@@ -803,7 +810,7 @@ h2{
 footer{
   padding:56px 32px;
   text-align:center;
-  font-family:var(--display);
+  font-family:var(--mono);
   color:var(--ink-soft);
   border-top:1px solid var(--line);
   background:var(--bg-alt);
@@ -820,7 +827,7 @@ footer{
   z-index:1;
 }
 .footer-tag{
-  font-family:var(--display);
+  font-family:var(--mono);
   font-weight:400;
   font-size:1.1rem;
   color:var(--ink);

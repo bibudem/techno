@@ -210,6 +210,7 @@ const sketch = (p) => {
       this.speed = p.random(0.3, 0.9);
       this.r = p.random(1.2, 2.8);
       this.noiseOff = p.random(1000);
+      this.linkColor = p.random() < 0.5 ? 'lime' : 'purple';
     }
     update() {
       const n = p.noise(this.pos.x * 0.002, this.pos.y * 0.002, this.noiseOff);
@@ -261,6 +262,9 @@ const sketch = (p) => {
 
     const maxDist = 170;
     const lineRGB = isDark ? [111, 177, 255] : [0, 87, 172];
+    const linkColors = isDark
+      ? { lime: [31, 239, 24], purple: [163, 116, 223] }
+      : { lime: [11, 122, 15], purple: [88, 0, 196] };
     for (let i = 0; i < particles.length; i++) {
       for (let j = i + 1; j < particles.length; j++) {
         const d = p.dist(
@@ -280,7 +284,8 @@ const sketch = (p) => {
         if (dm < MOUSE_LINK_RADIUS) {
           const alpha = p.map(dm, 0, MOUSE_LINK_RADIUS, 220, 0);
           const sWeight = p.map(dm, 0, MOUSE_LINK_RADIUS, 4.2, 0.7);
-          p.stroke(240, 8, 194, alpha);
+          const c = linkColors[particles[i].linkColor];
+          p.stroke(c[0], c[1], c[2], alpha);
           p.strokeWeight(sWeight);
           p.line(particles[i].pos.x, particles[i].pos.y, p.mouseX, p.mouseY);
         }
