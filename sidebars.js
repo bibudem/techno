@@ -473,7 +473,6 @@ items: [
         collapsed: true,
         // link: undefined,
         items: [
-          "medias/adoberush",
           "medias/obs",
           "medias/guidebaladovideo",
           "medias/guidevideolsh",

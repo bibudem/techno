@@ -95,12 +95,6 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       icon: "BookOpenText",
     },
     {
-      title: "Adobe Premiere Rush",
-      description: "Logiciel pour monter rapidement vos vidéos avec l'interface intuitive de Premiere Rush.",
-      link: "/medias/adoberush",
-      icon: "FileVideo",
-    },
-    {
       title: "OBS",
       description: "Utiliser OBS Studio pour enregistrer, streamer ou capter du contenu vidéo.",
       link: "/medias/obs",

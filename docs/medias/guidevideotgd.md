@@ -98,7 +98,7 @@ Input 1 = Caméra 4; Input 2 = Caméras 1 à 3
 
 ![](/img/docs/studiovideo7.webp)
 
-- Une inversion d’image est nécessaire en postproduction, grâce aux logiciels de montage Adobe Premiere Pro, Adobe Premier Rush ou Davinci Resolve.
+- Une inversion d’image est nécessaire en postproduction, grâce aux logiciels de montage Adobe Premiere Pro ou Davinci Resolve.
 
 :::note
 N'oubliez pas de brancher la prise électrique du tableau et de suivre les instructions indiquées sur le tableau pour l'allumer. Après l’utilisation, assurez-vous de bien nettoyer le tableau en suivant ces étapes.

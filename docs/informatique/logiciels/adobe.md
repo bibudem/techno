@@ -27,7 +27,6 @@ Pour pouvoir utiliser la suite Adobe Creative Cloud installée sur nos ordinateu
 - Photoshop
 - Prelude
 - Premiere Pro
-- Rush
 - XD
 
 ---
