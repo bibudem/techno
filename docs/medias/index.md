@@ -100,6 +100,12 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
       link: "/medias/obs",
       icon: "Record",
     },
+    {
+      title: "Téléprompteur",
+      description: "Utilisation du téléprompteur du studio vidéo pour afficher du texte ou du contenu devant la caméra.",
+      link: "/medias/teleprompteur",
+      icon: "MonitorPlay",
+    },
   ]}
 />
 

@@ -477,6 +477,7 @@ items: [
           "medias/guidebaladovideo",
           "medias/guidevideolsh",
           "medias/guidevideotgd",
+          "medias/teleprompteur",
         ],
       },
 

@@ -9,6 +9,11 @@ help : crea
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Link from '@docusaurus/Link';
+
+<Link to="/medias/teleprompteur" className="button button--secondary">
+  Guide du téléprompteur
+</Link>
 
 ## Avant l’enregistrement {#avant-enregistrement}
 1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.
