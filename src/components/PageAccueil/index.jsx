@@ -111,10 +111,10 @@ export default function PageAccueil() {
               className={styles.proxyNoticeIcon}
               aria-hidden="true"
             />
-            Service Proxy : changements à venir
+            Service Proxy : changements en vigueur
           </h2>
           <p className={styles.proxyNoticeText}>
-            À compter du 13 juillet, le service Proxy évolue : iOS n’est plus
+            Depuis juillet 2026, le service Proxy a évolué : iOS n’est plus
             pris en charge et Safari sur macOS n’est plus compatible.{' '}
             <a href="/informatique/proxy" className={styles.proxyNoticeLink}>
               Consultez la documentation
