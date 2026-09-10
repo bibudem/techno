@@ -22,9 +22,7 @@ Le téléprompteur est disponible uniquement dans le [Studio vidéo](/docs/espac
 
 ### Se connecter au poste
 
-Se connecter au PC du studio avec ses identifiants UdeM.
-
-Le logiciel *Camera Hub* se lance automatiquement et permet de contrôler le téléprompteur.
+Se connecter au PC du studio avec ses identifiants UdeM. Le logiciel **Camera Hub** se lance automatiquement et permet de contrôler le téléprompteur.
 
 ### Afficher un texte
 
@@ -33,7 +31,7 @@ Le logiciel *Camera Hub* se lance automatiquement et permet de contrôler le té
 
 Pour plus de confort pendant l’enregistrement, il est recommandé de contrôler le défilement du texte à l’aide du contrôleur placé dans le studio.
 
-Les boutons permettent de faire avancer ou reculer le texte au rythme souhaité, sans interrompre l’enregistrement.
+[Les boutons du contrôleur](#contrôleur-du-téléprompteur) permettent de faire avancer ou reculer le texte au rythme souhaité, sans interrompre l’enregistrement.
 
 **Camera Hub** permet également d’activer le défilement automatique et d’en régler la vitesse. Cette option peut être utile pour un texte continu, mais nécessite d’adapter le rythme de lecture à celui du téléprompteur.
 
@@ -51,9 +49,9 @@ Le téléprompteur peut également être utilisé comme un deuxième écran, per
 * une page Web;
 * toute autre fenêtre ouverte sur le PC du studio.
 
-- Appuyer sur le bouton 1 du contrôleur pour changer le mode d’affichage du téléprompteur et l’utiliser comme deuxième écran.
+1) [Appuyer sur le **bouton 1** du contrôleur](#contrôleur-du-téléprompteur) pour changer le mode d’affichage du téléprompteur et l’utiliser comme deuxième écran. (voir en bas)
 
-- Ouvrir le contenu souhaité sur le PC du studio, puis déplacer simplement la fenêtre vers l’écran du téléprompteur.
+2) Ouvrir le contenu souhaité sur le PC du studio, puis déplacer simplement la fenêtre vers l’écran du téléprompteur.
 
 Pour une présentation PowerPoint, il est possible d’afficher les diapositives directement devant la caméra.
 
