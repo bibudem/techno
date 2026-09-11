@@ -32,7 +32,7 @@ L'Université de Montréal fournit gratuitement le logiciel de référence bibli
 1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
 2. Visiter [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
-4. Sélectionner **EndNote 2025.2 (Windows)** dans La liste des logiciels autorisés.
+4. Sélectionner **EndNote 2025.3.1 (Windows)** dans La liste des logiciels autorisés.
 5. Lire les informations à l’écran et cliquer **Valider** → **Suivant** → **Installation du logiciel**.
 6. Ouvrir le fichier téléchargé, cliquer **Oui** et poursuivre l’installation.
 
@@ -121,7 +121,7 @@ La synchronisation permet de stocker vos références sur les serveurs d’EndNo
 1. **Redémarrer votre ordinateur et s’assurer que Microsoft Word n’ait pas été ouvert.**
 2. Avec **Safari**, aller à [logitheque.ti.umontreal.ca](https://logitheque.ti.umontreal.ca) et s’authentifier avec son code d’accès ou courriel UdeM et mot de passe.
 3. Lire la directive, cocher la case **J’accepte les termes de la directive** et cliquer **Valider**.
-4. Sélectionner **EndNote 2025.2 (macOS)** dans La liste des logiciels autorisés.
+4. Sélectionner **EndNote 2025 (macOS)** dans La liste des logiciels autorisés.
 5. Lire les informations à l’écran et cliquer **Valider** → **Suivant**.
 6. À la page d’installation du logiciel, un avertissement indique que l’installation désinstallera automatiquement toutes les versions d'EndNote antérieures à EndNote 2025. Dans le cas d’une mise à jour de EndNote, il est toujours préférable de faire une sauvegarde de ses bases de données EndNote avant. Ensuite cliquer **Installation du logiciel**.
 7. Ouvrir le fichier téléchargé et poursuivre l’installation en prenant soin de ne pas changer le dossier d’installation.
