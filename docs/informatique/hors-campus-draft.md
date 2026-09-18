@@ -3,7 +3,6 @@ title: Accès hors campus
 description: Accès aux ressources électroniques des bibliothèques UdeM via le proxy.
 hide_table_of_contents: false
 image: "/img/cover/horscampus.webp"
-draft: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
