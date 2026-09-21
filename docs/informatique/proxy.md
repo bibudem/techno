@@ -210,7 +210,7 @@ export function HideForIOS({children}) {
       <TabItem value="Safari" label="Safari">
       **MAC** : Menu Safari → Réglages (ou Préférences) → Avancées → cocher **Afficher les fonctionnalités de développement web** → menu Développement (en haut) → **Vider les caches** → **Redémarrer l’ordinateur**.
 
-      **iOS** (iPhone, iPad, iPod) : Réglages → Apps → Safari → **Effacer l’historique de navigation** → **Tout l'historique** → **Effacer l'historique** →  **Redémarrer l’appareil**.
+      **iOS et iPadOS** (iPhone, iPad, iPod) : Réglages → Apps → Safari → **Effacer l’historique de navigation** → **Tout l'historique** → **Effacer l'historique** →  **Redémarrer l’appareil**.
       </TabItem>
     </Tabs>
   </TabItem>
@@ -271,7 +271,7 @@ Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontre
     </Tabs>
   </TabItem>
 
-  <TabItem value="iOS" label="iOS">
+  <TabItem value="iOS" label="iOS et iPadOS">
         1. **Réglages → Wi‑Fi → ⓘ** à côté du réseau sans‑fil.  
         2. Sous **Serveur mandataire HTTP**, sélectionner **Non**.
         3. Cliquer **Enregistrer**
