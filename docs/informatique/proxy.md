@@ -122,7 +122,7 @@ export function HideForIOS({children}) {
     </Tabs>
   </TabItem>
 
-  <TabItem value="iOS" label="iOS">
+  <TabItem value="iOS" label="iOS et iPadOS">
     :::warning Attention
     Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) plutôt que le Proxy.
     :::
