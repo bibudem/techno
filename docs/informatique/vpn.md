@@ -59,8 +59,8 @@ Le client VPN Cisco Secure Client remplace Ivanti Secure Access. Dès le 14 juin
     Lien vers la procédure détaillée des [Technologies de l'information.](https://wiki.umontreal.ca/spaces/SIE/pages/127184779/FAQ+VPN#expand-CommentinstallerlapplicationVPNsurunordinateurWindows)
   </TabItem>
 
-  <TabItem value="ios" label="iOS">
-    Prérequis : iOS et iPadOS version 13 et ultérieur.
+  <TabItem value="ios" label="iOS et iPadOS">
+    Prérequis : iOS ou iPadOS version 13 et ultérieur.
 
     1. [Télécharger l'application Cisco Secure Client](https://apps.apple.com/us/app/cisco-secure-client/id1135064690) sur l'App Store.
     2. Ouvrir l'app **Cisco Secure Client**
@@ -115,7 +115,7 @@ Le client VPN Cisco Secure Client remplace Ivanti Secure Access. Dès le 14 juin
     4. Pour se déconnecter, cliquer l'icône Cisco Secure Client (en bas à droite) et sélectionner **Déconnecter**.
   </TabItem>
 
-  <TabItem value="iOS" label="iOS">
+  <TabItem value="iOS" label="iOS ou iPadOS">
     1. Ouvrir l'app **Cisco Secure Client**.
     2. Activer le bouton **VPN AnyConnect**.
     3. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer sur **Se connecter**.
