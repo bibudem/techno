@@ -43,7 +43,7 @@ Le studio vidéo de la [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umon
     reserveText="Réserver"
     secondaryLinks={[
       { href: "/medias/guidevideotgd", text: "Guide d'utilisation" },
-      { href: "https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled", text: "Obtenir du soutien" },
+      { href: "https://bookings.cloud.microsoft/book/studiobib@umontreal.ca/s/8H_NwNa_w0SuVTJV2MUyEw2?ismsaljsauthenabled", text: "Obtenir du soutien" },
     ]}
   />
 </div>

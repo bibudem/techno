@@ -50,7 +50,7 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
     reserveText="Réserver"
     secondaryLinks={[
       { href: "/medias/guidevideolsh", text: "Guide d'utilisation" },
-      { href: "https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled", text: "Obtenir du soutien" },
+      { href: "https://bookings.cloud.microsoft/book/studiobib@umontreal.ca/s/8H_NwNa_w0SuVTJV2MUyEw2?ismsaljsauthenabled", text: "Obtenir du soutien" },
     ]}
   />
 </div>
