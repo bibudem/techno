@@ -1,6 +1,10 @@
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning
+    La brodeuse numérique est actuellement indisponible, nous travaillons à son retour, merci de votre compréhension.
+:::
+
 # Guide général de la brodeuse
 
 ![](/img/docs/brod1.webp)
