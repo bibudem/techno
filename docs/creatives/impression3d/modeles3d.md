@@ -20,7 +20,7 @@ Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi q
 
 - [Layering en ligne](https://layerling.com/)
 
-Layering est une application sur navigateur gratuite et sans inscription, permettant de modéliser des objets très facilement. Pour les habitués de Tinkercad voici une version améliorée (choix du plateau correcpondant à notre imprimante, fonction Hollow, pas de limite de taille du fichier à exporter. 
+Layering est une application sur navigateur gratuite et sans inscription, permettant de modéliser des objets très facilement. Pour les habitués de Tinkercad voici une version améliorée (choix du plateau correspondant à notre imprimante, fonction Hollow, pas de limite de taille du fichier à exporter. 
 
 Cette application est la plus facile à prendre en main de cette liste.
 
