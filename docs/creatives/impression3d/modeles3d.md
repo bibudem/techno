@@ -16,6 +16,16 @@ Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi q
 
 ## Logiciels de modélisation 3D
 
+### Layerling
+
+- [Layerling en ligne](https://layerling.com/)
+
+Layerling est une application sur navigateur gratuite et sans inscription, permettant de modéliser des objets très facilement. Pour les habitués de Tinkercad voici une version améliorée (choix du plateau correcpondant à notre imprimante, fonction Hollow, pas de limite de taille du fichier à exporter. 
+
+Cette application est la plus facile à prendre en main de cette liste.
+
+-----
+
 ### Tinkercad
 
 - [Tinkercad en ligne](https://www.tinkercad.com/)
@@ -24,8 +34,6 @@ Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi q
 Tinkercad est une application sur navigateur développé par Autodesk, permettant de modéliser des objets très facilement. Tinkercad permet également de réaliser des montages électroniques ainsi que de programmer à l’aide de blocs. 
 
 Créez-vous un compte gratuitement et réalisez votre objet en combinant des formes géométriques de base. 
-
-Cette application est la plus facile à prendre en main de cette liste.
 
 ![Interface du logiciel en ligne Tinkercad](/img/docs/tinkercad.webp)
 
