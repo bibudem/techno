@@ -48,6 +48,10 @@ Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Ant
 Les postes à distance sont temporairement inaccessibles en raison d’une panne technique. Nous sommes désolés des inconvénients et mettons tout en œuvre pour rétablir le service rapidement.
 ::: -->
 
+:::warning
+Certains postes à distance sont temporairement inaccessibles en raison d’une panne technique. Nous sommes désolés des inconvénients et mettons tout en œuvre pour rétablir le service rapidement.
+:::
+
 <div className="grid-container">
   
   <div className="grid-item">
