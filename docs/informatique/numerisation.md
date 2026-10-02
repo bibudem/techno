@@ -70,7 +70,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
 3. Configurer les paramètres recommandés, mais modifiables :  
 4. Cliquer **Aperçu** pour visualiser l’image à numériser.  
 5. Dans la nouvelle fenêtre, encadrer le document ou la partie du document à numériser.  
-6. Cliquer s**Numériser**, choisissez ensuite l’emplacement où enregistrer le document, le format de l’image (PDF, JPEG...) et cliquez **OK**.  
+6. Cliquer **Numériser**, choisissez ensuite l’emplacement où enregistrer le document, le format de l’image (PDF, JPEG...) et cliquez **OK**.  
 7. Enregistrer le document.
 ---
 
