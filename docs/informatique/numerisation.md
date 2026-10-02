@@ -66,7 +66,7 @@ Les bibliothèques de l'UdeM mettent à votre disposition un service de numéris
 ## Numérisation avec Epson Scan (gratuit) {#epsonscan}
 
 1. Placer l’image à numériser sur la vitre du numériseur, en haut à gauche.  
-2. Cliquer le bouton **Windows** → **Numérisation** → **EPSON Scan**.  
+2. Rechercher → **EPSON Scan**.  
 3. Configurer les paramètres recommandés, mais modifiables :  
 4. Cliquer **Aperçu** pour visualiser l’image à numériser.  
 5. Dans la nouvelle fenêtre, encadrer le document ou la partie du document à numériser.  
