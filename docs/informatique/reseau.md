@@ -161,33 +161,33 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
   <TabItem value="windows" label="Windows">
     1. Aller dans **Paramètres** → **Réseau et Internet** → **Wi-Fi**.  
     2. Sélectionner **Gérer les réseaux connus**.  
-    3. Supprimer **UdeM avec cryptage**.
+    3. Supprimer **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs**
   </TabItem>
 
   <TabItem value="macos" label="macOS">
     1. Aller dans **Préférences Réseau** → **Wi-Fi** → **Avancé**.  
-    2. Sélectionner **UdeM avec cryptage** et cliquer sur le symbole **-** pour supprimer.  
+    2. Sélectionner **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs** et cliquer sur le symbole **-** pour supprimer.  
     :::note
     Encore des problèmes? Au besoin, supprimer les informations de branchement du Trousseau d’accès
     **Finder** → inscrire Trousseau dans la barre de recherche → double-cliquer **Trousseau d’accès** → inscrire
-    **umontreal** dans la boite de recherche → supprimer la ligne correspondante aux réseaux Wi-Fi de l'Université (**UdeM avec cryptage**, **eduroam**, **UdeM non securise** et **UdeM-Visiteurs**)
+    **umontreal** dans la boite de recherche → supprimer la ligne correspondante aux réseaux Wi-Fi de l'Université (**UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs**)
     :::
   </TabItem>
 
   <TabItem value="ios" label="iOS">
     1. Aller dans **Réglages** → **Wi-Fi**.  
-    2. Appuyer l'icône "i" à côté de **UdeM avec cryptage** et choisir **Oublier ce réseau**.
+    2. Appuyer l'icône "i" à côté de **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs** et choisir **Oublier ce réseau**.
   </TabItem>
 
   <TabItem value="android" label="Android">
     1. Aller dans **Paramètres** → **Wi-Fi**.  
-    2. Appuyer longuement sur le réseau **UdeM avec cryptage** et sélectionner **Retirer le réseau**.
+    2. Appuyer longuement sur le réseau **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs** et sélectionner **Retirer le réseau**.
     3. Se connecter à nouveau
 
     En cas de problème :
 
     - À noter que plusieurs tentatives de connexion effectuées avec les mauvaises options peuvent entraîner un blocage temporaire de 30 minutes
-    - Déconnectez-vous de tous les réseaux Wi-Fi de l'UdeM (*Udem avec cryptage, Eduroam, UdeM-Visiteurs*)
+    - Déconnectez-vous de tous les réseaux Wi-Fi de l'UdeM (*UdeM avec cryptage, Eduroam, UdeM-Visiteurs*)
     - Redémarrez votre appareil
     - Attendez 30 minutes
     - Sélectionnez Utiliser Adresse MAC du téléphone au lieu de Utiliser adresse MAC aléatoire lors de la connexion (en bas complètement)
@@ -195,7 +195,7 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
 
   <TabItem value="chromebook" label="Chromebook">
     1. Aller **Wi-Fi** (en bas à droite) →  bouton **Avancé**.
-    2. Dans la section réseau, sélectionner **WiFi** → **UdeM avec cryptage** et **Retirer**.
+    2. Dans la section réseau, sélectionner **WiFi** → **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs** et **Retirer**.
   </TabItem>
 </Tabs>
 
