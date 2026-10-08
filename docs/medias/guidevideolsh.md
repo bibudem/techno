@@ -26,6 +26,13 @@ import Link from '@docusaurus/Link';
 5. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
 6. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
+:::tip Recommandation
+
+Pour éviter tout problème technique, nous recommandons de privilégier un enregistrement continu plutôt que de multiplier les séquences.
+Effectuez les coupes nécessaires au montage par la suite.
+
+:::
+
 <details>
   <summary>**Comment formater le disque dur?**</summary>
   

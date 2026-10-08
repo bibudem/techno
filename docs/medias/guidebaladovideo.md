@@ -22,7 +22,14 @@ help : crea
 
 ![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
 
-10. Ajuster le niveau des casques d'écoute si nécessaire. Le volume des casques est contrôlé par les boutons situés en haut de la console de contrôle.
+:::tip Recommandation
+
+Pour éviter tout problème technique, nous recommandons de privilégier un enregistrement continu plutôt que de multiplier les séquences.
+Effectuez les coupes nécessaires au montage par la suite.
+
+:::
+
+9. Ajuster le niveau des casques d'écoute si nécessaire. Le volume des casques est contrôlé par les boutons situés en haut de la console de contrôle.
 
 ![L'interface de contrôle du niveau des casques d'écoute](/img/docs/studio-interface-control-4.webp)
 
