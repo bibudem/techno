@@ -127,9 +127,9 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Paramètres de notre impression
 
-1.	Vérifier que la bonne imprimante est sélectionnée : cliquer sur l’icône en haut à gauche dans **Imprimante** → **Sélectionner la Bambu Lab X1 Carbon**
+1.	Vérifier que la bonne imprimante est sélectionnée : cliquer sur l’icône en haut à gauche dans **Imprimante** → **Sélectionner la Bambu Lab X2D**
 
-![](/img/docs/configurer_bambu_studio_32.webp)
+![](/img/docs/bambu_X2D_2.png)
 
 2.	Synchroniser les filaments avec l’imprimante : dans la partie **Filament** du projet, cliquer sur l’icône **Synchroniser les filaments depuis l’AMS**, sélectionner **Surécriture** et **Synchroniser maintenant**.
 
