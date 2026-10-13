@@ -151,14 +151,12 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Impression avec plusieurs couleurs
 
-Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur. Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge. Nous vous invitons à ne pas mélanger les couleurs dans un même objet.
+Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur. Dans notre exemple nous avons choisi une partie des objets en blanc et l'autre en gris.
 
-![](/img/docs/configurer_bambu_studio_11.webp)
-
-![](/img/docs/configurer_bambu_studio_12.webp)
+![](/img/docs/bambu_X2D_1.png)
 
 :::warning
-    Dans le cas d’objets avec des couleurs différentes, il est **obligatoire** de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais **par objet** pour une impression plus rapide et moins de gaspillage. Nous nous réservons le droit de couper toute impression ne respectant pas cette procédure
+    Pour une impression en plusieurs couleurs avec la X2D, merci de choisir au maximum 2 couleurs et de s'assurer que la première couleur choisie se trouve dans l'AMS et la seconde la bobine externe. 
 :::
 
 
