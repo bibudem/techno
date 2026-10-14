@@ -7,6 +7,8 @@ image: "/img/cover/impression3d.webp"
 import CardGrid from "@site/src/components/CardGrid";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import StudioCard from '@site/src/components/StudioCard';
+import CarteImpression3D from '@site/src/components/CarteImpression3D';
+import {bibliothequesImpression3D} from '@site/src/data/impression3d';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -28,89 +30,20 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 ## Localisation
 
-<div
-  className="impression3d-studiocard-grid"
->
-  <StudioCard
-    title="Aménagement"
-    titleLink="https://bib.umontreal.ca/espaces/#amenagement"
-    location="À côté du comptoir."
-    mapLink="https://maps.app.goo.gl/irzr8ofQRdBNMFd86"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
-    ]}
-  />
+<CarteImpression3D lieux={bibliothequesImpression3D} />
 
-  <StudioCard
-    title="Mathématiques et informatique"
-    titleLink="https://bib.umontreal.ca/espaces/#math-info"
-    location={<> <a href="../../espaces/ateliers">Atelier de fabrication</a>, local 2432. </>}
-    mapLink="https://maps.app.goo.gl/Jwg5Q34WrjR7vhGV8"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
-      { label: "BambuLab X2D" },
-      { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
-    ]}
-  />
-
-  <StudioCard
-    title="Hubert-Reeves"
-    titleLink="https://bib.umontreal.ca/espaces/#Hubert-reeves"
-    location={<> <a href="../../espaces/ateliers">Atelier de fabrication</a>, local A-0724.4. </>}
-    mapLink="https://maps.app.goo.gl/T6E9TaKNk6dDgrds9"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
-      { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
-    ]}
-  />
-
-  <StudioCard
-    title="Thérèse-Gouin-Décarie"
-    titleLink="https://bib.umontreal.ca/espaces/#tgd"
-    location={<> <a href="../../espaces/ateliers">Atelier de fabrication</a>, local D-280-1. </>}
-    mapLink="https://maps.app.goo.gl/t8GE4RdMBEJiHJtd8"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "Elegoo Saturn 3 Ultra", href: "/creatives/impression3d/saturn" },
-      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
-      { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
-    ]}
-  />
-
-  <StudioCard
-    title="Santé"
-    titleLink="https://bib.umontreal.ca/espaces/#sante"
-    location={<>6<sup>e</sup> étage, à l'entrée de la bibliothèque.</>}
-    mapLink="https://maps.app.goo.gl/KVE9w3JN2BKp278q8"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "Ultimaker S3", href: "/creatives/impression3d/ultimaker" },
-      { label: "Ultimaker 2", href: "/creatives/impression3d/ultimaker" },
-    ]}
-  />
-
-  <StudioCard
-    title="Marguerite d'Youville"
-    titleLink="https://bib.umontreal.ca/espaces/#marguerite-d-youville"
-    mapLink="https://g.co/kgs/q8wfQY2"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
-    ]}
-  />
-
-  <StudioCard
-    title="Médecine vétérinaire"
-    titleLink="https://bib.umontreal.ca/espaces/#medecine-veterinaire"
-    mapLink="https://www.google.com/maps/search/?api=1&query=Biblioth%C3%A8que+de+m%C3%A9decine+v%C3%A9t%C3%A9rinaire+Universit%C3%A9+de+Montr%C3%A9al"
-    mapText="Voir sur la carte"
-    tags={[
-      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
-    ]}
-  />
+<div className="impression3d-studiocard-grid">
+  {bibliothequesImpression3D.map((lieu) => (
+    <StudioCard
+      key={lieu.title}
+      title={lieu.title}
+      titleLink={lieu.titleLink}
+      location={lieu.location}
+      mapLink={lieu.mapLink}
+      mapText="Voir sur la carte"
+      tags={lieu.tags}
+    />
+  ))}
 </div>
 <!-- | **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS | -->
 

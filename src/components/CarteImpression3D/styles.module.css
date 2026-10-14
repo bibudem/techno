@@ -1,0 +1,70 @@
+.wrapper {
+  margin: 1rem 0 1.5rem;
+}
+
+.regions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.map {
+  height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--gris-200);
+  background: var(--gris-50);
+  /* Garde la carte sous la barre de navigation collante */
+  z-index: 0;
+  position: relative;
+}
+
+/* Fond monochrome : seules les tuiles sont filtrées, les points gardent leur couleur */
+.map :global(.leaflet-tile-pane) {
+  filter: grayscale(1) contrast(0.9) brightness(1.05);
+}
+
+html[data-theme='dark'] .map :global(.leaflet-tile-pane) {
+  filter: grayscale(1) invert(1) contrast(0.85) brightness(0.9);
+}
+
+.marker {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--jaune);
+  border: 3px solid var(--bleu-700);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.marker:focus-visible {
+  outline: 3px solid var(--bleu-400);
+  outline-offset: 2px;
+}
+
+.popupTitle {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.popupList {
+  margin: 0 0 0.4rem;
+  padding-left: 1.1rem;
+}
+
+html[data-theme='dark'] .marker {
+  border-color: var(--white);
+}
+
+html[data-theme='dark'] .map {
+  border-color: var(--gris-600);
+  background: var(--gris-800);
+}
+
+@media screen and (max-width: 768px) {
+  .map {
+    height: 300px;
+  }
+}
