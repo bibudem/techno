@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import clsx from 'clsx';
 import styles from './styles.module.css';
 import CardBib from '@site/src/components/CardBib';
 import CardRow from '@site/src/components/CardRow';
@@ -96,10 +95,8 @@ export default function PageAccueil() {
               />
             </h1>
             <p
-              className={clsx(
-                styles.introSubtitleRight,
-                subtitle && styles.introSubtitleVisible,
-              )}
+              className={styles.introSubtitleRight}
+              data-pret={subtitle ? 'true' : 'false'}
             >
               {subtitle ?? '\u00A0'}
             </p>
