@@ -50,6 +50,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
     mapText="Voir sur la carte"
     tags={[
       { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+      { label: "BambuLab X2D" },
       { label: "Prusa i3 MK3s+", href: "/creatives/impression3d/prusa" },
     ]}
   />
@@ -95,6 +96,16 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
     title="Marguerite d'Youville"
     titleLink="https://bib.umontreal.ca/espaces/#marguerite-d-youville"
     mapLink="https://g.co/kgs/q8wfQY2"
+    mapText="Voir sur la carte"
+    tags={[
+      { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
+    ]}
+  />
+
+  <StudioCard
+    title="Médecine vétérinaire"
+    titleLink="https://bib.umontreal.ca/espaces/#medecine-veterinaire"
+    mapLink="https://www.google.com/maps/search/?api=1&query=Biblioth%C3%A8que+de+m%C3%A9decine+v%C3%A9t%C3%A9rinaire+Universit%C3%A9+de+Montr%C3%A9al"
     mapText="Voir sur la carte"
     tags={[
       { label: "BambuLab X1C AMS", href: "/creatives/impression3d/bambu" },
