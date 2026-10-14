@@ -1,23 +1,18 @@
 import React, {useEffect, useRef, useState} from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import {CheckCircle, ThumbsDown, ThumbsUp, WarningCircle} from '@phosphor-icons/react';
 import styles from './Retroaction.module.css';
-
-const UDEM_EMAIL_PATTERN = '[^\\s@]+@[uU][mM][oO][nN][tT][rR][eE][aA][lL]\\.ca';
 
 const Retroaction = () => {
   const [vote, setVote] = useState(null);
   const [comment, setComment] = useState('');
-  const [email, setEmail] = useState('');
-  const [wantsFollowUp, setWantsFollowUp] = useState(false);
   const [status, setStatus] = useState('initial');
   const commentRef = useRef(null);
-  const emailRef = useRef(null);
 
   const formId = 43784;
   const voteFieldId = 1582731;
   const commentFieldId = 1582733;
-  const emailFieldId = 1635391;
   const apiBase = 'https://umontreal.libwizard.com/api/v1/submission';
   const webhookUrl = 'https://ordo.bib.umontreal.ca/webhook/retroaction-studio-site';
 
@@ -27,19 +22,13 @@ const Retroaction = () => {
     }
   }, [vote]);
 
-  useEffect(() => {
-    if (vote === 'non' && wantsFollowUp) {
-      emailRef.current?.focus();
-    }
-  }, [vote, wantsFollowUp]);
-
   const clearErrorState = () => {
     if (status === 'error') {
       setStatus('initial');
     }
   };
 
-  const submitVote = async (voteValue, commentValue = '', emailValue = '') => {
+  const submitVote = async (voteValue, commentValue = '') => {
     if (status === 'submitting') {
       return;
     }
@@ -69,17 +58,6 @@ const Retroaction = () => {
           flags: 0
         }
       ];
-
-      if (emailValue) {
-        data.push({
-          formId,
-          fieldId: emailFieldId,
-          type: 'control_email',
-          data: emailValue,
-          hidden: false,
-          flags: 0
-        });
-      }
 
       const payload = {
         formId,
@@ -119,8 +97,6 @@ const Retroaction = () => {
   const handleOuiClick = () => {
     setVote('oui');
     setComment('');
-    setEmail('');
-    setWantsFollowUp(false);
     submitVote('oui');
   };
 
@@ -134,31 +110,17 @@ const Retroaction = () => {
     setComment(e.target.value);
   };
 
-  const handleEmailChange = (e) => {
-    clearErrorState();
-    setEmail(e.target.value);
-  };
-
-  const handleFollowUpChange = (e) => {
-    clearErrorState();
-    setWantsFollowUp(e.target.checked);
-  };
-
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    submitVote('non', comment.trim(), wantsFollowUp ? email.trim() : '');
+    submitVote('non', comment.trim());
   };
-
-  const submittedWithFollowUp = vote === 'non' && wantsFollowUp && email.trim() !== '';
 
   if (status === 'submitted') {
     return (
       <div className={styles.feedbackBox} role="status" aria-live="polite">
         <CheckCircle size={20} weight="fill" className={styles.feedbackIcon} aria-hidden="true" />
         <p className={styles.feedbackText}>
-          {submittedWithFollowUp
-            ? 'Merci, votre retour a été envoyé. Si un suivi est nécessaire, l’équipe pourra vous écrire à l’adresse fournie.'
-            : 'Merci, votre retour a été envoyé. Il nous aide à améliorer le site.'}
+          Merci, votre retour a été envoyé. Il nous aide à améliorer le site.
         </p>
       </div>
     );
@@ -170,7 +132,7 @@ const Retroaction = () => {
       <h3 className={styles.title}>L'information sur cette page vous a-t-elle été utile?</h3>
       <p className={styles.subtitle}>
         Votre réponse nous aide à améliorer le site. Si vous choisissez non, vous pourrez
-        préciser le problème et demander un suivi.
+        préciser le problème.
       </p>
 
       <div className={styles.buttons} role="group" aria-label="Votre réponse">
@@ -219,59 +181,10 @@ const Retroaction = () => {
             />
           </div>
 
-          <div className={styles.fieldGroup}>
-            <label
-              htmlFor="retroaction-follow-up"
-              className={clsx(
-                styles.followUpCard,
-                wantsFollowUp && styles.followUpCardSelected,
-              )}
-            >
-              <input
-                id="retroaction-follow-up"
-                type="checkbox"
-                className={styles.checkboxInput}
-                checked={wantsFollowUp}
-                onChange={handleFollowUpChange}
-              />
-              <span className={styles.followUpContent}>
-                <span className={styles.followUpTitle}>
-                  Je souhaite qu’un membre de l’équipe fasse un suivi avec moi
-                </span>
-                <span className={styles.followUpHint}>
-                  Si vous cochez cette option, un courriel UdeM sera demandé.
-                </span>
-              </span>
-            </label>
-          </div>
-
-          {wantsFollowUp && (
-            <div className={styles.fieldGroup}>
-              <label htmlFor="retroaction-email" className={styles.commentLabel}>
-                Courriel UdeM
-              </label>
-              <p id="retroaction-email-hint" className={styles.commentHint}>
-                Obligatoire si vous demandez un suivi. Seules les adresses @umontreal.ca sont
-                acceptées.
-              </p>
-              <input
-                id="retroaction-email"
-                ref={emailRef}
-                type="email"
-                className={styles.input}
-                value={email}
-                onChange={handleEmailChange}
-                placeholder="prenom.nom@umontreal.ca"
-                autoComplete="email"
-                inputMode="email"
-                required={wantsFollowUp}
-                maxLength={254}
-                pattern={UDEM_EMAIL_PATTERN}
-                title="Utilisez une adresse courriel se terminant par @umontreal.ca."
-                aria-describedby="retroaction-email-hint"
-              />
-            </div>
-          )}
+          <p className={styles.commentHint}>
+            Ce formulaire est anonyme et ne permet pas de suivi. Pour obtenir de l’aide ou une
+            réponse, <Link to="/a-propos/nous-joindre">contactez-nous directement</Link>.
+          </p>
 
           <div className={styles.commentFooter}>
             <span className={styles.counter}>{comment.length}/500</span>
