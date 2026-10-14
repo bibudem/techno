@@ -6,7 +6,7 @@ import HeroAide from '@site/src/components/HeroAide';
 
 export default function Home() {
   return (
-    <Layout title="Accueil" description="Page d'accueil studio·bib">
+    <Layout title="Accueil" description="studio·bib, les services technologiques et créatifs des bibliothèques de l'Université de Montréal : studios balado, impression 3D, ateliers de fabrication, postes d'édition, accès à distance et soutien informatique.">
       <main>
         <PageAccueil />
         <HeroAide />

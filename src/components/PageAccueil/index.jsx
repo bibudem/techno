@@ -1,6 +1,6 @@
-// src/pages/index.jsx
 import React from 'react';
 import Link from '@docusaurus/Link';
+import clsx from 'clsx';
 import styles from './styles.module.css';
 import CardBib from '@site/src/components/CardBib';
 import CardRow from '@site/src/components/CardRow';
@@ -11,7 +11,6 @@ import {
   Network,
   Microphone,
   ArrowRight,
-  Warning,
 } from '@phosphor-icons/react';
 
 const images = [
@@ -67,64 +66,48 @@ const infoHeroes = [
 ];
 
 export default function PageAccueil() {
-  // Choix aléatoire dès l'initialisation (pas de re-render inutile)
-  const [randomImage] = React.useState(
-    () => images[Math.floor(Math.random() * images.length)]
-  );
-  const [subtitle] = React.useState(
-    () => slogans[Math.floor(Math.random() * slogans.length)]
-  );
+  // Tirage fait seulement dans le navigateur : le HTML généré au build
+  // et le premier rendu client restent identiques (pas d'erreur d'hydratation).
+  const [randomImage, setRandomImage] = React.useState(null);
+  const [subtitle, setSubtitle] = React.useState(null);
+
+  React.useEffect(() => {
+    setRandomImage(images[Math.floor(Math.random() * images.length)]);
+    setSubtitle(slogans[Math.floor(Math.random() * slogans.length)]);
+  }, []);
 
   return (
     <>
       <section
         className={styles.introSection}
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), var(--gris-700)), url(${randomImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          borderRadius: '0 0 12px 12px',
-          color: 'var(--white)',
+          backgroundImage: randomImage
+            ? `linear-gradient(to bottom, rgba(0,0,0,0.4), var(--gris-700)), url(${randomImage})`
+            : undefined,
         }}
       >
-<div className={styles.introContainer}>
-  <div className={styles.introHeader}>
-    <img 
-      src="/img/logo-studiobib.svg" 
-      alt="studio·bib" 
-      className={styles.introLogo} 
-    />
-    <p className={styles.introSubtitleRight}>
-      {subtitle}
-    </p>
-  </div>
-  <div className={styles.introButtons}>{/* Boutons */}</div>
-</div>
+        <div className={styles.introContainer}>
+          <div className={styles.introHeader}>
+            <h1 className={styles.introHeading}>
+              <img
+                src="/img/logo-studiobib.svg"
+                alt="studio·bib"
+                className={styles.introLogo}
+              />
+            </h1>
+            <p
+              className={clsx(
+                styles.introSubtitleRight,
+                subtitle && styles.introSubtitleVisible,
+              )}
+            >
+              {subtitle ?? '\u00A0'}
+            </p>
+          </div>
+        </div>
       </section>
 
-      <aside className={styles.proxyNotice} aria-label="Avis de service">
-        <div className={styles.proxyNoticeInner}>
-          <h2 className={styles.proxyNoticeTitle}>
-            <Warning
-              size={34}
-              weight="fill"
-              className={styles.proxyNoticeIcon}
-              aria-hidden="true"
-            />
-            Service Proxy : changements en vigueur
-          </h2>
-          <p className={styles.proxyNoticeText}>
-            Depuis juillet 2026, le service Proxy a évolué : iOS n’est plus
-            pris en charge et Safari sur macOS n’est plus compatible.{' '}
-            <a href="/informatique/proxy" className={styles.proxyNoticeLink}>
-              Consultez la documentation
-            </a>{' '}
-            pour connaître les changements et les solutions de rechange.
-          </p>
-        </div>
-      </aside>
-
-      <section className="homepage-section">
+      <section>
         <CardRow>
           <CardBib
             title="Studios balado"
@@ -199,8 +182,8 @@ export default function PageAccueil() {
               Les Ateliers de fabrication sont des lieux ouverts à la communauté UdeM pour explorer la fabrication numérique : impression 3D, découpeuse, électronique et plus encore.
 Venez découvrir les outils, développer vos projets et concrétiser vos idées, avec l’accompagnement de notre équipe.
             </p>
-            <a
-              href="/espaces/ateliers"
+            <Link
+              to="/espaces/ateliers"
               className={`button button--secondary ${styles.spacesButtonLink}`}
             >
               <span>Découvrir les Ateliers</span>
@@ -210,7 +193,7 @@ Venez découvrir les outils, développer vos projets et concrétiser vos idées,
                 className={styles.spacesButtonIcon}
                 aria-hidden="true"
               />
-            </a>
+            </Link>
           </div>
           <div className={styles.spacesImages}>
             {['/img/espace-2.webp', '/img/espace-3.webp'].map(
