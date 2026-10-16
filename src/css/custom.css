@@ -35,10 +35,19 @@
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: "Figtree", sans-serif;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Anneau de focus double : anneau extérieur + halo intérieur contrasté,
+     visible sur fond clair comme sur fond foncé (WCAG 1.4.11 / 2.4.7). */
+  --focus-ring-color: var(--bleu-700);
+  --focus-ring-halo: var(--jaune);
+  --focus-ring: 3px solid var(--focus-ring-color);
+  --focus-ring-shadow: 0 0 0 3px var(--focus-ring-halo);
 }
 
 [data-theme='dark'] {
   color-scheme: dark;
+  --focus-ring-color: var(--jaune);
+  --focus-ring-halo: var(--bleu-700);
   --theme-bg: var(--bleu-700);
   --theme-surface: var(--gris-800);
   --theme-navbar-bg: var(--gris-800);
@@ -80,8 +89,9 @@ html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
   [role='button'],
   [tabindex]:not([tabindex='-1'])
 ):focus-visible {
-  outline: 3px solid var(--jaune) !important;
+  outline: var(--focus-ring) !important;
   outline-offset: 2px;
+  box-shadow: var(--focus-ring-shadow) !important;
 }
 
 .main-wrapper {
