@@ -1,5 +1,4 @@
 import { themes as prismThemes } from 'prism-react-renderer'
-import remarkInsertHelp from './src/utils/remark-insert-help.js'
 
 function disableIncompatibleWebpackbar() {
   return {
@@ -111,7 +110,6 @@ const config = {
           path: './docs',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
-          remarkPlugins: [remarkInsertHelp],
           breadcrumbs: true,
         },
         theme: {
