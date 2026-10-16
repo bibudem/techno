@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import NavbarColorModeToggle from '@theme-original/Navbar/ColorModeToggle';
+import {useColorMode} from '@docusaurus/theme-common';
 import {hasKlaroConsent} from '@site/src/utils/consent';
 
 const REQUEST_COLOR_MODE_EVENT = 'sb:request-color-mode';
@@ -27,34 +28,6 @@ function getStoredColorMode() {
   }
 }
 
-function requestColorModeChange(requestedMode) {
-  const previousMode = getCurrentColorMode();
-  if (previousMode === requestedMode) return;
-
-  try {
-    window.localStorage.setItem(COLOR_MODE_STORAGE_KEY, requestedMode);
-  } catch {
-    // Ignore localStorage access failures.
-  }
-
-  document.documentElement.setAttribute('data-theme', requestedMode);
-
-  // Notify Docusaurus provider (same tab) via synthetic storage event.
-  try {
-    window.dispatchEvent(
-      new StorageEvent('storage', {
-        key: COLOR_MODE_STORAGE_KEY,
-        oldValue: previousMode,
-        newValue: requestedMode,
-        storageArea: window.localStorage,
-        url: window.location.href,
-      }),
-    );
-  } catch {
-    // Fallback: color mode is still applied via data-theme attribute.
-  }
-}
-
 function trackDarkModeActivation(source) {
   if (!hasKlaroConsent('googleAnalytics')) return;
   if (typeof window.gtag !== 'function') return;
@@ -68,6 +41,9 @@ function trackDarkModeActivation(source) {
 function ColorModeSyncBridge() {
   const previousModeRef = useRef(null);
   const pendingSourceRef = useRef('unknown');
+  const {setColorMode} = useColorMode();
+  const setColorModeRef = useRef(setColorMode);
+  setColorModeRef.current = setColorMode;
 
   useEffect(() => {
     const onNavbarToggleClick = (event) => {
@@ -97,13 +73,19 @@ function ColorModeSyncBridge() {
     const onColorModeRequest = (event) => {
       const requestedMode = normalizeColorMode(event?.detail?.mode);
       if (!requestedMode) return;
+      if (getCurrentColorMode() === requestedMode) return;
       pendingSourceRef.current = event?.detail?.source || 'widget';
 
-      requestColorModeChange(requestedMode);
+      // API officielle : Docusaurus met à jour data-theme et le localStorage.
+      setColorModeRef.current(requestedMode);
     };
 
+    // Signale à l'outil d'accessibilité (script statique) qu'un pont est monté
+    // (compteur : la navbar mobile peut monter une seconde instance).
+    window.__sbColorModeBridge = (window.__sbColorModeBridge || 0) + 1;
     window.addEventListener(REQUEST_COLOR_MODE_EVENT, onColorModeRequest);
     return () => {
+      window.__sbColorModeBridge -= 1;
       window.removeEventListener(REQUEST_COLOR_MODE_EVENT, onColorModeRequest);
     };
   }, []);

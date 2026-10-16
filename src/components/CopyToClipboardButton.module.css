@@ -1,0 +1,85 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.button {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.code {
+  display: inline-block;
+  max-width: 100%;
+  padding: 3px 6px;
+  border: 1px solid var(--gris-200);
+  border-radius: 4px;
+  background-color: var(--gris-50);
+  color: var(--gris-700);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--gris-600);
+  color: var(--white);
+  font-size: 0.75rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.button:hover + .tooltip,
+.button:focus-visible + .tooltip {
+  opacity: 0.9;
+  visibility: visible;
+}
+
+.copied {
+  background-color: var(--gris-700);
+  opacity: 1;
+  visibility: visible;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+[data-theme='dark'] .code {
+  border-color: var(--gris-500);
+  background-color: var(--gris-700);
+  color: var(--bleu-50);
+}
+
+[data-theme='dark'] .tooltip {
+  background-color: var(--gris-100);
+  color: var(--bleu-700);
+}
+
+[data-theme='dark'] .copied {
+  background-color: var(--bleu-300);
+}

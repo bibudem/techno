@@ -1,120 +1,43 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import clsx from "clsx";
+import styles from "./CopyToClipboardButton.module.css";
 
-function getIsDarkTheme() {
-  if (typeof document === "undefined") return false;
-  return document.documentElement.getAttribute("data-theme") === "dark";
-}
-
+// Les couleurs claires/sombres sont gérées en CSS ([data-theme='dark']) :
+// aucun calcul du thème au rendu, donc pas de décalage à l'hydratation.
 export default function CopyToClipboardButton({ text }) {
   const [copied, setCopied] = useState(false);
-  const [hover, setHover] = useState(false);
-  const [isDark, setIsDark] = useState(getIsDarkTheme);
+  const timeoutRef = useRef(null);
 
-  useEffect(() => {
-    const updateTheme = () => setIsDark(getIsDarkTheme());
-    updateTheme();
-
-    const observer = new MutationObserver((mutations) => {
-      const hasThemeMutation = mutations.some(
-        (mutation) =>
-          mutation.type === "attributes" &&
-          mutation.attributeName === "data-theme",
-      );
-      if (hasThemeMutation) {
-        updateTheme();
-      }
-    });
-
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"],
-    });
-
-    window.addEventListener("themechange", updateTheme);
-    window.addEventListener("sb:color-mode-changed", updateTheme);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("themechange", updateTheme);
-      window.removeEventListener("sb:color-mode-changed", updateTheme);
-    };
-  }, []);
+  useEffect(() => () => clearTimeout(timeoutRef.current), []);
 
   const handleCopy = () => {
+    if (!navigator.clipboard) return;
     navigator.clipboard.writeText(text).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    });
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = setTimeout(() => setCopied(false), 2000);
+    }).catch(() => {});
   };
 
   return (
-    <span
-      style={{ 
-        position: "relative", 
-        cursor: "pointer", 
-        display: "inline-block", 
-        maxWidth: "100%" 
-      }}
-      onClick={handleCopy}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-    >
-      <code 
-        style={{ 
-          backgroundColor: isDark ? "var(--gris-700)" : "var(--gris-50)",
-          color: isDark ? "var(--bleu-50)" : "var(--gris-700)",
-          border: isDark ? "1px solid var(--gris-500)" : "1px solid var(--gris-200)",
-          padding: "3px 6px", 
-          borderRadius: "4px", 
-          wordBreak: "break-word", 
-          overflowWrap: "anywhere", 
-          display: "inline-block",
-          maxWidth: "100%"
-        }}
+    <span className={styles.wrapper}>
+      <button
+        type="button"
+        className={styles.button}
+        onClick={handleCopy}
+        aria-label={`Copier « ${text} »`}
       >
-        {text}
-      </code>
-
-      {/* Tooltip au survol */}
-      {hover && !copied && (
-        <span
-          style={{
-            position: "absolute",
-            top: "-30px",
-            left: "50%",
-            transform: "translateX(-50%)",
-            backgroundColor: isDark ? "var(--gris-100)" : "var(--gris-600)",
-            color: isDark ? "var(--bleu-700)" : "var(--white)",
-            padding: "5px 10px",
-            borderRadius: "5px",
-            fontSize: "12px",
-            whiteSpace: "nowrap",
-            opacity: 0.9,
-          }}
-        >
-          Cliquer pour copier
-        </span>
-      )}
-
-      {/* Message après copie */}
-      {copied && (
-        <span
-          style={{
-            position: "absolute",
-            top: "-30px",
-            left: "50%",
-            transform: "translateX(-50%)",
-            backgroundColor: isDark ? "var(--bleu-300)" : "var(--gris-700)",
-            color: isDark ? "var(--bleu-700)" : "var(--white)",
-            padding: "5px 10px",
-            borderRadius: "5px",
-            fontSize: "12px",
-            whiteSpace: "nowrap",
-          }}
-        >
-          Copié!
-        </span>
-      )}
+        <code className={styles.code}>{text}</code>
+      </button>
+      <span
+        className={clsx(styles.tooltip, copied && styles.copied)}
+        aria-hidden="true"
+      >
+        {copied ? "Copié!" : "Cliquer pour copier"}
+      </span>
+      <span className={styles.srOnly} role="status">
+        {copied ? "Copié dans le presse-papiers" : ""}
+      </span>
     </span>
   );
 }

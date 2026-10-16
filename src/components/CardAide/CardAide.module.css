@@ -22,6 +22,16 @@
   box-shadow: var(--focus-ring-shadow);
 }
 
+/* En sombre, le fond bleu-700 se confondrait avec celui de la page */
+[data-theme='dark'] .cardAide {
+  background-color: var(--gris-800);
+}
+
+[data-theme='dark'] .cardAide:hover,
+[data-theme='dark'] .cardAide:focus-visible {
+  background-color: var(--gris-700);
+}
+
 .iconContainer {
   margin-right: 1.5rem;
   display: flex;

@@ -214,6 +214,17 @@ html[data-theme='dark'] .card--clickable:hover {
   background-color: var(--ifm-color-primary) !important;
 }
 
+/* En sombre, bleu-400 sur la navbar gris-800 n'atteint que 3.5:1 : bleu-200 (≈11:1) */
+[data-theme='dark'] #__docusaurus .navbar__items:not(.navbar__items--right)
+  .navbar__link:not(.cta):hover {
+  color: var(--bleu-200) !important;
+}
+
+[data-theme='dark'] #__docusaurus .navbar__items:not(.navbar__items--right)
+  .navbar__link:not(.cta):hover::after {
+  background-color: var(--bleu-200) !important;
+}
+
 #__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link--active {
   font-weight: 700 !important;
 }

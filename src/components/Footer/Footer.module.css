@@ -12,7 +12,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  font-family: var(--font-base);
+  font-family: var(--ifm-font-family-base);
   background-color: var(--color-background);
   color: var(--color-text);
   min-height: 320px;
