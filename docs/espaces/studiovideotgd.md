@@ -54,7 +54,7 @@ Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez 
 
 ## Accès {#acces}
 
-Seuls les membres de la communauté UdeM peuvent réserver le studio balado vidéo et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
+Seuls les membres de la communauté UdeM peuvent réserver le studio vidéo et accéder aux services de consultation et de soutien technique. Ils peuvent toutefois inviter des non-membres à participer aux enregistrements.
 
 ---
 
