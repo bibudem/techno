@@ -112,6 +112,7 @@ const config = {
           showLastUpdateAuthor: false,
           breadcrumbs: true,
         },
+        blog: false,
         theme: {
           customCss: [
             require.resolve("./src/css/custom.css"),
