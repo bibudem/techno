@@ -93,14 +93,12 @@
   gap: 0.9rem;
   border-radius: 12px;
   background: var(--bleu-50);
-  transition:
-    opacity 220ms var(--ease-out),
-    transform 220ms var(--ease-out);
+  /* Apparition douce à l'ouverture (le panneau est monté à l'ouverture) */
+  animation: etapesApparition 220ms var(--ease-out);
 }
 
-/* Apparition douce à l'ouverture */
-@starting-style {
-  .etapes {
+@keyframes etapesApparition {
+  from {
     opacity: 0;
     transform: translateY(-4px);
   }
@@ -262,9 +260,12 @@
 @media (prefers-reduced-motion: reduce) {
   .option,
   .action,
-  .etapes,
   .guideArrow {
     transition: background-color 200ms ease, border-color 200ms ease;
+  }
+
+  .etapes {
+    animation: none;
   }
 
   .option:active,
