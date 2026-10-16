@@ -79,6 +79,16 @@
   color: var(--bleu-300);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .textList li {
+    transition: color 0.3s;
+  }
+
+  .activeText {
+    transform: none;
+  }
+}
+
 /* Mobile-friendly */
 @media (hover: none) and (pointer: coarse) {
   .textList li {

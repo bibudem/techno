@@ -63,6 +63,12 @@
   animation: bell-ring 1.5s ease-in-out forwards;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .animate {
+    animation: none;
+  }
+}
+
 [data-theme='dark'] .heroSection {
   background: var(--gris-800);
 }
