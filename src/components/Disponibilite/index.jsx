@@ -6,15 +6,30 @@ export default function Disponibilite({ oclc, label }) {
   const [hover, setHover] = useState(false);
 
   useEffect(() => {
+    let annule = false;
+    setData(null);
+    setError(false);
+
     fetch(`https://api.bib.umontreal.ca/atrium/docs/${oclc}/statut-circulation`)
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
       .then((json) => {
+        if (!json?.permalien) throw new Error('Réponse incomplète');
+        if (annule) return;
         setData({
-          dispo: json['total-exemplaires-disponibles'],
+          dispo: Number(json['total-exemplaires-disponibles']) || 0,
           url: json.permalien,
         });
       })
-      .catch(() => setError(true));
+      .catch(() => {
+        if (!annule) setError(true);
+      });
+
+    return () => {
+      annule = true;
+    };
   }, [oclc]);
 
   if (error) return <p>Erreur de chargement</p>;
