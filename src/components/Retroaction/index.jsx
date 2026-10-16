@@ -140,7 +140,8 @@ const Retroaction = () => {
           type="button"
           onClick={handleOuiClick}
           disabled={isSubmitting}
-          className={clsx(styles.button, vote === 'oui' && styles.selectedOui)}
+          aria-pressed={vote === 'oui'}
+          className={clsx('button button--secondary', styles.button, vote === 'oui' && styles.selected)}
         >
           <ThumbsUp size={20} /> Oui
         </button>
@@ -148,7 +149,8 @@ const Retroaction = () => {
           type="button"
           onClick={handleNonClick}
           disabled={isSubmitting}
-          className={clsx(styles.button, vote === 'non' && styles.selectedNon)}
+          aria-pressed={vote === 'non'}
+          className={clsx('button button--secondary', styles.button, vote === 'non' && styles.selected)}
         >
           <ThumbsDown size={20} /> Non
         </button>
@@ -188,7 +190,11 @@ const Retroaction = () => {
 
           <div className={styles.commentFooter}>
             <span className={styles.counter}>{comment.length}/500</span>
-            <button type="submit" className={styles.submitButton} disabled={isSubmitting}>
+            <button
+              type="submit"
+              className={clsx('button button--secondary', styles.submitButton)}
+              disabled={isSubmitting}
+            >
               {isSubmitting ? 'Envoi en cours...' : 'Envoyer mon retour'}
             </button>
           </div>
