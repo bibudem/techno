@@ -58,7 +58,7 @@ Pour une présentation PowerPoint, il est possible d’afficher les diapositives
 ### Contrôleur du téléprompteur
 Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pendant un enregistrement.
 
-<style>{`
+<style dangerouslySetInnerHTML={{ __html: `
 .prompter-controls {
   --prompter-blue: #0057ac;
   --prompter-blue-light: #eef6ff;
@@ -421,7 +421,7 @@ Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pen
     padding: 1rem;
   }
 }
-`}</style>
+` }} />
 
 
 <div className="prompter-controls">
@@ -506,10 +506,8 @@ Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pen
         <span className="prompter-icon-source"></span>
       </div>
 
-      <p>
         Permet de basculer entre l'affichage **texte** dans **Camera Hub**
         vers l'affichage **écran**.
-      </p>
 
     </div>
 
@@ -527,9 +525,7 @@ Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pen
         <span className="prompter-arrow">↑</span>
       </div>
 
-      <p>
         Fait défiler manuellement le texte vers le haut.
-      </p>
 
     </div>
 
@@ -547,9 +543,7 @@ Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pen
         <span className="prompter-section-icon prompter-section-icon--prev"></span>
       </div>
 
-      <p>
         Revient à la section précédente du texte dans le prompteur.
-      </p>
 
     </div>
 
@@ -567,9 +561,7 @@ Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pen
         <span className="prompter-section-icon prompter-section-icon--next"></span>
       </div>
 
-      <p>
         Passe à la section suivante du texte dans le prompteur.
-      </p>
 
     </div>
 
@@ -587,9 +579,7 @@ Le contrôleur permet de contrôler le texte affiché sur le téléprompteur pen
         <span className="prompter-arrow">↓</span>
       </div>
 
-      <p>
         Fait défiler manuellement le texte vers le bas.
-      </p>
 
     </div>
 

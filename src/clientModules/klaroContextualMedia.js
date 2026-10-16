@@ -168,7 +168,41 @@ function releaseConsentExemptIframes(root = document) {
     });
 }
 
+// Docusaurus pose <html data-has-hydrated="true"> une fois React hydraté.
+// Avant ce moment, on peut modifier des attributs (retirer le src d'une
+// iframe), mais pas insérer d'éléments : React ne retrouverait plus le HTML
+// rendu par le serveur et abandonnerait l'hydratation de la page.
+function isHydrated() {
+  return document.documentElement.getAttribute('data-has-hydrated') === 'true';
+}
+
+let pendingNoticeSync = null;
+let hydrationObserver;
+
+function whenHydrated(callback) {
+  pendingNoticeSync = callback;
+  if (hydrationObserver) return;
+
+  hydrationObserver = new MutationObserver(() => {
+    if (!isHydrated()) return;
+    hydrationObserver.disconnect();
+    hydrationObserver = null;
+    const run = pendingNoticeSync;
+    pendingNoticeSync = null;
+    if (run) run();
+  });
+  hydrationObserver.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-has-hydrated'],
+  });
+}
+
 function syncBlockedMediaNotices(consentGranted) {
+  if (!isHydrated()) {
+    whenHydrated(() => syncBlockedMediaNotices(consentGranted));
+    return;
+  }
+
   document
     .querySelectorAll(`iframe[data-name="${SERVICE_NAME}"]`)
     .forEach((iframe) => {

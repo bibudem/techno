@@ -136,7 +136,7 @@ Le réseau sans fil **UdeM-Visiteurs** est destiné aux personnes visitant l'Uni
  2. Ouvrir votre navigateur.
 
 :::note Remarque
-Si la page d'authentification ne s'affiche pas : ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser. Par exemple : <a href="https://www.google.cz" target="_blank" rel="noopener noreferrer">www.google.cz</a> (ouvre une nouvelle fenêtre). Sinon [oublier le réseau](#depannage) et se rebrancher.
+Si la page d'authentification ne s'affiche pas : ouvrir votre navigateur et taper une adresse que vous n'avez pas l'habitude d'utiliser. Par exemple : [www.google.cz](https://www.google.cz) (ouvre une nouvelle fenêtre). Sinon [oublier le réseau](#depannage) et se rebrancher.
 :::
 
  1. Cliquer **Ou faites une demande d'accès en tant qu'invité**.

@@ -153,6 +153,4 @@ Quel que soit votre niveau de connaissance, on est là pour vous aider à réali
 
 ---
 
-<p style={{ fontSize: '0.8em' }}>
-  Crédit photo : Gloria Obeid, étudiante au baccalauréat en architecture (2023)
-</p>
+<p style={{ fontSize: '0.8em' }}>Crédit photo : Gloria Obeid, étudiante au baccalauréat en architecture (2023)</p>
