@@ -1,26 +1,11 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
+import useRevealOnScroll from '@site/src/utils/useRevealOnScroll';
 import styles from './HeroDroitAuteur.module.css';
 import Link from '@docusaurus/Link';
 import { BellRinging } from '@phosphor-icons/react';
 
 export default function HeroDroitAuteur() {
-  const iconRef = useRef(null);
-
-  useEffect(() => {
-    const iconEl = iconRef.current;
-    if (!iconEl) return;
-    const observer = new IntersectionObserver(
-      ([entry], obs) => {
-        if (entry.isIntersecting) {
-          iconEl.classList.add(styles.animate);
-          obs.unobserve(iconEl);
-        }
-      },
-      { threshold: 0.5 }
-    );
-    observer.observe(iconEl);
-    return () => observer.disconnect();
-  }, []);
+  const iconRef = useRevealOnScroll(styles.animate);
 
   return (
     <section className={styles.heroSection}>

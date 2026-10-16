@@ -1,5 +1,6 @@
 // src/components/CardAide.jsx
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
+import useRevealOnScroll from '@site/src/utils/useRevealOnScroll';
 import Link from '@docusaurus/Link';
 import { HandWaving, ArrowRight } from '@phosphor-icons/react';
 import styles from './CardAide.module.css';
@@ -21,23 +22,7 @@ export default function CardAide({ variant = 'info', to }) {
   const { title, text, to: defaultTo } = VARIANTS[variant] || VARIANTS.info;
   const href = to ?? defaultTo;
 
-  const iconRef = useRef(null);
-
-  useEffect(() => {
-    const el = iconRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry], obs) => {
-        if (entry.isIntersecting) {
-          el.classList.add(styles.animate);
-          obs.unobserve(el);
-        }
-      },
-      { threshold: 0.5 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
+  const iconRef = useRevealOnScroll(styles.animate);
 
   return (
     <Link className={styles.cardAide} to={href}>
@@ -51,10 +36,7 @@ export default function CardAide({ variant = 'info', to }) {
       </div>
       <div className={styles.content}>
         <h2 className={styles.title}>{title}</h2>
-        <p
-          className={styles.text}
-          dangerouslySetInnerHTML={{ __html: text }}
-        />
+        <p className={styles.text}>{text}</p>
       </div>
       <div className={styles.arrowContainer}>
         <ArrowRight size={16} weight="bold" />
