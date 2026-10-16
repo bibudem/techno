@@ -41,10 +41,13 @@ export function HoraireSemaine({ codeBib = "ss" }) {
   const [horairesParSemaine, setHorairesParSemaine] = useState(new Map());
   const [offsetSemaine, setOffsetSemaine] = useState(0);
   const [selectedDayIndex, setSelectedDayIndex] = useState(0);
+  const [erreur, setErreur] = useState(false);
   const todayStr = formatDateStr(new Date());
   const pickerId = useId();
 
   useEffect(() => {
+    let annule = false;
+    setErreur(false);
     const base = new Date();
     const lundi0 = getLundi(0, base);
     const dimanche7 = new Date(lundi0);
@@ -55,8 +58,13 @@ export function HoraireSemaine({ codeBib = "ss" }) {
         lundi0
       )}&fin=${formatDateStr(dimanche7)}&format=json`
     )
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
       .then((data) => {
+        if (annule) return;
+        const evenements = Array.isArray(data?.evenements) ? data.evenements : [];
         const map = new Map();
 
         for (let i = 0; i < 8; i++) {
@@ -67,7 +75,7 @@ export function HoraireSemaine({ codeBib = "ss" }) {
           const lundiStr = formatDateStr(lundi);
           const dimancheStr = formatDateStr(dimanche);
 
-          const semaine = data.evenements
+          const semaine = evenements
             .filter((evt) => {
               const dateLocal = new Date(evt.date);
               const dateStr = formatDateStr(dateLocal);
@@ -83,7 +91,14 @@ export function HoraireSemaine({ codeBib = "ss" }) {
         }
 
         setHorairesParSemaine(map);
+      })
+      .catch(() => {
+        if (!annule) setErreur(true);
       });
+
+    return () => {
+      annule = true;
+    };
   }, [codeBib]);
 
   const baseDate = new Date();
@@ -207,6 +222,12 @@ export function HoraireSemaine({ codeBib = "ss" }) {
           </button>
         </div>
       </div>
+
+      {erreur && (
+        <p className={styles.dateRange} role="alert">
+          L’horaire n’a pas pu être chargé. Veuillez réessayer plus tard.
+        </p>
+      )}
 
       <div className={styles.scheduleView}>
         <div className={styles.mobilePicker}>

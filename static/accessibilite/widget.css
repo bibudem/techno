@@ -19,7 +19,7 @@
 body.open-dyslexic {
   font-family: "Open Dyslexic";
 }
-body.open-dyslexic *:not(i) {
+body.open-dyslexic *:not(i, code, pre, kbd, samp, pre *, code *) {
   font-family: "Open Dyslexic" !important;
 }
 
@@ -143,28 +143,22 @@ body.readability-hide-images main a {
    Mise en évidence des liens
    (Ne touche pas aux couleurs du widget, seulement au contenu de page)
 ---------------------------- */
-body.readability-highlight-links-on a,
-body.readability-highlight-links-on button {
+body.readability-highlight-links-on :is(a, button):not(#readability-widget *),
+body.readability-highlight-links-on :is(a, button):not(#readability-widget *) * {
   background: #fac800 !important;
   color: #000 !important;
   text-decoration: none !important;
 }
-body.readability-highlight-links-on a *,
-body.readability-highlight-links-on button * {
-  background: #fac800 !important;
-  color: #000 !important;
-  text-decoration: none !important;
-}
-body.readability-highlight-links-on a {
+body.readability-highlight-links-on a:not(#readability-widget *) {
   border-bottom: 2px solid #000 !important;
 }
-body.readability-highlight-links-on button {
+body.readability-highlight-links-on button:not(#readability-widget *) {
   border: 2px solid #000 !important;
 }
-body.readability-highlight-links-on a:hover {
+body.readability-highlight-links-on a:not(#readability-widget *):hover {
   border-bottom-color: rgba(0, 0, 0, 0) !important;
 }
-body.readability-highlight-links-on button:hover {
+body.readability-highlight-links-on button:not(#readability-widget *):hover {
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -173,7 +167,6 @@ body.readability-highlight-links-on button:hover {
 ============================================================ */
 
 #readability-widget {
-  opacity: 0;
   position: fixed;
   right: 12px;
   width: 360px;
@@ -183,6 +176,11 @@ body.readability-highlight-links-on button:hover {
 
   /* Le site peut avoir des overlays/toasts */
   z-index: 2147483646;
+}
+
+#readability-widget:not(.is-ready) {
+  opacity: 0;
+  visibility: hidden;
 }
 
 #readability-widget.footer-docked {
@@ -235,8 +233,9 @@ body.readability-highlight-links-on button:hover {
 /* Focus visible (UdeM/Docusaurus) */
 #readability-widget #widget-toggle button:focus,
 #readability-widget #widget-toggle button:focus-visible {
-  outline: 3px solid var(--jaune);
+  outline: var(--focus-ring, 3px solid #0B113A);
   outline-offset: 2px;
+  box-shadow: var(--focus-ring-shadow, 0 0 0 3px #FFCA40);
 }
 
 /* Caret (flèche) */
@@ -330,13 +329,12 @@ body.readability-highlight-links-on button:hover {
   right: -154px;
 }
 #readability-widget.widget-hidden #widget-toggle button {
-  background-color: var(--ifm-color-emphasis-400, #8a8f94);
-  transition: right 0.25s, background-color 0.25s;
-  right: 0;
+  background-color: var(--gris-600, #475A6B);
+  transition: transform 0.25s ease-out, background-color 0.25s;
 }
-#readability-widget.widget-hidden #widget-toggle button:hover {
-  position: relative;
-  right: 156px;
+#readability-widget.widget-hidden #widget-toggle button:hover,
+#readability-widget.widget-hidden #widget-toggle button:focus-visible {
+  transform: translateX(-156px);
   background-color: var(--bleu-500);
 }
 
@@ -375,8 +373,9 @@ body.readability-highlight-links-on button:hover {
 
 #readability-widget #widget-content label.readability-switch input:focus + span.toggle-switch,
 #readability-widget #widget-content label.readability-switch input:focus-visible + span.toggle-switch {
-  outline: 3px solid var(--jaune);
+  outline: var(--focus-ring, 3px solid #0B113A);
   outline-offset: 2px;
+  box-shadow: var(--focus-ring-shadow, 0 0 0 3px #FFCA40);
 }
 
 /* The switch track */
@@ -393,7 +392,7 @@ body.readability-highlight-links-on button:hover {
   position: absolute;
   right: 0;
   top: 0;
-  transition: 0.2s;
+  transition: background-color 0.2s;
 }
 
 /* ON/OFF labels */
@@ -428,12 +427,14 @@ body.readability-highlight-links-on button:hover {
   background: var(--widget-switch-thumb);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
 
-  transition: transform 0.2s;
+  transition: transform 0.2s ease-out;
 }
 
 /* Checked state */
 #readability-widget #widget-content label.readability-switch input:checked + .toggle-switch {
-  background-color: var(--ifm-color-primary-light, #94ccf9);
+  /* bleu-600 : « OUI » en blanc à 10:1, dans les deux thèmes */
+  background-color: var(--bleu-600, #00407F);
+  color: #ffffff;
 }
 
 #readability-widget #widget-content label.readability-switch input:checked + .toggle-switch .label-off {

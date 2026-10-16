@@ -34,7 +34,7 @@
   font-size: 2rem;          /* légèrement plus petit pour compacité */
   font-weight: 600;
   /* margin-bottom: 1rem; */
-  color: var(--gris-900);
+  color: var(--bleu-700);
   line-height: 1.2;
 }
 
@@ -43,21 +43,6 @@
   color: var(--gris-700);
   margin-bottom: 1.75rem;
   line-height: 1.2;
-}
-
-.heroButton {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  background-color: var(--rouge-orange-600); /* couleur principale */
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.heroButton:hover {
-  background-color: var(--rouge-orange-700); /* variante plus foncée au survol */
 }
 
 /* Animation cloche */
@@ -76,6 +61,24 @@
 
 .animate {
   animation: bell-ring 1.5s ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate {
+    animation: none;
+  }
+}
+
+[data-theme='dark'] .heroSection {
+  background: var(--gris-800);
+}
+
+[data-theme='dark'] .heroTitle {
+  color: var(--white);
+}
+
+[data-theme='dark'] .heroText {
+  color: var(--bleu-100);
 }
 
 /* Responsive : passe en colonne sur mobile */

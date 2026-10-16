@@ -1,29 +1,8 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import { ArrowSquareOut, CalendarCheck, MapPin } from '@phosphor-icons/react';
+import { getLinkProps } from '@site/src/utils/links';
 import styles from './StudioCard.module.css';
-
-const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
-
-function isExternalLink(link) {
-  return EXTERNAL_LINK_PATTERN.test(link);
-}
-
-function getLinkProps(link) {
-  if (!link) {
-    return { to: '#' };
-  }
-
-  if (isExternalLink(link)) {
-    return {
-      href: link,
-      target: '_blank',
-      rel: 'noopener noreferrer',
-    };
-  }
-
-  return { to: link };
-}
 
 const StudioCard = ({
   title,

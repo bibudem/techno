@@ -11,6 +11,7 @@ function parseDateFr(dateStr) {
     mai: '05',
     juin: '06',
     juil: '07',
+    juill: '07',
     août: '08',
     sept: '09',
     oct: '10',
@@ -25,11 +26,13 @@ function parseDateFr(dateStr) {
     .replace(/\./g, '') // enlève les points (ex. "févr." -> "févr")
     .split(/\s+/); // découpe par espaces multiples
 
-  const moisNum = mois[moisStr.toLowerCase()];
+  const moisNum = mois[moisStr?.toLowerCase()];
   if (!moisNum) return null;
 
-  const jour = jourStr.padStart(2, '0');
-  return new Date(`${annéeStr}-${moisNum}-${jour}`);
+  // Date locale (minuit à Montréal) : new Date('AAAA-MM-JJ') serait lue en UTC
+  // et tomberait la veille au soir, ce qui exclurait les formations du jour.
+  const date = new Date(Number(annéeStr), Number(moisNum) - 1, Number(jourStr));
+  return Number.isNaN(date.getTime()) ? null : date;
 }
 
 export default function ProchainsAteliers() {
@@ -38,9 +41,12 @@ export default function ProchainsAteliers() {
 
   useEffect(() => {
     fetch('https://api.bib.umontreal.ca/formations/discipline/informatique-creation-medias')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
       .then(data => {
-        const àVenir = data
+        const àVenir = (Array.isArray(data) ? data : [])
           .map(f => ({ ...f, isoDate: parseDateFr(f.date) }))
           .filter(f => {
             if (!f.isoDate) return false;

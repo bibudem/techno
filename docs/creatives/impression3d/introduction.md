@@ -100,9 +100,11 @@ Les profils sont un ensemble de paramètres prédéfinis dans le Slicer. Ils peu
 
 #### Épaisseur
 
-<figure markdown>
-  ![Une vue de deux impressions 3D à différente épaisseur : à gauche en 0,2mm et à droite 0,1mm.](/img/docs/impression3d-difference.webp)
-  <figcaption>De gauche à droite : impression en 0,2mm et 0,1mm. </figcaption>
+<figure>
+
+![Une vue de deux impressions 3D à différente épaisseur : à gauche en 0,2mm et à droite 0,1mm.](/img/docs/impression3d-difference.webp)
+
+<figcaption>De gauche à droite : impression en 0,2mm et 0,1mm. </figcaption>
 </figure>
 
 L’épaisseur d’une couche est habituellement de 0,2mm. Il est possible de descendre jusqu’à 0,1mm si l’objet est très détaillé ou s’il subira des forces parallèles aux couches. Dans un tel cas, il est recommandé de revoir le sens d’impression pour que les forces soient exercées perpendiculairement aux couches d’impressions. Notez que la durée d’impression sera deux fois plus longue à 0,1mm qu’à 0,2mm.
@@ -114,9 +116,11 @@ Le remplissage agit sur la solidité et, dans une moindre mesure, sur la vitesse
 
 Le remplissage s’exprime en pourcentage. Une valeur typique se situe entre 5% et 20%. Il est possible d’imprimer sans remplissage (0%), ou entièrement plein (100%) selon les cas. Il existe aussi différents motifs de remplissage. Ils ont chacun leurs avantages.
 
-<figure markdown>
-  ![Différents remplissage d'une impression 3D](/img/docs/impression3d-remplissage.webp)
-  <figcaption>À gauche un remplissage à 40% avec le motif Grille (Grid) et à droite un remplissage à 20% avec le motif Nid d’abeille (Honeycomb)</figcaption>
+<figure>
+
+![Différents remplissage d'une impression 3D](/img/docs/impression3d-remplissage.webp)
+
+<figcaption>À gauche un remplissage à 40% avec le motif Grille (Grid) et à droite un remplissage à 20% avec le motif Nid d’abeille (Honeycomb)</figcaption>
 </figure>
 
 :::note Ressources en ligne
@@ -133,9 +137,11 @@ Le support est utilisé pour imprimer les porte-à-faux. L’impression doit obl
 - Pour les couches suivantes il s’agit de la couche précédente. 
 - Si le matériau se dépose dans le vide, il faut créer un support. Le support peut également être utilisé pour augmenter la surface de contact de l’objet sur le plateau et éviter un décollement.
 
-<figure markdown>
-  ![Des pièces imprimées en 3D avec et sans support](/img/docs/impression3d-support.webp)
-  <figcaption>À gauche, une pièce sans support. À droite, une pièce avec du support (en jaune)</figcaption>
+<figure>
+
+![Des pièces imprimées en 3D avec et sans support](/img/docs/impression3d-support.webp)
+
+<figcaption>À gauche, une pièce sans support. À droite, une pièce avec du support (en jaune)</figcaption>
 </figure>
 
 :::warning Bon à savoir
@@ -151,9 +157,11 @@ Le support est utilisé pour imprimer les porte-à-faux. L’impression doit obl
 
 Si le plastique n’adhère pas au plateau, l’impression va échouer et en plus de gaspiller du matériau, cela risque d’abîmer l’imprimante. Pour que le filament reste fixé au plateau durant l’impression, une bordure de quelques millimètres de largeur, le *brim*, permet de maximiser la surface de contact, et donc améliore l’adhérence de la matière sur le plateau. Il s’agit d’une couche qui est facilement détachable une fois l’impression terminée. 
 
-<figure markdown>
-  ![Pièce dans le logiciel de découpe avec un brim](/img/docs/impression3d-brim.webp)
-  <figcaption>En vert, le *brim* et en jaune, la pièce à imprimer.</figcaption>
+<figure>
+
+![Pièce dans le logiciel de découpe avec un brim](/img/docs/impression3d-brim.webp)
+
+<figcaption>En vert, le *brim* et en jaune, la pièce à imprimer.</figcaption>
 </figure>
 
 ## Avant, pendant et après l’impression

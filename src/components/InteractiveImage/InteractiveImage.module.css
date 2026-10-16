@@ -71,6 +71,24 @@
   transform: translateX(4px);
 }
 
+[data-theme='dark'] .textList li {
+  color: var(--bleu-100);
+}
+
+[data-theme='dark'] .activeText {
+  color: var(--bleu-300);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .textList li {
+    transition: color 0.3s;
+  }
+
+  .activeText {
+    transform: none;
+  }
+}
+
 /* Mobile-friendly */
 @media (hover: none) and (pointer: coarse) {
   .textList li {

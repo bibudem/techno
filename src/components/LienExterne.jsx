@@ -1,7 +1,24 @@
-import React, { useEffect } from 'react';
-import { createRoot } from 'react-dom/client';
-import { ArrowSquareOut } from '@phosphor-icons/react';
+import { useEffect } from 'react';
 import { useLocation } from '@docusaurus/router';
+
+// Icône ArrowSquareOut (Phosphor, graisse regular) en SVG statique : pas besoin
+// d'une racine React par lien, qui ne serait jamais démontée.
+const SVG_NS = 'http://www.w3.org/2000/svg';
+const ICONE_EXTERNE_PATH =
+  'M224,104a8,8,0,0,1-16,0V59.32l-66.33,66.34a8,8,0,0,1-11.32-11.32L196.68,48H152a8,8,0,0,1,0-16h64a8,8,0,0,1,8,8Zm-40,24a8,8,0,0,0-8,8v72H48V80h72a8,8,0,0,0,0-16H48A16,16,0,0,0,32,80V208a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V136A8,8,0,0,0,184,128Z';
+
+function creerIconeExterne() {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('width', '16');
+  svg.setAttribute('height', '16');
+  svg.setAttribute('viewBox', '0 0 256 256');
+  svg.setAttribute('fill', 'currentColor');
+  svg.setAttribute('focusable', 'false');
+  const path = document.createElementNS(SVG_NS, 'path');
+  path.setAttribute('d', ICONE_EXTERNE_PATH);
+  svg.appendChild(path);
+  return svg;
+}
 
 const EST_INTERNE_HOST = (host) =>
   host === 'bib.umontreal.ca' || host.endsWith('.bib.umontreal.ca');
@@ -72,8 +89,8 @@ export default function LienExterne() {
             wrapper.style.display = 'inline-flex';
             wrapper.style.verticalAlign = 'middle';
             wrapper.setAttribute('aria-hidden', 'true');
+            wrapper.appendChild(creerIconeExterne());
             lien.appendChild(wrapper);
-            createRoot(wrapper).render(<ArrowSquareOut size={16} />);
           }
 
           if (!lien.querySelector('.sr-only-external')) {

@@ -1,4 +1,16 @@
 // src/clientModules/accessibilitePersist.js
+// Réapplique les préférences de l'outil d'accessibilité (static/accessibilite)
+// au chargement et après chaque navigation : Docusaurus réécrit les classes
+// de <html>/<body> lors des changements de page.
+// Le thème clair/sombre n'est pas géré ici : Docusaurus en est la seule source.
+
+function lire(cle) {
+  try {
+    return window.localStorage.getItem(cle);
+  } catch {
+    return null;
+  }
+}
 
 function ensureWarmOverlay(shouldEnable) {
   const existing = document.getElementById('readability-warm-overlay');
@@ -8,71 +20,26 @@ function ensureWarmOverlay(shouldEnable) {
       overlay.id = 'readability-warm-overlay';
       document.body.appendChild(overlay);
     }
-  } else {
-    if (existing) existing.remove();
+  } else if (existing) {
+    existing.remove();
   }
 }
 
-function applyThemePref() {
-  const storedTheme = localStorage.getItem('theme');
-  if (storedTheme !== 'dark' && storedTheme !== 'light') return;
-
-  const root = document.documentElement;
-  root.setAttribute('data-theme', storedTheme);
-  root.setAttribute('data-theme-choice', storedTheme);
-  window.dispatchEvent(new Event('themechange'));
-}
-
 function applyAccessibilitePrefs() {
-  // Réapplique explicitement le thème choisi (robuste au reload et nouvel onglet)
-  applyThemePref();
+  document.body.classList.toggle('readability-hide-images', lire('hide_all_images') === 'true');
+  document.body.classList.toggle('open-dyslexic', lire('open_dyslexic_font') === 'true');
+  document.body.classList.toggle('readability-highlight-links-on', lire('highlight_links') === 'true');
+  document.documentElement.classList.toggle('readability-large-text', lire('large_text') === 'true');
 
-  // On relit localStorage et on (re)pose les classes
-  const warm = localStorage.warm_background === 'true';
-  const hideImages = localStorage.hide_all_images === 'true';
-  const dyslexic = localStorage.open_dyslexic_font === 'true';
-  const highlight = localStorage.highlight_links === 'true';
-  const largeText = localStorage.getItem('large_text') === 'true';
-
-  document.body.classList.toggle('readability-hide-images', hideImages);
-  document.body.classList.toggle('open-dyslexic', dyslexic);
-  document.body.classList.toggle('readability-highlight-links-on', highlight);
-  document.documentElement.classList.toggle('readability-large-text', largeText);
-
-  ensureWarmOverlay(warm);
+  ensureWarmOverlay(lire('warm_background') === 'true');
 }
 
-function hookSpaNavigation() {
-  // Détecte navigation SPA: pushState/replaceState + back/forward
-  const { pushState, replaceState } = history;
-
-  history.pushState = function (...args) {
-    pushState.apply(this, args);
-    window.dispatchEvent(new Event('locationchange'));
-  };
-
-  history.replaceState = function (...args) {
-    replaceState.apply(this, args);
-    window.dispatchEvent(new Event('locationchange'));
-  };
-
-  window.addEventListener('popstate', () => {
-    window.dispatchEvent(new Event('locationchange'));
-  });
-
-  window.addEventListener('locationchange', () => {
-    // Important: on laisse Docusaurus finir son update, puis on réapplique
-    setTimeout(applyAccessibilitePrefs, 0);
-    setTimeout(applyAccessibilitePrefs, 50);
-  });
-}
-
-export default (function init() {
-  if (typeof window === 'undefined') return;
-
-  // Au chargement initial
+if (typeof window !== 'undefined') {
   applyAccessibilitePrefs();
+}
 
-  // À chaque navigation
-  hookSpaNavigation();
-})();
+export function onRouteDidUpdate() {
+  // On laisse Docusaurus (Helmet) poser ses classes, puis on réapplique.
+  setTimeout(applyAccessibilitePrefs, 0);
+  setTimeout(applyAccessibilitePrefs, 50);
+}

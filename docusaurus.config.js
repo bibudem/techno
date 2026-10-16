@@ -1,5 +1,4 @@
 import { themes as prismThemes } from 'prism-react-renderer'
-import remarkInsertHelp from './src/utils/remark-insert-help.js'
 
 function disableIncompatibleWebpackbar() {
   return {
@@ -83,6 +82,10 @@ const config = {
             from: ['/espaces/studioaudio'],
             to: '/espaces/studiosbalado',
           },
+          {
+            from: ['/creatives/impression3d/imprimantes3d'],
+            to: '/creatives/impression3d',
+          },
         ],
       },
     ],
@@ -107,9 +110,9 @@ const config = {
           path: './docs',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
-          remarkPlugins: [remarkInsertHelp],
           breadcrumbs: true,
         },
+        blog: false,
         theme: {
           customCss: [
             require.resolve("./src/css/custom.css"),
@@ -152,8 +155,6 @@ const config = {
 
       metadata: [
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: '/img/miniature.jpg' },
-        { property: 'og:image', content: '/img/miniature.jpg' },
       ],
       colorMode: {
         defaultMode: 'light',
@@ -163,7 +164,7 @@ const config = {
       sidebar: {
         autoCollapseCategories: true,
       },
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/miniature.jpg',
       navbar: {
         title: '',
         logo: {
@@ -175,12 +176,7 @@ const config = {
           { type: 'docSidebar', sidebarId: 'informatiqueSidebar', position: 'left', label: 'Ressources informatiques' },
           { type: 'docSidebar', sidebarId: 'creativesSidebar', position: 'left', label: 'Technologies créatives' },
           { type: 'docSidebar', sidebarId: 'mediasSidebar', position: 'left', label: 'Productions médias' },
-          // { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
-          {
-            to: '/a-propos/nous-joindre',
-            label: 'Nous joindre',
-            position: 'left'
-          },
+          { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
           // {
           //   to: 'https://bib.umontreal.ca',
           //   label: 'bib.umontreal.ca',

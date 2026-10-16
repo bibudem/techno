@@ -7,6 +7,7 @@ import {
   MapPin,
   LinkSimple
 } from "@phosphor-icons/react";
+import { isExternalLink } from "@site/src/utils/links";
 import "./LogicielCatalogue.css";
 
 // Mapping entre noms de bibliothèques et leurs liens externes
@@ -31,7 +32,7 @@ const biblioLinks = {
 // Composant pour afficher un logiciel
 const Logiciel = ({ nom, categorie, description, libre, distance, lien, bibliotheques = "" }) => {
   const hasGuide = Boolean(lien);
-  const isExternalGuide = /^https?:\/\//i.test(lien);
+  const isExternalGuide = isExternalLink(lien);
 
   return (
     <div className="logiciel">
@@ -128,20 +129,30 @@ const LogicielCatalogue = () => {
   const [logiciels, setLogiciels] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Toutes");
+  const [etat, setEtat] = useState("chargement"); // chargement | pret | erreur
 
   useEffect(() => {
+    let annule = false;
+
     fetch("/data/logiciels.csv")
-      .then(response => response.text())
-      .then(csv => {
-        Papa.parse(csv, {
-          header: true,
-          skipEmptyLines: true,
-          complete: (result) => {
-            setLogiciels(result.data);
-          }
-        });
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
       })
-      .catch(error => console.error("❌ Erreur lors du chargement du CSV :", error));
+      .then(csv => {
+        const result = Papa.parse(csv, { header: true, skipEmptyLines: true });
+        if (annule) return;
+        setLogiciels(result.data);
+        setEtat("pret");
+      })
+      .catch(error => {
+        console.error("Erreur lors du chargement du catalogue :", error);
+        if (!annule) setEtat("erreur");
+      });
+
+    return () => {
+      annule = true;
+    };
   }, []);
 
   const categories = ["Toutes", ...new Set(logiciels.map(l => l.categorie))];
@@ -182,7 +193,11 @@ const LogicielCatalogue = () => {
       </div>
 
       <div className="logiciel-list">
-        {filteredLogiciels.length > 0 ? (
+        {etat === "chargement" ? (
+          <p className="catalogue-empty" role="status">Chargement du catalogue…</p>
+        ) : etat === "erreur" ? (
+          <p className="catalogue-empty" role="alert">Le catalogue n’a pas pu être chargé. Veuillez réessayer plus tard.</p>
+        ) : filteredLogiciels.length > 0 ? (
           filteredLogiciels.map((logiciel, index) => <Logiciel key={index} {...logiciel} />)
         ) : (
           <p className="catalogue-empty">Aucun logiciel trouvé.</p>

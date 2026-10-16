@@ -17,8 +17,19 @@
 .cardAide:focus-visible {
   background-color: var(--gris-800);
   text-decoration: none !important;
-  outline: 3px solid var(--jaune);
+  outline: var(--focus-ring);
   outline-offset: 2px;
+  box-shadow: var(--focus-ring-shadow);
+}
+
+/* En sombre, le fond bleu-700 se confondrait avec celui de la page */
+[data-theme='dark'] .cardAide {
+  background-color: var(--gris-800);
+}
+
+[data-theme='dark'] .cardAide:hover,
+[data-theme='dark'] .cardAide:focus-visible {
+  background-color: var(--gris-700);
 }
 
 .iconContainer {
@@ -87,6 +98,16 @@
 .animate {
   animation: wave 0.8s ease-in-out 2 forwards;
   transform-origin: 50% 50%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate {
+    animation: none;
+  }
+
+  .cardAide:hover .arrowContainer {
+    transform: translateY(-50%);
+  }
 }
 
 @media (max-width: 768px) {

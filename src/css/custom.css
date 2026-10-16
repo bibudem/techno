@@ -35,10 +35,19 @@
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: "Figtree", sans-serif;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Anneau de focus double : anneau extérieur + halo intérieur contrasté,
+     visible sur fond clair comme sur fond foncé (WCAG 1.4.11 / 2.4.7). */
+  --focus-ring-color: var(--bleu-700);
+  --focus-ring-halo: var(--jaune);
+  --focus-ring: 3px solid var(--focus-ring-color);
+  --focus-ring-shadow: 0 0 0 3px var(--focus-ring-halo);
 }
 
 [data-theme='dark'] {
   color-scheme: dark;
+  --focus-ring-color: var(--jaune);
+  --focus-ring-halo: var(--bleu-700);
   --theme-bg: var(--bleu-700);
   --theme-surface: var(--gris-800);
   --theme-navbar-bg: var(--gris-800);
@@ -80,8 +89,9 @@ html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
   [role='button'],
   [tabindex]:not([tabindex='-1'])
 ):focus-visible {
-  outline: 3px solid var(--jaune) !important;
+  outline: var(--focus-ring) !important;
   outline-offset: 2px;
+  box-shadow: var(--focus-ring-shadow) !important;
 }
 
 .main-wrapper {
@@ -202,6 +212,17 @@ html[data-theme='dark'] .card--clickable:hover {
 #__docusaurus .navbar__items:not(.navbar__items--right)
   .navbar__link:not(.cta):hover::after {
   background-color: var(--ifm-color-primary) !important;
+}
+
+/* En sombre, bleu-400 sur la navbar gris-800 n'atteint que 3.5:1 : bleu-200 (≈11:1) */
+[data-theme='dark'] #__docusaurus .navbar__items:not(.navbar__items--right)
+  .navbar__link:not(.cta):hover {
+  color: var(--bleu-200) !important;
+}
+
+[data-theme='dark'] #__docusaurus .navbar__items:not(.navbar__items--right)
+  .navbar__link:not(.cta):hover::after {
+  background-color: var(--bleu-200) !important;
 }
 
 #__docusaurus .navbar__items:not(.navbar__items--right) .navbar__link--active {
@@ -851,5 +872,23 @@ p.purposes,
 @media screen and (max-width: 996px) {
   .impression3d-studiocard-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Mouvement réduit : si l'utilisateur le demande (réglage du système),
+   on coupe animations, transitions et défilement animé sur tout le site,
+   y compris l'outil d'accessibilité. L'état final reste appliqué. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
   }
 }

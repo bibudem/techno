@@ -14,16 +14,8 @@ import {
   CheckCircle,
   UserFocus,
 } from '@phosphor-icons/react';
+import {getLinkProps} from '@site/src/utils/links';
 import styles from './styles.module.css';
-
-const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
-
-function getLinkProps(link) {
-  if (EXTERNAL_LINK_PATTERN.test(link)) {
-    return {href: link, target: '_blank', rel: 'noopener noreferrer'};
-  }
-  return {to: link};
-}
 
 export default function ParcoursReservation({
   reserveLink,

@@ -50,11 +50,12 @@ export default function FormulaireContactAPI() {
         arrive: new Date().toISOString().substring(0, 19).replace('T', ' ')
       };
 
-      await fetch(`${apiBase}/insertSubmission`, {
+      const submissionRes = await fetch(`${apiBase}/insertSubmission`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
+      if (!submissionRes.ok) throw new Error('Submission failed');
 
       setStatus('submitted');
       setEmail('');
