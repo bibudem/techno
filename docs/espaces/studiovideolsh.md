@@ -7,6 +7,7 @@ help : crea
 
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
+import ParcoursReservation from '@site/src/components/ParcoursReservation';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
@@ -46,18 +47,16 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
     mapLink="https://maps.app.goo.gl/cXprvQUPjBzQ6c8L8"
     description={<> À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio.</>
     }
-    reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
-    reserveText="Réserver"
-    secondaryLinks={[
-      { href: "/medias/guidevideolsh", text: "Guide d'utilisation" },
-      { href: "https://bookings.cloud.microsoft/book/studiobib@umontreal.ca/s/8H_NwNa_w0SuVTJV2MUyEw2?ismsaljsauthenabled", text: "Obtenir du soutien" },
-    ]}
+    beforeReserve={
+      <ParcoursReservation
+        reserveLink="https://calendrier.bib.umontreal.ca/space/21911"
+        accompagnementLink="https://bookings.cloud.microsoft/book/studiobib@umontreal.ca/s/8H_NwNa_w0SuVTJV2MUyEw2?ismsaljsauthenabled"
+        guideLink="/medias/guidevideolsh"
+        sansTechnicien={<>Gardez votre réservation du studio. Sur place, le guide d’utilisation pas à pas vous accompagne, et le personnel du bureau de référence du 2<sup>e</sup> étage pourra vous aider à démarrer.</>}
+      />
+    }
   />
 </div>
-
-:::warning Note
-Pour obtenir du soutien en personne avec un membre de notre équipe, vous devez réserver vous-même le studio d’enregistrement pour l’heure de votre rendez-vous. 
-:::
 
 ---
 

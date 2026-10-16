@@ -6,8 +6,12 @@ breadcrumbs: true
 help : crea
 ---
 
+:::note À prévoir
+Le disque dur est fourni dans le studio. **Apportez votre ordinateur** : il vous servira à récupérer vos fichiers à la fin de la séance.
+:::
+
 ## Avant l’enregistrement {#avant-enregistrement}
-1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.
+1. Brancher le disque dur fourni au câble identifié **Enregistrement disque dur**.
 2. Appuyer sur le bouton jaune <img src="/img/docs/boutonjaune.webp" alt="Le bouton jaune au milieu de la console" width="30" /> au centre de la console.
 3. Les lumières et caméras s’allumeront automatiquement. Éteindre l’éclairage ambiant (néons au plafond). 
 4. L’écran de retour indiquera si le disque est bien inséré en affichant l’espace libre disponible.
@@ -17,7 +21,7 @@ help : crea
 5.  Activer ou désactiver les micros au besoin en appuyant sur le bouton correspondant. Un micro est désactivé lorsque le bouton est rouge.
 6.  Les micros 3 et 4 fonctionnent de pair : si le bouton est rouge, les deux sont éteints et inversement.
 
-7. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
+7. Vérifier l’espace disque restant sur la console et l’écran. Si l’espace disponible est insuffisant pour la durée prévue de l'enregistrement, formater le disque dur fourni avec votre ordinateur en **ExFAT** (voir la procédure en bas). 
 8. Pour lancer l’enregistrement, appuyer sur le bouton **REC**.
 
 ![L'interface de la console pour contrôler le système](/img/docs/studio-interface-control-2.webp)
@@ -93,7 +97,7 @@ Pour réaliser un entretien via un logiciel de visioconférence (ex. Zoom, Teams
 2. Débrancher le disque dur et le brancher en utilisant le câble **transfert** sur votre ordinateur pour transférer les fichiers.
 
 :::warning Attention 
-Assurez-vous d’avoir suffisamment d’espace disponible selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage). 
+Assurez-vous d’avoir suffisamment d’espace disponible sur votre ordinateur selon la durée de l’enregistrement. Prévoir environ 30 Go par heure d’enregistrement si vous conservez tous les dossiers (audio, vidéo, montage). 
 :::
 
 ---

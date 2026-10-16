@@ -1,0 +1,370 @@
+.parcours {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+}
+
+.question {
+  margin: 0;
+  color: var(--bleu-700);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Deux voies côte à côte, empilées quand la fiche est étroite */
+.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+
+.option {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 0.65rem;
+  row-gap: 0.15rem;
+  align-items: start;
+  width: 100%;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--bleu-200);
+  border-radius: 12px;
+  background: var(--white);
+  color: var(--gris-800);
+  font: inherit;
+  text-align: left;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition:
+    border-color 200ms ease,
+    background-color 200ms ease,
+    transform 160ms var(--ease-out);
+}
+
+.option:active {
+  transform: scale(0.98);
+}
+
+.option:focus-visible {
+  outline: 2px solid var(--bleu-400);
+  outline-offset: 2px;
+}
+
+.optionActive {
+  border-color: var(--bleu-500);
+  background: var(--bleu-50);
+  box-shadow: inset 0 0 0 1px var(--bleu-500);
+}
+
+.optionIcon {
+  grid-row: 1 / span 2;
+  color: var(--bleu-500);
+  margin-top: 0.05rem;
+}
+
+.optionTitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--bleu-700);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.optionExternal {
+  color: var(--bleu-500);
+}
+
+.optionText {
+  color: var(--gris-700);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Étapes du parcours accompagné */
+.etapes {
+  list-style: none;
+  margin: 0;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  border-radius: 12px;
+  background: var(--bleu-50);
+  transition:
+    opacity 220ms var(--ease-out),
+    transform 220ms var(--ease-out);
+}
+
+/* Apparition douce à l'ouverture */
+@starting-style {
+  .etapes {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+.etape {
+  display: flex;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.etapeNumero {
+  flex: 0 0 auto;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  border: 1px solid var(--bleu-300);
+  color: var(--bleu-700);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.etapeCourante .etapeNumero {
+  background: var(--bleu-500);
+  border-color: var(--bleu-500);
+  color: var(--white);
+}
+
+.etapeFaite .etapeNumero {
+  border-color: transparent;
+  background: transparent;
+  color: var(--vert-500);
+}
+
+.etapeContenu {
+  min-width: 0;
+}
+
+.etapeTitre {
+  margin: 0.2rem 0 0.2rem;
+  color: var(--bleu-700);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.etapeFaite .etapeTitre {
+  color: var(--gris-600);
+}
+
+.etapeTexte {
+  margin: 0 0 0.55rem;
+  color: var(--gris-700);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.etapeNote {
+  margin: 0.65rem 0 0;
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--bleu-200);
+  color: var(--gris-700);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.5rem;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--bleu-200);
+  background: var(--white);
+  color: var(--bleu-600);
+  font-weight: 600;
+  text-decoration: none !important;
+  transition:
+    background-color 200ms ease,
+    border-color 200ms ease,
+    color 200ms ease,
+    transform 160ms var(--ease-out);
+}
+
+.action:active {
+  transform: scale(0.97);
+}
+
+.actionPrimaire {
+  background: var(--bleu-500);
+  border-color: var(--bleu-500);
+  color: var(--white) !important;
+}
+
+/* Guide, visible pour les deux voies : teinte jaune pour se distinguer
+   des actions de réservation (bleues) sans leur faire concurrence */
+.guide {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.8rem 0.95rem;
+  border-radius: 12px;
+  border: 1px solid #f1d78a;
+  background: #fff7e0;
+  color: var(--gris-800) !important;
+  text-decoration: none !important;
+  transition:
+    background-color 200ms ease,
+    border-color 200ms ease;
+}
+
+.guideIcon {
+  flex: 0 0 auto;
+  color: var(--jaune-700);
+}
+
+.guideTitre {
+  flex: 1;
+  font-weight: 700;
+  color: var(--gris-800);
+}
+
+.guideArrow {
+  transition: transform 200ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .option:hover {
+    border-color: var(--bleu-400);
+    background: var(--bleu-50);
+  }
+
+  .action:hover {
+    background: var(--bleu-100);
+    border-color: var(--bleu-300);
+    color: var(--bleu-700);
+  }
+
+  .actionPrimaire:hover {
+    background: var(--bleu-600);
+    border-color: var(--bleu-600);
+    color: var(--white);
+  }
+
+  .guide:hover {
+    background: #ffefc2;
+    border-color: var(--jaune);
+  }
+
+  .guide:hover .guideArrow {
+    transform: translateX(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .option,
+  .action,
+  .etapes,
+  .guideArrow {
+    transition: background-color 200ms ease, border-color 200ms ease;
+  }
+
+  .option:active,
+  .action:active,
+  .guide:hover .guideArrow {
+    transform: none;
+  }
+}
+
+/* Thème sombre, aligné sur StudioCard */
+[data-theme='dark'] .question,
+[data-theme='dark'] .optionTitle,
+[data-theme='dark'] .etapeTitre {
+  color: #edf3fb;
+}
+
+[data-theme='dark'] .option {
+  background: #1f2d44;
+  border-color: #3a4e69;
+  color: #dbe7f4;
+}
+
+[data-theme='dark'] .optionActive {
+  background: #29405f;
+  border-color: #7fb0e0;
+  box-shadow: inset 0 0 0 1px #7fb0e0;
+}
+
+[data-theme='dark'] .optionIcon,
+[data-theme='dark'] .optionExternal {
+  color: #b7d2ed;
+}
+
+[data-theme='dark'] .optionText,
+[data-theme='dark'] .etapeTexte,
+[data-theme='dark'] .etapeNote {
+  color: #cedaea;
+}
+
+[data-theme='dark'] .etapes {
+  background: #22344b;
+}
+
+[data-theme='dark'] .etapeNote {
+  border-left-color: #476285;
+}
+
+[data-theme='dark'] .etapeNumero {
+  background: #1f2d44;
+  border-color: #476285;
+  color: #edf3fb;
+}
+
+[data-theme='dark'] .etapeCourante .etapeNumero {
+  background: var(--bleu-400);
+  border-color: var(--bleu-400);
+}
+
+[data-theme='dark'] .etapeFaite .etapeNumero {
+  background: transparent;
+  border-color: transparent;
+  color: #8fd1a5;
+}
+
+[data-theme='dark'] .etapeFaite .etapeTitre {
+  color: #9fb3cc;
+}
+
+[data-theme='dark'] .action {
+  background: #1f2d44;
+  border-color: #3a4e69;
+  color: #dbe7f4;
+}
+
+[data-theme='dark'] .actionPrimaire {
+  background: var(--bleu-400);
+  border-color: var(--bleu-400);
+  color: var(--white) !important;
+}
+
+[data-theme='dark'] .guide {
+  background: rgba(255, 202, 64, 0.1);
+  border-color: rgba(255, 202, 64, 0.35);
+  color: #edf3fb !important;
+}
+
+[data-theme='dark'] .guideIcon {
+  color: var(--jaune);
+}
+
+[data-theme='dark'] .guideTitre {
+  color: #edf3fb;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  [data-theme='dark'] .option:hover {
+    background: #29405f;
+  }
+
+  [data-theme='dark'] .guide:hover {
+    background: rgba(255, 202, 64, 0.16);
+  }
+}

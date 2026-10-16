@@ -39,12 +39,8 @@ const StudioCard = ({
   secondaryLinks = [],
   beforeReserve,
 }) => {
-  const hasTags = tags.length > 0;
-
   return (
-    <article className={`${styles.card} ${hasTags ? styles.cardWithTags : ''}`}>
-      <div className={styles.topBar} aria-hidden="true" />
-
+    <article className={styles.card}>
       <div className={styles.header}>
         <h3 className={styles.title}>
           {titleLink ? (

@@ -11,7 +11,7 @@ import Link from '@docusaurus/Link';
 import Pano360 from '@site/src/components/Pano360';
 import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
-import StudioBaladoVideo from '@site/src/components/ProchaineDispo/studioBaladoVideo';
+import ParcoursReservation from '@site/src/components/ParcoursReservation';
 
 
 
@@ -53,11 +53,14 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
     mapLink="https://maps.app.goo.gl/cXprvQUPjBzQ6c8L8"
     description={<> À votre arrivée, présentez-vous au bureau de référence du 2<sup>e</sup> étage afin que le personnel vous déverrouille le studio.</>
     }
-    beforeReserve={<StudioBaladoVideo reserveLink="https://calendrier.bib.umontreal.ca/space/27462" reserveText="Réserver" />}
-    secondaryLinks={[
-      { href: "/medias/guidebaladovideo", text: "Guide d'utilisation" },
-      { href: "https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled", text: "Obtenir du soutien" },
-    ]}
+    beforeReserve={
+      <ParcoursReservation
+        reserveLink="https://calendrier.bib.umontreal.ca/space/27462"
+        accompagnementLink="https://outlook.office.com/book/studiobib@umontreal.ca/s/O1Um8iUY1kGYJYWEupBIzQ2?ismsaljsauthenabled"
+        guideLink="/medias/guidebaladovideo"
+        sansTechnicien={<>Gardez votre réservation du studio. Sur place, le guide d’utilisation pas à pas vous accompagne, et le personnel du bureau de référence du 2<sup>e</sup> étage pourra vous aider à démarrer.</>}
+      />
+    }
   />
 </div>
 

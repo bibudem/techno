@@ -5,40 +5,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1.05rem 1.05rem 1rem;
-  border: 1px solid var(--gris-100);
-  border-radius: 14px;
-  background: linear-gradient(180deg, var(--white) 0%, var(--gris-50) 125%);
-  box-shadow: 0 8px 20px rgba(14, 29, 58, 0.07);
-  overflow: hidden;
-  transition:
-    box-shadow 0.22s ease,
-    border-color 0.22s ease;
-}
-
-.card:hover {
-  border-color: var(--bleu-200);
-  box-shadow: 0 12px 24px rgba(14, 29, 58, 0.12);
-}
-
-.topBar {
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 5px;
-  background: linear-gradient(
-    90deg,
-    var(--bleu-700) 0%,
-    var(--bleu-500) 54%,
-    var(--bleu-300) 100%
-  );
-}
-
-.header {
-  margin-top: 0.35rem;
-}
-
-.cardWithTags .header {
-  min-height: 5.9rem;
+  padding: 1.15rem 1.15rem 1.05rem;
+  border: 1px solid var(--gris-200);
+  border-radius: 12px;
+  background: var(--white);
 }
 
 .title {
@@ -65,8 +35,8 @@
   display: flex;
   gap: 0.46rem;
   align-items: flex-start;
-  border-radius: 10px;
-  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--bleu-50) 100%);
+  border-radius: 8px;
+  background: var(--gris-50);
   color: var(--gris-700);
   line-height: 1.45;
   font-size: 0.95rem;
@@ -149,7 +119,7 @@
   align-items: center;
   padding: 0.28rem 0.54rem;
   border-radius: 999px;
-  background: linear-gradient(180deg, var(--bleu-50) 0%, var(--bleu-50) 100%);
+  background: var(--bleu-50);
   border: 1px solid var(--bleu-200);
   color: var(--bleu-700);
   font-size: 0.82rem;
@@ -167,7 +137,7 @@
 }
 
 .tagLink:hover {
-  background: linear-gradient(180deg, var(--bleu-100) 0%, var(--bleu-100) 100%);
+  background: var(--bleu-100);
   border-color: var(--bleu-300);
   color: var(--bleu-700);
   text-decoration: none;
@@ -241,10 +211,6 @@
     font-size: 1.05rem;
   }
 
-  .cardWithTags .header {
-    min-height: 0;
-  }
-
   .location {
     margin-top: 0.6rem;
     font-size: 0.9rem;
@@ -277,13 +243,7 @@
 
 [data-theme='dark'] .card {
   border-color: #334866;
-  background: linear-gradient(180deg, #1a263a 0%, #182638 100%);
-  box-shadow: none;
-}
-
-[data-theme='dark'] .card:hover {
-  border-color: #486282;
-  box-shadow: none;
+  background: #1a263a;
 }
 
 [data-theme='dark'] .title {
@@ -295,7 +255,7 @@
 }
 
 [data-theme='dark'] .location {
-  background: linear-gradient(180deg, #22344b 0%, #253a54 100%);
+  background: #22344b;
   color: #dbe6f2;
 }
 
@@ -322,13 +282,13 @@
 
 [data-theme='dark'] .tagText,
 [data-theme='dark'] .tagLink {
-  background: linear-gradient(180deg, #22344b 0%, #253a54 100%);
+  background: #22344b;
   border-color: #334866;
   color: #edf3fb;
 }
 
 [data-theme='dark'] .tagLink:hover {
-  background: linear-gradient(180deg, #2a4564 0%, #325174 100%);
+  background: #2a4564;
   border-color: #476285;
   color: #f2f7fd;
 }
