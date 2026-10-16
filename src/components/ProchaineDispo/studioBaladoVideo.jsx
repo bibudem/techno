@@ -1,25 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Link from "@docusaurus/Link";
+import { getLinkProps } from "@site/src/utils/links";
 import styles from "./studioBaladoVideo.module.css";
 
 // Interrupteur temporaire: remettre a false pour reactiver le bloc "Prochaine disponibilite".
 const TEMP_DISABLE_NEXT_AVAILABILITY = true;
-
-const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
-
-function getLinkProps(link) {
-  if (!link) return { to: "#" };
-
-  if (EXTERNAL_LINK_PATTERN.test(link)) {
-    return {
-      href: link,
-      target: "_blank",
-      rel: "noopener noreferrer",
-    };
-  }
-
-  return { to: link };
-}
 
 function formatDuration(minutes) {
   const hours = Number(minutes) / 60;

@@ -7,6 +7,7 @@ import {
   MapPin,
   LinkSimple
 } from "@phosphor-icons/react";
+import { isExternalLink } from "@site/src/utils/links";
 import "./LogicielCatalogue.css";
 
 // Mapping entre noms de bibliothèques et leurs liens externes
@@ -31,7 +32,7 @@ const biblioLinks = {
 // Composant pour afficher un logiciel
 const Logiciel = ({ nom, categorie, description, libre, distance, lien, bibliotheques = "" }) => {
   const hasGuide = Boolean(lien);
-  const isExternalGuide = /^https?:\/\//i.test(lien);
+  const isExternalGuide = isExternalLink(lien);
 
   return (
     <div className="logiciel">
@@ -128,13 +129,16 @@ const LogicielCatalogue = () => {
   const [logiciels, setLogiciels] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Toutes");
-
   const [etat, setEtat] = useState("chargement"); // chargement | pret | erreur
+
   useEffect(() => {
-    fetch("/data/logiciels.csv")
     let annule = false;
 
-      .then(response => response.text())
+    fetch("/data/logiciels.csv")
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
+      })
       .then(csv => {
         const result = Papa.parse(csv, { header: true, skipEmptyLines: true });
         if (annule) return;

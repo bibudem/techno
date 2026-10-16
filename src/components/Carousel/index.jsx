@@ -2,6 +2,7 @@ import React, { useCallback } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Link from '@docusaurus/Link';
 
+import { isExternalLink } from '@site/src/utils/links';
 import styles from './styles.module.css';
 import { DotButton, useDotButton } from './useDotButton';
 import { PrevButton, NextButton, usePrevNextButtons } from './usePrevNextButtons';
@@ -49,12 +50,6 @@ export default function PhotoCarousel({
     [slides]
   );
 
-  const isExternalHref = (href) => {
-    if (!href) return false;
-    // http(s), mailto, tel
-    return /^(https?:\/\/|mailto:|tel:)/i.test(href);
-  };
-
   return (
     <section className={styles.embla} aria-label={ariaLabel}>
       <div className={styles.embla__controlsTop}>{controlsButtons}</div>
@@ -80,7 +75,7 @@ export default function PhotoCarousel({
                     )}
 
                     {slide.href &&
-                      (isExternalHref(slide.href) ? (
+                      (isExternalLink(slide.href) ? (
                         <a
                           className={styles.caption__link}
                           href={slide.href}

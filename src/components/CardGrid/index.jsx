@@ -42,9 +42,9 @@ import {
   PencilSimpleLine,
   CubeFocus,
 } from '@phosphor-icons/react';
+import {getLinkProps} from '@site/src/utils/links';
 import styles from './CardGrid.module.css';
 
-const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z\d+\-.]*:|\/\/)/i;
 
 const iconMap = {
   Needle,
@@ -90,18 +90,6 @@ const iconMap = {
   yarn: Yarn,
   question: Question,
 };
-
-function isExternalLink(link) {
-  return EXTERNAL_LINK_PATTERN.test(link);
-}
-
-function getLinkProps(link) {
-  if (!link) {
-    return {to: '#'};
-  }
-
-  return isExternalLink(link) ? {href: link} : {to: link};
-}
 
 export default function CardGrid({items = []}) {
   const gridId = useId();
