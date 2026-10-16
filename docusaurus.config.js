@@ -81,10 +81,10 @@ const config = {
           {
             from: ['/espaces/studioaudio'],
             to: '/espaces/studiosbalado',
+          },
           {
             from: ['/creatives/impression3d/imprimantes3d'],
             to: '/creatives/impression3d',
-          },
           },
         ],
       },
@@ -176,12 +176,7 @@ const config = {
           { type: 'docSidebar', sidebarId: 'informatiqueSidebar', position: 'left', label: 'Ressources informatiques' },
           { type: 'docSidebar', sidebarId: 'creativesSidebar', position: 'left', label: 'Technologies créatives' },
           { type: 'docSidebar', sidebarId: 'mediasSidebar', position: 'left', label: 'Productions médias' },
-          // { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
-          {
-            to: '/a-propos/nous-joindre',
-            label: 'Nous joindre',
-            position: 'left'
-          },
+          { type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'À propos' },
           // {
           //   to: 'https://bib.umontreal.ca',
           //   label: 'bib.umontreal.ca',
