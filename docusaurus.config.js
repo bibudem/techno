@@ -82,6 +82,10 @@ const config = {
           {
             from: ['/espaces/studioaudio'],
             to: '/espaces/studiosbalado',
+          {
+            from: ['/creatives/impression3d/imprimantes3d'],
+            to: '/creatives/impression3d',
+          },
           },
         ],
       },
