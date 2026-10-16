@@ -7,13 +7,36 @@
 var outil_accessibilite = {
 
   // ===============================
+  // Stockage local protégé
+  // (localStorage peut lever une exception : navigation privée, stockage bloqué)
+  // ===============================
+  store_get: function (key) {
+    try {
+      return window.localStorage.getItem(key);
+    } catch (e) {
+      return null;
+    }
+  },
+
+  store_set: function (key, value) {
+    try {
+      window.localStorage.setItem(key, value);
+    } catch (e) {
+      /* préférence non conservée, mais appliquée pour la page courante */
+    }
+  },
+
+  // ===============================
   // Initialisation
   // ===============================
   init: function () {
 
     // Charge le HTML local du widget (IMPORTANT : chemin local Docusaurus)
     fetch('/accessibilite/widget.html')
-      .then(response => response.text())
+      .then(response => {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.text();
+      })
       .then(html => {
 
         document.body.insertAdjacentHTML("beforeend", html);
@@ -199,7 +222,7 @@ var outil_accessibilite = {
 
       clearInterval(padding_check);
       outil_accessibilite.close_widget();
-      widget.style.opacity = 1;
+      widget.classList.add('is-ready');
       outil_accessibilite.sync_widget_visibility_with_klaro();
       outil_accessibilite.sync_widget_bottom_position();
     }, 100);
@@ -228,6 +251,7 @@ var outil_accessibilite = {
 
     el.classList.remove('closed', 'widget-hidden');
     el.classList.add('open');
+    outil_accessibilite.set_toggle_expanded(true);
     outil_accessibilite.sync_widget_bottom_position();
 
     outil_accessibilite.set_widget_hidden_local_storage('false');
@@ -237,12 +261,31 @@ var outil_accessibilite = {
   close_widget: function () {
     const el = document.getElementById('readability-widget');
 
+    // Si le focus était dans le panneau, on le rend au bouton : sinon il
+    // serait perdu quand le panneau passe en display:none.
+    const focusWasInside = el.contains(document.activeElement) &&
+      document.activeElement !== outil_accessibilite.get_toggle_button();
+
     el.classList.remove('open');
     el.classList.add('closed');
+    outil_accessibilite.set_toggle_expanded(false);
 
     outil_accessibilite.sync_widget_bottom_position();
 
     outil_accessibilite.disable_internal_tabbing();
+
+    if (focusWasInside) {
+      outil_accessibilite.get_toggle_button().focus();
+    }
+  },
+
+  get_toggle_button: function () {
+    return document.getElementById('widget-toggle-button');
+  },
+
+  set_toggle_expanded: function (expanded) {
+    const button = outil_accessibilite.get_toggle_button();
+    if (button) button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
   },
 
 
@@ -277,7 +320,8 @@ var outil_accessibilite = {
 
   close_on_escape: function () {
     document.addEventListener("keydown", event => {
-      if (event.key === "Escape") {
+      const el = document.getElementById('readability-widget');
+      if (event.key === "Escape" && el && el.classList.contains('open')) {
         outil_accessibilite.close_widget();
       }
     });
@@ -308,7 +352,7 @@ var outil_accessibilite = {
   // LocalStorage
   // ===============================
   set_widget_hidden_local_storage: function (value) {
-    localStorage.widget_hidden = value;
+    outil_accessibilite.store_set('widget_hidden', value);
   },
 
   sync_dark_mode_toggle: function () {
@@ -359,24 +403,24 @@ var outil_accessibilite = {
 
   is_dark_mode_enabled: function () {
     const root = document.documentElement;
-    const attrTheme = root.getAttribute('data-theme');
-    const storedTheme = localStorage.getItem('theme');
-    const currentTheme = attrTheme || storedTheme || 'light';
-    return currentTheme === 'dark';
+    return root.getAttribute('data-theme') === 'dark';
   },
 
   set_dark_mode: function (enabled) {
     const mode = enabled ? 'dark' : 'light';
     const root = document.documentElement;
 
-    // Synchronise le mode via le provider Docusaurus (source de vérité React).
-    outil_accessibilite.request_docusaurus_color_mode(mode, 'widget');
+    // Docusaurus est la seule source de vérité du thème : le pont React
+    // (src/theme/Navbar/ColorModeToggle) appelle setColorMode().
+    if (window.__sbColorModeBridge) {
+      outil_accessibilite.request_docusaurus_color_mode(mode, 'widget');
+      return;
+    }
 
-    // Fallback immédiat pour conserver un rendu cohérent avant hydratation.
+    // Repli si React n'est pas encore hydraté : même clé que Docusaurus,
+    // qui la relira à son démarrage.
     root.setAttribute('data-theme', mode);
-    root.setAttribute('data-theme-choice', mode);
-    localStorage.setItem('theme', mode);
-    window.dispatchEvent(new Event('themechange'));
+    outil_accessibilite.store_set('theme', mode);
     outil_accessibilite.sync_dark_mode_toggle();
   },
 
@@ -385,31 +429,33 @@ var outil_accessibilite = {
     const active = Boolean(enabled);
 
     root.classList.toggle('readability-large-text', active);
-    localStorage.setItem('large_text', active ? 'true' : 'false');
+    outil_accessibilite.store_set('large_text', active ? 'true' : 'false');
   },
 
   check_localstorage_toggles: function () {
 
-    if (localStorage.widget_hidden === 'true') {
+    const get = outil_accessibilite.store_get;
+
+    if (get('widget_hidden') === 'true') {
       outil_accessibilite.hide_widget();
     }
 
-    if (localStorage.warm_background === 'true') {
+    if (get('warm_background') === 'true') {
       outil_accessibilite.enable_warm_background(true);
       document.getElementById("warm-background-toggle").checked = true;
     }
 
-    if (localStorage.hide_all_images === 'true') {
+    if (get('hide_all_images') === 'true') {
       outil_accessibilite.hide_show_all_images('true');
       document.getElementById("hide-images-toggle").checked = true;
     }
 
-    if (localStorage.open_dyslexic_font === 'true') {
+    if (get('open_dyslexic_font') === 'true') {
       document.body.classList.add("open-dyslexic");
       document.getElementById("open-dyslexic-font-toggle").checked = true;
     }
 
-    if (localStorage.highlight_links === 'true') {
+    if (get('highlight_links') === 'true') {
       outil_accessibilite.hide_show_highlighted_links('true');
       document.getElementById("highlight-links-toggle").checked = true;
     }
@@ -418,7 +464,7 @@ var outil_accessibilite = {
 
     const largeTextToggle = document.getElementById("large-text-toggle");
     if (largeTextToggle) {
-      const largeTextEnabled = localStorage.getItem('large_text') === 'true';
+      const largeTextEnabled = get('large_text') === 'true';
       outil_accessibilite.set_large_text(largeTextEnabled);
       largeTextToggle.checked = largeTextEnabled;
     }
@@ -453,7 +499,7 @@ var outil_accessibilite = {
     document.getElementById("open-dyslexic-font-toggle")
       .addEventListener('click', e => {
         document.body.classList.toggle("open-dyslexic", e.target.checked);
-        localStorage.open_dyslexic_font = e.target.checked ? 'true' : 'false';
+        outil_accessibilite.store_set('open_dyslexic_font', e.target.checked ? 'true' : 'false');
       });
 
     document.getElementById("highlight-links-toggle")
@@ -468,25 +514,26 @@ var outil_accessibilite = {
   // ===============================
   enable_warm_background: function (enabled) {
     if (enabled) {
+      if (document.getElementById("readability-warm-overlay")) return;
       const overlay = document.createElement('div');
       overlay.id = "readability-warm-overlay";
       document.body.appendChild(overlay);
-      localStorage.warm_background = 'true';
+      outil_accessibilite.store_set('warm_background', 'true');
     } else {
       const overlay = document.getElementById("readability-warm-overlay");
       if (overlay) overlay.remove();
-      localStorage.warm_background = 'false';
+      outil_accessibilite.store_set('warm_background', 'false');
     }
   },
 
   hide_show_all_images: function (value) {
     document.body.classList.toggle('readability-hide-images', value === 'true');
-    localStorage.hide_all_images = value;
+    outil_accessibilite.store_set('hide_all_images', value);
   },
 
   hide_show_highlighted_links: function (value) {
     document.body.classList.toggle('readability-highlight-links-on', value === 'true');
-    localStorage.highlight_links = value;
+    outil_accessibilite.store_set('highlight_links', value);
   }
 };
 
