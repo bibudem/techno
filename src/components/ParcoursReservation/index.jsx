@@ -52,7 +52,7 @@ export default function ParcoursReservation({
           <UserFocus size={26} weight="duotone" className={styles.optionIcon} aria-hidden="true" />
           <span className={styles.optionTitle}>Première utilisation</span>
           <span className={styles.optionText}>
-            Réservez un technicien qui vous accompagne sur place.
+            Réservez un technicien qui vous accompagnera sur place.
           </span>
         </button>
 
