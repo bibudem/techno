@@ -156,8 +156,6 @@ const config = {
 
       metadata: [
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: '/img/miniature.jpg' },
-        { property: 'og:image', content: '/img/miniature.jpg' },
       ],
       colorMode: {
         defaultMode: 'light',
@@ -167,7 +165,7 @@ const config = {
       sidebar: {
         autoCollapseCategories: true,
       },
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/miniature.jpg',
       navbar: {
         title: '',
         logo: {
