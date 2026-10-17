@@ -17,11 +17,14 @@ const StudioCard = ({
   reserveText,
   secondaryLinks = [],
   beforeReserve,
+  // Niveau du titre de la fiche, selon la place de la fiche dans la page
+  headingLevel = 3,
 }) => {
+  const Titre = `h${headingLevel}`;
   return (
     <article className={styles.card}>
       <div className={styles.header}>
-        <h3 className={styles.title}>
+        <Titre className={styles.title}>
           {titleLink ? (
             <Link
               {...getLinkProps(titleLink)}
@@ -33,7 +36,7 @@ const StudioCard = ({
           ) : (
             title
           )}
-        </h3>
+        </Titre>
         {location && (
           <p className={styles.location}>
             <MapPin size={18} weight="fill" aria-hidden="true" />

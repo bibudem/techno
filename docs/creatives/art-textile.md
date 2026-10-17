@@ -65,7 +65,7 @@ Cette section est destinée à vous aider à mieux comprendre l'utilisation de l
 
 Si vous débutez, on est là pour vous aider à réaliser vos projets!
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Réservez une consultation",

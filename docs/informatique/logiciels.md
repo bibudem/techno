@@ -38,7 +38,7 @@ L'offre logicielle disponible sur les ordinateurs des bibliothèques de l'UdeM v
 
 ## Les logiciels les plus demandés {#logiciels-demandes}
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Office 365",

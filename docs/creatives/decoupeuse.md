@@ -57,7 +57,7 @@ L’outil (lame, pointe de gravure, ou crayon) est fixé sur un axe. Le matéria
 
 Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets!
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Réservez une consultation",

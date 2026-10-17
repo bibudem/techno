@@ -96,7 +96,7 @@ De la documentation est disponible pour vous aider à utiliser les équipements 
 Envie de créer, de tester, d'apprendre? On vous ouvre la porte!
 Réservez une rencontre avec notre équipe ou plongez dans une formation pratique. Nous sommes là pour vous guider, pas à pas.
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Réservez une consultation",

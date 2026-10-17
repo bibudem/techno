@@ -31,7 +31,7 @@ Seuls les membres de la communauté UdeM peuvent réserver l’amphithéâtre, m
 
 import StudioCard from "@site/src/components/StudioCard";
 
-<StudioCard
+<StudioCard headingLevel={2}
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location={
     <><strong>

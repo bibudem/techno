@@ -29,7 +29,7 @@ Le laboratoire peut accueillir un maximum de 30 personnes.
 
 ---
 
-<StudioCard
+<StudioCard headingLevel={2}
     title="Bibliothèque Hubert-Reeves"
     location="Campus MIL, Aile A, local A-1553"
     mapLink="https://maps.app.goo.gl/BwmR9ty8qfqYiKAK7"

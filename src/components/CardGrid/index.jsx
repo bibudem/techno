@@ -91,8 +91,10 @@ const iconMap = {
   question: Question,
 };
 
-export default function CardGrid({items = []}) {
+// headingLevel : niveau des titres des cartes, selon la place de la grille dans la page
+export default function CardGrid({items = [], headingLevel = 2}) {
   const gridId = useId();
+  const Titre = `h${headingLevel}`;
 
   if (!items.length) {
     return null;
@@ -136,9 +138,9 @@ export default function CardGrid({items = []}) {
               </div>
 
               <div className={styles.content}>
-                <h2 id={titleId} className={styles.title}>
+                <Titre id={titleId} className={styles.title}>
                   {item.title}
-                </h2>
+                </Titre>
                 {hasDescription && (
                   <p id={descId} className={styles.description}>
                     {description}

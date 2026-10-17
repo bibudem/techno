@@ -57,7 +57,7 @@ Disponibles en ce moment :
 
 ---
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
 {
       title: "Guide d'utilisation",

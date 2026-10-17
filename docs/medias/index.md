@@ -11,7 +11,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Espaces
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Studios balado",
@@ -32,7 +32,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Édition 
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Postes d'édition",
@@ -46,7 +46,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Production audio
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Guide baladodiffusion",
@@ -80,7 +80,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Production vidéo {#production-video}
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Guide du studio vidéo LSH",
@@ -113,7 +113,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 ## Infographie
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Guide d'utilisation de la tablette graphique Kamvas 13",

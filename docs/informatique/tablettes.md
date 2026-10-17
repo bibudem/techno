@@ -51,7 +51,7 @@ Le prêt est d'une durée de **7 jours**. Le premier renouvellement se fera auto
 
 ## Aide
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Guide d'utilisation de l'iPad",

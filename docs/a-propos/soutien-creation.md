@@ -22,7 +22,7 @@ Nous offrons du soutien pour vos projets créatifs et vos productions multimédi
 
 Consultez les sections [Technologies créatives](../creatives/index.md) et [Productions médias](../medias/index.md).
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Par courriel",

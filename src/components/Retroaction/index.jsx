@@ -129,7 +129,8 @@ const Retroaction = () => {
   const isSubmitting = status === 'submitting';
   return (
     <form onSubmit={handleFormSubmit} className={styles.wrapper}>
-      <h3 className={styles.title}>L'information sur cette page vous a-t-elle été utile?</h3>
+      {/* Section à part entière en fin de page : toujours un h2 */}
+      <h2 className={styles.title}>L’information sur cette page vous a-t-elle été utile?</h2>
       <p className={styles.subtitle}>
         Votre réponse nous aide à améliorer le site. Si vous choisissez non, vous pourrez
         préciser le problème.

@@ -34,7 +34,7 @@ L'accès à ces ressources est possible avec un ordinateur du campus, avec vos a
 
 import CardGrid from "@site/src/components/CardGrid";
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Configurer le serveur mandataire (proxy)",

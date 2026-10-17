@@ -37,7 +37,7 @@ Avant toute démarche, il est recommandé de consulter [les règles en vigueur c
 
 import CardGrid from "@site/src/components/CardGrid";
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Configurer le serveur mandataire (proxy)",

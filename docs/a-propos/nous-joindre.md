@@ -28,7 +28,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Besoin d’un coup de main? Que ce soit pour l’informatique ou la création, notre équipe est là pour vous soutenir.
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Soutien informatique",

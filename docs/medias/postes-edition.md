@@ -73,7 +73,7 @@ Le poste donne également accès à la version complète de DaVinci Resolve Stud
 
 ## Les logiciels les plus demandés {#logiciels-demandes}
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Adobe Creative Cloud",

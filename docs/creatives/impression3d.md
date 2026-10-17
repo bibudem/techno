@@ -74,7 +74,7 @@ Cette collaboration permet de donner une seconde vie aux déchets de filament et
 
 De la documentation est disponible pour vous aider à utiliser les imprimantes 3D :
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Introduction à l'impression 3D",
@@ -128,7 +128,7 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
 
 Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets!
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Réservez une consultation",

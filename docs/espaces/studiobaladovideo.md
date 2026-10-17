@@ -44,7 +44,7 @@ En raison de travaux en cours à la Bibliothèque des lettres et sciences humain
   className="grid grid--3"
   style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}
 >
-  <StudioCard
+  <StudioCard headingLevel={2}
     title="Bibliothèque des lettres et sciences humaines (BLSH)"
     location={
     <><strong>Pavillon Samuel-Bronfman, 2<sup>e</sup> étage, local 2076-2

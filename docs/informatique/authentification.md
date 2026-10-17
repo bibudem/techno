@@ -22,7 +22,7 @@ L'authentification par code d'accès et mot de passe est nécessaire pour accéd
 
 ## Ressources
 
-<CardGrid
+<CardGrid headingLevel={3}
   items={[
     {
       title: "Wiki des Technologies de l'information (TI)",

@@ -31,7 +31,7 @@ Le studio vidéo de la [Bibliothèque Thérèse-Gouin-Décarie](https://bib.umon
   className="grid grid--3"
   style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}
 >
-  <StudioCard
+  <StudioCard headingLevel={2}
     title="Bibliothèque Thérèse-Gouin-Décarie (TGD)"
     location={
     <><strong>Pavillon Marie-Victorin, 2<sup>e</sup> étage, local G-305-12</strong></>
