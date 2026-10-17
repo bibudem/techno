@@ -46,73 +46,92 @@ const estLienExterne = (href) => {
   }
 };
 
+const MENTION_NOUVEL_ONGLET = ' (ouvre une nouvelle fenêtre)';
+
+function ajouterMention(lien) {
+  if (lien.querySelector('.sr-only-external')) return;
+  const sr = document.createElement('span');
+  sr.className = 'sr-only sr-only-external';
+  sr.textContent = MENTION_NOUVEL_ONGLET;
+  lien.appendChild(sr);
+}
+
+function ajouterIcone(lien) {
+  if (lien.querySelector('.icone-externe')) return;
+  const wrapper = document.createElement('span');
+  wrapper.className = 'icone-externe';
+  wrapper.style.marginLeft = '0.25em';
+  wrapper.style.display = 'inline-flex';
+  wrapper.style.verticalAlign = 'middle';
+  wrapper.setAttribute('aria-hidden', 'true');
+  wrapper.appendChild(creerIconeExterne());
+  lien.appendChild(wrapper);
+}
+
+function ajouterMentionPdf(lien, href) {
+  try {
+    const url = new URL(href, window.location.href);
+    if (!url.pathname.toLowerCase().endsWith('.pdf')) return;
+    if (lien.querySelector('.link-pdf-label')) return;
+    const pdfLabel = document.createElement('span');
+    pdfLabel.textContent = ' (PDF)';
+    pdfLabel.className = 'link-pdf-label';
+    pdfLabel.style.marginLeft = '0.25em';
+    lien.appendChild(pdfLabel);
+  } catch {
+    /* rien */
+  }
+}
+
+// Traite tous les liens du contenu et du pied de page :
+// - lien externe dans le texte d'une page : nouvel onglet + icône + mention pour lecteurs d'écran ;
+// - tout autre lien qui s'ouvre déjà dans un nouvel onglet (boutons des composants,
+//   sous-domaines bib.umontreal.ca…) : mention pour lecteurs d'écran seulement.
+function traiterLiens() {
+  document.querySelectorAll('main a[href], footer a[href]').forEach((lien) => {
+    if (lien.dataset.lienExterne === 'true') return;
+    if (lien.closest('#readability-widget')) return;
+
+    const href = lien.getAttribute('href');
+    const imageSeule = lien.querySelector('img') && !lien.textContent.trim();
+    // Icône et ouverture forcée seulement dans le texte des pages (comme avant)
+    const decorable =
+      Boolean(lien.closest('.markdown')) && !lien.closest('[data-ignore-external]') && !imageSeule;
+
+    if (decorable && estLienExterne(href)) {
+      lien.dataset.lienExterne = 'true';
+      lien.setAttribute('target', '_blank');
+      lien.setAttribute('rel', 'noopener noreferrer');
+      ajouterMentionPdf(lien, href);
+      ajouterIcone(lien);
+      ajouterMention(lien);
+      return;
+    }
+
+    if (lien.getAttribute('target') === '_blank') {
+      lien.dataset.lienExterne = 'true';
+      ajouterMention(lien);
+    }
+  });
+}
+
 export default function LienExterne() {
   const { pathname } = useLocation();
 
+  // Après chaque navigation, puis à chaque ajout de contenu (listes chargées
+  // depuis une API, cartes affichées après coup…).
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      // contenu principal + footer
-      const zones = document.querySelectorAll('.theme-doc-markdown, .markdown');
-      if (!zones.length) return;
+    let timeout = setTimeout(traiterLiens, 120);
+    const observer = new MutationObserver(() => {
+      clearTimeout(timeout);
+      timeout = setTimeout(traiterLiens, 150);
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
 
-      zones.forEach((zone) => {
-        const liens = zone.querySelectorAll('a[href]');
-        liens.forEach((lien) => {
-          if (lien.closest('[data-ignore-external]')) return;
-          if (lien.dataset.lienExterne === 'true') return;
-          if (lien.querySelector('img') && !lien.textContent.trim()) return;
-
-          const href = lien.getAttribute('href');
-          if (!estLienExterne(href)) return;
-
-          lien.dataset.lienExterne = 'true';
-          lien.setAttribute('target', '_blank');
-          lien.setAttribute('rel', 'noopener noreferrer');
-
-          try {
-            const url = new URL(href, window.location.href);
-            if (url.pathname.toLowerCase().endsWith('.pdf')) {
-              const pdfLabel = document.createElement('span');
-              pdfLabel.textContent = ' (PDF)';
-              pdfLabel.className = 'link-pdf-label';
-              pdfLabel.style.marginLeft = '0.25em';
-              lien.appendChild(pdfLabel);
-            }
-          } catch {
-            /* rien */
-          }
-
-          if (!lien.querySelector('.icone-externe')) {
-            const wrapper = document.createElement('span');
-            wrapper.className = 'icone-externe';
-            wrapper.style.marginLeft = '0.25em';
-            wrapper.style.display = 'inline-flex';
-            wrapper.style.verticalAlign = 'middle';
-            wrapper.setAttribute('aria-hidden', 'true');
-            wrapper.appendChild(creerIconeExterne());
-            lien.appendChild(wrapper);
-          }
-
-          if (!lien.querySelector('.sr-only-external')) {
-            const sr = document.createElement('span');
-            sr.className = 'sr-only-external';
-            sr.style.position = 'absolute';
-            sr.style.width = '1px';
-            sr.style.height = '1px';
-            sr.style.padding = '0';
-            sr.style.margin = '-1px';
-            sr.style.overflow = 'hidden';
-            sr.style.clip = 'rect(0,0,0,0)';
-            sr.style.whiteSpace = 'nowrap';
-            sr.style.border = '0';
-            sr.textContent = ' (ouvre une nouvelle fenêtre)';
-            lien.appendChild(sr);
-          }
-        });
-      });
-    }, 120);
-
-    return () => clearTimeout(timeout);
+    return () => {
+      clearTimeout(timeout);
+      observer.disconnect();
+    };
   }, [pathname]);
 
   return null;
