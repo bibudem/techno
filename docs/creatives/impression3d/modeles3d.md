@@ -6,13 +6,13 @@ help : crea
 
 import React from 'react';
 import DataTable from '@site/src/components/DataTable';
-import HeroDroitAuteur from '@site/src/components/HeroDroitAuteur';
+import Hero from '@site/src/components/Hero';
 
 # Modèles 3D
 
 Ici, vous trouverez des logiciels pour concevoir vos propres créations, ainsi qu'une collection de ressources en ligne pour télécharger des modèles 3D prêts à imprimer.
 
-<HeroDroitAuteur />
+<Hero preset="droitAuteur" />
 
 ## Logiciels de modélisation 3D
 

@@ -4,7 +4,7 @@ description: Tout apprendre sur l'impression 3D
 help : crea
 ---
 
-import HeroDroitAuteur from '@site/src/components/HeroDroitAuteur';
+import Hero from '@site/src/components/Hero';
 
 # Introduction à l'impression 3D
 
@@ -82,7 +82,7 @@ La première étape consiste à trouver un modèle 3D ou à le concevoir soi-mê
 - **Depuis Internet** : [Où trouver des modèles 3D?](modeles3d.md#modèles-en-ligne)
 - **Modélisation** : Des logiciels comme Blender permettent de créer ses propres modèles 3D. Voir la section [Logiciels de modélisation](modeles3d.md#logiciels-de-modélisation-3d).
 
-<HeroDroitAuteur />
+<Hero preset="droitAuteur" />
 
 ### Découpe du modèle
 
