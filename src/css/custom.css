@@ -692,6 +692,24 @@ top : 30% !important;
   left: 0px !important;
 }
 
+/* Mobile : l'onglet de clavardage, à mi-hauteur, couvrait le contenu ; on le place
+   en bas à droite, au-dessus du bouton Accessibilité. */
+@media (max-width: 996px) {
+  .lcs_slide_out-r {
+    top: auto !important;
+    bottom: 4.5rem !important;
+  }
+
+  .lcs_slide_out-r div.lcs_header {
+    top: calc(100% - 56px) !important;
+  }
+}
+
+/* Page qui intègre déjà le clavardage : pas d'onglet flottant en double */
+body:has([data-libchat-inline]) .lcs_slide_out {
+  display: none !important;
+}
+
 
 
 

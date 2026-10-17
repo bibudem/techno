@@ -29,6 +29,6 @@ Consultez la section [Ressources informatiques](../informatique/index.md).
 
 ## Clavardage
 
-<LibChatWidget hash="9ee6ed73a6fb1854335aacfa8a7497ef4acaff4303c125783909dacc7b3200b9" />
+<LibChatWidget inline hash="9ee6ed73a6fb1854335aacfa8a7497ef4acaff4303c125783909dacc7b3200b9" />
 
 ---
