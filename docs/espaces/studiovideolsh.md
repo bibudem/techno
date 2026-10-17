@@ -10,7 +10,6 @@ import StudioCard from '@site/src/components/StudioCard';
 import ParcoursReservation from '@site/src/components/ParcoursReservation';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
-import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 

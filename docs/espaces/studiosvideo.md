@@ -10,7 +10,6 @@ import React from 'react';
 import StudioCard from '@site/src/components/StudioCard';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
-import Pano360 from '@site/src/components/Pano360';
 import CardGrid from "@site/src/components/CardGrid";
 
 <img 

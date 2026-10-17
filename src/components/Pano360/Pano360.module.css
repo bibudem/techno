@@ -1,13 +1,31 @@
-.container {
-  width: 100%;
-  height: 500px;
+.figure {
   margin: 2rem 0;
-  border-radius: 16px;
-  overflow: hidden; 
 }
 
-.container:focus {
-  outline: 2px solid var(--jaune);
-  outline-offset: 2px;
-  border-radius: 16px; 
+.container {
+  width: 100%;
+  /* Moins haut sur mobile, 500px au maximum sur grand écran */
+  height: clamp(280px, 60vw, 500px);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--gris-100);
+}
+
+.legende {
+  margin-top: 0.5rem;
+  color: var(--gris-600);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.aide {
+  white-space: normal;
+}
+
+[data-theme='dark'] .container {
+  background: var(--gris-700);
+}
+
+[data-theme='dark'] .legende {
+  color: var(--bleu-100);
 }

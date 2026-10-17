@@ -1,103 +1,136 @@
-import { useEffect, useRef } from 'react';
-import { Viewer } from '@photo-sphere-viewer/core';
+import React, { useEffect, useId, useRef, useState } from 'react';
 import '@photo-sphere-viewer/core/index.css';
 import styles from './Pano360.module.css';
 
-// On ne force pas le focus automatique sur le conteneur,
-// car cela volerait le focus à l'utilisateur au chargement,
-// empêchant la navigation clavier naturelle vers les éléments précédents.
-// L'utilisateur peut naviguer jusqu'au viewer avec Tab. 
-// Le clavier réagit quand c'est en fullscreen, sinon, les boutons de navigation s'affiche.
+// Visite virtuelle 360°.
+// - photo-sphere-viewer (et three.js, ~160 Ko gzip) n'est chargé que lorsque le
+//   panorama approche de l'écran : les pages ne le téléchargent plus d'office.
+// - Clavier : flèches pour tourner, +/- pour zoomer, seulement quand la visite a le
+//   focus (l'option keyboard:'always' écouterait toute la fenêtre et bloquerait le
+//   défilement de la page).
+// - Alternative textuelle : la légende est décrite, et l'image est accessible à plat.
 
-export default function Pano360({ image, caption }) {
+const LANG = {
+  zoom: 'Zoom',
+  zoomOut: 'Dézoomer',
+  zoomIn: 'Zoomer',
+  moveUp: 'Haut',
+  moveDown: 'Bas',
+  moveLeft: 'Gauche',
+  moveRight: 'Droite',
+  fullscreen: 'Plein écran',
+  loadError: 'Le panorama n’a pas pu être chargé.',
+  webglError: 'Votre navigateur ne permet pas d’afficher la visite 360° (WebGL non disponible).',
+  twoFingers: 'Utilisez deux doigts pour naviguer',
+  ctrlZoom: 'Utilisez Ctrl + molette pour zoomer',
+};
+
+// Les boutons de la barre de photo-sphere-viewer sont des <div> : on leur donne
+// un rôle et un nom, et on les rend activables avec Espace comme avec Entrée.
+function rendreBoutonsAccessibles(container) {
+  container.querySelectorAll('.psv-button').forEach((bouton) => {
+    bouton.setAttribute('role', 'button');
+    const nom = bouton.getAttribute('title');
+    if (nom && !bouton.getAttribute('aria-label')) bouton.setAttribute('aria-label', nom);
+  });
+}
+
+function activerAvecEspace(event) {
+  if (event.key !== ' ') return;
+  const bouton = event.target.closest?.('.psv-button');
+  if (!bouton) return;
+  event.preventDefault();
+  bouton.click();
+}
+
+export default function Pano360({ image, legende, caption, title, alt }) {
+  const texte = legende || caption || alt || title || '';
+  const nom = title ? `Visite virtuelle 360° : ${title}` : 'Visite virtuelle 360°';
+  const descriptionId = useId();
   const containerRef = useRef(null);
-  const viewerRef = useRef(null);
-  const id = `desc-${caption?.replace(/\s+/g, '-').toLowerCase()}`;
+  const [visible, setVisible] = useState(false);
 
+  // 1) Attendre que le panorama soit proche de l'écran
   useEffect(() => {
-    if (!containerRef.current) return;
-
-    if (viewerRef.current) {
-      viewerRef.current.destroy();
+    const el = containerRef.current;
+    if (!el) return undefined;
+    if (typeof IntersectionObserver === 'undefined') {
+      setVisible(true);
+      return undefined;
     }
-
-    const viewer = new Viewer({
-      container: containerRef.current,
-      panorama: image,
-      caption: caption || '',
-      navbar: ['zoom', 'move', 'fullscreen'],
-      lang: {
-        zoom: 'Zoom',
-        zoomOut: 'Dézoomer',
-        zoomIn: 'Zoomer',
-        moveUp: 'Haut',
-        moveDown: 'Bas',
-        moveLeft: 'Gauche',
-        moveRight: 'Droite',
-        fullscreen: 'Plein écran',
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
       },
+      { rootMargin: '300px 0px' },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  // 2) Charger la bibliothèque et créer la visionneuse
+  useEffect(() => {
+    if (!visible || !containerRef.current) return undefined;
+    const container = containerRef.current;
+    let viewer = null;
+    let annule = false;
+
+    import('@photo-sphere-viewer/core').then(({ Viewer }) => {
+      if (annule) return;
+      viewer = new Viewer({
+        container,
+        panorama: image,
+        caption: texte,
+        navbar: ['zoom', 'move', 'caption', 'fullscreen'],
+        keyboard: 'fullscreen',
+        lang: LANG,
+      });
+      viewer.addEventListener('ready', () => {
+        rendreBoutonsAccessibles(container);
+        if (container.contains(document.activeElement)) viewer.startKeyboardControl();
+      }, { once: true });
+      container.addEventListener('keydown', activerAvecEspace);
     });
 
-    viewerRef.current = viewer;
-
-    const handleKeyDown = (e) => {
-      const step = 5 * Math.PI / 180;
-      try {
-        const position = viewer.getPosition();
-        if (!position?.yaw || !position?.pitch) return;
-
-        switch (e.key) {
-          case 'ArrowLeft':
-            viewer.rotate({ yaw: position.yaw - step });
-            break;
-          case 'ArrowRight':
-            viewer.rotate({ yaw: position.yaw + step });
-            break;
-          case 'ArrowUp':
-            viewer.rotate({ pitch: position.pitch + step });
-            break;
-          case 'ArrowDown':
-            viewer.rotate({ pitch: position.pitch - step });
-            break;
-        }
-      } catch {}
+    const onFocusIn = () => viewer?.startKeyboardControl();
+    const onFocusOut = (event) => {
+      if (!container.contains(event.relatedTarget)) viewer?.stopKeyboardControl();
     };
-
-    const el = containerRef.current;
-
-    const handleFocus = () => {
-      el?.addEventListener('keydown', handleKeyDown);
-    };
-
-    const handleBlur = () => {
-      el?.removeEventListener('keydown', handleKeyDown);
-    };
-
-    el?.addEventListener('focus', handleFocus);
-    el?.addEventListener('blur', handleBlur);
+    container.addEventListener('focusin', onFocusIn);
+    container.addEventListener('focusout', onFocusOut);
 
     return () => {
-      el?.removeEventListener('focus', handleFocus);
-      el?.removeEventListener('blur', handleBlur);
-      el?.removeEventListener('keydown', handleKeyDown);
-      viewer.destroy();
+      annule = true;
+      container.removeEventListener('keydown', activerAvecEspace);
+      container.removeEventListener('focusin', onFocusIn);
+      container.removeEventListener('focusout', onFocusOut);
+      viewer?.destroy();
     };
-  }, [image]);
+  }, [visible, image, texte]);
 
   return (
-    <>
+    <figure className={styles.figure}>
       <div
         ref={containerRef}
         className={styles.container}
         role="application"
-        aria-label="Visite virtuelle"
-        aria-describedby={id}
-        tabIndex="0"
+        aria-roledescription="visite virtuelle"
+        aria-label={nom}
+        aria-describedby={descriptionId}
+        tabIndex={0}
       />
-      <p id={id} hidden>
-        Vue panoramique : {caption}
-      </p>
-    </>
+      <figcaption id={descriptionId} className={styles.legende}>
+        {texte && <span>{texte}. </span>}
+        <span className={styles.aide}>
+          Flèches pour tourner, + et − pour zoomer.{' '}
+          <a href={image} target="_blank" rel="noopener noreferrer">
+            Voir l’image panoramique à plat
+          </a>
+        </span>
+      </figcaption>
+    </figure>
   );
 }
-

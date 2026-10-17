@@ -9,7 +9,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import StudioCard from '@site/src/components/StudioCard';
 import Link from '@docusaurus/Link';
 import CardGrid from "@site/src/components/CardGrid";
-import Pano360 from '@site/src/components/Pano360';
 
 
 <img 
