@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Link from '@docusaurus/Link';
 import styles from './CardBib.module.css';
 import { ArrowRight } from '@phosphor-icons/react';
 
@@ -43,7 +44,7 @@ export default function CardBib({
     },
   };
 
-  const _color = colorMap[color] || colorMap.bleuPrincipal;
+  const _color = colorMap[color] || colorMap.jaune;
 
   useEffect(() => {
     const handleResize = () => {
@@ -65,18 +66,20 @@ export default function CardBib({
   };
 
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       className={styles.cardLink}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       style={{
         height: `${_size.height}px`,
         ...style,
       }}
     >
+      {/* Survol écouté sur le bloc intérieur : <Link> remplace son propre onMouseEnter
+          (préchargement de la page), ce qui désactiverait l'animation de la rangée. */}
       <div
         className={styles.cardRoot}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
         style={{
           backgroundColor: isHovered ? _color.hoverBg : _color.bg,
           transition: 'background-color 0.3s ease',
@@ -97,6 +100,6 @@ export default function CardBib({
           </div>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }
