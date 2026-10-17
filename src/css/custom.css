@@ -425,8 +425,19 @@ html[data-theme='dark'] .button.button--primary:focus-visible {
 .button.button--secondary:hover {
   color: var(--bleu-700);
   border-color: var(--bleu-600);
-  color : var(--bleu-700);
-  
+}
+
+/* En sombre : contour clair sur fond transparent, plutôt qu'une pilule blanche */
+html[data-theme='dark'] .button.button--secondary {
+  background-color: transparent;
+  color: var(--bleu-100);
+  border-color: var(--bleu-300);
+}
+
+html[data-theme='dark'] .button.button--secondary:hover {
+  background-color: var(--gris-700);
+  color: var(--white);
+  border-color: var(--bleu-200);
 }
 
 .pagination-nav {

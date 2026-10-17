@@ -160,6 +160,13 @@
 }
 
 /* Thème sombre */
+html[data-theme='dark'] .buttons .button.selected,
+html[data-theme='dark'] .buttons .button.selected:hover {
+  background-color: var(--bleu-500);
+  border-color: var(--bleu-500);
+  color: var(--white);
+}
+
 html[data-theme='dark'] .wrapper,
 html[data-theme='dark'] .feedbackBox,
 html[data-theme='dark'] .commentSection {

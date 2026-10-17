@@ -91,6 +91,19 @@
   gap: 0.5rem;
 }
 
+/* Garde l'apparence d'origine (bouton clair sur la section sombre), y compris en mode sombre */
+html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary) {
+  background-color: var(--gris-50);
+  color: var(--bleu-500);
+  border-color: var(--bleu-500);
+}
+
+html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary:hover) {
+  background-color: var(--gris-50);
+  color: var(--bleu-700);
+  border-color: var(--bleu-600);
+}
+
 .spacesButtonIcon {
   flex-shrink: 0;
   transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1);

@@ -9,6 +9,7 @@ const Retroaction = () => {
   const [comment, setComment] = useState('');
   const [status, setStatus] = useState('initial');
   const commentRef = useRef(null);
+  const merciRef = useRef(null);
 
   const formId = 43784;
   const voteFieldId = 1582731;
@@ -21,6 +22,14 @@ const Retroaction = () => {
       commentRef.current?.focus();
     }
   }, [vote]);
+
+  // Le formulaire est remplacé par le remerciement : on y place le focus pour qu'il
+  // ne retombe pas au début de la page, et pour que le message soit lu.
+  useEffect(() => {
+    if (status === 'submitted') {
+      merciRef.current?.focus();
+    }
+  }, [status]);
 
   const clearErrorState = () => {
     if (status === 'error') {
@@ -117,7 +126,7 @@ const Retroaction = () => {
 
   if (status === 'submitted') {
     return (
-      <div className={styles.feedbackBox} role="status" aria-live="polite">
+      <div ref={merciRef} tabIndex={-1} className={styles.feedbackBox}>
         <CheckCircle size={20} weight="fill" className={styles.feedbackIcon} aria-hidden="true" />
         <p className={styles.feedbackText}>
           Merci, votre retour a été envoyé. Il nous aide à améliorer le site.
