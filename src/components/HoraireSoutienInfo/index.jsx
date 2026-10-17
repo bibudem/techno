@@ -1,7 +1,7 @@
-import React, { useEffect, useId, useMemo, useState } from 'react';
+import React, { useEffect, useId, useMemo, useRef, useState } from 'react';
 import styles from './HoraireSoutien.module.css';
 
-// ✅ Version locale de formatDateStr — plus de toISOString()
+// Version locale (pas de toISOString(), qui passerait en UTC)
 function formatDateStr(d) {
   const year = d.getFullYear();
   const month = String(d.getMonth() + 1).padStart(2, '0');
@@ -31,24 +31,38 @@ function formatDayLong(d) {
   });
 }
 
+// Lundi de la semaine de baseDate (+ offset semaines). getDay() vaut 0 le
+// dimanche : (getDay() + 6) % 7 donne le nombre de jours écoulés depuis lundi.
 function getLundi(offset = 0, baseDate = new Date()) {
   const lundi = new Date(baseDate);
-  lundi.setDate(baseDate.getDate() - baseDate.getDay() + 1 + offset * 7);
+  lundi.setHours(0, 0, 0, 0);
+  lundi.setDate(lundi.getDate() - ((lundi.getDay() + 6) % 7) + offset * 7);
   return lundi;
 }
+
+const NB_SEMAINES = 8;
 
 export function HoraireSemaine({ codeBib = "ss" }) {
   const [horairesParSemaine, setHorairesParSemaine] = useState(new Map());
   const [offsetSemaine, setOffsetSemaine] = useState(0);
   const [selectedDayIndex, setSelectedDayIndex] = useState(0);
-  const [erreur, setErreur] = useState(false);
-  const todayStr = formatDateStr(new Date());
+  const [etat, setEtat] = useState('chargement'); // chargement | pret | erreur
+  // La date du jour n'est connue que dans le navigateur : le HTML statique,
+  // généré au build, ne doit contenir aucune date (sinon hydratation incohérente).
+  const [aujourdhui, setAujourdhui] = useState(null);
   const pickerId = useId();
+  const tabRefs = useRef([]);
+  const todayStr = aujourdhui ? formatDateStr(aujourdhui) : '';
 
   useEffect(() => {
+    setAujourdhui(new Date());
+  }, []);
+
+  useEffect(() => {
+    if (!aujourdhui) return undefined;
     let annule = false;
-    setErreur(false);
-    const base = new Date();
+    setEtat('chargement');
+    const base = aujourdhui;
     const lundi0 = getLundi(0, base);
     const dimanche7 = new Date(lundi0);
     dimanche7.setDate(lundi0.getDate() + 55);
@@ -67,7 +81,7 @@ export function HoraireSemaine({ codeBib = "ss" }) {
         const evenements = Array.isArray(data?.evenements) ? data.evenements : [];
         const map = new Map();
 
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < NB_SEMAINES; i++) {
           const lundi = getLundi(i, base);
           const dimanche = new Date(lundi);
           dimanche.setDate(lundi.getDate() + 6);
@@ -91,17 +105,18 @@ export function HoraireSemaine({ codeBib = "ss" }) {
         }
 
         setHorairesParSemaine(map);
+        setEtat('pret');
       })
       .catch(() => {
-        if (!annule) setErreur(true);
+        if (!annule) setEtat('erreur');
       });
 
     return () => {
       annule = true;
     };
-  }, [codeBib]);
+  }, [codeBib, aujourdhui]);
 
-  const baseDate = new Date();
+  const baseDate = aujourdhui || new Date(0);
   const lundi = getLundi(offsetSemaine, baseDate);
   const dimanche = new Date(lundi);
   dimanche.setDate(lundi.getDate() + 6);
@@ -135,11 +150,11 @@ export function HoraireSemaine({ codeBib = "ss" }) {
   const todayIndex = dayItems.findIndex((day) => day.isToday);
 
   const mobileFutureDays = useMemo(() => {
-    const base = new Date();
-    const lundi0 = getLundi(0, base);
+    if (!aujourdhui) return [];
+    const lundi0 = getLundi(0, aujourdhui);
     const list = [];
 
-    for (let weekOffset = 0; weekOffset < 8; weekOffset++) {
+    for (let weekOffset = 0; weekOffset < NB_SEMAINES; weekOffset++) {
       const horairesWeek = horairesParSemaine.get(weekOffset) || [];
       const horairesWeekMap = Object.fromEntries(
         horairesWeek.map((h) => [formatDateStr(new Date(h.date)), h.sommaire])
@@ -165,7 +180,7 @@ export function HoraireSemaine({ codeBib = "ss" }) {
     }
 
     return list;
-  }, [horairesParSemaine, todayStr]);
+  }, [horairesParSemaine, todayStr, aujourdhui]);
 
   useEffect(() => {
     if (todayIndex >= 0) {
@@ -196,39 +211,72 @@ export function HoraireSemaine({ codeBib = "ss" }) {
     setSelectedDayIndex(targetDay.dayIndex);
   }
 
+  // Onglets : une seule tabulation pour la liste, flèches / Début / Fin pour changer de jour
+  function handleTabKeyDown(e) {
+    const dernier = dayItems.length - 1;
+    const cibles = {
+      ArrowRight: selectedDayIndex === dernier ? 0 : selectedDayIndex + 1,
+      ArrowLeft: selectedDayIndex === 0 ? dernier : selectedDayIndex - 1,
+      Home: 0,
+      End: dernier,
+    };
+    if (!(e.key in cibles)) return;
+    e.preventDefault();
+    setSelectedDayIndex(cibles[e.key]);
+    tabRefs.current[cibles[e.key]]?.focus();
+  }
+
+  const pret = etat === 'pret';
+  const derniereSemaine = NB_SEMAINES - 1;
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
         <div>
           <h3>Horaire de la semaine</h3>
-          <p className={styles.dateRange}>
-            du {formatDateLocale(lundi)} au {formatDateLocale(dimanche)}
+          <p className={styles.dateRange} aria-live="polite">
+            {aujourdhui && `du ${formatDateLocale(lundi)} au ${formatDateLocale(dimanche)}`}
           </p>
         </div>
-        <div className={styles.navButtons}>
-          <button
-            onClick={() => offsetSemaine > 0 && setOffsetSemaine(offsetSemaine - 1)}
-            disabled={offsetSemaine === 0}
-            className={`${styles.navButton} ${offsetSemaine === 0 ? styles.disabled : ''}`}
-          >
-            ←
-          </button>
-          <button
-            onClick={() => offsetSemaine < 7 && setOffsetSemaine(offsetSemaine + 1)}
-            disabled={offsetSemaine === 7}
-            className={`${styles.navButton} ${offsetSemaine === 7 ? styles.disabled : ''}`}
-          >
-            →
-          </button>
-        </div>
+        {pret && (
+          <div className={styles.navButtons}>
+            <button
+              type="button"
+              aria-label="Semaine précédente"
+              onClick={() => offsetSemaine > 0 && setOffsetSemaine(offsetSemaine - 1)}
+              disabled={offsetSemaine === 0}
+              className={`${styles.navButton} ${offsetSemaine === 0 ? styles.disabled : ''}`}
+            >
+              <span aria-hidden="true">←</span>
+            </button>
+            <button
+              type="button"
+              aria-label="Semaine suivante"
+              onClick={() => offsetSemaine < derniereSemaine && setOffsetSemaine(offsetSemaine + 1)}
+              disabled={offsetSemaine === derniereSemaine}
+              className={`${styles.navButton} ${offsetSemaine === derniereSemaine ? styles.disabled : ''}`}
+            >
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        )}
       </div>
 
-      {erreur && (
-        <p className={styles.dateRange} role="alert">
-          L’horaire n’a pas pu être chargé. Veuillez réessayer plus tard.
+      {etat === 'chargement' && (
+        <p className={styles.dateRange} role="status">
+          Chargement de l’horaire…
         </p>
       )}
 
+      {etat === 'erreur' && (
+        <p className={styles.dateRange} role="alert">
+          L’horaire n’a pas pu être chargé. Consultez les{' '}
+          <a href="https://bib.umontreal.ca/horaires">heures d’ouverture des bibliothèques</a>{' '}
+          ou écrivez-nous par clavardage.
+        </p>
+      )}
+
+      {pret && (
       <div className={styles.scheduleView}>
         <div className={styles.mobilePicker}>
           <label htmlFor={pickerId} className={styles.mobilePickerLabel}>
@@ -248,15 +296,24 @@ export function HoraireSemaine({ codeBib = "ss" }) {
           </select>
         </div>
 
-        <div className={styles.dayTabs} role="tablist" aria-label="Jours de la semaine">
+        <div
+          className={styles.dayTabs}
+          role="tablist"
+          aria-label="Jours de la semaine"
+          onKeyDown={handleTabKeyDown}
+        >
           {dayItems.map((day) => (
             <button
               key={day.dateStr}
+              ref={(el) => {
+                tabRefs.current[day.idx] = el;
+              }}
               type="button"
               role="tab"
               id={`${pickerId}-tab-${day.idx}`}
               aria-controls={`${pickerId}-panel`}
               aria-selected={selectedDayIndex === day.idx}
+              tabIndex={selectedDayIndex === day.idx ? 0 : -1}
               className={`${styles.dayTab} ${
                 selectedDayIndex === day.idx ? styles.dayTabActive : ''
               } ${day.isToday ? styles.dayTabToday : ''}`}
@@ -286,6 +343,7 @@ export function HoraireSemaine({ codeBib = "ss" }) {
           </section>
         )}
       </div>
+      )}
     </div>
   );
 }
