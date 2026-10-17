@@ -7,16 +7,19 @@ import styles from './styles.module.css';
 import { DotButton, useDotButton } from './useDotButton';
 import { PrevButton, NextButton, usePrevNextButtons } from './usePrevNextButtons';
 
+// Carrousel de diapositives (image + titre + description + lien).
+// Défilement d'une diapositive à la fois : un point de navigation = une diapositive.
 export default function PhotoCarousel({
   slides,
-  slidesToScroll = 2,
   options = {},
   ariaLabel = 'Galerie de photos',
+  headingLevel = 3,
 }) {
+  const Titre = `h${headingLevel}`;
   const emblaOptions = {
-    slidesToScroll: 1, // ✅ 1 item par scroll
+    slidesToScroll: 1,
     align: 'start',
-    containScroll: 'keepSnaps', // ✅ 1 snap par slide (pour 1 dot = 1 item)
+    containScroll: 'keepSnaps',
     loop: false,
     ...options,
   };
@@ -32,12 +35,12 @@ export default function PhotoCarousel({
       <PrevButton
         onClick={onPrevButtonClick}
         disabled={prevBtnDisabled}
-        aria-label="Aller au groupe précédent"
+        aria-label="Diapositive précédente"
       />
       <NextButton
         onClick={onNextButtonClick}
         disabled={nextBtnDisabled}
-        aria-label="Aller au groupe suivant"
+        aria-label="Diapositive suivante"
       />
     </div>
   );
@@ -68,7 +71,7 @@ export default function PhotoCarousel({
 
                 {(slide.title || slide.description || slide.href) && (
                   <figcaption className={styles.caption}>
-                    {slide.title && <h3 className={styles.caption__title}>{slide.title}</h3>}
+                    {slide.title && <Titre className={styles.caption__title}>{slide.title}</Titre>}
 
                     {slide.description && (
                       <p className={styles.caption__desc}>{slide.description}</p>
@@ -83,10 +86,12 @@ export default function PhotoCarousel({
                           rel="noopener noreferrer"
                         >
                           {slide.hrefLabel || 'Ouvrir le lien'}
+                          {slide.title && <span className="sr-only"> : {slide.title}</span>}
                         </a>
                       ) : (
                         <Link className={styles.caption__link} to={slide.href}>
                           {slide.hrefLabel || 'En savoir plus'}
+                          {slide.title && <span className="sr-only"> : {slide.title}</span>}
                         </Link>
                       ))}
                   </figcaption>
@@ -100,8 +105,8 @@ export default function PhotoCarousel({
       <div className={styles.embla__controlsBottom}>
         <div
           className={styles.embla__dots}
-          role="tablist"
-          aria-label="Navigation de la galerie"
+          role="group"
+          aria-label="Choisir une diapositive"
         >
           {slides.map((_, i) => (
             <DotButton
@@ -110,12 +115,17 @@ export default function PhotoCarousel({
               className={`${styles.embla__dot} ${
                 i === selectedIndex ? styles['is-selected'] : ''
               }`}
-              aria-label={`Aller à l’item ${i + 1} : ${slideLabel(i)}`}
-              aria-current={i === selectedIndex ? 'true' : 'false'}
+              aria-label={`Diapositive ${i + 1} : ${slideLabel(i)}`}
+              aria-current={i === selectedIndex ? 'true' : undefined}
             />
           ))}
         </div>
       </div>
+
+      {/* Annonce la diapositive affichée aux lecteurs d'écran */}
+      <p className="sr-only" aria-live="polite">
+        {`Diapositive ${selectedIndex + 1} sur ${slides.length} : ${slideLabel(selectedIndex)}`}
+      </p>
     </section>
   );
 }

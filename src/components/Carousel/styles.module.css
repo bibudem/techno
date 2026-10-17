@@ -22,6 +22,7 @@
 .embla__slide {
   flex: 0 0 var(--slide-size);
   min-width: 0;
+  margin: 0; /* <figure> a une marge de 40px par défaut */
   padding-left: var(--slide-spacing);
   display: flex;
 }
@@ -93,8 +94,8 @@
   border: 1px solid var(--bleu-500);
   border-radius: 999px;
 
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 2.75rem; /* 44px : cible tactile confortable */
+  height: 2.75rem;
 
   /* ✅ centrage le plus stable possible */
   display: grid;
@@ -153,20 +154,31 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.35rem;
 }
 
+/* Zone cliquable de 36px, point visuel de 0.8rem au centre */
 .embla__dot {
   appearance: none;
-  width: 0.8rem;
-  height: 0.8rem;
-  border-radius: 999px;
-  border: 1px solid var(--ifm-color-emphasis-400);
-  background: transparent;
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 0;
+  background: none;
   cursor: pointer;
 }
 
-.is-selected {
+.embla__dot::after {
+  content: '';
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-600);
+  background: transparent;
+}
+
+.is-selected::after {
   background: var(--ifm-color-primary);
   border-color: var(--ifm-color-primary);
 }

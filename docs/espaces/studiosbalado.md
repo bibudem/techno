@@ -61,7 +61,7 @@ L’équipe studio·bib peut vous aider à structurer l’activité, former vos 
 
 ## Balados réalisés dans nos studios
 
-<PhotoCarousel slides={studiosbaladoSlides} slidesToScroll={2} />
+<PhotoCarousel slides={studiosbaladoSlides} />
 
 ---
 
