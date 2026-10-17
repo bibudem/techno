@@ -138,6 +138,12 @@ export default function CardGrid({items = [], headingLevel = 2}) {
               </div>
 
               <div className={styles.content}>
+                {/* Format compact : pas de bandeau, l'icône passe au-dessus du titre */}
+                {item.petit && Icon && (
+                  <span className={styles.iconPetit} aria-hidden="true">
+                    <Icon size={20} />
+                  </span>
+                )}
                 <Titre id={titleId} className={styles.title}>
                   {item.title}
                 </Titre>

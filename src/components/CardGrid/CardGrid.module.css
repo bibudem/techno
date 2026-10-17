@@ -171,6 +171,21 @@
   display: none;
 }
 
+.iconPetit {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--bleu-50);
+  color: var(--bleu-600);
+}
+
+:global(html[data-theme='dark']) .iconPetit {
+  background: var(--gris-700);
+  color: var(--bleu-200);
+}
+
 .petit .title {
   font-size: 1.03rem;
 }
