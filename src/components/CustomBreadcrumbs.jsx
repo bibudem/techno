@@ -9,7 +9,7 @@ export default function CustomBreadcrumbs({items}) {
   // On injecte nos deux éléments statiques au début
   const customItems = [
     {label: 'Site des bibliothèques', href: 'https://bib.umontreal.ca'},
-    {label: 'studio-bib', href: '/'},
+    {label: 'studio·bib', href: '/'},
     ...items.slice(1), // on skippe le "home" par défaut
   ];
 

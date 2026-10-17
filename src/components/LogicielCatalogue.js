@@ -63,7 +63,7 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
         {libre === "Oui" && (
           <span className="tag tag--libre">
             <LockOpen size={16} weight="bold" className="icon" />
-            Logiciel Libre
+            Logiciel libre
           </span>
         )}
 
@@ -73,7 +73,7 @@ const Logiciel = ({ nom, categorie, description, libre, distance, lien, biblioth
             href="/informatique/connexion-distance"
           >
             <PlugsConnected size={16} weight="bold" className="icon" />
-            Accès à Distance
+            Accès à distance
           </a>
         )}
 

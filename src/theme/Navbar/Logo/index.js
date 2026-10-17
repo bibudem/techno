@@ -36,13 +36,13 @@ export default function LogoWrapper() {
       <Link to="/" className={styles.studioLink}>
         <img
           src="/img/logostudio.svg"
-          alt="studio•bib"
+          alt="studio·bib"
           height="26"
           className={`${styles.logoBase} ${styles.logoStudio} ${styles.logoLight}`}
         />
         <img
           src="/img/logostudio-dark.svg"
-          alt="studio•bib"
+          alt="studio·bib"
           height="26"
           className={`${styles.logoBase} ${styles.logoStudio} ${styles.logoDark}`}
         />

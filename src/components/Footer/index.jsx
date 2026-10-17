@@ -49,7 +49,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer} data-site-footer>
       <h2 className={styles.footerTitle}>
-        Les bibliothèques de l'Université de Montréal - studio•bib
+        Les bibliothèques de l'Université de Montréal - studio·bib
       </h2>
 
       <div className={styles.content}>
@@ -91,11 +91,11 @@ export default function Footer() {
           </Link>
           <Link to="https://boite-outils.bib.umontreal.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="var(--rouge-orange-500)"/>
-            <span>Boite à outils</span>
+            <span>Boîte à outils</span>
           </Link>
           <Link to="https://studio.bib.umontreal.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="var(--jaune)"/>
-            <span>studio•bib</span>
+            <span>studio·bib</span>
           </Link>
           <Link to="https://umontreal.scholaris.ca/" className={styles.linkItem}>
             <Circle size={20} weight="fill" color="var(--vert-fonce)"/>
