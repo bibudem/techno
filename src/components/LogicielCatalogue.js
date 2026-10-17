@@ -172,8 +172,8 @@ const LogicielCatalogue = () => {
 
       <div className="filter-container">
         <input
-          type="text"
-          placeholder="Rechercher un logiciel..."
+          type="search"
+          placeholder="Rechercher un logiciel…"
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
           aria-label="Rechercher un logiciel"
@@ -192,15 +192,27 @@ const LogicielCatalogue = () => {
         </select>
       </div>
 
+      {/* Nombre de résultats, annoncé aux lecteurs d'écran à chaque filtrage */}
+      <p className="catalogue-count" role="status">
+        {etat === "pret" &&
+          `${filteredLogiciels.length} logiciel${filteredLogiciels.length > 1 ? "s" : ""} trouvé${filteredLogiciels.length > 1 ? "s" : ""}`}
+      </p>
+
       <div className="logiciel-list">
         {etat === "chargement" ? (
           <p className="catalogue-empty" role="status">Chargement du catalogue…</p>
         ) : etat === "erreur" ? (
           <p className="catalogue-empty" role="alert">Le catalogue n’a pas pu être chargé. Veuillez réessayer plus tard.</p>
         ) : filteredLogiciels.length > 0 ? (
-          filteredLogiciels.map((logiciel, index) => <Logiciel key={index} {...logiciel} />)
+          filteredLogiciels.map((logiciel) => <Logiciel key={logiciel.nom} {...logiciel} />)
         ) : (
-          <p className="catalogue-empty">Aucun logiciel trouvé.</p>
+          <p className="catalogue-empty">
+            {searchQuery.trim()
+              ? `Aucun logiciel ne correspond à « ${searchQuery.trim()} ».`
+              : "Aucun logiciel dans cette catégorie."}{" "}
+            Vérifiez l’orthographe ou{" "}
+            <a href="mailto:studio@bib.umontreal.ca">écrivez-nous</a> si vous cherchez un logiciel précis.
+          </p>
         )}
       </div>
     </div>

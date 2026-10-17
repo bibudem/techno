@@ -216,6 +216,12 @@ html[data-theme='dark'] .catalogue .biblio-tag:hover {
   color: var(--catalogue-location-text);
 }
 
+.catalogue .catalogue-count {
+  margin: 0 0 0.75rem;
+  color: var(--catalogue-subtle-text);
+  font-size: 0.9rem;
+}
+
 .catalogue .catalogue-empty {
   margin: 0;
   padding: 1rem;
@@ -233,6 +239,8 @@ html[data-theme='dark'] .catalogue .biblio-tag:hover {
   .catalogue .search-bar,
   .catalogue .category-filter {
     width: 100%;
+    /* en colonne, la base flex de 280px s'appliquait à la hauteur */
+    flex: 0 0 auto;
   }
 
   .catalogue .logiciel h3 {

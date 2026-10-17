@@ -32,12 +32,22 @@ export default function Disponibilite({ oclc, label }) {
     };
   }, [oclc]);
 
-  if (error) return <p>Erreur de chargement</p>;
-  if (!data) return <p>Chargement...</p>;
+  // Sans réponse de l'API, on renvoie quand même vers la notice Sofia
+  const notice = `https://umontreal.on.worldcat.org/oclc/${oclc}`;
+
+  if (error) {
+    return (
+      <p role="status">
+        <strong>{label}</strong> : disponibilité impossible à afficher pour le moment.{' '}
+        <a href={notice} target="_blank" rel="noopener noreferrer">Vérifier dans Sofia</a>
+      </p>
+    );
+  }
+  if (!data) return <p role="status">{label} : chargement de la disponibilité…</p>;
 
   const message = data.dispo > 0
-    ? `Disponible : ${data.dispo}`
-    : 'Aucune disponibilité';
+    ? `${data.dispo} disponible${data.dispo > 1 ? 's' : ''}`
+    : 'Aucun exemplaire disponible pour le moment';
 
   const baseStyle = {
     display: 'block',

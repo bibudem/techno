@@ -38,6 +38,7 @@ function parseDateFr(dateStr) {
 export default function ProchainsAteliers() {
   const [formations, setFormations] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [erreur, setErreur] = useState(false);
 
   useEffect(() => {
     fetch('https://api.bib.umontreal.ca/formations/discipline/informatique-creation-medias')
@@ -62,6 +63,7 @@ export default function ProchainsAteliers() {
       })
       .catch(() => {
         setFormations([]);
+        setErreur(true);
         setLoading(false);
       });
   }, []);
@@ -71,7 +73,12 @@ export default function ProchainsAteliers() {
       <h2 className={styles.cardHeader}>Prochaines formations</h2>
       <ul className={styles.cardList}>
         {loading ? (
-          <li>Chargement...</li>
+          <li role="status">Chargement des formations…</li>
+        ) : erreur ? (
+          <li role="status">
+            Impossible d’afficher les prochaines formations pour le moment. Consultez le
+            calendrier complet ci-dessous.
+          </li>
         ) : formations.length === 0 ? (
           <li>Aucune formation à venir.</li>
         ) : (
@@ -100,6 +107,8 @@ export default function ProchainsAteliers() {
                 <h3 className={styles.cardTitle}>
                   <a href={url} target="_blank" rel="noopener noreferrer">
                     {titre}
+                    {/* plusieurs séances peuvent porter le même titre */}
+                    <span className="sr-only">, le {date}</span>
                   </a>
                 </h3>
               </div>

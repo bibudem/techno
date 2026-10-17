@@ -164,7 +164,7 @@ const PostesDisponibles = ({ zone }) => {
   return (
     <div>
       {error ? (
-        <p role="alert">❌ {error}</p>
+        <p role="alert">{error}</p>
       ) : postes.length === 0 ? (
         <p>Aucun poste disponible.</p>
       ) : (

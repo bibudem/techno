@@ -18,8 +18,8 @@ const DataTable = ({ src }) => {
       .catch(err => setError(err.message));
   }, [src]);
 
-  if (error) return <p style={{ color: 'red' }}>⚠️ {error}</p>;
-  if (data.length === 0) return <p>Chargement des données...</p>;
+  if (error) return <p role="alert">Le tableau n’a pas pu être chargé. Veuillez réessayer plus tard.</p>;
+  if (data.length === 0) return <p role="status">Chargement des données…</p>;
 
   return (
     <div style={{ overflowX: 'auto' }}>
