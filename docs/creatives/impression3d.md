@@ -40,7 +40,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
       titleLink={lieu.titleLink}
       location={lieu.location}
       mapLink={lieu.mapLink}
-      mapText="Voir sur la carte"
+      mapText="Itinéraire Google Maps"
       tags={lieu.tags}
     />
   ))}

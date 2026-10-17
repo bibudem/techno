@@ -33,7 +33,7 @@ function contenuBulle(lieu) {
     lien.href = lieu.mapLink;
     lien.target = '_blank';
     lien.rel = 'noopener noreferrer';
-    lien.textContent = 'Itinéraire';
+    lien.textContent = 'Itinéraire Google Maps';
     racine.appendChild(lien);
   }
 
@@ -53,7 +53,9 @@ function Carte({lieux}) {
 
     const carte = L.map(conteneurRef.current, {
       scrollWheelZoom: false, // ne pas bloquer le défilement de la page
+      zoomControl: false,
     });
+    L.control.zoom({zoomInTitle: 'Zoom avant', zoomOutTitle: 'Zoom arrière'}).addTo(carte);
 
     // Fond OpenStreetMap, rendu monochrome en CSS (voir styles.module.css).
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -64,8 +66,8 @@ function Carte({lieux}) {
 
     const icone = L.divIcon({
       className: styles.marker,
-      iconSize: [22, 22],
-      iconAnchor: [11, 11],
+      iconSize: [24, 24],
+      iconAnchor: [12, 12],
       popupAnchor: [0, -12],
     });
 
@@ -73,9 +75,27 @@ function Carte({lieux}) {
     lieux.forEach((lieu) => {
       const nom = lieu.region ?? REGION_DEFAUT;
       groupes[nom] ??= L.featureGroup().addTo(carte);
-      L.marker(lieu.coords, {icon: icone, title: lieu.title, alt: lieu.title})
+      const marqueur = L.marker(lieu.coords, {icon: icone, title: lieu.title, alt: lieu.title})
         .bindPopup(contenuBulle(lieu))
         .addTo(groupes[nom]);
+
+      // Clavier : à l'ouverture, le focus entre dans la bulle (lien Itinéraire
+      // atteignable) ; à la fermeture, il revient au marqueur.
+      marqueur.on('popupopen', (e) => {
+        const bulle = e.popup.getElement();
+        const fermer = bulle?.querySelector('.leaflet-popup-close-button');
+        if (fermer) {
+          fermer.setAttribute('aria-label', 'Fermer');
+          fermer.setAttribute('title', 'Fermer');
+        }
+        bulle?.querySelector('a[href]:not(.leaflet-popup-close-button)')?.focus({preventScroll: true});
+      });
+      marqueur.on('popupclose', (e) => {
+        const bulle = e.popup.getElement();
+        if (!bulle || bulle.contains(document.activeElement) || document.activeElement === document.body) {
+          marqueur.getElement()?.focus({preventScroll: true});
+        }
+      });
     });
 
     carteRef.current = carte;

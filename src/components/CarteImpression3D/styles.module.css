@@ -30,18 +30,14 @@ html[data-theme='dark'] .map :global(.leaflet-tile-pane) {
 }
 
 .marker {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background: var(--jaune);
   border: 3px solid var(--bleu-700);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 
-.marker:focus-visible {
-  outline: 3px solid var(--bleu-400);
-  outline-offset: 2px;
-}
 
 .popupTitle {
   display: block;
