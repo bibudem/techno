@@ -44,7 +44,7 @@ export default function ParcoursReservation({
           <UserFocus size={26} weight="duotone" className={styles.optionIcon} aria-hidden="true" />
           <span className={styles.optionTitle}>Première utilisation</span>
           <span className={styles.optionText}>
-            Réservez un technicien qui vous accompagnera sur place.
+            Réservez le studio, puis un technicien qui vous accompagnera.
           </span>
         </button>
 
@@ -72,7 +72,7 @@ export default function ParcoursReservation({
               <p className={styles.etapeTitre}>Réservez le studio</p>
               <p className={styles.etapeTexte}>
                 Les créneaux du studio partent vite : commencez par là.{' '}
-                <strong>Notez la date et l'heure choisies.</strong>
+                <strong>Notez la date et l’heure choisies.</strong>
               </p>
               <Link
                 {...getLinkProps(reserveLink)}
@@ -91,8 +91,8 @@ export default function ParcoursReservation({
             <div className={styles.etapeContenu}>
               <p className={styles.etapeTitre}>Réservez un technicien au même créneau</p>
               <p className={styles.etapeTexte}>
-                La réservation du studio n'inclut pas de technicien. Choisissez la même
-                date et la même heure dans l'horaire des techniciens.
+                La réservation du studio n’inclut pas de technicien. Choisissez la même
+                date et la même heure dans l’horaire des techniciens.
               </p>
               <Link
                 {...getLinkProps(accompagnementLink)}
@@ -115,7 +115,7 @@ export default function ParcoursReservation({
       {guideLink && (
         <Link to={guideLink} className={styles.guide}>
           <BookOpenText size={24} weight="duotone" className={styles.guideIcon} aria-hidden="true" />
-          <span className={styles.guideTitre}>Guide d'utilisation pas à pas</span>
+          <span className={styles.guideTitre}>Guide d’utilisation pas à pas</span>
           <ArrowRight size={18} className={styles.guideArrow} aria-hidden="true" />
         </Link>
       )}
