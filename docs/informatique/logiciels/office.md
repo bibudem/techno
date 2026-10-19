@@ -1,6 +1,6 @@
 ---
 title: Office 365
-description: Informations sur l'accès et l'installation d'Office 365 pour la communauté UdeM.
+description: "Microsoft Office 365 (Word, Excel, PowerPoint, Outlook, Teams, OneDrive) est gratuit pour la communauté UdeM sur 15 appareils : installation via o365.umontreal.ca et activation."
 help : info
 ---
 

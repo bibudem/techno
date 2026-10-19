@@ -1,12 +1,14 @@
 ---
-titre : cMapTools
-description : cMapTools est un logiciel de création de cartes conceptuelles.
+title : CmapTools
+description : CmapTools, logiciel de création de cartes conceptuelles, est offert sur les ordinateurs des bibliothèques UdeM, à distance et en téléchargement gratuit pour ordinateur personnel.
 help : info
 ---
 
+CmapTools est un logiciel de création de cartes conceptuelles (schémas conceptuels enregistrés au format .cmap). Cette page explique comment l'obtenir, ouvrir, sauvegarder et imprimer un schéma.
+
 ## Disponibilité
 
-- Disponible sur [** Tous les ordinateurs en bibliothèque**](https://studio.bib.umontreal.ca/informatique/ordinateurs).
+- Disponible sur [**Tous les ordinateurs en bibliothèque**](https://studio.bib.umontreal.ca/informatique/ordinateurs).
 - [Accès à distance](../connexion-distance).
 - [Téléchargement et installation sur ordinateur personnel](https://cmap.ihmc.us/cmaptools/cmaptools-download/).
 - Nouvelle [version cloud](https://cmapcloud.ihmc.us/) (permet le travail en équipe)

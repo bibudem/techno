@@ -1,11 +1,13 @@
 ---
 id : adobe
+title : Adobe Creative Cloud
+description : La suite Adobe Creative Cloud (Photoshop, Illustrator, Premiere Pro, etc.) est offerte sur les postes d'édition des bibliothèques UdeM et à distance ; un Adobe ID est requis.
 help : crea
 ---
 
 # Adobe Creative Cloud
 
-La suite Adobe Creative Cloud propose un ensemble de logiciels de création graphique, vidéo et audio. Les Bibliothèques UdeM offre l'accès à ces logiciels sur quelques ordinateurs.
+La suite Adobe Creative Cloud propose un ensemble de logiciels de création graphique, vidéo et audio. Les Bibliothèques UdeM offrent l'accès à ces logiciels sur quelques ordinateurs.
 
 :::warning Adobe ID
 Pour pouvoir utiliser la suite Adobe Creative Cloud installée sur nos ordinateurs, il faut impérativement [créer un compte Adobe ID](https://account.adobe.com/). C'est rapide et gratuit. 

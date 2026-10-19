@@ -1,6 +1,6 @@
 ---
 title : EndNote
-description : Guide pour l'installation et l'utilisation du logiciel de gestion de références bibliographiques EndNote.
+description : L'UdeM fournit gratuitement EndNote, logiciel de gestion de références bibliographiques. Installation sous Windows et macOS via la Logithèque, sauvegarde et synchronisation.
 help : info
 toc_max_heading_level: 2
 ---
@@ -203,7 +203,7 @@ La synchronisation permet de stocker vos références sur les serveurs d’EndNo
 </Tabs>
 
 
-#### Si problème barre word
+#### Si problème barre Word
 
 <Tabs groupId="os-tabs">
 <TabItem value="windows" label="Windows">
@@ -218,7 +218,7 @@ Par défaut, EndNote ouvre la dernière base utilisée (recommandé).
 Pour changer cela, cliquer ***EndNote2025*** → ***Réglages*** → ***Bibliothèques*** et choisir l’option voulue.
 
 :::note Important
-Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure Endnote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
+Microsoft Word doit ne pas avoir été ouvert depuis le redémarrage pour inclure EndNote 2025 dans la barre d’outils. Sinon, redémarrer l’ordinateur et continuer la configuration. Cliquer ***EndNote2025*** → ***Customizer*** → ***Cite While Your Write*** → ***Next*** → ***Done***.
 :::
 
 </TabItem>

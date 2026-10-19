@@ -1,6 +1,6 @@
 ---
 title : DaVinci Resolve Studio
-description : DaVinci Resolve Studio est un logiciel de montage vidéo et d'étalonnage professionnel.
+description : DaVinci Resolve Studio, logiciel professionnel de montage vidéo et d'étalonnage, est offert sur les postes d'édition de la Bibliothèque des lettres et sciences humaines (BLSH) de l'UdeM.
 ---
 
 DaVinci Resolve Studio est un logiciel de montage vidéo et d'étalonnage professionnel.

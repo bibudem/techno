@@ -1,5 +1,6 @@
 ---
 title : Antidote
+description : Antidote, correcteur grammatical avec dictionnaires et guides linguistiques, est installé sur tous les ordinateurs des bibliothèques de l'UdeM et accessible à distance.
 help : info
 ---
 

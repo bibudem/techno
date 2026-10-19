@@ -1,6 +1,6 @@
 ---
 title : Logiciel R
-description : Guide pour l'installation du logiciel R.
+description : "R, langage libre de statistiques et de science des données : installation de R, Rtools et RStudio Desktop sur ordinateur personnel, ou accès en bibliothèque et à distance."
 help : info
 ---
 
@@ -13,7 +13,7 @@ Le logiciel **R** est un langage de programmation et un logiciel libre destiné 
 ## Installation sur un ordinateur personnel
 
 1. Télécharger et installer le [logiciel **R**](https://cran.r-project.org/index.html)
-2. Télécharger et installer le [logiciel **RTools**](https://cran.r-project.org/index.html)
+2. Télécharger et installer le [logiciel **Rtools**](https://cran.r-project.org/index.html)
 3. Télécharger et installer le [logiciel **RStudio Desktop**](https://posit.co/download/rstudio-desktop/)
 
 :::note Note

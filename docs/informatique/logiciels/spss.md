@@ -1,8 +1,8 @@
 ---
 title : SPSS (IBM SPSS Statistics)
-description : Logiciel d’analyse statistique avancée
+description : "IBM SPSS Statistics, logiciel d’analyse statistique, est fourni gratuitement à la communauté UdeM : en bibliothèque, à distance ou via la Logithèque (Windows, macOS)."
 help : info
---- 
+---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

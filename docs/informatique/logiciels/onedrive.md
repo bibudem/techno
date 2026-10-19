@@ -1,6 +1,6 @@
 ---
 title: OneDrive
-description: Configurer OneDrive UdeM.
+description: "OneDrive est offert gratuitement à la communauté UdeM (10 Go pour les étudiants, 100 Go pour les cycles supérieurs et les employés) : étapes de configuration sur ordinateur."
 help : info
 ---
 
@@ -8,6 +8,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # OneDrive
+
+Cette page explique comment configurer OneDrive UdeM, l'espace de stockage infonuagique de Microsoft Office 365, sur votre ordinateur.
 
 - OneDrive est offert gratuitement à toute la communauté UdeM
 - Espace de stockage OneDrive : **10 Go pour les étudiants et 100 Go pour les cycles supérieurs et les employés**

@@ -1,6 +1,6 @@
 ---
 title : Logiciel QDA Miner
-description : Guide pour l'installation du QDA Miner.
+description : "QDA Miner, logiciel d'analyse qualitative, s'installe sur Windows via la Logithèque UdeM (Provalis Prosuite). Non offert sur Mac : utiliser les ordinateurs des bibliothèques ou l'accès à distance."
 help : info
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
-Le logiciel **QDA Miner** est un logiciel d'analyse qualificative.
+Le logiciel **QDA Miner** est un logiciel d'analyse qualitative.
 
 <Tabs groupId="os-tabs">
       <TabItem value="windows" label="Windows">

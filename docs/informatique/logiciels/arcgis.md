@@ -1,6 +1,6 @@
 ---
 title : ArcGIS
-description : Information et guide pour l'installation du logiciel ArcGIS Pro.
+description : ArcGIS Pro permet d'analyser des données et de créer des cartes 2D et des scènes 3D. Préalables et guide d'installation pour la communauté UdeM.
 help : info
 ---
 

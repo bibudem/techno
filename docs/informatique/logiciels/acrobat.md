@@ -1,6 +1,6 @@
 ---
 title : Adobe Acrobat Pro
-description : Accédez à Adobe Acrobat Pro pour la création, l'édition et la publication de documents PDF.
+description : Adobe Acrobat Pro permet de créer, modifier, convertir, signer et protéger des PDF. Guides des bibliothèques UdeM pour le dépôt de thèses, l'OCR et la fusion de PDF.
 help : info
 ---
 

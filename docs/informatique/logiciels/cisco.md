@@ -1,6 +1,6 @@
 ---
 title : Cisco Secure Client (VPN)
-description : Logiciel de sécurisation de connexion
+description : Cisco Secure Client (VPN) donne accès à l'intranet et aux ressources électroniques des bibliothèques UdeM. Installé sur leurs ordinateurs et installable sur un ordinateur personnel.
 help : info
 ---
 
@@ -12,6 +12,6 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 
 - [Sur la plupart des ordinateurs en libre-service dans toutes les bibliothèques](https://studio.bib.umontreal.ca/informatique/ordinateurs#libre-service)
 - [Tous les ordinateurs en prêt 6h, 7 jours et 30 jours](https://studio.bib.umontreal.ca/informatique/ordinateurs#pret-portable)
-- [Guide d'insllation sur un ordinateur personnel](https://studio.bib.umontreal.ca/informatique/vpn)
+- [Guide d'installation sur un ordinateur personnel](https://studio.bib.umontreal.ca/informatique/vpn)
 
 ---

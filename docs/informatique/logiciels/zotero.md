@@ -1,12 +1,14 @@
 ---
 title : Zotero
-description : Guide pour l'installation et l'utilisation du logiciel de gestion de références bibliographiques Zotero.
+description : "Zotero, logiciel de gestion de références bibliographiques : installation sur Windows et macOS, connecteur de navigateur, synchronisation infonuagique et extension Zutilo."
 help : info
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
+
+Zotero est un logiciel de gestion de références bibliographiques. Cette page présente son installation sur Windows et macOS ainsi que la configuration recommandée.
 
 :::tip
 Consulter [le guide d'utilisation de Zotero](https://boite-outils.bib.umontreal.ca/citer/zotero) dans la boîte à outils des bibliothèques.
@@ -52,7 +54,7 @@ Pour activer Zotero dans Safari, ouvrir Safari, aller dans le menu **Safari** �
 ### Sauvegarder dans l’infonuage de Zotero.
 Dans Zotero, sous **Édition** → **Paramètres** → **Synchronisation**, cliquer sur **Créer un compte** et compléter le formulaire d’inscription. Valider le courriel de confirmation. Revenir dans Zotero sous **Édition** → **Paramètres**  → **Synchronisation** pour inscrire votre nom d’utilisateur et votre mot de passe et cliquer sur le bouton **Régler la synchronisation**.
 
-![Options à décocher](/img/docs/zotero_synchroniser_infonuage_350.webp)
+![Paramètres de synchronisation de Zotero, avec les trois cases à décocher encadrées en rouge](/img/docs/zotero_synchroniser_infonuage_350.webp)
 
 :::note Note
 Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de **décocher** :
@@ -77,7 +79,7 @@ Il est recommandé d’installer l’extension Zutilo pour bénéficier de fonct
 ### Sauvegarder dans l’infonuage de Zotero.
 Dans Zotero, sous **Préférences** → **Synchronisation**, cliquer sur **Créer un compte** et compléter le formulaire d’inscription. Valider le courriel de confirmation. Revenir dans Zotero sous **Préférences** → **Synchronisation** pour inscrire votre nom d’utilisateur et votre mot de passe et cliquer sur le bouton **Régler la synchronisation**.
 
-![Options à décocher](/img/docs/zotero_synchroniser_infonuage_350.webp)
+![Paramètres de synchronisation de Zotero, avec les trois cases à décocher encadrées en rouge](/img/docs/zotero_synchroniser_infonuage_350.webp)
 
 :::note Note
 Pour ne pas dépasser les 300 Mo d'espace infonuagique gratuit, il est fortement recommandé de décocher :

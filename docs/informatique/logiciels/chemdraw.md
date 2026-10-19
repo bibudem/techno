@@ -1,6 +1,6 @@
 ---
 title : ChemDraw
-description : ChemDraw est un logiciel de dessin de structures chimiques.
+description : "ChemDraw Professional, logiciel de dessin de structures chimiques, est offert sous licence institutionnelle UdeM : téléchargement, installation et activation avec un courriel @umontreal.ca."
 help : info
 ---
 
@@ -21,18 +21,18 @@ Utilisateurs déjà inscrits : vous pourriez avoir à vous inscrire à nouveau.
 :::
 
 4. Vous serez redirigé sur la page *List Entitlements*.
-   1. Copier le code d’activation de *Chemdraw Professionnal*, vous en aurez besoin plus tard.
+   1. Copier le code d’activation de *ChemDraw Professional*, vous en aurez besoin plus tard.
    2. Cliquer sur *Download Now* pour télécharger le logiciel.
 
 ![La page List Entitlements de ChemDraw](/img/docs/chemdraw2.webp)
 
-5. Cliquer *ChemDraw Professionnal*.
+5. Cliquer *ChemDraw Professional*.
 
 :::note Note
 Si la dernière version ne s’installe pas sur votre ordinateur, sélectionner l’onglet ***Previous versions*** et installer l’avant dernière version.
 :::
 
-6. Télécharger et installer *ChemDraw Professionnal* selon votre système d'exploitation.
+6. Télécharger et installer *ChemDraw Professional* selon votre système d'exploitation.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 ---
 title: Ableton Live Suite 12
-description: Informations sur l'accès au logiciel Ableton Live Suite 12 pour la communauté UdeM.
+description: "Ableton Live Suite 12, logiciel de création musicale et de performance en direct, est offert sur un poste d'édition de la Bibliothèque de musique de l'UdeM, avec ses Live Packs."
 help : crea
 ---
 
