@@ -209,6 +209,10 @@ Retirer la bobine de filament de l'un des quatres compartiments.
 
 #### Ranger la bobine de filament
 
+:::note
+Pour changer la bobine située hors de l'AMS, merci de demander à nos équipes sur place
+:::
+
 Bloquer le bout du filament dans l'un des trous de la bobine pour éviter les noeuds ou que le filament se déroule. Ranger le tout dans son sac sous vide.
 
 ![Bloquer le bout du filament PLA-Trou de la bobine](/img/docs/filament-bambu4.webp)
