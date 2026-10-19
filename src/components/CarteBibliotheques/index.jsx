@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useId, useRef, useState} from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
@@ -8,8 +8,9 @@ import {getLinkProps} from '@site/src/utils/links';
 import JsonLd, {nettoyer, texteDe, urlAbsolue} from '@site/src/utils/jsonLd';
 import styles from './styles.module.css';
 
-// Carte des bibliothèques offrant l'impression 3D, avec la liste des lieux à côté
-// (en dessous sur mobile). La liste est rendue côté serveur : elle reste lisible
+// Carte de bibliothèques offrant un service (impression 3D, postes AVA…), avec la
+// liste des lieux à côté (en dessous sur mobile). Données : src/data/ (lieux bâtis
+// sur src/data/bibliotheques.js, plus tags = pastilles et details = précisions). La liste est rendue côté serveur : elle reste lisible
 // même sans la carte. Cliquer sur un lieu centre la carte et ouvre sa bulle ;
 // cliquer sur un marqueur met le lieu en évidence dans la liste.
 
@@ -45,6 +46,13 @@ function contenuBulle(lieu) {
   });
   racine.appendChild(modeles);
 
+  if (lieu.details?.length) {
+    const details = document.createElement('p');
+    details.className = styles.popupDetails;
+    details.textContent = lieu.details.map((d) => nettoyer(texteDe(d))).join(' · ');
+    racine.appendChild(details);
+  }
+
   if (lieu.mapLink) {
     const lien = document.createElement('a');
     lien.href = lieu.mapLink;
@@ -57,7 +65,7 @@ function contenuBulle(lieu) {
   return racine;
 }
 
-function Carte({lieux, region, selection, onMarqueur}) {
+function Carte({lieux, region, selection, onMarqueur, service}) {
   const conteneurRef = useRef(null);
   const carteRef = useRef(null);
   const groupesRef = useRef({});
@@ -149,7 +157,8 @@ function Carte({lieux, region, selection, onMarqueur}) {
     const carte = carteRef.current;
     const marqueur = selection && marqueursRef.current[selection.title];
     if (!carte || !marqueur) return;
-    carte.setView(marqueur.getLatLng(), Math.max(carte.getZoom(), 15), {
+    // Zoom 17 : sépare les bibliothèques voisines du campus principal
+    carte.setView(marqueur.getLatLng(), Math.max(carte.getZoom(), 17), {
       animate: !mouvementReduit(),
     });
     marqueur.openPopup();
@@ -160,12 +169,12 @@ function Carte({lieux, region, selection, onMarqueur}) {
       ref={conteneurRef}
       className={styles.map}
       role="region"
-      aria-label="Carte des bibliothèques offrant l'impression 3D"
+      aria-label={`Carte des bibliothèques offrant ${service}`}
     />
   );
 }
 
-function Lieu({lieu, numero, actif, afficherRegion, onVoir, itemRef}) {
+function Lieu({lieu, numero, actif, afficherRegion, onVoir, itemRef, etiquetteTags}) {
   return (
     <li ref={itemRef} className={clsx(styles.lieu, actif && styles.lieuActif)}>
       <span className={styles.numero} aria-hidden="true">{numero}</span>
@@ -191,7 +200,7 @@ function Lieu({lieu, numero, actif, afficherRegion, onVoir, itemRef}) {
       )}
 
       {lieu.tags?.length > 0 && (
-        <ul className={styles.modeles} aria-label="Modèles disponibles">
+        <ul className={styles.modeles} aria-label={etiquetteTags}>
           {lieu.tags.map((tag) => (
             <li key={tag.label}>
               {tag.href ? (
@@ -202,6 +211,14 @@ function Lieu({lieu, numero, actif, afficherRegion, onVoir, itemRef}) {
                 <span className={styles.modele}>{tag.label}</span>
               )}
             </li>
+          ))}
+        </ul>
+      )}
+
+      {lieu.details?.length > 0 && (
+        <ul className={styles.details}>
+          {lieu.details.map((detail, index) => (
+            <li key={index}>{detail}</li>
           ))}
         </ul>
       )}
@@ -222,7 +239,18 @@ function Lieu({lieu, numero, actif, afficherRegion, onVoir, itemRef}) {
   );
 }
 
-export default function CarteImpression3D({lieux}) {
+export default function CarteBibliotheques({
+  lieux,
+  // Complète « Carte des bibliothèques offrant … »
+  service = 'l’impression 3D',
+  // Nom de la liste de pastilles d'un lieu (lecteurs d'écran)
+  etiquetteTags = 'Modèles disponibles',
+  // Préfixe des pastilles dans les données structurées
+  libelleJsonLd = 'Imprimantes 3D',
+  // Texte ajouté au nombre de bibliothèques dans l'en-tête de la liste
+  sousTitre,
+}) {
+  const enteteId = useId();
   const regions = regionsDe(lieux);
   const [region, setRegion] = useState(regions[0]);
   const [selection, setSelection] = useState(null);
@@ -281,7 +309,7 @@ export default function CarteImpression3D({lieux}) {
   const donnees = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Bibliothèques de l’Université de Montréal offrant l’impression 3D',
+    name: `Bibliothèques de l’Université de Montréal offrant ${service}`,
     numberOfItems: lieux.length,
     itemListElement: lieux.map((lieu, index) => ({
       '@type': 'ListItem',
@@ -291,7 +319,11 @@ export default function CarteImpression3D({lieux}) {
         name: lieu.title,
         url: urlAbsolue(lieu.titleLink),
         description: nettoyer(
-          `${texteDe(lieu.location)} Imprimantes 3D : ${lieu.tags.map((tag) => tag.label).join(', ')}.`,
+          [
+            texteDe(lieu.location),
+            `${libelleJsonLd} : ${lieu.tags.map((tag) => tag.label).join(', ')}.`,
+            ...(lieu.details || []).map((d) => `${texteDe(d)}.`),
+          ].join(' '),
         ),
         hasMap: lieu.mapLink,
         geo: {'@type': 'GeoCoordinates', latitude: lieu.coords[0], longitude: lieu.coords[1]},
@@ -336,7 +368,13 @@ export default function CarteImpression3D({lieux}) {
         <div ref={zoneCarteRef} className={styles.zoneCarte}>
           <BrowserOnly fallback={<div className={styles.map} aria-hidden="true" />}>
             {() => (
-              <Carte lieux={lieux} region={region} selection={selection} onMarqueur={surMarqueur} />
+              <Carte
+                lieux={lieux}
+                region={region}
+                selection={selection}
+                onMarqueur={surMarqueur}
+                service={service}
+              />
             )}
           </BrowserOnly>
         </div>
@@ -346,11 +384,14 @@ export default function CarteImpression3D({lieux}) {
           data-defile={defilement.defile ? 'true' : 'false'}
           data-fin={defilement.fin ? 'true' : 'false'}
         >
-          <p className={styles.entete} id="liste-lieux-3d">
-            <strong>{lieux.length} bibliothèques</strong>
+          <p className={styles.entete} id={enteteId}>
+            <strong>
+              {lieux.length} bibliothèques
+              {sousTitre && <span className={styles.sousTitre}> · {sousTitre}</span>}
+            </strong>
             <span className={styles.indice} aria-hidden="true">Faites défiler ↓</span>
           </p>
-          <ul ref={listeRef} className={styles.liste} aria-labelledby="liste-lieux-3d">
+          <ul ref={listeRef} className={styles.liste} aria-labelledby={enteteId}>
           {lieux.map((lieu, index) => (
             <Lieu
               key={lieu.title}
@@ -358,6 +399,7 @@ export default function CarteImpression3D({lieux}) {
               lieu={lieu}
               actif={actif === lieu.title}
               afficherRegion={regionDe(lieu) !== REGION_DEFAUT}
+              etiquetteTags={etiquetteTags}
               onVoir={voirSurLaCarte}
               itemRef={(el) => {
                 itemsRef.current[lieu.title] = el;

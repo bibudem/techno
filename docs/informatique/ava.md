@@ -5,6 +5,8 @@ image: "/img/cover/ordinateurs.webp"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import CarteBibliotheques from '@site/src/components/CarteBibliotheques';
+import {bibliothequesAva, totalPostesAva} from '@site/src/data/ava';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -37,61 +39,14 @@ Les bibliothèques de l'UdeM mettent à votre disposition des postes **Apportez 
 
 ## Localisation
 
-<details>
-  <summary>**Bibliothèque d'aménagement - 2 postes**</summary>
-  - 2 postes : section arrière
-</details>
+<CarteBibliotheques
+  lieux={bibliothequesAva}
+  service="des postes Apportez Votre Appareil (AVA)"
+  etiquetteTags="Nombre de postes"
+  libelleJsonLd="Postes AVA"
+  sousTitre={`${totalPostesAva} postes`}
+/>
 
-<details>
-  <summary>**Bibliothèque de droit - 17 postes**</summary>
-  - 17 postes : 
-    - 14 dans les salles de travail pour cycles supérieurs :
-      - 10 avec écran standard.
-      - 4 avec écran ultralarge 21:9. 
-    - 3 dans la salle de lecture.
-</details>
-
-<details>
-  <summary>**Bibliothèque Hubert-Reeves - 6 postes**</summary>
-- 6 postes :
-  - 5 à la cartothèque.
-  - 1 à l'entrée A.
-</details>
-
-<details>
-  <summary>**Bibliothèque des lettres et sciences humaines - 20 postes**</summary>
-  - 20 postes :
-    - 1 au service Accessibilité local 1085-2.
-    - 2 au 1<sup>e</sup> étage.
-    - 4 au 2<sup>e</sup> étage.
-    - 4 au 3<sup>e</sup> étage. 
-    - 8 au 5<sup>e</sup> étage. 
-    - 1 au 6<sup>e</sup> étage.
-</details>
-
-<details>
-  <summary>**Bibliothèque de mathématiques et informatique - 6 postes**</summary>
-  - 6 postes : situés dans la zone de silence. 
-</details>
-
-<details>
-  <summary>**Bibliothèque de médecine vétérinaire - 2 postes**</summary>
-  - 2 postes : situés dans l'aire publique    
-</details>
-
-<details>
-<summary>**Bibliothèque de la santé - 5 postes**</summary>
-- 5 postes :
-    - 4 au 2<sup>e</sup> étage.
-    - 1 au 3<sup>e</sup> étage.
-</details>
-
-<details>
-<summary>**Bibliothèque Thérèse-Gouin-Décarie - 3 postes**</summary>
-- 3 postes :
-    - 2 au 2<sup>e</sup> étage, section de la rotonde.
-    - 1 au 3<sup>e</sup> étage.
-</details>
 ---
 
 ## Aide

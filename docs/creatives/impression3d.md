@@ -6,7 +6,7 @@ image: "/img/cover/impression3d.webp"
 
 import CardGrid from "@site/src/components/CardGrid";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import CarteImpression3D from '@site/src/components/CarteImpression3D';
+import CarteBibliotheques from '@site/src/components/CarteBibliotheques';
 import {bibliothequesImpression3D} from '@site/src/data/impression3d';
 
 <img 
@@ -29,7 +29,7 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 
 ## Localisation
 
-<CarteImpression3D lieux={bibliothequesImpression3D} />
+<CarteBibliotheques lieux={bibliothequesImpression3D} />
 
 ---
 

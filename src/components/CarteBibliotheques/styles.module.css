@@ -264,6 +264,28 @@ a.modele:hover {
   text-decoration: none;
 }
 
+/* Précisions sur le lieu (étages, sections…) */
+.details {
+  margin: 0 0 0.5rem;
+  padding-left: 1.1rem;
+  color: var(--gris-700);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.details li {
+  margin: 0;
+}
+
+.sousTitre {
+  font-weight: 400;
+}
+
+.popupDetails {
+  margin: 0 0 0.4rem;
+  font-size: 0.85rem;
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
@@ -338,6 +360,10 @@ html[data-theme='dark'] .lieuEmplacement {
 
 html[data-theme='dark'] .lieuEmplacement svg {
   color: var(--bleu-300);
+}
+
+html[data-theme='dark'] .details {
+  color: var(--bleu-50);
 }
 
 html[data-theme='dark'] .modele {
