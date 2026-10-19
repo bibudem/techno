@@ -1,12 +1,14 @@
 ---
 title: Introduction
-description: Tout apprendre sur l'impression 3D
+description: "Introduction à l'impression 3D (fabrication additive) : matériaux PLA et PETG, entreposage des filaments, étapes de préparation, réglages et bonnes pratiques avant, pendant et après l'impression."
 help : crea
 ---
 
 import Hero from '@site/src/components/Hero';
 
 # Introduction à l'impression 3D
+
+Cette page présente les notions de base de l'impression 3D : les matériaux utilisés, l'entreposage des filaments, les grandes étapes de préparation d'un modèle, les principaux réglages et les bonnes pratiques avant, pendant et après l'impression.
 
 ## Qu’est-ce que l’impression 3D?
 
@@ -92,7 +94,7 @@ Il existe plusieurs logiciels de découpe. La plupart sont libres et à code sou
 
 - **Cura** : imprimantes Ultimaker.
 - **PrusaSlicer** : imprimantes Prusa.
-- **BambuStudio** : imprimantes BambuLab.
+- **BambuStudio** : imprimantes Bambu Lab.
 
 ### Utilisation des profils
 

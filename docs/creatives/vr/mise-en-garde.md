@@ -1,3 +1,8 @@
+---
+title: Mises en garde
+description: "Recommandations pour utiliser un casque de réalité virtuelle Meta Quest 3 : âge minimal, santé, nausées, sécurité de l'espace de jeu et hygiène."
+---
+
 # Mises en garde
 
 La réalité virtuelle est une expérience immersive qui peut être intense, surtout si on l'essaye pour la première fois. Voici quelques recommandations :

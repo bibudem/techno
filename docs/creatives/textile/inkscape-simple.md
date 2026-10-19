@@ -1,5 +1,7 @@
 ---
 help : crea
+title: Transformer une image simple avec Inkscape
+description: "Tutoriel pour transformer une image PNG simple, comme un logo ou du texte, en fichier de broderie PES avec Inkscape et l'extension Ink/Stitch."
 ---
 
 import Link from '@docusaurus/Link';
@@ -7,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Transformer une image simple avec Inkscape
 
-![](/img/docs/inkscape_simple_1.webp)
+![Logo des bibliothèques de l'Université de Montréal brodé sur un tissu bleu](/img/docs/inkscape_simple_1.webp)
 
 
 
@@ -22,7 +24,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Nous utiliserons le logo des bibliothèques de l’UdeM comme exemple.
 
-![](/img/docs/inkscape_simple_2.webp)
+![Logo des bibliothèques de l'Université de Montréal, image PNG utilisée comme exemple](/img/docs/inkscape_simple_2.webp)
 
 1. Ouvrir Inkscape puis ouvrir un **Nouveau Document**.
 2. Importer l'image : **Fichier → Importer**
@@ -38,11 +40,11 @@ C'est une étape essentielle car après la vectorisation, chaque élément sera 
 
 - Penser à mettre verrouiller le cadenas pour ne pas déformer votre travail.
 
-![](/img/docs/inkscape_simple_3.webp)
+![Barre d'outils d'Inkscape avec les champs X, Y, L, H et le cadenas de verrouillage des proportions](/img/docs/inkscape_simple_3.webp)
 
 - Passer du système métrique au système impérial (mm>in)
 
-![](/img/docs/inkscape_simple_4.webp)
+![Menu déroulant des unités dans Inkscape avec l'option in (pouces) encadrée en jaune](/img/docs/inkscape_simple_4.webp)
 
 - Nos différentes tailles de cadres de broderie :
     - Grand : 13 1/4 x 6 po
@@ -57,18 +59,18 @@ Inkscape permet de vectoriser des images matricielles, pour en faire un chemin (
 
 ### Vectoriser un objet matriciel
 
-![](/img/docs/inkscape_simple_5.webp)
+![Menu Chemin d'Inkscape avec l'option Vectoriser un objet matriciel sélectionnée](/img/docs/inkscape_simple_5.webp)
 
 - Cliquer sur l’onglet **Multicolor** pour faire apparaître les couleurs.
 - Dans le menu déroulant **Détection**, choisir l’option **Couleurs**. 
 - Sélectionner **Niveau de gris** si votre image est en noir et blanc.
 
-![](/img/docs/inkscape_simple_6.webp)
+![Panneau Vectoriser un objet matriciel, onglet Multicolor, avec la détection réglée sur Couleurs](/img/docs/inkscape_simple_6.webp)
 
 - Cliquer sur **Appliquer** en bas à droite
 - L’image vectorisée est superposée à l’image originale. Glisser et déplacer l’image vectorisée.
 
-![](/img/docs/inkscape_simple_7.webp)
+![Comparaison du logo original et de l'image vectorisée superposée dans Inkscape](/img/docs/inkscape_simple_7.webp)
 
 ### Afficher les calques
 
@@ -76,9 +78,9 @@ Inkscape permet de vectoriser des images matricielles, pour en faire un chemin (
 
 À coté de votre fenêtre de vectorisation, cliquer sur **Calque** puis **Calques et objets**.
 
-![](/img/docs/inkscape_simple_8.webp)
+![Icône du panneau Calques et objets d'Inkscape](/img/docs/inkscape_simple_8.webp)
 
-![](/img/docs/inkscape_simple_9.webp)
+![Panneau Calques et objets : groupe g6313 de 8 paths et image originale image6309](/img/docs/inkscape_simple_9.webp)
 
 Cette action vous permet d’afficher les *paths* = chemins de l’aiguille qui créent les tracés de votre image. Ils sont superposés à l’image originale.
 
@@ -105,7 +107,7 @@ Exemple :
 - Le path 6319 correspond au logo de l’UdeM, nous le conservons.
 - Le path 6323 correspond à des éléments parasites, superflus donc à supprimer.
 
-![](/img/docs/inkscape_simple_10.webp)
+![Logo de l'UdeM : path 6319 à conserver et path 6323 contenant des éléments parasites](/img/docs/inkscape_simple_10.webp)
 :::
 
 ## Organisation des chemins de broderie
@@ -118,11 +120,11 @@ Exemple :
 Vous pouvez organiser manuellement l’ordre des *paths*, notamment pour éviter les sauts de fil entre les éléments lors de la broderie. Très utile quand il s’agit de lettres ou pour supprimer des éléments parasites à l’intérieur d’un même *path*.
 :::
 
-![](/img/docs/inkscape_simple_11.webp)
+![Menu Extensions, Ink/Stitch, Outils : Remplissage, Briser des objets de remplissage dans Inkscape](/img/docs/inkscape_simple_11.webp)
 
 ## Exporter le fichier broderie
 
 - PES - Format pour la brodeuse
 - SVG - Pour Inkscape
 
-![](/img/docs/inkscape_simple_12.webp)
+![Résultat final : logo des bibliothèques de l'Université de Montréal brodé sur tissu](/img/docs/inkscape_simple_12.webp)

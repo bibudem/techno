@@ -1,6 +1,6 @@
 ---
 title : Modèles 3D
-Description : Logiciels et ressources pour concevoir des modèles 3D pour l'impression.
+description: "Logiciels de modélisation 3D (Layering, Tinkercad, OpenSCAD, Blender, Fusion 360) et ressources en ligne pour télécharger des modèles 3D prêts à imprimer."
 help : crea
 ---
 

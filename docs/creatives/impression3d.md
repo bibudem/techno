@@ -1,6 +1,6 @@
 ---
 title: Impression 3D
-description: Donnez vie à vos idées en 3D avec les imprimantes 3D des bibliothèques de l'Université de Montréal.
+description: "Impression 3D gratuite pour la communauté UdeM dans les bibliothèques de l'Université de Montréal : localisation des imprimantes, guides d'utilisation, formations et consultations."
 image: "/img/cover/impression3d.webp"
 ---
 
@@ -11,7 +11,7 @@ import {bibliothequesImpression3D} from '@site/src/data/impression3d';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  alt="Gros plan sur les couches superposées d'une impression 3D translucide aux formes ondulées"
   style={{
     width: "100%",
     maxWidth: "1200px",

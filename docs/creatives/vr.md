@@ -3,6 +3,7 @@ id : vr
 title : Réalité virtuelle
 image: "/img/cover/vr.webp"
 help : crea
+description: "Prêt de 20 casques de réalité virtuelle Meta Quest 3 dans 10 bibliothèques de l'Université de Montréal pour la communauté UdeM : disponibilité et réservation."
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -11,7 +12,7 @@ import Disponibilite from '@site/src/components/Disponibilite';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt={frontMatter.title} 
+  alt="Personne ajustant sur sa tête un casque de réalité virtuelle Meta Quest 3 blanc" 
   style={{
     width: "100%",
     maxWidth: "1200px",

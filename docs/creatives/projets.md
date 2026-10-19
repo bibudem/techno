@@ -1,7 +1,7 @@
 ---
 id : projets
 title : Projets
-
+description: "Répertoire Notion des projets créatifs réalisés par la communauté UdeM dans les espaces des bibliothèques : impression 3D, électronique, objets connectés, balados."
 ---
 
 import Link from '@docusaurus/Link';

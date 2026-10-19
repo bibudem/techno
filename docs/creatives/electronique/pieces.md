@@ -1,6 +1,7 @@
 ---
 title : Pièces électroniques
 image: "/img/cover/pieces.webp"
+description: "Pièces électroniques de base offertes à la communauté UdeM dans les ateliers de fabrication des bibliothèques : liste des pièces et vérification de disponibilité."
 ---
 
 import Link from '@docusaurus/Link';
@@ -9,7 +10,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  alt="DEL, servomoteurs, potentiomètres et capteurs. Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
   style={{
     width: "100%",
     maxWidth: "1200px",

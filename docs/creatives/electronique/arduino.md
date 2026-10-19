@@ -1,11 +1,15 @@
 ---
 help : crea
+title: Arduino
+description: "Démarrer avec Arduino : matériel requis, installation d'Arduino IDE, test d'une carte Arduino Uno avec l'exemple Blink et anatomie de la carte."
 ---
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Arduino 
+
+Ce guide explique comment installer le logiciel Arduino IDE, connecter et tester une carte Arduino Uno, et présente l'anatomie de la carte.
 
 ## Qu’est-ce qu’Arduino?
 
@@ -37,21 +41,21 @@ Utiliser le câble USB. Une petite lumière verte apparaîtra sur la carte lors 
 
 **1.** Ouvrir le logiciel **Arduino IDE**, aller dans **Outils → Type de carte → Arduino AVR Boards** et sélectionner **Arduino Uno**.
 
-![Interface du logiciel Arduino IDE](/img/docs/arduino_2.webp)
+![Menu Outils d'Arduino IDE : Type de carte, Arduino AVR Boards, Arduino Uno sélectionné](/img/docs/arduino_2.webp)
 
 **2.** Sélectionner le bon port pour pouvoir communiquer avec la carte. Généralement, l’identifiant de la carte est affiché.
 
 Si vous utilisez un Arduino générique (sans la mention de la marque sur la carte), l’identifiant de la carte ne s’affichera pas. Pour deviner quel port COM utiliser, débrancher la carte et vérifier la liste des ports. Ensuite, brancher la carte. Vous allez voir apparaître un nouveau port COM.
 
-![Interface du logiciel Arduino IDE](/img/docs/arduino_3.webp)
+![Menu Outils d'Arduino IDE : sélection du port COM6 (Arduino/Genuino Uno)](/img/docs/arduino_3.webp)
 
 **3.** Le logiciel est aussi une mine d’or d’exemples en tout genre. Pour tester votre carte et s’assurer que la communication entre cette dernière et l’ordinateur est fonctionnelle, allez vers **Fichier → Exemples → 01.Basics → Blink**. Ce programme va tout simplement faire clignoter une petite lumière sur la carte.
 
-![Interface du logiciel Arduino IDE](/img/docs/arduino_4.webp)
+![Menu Fichier d'Arduino IDE : Exemples, 01.Basics, Blink sélectionné](/img/docs/arduino_4.webp)
 
 **4.** Pour envoyer le code de **Blink** vers le microcontrôleur, cliquez sur **Téléverser**. Une fois l’opération complétée, le logiciel vous confirmera que le téléversement est terminé. La lumière de la **PIN 13** (L) clignotera une fois par seconde. Si une erreur survient, assurez-vous que la carte est bien branchée, que vous avez bien choisi le bon type d’Arduino et le bon port de communication.
 
-![Interface du logiciel Arduino IDE](/img/docs/arduino_5.webp)
+![Code de l'exemple Blink dans Arduino IDE, flèche pointant vers le bouton Téléverser](/img/docs/arduino_5.webp)
 
 ![La carte Arduino avec la lumière qui clignote](/img/docs/arduino_6.webp)
 

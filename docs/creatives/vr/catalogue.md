@@ -1,8 +1,11 @@
 ---
 title: Catalogue
+description: "Catalogue des expériences de réalité virtuelle disponibles sur les casques Meta Quest 3 prêtés par les bibliothèques de l'UdeM, classées par catégorie."
 ---
 
 # Catalogue des applications VR
+
+Voici les expériences de réalité virtuelle disponibles sur les casques Meta Quest 3 prêtés par les bibliothèques de l'Université de Montréal, classées par catégorie : action, création artistique, documentaire, éducation, sport, musique, relaxation et plus encore.
 
 ## Action
 

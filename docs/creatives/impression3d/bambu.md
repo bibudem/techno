@@ -1,6 +1,7 @@
 ---
 id : bambu
 title: Bambu Lab X1C et X2D
+description: "Guide d'utilisation des imprimantes 3D Bambu Lab X1C et X2D des bibliothèques de l'UdeM : préparation dans Bambu Studio, connexion, impression multicouleur et changement de filament."
 help : crea
 ---
 
@@ -43,17 +44,17 @@ La **Bambu Lab X2D** est équipée d'un AMS et d'une bobine externe.
 <Tabs groupId="imprimante" queryString>
   <TabItem value="x1c" label="X1 Carbon" default>
 
-Sélectionner **BambuLab X1 Carbon**.
+Sélectionner **Bambu Lab X1 Carbon**.
 
   </TabItem>
   <TabItem value="x2d" label="X2D">
 
-Sélectionner **BambuLab X2D**.
+Sélectionner **Bambu Lab X2D**.
 
   </TabItem>
 </Tabs>
 
-![](/img/docs/configurer_bambu_studio_1.webp)
+![Assistant de configuration de Bambu Studio : sélection de l'imprimante, Bambu Lab X1 Carbon cochée](/img/docs/configurer_bambu_studio_1.webp)
 
 •	Sélectionner des filaments : **suivant** directement en laissant tout de base
 •	Installer le **Bambu Network Plugin** → **Terminer**
@@ -68,71 +69,71 @@ Trouver [des logiciels pour concevoir vos propres créations](../impression3d/mo
 
 •	En haut à gauche cliquer sur **Préparer**
 
-![](/img/docs/configurer_bambu_studio_2.webp)
+![Accueil de Bambu Studio : onglet Préparer encadré en rouge dans la barre du haut](/img/docs/configurer_bambu_studio_2.webp)
 
 •	Faire glisser le ou les fichiers .stl que l’on veut imprimer 
 
-![](/img/docs/configurer_bambu_studio_4.webp)
+![Glisser-déposer de quatre fichiers .stl depuis l'explorateur Windows vers Bambu Studio](/img/docs/configurer_bambu_studio_4.webp)
 
 Si vous glissez plusieurs fichiers (objets), le logiciel le reconnaît et demande si vous voulez charger ces fichiers comme un objet unique : sauf cas d'impressions multicouleurs, cliquer sur **non**
 
-![](/img/docs/configurer_bambu_studio_5.webp)
+![Bambu Studio : boîte de dialogue « Un objet en plusieurs parties a été détecté » avec boutons Oui et Non](/img/docs/configurer_bambu_studio_5.webp)
 
 •	Dans notre exemple il y aura 4 objets distincts (on peut voir dans le coin inférieur droit que 4 objets sont sélectionnés)
 
-![](/img/docs/configurer_bambu_studio_6.webp)
+![Bambu Studio : objets importés sur le plateau, notification « Nombre d'objets sélectionnés : 4 »](/img/docs/configurer_bambu_studio_6.webp)
 
 ### Agencer les objets
 
 Lorsque les objets du plateau sont sélectionnés, cliquer sur **Agencer tous les objets**, sélectionner les propriétés comme ci-dessous et cliquer sur **Agencer** : les objets sont alors répartis sur le plateau.
 
-![](/img/docs/configurer_bambu_studio_7.webp)
+![Bambu Studio : bouton Agencer tous les objets (1) et options d'agencement avec bouton Agencer (2)](/img/docs/configurer_bambu_studio_7.webp)
 
-![](/img/docs/configurer_bambu_studio_9.webp)
+![Plateau de Bambu Studio : les quatre objets répartis après l'agencement](/img/docs/configurer_bambu_studio_9.webp)
 
 ### Bien positionner l'objet
 
 Vérifier que pour chaque objet la surface la plus plate est en contact avec la plaque de support. Sinon, il faudra sélectionner l’objet. Cliquer sur **Positionner sur une face** et cliquer sur la face qui se retrouvera en contact avec la plaque. Dans notre exemple l’objet sélectionné est Top Base.
 
-![](/img/docs/configurer_bambu_studio_14.webp)
+![Bambu Studio : objet Top Base sélectionné dans la liste et sur le plateau, avec sa taille affichée](/img/docs/configurer_bambu_studio_14.webp)
 
-![](/img/docs/configurer_bambu_studio_15.webp)
+![Bambu Studio : outil Positionner sur une face (1) et face de Top Base à poser sur la plaque (2)](/img/docs/configurer_bambu_studio_15.webp)
 
-![](/img/docs/configurer_bambu_studio_16.webp)
+![Plateau de Bambu Studio : Top Base reposé à plat sur sa face la plus large](/img/docs/configurer_bambu_studio_16.webp)
 
 
 ### Vérifier les dimensions de l'objet
 
 Vérifier que les dimensions de l'objet correspondent bien à la taille de l'objet souhaité. Sélectionner votre objet → Cliquer sur **Redimesionner** (1) → Vérifier sa taille (2)
 
-![](/img/docs/bambulab_taille_objet.webp)
+![Bambu Studio : outil Redimensionner (1) et dimensions X, Y, Z de l'objet en mm (2)](/img/docs/bambulab_taille_objet.webp)
 
 ### Supports
 
 Si la surface de contact entre notre plaque et notre objet est insuffisante pour garantir notre impression, lorsqu’on clique sur **Trancher le plateau** un message d’erreur indique alors que l’objet semble avoir une partie dans le vide et qu’il faut le réorienter ou ajouter des supports.
 
-![](/img/docs/configurer_bambu_studio_17.webp)
+![Bambu Studio : bouton Trancher le plateau encadré en rouge](/img/docs/configurer_bambu_studio_17.webp)
 
-![](/img/docs/configurer_bambu_studio_18.webp)
+![Avertissement de Bambu Studio : objets avec surplomb flottant, réorienter ou activer les supports](/img/docs/configurer_bambu_studio_18.webp)
 
 #### Ajout de supports 
 
 Cliquer sur l’onglet **Supports** → **Activer les supports** → **Trancher le plateau**. Les supports vont apparaître en vert.
 
-![](/img/docs/configurer_bambu_studio_19.webp)
+![Bambu Studio : mode Global (1) et onglet Supports (2) dans le panneau Traiter](/img/docs/configurer_bambu_studio_19.webp)
 
-![](/img/docs/configurer_bambu_studio_20.webp)
+![Bambu Studio : onglet Supports, case Activer les supports cochée](/img/docs/configurer_bambu_studio_20.webp)
 
-![](/img/docs/configurer_bambu_studio_21.webp)
+![Aperçu du tranchage : objets en rouge avec les supports générés en vert](/img/docs/configurer_bambu_studio_21.webp)
 
 ### Jupe
 
 L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer son adhérence au plateau. 
 **Global** → **Autre** → **Boucle de jupe** x 1 → **Type de bordure extérieure uniquement** → **Trancher le plateau**. La jupe apparaît en bleu autour de l’objet.
 
-![](/img/docs/configurer_bambu_studio_22.webp)
+![Bambu Studio : onglet Autre (1), section Adhérence au lit avec Boucles de jupe à 1 (2)](/img/docs/configurer_bambu_studio_22.webp)
 
-![](/img/docs/configurer_bambu_studio_23.webp)
+![Aperçu du tranchage : jupe en bleu autour des objets sur le plateau](/img/docs/configurer_bambu_studio_23.webp)
 
 ## **4.** Connecter et paramétrer notre imprimante
 
@@ -144,19 +145,19 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 -	Connecter votre ordinateur au **Wi-Fi Bambu Lab**. Pas de mot de passe nécessaire pour cette étape.
 
-![](/img/docs/configurer_bambu_studio_24.webp)
+![Paramètres Wi-Fi de Windows : connexion au réseau ouvert Bambu Lab](/img/docs/configurer_bambu_studio_24.webp)
 
 -	**Périphérique** → **Pas d’imprimantes** → **Sélectionner votre imprimante** (« Bambu Panda! » dans notre exemple).
 
-![](/img/docs/configurer_bambu_studio_33.webp)
+![Bambu Studio : onglet Périphérique (1), menu Pas d'imprimante (2) et imprimante Bambu Panda! (3)](/img/docs/configurer_bambu_studio_33.webp)
 
 -	Saisir le code de l’imprimante.
 
-![](/img/docs/bambu_LAN.webp)
+![Écran tactile de l'imprimante : menu LAN uniquement affichant l'adresse IP et le code d'accès](/img/docs/bambu_LAN.webp)
 
 -	Une fois connectée, les paramètres en direct de l’imprimante apparaissent dans l’onglet **État**.
 
-![](/img/docs/configurer_bambu_studio_26.webp)
+![Bambu Studio : onglet État de l'imprimante connectée, avec contrôles, AMS et progression de l'impression](/img/docs/configurer_bambu_studio_26.webp)
 
 ### Paramètres de notre impression
 
@@ -167,35 +168,35 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 **Sélectionner la Bambu Lab X1 Carbon**
 
-![](/img/docs/configurer_bambu_studio_32.webp)
+![Bambu Studio : menu Imprimante avec Bambu Lab X1 Carbon sélectionnée](/img/docs/configurer_bambu_studio_32.webp)
 
   </TabItem>
   <TabItem value="x2d" label="X2D">
 
 **Sélectionner la Bambu Lab X2D**
 
-![](/img/docs/bambu_X2D_2.png)
+![Bambu Studio : menu Imprimante avec Bambu Lab X2D sélectionnée](/img/docs/bambu_X2D_2.png)
 
   </TabItem>
 </Tabs>
 
 2.	Synchroniser les filaments avec l’imprimante : dans la partie **Filament** du projet, cliquer sur l’icône **Synchroniser les filaments depuis l’AMS**, sélectionner **Surécriture** et **Synchroniser maintenant**.
 
-![](/img/docs/configurer_bambu_studio_30.webp)
+![Bambu Studio : icône Synchroniser les filaments depuis l'AMS dans Filaments de projet](/img/docs/configurer_bambu_studio_30.webp)
 
-![](/img/docs/configurer_bambu_studio_31.webp)
+![Fenêtre de synchronisation des filaments AMS : option Surécriture (1) et bouton Synchroniser maintenant (2)](/img/docs/configurer_bambu_studio_31.webp)
 
 3.	Vérifier que le plateau sélectionné correspond bien au plateau utilisé dans l’imprimante (texturé dans notre exemple mais existe aussi en version Smooth PEI dans le réseau).
 
-![](/img/docs/configurer_bambu_studio_27.webp)
+![Bambu Studio : menu du type de plateau avec Textured PEI Plate sélectionné](/img/docs/configurer_bambu_studio_27.webp)
 
 4.	L’épaisseur de la couche : en général on utilise le **0.2mm**.
 
-![](/img/docs/configurer_bambu_studio_28.webp)
+![Bambu Studio : profil de hauteur de couche 0.20mm Standard encadré](/img/docs/configurer_bambu_studio_28.webp)
 
 5.	Densité et motif de remplissage : Choisir une densité entre **10 et 15%** et un **remplissage en nid d’abeille** pour une meilleure solidité de l’objet.
 
-![](/img/docs/configurer_bambu_studio_29.webp)
+![Bambu Studio : onglet Résistance (1), densité de remplissage 15 % et motif Nid d'abeille (2)](/img/docs/configurer_bambu_studio_29.webp)
 
 ### Impression avec plusieurs couleurs
 
@@ -206,9 +207,9 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
 
 Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge. Nous vous invitons à ne pas mélanger les couleurs dans un même objet.
 
-![](/img/docs/configurer_bambu_studio_11.webp)
+![Bambu Studio : mode Objets, choix du filament 2 (rouge) pour l'objet Ring Upper](/img/docs/configurer_bambu_studio_11.webp)
 
-![](/img/docs/configurer_bambu_studio_12.webp)
+![Plateau de Bambu Studio : objet Ring Upper affiché en rouge, les autres en blanc](/img/docs/configurer_bambu_studio_12.webp)
 
 :::warning
     Dans le cas d’objets avec des couleurs différentes, il est **obligatoire** de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais **par objet** pour une impression plus rapide et moins de gaspillage. Nous nous réservons le droit de couper toute impression ne respectant pas cette procédure
@@ -219,7 +220,7 @@ Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rou
 
 Dans notre exemple nous avons choisi une partie des objets en blanc et l'autre en gris.
 
-![](/img/docs/bambu_X2D_1.png)
+![Bambu Studio, mode Objets : deux objets associés aux filaments 1 et 5](/img/docs/bambu_X2D_1.png)
 
 :::warning
     Pour une impression en plusieurs couleurs avec la X2D, merci de choisir au maximum 2 couleurs et de s'assurer que la première couleur choisie se trouve dans l'AMS et la seconde la bobine externe.
@@ -228,14 +229,14 @@ Dans notre exemple nous avons choisi une partie des objets en blanc et l'autre e
   </TabItem>
 </Tabs>
 
-![](/img/docs/configurer_bambu_studio_13.webp)
+![Bambu Studio : Paramètres de la plaque, menu Séquence d'impression avec options Par couche et Par objet](/img/docs/configurer_bambu_studio_13.webp)
 
 
 ### Modèles en ligne (Maker World)
 
 En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sélectionner le bon modèle d'imprimante avant de télécharger les fichiers (X1 Carbon ou X2D, selon l'imprimante utilisée).
 
-![](/img/docs/configurer_bambu_studio_36.webp)
+![Maker World dans Bambu Studio : profil d'impression X1 Carbon sélectionné et bouton Téléchargez et Ouvrez](/img/docs/configurer_bambu_studio_36.webp)
 
 :::warning
     En général, les paramètres d'impression seront bien configurés, mais il faut tout de même les vérifier comme pour un objet classique avant de lancer l'impression.

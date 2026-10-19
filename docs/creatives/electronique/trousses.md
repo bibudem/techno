@@ -1,7 +1,7 @@
 ---
 title : Trousses techno-créatives
 image: "/img/cover/trousses.webp"
-
+description: "Prêt de trousses techno-créatives Arduino, ESP8266 et Raspberry Pi aux bibliothèques Mathématiques et informatique, Hubert-Reeves et Thérèse-Gouin-Décarie (UdeM)."
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  alt="Arduino et platine d'essai dans une trousse. Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
   style={{
     width: "100%",
     maxWidth: "1200px",

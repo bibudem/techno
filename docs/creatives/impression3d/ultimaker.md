@@ -1,11 +1,14 @@
 ---
 id : ultimaker
 title : Ultimaker
+description: "Guide d'utilisation de l'imprimante 3D Ultimaker S3 des bibliothèques de l'UdeM : configuration d'Ultimaker Cura, changement de filament et première impression."
 ---
 
 :::note
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
 :::
+
+Ce guide explique comment utiliser l'imprimante 3D Ultimaker S3 : présentation de la machine, configuration du logiciel Ultimaker Cura, changement de filament et première impression.
 
 ## 1 - Présentation de l'imprimante
 
@@ -65,36 +68,36 @@ Bien sécher le filament avant utilisation
 ### Accéder au menu
 
 Accéder au menu de l’icône imprimante, et ensuite, cliquer sur PLA.
-![Menu de changement de filament](/img/docs/ultimaker_filament01.webp)
-![Menu de changement de filament suite](/img/docs/ultimaker_filament02.webp)
+![Écran tactile de l'Ultimaker S3 : flèche vers l'icône imprimante du menu latéral](/img/docs/ultimaker_filament01.webp)
+![Écran de l'Ultimaker S3 : matériaux et print cores installés, flèche vers PLA de l'extrudeur 1](/img/docs/ultimaker_filament02.webp)
 
 Choisir **Modifier** s’il y a une bobine déjà installée, ou **Insérer** s’il n’y a aucune bobine.
-![Changement de filament étape 1](/img/docs/ultimaker_filament03.webp)
+![Écran de l'Ultimaker S3 : Matériau 1 avec les boutons Insérer, Retirer et Modifier](/img/docs/ultimaker_filament03.webp)
 
 La buse chauffe afin d’atteindre la température de fusion et d'extraire facilement le filament. Préparez-vous à guider la sortie du filament et à l'enrouler sur la bobine pour éviter la formation de nœuds.
-![Changement de filament étape 2](/img/docs/ultimaker_filament04.webp)
+![Écran de l'Ultimaker S3 : Changer le matériau 1, préparation au retrait du matériau](/img/docs/ultimaker_filament04.webp)
 
 Si en tirant délicatement le filament, il reste coincé, soulever la languette afin de le libérer du mécanisme du (*)feeder(*). Ne pas oublier de remettre la languette à sa place par la suite.
-![Changement de filament étape 2 suite](/img/docs/ultimaker_filament05.webp)
+![Feeder 1 à l'arrière de l'Ultimaker S3 : flèche montrant la languette à soulever](/img/docs/ultimaker_filament05.webp)
 
 Retirer la bobine en vous assurant de mettre le filament dans un trou de la bobine pour qu'il n'y ait pas de nœud. Placer la bobine dans un sac Ziplock avec un sachet de gel de silice, puis mettez le sac dans sa boîte correspondante.
-![Changement de filament étape 2 fin](/img/docs/ultimaker_filament06.webp)
+![Écran de l'Ultimaker S3 : étape Retirer la bobine existante, bouton Confirmer](/img/docs/ultimaker_filament06.webp)
 
 Installer la nouvelle bobine. L’extrémité du filament doit venir d’en bas. Couper l'extrémité du filament en biseau si ce n'est pas déjà fait. Mettre le filament dans le trou prévu à cet effet et pousser légèrement. L’imprimante va détecter le filament et le tirer très lentement vers le tube. Si l’imprimante ne détecte pas le filament, lever la languette vers le haut et pousser le filament jusqu’à ce qu'il soit visible au début du tube, puis rabaisser la languette.
-![Changement de filament étape 3](/img/docs/ultimaker_filament07.webp)
+![Arrière de l'Ultimaker S3 : filament orange guidé du bas de la bobine vers le feeder 1](/img/docs/ultimaker_filament07.webp)
 
 Confirmer dans l’écran que le filament est en place.
-![Changement de filament étape 3 suite](/img/docs/ultimaker_filament08.webp)
-![Changement de filament étape 3 fin](/img/docs/ultimaker_filament09.webp)
+![Écran de l'Ultimaker S3 : étape Placer une nouvelle bobine, bouton Confirmer](/img/docs/ultimaker_filament08.webp)
+![Écran de l'Ultimaker S3 : étape Insérer un matériau dans le feeder 1, bouton Confirmer](/img/docs/ultimaker_filament09.webp)
 
 Indiquer quel type de matériel a été mis (dans notre cas, du PLA).
-![Changement de filament étape 4](/img/docs/ultimaker_filament10.webp)
-![Changement de filament étape 4 suite](/img/docs/ultimaker_filament11.webp)
+![Écran de l'Ultimaker S3 : étape Sélectionner le matériau, liste ABS, Breakaway…](/img/docs/ultimaker_filament10.webp)
+![Écran de l'Ultimaker S3 : liste des matériaux avec PLA et bouton Confirmer](/img/docs/ultimaker_filament11.webp)
 
 L’imprimante va tirer le filament jusqu’à l’extrudeur et commencer à faire une purge de la couleur précédente. Une fois que la couleur change, confirmer sur l’écran.
-![Changement de filament étape 5](/img/docs/ultimaker_filament12.webp)
-![Changement de filament étape 5 suite](/img/docs/ultimaker_filament13.webp)
-![Changement de filament étape 5 fin](/img/docs/ultimaker_filament14.webp)
+![Écran de l'Ultimaker S3 : insertion du nouveau matériau dans le print core 1](/img/docs/ultimaker_filament12.webp)
+![Buse du print core 1 de l'Ultimaker S3 extrudant du filament orange](/img/docs/ultimaker_filament13.webp)
+![Écran de l'Ultimaker S3 : étape Extrusion de matériau, bouton Confirmer](/img/docs/ultimaker_filament14.webp)
 
 ## 4 - Première impression avec l’Ultimaker
 
@@ -139,7 +142,7 @@ Générer manuellement des zones sans support.
 
 ### Réglages
 
-![ultimaker.webp](/img/docs/ultimaker_reglages.webp)
+![Ultimaker Cura : réglages numérotés de 1 à 7, imprimante, filaments, résolution, remplissage, support et adhérence](/img/docs/ultimaker_reglages.webp)
 
 1. **Imprimante** : Vérifier que le bon modèle est sélectionné. Dans les ateliers de l’Université de Montréal, on retrouve deux types d'imprimantes Ultimaker : 2 et S3.
 

@@ -3,6 +3,7 @@ id : electronique
 title : Électronique
 retroaction : false
 image: "/img/cover/arduino.webp"
+description: "Arduino, Raspberry Pi, trousses techno-créatives et pièces électroniques offerts par les bibliothèques de l'UdeM, avec consultations et formations."
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
@@ -11,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt=""
+  alt="Composants électroniques : carte Arduino Uno, potentiomètres, joystick, platine d'essai, écran LCD et piles AA"
   style={{
     width: "100%",
     maxWidth: "1200px",

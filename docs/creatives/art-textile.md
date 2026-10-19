@@ -1,6 +1,7 @@
 ---
 id : art-textile
 title : Art textile
+description: "Guides de la brodeuse numérique Brother NS2750D et de la machine à coudre de l'Atelier de fabrication de la Bibliothèque Thérèse-Gouin-Décarie (UdeM)."
 ---
 
 import CardGrid from '@site/src/components/CardGrid';

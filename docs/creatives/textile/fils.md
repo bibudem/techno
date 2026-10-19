@@ -1,6 +1,7 @@
 ---
 title : Entreposage des fils
 help : crea
+description: "Conseils pour entreposer les fils de broderie de l'atelier de fabrication numérique : lumière, chaleur, humidité, rangement à plat et classement par couleur."
 ---
 
 import Link from '@docusaurus/Link';

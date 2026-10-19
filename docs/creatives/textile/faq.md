@@ -1,12 +1,15 @@
 ---
 title : FAQ Brodeuse numérique
 help : crea
+description: "Questions fréquentes sur la brodeuse numérique Brother NS2750D : dimensions de broderie, couleurs de fil, motifs intégrés, importation et fonctions."
 ---
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # FAQ Brodeuse numérique
+
+Réponses aux questions fréquentes sur la brodeuse numérique Brother NS2750D : dimensions de broderie, couleurs de fil, motifs intégrés, importation de motifs et fonctions de la machine.
 
 <details>
   <summary>**Qu'est-ce qu'une brodeuse numérique?**</summary>

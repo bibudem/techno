@@ -1,6 +1,7 @@
 ---
 id : decoupeuse
 title : Découpeuse
+description: "Découpeuses numériques des bibliothèques de l'UdeM (Silhouette Cameo 4, Cricut Maker, Brother SDX225) pour découper vinyle, tissu et papier : guides, formations et consultations."
 image: "/img/cover/vinyl.webp"
 ---
 
@@ -10,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt=""
+  alt="Gros plan sur le chariot porte-outils et les rouleaux d'entraînement d'une découpeuse numérique"
   style={{
     width: "100%",
     maxWidth: "1200px",

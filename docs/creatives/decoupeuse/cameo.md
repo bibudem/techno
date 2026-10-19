@@ -1,7 +1,10 @@
 ---
 title : "Silhouette Cameo 4"
 help : crea
+description: "Guide de la découpeuse Silhouette Cameo 4 (Bibliothèque Hubert-Reeves) : découpe de vinyle avec Silhouette Studio, paramètres de découpe, lames et outils."
 ---
+
+La découpeuse numérique Silhouette Cameo 4 est disponible à la Bibliothèque Hubert-Reeves. Cette page présente la découpe de vinyle avec le logiciel Silhouette Studio, des paramètres de découpe indicatifs ainsi que les lames et outils de la machine.
 
 ## Guide de découpe 
 
@@ -15,31 +18,31 @@ Ce guide est un rappel de l’utilisation du logiciel Silhouette Studio en vue d
     4. Cocher **Constrain Media to Cutting Mat**.
     5. Cocher **Afficher les limites de découpe**.
         
-![Capture d'écran du logiciel Silhouette Studio](/img/docs/cameo1.webp)
+![Silhouette Studio : panneau Mise en page, machine Cameo, tapis 12x12 et limites de découpe cochées](/img/docs/cameo1.webp)
 
 ---
 
 Cliquer sur **Fichier → Ouvrir**, ou glisser votre image au format PNG pour l’ouvrir dans le logiciel. Cliquer sur un coin de la sélection pour redimensionner l’image. Cliquer sur l’image pour la déplacer.
     
-![Capture d'écran du logiciel Silhouette Studio](/img/docs/cameo2.webp)
+![Silhouette Studio : logo des bibliothèques de l'UdeM importé et sélectionné sur le tapis de coupe](/img/docs/cameo2.webp)
 
 ---
 
 1. Cliquer sur **Envoyer (1)** pour aller dans le menu de découpe.
     1. Choisir le matériau **Vinyle Oracal 651 (2)**. Si la découpeuse n’est pas démarrée, vous verrez un écran semblable.
         
-![Capture d'écran du logiciel Silhouette Studio](/img/docs/cameo3.webp)
+![Silhouette Studio, onglet Envoyer : matériau Vinyle Oracal 651 choisi, découpeuse en attente de connexion](/img/docs/cameo3.webp)
         
 ---
 
 2. Démarrer la découpeuse **(1)** et démarrer le Bluetooth **(2)** (le bouton doit être bleu).
     
-![Capture d'écran du logiciel Silhouette Studio](/img/docs/cameo4.webp)
+![Cameo 4 : bouton d'alimentation (1) et bouton Bluetooth allumé en bleu (2)](/img/docs/cameo4.webp)
 
 La sélection **Auto (Découper) (1)**, ainsi que la lame **AutoLame (détecté)** **(2)** devrait être automatique. Mettre la roulette sur **4**, la force à **10**, et la vitesse à **2 (3)**. 
 La découpeuse indique qu’elle est prête à être chargée **(4)**. Couper un morceau de vinyle et le placer sur le tapis de coupe. Charger le tout dans la découpeuse. Cliquer sur **Envoyez (5)** pour lancer la découpe.
 
-![La découpeuse Cameo 4](/img/docs/cameo5.webp)
+![Silhouette Studio, onglet Envoyer : AutoLame détectée, réglages de découpe et bouton Envoyer numérotés](/img/docs/cameo5.webp)
 
 :::note
 Si le Bluetooth ne fonctionne pas, un câble USB est déjà branché à la découpeuse vinyle. Télécharger le logiciel [SilhouetteStudio](https://www.silhouetteamerica.com/software) sur votre propre ordinateur, puis le brancher à la découpeuse vinyle.
@@ -52,19 +55,19 @@ Si le Bluetooth ne fonctionne pas, un câble USB est déjà branché à la déco
 - Retirer le film protecteur transparent et le mettre de côté. Il est important de la remettre sur le support adhésif lorsque vous quitterez afin de préserver l’adhérence du support lors de son rangement.
 - Déposer le papier cartonné ou la feuille de vinyle sur la partie adhésive du support et appuyer fermement afin de bien les fixer sur le support. Utiliser le rouleau pour éliminer les bulles d’air si nécessaire.
 
-![brother1](/img/docs/brother1.webp)
+![Feuille de vinyle rouge déposée sur le support adhésif et lissée à la main avec un outil](/img/docs/brother1.webp)
 
 Lors du chargement du vinyle, vérifier que la partie encerclée en rouge **(1)** soit placée à l’extrémité du tapis de coupe et que la partie noire soit tournée vers le haut. Puis appuyer sur la flèche montante **(2)** pour charger le vinyle. Appuyer sur l’autre flèche pour décharger le vinyle. Accoter le tapis de coupe au guide en plastique qui se trouve sur la gauche, aligner au trait blanc afin que le tapis de coupe soit bien droit.
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo6.webp)
+![Cameo 4 avec tapis chargé : levier et rouleau encerclés (1), flèche de chargement (2)](/img/docs/cameo6.webp)
 
 Vous pouvez mettre pause à tout moment en appuyant sur le bouton **Pause** en cas d'erreur.
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo7.webp)
+![Cameo 4 en cours de découpe du vinyle, bouton Pause allumé sur le panneau](/img/docs/cameo7.webp)
 
 Retirer les parties qui ne doivent pas être collées, puis coller le papier transfert sur le vinyle. Vérifier qu’il n’y a pas de bulle et passant plusieurs fois le grattoir.
 
@@ -74,19 +77,19 @@ Retirer les parties qui ne doivent pas être collées, puis coller le papier tra
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo8.webp)
+![Papier transfert quadrillé posé sur le logo en vinyle découpé, avec un grattoir jaune](/img/docs/cameo8.webp)
 
 Retirer le papier transfert avec le vinyle collé dessus. Coller où vous le souhaitez. Passer le grattoir pour enlever les bulles et pour que le vinyle soit bien collé à la surface.
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo9.webp)
+![Logo en vinyle blanc collé sur un chariot, papier transfert encore en place](/img/docs/cameo9.webp)
 
 Retirer le papier transfert doucement et le roulant vers l’extérieur. Tadam!
 
 ---
 
-![La découpeuse Cameo 4](/img/docs/cameo10.webp)
+![Résultat : logo des bibliothèques de l'UdeM en vinyle blanc collé sur un chariot noir](/img/docs/cameo10.webp)
 
 ## Paramètres de découpe
 

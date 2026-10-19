@@ -1,14 +1,17 @@
 ---
 title : Guide d'utilisation
 help : crea
+description: "Guide d'utilisation du casque Meta Quest 3 prêté par les bibliothèques de l'UdeM : contenu de la boîte, mise en marche, Wi-Fi, applications, rangement et recharge."
 ---
 # Documentation du casque Meta Quest 3
 
+Ce guide explique comment utiliser le casque de réalité virtuelle Meta Quest 3 emprunté aux bibliothèques de l'Université de Montréal, du déballage jusqu'au rangement et à la recharge.
+
 ## 1. Contenu de la boîte
 
-![VR1](/img/docs/VR1.webp)
+![Étui de transport ouvert contenant le casque Meta Quest 3, son câble et la fiche du contenu de la trousse](/img/docs/VR1.webp)
 
-![VR2](/img/docs/VR2.webp)
+![Contenu numéroté : casque Meta Quest 3 (1), manettes Touch Plus (2), câble USB-C (3) et adaptateur secteur (4)](/img/docs/VR2.webp)
 
 - Casque Meta Quest 3 (1)
 - Deux manettes Touch Plus avec leur dragonne (2)
@@ -27,15 +30,15 @@ help : crea
 - Viser avec la manette Touch Plus puis appuyer sur la gâchette sous votre index pour cliquer sur l'élément pointé
 - Définir une zone de jeu sécuritaire
 
-## 3. Se connecter au wifi / lancer des applications
+## 3. Se connecter au Wi-Fi / lancer des applications
 
 - Une fois allumé on se retrouve dans le salon des Bibliothèques
-![VR5](/img/docs/VR5.webp)
-- En dehors de l'UdeM, se connecter normalement au wifi. Sur le campus il est impossible de se connecter à UdeM avec cryptage. Mais il est possible d'utiliser le casque sans se connecter au réseau wifi.
-![VRX-wifi](/img/docs/VRX-wifi.webp)
-![VRX-wifi-2](/img/docs/VRX-wifi-2.webp)
+![Écran d'accueil du casque : bibliothèque d'applications Bibliothèques UdeM dans le salon virtuel](/img/docs/VR5.webp)
+- En dehors de l'UdeM, se connecter normalement au Wi-Fi. Sur le campus il est impossible de se connecter à UdeM avec cryptage. Mais il est possible d'utiliser le casque sans se connecter au réseau Wi-Fi.
+![Icône Wi-Fi encadrée en rouge dans la barre de menu, sous la liste des applications](/img/docs/VRX-wifi.webp)
+![Menu Réglages avancés du casque avec l'onglet Wi-Fi sélectionné et l'option Statut activée](/img/docs/VRX-wifi-2.webp)
 - Une fois connecté, retourner à l'écran d'accueil pour faire apparaître la liste des applications disponibles
-![VRX-listeapplis](/img/docs/VRX-listeapplis.webp)
+![Liste des applications disponibles encadrée en rouge sur l'écran d'accueil du casque](/img/docs/VRX-listeapplis.webp)
 - Sélectionner une application et la lancer
 - Pour quitter une application en cours, cliquer sur le bouton META de la manette droite puis quitter l'application
 

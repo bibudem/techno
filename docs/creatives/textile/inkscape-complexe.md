@@ -1,6 +1,7 @@
 ---
 title: Transformer une image complexe avec Inkscape
 help : crea
+description: "Tutoriel pour transformer une image PNG complexe en fichier de broderie avec Inkscape et l'extension Ink/Stitch, installés à l'Atelier de fabrication de Thérèse-Gouin-Décarie."
 ---
 
 import Link from '@docusaurus/Link';
@@ -22,7 +23,7 @@ Le logiciel et son extension sont installés sur chacun des postes informatiques
 
 Nous utiliserons cette image colorée d’un dodo, l'animal emblématique de l’île Maurice!
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_1.webp)
+![Illustration colorée d'un dodo bleu au bec rouge, image PNG utilisée comme exemple](/img/docs/transformer_une_image_complexe_avec_Inkscape_1.webp)
 
 Pour importer l'image, ouvrir Inkscape puis ouvrir un **Nouveau Document**.
 
@@ -39,11 +40,11 @@ Après la vectorisation, chaque élément sera séparé et donc plus difficileme
 
 - Penser à mettre le cadenas (verouillé) pour ne pas déformer votre travail
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_2.webp)
+![Barre d'outils d'Inkscape avec les champs X, Y, L, H et le cadenas de verrouillage des proportions](/img/docs/transformer_une_image_complexe_avec_Inkscape_2.webp)
 
 - Passer au système métrique impérial (mm → in)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_3.webp)
+![Menu déroulant des unités dans Inkscape avec l'option in (pouces) encadrée en jaune](/img/docs/transformer_une_image_complexe_avec_Inkscape_3.webp)
 
 - Nos différentes tailles de cadres de broderie :
 
@@ -56,13 +57,13 @@ Pour permettre à la machine de broder votre image, celle-ci devra être vectori
 
 - **Chemin** → **Vectoriser un objet matriciel**
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_4.webp)
+![Menu Chemin d'Inkscape avec l'option Vectoriser un objet matriciel sélectionnée](/img/docs/transformer_une_image_complexe_avec_Inkscape_4.webp)
 
 - Afin de faire apparaître les couleurs, cliquer sur l’onglet **Multicolor**, dans le menu déroulant **Détection** choisir l’option **Couleurs**. Sélectionner **niveau de gris** si votre image est en noir et blanc.
 
 - Si les couleurs ne sont pas différenciées, baisser le seuil de luminosité.
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_5.webp)
+![Panneau Vectoriser un objet matriciel, onglet Multicolor, avec la détection réglée sur Couleurs](/img/docs/transformer_une_image_complexe_avec_Inkscape_5.webp)
 
 - Cliquer sur **Appliquer** dans le coin inférieur droit
 
@@ -76,7 +77,7 @@ L'image vectorisée est superposée à l'image originale. Glisser et déplacer l
 
 Logo :
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_6.webp)
+![Icône du panneau Calques et objets d'Inkscape](/img/docs/transformer_une_image_complexe_avec_Inkscape_6.webp)
 
 Cette action vous permet d’afficher les `paths` (chemins de l’aiguille) qui créent les tracés de votre image. Ils sont superposés à l’image originale.
 
@@ -86,15 +87,15 @@ Selon votre image, plus vous avez de `paths`, plus votre image/dessin final aura
 
 - Menu déroulant **Extensions** → **Ink/Stitch** → **Paramètres**
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_7.webp)
+![Menu Extensions d'Inkscape, sous-menu Ink/Stitch, avec l'option Paramètres sélectionnée](/img/docs/transformer_une_image_complexe_avec_Inkscape_7.webp)
 
 À l'aide de cette option, vous pourrez voir une simulation vidéo de la broderie.
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_8.webp)
+![Fenêtre Embroidery Params d'Ink/Stitch à côté de l'aperçu simulé des points de broderie](/img/docs/transformer_une_image_complexe_avec_Inkscape_8.webp)
 
 Parallèlement, un panneau d'options est disponible :
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_9.webp)
+![Panneau Embroidery Params d'Ink/Stitch, onglet FillStitch, avec les paramètres de remplissage](/img/docs/transformer_une_image_complexe_avec_Inkscape_9.webp)
 
 Exemples des principales fonctions / paramètres de broderie :
 
@@ -112,11 +113,11 @@ Exemple :
 
 *Path 139 Initial*
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_10.webp)
+![Dodo vectorisé avec le path139 sélectionné dans le panneau des calques, avant le bris](/img/docs/transformer_une_image_complexe_avec_Inkscape_10.webp)
 
 *Path 139 Brisé*
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_11.webp)
+![Panneau des calques après le bris : path139 divisé en path139_1 à path139_4](/img/docs/transformer_une_image_complexe_avec_Inkscape_11.webp)
 
 :::note Astuce
     À cette étape, vous pouvez organiser vous-même l’ordre des `paths`. Notamment pour éviter les sauts de fil entre les éléments lors de la broderie
@@ -124,16 +125,16 @@ Exemple :
 
 **Détails des paramètres choisis pour notre dodo**
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_12.webp)
+![Broderie terminée du dodo coloré sur un tissu blanc à motif d'étoiles](/img/docs/transformer_une_image_complexe_avec_Inkscape_12.webp)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_13.webp)
+![Simulation du remplissage de l'aile du dodo avec un espacement entre les rangées de 0,1 mm](/img/docs/transformer_une_image_complexe_avec_Inkscape_13.webp)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_14.webp)
+![Simulation du remplissage jaune de la tête du dodo en Auto Fill avec un angle de 45 degrés](/img/docs/transformer_une_image_complexe_avec_Inkscape_14.webp)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_15.webp)
+![Simulation du remplissage du cou du dodo en Auto Fill avec un espacement entre les rangées de 1 mm](/img/docs/transformer_une_image_complexe_avec_Inkscape_15.webp)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_16.webp)
+![Simulation du bec rouge du dodo en Contour Fill avec un espacement entre les rangées de 0,24 mm](/img/docs/transformer_une_image_complexe_avec_Inkscape_16.webp)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_17.webp)
+![Simulation des pattes du dodo en Contour Fill avec un espacement entre les rangées de 0,12 mm](/img/docs/transformer_une_image_complexe_avec_Inkscape_17.webp)
 
-![](/img/docs/transformer_une_image_complexe_avec_Inkscape_18.webp)
+![Simulation du corps bleu du dodo en Auto Fill avec un espacement entre les rangées de 0,24 mm](/img/docs/transformer_une_image_complexe_avec_Inkscape_18.webp)

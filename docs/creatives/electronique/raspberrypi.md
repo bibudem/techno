@@ -1,11 +1,15 @@
 ---
 help : crea
+title: Raspberry Pi
+description: "Démarrer avec le Raspberry Pi : matériel requis, logiciel Raspberry Pi Imager et commandes utiles. Des trousses sont offertes dans plusieurs bibliothèques de l'UdeM."
 ---
 
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Raspberry Pi
+
+Cette page présente le Raspberry Pi, le matériel nécessaire pour démarrer, l'installation du logiciel Raspberry Pi Imager et une liste de commandes utiles.
 
 ## Qu’est-ce que Raspberry Pi?
 
@@ -78,8 +82,8 @@ Comme le Raspberry Pi s’opère aussi via les lignes de commandes, voici une li
 #### Commandes réseaux et internet
 
 - **Ifconfig** : vérifie le statut de la connectivité.
-- **Iwconfig** : le nom du réseau wifi branché.
-- **iwlist wlan0 scan** : affiche une liste des réseaux wifi disponibles.
+- **Iwconfig** : le nom du réseau Wi-Fi branché.
+- **iwlist wlan0 scan** : affiche une liste des réseaux Wi-Fi disponibles.
 - **nmap** : scan le réseau et liste les périphériques connectés, le nombre des ports, les protocoles, adresses MAC., etc.
 - **ping bib.umontreal.ca** : teste la connectivité. Envoie un paquet à l’adresse et attend une réponse.
 - **wget bib.umontreal.ca/test.txt** : télécharge le fichier test.txt depuis Internet et le sauvegarde dans le dossier courant.

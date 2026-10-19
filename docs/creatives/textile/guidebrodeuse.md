@@ -1,3 +1,8 @@
+---
+title: Guide général de la brodeuse
+description: "Guide de la brodeuse numérique Brother NS2750D de l'atelier : définition, matériel fourni, sélection d'un motif intégré ou d'une image et préparation de la machine."
+---
+
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -7,7 +12,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Guide général de la brodeuse
 
-![](/img/docs/brod1.webp)
+![Pied presseur de la brodeuse brodant le logo des bibliothèques de l'Université de Montréal sur un tissu bleu](/img/docs/brod1.webp)
+
+Ce guide présente la brodeuse numérique Brother NS2750D, le matériel mis à votre disposition dans l'atelier et les étapes pour sélectionner un motif et préparer la machine.
 
 ## Qu’est-ce qu’une brodeuse numérique?
 
@@ -42,7 +49,7 @@ La brodeuse Brother NS2750D ainsi que tout le matériel et petit outillage sont 
 
 Notre brodeuse est dotée de 138 motifs de broderie intégrés (caractères, encadrement, alphabet floral etc.), ainsi que de 35 motifs Disney exclusifs...
 
-![](/img/docs/brod2.webp)
+![Écran tactile de la brodeuse : menu des motifs intégrés (fleurs, papillon, Disney, alphabets, cadres)](/img/docs/brod2.webp)
 
 L’avantage de ces broderies intégrées est qu’elles pourront être directement modifiées à partir de l’interface de la brodeuse. Exemple: taille, proportions, choix de la couleur etc. 
 
@@ -64,7 +71,7 @@ Format à privilégier : PNG (de meilleure qualité).
 
 Installation du fil, réalisation de la canette, mise en place du tissu dans le cadre de broderie etc. : toutes ces étapes sont intégrées dans la machine et accessibles depuis l’écran tactile.
 
-![](/img/docs/brod3.webp)
+![Écran de la brodeuse affichant les guides illustrés de préparation (enfilage, canette, pied) et la touche d'aide](/img/docs/brod3.webp)
 
 ### Mise en place du tissu dans le cadre de broderie.
 

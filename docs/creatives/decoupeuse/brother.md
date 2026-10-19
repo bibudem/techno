@@ -1,9 +1,10 @@
 ---
 title : Brother SDX225
 help : crea
+description: "Guide de la découpeuse Brother SDX225 (Bibliothèque Thérèse-Gouin-Décarie) : logiciel Canvas Workspace, préparation du support et découpe de vinyle ou de papier cartonné."
 ---
 
-![brother0](/img/docs/brother0.webp)
+![Découpeuse Brother SDX225 capot ouvert, une flèche indique le bouton d'alimentation](/img/docs/brother0.webp)
 
 La découpeuse numérique Brother SDX225 est une machine qui vous permettra de réaliser plusieurs types de projets. Avec celle-ci, il est possible de tracer des motifs sur plusieurs supports différents (carton, vinyle, tissus, etc…). Il est également possible d’embosser et même dessiner!
 
@@ -17,39 +18,39 @@ La découpeuse numérique Brother SDX225 est une machine qui vous permettra de r
 
 **Lancer le logiciel** et se **connecter**. Si besoin se créer un **compte gratuit** à l'aide d'un courriel
 
-![brother8](/img/docs/Brother_canvas-1.webp)
+![Brother Canvas Workspace : interface principale avec le panneau Formes et la zone de travail vide](/img/docs/Brother_canvas-1.webp)
 
 Enregistrer un modèle au format *png*, *jpg*, *gif*, *bmp* ou *svg*
 
 Pour les modèles *png*, *jpg*, *gif*, ou *bmp* : cliquer sur l'icône **Traçage d'image**
 
-![brother9](/img/docs/Brother_canvas-2.webp)
+![Canvas Workspace : icône Traçage d'image encadrée dans la barre d'outils de gauche](/img/docs/Brother_canvas-2.webp)
 
 Pour les modèles *svg* : cliquer sur l'icône **SVG**
 
-![brother10](/img/docs/Brother_canvas-3.webp)
+![Canvas Workspace : icône SVG encadrée, info-bulle Importer à partir de votre ordinateur](/img/docs/Brother_canvas-3.webp)
 
 Pour dessiner directement des formes, des lettres ou des tracés (point par point ou main levée) :
 
-![brother11](/img/docs/Brother_canvas-4.webp)
+![Canvas Workspace : outil Formes sélectionné, bibliothèque de carrés, rectangles et polygones](/img/docs/Brother_canvas-4.webp)
 
-![brother12](/img/docs/Brother_canvas-5.webp)
+![Canvas Workspace : outil Texte sélectionné et texte ajouté sur la zone de travail](/img/docs/Brother_canvas-5.webp)
 
-![brother13](/img/docs/Brother_canvas-6.webp)
+![Canvas Workspace : outil de tracé point par point sélectionné et ligne brisée dessinée](/img/docs/Brother_canvas-6.webp)
 
-![brother14](/img/docs/Brother_canvas-7.webp)
+![Canvas Workspace : outil de tracé à main levée sélectionné et courbe dessinée](/img/docs/Brother_canvas-7.webp)
 
 Pour exporter / transférer le fichier FCM vers la découpeuse :
 
-![brother15](/img/docs/Brother_canvas-8.webp)
+![Canvas Workspace : menu Fichier ouvert, option Exporter/transférer le fichier FCM encadrée](/img/docs/Brother_canvas-8.webp)
 
-![brother16](/img/docs/Brother_canvas-9.webp)
+![Fenêtre Exporter/transférer le fichier FCM : option Transférer vers ScanNCut DX via un câble USB encadrée](/img/docs/Brother_canvas-9.webp)
 
 Pour récupérer le fichier transféré sur la découpeuse :
 
-![brother15](/img/docs/Brother_canvas-10.webp)
+![Écran d'accueil de la SDX225, bouton Récup données encadré](/img/docs/Brother_canvas-10.webp)
 
-![brother16](/img/docs/Brother_canvas-11.webp)
+![Écran de la SDX225 : choix de la source, icône ordinateur relié en USB encadrée](/img/docs/Brother_canvas-11.webp)
 
 ### Préparation de la machine
 
@@ -60,12 +61,12 @@ Pour récupérer le fichier transféré sur la découpeuse :
 - Retirer le film protecteur transparent et le mettre de côté. Il est important de la remettre sur le support adhésif lorsque vous quitterez afin de préserver l’adhérence du support lors de son rangement.
 - Déposer le papier cartonné ou la feuille de vinyle sur la partie adhésive du support et appuyer fermement afin de bien les fixer sur le support. Utiliser le rouleau pour éliminer les bulles d’air si nécessaire.
 
-![brother1](/img/docs/brother1.webp)
+![Feuille de vinyle rouge déposée sur le support adhésif et lissée à la main avec un outil](/img/docs/brother1.webp)
 
 - Charger le support en vous assurant de l’insérer avec la flèche orientée vers le haut. Aligner le bord du support puis insérer-le sous les rouleaux d’entraînement.
 - Appuyer ensuite sur le bouton d’entraînement et le support sera automatiquement ajusté vers la position adéquate.
 
-![brother2](/img/docs/brother2.webp)
+![Panneau de commande de la SDX225, une flèche indique le bouton d'entraînement du support](/img/docs/brother2.webp)
 
 ### Découpe d'un motif
 - Cliquer sur l’icône écran d’accueil et ensuite sur **Motif**.  
@@ -73,8 +74,8 @@ Pour récupérer le fichier transféré sur la découpeuse :
 - Redimensionner au besoin.
 
 
-![brother3](/img/docs/brother3.webp)
-![brother4](/img/docs/brother4.webp)
+![Écran tactile de la SDX225 : écran d'accueil avec les options Motif et Numérisation](/img/docs/brother3.webp)
+![Écran tactile : galerie de motifs intégrés avec flèches de défilement](/img/docs/brother4.webp)
 
 - Une fois redimensionner, appuyer sur **OK** ensuite sur le bouton **Placer**. Choisir l’emplacement sur la feuille de découpe où votre motif sera découpé. Veiller à le placer au même endroit que la feuille précédente sur le support adhésif. Appuyer ensuite sur **OK**. 
 
@@ -82,7 +83,7 @@ Pour récupérer le fichier transféré sur la découpeuse :
 Laisser environ un centimètre de jeu à l’écran sur les côtés du support adhésif pour éviter de découper le support.
 :::
 
-![brother5](/img/docs/brother5.webp)
+![Écran tactile : motif de tour Eiffel placé sur la grille du support, boutons Ajouter, Édition et OK](/img/docs/brother5.webp)
 
 - Appuyer sur **Sélectionner**, puis sur **Découpe**. Une fois la découpe sélectionnée, cliquer sur la clé. 
 - Faire défiler vers le bas et activer l’option **Demi-coupe** en appuyant sur **ON**. Confirmer en appuyant sur **OK**. Cette opération permet à la lame de découper uniquement la première couche du matériel.
@@ -92,14 +93,14 @@ Laisser environ un centimètre de jeu à l’écran sur les côtés du support a
 - Pour du papier cartonné : désactiver l’option **Demi-coupe**.
 :::
 
-![brother6](/img/docs/brother6.webp)
+![Écran des réglages de découpe : option Demi-coupe activée sur ON](/img/docs/brother6.webp)
 
 - Appuyer sur **Marche** pour découper le motif.
 - Cliquer sur le bouton **Support adhésif** pour retirer le support adhésif.
 
-![brother7](/img/docs/brother7.webp)
+![Panneau de commande de la SDX225, une flèche indique le bouton Support adhésif](/img/docs/brother7.webp)
 
 - S’installer sur une surface plane et découper un morceau de papier transfert à coller sur le motif. Coller ensuite le motif sur la surface de votre choix.
 
-![brother8](/img/docs/brother8.webp)
-![brother9](/img/docs/brother9.webp)
+![Vinyle rouge en partie retiré du support adhésif après la découpe](/img/docs/brother8.webp)
+![Résultat : tour Eiffel et pingouin en vinyle rouge collés sur un meuble blanc](/img/docs/brother9.webp)

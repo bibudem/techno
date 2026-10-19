@@ -1,12 +1,15 @@
 ---
 title : Technologies créatives
 retroaction : false
+description: "Technologies créatives des bibliothèques de l'Université de Montréal : impression 3D, réalité virtuelle, électronique, découpeuse, art textile, robots et projets."
 ---
 
 import CardGrid from "@site/src/components/CardGrid";
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
+
+Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM des équipements et du soutien en technologies créatives : impression 3D, réalité virtuelle, électronique, découpeuse, art textile et robots. Vous y trouverez aussi un répertoire de projets réalisés dans nos espaces.
 
 <CardGrid
   items={[

@@ -1,6 +1,7 @@
 ---
 title : Modèles pour la brodeuse
 help : crea
+description: "Utiliser un modèle prédéfini sur la brodeuse numérique, avec l'exemple d'un haïku brodé, et liste de sites pour trouver des modèles SVG de broderie."
 ---
 
 import Link from '@docusaurus/Link';
@@ -10,7 +11,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Les modèles 
 
-![](/img/docs/brod_modele_predefini_1.webp)
+![Haïku « murmure des livres » brodé en rouge sur un tissu beige](/img/docs/brod_modele_predefini_1.webp)
+
+Cette page explique comment utiliser un modèle prédéfini sur la brodeuse numérique, à partir de l'exemple d'un haïku brodé, et où trouver des modèles SVG en ligne.
 
 ## Utiliser un modèle prédéfini sur la machine
 
@@ -22,7 +25,7 @@ Pour vous aider, nous allons détailler un projet Haiku qui utilise le module ty
 
 2. Menu principal : plusieurs projets préenregistrés. Sélectionnez les lettres en noir et blanc puis sélectionnez la typologie qui vous intéresse pour votre projet. 
 
-![](/img/docs/brod_modele_predefini_2.webp)
+![Écran de la brodeuse : menu de sélection des motifs intégrés, des alphabets et des cadres](/img/docs/brod_modele_predefini_2.webp)
 
 3. Taper le texte
 
@@ -34,7 +37,7 @@ Notre exemple :
 
 ***trésors de papier***
 
-![](/img/docs/brod_modele_predefini_3.webp)
+![Écran de saisie de texte de la brodeuse avec le clavier, la gomme et le bouton Placer](/img/docs/brod_modele_predefini_3.webp)
 
 Pour vous déplacer d’une page à l’autre utiliser les flèches gauche droite en dessous de l’écran.
 
@@ -51,23 +54,23 @@ Si votre texte en trop grand pour la machine vous pouvez tout d’abord réduire
 
 4. Modifier au besoin votre motif ou éléments du motif
 
-![](/img/docs/brod_modele_predefini_4.webp)
+![Écran d'édition de la brodeuse avec les outils de déplacement, taille, rotation et couleur](/img/docs/brod_modele_predefini_4.webp)
 
 - Repositionner avec la flèche
 - Redimensionner
 
-![](/img/docs/brod_modele_predefini_5.webp)
+![Écran de redimensionnement du motif sur la brodeuse, avec la hauteur et la largeur affichées](/img/docs/brod_modele_predefini_5.webp)
 
 - Tourner l'élément
 
-![](/img/docs/brod_modele_predefini_6.webp)
+![Écran de rotation du motif sur la brodeuse avec des boutons de 90°, 10° et 1°](/img/docs/brod_modele_predefini_6.webp)
 
 - Changer la couleur des bobines
 - Repositionner en miroir
 - Changer l’écart entre les points
 - Retravailler sur les lettres
 
-![](/img/docs/brod_modele_predefini_7.webp)
+![Écran de modification des lettres : couleurs, disposition en arc, police et espacement](/img/docs/brod_modele_predefini_7.webp)
 
 - Gommer
 - Pour passer à l’étape suivante cliquez sur “fin édit.”
@@ -82,7 +85,7 @@ Vous êtes prêts à lancer votre travail.
 
 Dans ce cas présent vous aurez à lancer 3 fois car il y a 3 phrases à imprimer
 
-![](/img/docs/brod_modele_predefini_8.webp)
+![Brodeuse Brother avec le bouton vert de démarrage allumé et le haïku brodé en rouge sur le tissu](/img/docs/brod_modele_predefini_8.webp)
 
 ## Trouver des modèles SVG
 

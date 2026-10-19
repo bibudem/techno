@@ -2,6 +2,7 @@
 id : robots
 title : Robots
 image: "/img/cover/robots.webp"
+description: "Prêt de robots éducatifs (Blue-Bot, Ozobot, Sphero, LEGO Education…) et d'accessoires aux bibliothèques du Campus de Laval et Thérèse-Gouin-Décarie de l'UdeM."
 ---
 
 import Link from '@docusaurus/Link';
@@ -10,7 +11,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
-  alt="Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
+  alt="Robot LEGO Education WeDo 2.0 assemblé. Photo par Gloria Obeid, étudiante au baccalauréat en architecture (2023)"
   style={{
     width: "100%",
     maxWidth: "1200px",
