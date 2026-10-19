@@ -21,6 +21,7 @@
     "@phosphor-icons/react": "^2.1.7",
     "@photo-sphere-viewer/core": "^5.13.2",
     "clsx": "^2.0.0",
+    "docusaurus-plugin-llms": "^0.6.1",
     "embla-carousel": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "leaflet": "^1.9.4",
