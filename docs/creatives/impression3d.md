@@ -45,7 +45,6 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
     />
   ))}
 </div>
-<!-- | **[Aménagement](https://bib.umontreal.ca/espaces/#amenagement)**         | [Voir sur la carte](https://g.co/kgs/dk98r6K) | BambuLab X1C AMS | -->
 
 ---
 

@@ -10,7 +10,7 @@ const atelier = (local) => (
 );
 
 const X1C = { label: 'BambuLab X1C AMS', href: '/creatives/impression3d/bambu' };
-const X2D = { label: 'BambuLab X2D' };
+const X2D = { label: 'BambuLab X2D AMS' };
 const PRUSA = { label: 'Prusa i3 MK3s+', href: '/creatives/impression3d/prusa' };
 
 // coords : [latitude, longitude], tirées des liens Google Maps de chaque fiche
