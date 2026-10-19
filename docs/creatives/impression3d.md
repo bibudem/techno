@@ -90,7 +90,7 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
       petit : true,
     },
     {
-      title: "BambuLab X1C",
+      title: "Bambu Lab X1C et X2D",
       description: "",
       link: "/creatives/impression3d/bambu",
       icon: "",

@@ -1,15 +1,34 @@
 ---
 id : bambu
-title: BambuLab X1C
+title: Bambu Lab X1C et X2D
 help : crea
 ---
+
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 :::note
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
 :::
 
-import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+Ce guide s'applique aux deux imprimantes Bambu Lab des bibliothèques : la **X1 Carbon (X1C)** et la **X2D**. Les étapes sont les mêmes, sauf aux endroits où des onglets vous permettent de choisir votre imprimante. Le choix fait dans un onglet s'applique à toute la page.
+
+<Tabs groupId="imprimante" queryString>
+  <TabItem value="x1c" label="X1 Carbon" default>
+
+La **Bambu Lab X1 Carbon** est équipée d'un AMS de quatre bobines.
+
+  </TabItem>
+  <TabItem value="x2d" label="X2D">
+
+La **Bambu Lab X2D** est équipée d'un AMS et d'une bobine externe.
+
+![L'imprimante Bambu Lab X2D](/img/docs/Bambu_X2D.jpeg)
+
+  </TabItem>
+</Tabs>
 
 ## **1.** Télécharger et configurer le logiciel Bambu Studio 
 
@@ -19,7 +38,20 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 •	Sélectionner la région adéquate (ici **Amérique du Nord**)
 
-•	Sélectionner l’imprimante : par défaut elles sont toutes sélectionnées, dans le coin supérieur droit cliquer sur **Clear All** → sélectionner **BambuLab X1 Carbon** → **suivant**
+•	Sélectionner l’imprimante : par défaut elles sont toutes sélectionnées, dans le coin supérieur droit cliquer sur **Clear All** → sélectionner votre imprimante → **suivant**
+
+<Tabs groupId="imprimante" queryString>
+  <TabItem value="x1c" label="X1 Carbon" default>
+
+Sélectionner **BambuLab X1 Carbon**.
+
+  </TabItem>
+  <TabItem value="x2d" label="X2D">
+
+Sélectionner **BambuLab X2D**.
+
+  </TabItem>
+</Tabs>
 
 ![](/img/docs/configurer_bambu_studio_1.webp)
 
@@ -128,9 +160,24 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Paramètres de notre impression
 
-1.	Vérifier que la bonne imprimante est sélectionnée : cliquer sur l’icône en haut à gauche dans **Imprimante** → **Sélectionner la Bambu Lab X1 Carbon**
+**1.** Vérifier que la bonne imprimante est sélectionnée : cliquer sur l’icône en haut à gauche dans **Imprimante**, puis :
+
+<Tabs groupId="imprimante" queryString>
+  <TabItem value="x1c" label="X1 Carbon" default>
+
+**Sélectionner la Bambu Lab X1 Carbon**
 
 ![](/img/docs/configurer_bambu_studio_32.webp)
+
+  </TabItem>
+  <TabItem value="x2d" label="X2D">
+
+**Sélectionner la Bambu Lab X2D**
+
+![](/img/docs/bambu_X2D_2.png)
+
+  </TabItem>
+</Tabs>
 
 2.	Synchroniser les filaments avec l’imprimante : dans la partie **Filament** du projet, cliquer sur l’icône **Synchroniser les filaments depuis l’AMS**, sélectionner **Surécriture** et **Synchroniser maintenant**.
 
@@ -152,7 +199,12 @@ L'ajout d’une jupe autour de l’objet est parfois nécessaire pour assurer so
 
 ### Impression avec plusieurs couleurs
 
-Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur. Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge. Nous vous invitons à ne pas mélanger les couleurs dans un même objet.
+Il est possible de changer la couleur de certains objets en cliquant sur l’onglet **objet** dans la partie gauche de l’écran, puis sur un des objets, sur la case du filament et choisir une autre couleur.
+
+<Tabs groupId="imprimante" queryString>
+  <TabItem value="x1c" label="X1 Carbon" default>
+
+Dans notre exemple nous avons choisi de modifier la couleur du Ring Upper en rouge. Nous vous invitons à ne pas mélanger les couleurs dans un même objet.
 
 ![](/img/docs/configurer_bambu_studio_11.webp)
 
@@ -162,13 +214,26 @@ Il est possible de changer la couleur de certains objets en cliquant sur l’ong
     Dans le cas d’objets avec des couleurs différentes, il est **obligatoire** de sélectionner, dans **Paramètres de la plaque**, un mode d’impression non pas par couche mais **par objet** pour une impression plus rapide et moins de gaspillage. Nous nous réservons le droit de couper toute impression ne respectant pas cette procédure
 :::
 
+  </TabItem>
+  <TabItem value="x2d" label="X2D">
+
+Dans notre exemple nous avons choisi une partie des objets en blanc et l'autre en gris.
+
+![](/img/docs/bambu_X2D_1.png)
+
+:::warning
+    Pour une impression en plusieurs couleurs avec la X2D, merci de choisir au maximum 2 couleurs et de s'assurer que la première couleur choisie se trouve dans l'AMS et la seconde la bobine externe.
+:::
+
+  </TabItem>
+</Tabs>
 
 ![](/img/docs/configurer_bambu_studio_13.webp)
 
 
 ### Modèles en ligne (Maker World)
 
-En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sélectionner le bon modèle d'imprimante avant de télécharger les fichiers (X1 Carbon)
+En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sélectionner le bon modèle d'imprimante avant de télécharger les fichiers (X1 Carbon ou X2D, selon l'imprimante utilisée).
 
 ![](/img/docs/configurer_bambu_studio_36.webp)
 
@@ -183,8 +248,9 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
 ## **5.** Changement de filament
 
 :::warning
-    Merci n'utiliser que les bobines Bambulab déjà sur leur support disponibles dans nos ateliers. Demander de l'aide à un membre du personnel pour préparer une nouvelle bobine sur son support. Ne jamais utiliser une bobine d'une autre marque dans les imprimantes Bambulab, merci.
-    Bien sécher le filament avant utilisation
+    Utilisez uniquement les bobines Bambu Lab déjà montées sur leur support, disponibles dans nos ateliers. Pour préparer une nouvelle bobine sur son support, demandez l’aide d’un membre du personnel.
+
+    N’utilisez jamais de bobine d’une autre marque dans les imprimantes Bambu Lab, et assurez-vous que le filament est bien sec avant de l’utiliser.
 :::
 
 ### Bobine Bambu Lab avec puce RFID
@@ -209,6 +275,10 @@ Retirer la bobine de filament de l'un des quatres compartiments.
 ![Changer une bobine ](/img/docs/filament-bambu3.webp)
 
 #### Ranger la bobine de filament
+
+:::note X2D
+Pour changer la bobine située hors de l'AMS, merci de demander à nos équipes sur place.
+:::
 
 Bloquer le bout du filament dans l'un des trous de la bobine pour éviter les noeuds ou que le filament se déroule. Ranger le tout dans son sac sous vide.
 

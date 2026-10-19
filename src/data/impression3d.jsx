@@ -9,8 +9,9 @@ const atelier = (local) => (
   </>
 );
 
-const X1C = { label: 'BambuLab X1C AMS', href: '/creatives/impression3d/bambu' };
-const X2D = { label: 'BambuLab X2D AMS' };
+// Les deux Bambu Lab partagent un guide ; ?imprimante= ouvre directement le bon onglet
+const X1C = { label: 'BambuLab X1C AMS', href: '/creatives/impression3d/bambu?imprimante=x1c' };
+const X2D = { label: 'BambuLab X2D AMS', href: '/creatives/impression3d/bambu?imprimante=x2d' };
 const PRUSA = { label: 'Prusa i3 MK3s+', href: '/creatives/impression3d/prusa' };
 
 // coords : [latitude, longitude], tirées des liens Google Maps de chaque fiche
