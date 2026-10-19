@@ -1,6 +1,6 @@
 ---
 title: Numérisation de microdocuments
-description: Guide pour Numériser les microfilms, les microfiches et les microcartes.
+description: Numériser des microfilms et microfiches avec les lecteurs MS6000 et ScanPro, en libre-service à la Bibliothèque LSH et au Centre de conservation Lionel-Groulx de l'UdeM.
 help : info
 image: "/img/cover/microdocuments.webp"
 ---
@@ -20,6 +20,8 @@ import TabItem from '@theme/TabItem';
     borderRadius: "8px"
   }} 
 />
+
+Les bibliothèques de l'UdeM offrent en libre-service des appareils pour lire et numériser des microdocuments (microfilms et microfiches) : un MS6000 à la Bibliothèque des lettres et sciences humaines et un ScanPro au Centre de conservation Lionel-Groulx.
 
 ## Types de documents {#microdocuments}
 

@@ -1,6 +1,6 @@
 ---
 title: Réseau sans fil
-description: Guide pour se connecter aux réseaux sans fil de l'Université de Montréal.
+description: "Se connecter aux réseaux Wi-Fi de l'UdeM (UdeM avec cryptage, eduroam, UdeM-Visiteurs) : configuration par appareil, dépannage, DNS et prises réseau en bibliothèque."
 image: "/img/cover/reseau.webp"
 help: info
 ---
@@ -195,7 +195,7 @@ Il est important de faire la procédure pour **oublier chacun des réseaux sans 
 
   <TabItem value="chromebook" label="Chromebook">
     1. Aller **Wi-Fi** (en bas à droite) →  bouton **Avancé**.
-    2. Dans la section réseau, sélectionner **WiFi** → **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs** et **Retirer**.
+    2. Dans la section réseau, sélectionner **Wi-Fi** → **UdeM avec cryptage**, **eduroam**, et **UdeM-Visiteurs** et **Retirer**.
   </TabItem>
 </Tabs>
 
@@ -212,7 +212,7 @@ Pour résoudre ce problème, configurez votre connexion pour **obtenir automatiq
 <TabItem value="windows" label="Windows">
   <Tabs>
   <TabItem value="Windows11" label="Windows 11">
-    1. Cliquer droit sur l'icône **WiFi** (en bas à droite).  
+    1. Cliquer droit sur l'icône **Wi-Fi** (en bas à droite).  
     2. Cliquer **Paramètres du réseau d'internet**.
     3. Cliquer **Wi-Fi**.
     4. Cliquer **Propriétés du matériel**.
@@ -223,7 +223,7 @@ Pour résoudre ce problème, configurez votre connexion pour **obtenir automatiq
   </TabItem>
   
   <TabItem value="Windows10" label="Windows 10">
-    1. Cliquer droit sur l'icône **WiFi** (en bas à droite).  
+    1. Cliquer droit sur l'icône **Wi-Fi** (en bas à droite).  
     2. Cliquer **Ouvrir les paramètres réseau et internet**.
     3. Cliquer **Centre Réseau et partage** (en bas de la page).
     4. Cliquer **Wi-Fi (UdeM avec cryptage)** (en haut à droite).

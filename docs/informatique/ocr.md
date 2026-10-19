@@ -1,10 +1,12 @@
 ---
 title: Reconnaissance optique de caractères (OCR)
-description: Guide pour utiliser la reconnaissance optique de caractères avec Acrobat Pro.
+description: Rendre le texte d'un PDF reconnaissable grâce à la reconnaissance optique de caractères (OCR) d'Adobe Acrobat Pro, puis l'exporter au format Word.
 help : info
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+La reconnaissance optique de caractères (OCR) d'Adobe Acrobat Pro permet de reconnaître le texte d'un fichier PDF numérisé et de l'exporter vers Microsoft Word.
 
 1. Ouvrir un fichier PDF avec Acrobat Pro.  
 2. Activer la reconnaissance optique de caractères :  

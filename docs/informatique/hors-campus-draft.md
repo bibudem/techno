@@ -3,7 +3,7 @@
 # sitemap et de la recherche (noindex) pour éviter le contenu en double.
 unlisted: true
 title: Accès hors campus
-description: Accès aux ressources électroniques des bibliothèques UdeM via le proxy.
+description: Accès hors campus aux ressources électroniques des bibliothèques de l'UdeM (périodiques, bases de données) à l'aide du serveur mandataire (proxy), pour la communauté UdeM.
 hide_table_of_contents: false
 image: "/img/cover/horscampus.webp"
 ---

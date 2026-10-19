@@ -1,5 +1,6 @@
 ---
 title : Ressources informatiques
+description : "Ressources informatiques des bibliothèques de l'UdeM : authentification, accès hors campus, Wi-Fi, impression, numérisation, ordinateurs, tablettes, logiciels et accessoires."
 retroaction : false
 help : info
 ---
@@ -10,6 +11,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
 
+Les bibliothèques de l'Université de Montréal offrent à leur communauté des ressources informatiques : accès au réseau et aux ressources hors campus, impression, numérisation, ordinateurs et tablettes, logiciels et accessoires.
 
 <CardGrid
   items={[

@@ -1,6 +1,6 @@
 ---
 title: Numérisation
-description: Guide pour utiliser les services de numérisation offerts par les bibliothèques de l'Université de Montréal.
+description: Numérisation gratuite dans les bibliothèques de l'UdeM (petit, moyen et grand format, livres, microformes) avec Epson Scan, ou payante sur les imprimantes du SIUM.
 image: "/img/cover/numeriseur.webp"
 help: info
 ---

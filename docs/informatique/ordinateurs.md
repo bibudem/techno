@@ -1,6 +1,6 @@
 ---
 title: Ordinateurs
-description: Informations sur les ordinateurs en libre-service et les portables en prêt dans les bibliothèques UdeM.
+description: "Ordinateurs publics en libre-service et portables en prêt (6 heures, 7 jours ou 30 jours) dans les bibliothèques de l'UdeM : conditions, réservation et disponibilité."
 hide_table_of_contents: false
 image: "/img/cover/ordinateurs1.webp"
 help: info
@@ -27,6 +27,7 @@ import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 import Link from '@docusaurus/Link';
 
+Les bibliothèques de l'UdeM offrent des ordinateurs publics en libre-service ainsi que des ordinateurs portables en prêt de 6 heures, 7 jours ou 30 jours.
 
 ## Libre-service
 

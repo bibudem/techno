@@ -1,6 +1,6 @@
 ---
 title: Configurer le serveur mandataire (proxy)
-description: Guide pour configurer le serveur mandataire (proxy) afin d'accéder aux ressources électroniques.
+description: "Configurer le proxy de l'UdeM sur Windows, macOS, Android ou Linux pour accéder hors campus aux ressources électroniques des bibliothèques : test, dépannage, désinstallation."
 help: info
 ---
 
@@ -19,6 +19,8 @@ export function HideForIOS({children}) {
 }
 
 # Configurer le serveur mandataire (proxy)
+
+Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électroniques des bibliothèques à l'extérieur du campus. Sur iPhone et iPad, utilisez plutôt le [VPN](/informatique/vpn).
 
 ## Étape 1 - Configurer selon votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
 
@@ -136,7 +138,7 @@ export function HideForIOS({children}) {
     5. **Enregistrer**.
   </TabItem>
   <TabItem value="Linux" label="Linux">
-    1. Cliquer **WiFi** (en haut à droite)
+    1. Cliquer **Wi-Fi** (en haut à droite)
     2. Cliquer **Paramètres**
     3. Cliquer **Réseau**
     4. Activer **Serveur mandataire** ou **Proxy**
@@ -288,7 +290,7 @@ Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontre
     6. **Redémarrer l'appareil**.
   </TabItem>
   <TabItem value="Linux" label="Linux">
-    1. Cliquer **WiFi** (en haut à droite)
+    1. Cliquer **Wi-Fi** (en haut à droite)
     2. Cliquer **Paramètres**
     3. Cliquer **Réseau**
     4. Activer **Serveur mandataire** ou **Proxy**

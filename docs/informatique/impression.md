@@ -1,6 +1,6 @@
 ---
 title: Impression
-description: Guide sur les services d'impression, de photocopie et de numérisation offerts par l'UdeM.
+description: "Imprimer, photocopier et numériser dans les bibliothèques de l'UdeM avec le Service d'impression (SIUM) : compte électronique, impression web, récupération et soutien."
 image: "/img/cover/imprimantesium.webp"
 help: info
 ---

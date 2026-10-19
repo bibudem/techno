@@ -1,5 +1,6 @@
 ---
 title : Logiciels
+description : Catalogue des logiciels offerts sur les ordinateurs des bibliothèques de l'UdeM (Microsoft Office, Zotero, EndNote, Antidote, SPSS…), avec emplacements, guides et accès à distance.
 id: logiciels
 # hide_table_of_contents: true
 image: "/img/cover/logiciels.webp"

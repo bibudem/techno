@@ -1,5 +1,6 @@
 ---
 title : Connexion sans fil aux écrans
+description : "Projeter sans fil l'écran de son ordinateur, sa tablette ou son téléphone sur les écrans des salles des bibliothèques de l'UdeM : procédure par appareil et emplacements."
 image: "/img/cover/ecrans-cover.webp"
 ---
 

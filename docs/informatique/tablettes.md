@@ -1,5 +1,6 @@
 ---
 title : Tablettes iPad
+description : Prêt de tablettes iPad pour 7 jours à la communauté UdeM dans huit bibliothèques, avec étui, mallette, câble USB et chargeur; disponibilité et guides d'aide.
 image: "/img/cover/tablette.webp"
 help: info
 ---

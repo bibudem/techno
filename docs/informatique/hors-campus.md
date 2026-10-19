@@ -1,6 +1,6 @@
 ---
 title: Accès hors campus
-description: Accès aux ressources électroniques des bibliothèques UdeM via le proxy ou VPN.
+description: Accès hors campus aux ressources électroniques des bibliothèques de l'UdeM (périodiques, bases de données) avec le serveur mandataire (proxy) ou le VPN, pour la communauté UdeM.
 hide_table_of_contents: false
 image: "/img/cover/horscampus.webp"
 ---

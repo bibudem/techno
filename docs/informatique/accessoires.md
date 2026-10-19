@@ -1,5 +1,6 @@
 ---
 title : Accessoires
+description : Prêt d'accessoires informatiques (chargeurs de téléphone, adaptateurs pour portables, câbles, clés USB, casques audio) au comptoir d'accueil des bibliothèques de l'UdeM.
 image: "/img/cover/usb.webp"
 ---
 

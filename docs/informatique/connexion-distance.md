@@ -1,5 +1,6 @@
 ---
 title : Connexion à distance aux logiciels 
+description : Connexion à distance, via le VPN, aux postes publics des bibliothèques de l'UdeM pour utiliser Antidote, ArcGIS, SPSS, Stata ou Adobe depuis chez soi, pour la communauté étudiante.
 image: "/img/cover/distance.webp"
 help: info
 ---
@@ -42,7 +43,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 
 ## Postes actuellement disponibles
 
-Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGis et SPSS. Consultez [la liste complète des logiciels](/informatique/logiciels) pour plus de détails.
+Tous ces postes sont équipés de la suite Microsoft Office et des logiciels Antidote, ArcGIS et SPSS. Consultez [la liste complète des logiciels](/informatique/logiciels) pour plus de détails.
 
 <!-- :::warning
 Les postes à distance sont temporairement inaccessibles en raison d’une panne technique. Nous sommes désolés des inconvénients et mettons tout en œuvre pour rétablir le service rapidement.

@@ -1,6 +1,6 @@
 ---
 title: Numérisation de livres et partitions
-description: Guide pour Numériser des pages d’un livre ou partition avec CEZUR ET25 Pro
+description: Numériser des livres et partitions en PDF avec le numériseur CZUR ET25 Pro, en libre-service aux bibliothèques des lettres et sciences humaines et de musique de l'UdeM.
 help : info
 image: "/img/cover/czur.webp"
 ---
@@ -18,6 +18,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     borderRadius: "8px"
   }} 
 />
+
+Les bibliothèques de l'UdeM offrent en libre-service un numériseur CZUR ET25 Pro pour numériser des pages de livres ou de partitions et les enregistrer au format PDF avec texte cherchable.
 
 ## Équipement {#equipement}
 

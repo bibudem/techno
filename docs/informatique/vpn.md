@@ -1,6 +1,6 @@
 ---
 title: Installer le VPN
-description: Guide pour installer et utiliser le VPN pour accéder aux ressources électroniques des bibliothèques UdeM.
+description: Installer et utiliser le VPN de l'UdeM (Cisco Secure Client) sur macOS, Windows, iOS ou Android pour accéder aux ressources électroniques des bibliothèques et à l'intranet.
 help: info
 ---
 

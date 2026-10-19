@@ -1,6 +1,6 @@
 ---
 title: Numérisation de vinyles
-description: Guide pour la numérisation de vinyles à la Bibliothèque de musique de l'UdeM.
+description: Numériser des disques vinyle en MP3 ou WAV avec une table tournante USB à la Bibliothèque de musique de l'UdeM, sans réservation, pour la communauté UdeM.
 image: "/img/cover/vinyle.webp"
 ---
 
