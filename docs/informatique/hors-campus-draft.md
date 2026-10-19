@@ -1,4 +1,7 @@
 ---
+# Brouillon de hors-campus.md : accessible par son adresse, mais exclu du
+# sitemap et de la recherche (noindex) pour éviter le contenu en double.
+unlisted: true
 title: Accès hors campus
 description: Accès aux ressources électroniques des bibliothèques UdeM via le proxy.
 hide_table_of_contents: false
