@@ -3,6 +3,8 @@ help : crea
 draft : true
 ---
 
+![](/img/docs/Bambu_X2D.jpeg)
+
 :::note
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
 :::
