@@ -223,7 +223,7 @@ Dans notre exemple nous avons choisi une partie des objets en blanc et l'autre e
 ![Bambu Studio, mode Objets : deux objets associés aux filaments 1 et 5](/img/docs/bambu_X2D_1.png)
 
 :::warning
-    Pour une impression en plusieurs couleurs avec la X2D, merci de choisir au maximum 2 couleurs et de s'assurer que la première couleur choisie se trouve dans l'AMS et la seconde la bobine externe.
+    Pour une impression en plusieurs couleurs avec la X2D, merci de choisir au maximum 2 couleurs et de s'assurer que la première couleur choisie se trouve dans l'AMS et la seconde dans la bobine externe.
 :::
 
   </TabItem>
