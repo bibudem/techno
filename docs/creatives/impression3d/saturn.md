@@ -14,7 +14,7 @@ L'imprimante Elegoo Saturn 3 Ultra utilise des résines qui nécessitent une man
 ![](/img/docs/tenue.webp)
 
 :::warning
-   Nous préconisons fortement de demander une formation lors de la première utilisation de l'imprimante à résine avec de s'assurer que les procédures de mise en place (5-10 minutes) et de nettoyage (20-30 minutes) seront comprises et appliquées lors de vos prochaines manipulations. 
+   Nous préconisons fortement de demander une formation lors de la première utilisation de l'imprimante à résine afin de s'assurer que les procédures de mise en place (5-10 minutes) et de nettoyage (20-30 minutes) seront comprises et appliquées lors de vos prochaines manipulations. 
 :::
 
 ## Localisation

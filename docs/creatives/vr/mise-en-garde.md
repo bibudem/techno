@@ -25,7 +25,7 @@ En cas de nausées :
 
 ## Sécurité
 
-S'aasurer que l'espace autour de vous est dépourvu d'obstacle. Si besoin, faire appel à une personne de confiance pour vous assister.
+S'assurer que l'espace autour de vous est dépourvu d'obstacle. Si besoin, faire appel à une personne de confiance pour vous assister.
 
 Bien délimiter son espace de jeu et y rester durant l'expérience.
 

@@ -104,7 +104,7 @@ Exemples des principales fonctions / paramètres de broderie :
 
 ## 6. Organisation et nettoyage des chemins de broderie
 
-**Extensions** → **Ink/Sticth** → **Outils de remplissage** → **Briser des objets de remplissage**
+**Extensions** → **Ink/Stitch** → **Outils de remplissage** → **Briser des objets de remplissage**
 
 **Briser des objets de remplissage** consiste à transformer les `paths` en points de broderie. Ainsi, chaque caractère est géré indépendamment. Très utile pour supprimer des éléments parasites à l’intérieur d’un même `path`.
 

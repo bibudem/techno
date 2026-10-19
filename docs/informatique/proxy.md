@@ -197,7 +197,7 @@ export function HideForIOS({children}) {
       **Android :** Menu → Supp.données de navig.. → Période **Toutes les périodes** → Autres options → cocher uniquement **Images et fichiers mis en cache** → **Supprimer les données**
       </TabItem>
       <TabItem value="Firefox" label="Firefox">
-      **PC et Mac** : Menu → Paramètres → **Vie privée et sécurité** → à la section **Cookies et données de sites**, cliquer **Effacer les données** → Intervalle è effacer **Tout** → cocher seulement **Fichiers et pages en cache temporaire** → bouton **Effacer**
+      **PC et Mac** : Menu → Paramètres → **Vie privée et sécurité** → à la section **Cookies et données de sites**, cliquer **Effacer les données** → Intervalle à effacer **Tout** → cocher seulement **Fichiers et pages en cache temporaire** → bouton **Effacer**
 
       **Android** : Menu → Paramètres → **Supprimer les données de navigation** → cocher seulement **Images et fichiers mis en cache** → Supprimer les données de navigation → Supprimer
       </TabItem>
@@ -266,7 +266,7 @@ Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontre
         4. Sélectionner l'onglet **Proxys** → Désactiver **Configuration de serveur mandataire automatique**.  
         5. Cliquer **Ok**.
         6. [Vider la mémoire cache de votre navigateur](#depannage).
-        7. **Redémarrer l'apapreil**.
+        7. **Redémarrer l'appareil**.
       </TabItem>
     </Tabs>
   </TabItem>
@@ -276,7 +276,7 @@ Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontre
         2. Sous **Serveur mandataire HTTP**, sélectionner **Non**.
         3. Cliquer **Enregistrer**
         4. [Vider la mémoire cache de votre navigateur](#depannage).
-        5. **Redémarrer l'apapreil**.
+        5. **Redémarrer l'appareil**.
   </TabItem>
 
   <TabItem value="Android" label="Android">
@@ -285,7 +285,7 @@ Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontre
     3. Sous **Serveur mandataire**, sélectionner **Aucun**.  
     4. **Enregistrer**.
     5. [Vider la mémoire cache de votre navigateur](#depannage).
-    6. **Redémarrer l'apapreil**.
+    6. **Redémarrer l'appareil**.
   </TabItem>
   <TabItem value="Linux" label="Linux">
     1. Cliquer **WiFi** (en haut à droite)
@@ -294,6 +294,6 @@ Tester la configuration à : [testproxy.umontreal.ca](https://testproxy.umontre
     4. Activer **Serveur mandataire** ou **Proxy**
     5. Cliquer **Désactiver**, Fermer la fenêtre
     6. [Vider la mémoire cache de votre navigateur](#depannage).
-    7. **Redémarrer l'apapreil**.
+    7. **Redémarrer l'appareil**.
   </TabItem>
 </Tabs>

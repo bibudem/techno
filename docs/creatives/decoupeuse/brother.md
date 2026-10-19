@@ -78,7 +78,7 @@ Pour récupérer le fichier transféré sur la découpeuse :
 
 - Une fois redimensionner, appuyer sur **OK** ensuite sur le bouton **Placer**. Choisir l’emplacement sur la feuille de découpe où votre motif sera découpé. Veiller à le placer au même endroit que la feuille précédente sur le support adhésif. Appuyer ensuite sur **OK**. 
 
-:::tips Astuce
+:::tip Astuce
 Laisser environ un centimètre de jeu à l’écran sur les côtés du support adhésif pour éviter de découper le support.
 :::
 

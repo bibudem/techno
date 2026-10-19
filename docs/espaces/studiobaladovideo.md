@@ -101,7 +101,7 @@ Le studio est équipé d’un système intégré conçu pour faciliter la produc
 
 ## Connectez une personne à distance en un instant {#connectez-distance}
 
-Le studio permet d’intégrer une personne à distance. Il suffit de brancher votre ordinateur au câble prévu, de démarrer votre application de visioconférence, et l’image apparaîtra à l’écran du studio. La système basculera automatiquement vers cette source lorsque la personne parlera.
+Le studio permet d’intégrer une personne à distance. Il suffit de brancher votre ordinateur au câble prévu, de démarrer votre application de visioconférence, et l’image apparaîtra à l’écran du studio. Le système basculera automatiquement vers cette source lorsque la personne parlera.
 
 ---
 

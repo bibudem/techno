@@ -106,7 +106,7 @@ Comme le Raspberry Pi s’opère aussi via les lignes de commandes, voici une li
 
 ## Ressources externes
 
-- [Site officiel Rapsberry Pi](https://www.raspberrypi.com/) : Documentation, aide de la communauté, produits... le site officiel de Raspberry Pi
+- [Site officiel Raspberry Pi](https://www.raspberrypi.com/) : Documentation, aide de la communauté, produits... le site officiel de Raspberry Pi
 - [7 choses à ne pas faire](https://raspberrytips.fr/7-choses-jamais-faire/) : Liste de 7 manipulations pouvant endommager le Raspberry Pi
 - [Guide en français](https://www.raspberrypi-france.fr/guide/) : Guide complet en français
 - [Tutoriel en français](https://share.polymtl.ca/alfresco/service/api/path/content;cm:content/workspace/SpacesStore/Company%20Home/Sites/bibliopoly/documentLibrary/libguides_francais/Techno-pr%C3%AAt/201809%20-%20Installation%20de%20RASPBIAN%20sur%20Raspberry%20Pi.pdf?a=true&guest=true) : Guide produit par Polytechnique Montreal

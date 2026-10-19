@@ -125,7 +125,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
     3. Dans la fenêtre d'authentification UdeM, entrer ses informations d'authentification et appuyer **Se connecter**.
     4. Procéder à l'authentification à deux facteurs (A2F).
     5. La connexion au VPN est établie.
-    6. Pour se séconnecter désactiver le bouton **VPN AnyConnect**.
+    6. Pour se déconnecter désactiver le bouton **VPN AnyConnect**.
   </TabItem>
 </Tabs>
 
@@ -165,7 +165,7 @@ Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu
 <Tabs groupId="os">
   <TabItem value="macos" label="macOS">
     1. Cliquer l'icône **Cisco Secure Client** (en haut à droite) et quitter l'application.
-    2. Aller à **Finder** → **Applications** → Clic droit sur **Cosco Secure Access Client** → Placer dans la corbeille.
+    2. Aller à **Finder** → **Applications** → Clic droit sur **Cisco Secure Access Client** → Placer dans la corbeille.
     3. Cliquer **No** à **save configuration**.
     4. Vider la corbeille.
     5. **Redémarrer l'ordinateur**.

@@ -34,7 +34,7 @@ help : crea
 - En dehors de l'UdeM, se connecter normalement au wifi. Sur le campus il est impossible de se connecter à UdeM avec cryptage. Mais il est possible d'utiliser le casque sans se connecter au réseau wifi.
 ![VRX-wifi](/img/docs/VRX-wifi.webp)
 ![VRX-wifi-2](/img/docs/VRX-wifi-2.webp)
-- Une fois connecté, retourner à l'écran d'acceuil pour faire apparaître la liste des applications disponibles
+- Une fois connecté, retourner à l'écran d'accueil pour faire apparaître la liste des applications disponibles
 ![VRX-listeapplis](/img/docs/VRX-listeapplis.webp)
 - Sélectionner une application et la lancer
 - Pour quitter une application en cours, cliquer sur le bouton META de la manette droite puis quitter l'application
@@ -48,10 +48,10 @@ help : crea
 - Lorsqu'il est allumé, presser une courte fois sur le bouton d'allumage pour mettre le casque en veille. Rester appuyé sur le bouton afin de faire apparaître un message avec différentes options : mettre en veille, éteindre ou redémarrer
 
 :::warning
-    Au moment d'éteindre le casque, le brancher à l'alimentation afin qu'il fasse les mises à jour nécessaires. Il s'éteindra automatiquementy ensuite
+    Au moment d'éteindre le casque, le brancher à l'alimentation afin qu'il fasse les mises à jour nécessaires. Il s'éteindra automatiquement ensuite
     :::
 
-- Ranger le casque correctement dans son étuit de transport comme il l'était au moment du déballage. Bien penser à remettre les accessoires fournis
+- Ranger le casque correctement dans son étui de transport comme il l'était au moment du déballage. Bien penser à remettre les accessoires fournis
 
 ## 5. Sécurité, inconfort, nausées et mises en garde
 

@@ -27,7 +27,7 @@ Nous utiliserons le logo des bibliothèques de l’UdeM comme exemple.
 1. Ouvrir Inkscape puis ouvrir un **Nouveau Document**.
 2. Importer l'image : **Fichier → Importer**
 
-::: tips
+:::tip
 Avec ce même chemin vous verrez l’option **Importer une image du web**, Vous trouverez différents modèles enregistrés par la communauté Inkscape.
 Choisir une image la moins pixélisée, car cela affectera le rendu de votre broderie. 
 ::: 

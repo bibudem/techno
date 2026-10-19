@@ -77,7 +77,7 @@ Cette section présente des technologies comme les Arduino, Raspberry Pi, Makey 
       icon: "WifiHigh",
     }, -->
 
-    ## Formations et soutien
+## Formations et soutien
 
 Quel que soit votre niveau de connaissance, on est là pour vous aider à réaliser vos projets!
 

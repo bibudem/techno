@@ -102,7 +102,7 @@ Les microdocuments, également appelés microformes, désignent des documents re
    - Plus d'options sont disponibles dans l'onglet **AJUSTER**.
 
 1. Numériser, sauvegarder ou imprimer
-   - Pour sauvegarder l’ensemble des diapositives, se positionner à la première diapositive et aller dans le menu Sauvegarde, cliquer sur le bouton **Auto Scan Pro**, puis choisir l’emplacement pour l’enregistrement dams la case **Chemin**. Cocher la case « Straighten/Crop », Choisir **PDF/A (w/OCR) [Multipage]** dans le champ **Type de**. Cliquer sur **Démarrer**
+   - Pour sauvegarder l’ensemble des diapositives, se positionner à la première diapositive et aller dans le menu Sauvegarde, cliquer sur le bouton **Auto Scan Pro**, puis choisir l’emplacement pour l’enregistrement dans la case **Chemin**. Cocher la case « Straighten/Crop », Choisir **PDF/A (w/OCR) [Multipage]** dans le champ **Type de**. Cliquer sur **Démarrer**
    - Pour Sauvegarder une ou plusieurs diapositives, définir la page ou la zone à numériser à l'aide du cadre vert de sélection pointillé, aller à l'onglet **SAUVEGARDE**, cliquer sur le bouton **Numériser vers le disque #1**. Il est recommandé d'enregistrer le fichier sur Mes documents et de choisir 300 dpi et Type de numérisation 1/Amélioration de gris. Sélectionner le type de fichier **PDF w/OCR (multi-page)** afin de numériser plusieurs pages en les choisissant une à une et en faisant **Add Scan** entre chacune, de manière à obtenir un seul fichier.
 
 :::tip Bon à savoir pour les journaux
