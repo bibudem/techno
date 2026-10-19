@@ -156,6 +156,54 @@ const config = {
       }),
     ],
   ],
+  // Données structurées communes à tout le site (schema.org) : qui publie le site,
+  // à quelle institution il appartient, et comment y chercher.
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'Organization',
+            '@id': 'https://studio.bib.umontreal.ca/#organisation',
+            name: 'studio·bib',
+            alternateName: 'Services technologiques et créatifs des bibliothèques de l’Université de Montréal',
+            url: 'https://studio.bib.umontreal.ca/',
+            logo: 'https://studio.bib.umontreal.ca/img/logo-studiobib.svg',
+            email: 'studio@bib.umontreal.ca',
+            description: DESCRIPTION_SITE,
+            parentOrganization: {
+              '@type': 'Library',
+              name: 'Bibliothèques de l’Université de Montréal',
+              url: 'https://bib.umontreal.ca/',
+              parentOrganization: {
+                '@type': 'CollegeOrUniversity',
+                name: 'Université de Montréal',
+                url: 'https://www.umontreal.ca/',
+              },
+            },
+            areaServed: { '@type': 'City', name: 'Montréal' },
+          },
+          {
+            '@type': 'WebSite',
+            '@id': 'https://studio.bib.umontreal.ca/#site',
+            url: 'https://studio.bib.umontreal.ca/',
+            name: 'studio·bib',
+            description: DESCRIPTION_SITE,
+            inLanguage: 'fr-CA',
+            publisher: { '@id': 'https://studio.bib.umontreal.ca/#organisation' },
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: 'https://studio.bib.umontreal.ca/search?q={search_term_string}',
+              'query-input': 'required name=search_term_string',
+            },
+          },
+        ],
+      }),
+    },
+  ],
   stylesheets: [
     '/accessibilite/widget.css',
   ],

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import { ArrowSquareOut, CalendarCheck, MapPin } from '@phosphor-icons/react';
 import { getLinkProps } from '@site/src/utils/links';
+import JsonLd, { nettoyer, texteDe, urlAbsolue } from '@site/src/utils/jsonLd';
 import styles from './StudioCard.module.css';
 
 const StudioCard = ({
@@ -21,8 +22,27 @@ const StudioCard = ({
   headingLevel = 3,
 }) => {
   const Titre = `h${headingLevel}`;
+  // Lien de réservation : direct, ou fourni au parcours de réservation
+  const lienReservation = reserveLink || beforeReserve?.props?.reserveLink;
+  const donnees = {
+    '@context': 'https://schema.org',
+    '@type': 'Place',
+    name: nettoyer(texteDe(title)),
+    description: nettoyer(`${texteDe(location)} ${texteDe(description)}`),
+    url: urlAbsolue(titleLink),
+    hasMap: mapLink,
+    containedInPlace: {
+      '@type': 'CollegeOrUniversity',
+      name: 'Université de Montréal',
+      url: 'https://www.umontreal.ca/',
+    },
+    potentialAction: lienReservation
+      ? { '@type': 'ReserveAction', target: urlAbsolue(lienReservation) }
+      : undefined,
+  };
   return (
     <article className={styles.card}>
+      <JsonLd data={donnees} />
       <div className={styles.header}>
         <Titre className={styles.title}>
           {titleLink ? (

@@ -5,6 +5,7 @@ import clsx from 'clsx';
 import {ArrowSquareOut, MapPin} from '@phosphor-icons/react';
 import 'leaflet/dist/leaflet.css';
 import {getLinkProps} from '@site/src/utils/links';
+import JsonLd, {nettoyer, texteDe, urlAbsolue} from '@site/src/utils/jsonLd';
 import styles from './styles.module.css';
 
 // Carte des bibliothèques offrant l'impression 3D, avec la liste des lieux à côté
@@ -276,8 +277,42 @@ export default function CarteImpression3D({lieux}) {
     }
   }
 
+  // Liste des lieux en données structurées (schema.org)
+  const donnees = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Bibliothèques de l’Université de Montréal offrant l’impression 3D',
+    numberOfItems: lieux.length,
+    itemListElement: lieux.map((lieu, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'Library',
+        name: lieu.title,
+        url: urlAbsolue(lieu.titleLink),
+        description: nettoyer(
+          `${texteDe(lieu.location)} Imprimantes 3D : ${lieu.tags.map((tag) => tag.label).join(', ')}.`,
+        ),
+        hasMap: lieu.mapLink,
+        geo: {'@type': 'GeoCoordinates', latitude: lieu.coords[0], longitude: lieu.coords[1]},
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: lieu.region === 'Saint-Hyacinthe' ? 'Saint-Hyacinthe' : 'Montréal',
+          addressRegion: 'QC',
+          addressCountry: 'CA',
+        },
+        parentOrganization: {
+          '@type': 'Library',
+          name: 'Bibliothèques de l’Université de Montréal',
+          url: 'https://bib.umontreal.ca/',
+        },
+      },
+    })),
+  };
+
   return (
     <div className={styles.wrapper}>
+      <JsonLd data={donnees} />
       {regions.length > 1 && (
         <div className={styles.regions} role="group" aria-label="Afficher la région">
           {regions.map((nom) => (
