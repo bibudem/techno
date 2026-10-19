@@ -3,6 +3,8 @@ help : crea
 draft : true
 ---
 
+![](/img/docs/Bambu_X2D.jpeg)
+
 :::note
 Avant de faire votre première impression, lisez l'[introduction à l'impression 3D](./introduction.md)
 :::
@@ -206,6 +208,10 @@ Retirer la bobine de filament de l'un des quatres compartiments.
 ![Changer une bobine ](/img/docs/filament-bambu3.webp)
 
 #### Ranger la bobine de filament
+
+:::note
+Pour changer la bobine située hors de l'AMS, merci de demander à nos équipes sur place
+:::
 
 Bloquer le bout du filament dans l'un des trous de la bobine pour éviter les noeuds ou que le filament se déroule. Ranger le tout dans son sac sous vide.
 
