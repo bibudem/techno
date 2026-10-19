@@ -160,11 +160,6 @@ const sidebars = {
             },
             {
               type: 'doc',
-              id: 'informatique/logiciels/anaconda',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
               id: 'informatique/logiciels/antidote',
               className: 'hidden',
             },
@@ -177,21 +172,6 @@ const sidebars = {
             {
               type: 'doc',
               id: 'informatique/logiciels/adobe',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/accessibilite',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/beyond2020',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/cariseasyview',
               className: 'hidden',
             },
             {
@@ -219,74 +199,9 @@ const sidebars = {
               id: 'informatique/logiciels/endnote',
               className: 'hidden',
             },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/gaussian',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/gimp',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/hyperchem',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/inkscape',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/jabref',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/jaws',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/krita',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/mathematica',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/meshroom',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/musescore',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/openrefine',
-              className: 'hidden',
-            },
                         {
               type: 'doc',
               id: 'informatique/logiciels/onedrive',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/pymol',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/qtgrace',
               className: 'hidden',
             },
             {
@@ -296,47 +211,12 @@ const sidebars = {
             },
             {
               type: 'doc',
-              id: 'informatique/logiciels/qgis',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
               id: 'informatique/logiciels/rstudio',
               className: 'hidden',
             },
             {
               type: 'doc',
-              id: 'informatique/logiciels/reaper',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/sas',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/stata',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/texmaker',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/wordstat',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
               id: 'informatique/logiciels/zotero',
-              className: 'hidden',
-            },
-            {
-              type: 'doc',
-              id: 'informatique/logiciels/zoom',
               className: 'hidden',
             },
                         {
