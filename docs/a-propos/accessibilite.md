@@ -1,6 +1,7 @@
 ---
 id : accessibilite
 title : Accessibilité
+description : "Engagements d'accessibilité du site studio·bib des bibliothèques de l'UdeM : normes WCAG et SGQRI 008, principes appliqués et outil d'ajustement de l'affichage."
 image: "/img/cover/accessibilite.webp"
 ---
 

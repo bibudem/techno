@@ -1,7 +1,7 @@
 ---
 id: studiosbalado
 title: Studios balado
-description : Balados, présentations et entretiens.
+description : Trois studios balado des bibliothèques de l'UdeM, deux audio et un vidéo, pour enregistrer balados, présentations et entretiens jusqu'à 4 personnes.
 help : crea
 image : "/img/cover/baladocover.webp"
 ---

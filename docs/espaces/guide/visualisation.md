@@ -1,6 +1,6 @@
 ---
 title: Aide du Laboratoire de visualisation
-description: Documentation du Laboratoire de visualisation
+description: Guide d'utilisation du laboratoire de visualisation, modes d'affichage du mur tactile de 27 écrans, connexion sans fil, son, gabarit Photoshop et configuration de l'espace.
 toc_max_heading_level: 2
 breadcrumbs: true
 ---
@@ -17,25 +17,25 @@ Une borne tactile est disponible à l'entrée pour choisir un mode d'affichage.
 
 ### Mode #1
 
-![](/img/docs/labovisu-mode1.webp)
+![Mode 1 : le poste maître occupe les 27 écrans du mur](/img/docs/labovisu-mode1.webp)
 
 Le poste maître couvre les 27 écrans.
 
 ### Mode #2
 
-![](/img/docs/labovisu-mode2.webp)
+![Mode 2 : mur divisé en trois, poste maître à gauche et deux connexions sans fil](/img/docs/labovisu-mode2.webp)
 
 Le mur vidéo se divise en 3 : le poste maître et 2 connexions sans fil.
 
 ### Mode #3
 
-![](/img/docs/labovisu-mode3.webp)
+![Mode 3 : poste maître sur les deux tiers gauches et une connexion sans fil à droite](/img/docs/labovisu-mode3.webp)
 
 Le mur vidéo se divise en 2 : le poste maître sur le ⅔ et 1 connexion sans fil.
 
 ### Mode #4
 
-![](/img/docs/labovisu-mode4.webp)
+![Mode 4 : mur divisé en trois connexions sans fil](/img/docs/labovisu-mode4.webp)
 
 Le mur vidéo se divise en 3, permettant à 3 périphériques de se connecter sans fil simultanément.
 
@@ -88,7 +88,7 @@ Des modèles sont disponibles pour vous aider à créer du contenu compatible av
 
 ### Adobe Photoshop
 
-![](/img/docs/labovisu-photoshop.webp)
+![Gabarit Photoshop : 27 écrans numérotés répartis en trois zones de 9 écrans](/img/docs/labovisu-photoshop.webp)
 
 [Télécharger le gabarit Photoshop (format .psd - 6 Mo)](/files/gabarit-lv.psd)
 

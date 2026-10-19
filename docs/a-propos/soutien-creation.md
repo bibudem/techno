@@ -1,7 +1,7 @@
 ---
 title : Soutien création et médias
 id : soutien-creation
-description : Contactez-nous pour toute question ou information supplémentaire.
+description : "Soutien de l'équipe studio·bib des bibliothèques de l'UdeM pour vos projets créatifs et multimédias : studios, impression 3D et conseils, par courriel ou sur rendez-vous."
 retroaction : false
 ---
 

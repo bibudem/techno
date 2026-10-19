@@ -1,7 +1,7 @@
 ---
 id: salledevisio
 title: Salle de visionnement en équipe
-description : Visionner des contenus médias en groupe.
+description : Salle 2076-1 de la Bibliothèque des lettres et sciences humaines (UdeM) pour le visionnement en groupe jusqu'à 6 personnes, avec lecteur Blu-ray 4K, réservable 4 heures.
 image: "/img/cover/sallevisio.webp"
 ---
 

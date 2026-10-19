@@ -1,6 +1,7 @@
 ---
 title: À propos
 retroaction: false
+description: "À propos de studio·bib, services technologiques des bibliothèques de l'UdeM : nous joindre, contribuer, accessibilité et politique d'utilisation des équipements."
 ---
 
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
@@ -9,6 +10,8 @@ import CardGrid from '@site/src/components/CardGrid';
 <HideLastUpdated/>
 
 # À propos
+
+Cette section présente comment joindre l'équipe studio·bib, contribuer au site, nos engagements en accessibilité et la politique d'utilisation des équipements et des espaces.
 
 <CardGrid
   items={[

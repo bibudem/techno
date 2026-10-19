@@ -1,6 +1,6 @@
 ---
 title: Places individuelles pour le visionnement
-description: Visionner des contenus médias.
+description: Sept postes de visionnement individuels Blu-ray, DVD et VHS en salle 2076 de la Bibliothèque des lettres et sciences humaines (UdeM), réservables jusqu'à trois heures.
 help : info
 image: "/img/cover/consultation.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 id: visionnement
 title: Salles de visionnement
-description : Visionner des contenus médias.
+description : "Salles 2076 et 2076-1 de la Bibliothèque des lettres et sciences humaines (UdeM) : postes individuels Blu-ray, DVD et VHS et salle de groupe pour travaux universitaires."
 image : "/img/cover/consultation.webp"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: studiosvideo
 title: Studios vidéo
-description : Enregistrer des vidéos de qualité professionnelle.
+description : Studios vidéo des bibliothèques de l'UdeM (lettres et sciences humaines, Thérèse-Gouin-Décarie) pour enregistrer des vidéos en autonomie, avec fond vert, prompteur ou tableau lumineux.
 image: "/img/cover/studiovideo.webp"
 help : crea
 ---

@@ -1,11 +1,14 @@
 ---
 id : politique
 title : Politique d'utilisation des équipements et des espaces
+description : Règles d'utilisation des ordinateurs en libre-service, des studios et des équipements de fabrication des bibliothèques de l'Université de Montréal, dont l'impression 3D.
 retroaction : false
 ---
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
+
+Cette politique encadre l'utilisation des ordinateurs en libre-service, des studios et des équipements de fabrication dans les bibliothèques de l'Université de Montréal.
 
 ## Conditions générales
 

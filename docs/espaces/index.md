@@ -1,6 +1,7 @@
 ---
 title: Espaces
 retroaction : false
+description: "Espaces technologiques des bibliothèques de l'UdeM : amphithéâtre, ateliers de fabrication, atelier de zines, laboratoire de visualisation, salles de visionnement et studios."
 ---
 
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
@@ -8,6 +9,8 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 <HideLastUpdated/>
 
 # Espaces
+
+Les bibliothèques de l'UdeM offrent à leur communauté des espaces équipés pour la projection, la fabrication, la création de zines, la visualisation de données, le visionnement et l'enregistrement de balados et de vidéos.
 
 import CardGrid from "@site/src/components/CardGrid";
 

@@ -1,7 +1,10 @@
 ---
 title: Guide d'utilisation de l'amphithéâtre
+description: "Guide d'utilisation de l'amphithéâtre : équipements, mise en marche du projecteur 4K, choix de la source, recopie d'écran, réglage du son 7.1 et fin d'utilisation."
 breadcrumbs: true
 ---
+
+Ce guide présente les équipements de l'amphithéâtre et les étapes pour allumer le projecteur, choisir la source, régler le son et fermer la salle après utilisation.
 
 :::note Utilisation du projecteur 16mm
 Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [guide d'utilisation du projecteur 16mm (PDF)](/pdf/E61-local-2078-documentation-16mm.pdf).
@@ -43,7 +46,7 @@ Pour les instructions d'utilisation du projecteur 16mm, veuillez consulter le [g
     - Pour macOS, aller dans Préférences Système → Son → Sortie.  
   - Ajuster le volume via Windows/macOS ou le panneau de contrôle (2 derniers boutons en bas).
   </div>
-  <img src="/img/docs/panneau.webp" alt="Amphithéâtre" style={{ width: '200px', maxWidth: '100%', height: 'auto', flexShrink: 0 }} />
+  <img src="/img/docs/panneau.webp" alt="Panneau de contrôle : boutons ON, OFF, ordinateur portable, ordinateur local, DVD/Blu-ray, VHS et volume" style={{ width: '200px', maxWidth: '100%', height: 'auto', flexShrink: 0 }} />
 
 </div>
 :::note Configuration du son 7.1 sur Windows

@@ -1,6 +1,7 @@
 ---
 id : contribuer
 title : Contribuer
+description : "Comment contribuer au site studio·bib des bibliothèques de l'UdeM : rétroaction sur les pages, partage de vos projets par courriel et modifications proposées sur GitHub."
 image: "/img/cover/contribuer.webp"
 ---
 
@@ -22,6 +23,7 @@ import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
 
+Vous pouvez contribuer au site studio·bib en nous signalant des corrections par la rétroaction, en partageant vos projets ou en proposant des modifications sur GitHub.
 
 ## Rétroaction 
 

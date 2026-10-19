@@ -1,7 +1,7 @@
 ---
 id: laboformation
 title: Laboratoire informatique
-description : Laboratoire informatique pour la formation.
+description : Laboratoires informatiques de formation des bibliothèques Hubert-Reeves, des lettres et sciences humaines, de la santé et de kinésiologie de l'UdeM, réservables par le personnel enseignant.
 pagination_next: null
 pagination_prev: null
 ---

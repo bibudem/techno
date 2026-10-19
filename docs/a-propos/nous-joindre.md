@@ -1,6 +1,6 @@
 ---
 title : Nous joindre
-description : Contactez-nous pour toute question ou information supplémentaire.
+description : Joindre l'équipe studio·bib des bibliothèques de l'UdeM pour du soutien informatique ou du soutien en création et médias (studios, impression 3D, ateliers).
 retroaction : false
 image: "/img/cover/contact.webp"
 ---
@@ -23,6 +23,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     borderRadius: "8px"
   }} 
 />
+
+L'équipe studio·bib des bibliothèques de l'UdeM offre du soutien informatique ainsi que du soutien en création et médias.
 
 ## Vous avez besoin d'aide?
 

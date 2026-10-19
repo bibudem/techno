@@ -1,7 +1,7 @@
 ---
 title : Soutien informatique
 id : soutien-informatique
-description : Contactez-nous pour toute question ou information supplémentaire.
+description : "Soutien informatique des bibliothèques de l'UdeM par clavardage ou sur place à la BLSH : VPN, installation de logiciels (Zotero, EndNote, SPSS), aide Word et PDF."
 retroaction : false
 ---
 

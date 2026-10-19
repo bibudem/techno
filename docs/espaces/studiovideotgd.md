@@ -1,6 +1,6 @@
 ---
 title: Studio vidéo TGD
-description : Enregistrer des vidéos de qualité professionnelle.
+description : Studio vidéo de la Bibliothèque Thérèse-Gouin-Décarie (pavillon Marie-Victorin, G-305-12) pour enregistrer des vidéos en autonomie à deux, réservable par la communauté UdeM.
 image: "/img/cover/studiovideo.webp"
 help : crea
 ---

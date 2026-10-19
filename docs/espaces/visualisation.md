@@ -1,6 +1,7 @@
 ---
 id : visualisation
 title : Laboratoire de visualisation
+description : "Laboratoire de visualisation de la Bibliothèque Hubert-Reeves (Campus MIL, A-1553) : mur tactile de 27 écrans pour 30 personnes, accessible après une formation obligatoire."
 image : "/img/cover/labvisu.webp"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Studio vidéo LSH
-description : Enregistrer des vidéos de qualité professionnelle.
+description : Studio vidéo de la Bibliothèque des lettres et sciences humaines (local 2076-5) avec incrustation en temps réel et prompteur, pour une personne de la communauté UdeM.
 image: "/img/cover/studiovideolsh.webp"
 help : crea
 ---

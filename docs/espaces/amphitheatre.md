@@ -1,6 +1,6 @@
 ---
 title : Amphithéâtre
-description : Salle de projection de films
+description : "Amphithéâtre de 40 places de la Bibliothèque des lettres et sciences humaines (local 2078) : projecteur 4K et son 7.1, réservation gratuite pour la communauté UdeM."
 image: "/img/cover/amphi.webp"
 ---
 import Link from '@docusaurus/Link';

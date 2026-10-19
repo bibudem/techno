@@ -1,6 +1,7 @@
 ---
 id: zines
 title: Atelier de zines
+description: "Atelier de zines gratuit de la Bibliothèque des lettres et sciences humaines (local 2076-4) pour la communauté UdeM : papiers, outils de découpe et matériel de dessin."
 image: "/img/cover/zines.webp"
 
 ---

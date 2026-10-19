@@ -1,7 +1,7 @@
 ---
 id: studiobaladovideo
 title: Studio balado vidéo
-description : Balados, présentations et entretiens.
+description : Studio balado vidéo de la Bibliothèque des lettres et sciences humaines (local 2076-2) avec caméras à commutation automatique, jusqu'à 4 personnes de la communauté UdeM.
 image: "/img/cover/studiobalado.webp"
 help : crea
 ---

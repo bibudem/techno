@@ -1,7 +1,7 @@
 ---
 id: studiosbaladoaudio
 title: Studios balado audio
-description : Balados, présentations et entretiens.
+description : Studios balado audio gratuits des bibliothèques Hubert-Reeves (Campus MIL) et de mathématiques et informatique de l'UdeM, jusqu'à 4 personnes, réservés à la communauté UdeM.
 image: "/img/cover/baladoaudio.webp"
 help : crea
 ---

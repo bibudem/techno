@@ -1,7 +1,7 @@
 ---
 id: ateliers
 title: Ateliers de fabrication
-description : Impression 3D, électronique et plus encore!
+description : "Ateliers de fabrication gratuits des bibliothèques Hubert-Reeves, Thérèse-Gouin-Décarie et de mathématiques et informatique (UdeM) : impression 3D, électronique, couture, découpe vinyle."
 image: "/img/cover/ateliers.webp"
 
 ---

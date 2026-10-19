@@ -1,6 +1,7 @@
 ---
 id : anatomique
 title : Salle anatomique
+description : Salle anatomique de la Bibliothèque de la santé (pavillon Roger-Gaudry, L-668-1) avec table Anatomage pour explorer l'anatomie en 3D; formation requise pour réserver.
 image : "/img/cover/labvisu.webp"
 ---
 
