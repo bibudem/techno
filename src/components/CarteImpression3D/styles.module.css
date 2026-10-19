@@ -9,8 +9,22 @@
   margin-bottom: 0.75rem;
 }
 
+/* Carte à gauche, liste des lieux à droite (même hauteur, la liste défile) */
+.disposition {
+  --hauteur-carte: 460px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.zoneCarte {
+  min-width: 0;
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
+}
+
 .map {
-  height: 380px;
+  height: var(--hauteur-carte, 380px);
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--gris-200);
@@ -30,12 +44,18 @@ html[data-theme='dark'] .map :global(.leaflet-tile-pane) {
 }
 
 .marker {
-  width: 24px;
-  height: 24px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   background: var(--jaune);
-  border: 3px solid var(--bleu-700);
+  border: 2px solid var(--bleu-700);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  color: var(--bleu-700);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 
@@ -50,6 +70,282 @@ html[data-theme='dark'] .map :global(.leaflet-tile-pane) {
   padding-left: 1.1rem;
 }
 
+/* ——— Liste des lieux ——— */
+.panneau {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: var(--hauteur-carte);
+  overflow: hidden;
+  border: 1px solid var(--gris-200);
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+}
+
+/* En-tête : nombre de lieux, et indice de défilement quand la liste dépasse */
+.entete {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid var(--gris-200);
+  background: var(--gris-50);
+  color: var(--bleu-700);
+  font-size: 0.85rem;
+}
+
+.indice {
+  display: none;
+  color: var(--gris-600);
+  font-size: 0.8rem;
+}
+
+.panneau[data-defile='true'] .indice {
+  display: inline;
+}
+
+.liste {
+  position: relative; /* référence pour faire défiler un lieu dans la liste */
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+}
+
+/* Barre de défilement toujours visible : macOS la masque sinon.
+   Chrome et Safari : ::-webkit-scrollbar (Chrome l'ignore si scrollbar-width est
+   défini, d'où le @supports). Firefox : propriétés standard. */
+@supports not selector(::-webkit-scrollbar) {
+  .liste {
+    scrollbar-width: thin;
+    scrollbar-color: var(--gris-400) var(--gris-100);
+  }
+
+  html[data-theme='dark'] .liste {
+    scrollbar-color: var(--gris-500) var(--gris-800);
+  }
+}
+
+.liste::-webkit-scrollbar {
+  width: 10px;
+}
+
+.liste::-webkit-scrollbar-track {
+  background: var(--gris-100);
+}
+
+.liste::-webkit-scrollbar-thumb {
+  border: 2px solid var(--gris-100);
+  border-radius: 999px;
+  background: var(--gris-400);
+}
+
+.liste::-webkit-scrollbar-thumb:hover {
+  background: var(--gris-500);
+}
+
+/* Fondu en bas : il reste des lieux à voir */
+.panneau::after {
+  content: '';
+  position: absolute;
+  right: 10px; /* laisse la barre de défilement visible */
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  background: linear-gradient(to bottom, transparent, var(--ifm-background-surface-color));
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 150ms ease-out;
+}
+
+.panneau[data-defile='true'][data-fin='false']::after {
+  opacity: 1;
+}
+
+.lieu {
+  display: flex;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--gris-100);
+  transition: background-color 150ms ease-out;
+}
+
+.lieuCorps {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Numéro du lieu, identique à celui du marqueur sur la carte */
+.numero {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 2px solid var(--bleu-700);
+  border-radius: 50%;
+  background: var(--jaune);
+  color: var(--bleu-700);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.lieu:last-child {
+  border-bottom: 0;
+}
+
+.lieuActif {
+  background: var(--bleu-50);
+  box-shadow: inset 3px 0 0 var(--bleu-500);
+}
+
+.lieuTitre {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.lieuTitre a {
+  color: var(--bleu-700);
+}
+
+.lieuEmplacement {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  margin: 0.2rem 0 0.45rem;
+  color: var(--gris-600);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.lieuEmplacement svg {
+  flex: 0 0 auto;
+  position: relative;
+  top: 2px;
+  color: var(--bleu-500);
+}
+
+.modeles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.modeles li {
+  margin: 0;
+}
+
+.modele {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--bleu-100);
+  border-radius: 999px;
+  background: var(--bleu-50);
+  color: var(--bleu-700);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+a.modele:hover {
+  border-color: var(--bleu-300);
+  text-decoration: none;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1rem;
+  font-size: 0.875rem;
+}
+
+/* Bouton présenté comme un lien (action dans la page) */
+.boutonLien,
+.lienAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-height: 24px;
+  font-weight: 600;
+}
+
+.boutonLien {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ifm-link-color);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boutonLien:hover {
+  text-decoration: underline;
+}
+
+html[data-theme='dark'] .panneau {
+  border-color: var(--gris-600);
+}
+
+html[data-theme='dark'] .entete {
+  border-bottom-color: var(--gris-600);
+  background: var(--gris-700);
+  color: var(--white);
+}
+
+html[data-theme='dark'] .indice {
+  color: var(--bleu-100);
+}
+
+html[data-theme='dark'] .liste::-webkit-scrollbar-track {
+  background: var(--gris-800);
+}
+
+html[data-theme='dark'] .liste::-webkit-scrollbar-thumb {
+  border-color: var(--gris-800);
+  background: var(--gris-500);
+}
+
+html[data-theme='dark'] .lieu {
+  border-bottom-color: var(--gris-700);
+}
+
+html[data-theme='dark'] .lieuActif {
+  background: var(--gris-700);
+  box-shadow: inset 3px 0 0 var(--bleu-300);
+}
+
+html[data-theme='dark'] .lieuTitre a {
+  color: var(--white);
+}
+
+html[data-theme='dark'] .lieuEmplacement {
+  color: var(--bleu-100);
+}
+
+html[data-theme='dark'] .lieuEmplacement svg {
+  color: var(--bleu-300);
+}
+
+html[data-theme='dark'] .modele {
+  border-color: var(--gris-600);
+  background: var(--gris-700);
+  color: var(--bleu-100);
+}
+
 html[data-theme='dark'] .marker {
   border-color: var(--white);
 }
@@ -59,8 +355,30 @@ html[data-theme='dark'] .map {
   background: var(--gris-800);
 }
 
+/* Une colonne : la carte, puis la liste complète (sans défilement interne) */
+@media screen and (max-width: 996px) {
+  .disposition {
+    --hauteur-carte: 340px;
+    grid-template-columns: 1fr;
+  }
+
+  /* Liste complète sous la carte : pas de défilement interne */
+  .panneau {
+    height: auto;
+  }
+
+  .liste {
+    overflow: visible;
+  }
+
+  .panneau .indice,
+  .panneau::after {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .map {
-    height: 300px;
+  .disposition {
+    --hauteur-carte: 300px;
   }
 }

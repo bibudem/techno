@@ -5,7 +5,8 @@ import Link from '@docusaurus/Link';
 
 const atelier = (local) => (
   <>
-    <Link to="/espaces/ateliers">Atelier de fabrication</Link>, local {local}.
+    <Link to="/espaces/ateliers">Atelier de fabrication</Link>, local{' '}
+    <span style={{whiteSpace: 'nowrap'}}>{local}</span>.
   </>
 );
 

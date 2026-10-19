@@ -6,7 +6,6 @@ image: "/img/cover/impression3d.webp"
 
 import CardGrid from "@site/src/components/CardGrid";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import StudioCard from '@site/src/components/StudioCard';
 import CarteImpression3D from '@site/src/components/CarteImpression3D';
 import {bibliothequesImpression3D} from '@site/src/data/impression3d';
 
@@ -31,20 +30,6 @@ Les bibliothèques de l'Université de Montréal offrent à la communauté UdeM 
 ## Localisation
 
 <CarteImpression3D lieux={bibliothequesImpression3D} />
-
-<div className="impression3d-studiocard-grid">
-  {bibliothequesImpression3D.map((lieu) => (
-    <StudioCard
-      key={lieu.title}
-      title={lieu.title}
-      titleLink={lieu.titleLink}
-      location={lieu.location}
-      mapLink={lieu.mapLink}
-      mapText="Itinéraire Google Maps"
-      tags={lieu.tags}
-    />
-  ))}
-</div>
 
 ---
 
