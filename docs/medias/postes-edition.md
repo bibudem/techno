@@ -1,7 +1,7 @@
 ---
 id: postes-edition
 title: Postes d'édition
-description: Accédez aux postes d'édition numérique pour la création, l'édition et la publication de contenus vidéo, audio et graphiques.
+description: "Postes d'édition des bibliothèques de l'UdeM (BLSH, TGD, aménagement, mathématiques et informatique, musique) avec Adobe Creative Cloud et DaVinci Resolve Studio pour le montage."
 image: "/img/cover/edition.webp"
 help : crea
 ---

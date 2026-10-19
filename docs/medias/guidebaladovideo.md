@@ -1,10 +1,12 @@
 ---
 title: Guide d'utilisation du studio balado vidéo
-description: Guide pour la prise en main du studio balado vidéo de la Bibliothèque des lettres et sciences humaines.
+description: "Guide du studio balado vidéo de la Bibliothèque des lettres et sciences humaines (UdeM) : enregistrement sur disque dur, micros, ambiances, entretien à distance et fichiers."
 slug: /medias/guidebaladovideo
 breadcrumbs: true
 help : crea
 ---
+
+Ce guide explique comment utiliser le studio balado vidéo de la Bibliothèque des lettres et sciences humaines, de la mise en marche à la récupération de vos fichiers audio et vidéo.
 
 :::note À prévoir
 Le disque dur est fourni dans le studio. **Apportez votre ordinateur** : il vous servira à récupérer vos fichiers à la fin de la séance.

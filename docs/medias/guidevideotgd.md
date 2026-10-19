@@ -1,6 +1,6 @@
 ---
 title : Guide du studio vidéo TGD
-description : Guide d'utilisation du studio vidéo TGD
+description : "Guide du studio vidéo de la Bibliothèque Thérèse-Gouin-Décarie (UdeM) : enregistrement sur clé USB, présentation standard, tableau lumineux, fond vert et vue de haut."
 slug: /medias/guidevideotgd
 breadcrumbs: true
 help : crea
@@ -20,7 +20,7 @@ Le studio vidéo de la Bibliothèque Thérèse-Gouin-Décarie (TGD) permet de cr
 3. Sélectionner la source désirée.
 4. Au besoin, placer le mobilier (écran mobile, tableau lumineux, etc) selon les pictogrammes au sol.
 
-![IMG_2673-1920x1080.jpg](/img/docs/studiovideo1.webp)
+![Pictogrammes rouges au sol du studio indiquant l'emplacement du mobilier](/img/docs/studiovideo1.webp)
 
 5. Appuyer sur le bouton **Record** du module.
 6. Pour arrêter l'enregistrement, appuyer sur **STOP**.
@@ -55,11 +55,11 @@ Vous devez alors formater votre clé (n'oubliez pas de sauvegarder vos données 
     Attention, pour changer entre les caméras 1-2-3 et la caméra 4 : il faut choisir la bonne caméra en sélectionnant la bonne source au mur + passer du mode 1 à 2 sur le boitier switch qui se trouve dans la porte milieu du meuble, étage du haut, en fonction de la source souhaitée...
 :::
 
-![](/img/docs/meuble_TGD.jpg)
+![Meuble blanc du studio avec la porte du milieu encadrée en rouge](/img/docs/meuble_TGD.jpg)
 
 Input 1 = Caméra 4; Input 2 = Caméras 1 à 3
 
-![](/img/docs/switch_cam_TGD.jpg)
+![Boîtier switch HDMI Extron avec les boutons Inputs 1 et 2 encadrés en rouge](/img/docs/switch_cam_TGD.jpg)
 
 4 différents modes d’enregistrement sont disponibles pour créer votre vidéo. Le panneau de sélection des 4 sources se trouve au mur.
 
@@ -71,7 +71,7 @@ Input 1 = Caméra 4; Input 2 = Caméras 1 à 3
 
 #### Avec écran mobile
 
-![](/img/docs/studiovideo2.webp)
+![Exemple de présentation standard : une personne devant l'écran mobile affichant une diapositive](/img/docs/studiovideo2.webp)
 
 #### Recommandations pour les projections sur le grand écran :
 
@@ -80,13 +80,13 @@ Input 1 = Caméra 4; Input 2 = Caméras 1 à 3
 - Préférer des mots-clés
 - Utiliser un fond d’écran clair
 
-![](/img/docs/studiovideo3.webp)
+![Schéma : votre position entre le rideau noir et la caméra, écran mobile placé en biais à droite](/img/docs/studiovideo3.webp)
 
 #### Sans écran mobile
 
-![](/img/docs/studiovideo4.webp)
+![Exemple de présentation standard sans écran mobile : une personne devant le rideau noir](/img/docs/studiovideo4.webp)
 
-![](/img/docs/studiovideo5.webp)
+![Schéma : votre position entre le rideau noir et la caméra](/img/docs/studiovideo5.webp)
 
 </TabItem>
 
@@ -94,11 +94,11 @@ Input 1 = Caméra 4; Input 2 = Caméras 1 à 3
 
 ### Tableau lumineux (Source 2)
 
-![](/img/docs/studiovideo6.webp)
+![Exemple de tableau lumineux : une personne écrit au marqueur fluorescent derrière le tableau](/img/docs/studiovideo6.webp)
 
-![](/img/docs/studiovideo7.webp)
+![Schéma : votre position derrière le tableau lumineux, face à la caméra, devant le rideau noir](/img/docs/studiovideo7.webp)
 
-- Une inversion d’image est nécessaire en postproduction, grâce aux logiciels de montage Adobe Premiere Pro ou Davinci Resolve.
+- Une inversion d’image est nécessaire en postproduction, grâce aux logiciels de montage Adobe Premiere Pro ou DaVinci Resolve.
 
 :::note
 N'oubliez pas de brancher la prise électrique du tableau et de suivre les instructions indiquées sur le tableau pour l'allumer. Après l’utilisation, assurez-vous de bien nettoyer le tableau en suivant ces étapes.
@@ -119,9 +119,9 @@ N'oubliez pas de brancher la prise électrique du tableau et de suivre les instr
 
 Permet une incrustation en post-production.
 
-![](/img/docs/studiovideo8.webp)
+![Exemple d'incrustation sur fond vert : deux personnes devant un arrière-plan ajouté en post-production](/img/docs/studiovideo8.webp)
 
-![](/img/docs/studiovideo9.webp)
+![Schéma : votre position entre le fond vert et la caméra](/img/docs/studiovideo9.webp)
 
 - Ne porter aucun vêtement vert.
 - Utiliser une image de fond neutre ou générale.
@@ -133,9 +133,9 @@ Permet une incrustation en post-production.
 
 ### Le mode vue de haut (Source 4)
 
-![](/img/docs/studiovideo10.webp)
+![Exemple de vue de haut : des mains manipulent des formes géométriques sur une table noire](/img/docs/studiovideo10.webp)
 
-![](/img/docs/studiovideo11.webp)
+![Schéma : votre position derrière la table de présentation filmée par la caméra en plongée](/img/docs/studiovideo11.webp)
 
 </TabItem>
 
@@ -147,11 +147,11 @@ Permet une incrustation en post-production.
 
 Utiliser la télécommande de la caméra pour obtenir les cadrages de caméra désirés.
     
-    ![](/img/docs/studiovideo13.webp)
+    ![Télécommande de la caméra avec les boutons Zoom lent et Zoom rapide indiqués](/img/docs/studiovideo13.webp)
     
     Utilisez les boutons de la télécommande pour la **caméra du haut**.
     
- ![](/img/docs/studiovideo14.webp)
+ ![Télécommande Lumens de la caméra du haut : boutons Zoom avant, Zoom arrière et mise au point (AF) indiqués](/img/docs/studiovideo14.webp)
     
 - Un câble HDMI relié à l'écran mobile est mis à votre disposition pour diffuser des images.
 - Des fiches murales permettent de transférer des fichiers vers l’ordinateur.

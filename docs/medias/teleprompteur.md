@@ -1,6 +1,6 @@
 ---
 title: Utilisation du téléprompteur
-description: Guide pour la prise en main du téléprompteur du Studio vidéo - Bibliothèque des lettres et sciences humaines.
+description: "Guide du téléprompteur du studio vidéo de la Bibliothèque des lettres et sciences humaines (UdeM) : affichage de texte avec Camera Hub, deuxième écran et contrôleur."
 slug: /medias/teleprompteur
 breadcrumbs: true
 toc_max_heading_level: 2

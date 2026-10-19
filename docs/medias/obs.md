@@ -1,11 +1,14 @@
 ---
 title : OBS
+description: "Guide d'introduction à OBS Studio, logiciel libre et gratuit : installation, configuration, ajout de sources vidéo et audio, capture d'écran et enregistrement en MP4."
 help : crea
 ---
 
+Ce guide explique comment installer et configurer OBS Studio pour enregistrer des vidéos combinant caméra, écran et audio.
+
 ## Introduction
 
-OBS est un logiciel gratuit et libre pour enregistrer des vidéos et même diffuser sur les plateformes de diffusion en continu comme Twitch ou YouTube. Cet outil permet de mélanger différentes sources audio et vidéo et de les disposer comme bon nous semble dans un canevas. 
+OBS Studio est un logiciel gratuit et libre pour enregistrer des vidéos et même diffuser sur les plateformes de diffusion en continu comme Twitch ou YouTube. Cet outil permet de mélanger différentes sources audio et vidéo et de les disposer comme bon nous semble dans un canevas. 
 
 ### Cas d’usages {#cas-usages}
 
@@ -22,7 +25,7 @@ OBS est un logiciel gratuit et libre pour enregistrer des vidéos et même diffu
 
 ## Télécharger et installer le logiciel {#telecharger-installer}
 
-OBS est gratuit, libre et compatible avec Windows, MacOS et Linux. [Télécharger la dernière version depuis le site officiel](https://obsproject.com/fr). 
+OBS est gratuit, libre et compatible avec Windows, macOS et Linux. [Télécharger la dernière version depuis le site officiel](https://obsproject.com/fr). 
 
 ---
 
@@ -30,7 +33,7 @@ OBS est gratuit, libre et compatible avec Windows, MacOS et Linux. [Télécharge
 
 - Au premier lancement du logiciel, la fenêtre **Assistant de configuration automatique** apparaît. Sélectionner **Optimiser pour l’enregistrement, je ne diffuse pas** et cliquer sur **Suivant**.
     
-    ![](/img/docs/obs1.webp)
+    ![Assistant de configuration automatique d'OBS Studio avec l'option Optimiser pour l'enregistrement cochée](/img/docs/obs1.webp)
     
 :::note
     Si la fenêtre ne s’affiche pas au démarrage, vous pouvez lancer l’assistant en cliquant sur **Outils → Assistant de configuration automatique** dans le menu en haut.
@@ -39,13 +42,13 @@ OBS est gratuit, libre et compatible avec Windows, MacOS et Linux. [Télécharge
 
 - Dans **Paramètres vidéo**, choisir **Garder tel quel** et sélectionner **30** dans le **débit d’images (FPS)**. Cliquer sur **Suivant** puis **Appliquer les paramètres**.
     
-    ![](/img/docs/obs2.webp)
+    ![Paramètres vidéo de l'assistant : résolution Garder tel quel (1920x1080) et 30 FPS](/img/docs/obs2.webp)
     
 
 - Au lancement de l’interface, cliquer sur **Paramètres** en bas à droite.
 - Dans l’onglet **Avancé**, cocher la case **Convertir automatiquement en MP4** dans la section Enregistrement, puis sur **OK** en bas de la fenêtre.
     
-    ![](/img/docs/obs3.webp)
+    ![Section Enregistrement des paramètres avancés avec la case Convertir automatiquement en MP4 cochée](/img/docs/obs3.webp)
     
 ---
 
@@ -57,16 +60,16 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
 
 - Dans **Sources**, appuyer sur le bouton **+** pour ajouter une source au canevas.
     
-    ![](/img/docs/obs4.webp)
+    ![Panneau Sources vide d'OBS Studio avec le bouton + encerclé](/img/docs/obs4.webp)
     
 
 - Sélectionner **Périphériques de capture vidéo**.
     
-    ![](/img/docs/obs5.webp)
+    ![Menu d'ajout de source avec Périphérique de capture vidéo sélectionné](/img/docs/obs5.webp)
     
 - Sélectionner **Créer/Sélectionner une source** et choisir un nom.
     
-    ![](/img/docs/obs6.webp)
+    ![Fenêtre Créer/Sélectionner la source avec le nom Caméra saisi](/img/docs/obs6.webp)
     
 - Voici les paramètres à changer dans les propriétés :
     - **Périphériques** : Sélectionner votre caméra
@@ -74,11 +77,11 @@ Pour des raisons pratiques, l’aperçu de la webcam a été remplacé par un pe
     - **Résolution** : Choisir 1920x1080
     - **FPS** : Identique à la sortie
         
-        ![](/img/docs/obs7.webp)
+        ![Propriétés de la caméra : type de résolution Personnalisé, résolution 1920x1080, FPS identique à la sortie](/img/docs/obs7.webp)
         
 - Voici à quoi ressemblera l’interface :
     
-    ![](/img/docs/obs8.webp)
+    ![Interface d'OBS Studio avec l'aperçu de la caméra, les panneaux Sources, Mélangeur audio et Commandes](/img/docs/obs8.webp)
     
 
 ---
@@ -89,11 +92,11 @@ Par défaut, OBS capture le micro du système, c’est-à-dire que si votre PC p
 
 1. Afin de changer cela, rajouter et sélectionner votre périphérique de capture audio dans **Sources > Capture Audio (Entrée)**. 
 
-![](/img/docs/obs9.webp)
+![Propriétés de la source Micro avec un micro-casque sélectionné comme périphérique](/img/docs/obs9.webp)
 
 2. Baisser le volume dans le **Mélangeur audio** de la source **Mic/Aux** et de **Caméra** à **0** afin de ne capturer que l’entrée que vous avez choisie. 
 
-![](/img/docs/obs10.webp)
+![Mélangeur audio avec les sources Caméra et Mic/Aux baissées à zéro et la source Micro active](/img/docs/obs10.webp)
 
 ---
 
@@ -107,11 +110,11 @@ Toujours dans **Sources**, vous avez le choix de capturer tout l’écran (**Cap
 
 Dans l’onglet **Sources**, vous pouvez glisser et déposer les entrées afin de changer quelle source sera en arrière-plan ou en avant-plan. Cela fonctionne selon le même principe des calques dans Photoshop. 
 
-![](/img/docs/obs11.gif)
+![Animation : réorganisation des sources Capture d'écran, Micro et Caméra par glisser-déposer](/img/docs/obs11.gif)
 
 Vous pouvez aussi changer la taille des sources dans le canevas en utilisant les petites poignées carrées autour des images.
 
-![](/img/docs/obs12.gif)
+![Animation : redimensionnement d'une source dans le canevas avec les poignées rouges](/img/docs/obs12.gif)
 
 ---
 

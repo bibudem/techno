@@ -1,5 +1,6 @@
 ---
 title : Audacity
+description: "Les bases du montage audio avec Audacity, logiciel libre : importation, réduction du bruit, découpage, fondus et ajout de musiques ou d'effets sonores libres de droits."
 help : crea
 ---
 
@@ -36,7 +37,7 @@ Utiliser l’outil de Zoom avant et arrière (les loupes avec un + et un -) pour
 Audacity permet d’éliminer le bruit ambiant (par exemple, la ventilation) en quelques clics.
 
 1. Sélectionner la partie vide afin de capturer l’ambiance de la pièce.
-   ![](/img/docs/audacity1.webp)
+   ![Piste Stereo Mix dans Audacity avec une zone sans voix sélectionnée au début](/img/docs/audacity1.webp)
 2. Aller à Effets > Réduction de bruit. Une fenêtre s’ouvrira. Changer les valeurs comme ci-dessous :
    ![Fenêtre de la réduction de bruit](/img/docs/audacity1.webp)
 3. Avant d’appliquer la réduction de bruit, le logiciel a besoin d’analyser le bruit ambiant seulement, d’où l’intérêt de sélectionner seulement la zone sans voix. Cliquer sur **Prendre le profil du bruit**.
@@ -53,7 +54,7 @@ Le bruit ambiant devrait disparaitre. Si le bruit persiste, vous pouvez répéte
 1. Commencer par (ré)écouter votre enregistrement.
 2. Si souhaité, découper votre piste en différentes sections pour faciliter le repérage. Pour ce faire, utiliser l’outil de sélection, placer votre curseur à l’endroit sur la piste où vous voulez faire une séparation, puis faire un clic droit et sélectionner **Split Clip**. Donner un nom significatif aux sections en double cliquant sur leur titre.
 
-![](/img/docs/audacity4.webp)
+![Piste découpée en sections nommées avec le menu contextuel ouvert sur Split Clip](/img/docs/audacity4.webp)
 
 3. Déterminer quelles sections seront supprimées ou déplacées, ou si d’autres éléments seront insérés entre certaines parties.
 4. Au besoin, créer une nouvelle piste temporaire où stocker les portions à déplacer. Pour ce faire, aller dans le menu **Pistes** → **Ajouter nouvelle** → **Piste stéréo**.
@@ -71,7 +72,7 @@ Le bruit ambiant devrait disparaitre. Si le bruit persiste, vous pouvez répéte
 - Pour couper une portion sans la supprimer (par exemple, pour la placer ailleurs), sélectionner plutôt **Split Clip** lorsque en faisant votre clic droit sur la sélection. Si vous avez créé une piste provisoire, vous pouvez y glisser votre portion nouvellement obtenue en attendant de lui trouver le bon emplacement dans la piste principale.
 - Une fois que le travail d’édition de votre piste principale est terminé, supprimer votre piste provisoire (si vous en aviez créé une), en cliquant sur le x en haut à gauche de la piste.
 
-![](/img/docs/audacity3.webp)
+![Piste vide dans Audacity avec le bouton x de fermeture encerclé en haut à gauche](/img/docs/audacity3.webp)
 
 ### Ajouter des fondus
 

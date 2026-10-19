@@ -1,8 +1,11 @@
 ---
 title : Guide d’utilisation de la tablette graphique Kamvas 13
+description: "Guide de la tablette graphique Huion Kamvas 13, empruntable à la Bibliothèque de mathématiques et informatique (UdeM) : branchement, pilotes et configuration."
 ---
 
-## introduction
+Ce guide explique comment brancher, installer et configurer la tablette graphique Huion Kamvas 13 offerte en prêt par les bibliothèques de l'UdeM.
+
+## Introduction
 
 La tablette graphique est un outil de remplacement de la souris d’ordinateur. Elle facilite le mouvement du curseur, offre une meilleure précision et une fonctionnalité unique de l’usage de la pression. Il est possible d’utiliser des logiciels directement sur la tablette. 
 
@@ -17,15 +20,15 @@ Vous voulez emprunter la tablette graphique? Vérifiez-en la disponibilité dans
 
 ## Présentation de l’équipement {#presentation-equipement}
 
-![materiel.png](/img/docs/tab-materiel.webp)
+![Matériel fourni : tablette, câble 3 en 1, câbles USB-C, USB-C à USB-A, extension USB-A, support, stylet et porte-stylet](/img/docs/tab-materiel.webp)
 
 ### Présentation des fonctions de la tablette {#presentation-fonctions-tablette}
 
-![Sans-titre-2023-04-21-1459.png](/img/docs/tab-tab.webp)
+![Schéma de la tablette : bouton d'alimentation, touches K1 à K8 et zone de travail](/img/docs/tab-tab.webp)
 
 ### Présentation des fonctions du stylet {#presentation-fonctions-stylet}
 
-![stylo_num.png](/img/docs/tab-stylo_num.webp)
+![Schéma du stylet numérique : pointe et deux boutons latéraux](/img/docs/tab-stylo_num.webp)
 
 ---
 
@@ -33,13 +36,13 @@ Vous voulez emprunter la tablette graphique? Vérifiez-en la disponibilité dans
 
 [Branchement avec ordinateur](https://support.huion.com/en/support/solutions/articles/44001928444-kamvas-13-cable-connections)
 
-![image.png](/img/docs/tab-image.webp)
+![Schéma : tablette reliée à l'ordinateur par le câble 3 en 1 (USB-C vers deux USB-A et HDMI)](/img/docs/tab-image.webp)
 
 ---
 
 [Branchement avec appareil portable](https://support.huion.com/en/support/solutions/articles/44002011028-how-do-i-connect-the-huion-kamvas-12-13-16-2021-to-my-phone-)
 
-![tablette_co.png](/img/docs/tab-tablette_co.webp)
+![Schéma : tablette reliée en USB-C à un portable, un téléphone ou une tablette, alimentée par un câble USB-C à USB-A](/img/docs/tab-tablette_co.webp)
 
 ---
 
@@ -69,17 +72,17 @@ Vous voulez emprunter la tablette graphique? Vérifiez-en la disponibilité dans
 
 ### Personnaliser les raccourcis sur les touches de la tablette
 
-![configTouch.png](/img/docs/tab-configTouch.webp)
+![Logiciel HuionTablet, onglet Écran à stylet : touches de la tablette encadrées en rouge](/img/docs/tab-configTouch.webp)
 
-![configTouch2.png](/img/docs/tab-configTouch2.webp)
+![Fenêtre de sélection d'une fonction pour la touche choisie, avec saisie d'une combinaison de touches](/img/docs/tab-configTouch2.webp)
 
 ### Configuration de l’espace de travail {#configuration-espace-travail}
 
-![ecran-2.png](/img/docs/tab-ecran-2.webp)
+![Logiciel HuionTablet : onglet Écran à stylet (1) puis Espace de travail (2) encadrés en rouge](/img/docs/tab-ecran-2.webp)
 
 **Choisir votre espace de travail**
 
-![ecran.png](/img/docs/tab-ecran.webp)
+![Espace de travail : choix entre Écran 1, Écran 2 et Écran de la tablette](/img/docs/tab-ecran.webp)
 
 L’espace de travail consiste à définir la relation entre le mouvement du stylet sur l'appareil et le mouvement du curseur sur l'écran du moniteur choisi.
 
@@ -89,9 +92,9 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ### Personnaliser les raccourcis des boutons du stylet numérique {#personnaliser-raccourcis-stylet}
 
-![stylet.png](/img/docs/tab-stylet.webp)
+![Onglet Stylet numérique (1), Appuyez sur la touche (2) et boutons du stylet (3) encadrés en rouge](/img/docs/tab-stylet.webp)
 
-![stylet2.png](/img/docs/tab-stylet2.webp)
+![Fenêtre de sélection d'une fonction pour un bouton du stylet, avec Touche de la souris cochée](/img/docs/tab-stylet2.webp)
 
 ---
 
@@ -99,9 +102,9 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 [Pour plus d’information sur le réglage](https://www.huion.com/fr/index.php?m=content&c=index&a=manual&id=490)
 
-![pression.png](/img/docs/tab-pression.webp)
+![Onglet Stylet numérique (1) puis Réglage de la sensibilité à la pression (2) encadrés en rouge](/img/docs/tab-pression.webp)
 
-![oui2.png](/img/docs/tab-oui2.webp)
+![Réglage de la pression : courbe de sensibilité (1), réglages prédéfinis Doux à Dur (2) et zone de test (3)](/img/docs/tab-oui2.webp)
 
 **1)** Tableau de personnalisation de la sensibilité à la pression. 
 
@@ -113,7 +116,7 @@ Pour avoir le logiciel sur votre tablette, déplacer la fenêtre du logiciel à 
 
 ### Importer et exporter les paramètres {#importer-exporter-parametres}
 
-![sauvConfig.png](/img/docs/tab-sauvConfig.webp)
+![Paramètres (1), section Sauvegarde (2) et boutons Exporter et Importer (3) encadrés en rouge](/img/docs/tab-sauvConfig.webp)
 
 :::warning
 L’ordinateur de l’atelier fait une réinitialisation tous les jours. Il est important d’exporter votre fichier de configuration dans un espace infonuagique ou sur une mémoire externe.
@@ -129,7 +132,7 @@ Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plu
 
 ### Méthode 1 : Directement avec la tablette graphique {#directement-tablette-graphique}
 
-![OSD.png](/img/docs/tab-OSD.webp)
+![Schéma de la tablette : bouton d'alimentation et touches K2 Auto, K3 Menu, K6 + et K7 -](/img/docs/tab-OSD.webp)
 
 **K2 [AUTO]** : Appuyer pour le retour au menu précédent.
 
@@ -157,6 +160,6 @@ Il est conseillé d’utiliser la première méthode. On y retrouve beaucoup plu
 
 ### Méthode 2 : Directement avec l’application de la tablette graphique {#application-tablette-graphique}
 
-![image-1.png](/img/docs/tab-image-1.webp)
+![Paramètres (1), section Dispositif (2) et bouton Paramétrage de l'écran (3) encadrés en rouge](/img/docs/tab-image-1.webp)
 
-![image-2.png](/img/docs/tab-image-2.webp)
+![Fenêtre de paramétrage de l'écran : mode scène, luminosité, contraste et température de couleur](/img/docs/tab-image-2.webp)

@@ -1,6 +1,6 @@
 ---
 title: Guide du studio vidéo LSH
-description: Guide pour la prise en main du studio vidéo de la Bibliothèque des lettres et sciences humaines.
+description: "Guide du studio vidéo de la Bibliothèque des lettres et sciences humaines (UdeM) : enregistrement sur disque dur, modes de présentation, fond vert et entretien à distance."
 slug: /medias/guidevideolsh
 breadcrumbs: true
 toc_max_heading_level: 2
@@ -14,6 +14,8 @@ import Link from '@docusaurus/Link';
 <Link to="/medias/teleprompteur" className="button button--secondary">
   Guide du téléprompteur
 </Link>
+
+Ce guide explique comment utiliser le studio vidéo de la Bibliothèque des lettres et sciences humaines (BLSH) : préparer l'enregistrement, choisir un mode de présentation et récupérer vos fichiers.
 
 ## Avant l’enregistrement {#avant-enregistrement}
 1. Brancher le disque dur au câble identifié **Enregistrement disque dur**.

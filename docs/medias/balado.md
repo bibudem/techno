@@ -1,5 +1,6 @@
 ---
 title: Baladodiffusion
+description: "Guide de la baladodiffusion des bibliothèques de l'UdeM : studios balado audio et vidéo, formation, prêt d'équipement, montage avec Audacity et diffusion."
 help : crea
 image: "/img/cover/balado.webp"
 ---

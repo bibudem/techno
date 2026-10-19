@@ -1,5 +1,6 @@
 ---
 title: RODECaster Pro II
+description: "Guide de prise en main de la console RODECaster Pro II des bibliothèques de l'UdeM : niveaux des micros et casques, enregistrement et transfert des fichiers WAV."
 help : crea
 ---
 import Link from '@docusaurus/Link';
@@ -17,16 +18,16 @@ Ce guide vous permet une première prise en main de la console d’enregistremen
 ## 1. Mise en marche
 
 Allumer la console avec le bouton rouge qui se trouve derrière.
-![Studio audio](/img/docs/rode2-1.webp)
+![Bouton d'alimentation rouge à l'arrière de la console RODECaster Pro II](/img/docs/rode2-1.webp)
 
 ## 2. Niveau d’enregistrement et volume des casques d’écoute {#niveau-enregistrement-volume-casques} 
 
 1 - Ajuster le niveau d’enregistrement selon les micros utilisés environ à la mi-course de la glissière (les micros sont identifiés ainsi : MIC #1, MIC #2, etc.)
-    ![Studio audio](/img/docs/rode2-2.webp)
+    ![Glissières (faders) des micros sur la console RODECaster Pro II](/img/docs/rode2-2.webp)
 2 - Ajuster le volume des casques d’écoute de chaque personne (Les casques sont identifiés ainsi : Casque #1, Casque #2, etc.)
-    ![Studio audio](/img/docs/rode2-3.webp)
+    ![Boutons rotatifs de volume des casques d'écoute numérotés 1 à 4 sur la console](/img/docs/rode2-3.webp)
 3 - Parler face au micro et observer le niveau sonore qui s’affiche à l’écran. Ajuster légèrement le niveau d’enregistrement jusqu’à avoir des pics autour de -15db. Le micro doit être à une distance d’au plus 10 cm.
-    ![Studio audio](/img/docs/rode2-4.webp)
+    ![Écran de la console affichant le niveau sonore de chaque micro](/img/docs/rode2-4.webp)
 4 - Régler maintenant le volume des casques d’écoute selon le confort de chaque personne.
 
 :::warning "Attention"
@@ -39,8 +40,8 @@ L’enregistrement se fait directement sur la console, pas besoin de la brancher
 
 Le nombre d’heures d’enregistrement disponible est indiqué en haut de l’écran. Si l’espace n’est pas suffisant, formater la mémoire en appuyant sur l’icône de la carte SD en haut de l’écran.
 
-    ![Studio audio](/img/docs/rode2-5.webp)
-    ![Studio audio](/img/docs/rode2-6.webp)
+    ![Écran de la console avec l'icône de la carte SD et le temps d'enregistrement restant en haut](/img/docs/rode2-5.webp)
+    ![Écran Stockage de la console : espace restant sur la carte microSD et boutons Effacer et En mode transfert](/img/docs/rode2-6.webp)
 
 ## 4. Connecter un périphérique Bluetooth ou USB {#connecter-peripherique-bluetooth-usb}
 
@@ -63,7 +64,7 @@ Brancher le câble USB à votre ordinateur. Lors de votre appel en visioconfére
 - Pensez à apporter de l’eau pour chaque personne.
 
 ## 6. Lancer l’enregistrement {#lancer-enregistrement}
-![Studio audio](/img/docs/rode2-7.webp)
+![Bouton REC de la console RODECaster Pro II](/img/docs/rode2-7.webp)
 Pour lancer ou arrêter l’enregistrement, appuyer sur le bouton REC. Il n’est pas nécessaire d’arrêter l’enregistrement si vous voulez reprendre une partie, il vaut mieux avoir un seul fichier à traiter par la suite que plusieurs.
 
 ## 7. Transfert des enregistrements
@@ -85,7 +86,7 @@ Faire l’exportation immédiatement après l’enregistrement. Les bibliothèqu
 
 
     1. Au lancement du logiciel, cliquer sur **Transfer Recordings**. La console va passer en mode transfert. Cliquer sur **Continue**.
-![Studio audio](/img/docs/rode2-8-1.webp)
+![RODECaster App : fenêtre de passage en mode transfert avec le bouton Continue](/img/docs/rode2-8-1.webp)
         
     2. Sélectionner l’enregistrement à transférer et suivre ces paramètres :
         - Custom
@@ -93,7 +94,7 @@ Faire l’exportation immédiatement après l’enregistrement. Les bibliothèqu
         - Sample Rate : **48 kHz**
         - Bit Depth : **24 bits PCM**
         - Loudness : **-16 LuFs**
-![Studio audio](/img/docs/rode2-8-2.webp)
+![RODECaster App : enregistrement sélectionné avec les paramètres WAV, 48 kHz, 24 bits PCM et -16 LuFs](/img/docs/rode2-8-2.webp)
 
 
 --------------

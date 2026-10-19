@@ -1,5 +1,6 @@
 ---
 title : Productions médias
+description: "Studios balado et vidéo, postes d'édition et guides des bibliothèques de l'UdeM pour la production audio, vidéo et l'infographie (Audacity, OBS Studio, téléprompteur, tablette graphique)."
 retroaction : false
 ---
 
@@ -8,6 +9,8 @@ import CardGrid from "@site/src/components/CardGrid";
 import HideLastUpdated from '@site/src/components/HideLastUpdated';
 
 <HideLastUpdated/>
+
+Les bibliothèques de l'Université de Montréal offrent des studios, des postes d'édition et des guides d'utilisation pour réaliser vos productions audio, vidéo et graphiques.
 
 ## Espaces
 
