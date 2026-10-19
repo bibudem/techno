@@ -1,0 +1,16 @@
+# studio·bib — Bibliothèques de l'Université de Montréal
+# https://studio.bib.umontreal.ca
+#
+# Le contenu public de ce site peut être exploré, indexé et cité par les moteurs
+# de recherche et les assistants d'IA (GPTBot, ChatGPT-User, OAI-SearchBot,
+# ClaudeBot, Claude-User, Claude-SearchBot, PerplexityBot, Google-Extended,
+# Applebot-Extended, CCBot…). Seules les pages techniques sont exclues.
+# Présentation du site pour les IA : https://studio.bib.umontreal.ca/llms.txt
+
+User-agent: *
+Allow: /
+Disallow: /dev/
+Disallow: /forms/
+Disallow: /qrcode
+
+Sitemap: https://studio.bib.umontreal.ca/sitemap.xml
