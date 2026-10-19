@@ -1,26 +1,5 @@
 import { themes as prismThemes } from 'prism-react-renderer'
 
-function disableIncompatibleWebpackbar() {
-  return {
-    name: 'disable-incompatible-webpackbar',
-    configureWebpack(config, isServer, { currentBundler }) {
-      if (currentBundler.name !== 'webpack') {
-        return {}
-      }
-
-      const plugins = (config.plugins ?? []).filter(
-        (plugin) => plugin?.constructor?.name !== 'WebpackBarPlugin',
-      )
-
-      return {
-        mergeStrategy: { plugins: 'replace' },
-        plugins,
-      }
-    },
-  }
-}
-
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 
@@ -47,10 +26,16 @@ const config = {
     locales: ['fr'],
   },
   
-  // future: {
-  //   v4: true, 
-  //   faster: true, 
-  // },
+  // Build plus rapide : Rspack, SWC et Lightning CSS (paquet @docusaurus/faster).
+  // v4 n'est pas activé en bloc : il renommerait les clés du localStorage (thème
+  // des visiteurs, outil d'accessibilité). Seule l'option exigée par la génération
+  // parallèle des pages est activée (aucun plugin du site n'utilise ce `head`).
+  future: {
+    faster: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+    },
+  },
 
   themes: [
     [
@@ -69,7 +54,6 @@ const config = {
     ],
   ],
   plugins: [
-    disableIncompatibleWebpackbar,
     [
       '@docusaurus/plugin-client-redirects',
       {
