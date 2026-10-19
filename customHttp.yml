@@ -1,0 +1,12 @@
+# En-têtes HTTP personnalisés pour AWS Amplify (lus à chaque déploiement).
+# Sans « charset=utf-8 », les navigateurs lisent les fichiers texte en
+# Windows-1252 et les accents s'affichent mal (« Ã© » au lieu de « é »).
+customHeaders:
+  - pattern: '**/*.txt'
+    headers:
+      - key: 'Content-Type'
+        value: 'text/plain; charset=utf-8'
+  - pattern: '**/*.md'
+    headers:
+      - key: 'Content-Type'
+        value: 'text/markdown; charset=utf-8'
