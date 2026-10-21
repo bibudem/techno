@@ -22,7 +22,9 @@ Tout d’abord, il faut choisir une image! Dans ce guide l’image source provie
 
 2.1. [Télécharger](https://design.cricut.com/) et lancer le logiciel **Cricut Design Space**.
 
+Choisir la machine Cricut Maker tm dans la liste de recherche
 
+![Choisir Cricut Maker tm](/img/docs/telecharger_logiciel_cricut.jpg)
 
 2.2. Créer un  **ID Cricut** pour utiliser l’appareil, remplir le formulaire et appuyer sur **Créer un ID Cricut**. Un courriel de confirmation sera envoyé.
 
