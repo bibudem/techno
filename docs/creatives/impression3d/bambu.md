@@ -254,6 +254,10 @@ En cas d'utilisation d'un modèle en ligne de Bambu Studio, assurez-vous de sél
     N’utilisez jamais de bobine d’une autre marque dans les imprimantes Bambu Lab, et assurez-vous que le filament est bien sec avant de l’utiliser.
 :::
 
+:::note X2D
+Pour changer la bobine située hors de l'AMS, merci de demander à nos équipes sur place.
+:::
+
 ### Bobine Bambu Lab avec puce RFID
 
 La bobine de chez Bambu Lab et équipée d’une puce RFID, l’imprimante reconnaîtra automatiquement le filament inséré (matière, couleur, etc.) après le chargement dans l'AMS.
@@ -276,10 +280,6 @@ Retirer la bobine de filament de l'un des quatres compartiments.
 ![Changer une bobine ](/img/docs/filament-bambu3.webp)
 
 #### Ranger la bobine de filament
-
-:::note X2D
-Pour changer la bobine située hors de l'AMS, merci de demander à nos équipes sur place.
-:::
 
 Bloquer le bout du filament dans l'un des trous de la bobine pour éviter les noeuds ou que le filament se déroule. Ranger le tout dans son sac sous vide.
 
