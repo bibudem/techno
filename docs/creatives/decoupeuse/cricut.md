@@ -20,7 +20,9 @@ Tout d’abord, il faut choisir une image! Dans ce guide l’image source provie
 
 ### 2. Cricut Design Space
 
-2.1. Lancer le logiciel **Cricut Design Space**. 
+2.1. [Télécharger](https://design.cricut.com/) et lancer le logiciel **Cricut Design Space**.
+
+
 
 2.2. Créer un  **ID Cricut** pour utiliser l’appareil, remplir le formulaire et appuyer sur **Créer un ID Cricut**. Un courriel de confirmation sera envoyé.
 
