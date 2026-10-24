@@ -5,3 +5,5 @@ Site web one-page pour le Processing Community Day (PCD_MTL26), organisé
 
 Aucune installation ni build n'est nécessaire : c'est du HTML/CSS/JS statique.
 p5.js et les polices (Figtree, JetBrains Mono) sont chargés depuis des CDN.
+
+Le code écrit pendant la journée est archivé sur ce repo et sur openprocessing: https://openprocessing.org/class/108017#/
