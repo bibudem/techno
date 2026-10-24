@@ -44,5 +44,4 @@ function vera() {
             )
         }
     }
-
 }
