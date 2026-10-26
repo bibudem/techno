@@ -10,6 +10,7 @@ import StudioCard from '@site/src/components/StudioCard';
 import ParcoursReservation from '@site/src/components/ParcoursReservation';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
+import Pano360 from '@site/src/components/Pano360';
 
 <img 
   src={useBaseUrl(frontMatter.image)} 
@@ -77,6 +78,17 @@ Le studio est équipé d’un système intégré conçu pour faciliter la produc
 ## Accès {#acces}
 
 Seuls les membres de la communauté UdeM peuvent réserver le studio vidéo et accéder aux services de consultation et de soutien technique.
+
+---
+
+## Visite virtuelle
+
+<Pano360
+  image="/img/pano/studiovideolsh.webp"
+  legende="Vue en 360° du Studio vidéo LSH"
+  title="Studio vidéo LSH"
+  alt="Vue en 360° du Studio vidéo LSH"
+/>
 
 ---
 
