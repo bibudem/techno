@@ -629,6 +629,18 @@ h2{
 }
 .btn:hover{background:var(--ink);color:var(--bg);transform:translateY(-2px);}
 .btn.large{padding:18px 44px;font-size:1rem;margin:24px 0 16px;}
+.btn.is-disabled,
+.btn.is-disabled:hover{background:var(--line);color:var(--ink-soft);transform:none;cursor:not-allowed;}
+
+/* RECAP */
+.recap-photo{margin:48px 0 0;}
+.recap-photo img{display:block;width:100%;height:auto;border-radius:2px;}
+.recap-photo figcaption{
+  margin-top:12px;
+  font-family:var(--mono);
+  font-size:0.85rem;
+  color:var(--ink-soft);
+}
 .external-icon{width:0.95em;height:0.95em;flex-shrink:0;}
 
 .fine-print{
