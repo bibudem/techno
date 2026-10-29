@@ -1,6 +1,7 @@
 ---
 title: Elegoo Saturn 3 Ultra 12K
 description: "Guide de l'imprimante à résine Elegoo Saturn 3 Ultra 12K de la bibliothèque Thérèse-Gouin-Décarie : préparation avec CHITUBOX, impression et nettoyage."
+published: false
 ---
 
 # Imprimante à résine Elegoo Saturn 3 Ultra 12K
