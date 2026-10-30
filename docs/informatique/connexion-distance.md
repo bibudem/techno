@@ -36,7 +36,7 @@ Les bibliothèques offrent à la **communauté étudiante de l'UdeM** la possibi
 - [Procédure à suivre avant la connexion](#procedure-de-connexion).
 - Membre de la communauté étudiante avec un statut employé? [Suivre cette procédure](#etudiants-statut-employe).
 - Inactivité : Votre session se ferme automatiquement après 15 minutes.
-- Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documents dans votre espace de stockage infonuagique OneDrive ou vous les expédier par courriel, car **les fichiers oubliés seront supprimés automatiquement après 24h** du dernier branchement.
+- Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documents dans votre espace de stockage infonuagique [OneDrive](../informatique/logiciels/onedrive.md) ou vous les expédier par courriel, car **les fichiers oubliés seront supprimés automatiquement après 24h** du dernier branchement.
 - Déconnexion : Déconnectez-vous dès que vous avez terminé pour libérer le poste.
 
 ---
@@ -152,12 +152,6 @@ Certains postes à distance sont temporairement inaccessibles en raison d’une 
 
 1. Se connecter au **VPN UdeM Campus**
 2. Sélectionner un **[poste actuellement disponible](../informatique/connexion-distance#postes-actuellement-disponibles)**.
-
-:::warning Attention
-Veuillez noter que votre session sera fermée automatiquement après 15 minutes d’inactivité.
-
-Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documents dans votre espace de stockage infonuagique OneDrive ou vous les expédier par courriel, car **les fichiers oubliés seront supprimés automatiquement après 24h** du dernier branchement.
-:::
 
 ---
 
