@@ -95,17 +95,17 @@ De la documentation est disponible pour vous aider à utiliser les imprimantes 3
       icon: "",
       petit : true,
     },
+
+  ]}
+/>
+<!-- 
     {
       title: "Elegoo Saturn 3 Ultra 12K",
       description: "",
       link: "/creatives/impression3d/saturn",
       icon: "",
       petit : true,
-    },
-  ]}
-/>
-
-
+    }, -->
 ---
 
 ## Formations et soutien

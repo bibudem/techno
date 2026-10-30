@@ -249,7 +249,7 @@ const sidebars = {
                 "creatives/impression3d/bambu",
                 "creatives/impression3d/prusa",
                 "creatives/impression3d/ultimaker",
-                "creatives/impression3d/saturn",
+                // "creatives/impression3d/saturn",
                 // "creatives/impression3d/techniques",
               ]
             
