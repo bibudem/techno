@@ -101,7 +101,7 @@ Le poste donne également accès à la version complète de DaVinci Resolve Stud
 
 ---
 
-## Postes à distance {#postes-distance}
+## Logiciels à distance {#logiciels-distance}
 
 Vous pouvez vous connecter à [un de nos postes à distance](../informatique/connexion-distance.md) équipés de la suite **Adobe Creative Cloud**.
 

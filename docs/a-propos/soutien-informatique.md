@@ -16,7 +16,7 @@ import { HoraireSemaine } from '@site/src/components/HoraireSoutienInfo';
 Discutez avec un technicien en soutien informatique [**par clavardage**](#clavardage) ou [**sur place**](https://bib.umontreal.ca/espaces/#lsh) à la Bibliothèque des lettres et sciences humaines (BLSH).
 
 ## Exemples d’aide offerte
-- Configuration du proxy pour accéder aux ressources UdeM hors campus  
+- Configuration du proxy et du VPN pour accéder aux ressources UdeM hors campus 
 - Installation de logiciels (Zotero, EndNote, Office 365, SPSS, QDA Miner, etc.)  
 - Aide Word (modèle de thèse), PowerPoint, etc.  
 - Conversion de documents en PDF  
