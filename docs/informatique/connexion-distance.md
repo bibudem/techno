@@ -171,6 +171,3 @@ Sauvegarde : À la fin de votre session, assurez-vous de sauvegarder vos documen
 1. Se connecter au **UdeM Lab. enseignement**.
 2.  Cliquer sur un poste actuellement disponible.
 
-:::warning Attention
-Il est actuellement impossible pour les personnes utilisant macOS de se connecter à distance aux postes publics des bibliothèques à partir du réseau du personnel. Cela inclut les postes des membres du personnel sur le campus et les accès par VPN avec un compte employé. Les étudiants et étudiantes avec statut d’employé doivent se déconnecter de VPN UdeM Campus et sélectionner la connexion **UdeM Lab. enseignement*. Voir la procédure « Étudiants avec statut d’employé » en dernière page de la marche à suivre.
-:::
