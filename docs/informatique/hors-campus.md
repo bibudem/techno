@@ -30,16 +30,14 @@ L'accès à ces ressources est possible avec un ordinateur du campus, avec vos a
 
 - Être membre actif de la communauté UdeM (étudiant ou employé)
 - [Avoir ses informations d'authentification.](../informatique/authentification.md)
-
-:::note Préalables
-Avant toute démarche, il est recommandé de consulter [les règles en vigueur concernant l’inactivation des services informatiques](https://wiki.umontreal.ca/spaces/SIE/pages/150507251/R%C3%A8gles+d+inactivation+des+services) de l’Université de Montréal, incluant les délais de retrait automatique.
-:::
+- Avant toute démarche, il est recommandé de consulter [les règles en vigueur concernant l’inactivation des services informatiques](https://wiki.umontreal.ca/spaces/SIE/pages/150507251/R%C3%A8gles+d+inactivation+des+services) de l’Université de Montréal, incluant les délais de retrait automatique.
 
 import CardGrid from "@site/src/components/CardGrid";
 
-<CardGrid headingLevel={3}
+<CardGrid headingLevel={3} empile
   items={[
     {
+      mention: "Méthode recommandée",
       title: "Configurer le serveur mandataire (proxy)",
       description: "Configurez votre accès au serveur mandataire pour accéder aux ressources électroniques.",
       link: "/informatique/proxy",
