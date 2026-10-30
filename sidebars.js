@@ -107,7 +107,11 @@ const sidebars = {
           link: { type: 'doc', id: 'informatique/hors-campus' }, 
           collapsed: true, 
           items: [
-            "informatique/proxy",
+            {
+              type: 'doc',
+              id: 'informatique/proxy',
+              className: 'sidebar-recommande',
+            },
             "informatique/vpn",
           ],
         },
