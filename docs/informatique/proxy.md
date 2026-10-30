@@ -20,7 +20,7 @@ export function HideForIOS({children}) {
 
 # Configurer le serveur mandataire (proxy)
 
-Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électroniques des bibliothèques à l'extérieur du campus. Sur iPhone et iPad, utilisez plutôt le [VPN](/informatique/vpn).
+Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électroniques des bibliothèques à l'extérieur du campus.
 
 ## Étape 1 - Configurer selon votre système d'exploitation {#selectionner-votre-systeme-d-exploitation}
 
@@ -102,7 +102,7 @@ Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électr
   
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs (anciens)">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur Mac, veuillez utiliser Chrome, Firefox, Edge ou Brave plutôt que Safari.
+    Apple limite la compatibilité de Safari avec notre proxy. Sur macOS, veuillez utiliser Chrome, Firefox, Edge ou Brave plutôt que Safari.
     :::
         1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.  
         2. Cliquer **Préférences réseau**. Si un cadenas fermé s’affiche, cliquer pour le débloquer avec le mot de passe administrateur.  
@@ -134,7 +134,7 @@ Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électr
 
   <TabItem value="iOS" label="iOS et iPadOS">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) plutôt que le Proxy.
+    Apple limite la compatibilité de Safari avec notre proxy. Sur iPhone et iPad, veuillez utiliser le [VPN](https://studio.bib.umontreal.ca/informatique/vpn) plutôt que le Proxy.
     :::
   </TabItem>
 
