@@ -92,7 +92,8 @@ const iconMap = {
 };
 
 // headingLevel : niveau des titres des cartes, selon la place de la grille dans la page
-export default function CardGrid({items = [], headingLevel = 2}) {
+// empile : cartes l'une par-dessus l'autre, sur une seule colonne
+export default function CardGrid({items = [], headingLevel = 2, empile = false}) {
   const gridId = useId();
   const Titre = `h${headingLevel}`;
 
@@ -101,7 +102,7 @@ export default function CardGrid({items = [], headingLevel = 2}) {
   }
 
   return (
-    <div className={styles.grid} role="list">
+    <div className={clsx(styles.grid, empile && styles.empile)} role="list">
       {items.map((item, idx) => {
         const Icon = iconMap[item.icon];
         const hasImage = Boolean(item.image);
@@ -116,7 +117,7 @@ export default function CardGrid({items = [], headingLevel = 2}) {
           <article key={`${item.link || idx}-${idx}`} role="listitem" className={styles.item}>
             <Link
               {...getLinkProps(item.link)}
-              className={clsx(styles.card, item.petit && styles.petit, !hasImage && styles.cardNoImage)}
+              className={clsx(styles.card, item.petit && styles.petit, !hasImage && styles.cardNoImage, item.mention && styles.misEnAvant)}
               data-ignore-external="true"
               aria-labelledby={titleId}
               aria-describedby={hasDescription ? descId : undefined}>
@@ -145,7 +146,9 @@ export default function CardGrid({items = [], headingLevel = 2}) {
                   </span>
                 )}
                 <Titre id={titleId} className={styles.title}>
+                  {/* Dans le titre pour faire partie du nom accessible du lien */}
                   {item.title}
+                  {item.mention && <span className={styles.mention}>{item.mention}</span>}
                 </Titre>
                 {hasDescription && (
                   <p id={descId} className={styles.description}>

@@ -5,6 +5,10 @@
   align-items: stretch;
 }
 
+.empile {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .item {
   height: 100%;
 }
@@ -139,6 +143,22 @@
   font-weight: 600;
 }
 
+.mention {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--bleu-700);
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+:global(html[data-theme='dark']) .mention {
+  background: var(--gris-700);
+  color: var(--bleu-200);
+}
+
 .description {
   margin: 0;
   line-height: 1.5;
@@ -204,6 +224,20 @@
 :global(html[data-theme='dark']) .card:hover {
   border-color: var(--bleu-300);
   box-shadow: 0 14px 24px rgba(0, 0, 0, 0.4);
+}
+
+.misEnAvant {
+  background: var(--bleu-100);
+  border-color: var(--bleu-300);
+}
+
+.misEnAvant:hover {
+  border-color: var(--bleu-400);
+}
+
+:global(html[data-theme='dark']) .misEnAvant {
+  background: var(--bleu-700);
+  border-color: var(--bleu-400);
 }
 
 :global(html[data-theme='dark']) .media {
