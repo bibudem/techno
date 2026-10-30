@@ -1,10 +1,10 @@
 ---
 title : Cisco Secure Client (VPN)
-description : Cisco Secure Client (VPN) donne accès à l'intranet et aux ressources électroniques des bibliothèques UdeM. Installé sur leurs ordinateurs et installable sur un ordinateur personnel.
+description : Cisco Secure Client (VPN) donne accès à l'intranet et à la connexion à distance à nos logiciels. Installé sur leurs ordinateurs et installable sur un ordinateur personnel.
 help : info
 ---
 
-Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
+Le VPN permet d’accéder aux ressources de l’intranet universitaire et à la connexion à distance à nos logiciels. Sur iPhone et iPad, il donne aussi accès aux ressources électroniques des bibliothèques. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
 ---
 

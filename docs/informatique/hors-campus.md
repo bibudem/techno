@@ -1,6 +1,6 @@
 ---
 title: Accès hors campus
-description: Accès hors campus aux ressources électroniques des bibliothèques de l'UdeM (périodiques, bases de données) avec le serveur mandataire (proxy) ou le VPN, pour la communauté UdeM.
+description: Accès hors campus aux ressources électroniques des bibliothèques de l'UdeM (périodiques, bases de données) à l'aide du serveur mandataire (proxy), pour la communauté UdeM.
 hide_table_of_contents: false
 image: "/img/cover/horscampus.webp"
 ---
@@ -24,7 +24,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 La majorité des ressources électroniques (périodiques, bases de données et données numériques) offertes par les bibliothèques de l'UdeM consistent en des abonnements payants régis par des contrats de licences et dont l'utilisation est réservée à la communauté UdeM.
 
-L'accès à ces ressources est possible avec un ordinateur du campus, avec vos appareils [par le réseau sans fil](reseau) **UdeM avec cryptage**, et à l'extérieur du campus à l'aide du serveur mandataire (*proxy*) ou du **VPN** (*Virtual Private Network* ou Réseau privé virtuel).
+L'accès à ces ressources est possible avec un ordinateur du campus, avec vos appareils [par le réseau sans fil](reseau) **UdeM avec cryptage**, et à l'extérieur du campus à l'aide du serveur mandataire (*proxy*).
 
 ## Préalables {#prealables}
 
@@ -45,7 +45,7 @@ import CardGrid from "@site/src/components/CardGrid";
     },
     {
       title: "Installer le VPN",
-      description: "Installez le VPN pour une connexion sécurisée aux ressources électroniques.",
+      description: "Installez le VPN pour une connexion à distance sécurisée à nos logiciels.",
       link: "/informatique/vpn",
       petit : true,
     },

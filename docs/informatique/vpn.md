@@ -1,6 +1,6 @@
 ---
 title: Installer le VPN
-description: Installer et utiliser le VPN de l'UdeM (Cisco Secure Client) sur macOS, Windows, iOS ou Android pour accéder aux ressources électroniques des bibliothèques et à l'intranet.
+description: Installer et utiliser le VPN de l'UdeM (Cisco Secure Client) sur macOS, Windows, iOS ou Android pour accéder à l'intranet et à la connexion à distance à nos logiciels.
 help: info
 ---
 
@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 import React from 'react';
 import CopyToClipboardButton from '@site/src/components/CopyToClipboardButton';
 
-Le VPN permet d’accéder aux ressources de l’intranet universitaire ainsi qu'aux ressources électroniques des bibliothèques de l'UdeM. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
+Le VPN permet d’accéder aux ressources de l’intranet universitaire et à la connexion à distance à nos logiciels. Sur iPhone et iPad, il donne aussi accès aux ressources électroniques des bibliothèques. Pour l’utiliser, il faut être membre de la communauté UdeM et avoir en main ses informations d'authentification.
 
 ---
 

@@ -24,7 +24,7 @@ Les bibliothèques de l'Université de Montréal offrent à leur communauté des
     },
     {
       title: "Accès hors campus",
-      description: "Utilisez le proxy ou le VPN pour accéder aux ressources à distance.",
+      description: "Utilisez le proxy pour accéder aux ressources à distance.",
       link: "hors-campus",
       icon : "Network",
       image: "/img/cover/horscampus.webp",
