@@ -73,7 +73,7 @@ Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électr
     <Tabs groupId="macOS">
     <TabItem value="13 et ultérieurs" label="13 et ultérieurs (récents)">
     :::warning Attention
-    Apple limite la compatibilité de Safari avec notre proxy. À compter du 13 juillet, sur Mac, veuillez utiliser Chrome, Firefox, Edge ou Brave plutôt que Safari.
+    Apple limite la compatibilité de Safari avec notre proxy. Sur macOS, veuillez utiliser Chrome, Firefox, Edge ou Brave plutôt que Safari.
     :::
        
         1. Cliquer l'icône Wi‑Fi en haut à droite de l'écran.
@@ -94,6 +94,10 @@ Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électr
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
+
+    :::warning Attention
+    Cette vidéo montre Safari à titre d'exemple, mais veuillez plutôt utiliser Chrome, Firefox, Edge ou Brave.
+    :::
       </TabItem>
   
       <TabItem value="12 et antérieurs" label="macOS 12 et antérieurs (anciens)">
@@ -120,6 +124,10 @@ Le serveur mandataire (proxy) de l'UdeM permet d'accéder aux ressources électr
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
+
+    :::warning Attention
+    Cette vidéo montre Safari à titre d'exemple, mais veuillez plutôt utiliser Chrome, Firefox, Edge ou Brave.
+    :::
       </TabItem>
     </Tabs>
   </TabItem>
