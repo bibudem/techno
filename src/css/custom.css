@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
 
 :root {
   /* Semantic theme tokens backed exclusively by palette.css */
@@ -42,10 +42,49 @@
   --focus-ring-halo: var(--jaune);
   --focus-ring: 3px solid var(--focus-ring-color);
   --focus-ring-shadow: 0 0 0 3px var(--focus-ring-halo);
+
+  /* Jetons repris de bibweb (src/styles/tokens.css), pour un rendu proche */
+  --rayon-plein: 9999px;
+  --rayon-petit: 12px;
+  --rayon-carte: var(--rayon-petit);
+  --taille-pastille: 2.5rem;
+  --duree-courte-4: 200ms;
+  --duree-moyenne-1: 250ms;
+  --courbe-standard: cubic-bezier(0.2, 0, 0, 1);
+  --courbe-standard-deceleree: cubic-bezier(0, 0, 0, 1);
+  --courbe-emphase: cubic-bezier(0.2, 0, 0, 1);
+  --taille-cible: 44px;
+  --largeur-max: 1536px;
+  --couleur-lien: var(--bleu-500);
+
+  /* Encadrés : le jaune de Studio·bib remplace le jaune pâle de bibweb */
+  --alerte-fond: var(--bleu-50);
+  --alerte-texte: var(--gris-700);
+  --alerte-bordure: var(--gris-200);
+  --alerte-info-fond: var(--bleu-200);
+  --alerte-info-icone: var(--bleu-500);
+  --alerte-succes-fond: var(--vert-pale);
+  --alerte-succes-icone: var(--bleu-700);
+  --alerte-avertissement-fond: var(--jaune-pale);
+  --alerte-avertissement-icone: #976d00;
+  --alerte-erreur-fond: var(--rose-300);
+  --alerte-erreur-icone: #b10000;
 }
 
 [data-theme='dark'] {
   color-scheme: dark;
+  --couleur-lien: var(--bleu-200);
+  --alerte-fond: #1a2338;
+  --alerte-texte: var(--bleu-50);
+  --alerte-bordure: var(--gris-600);
+  --alerte-info-fond: #1d2f4b;
+  --alerte-info-icone: #93c3f5;
+  --alerte-succes-fond: #163a2b;
+  --alerte-succes-icone: #74d6a4;
+  --alerte-avertissement-fond: #3a3016;
+  --alerte-avertissement-icone: #f2c654;
+  --alerte-erreur-fond: #46201e;
+  --alerte-erreur-icone: #ff9389;
   --focus-ring-color: var(--jaune);
   --focus-ring-halo: var(--bleu-700);
   --theme-bg: var(--bleu-700);
@@ -120,30 +159,76 @@ html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
   font-weight: 400;
 }
 
-.theme-doc-sidebar-container .menu ul.menu__list .menu__list-item > a {
-  padding: 6px 12px 6px 12px;
-}
-
-.theme-doc-sidebar-container .menu ul.menu__list .menu__list-item.menu__list-item-collapsible > a {
-  font-weight: 500;
-  color: var(--ifm-heading-color);
-}
-
 .theme-doc-sidebar-container .menu ul.menu__list .menu__list-item .menu__link--sublist-caret:after,
 .theme-doc-sidebar-container .menu ul.menu__list .menu__list-item .menu__caret:before {
   background-size: 1.3rem;
 }
 
-html[data-theme='dark'] .theme-doc-sidebar-container .menu .menu__link--active {
-  color: var(--bleu-50) !important;
+/* Menu de gauche dans le style de NavigationSecondaire de bibweb : la section en
+   titre, puis des liens sur un filet que la page courante épaissit. */
+aside.theme-doc-sidebar-container {
+  border-inline-end: 0;
 }
 
-html[data-theme='dark']
-  .theme-doc-sidebar-container
-  .menu
-  .menu__link--active:not(.menu__link--sublist) {
-  background-color: var(--gris-700) !important;
-  /* color: var(--bleu-300) !important; */
+.theme-doc-sidebar-menu .menu__list {
+  margin: 0;
+  padding-inline-start: 1rem;
+}
+
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category-level-1 > .menu__list {
+  margin-block-start: 1rem;
+  padding-inline-start: 0;
+}
+
+.theme-doc-sidebar-menu .menu__list-item:not(:first-child) {
+  margin-block-start: 0;
+}
+
+.theme-doc-sidebar-menu .menu__list-item-collapsible,
+.theme-doc-sidebar-menu .menu__list-item-collapsible:hover,
+.theme-doc-sidebar-menu .menu__list-item-collapsible--active {
+  border-radius: 0;
+  background: none;
+}
+
+.theme-doc-sidebar-menu .menu__list-item .menu__link {
+  padding: 0.5rem 0.75rem;
+  border-inline-start: 2px solid var(--gris-200);
+  border-radius: 0;
+  background: none;
+  color: var(--theme-heading);
+  font-size: 1.0546875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.theme-doc-sidebar-menu .menu__list-item .menu__link:hover {
+  border-inline-start-color: var(--couleur-lien);
+  background: none;
+  color: var(--couleur-lien);
+}
+
+.theme-doc-sidebar-menu .menu__list-item .menu__link[aria-current='page'] {
+  border-inline-start: 4px solid var(--couleur-lien);
+  color: var(--couleur-lien);
+  font-weight: 600;
+}
+
+html[data-theme='dark'] .theme-doc-sidebar-menu .menu__list-item .menu__link:not(:hover):not([aria-current='page']) {
+  border-inline-start-color: var(--gris-600);
+}
+
+/* Le titre, après les liens : mêmes sélecteurs, donc il l'emporte */
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link,
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link:hover,
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link[aria-current='page'] {
+  padding: 0;
+  border: 0;
+  color: var(--theme-heading);
+  font-size: 1.40625rem;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 .sidebar-recommande > .menu__link {
@@ -390,25 +475,74 @@ p {
   display: inline-flex;
   align-items: center; 
   justify-content: center; 
-  padding: 0.8rem 1.6rem; 
-  border-radius: 24px; 
-  font-size: 1rem; 
-  font-weight: bold; 
-  text-align: center; 
-  text-decoration: none; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease, transform 0.2s ease; 
-  border: none; 
+  gap: 0.5rem;
+  max-width: 100%;
+  min-height: 3.125rem;
+  padding: 6px 25px;
+  border-radius: var(--rayon-plein);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  cursor: pointer;
+  transition:
+    background-color var(--duree-moyenne-1) var(--courbe-standard),
+    border-color var(--duree-moyenne-1) var(--courbe-standard),
+    color var(--duree-moyenne-1) var(--courbe-standard);
+  border: 1px solid transparent;
+}
+
+.button--sm {
+  min-height: 2.5rem;
+  padding: 4px 18px;
+  font-size: 0.875rem;
+}
+
+/* Flèche de fin des liens : ↗ pour un lien externe. Les boutons qui portent
+   déjà une icône gardent la leur. */
+a.button:not(:has(svg))::after {
+  content: "";
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-inline-end: -5px;
+  background-color: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z'/%3E%3C/svg%3E") center / contain no-repeat;
+  transition: transform var(--duree-courte-4) var(--courbe-standard-deceleree);
+}
+
+a.button[target='_blank']:not(:has(svg))::after {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z'/%3E%3C/svg%3E");
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a.button:hover::after {
+    transform: translateX(3px);
+  }
+
+  a.button[target='_blank']:hover::after {
+    transform: translate(2px, -2px);
+  }
+}
+
+a.button:focus-visible::after {
+  transform: translateX(3px);
+}
+
+a.button[target='_blank']:focus-visible::after {
+  transform: translate(2px, -2px);
 }
 
 .button--primary {
-  background-color: var(--ifm-color-primary);
+  background-color: var(--bleu-700);
   color: var(--white);
-  border: none;
 }
 
 .button--primary:hover {
-  background-color: var(--ifm-color-primary-dark);
+  background-color: var(--bleu-500);
+  color: var(--white);
 }
 
 html[data-theme='dark'] .button.button--primary {
@@ -433,16 +567,13 @@ html[data-theme='dark'] .button.button--primary:focus-visible {
 .button.button--secondary {
   background-color: var(--gris-50);
   color: var(--bleu-500);
-  border: 2px solid var(--bleu-500);
-  transition:
-    background-color 0.3s ease,
-    border-color     0.3s ease,
-    color            0.3s ease;
+  border-color: var(--bleu-500);
 }
 
 .button.button--secondary:hover {
-  color: var(--bleu-700);
-  border-color: var(--bleu-600);
+  background-color: var(--bleu-500);
+  color: var(--white);
+  border-color: var(--bleu-500);
 }
 
 /* En sombre : contour clair sur fond transparent, plutôt qu'une pilule blanche */
@@ -525,8 +656,77 @@ html[data-theme='dark'] .table-of-contents__link--active {
   display: block;
 }
 
-.theme-admonition {
+/* Encadrés dans le style de l'Alert de bibweb : icône sur un bandeau coloré */
+.theme-admonition.alert {
+  --alerte-bandeau: var(--alerte-info-fond);
+  --alerte-icone: var(--alerte-info-icone);
+  --ifm-alert-background-color: var(--alerte-fond);
+  --ifm-alert-foreground-color: var(--alerte-texte);
+  --ifm-alert-border-color: var(--alerte-bordure);
+  position: relative;
   margin-top: 2em;
+  padding: 1rem 1rem 1rem calc(43px + 1rem);
+  overflow: hidden;
+  border: 1px solid var(--alerte-bordure);
+  border-radius: 0 0 var(--rayon-petit) var(--rayon-petit);
+  box-shadow: none;
+  color: var(--alerte-texte);
+}
+
+.theme-admonition.alert::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 43px;
+  background-color: var(--alerte-bandeau);
+}
+
+.theme-admonition-tip.alert {
+  --alerte-bandeau: var(--alerte-succes-fond);
+  --alerte-icone: var(--alerte-succes-icone);
+}
+
+.theme-admonition-warning.alert,
+.theme-admonition-caution.alert {
+  --alerte-bandeau: var(--alerte-avertissement-fond);
+  --alerte-icone: var(--alerte-avertissement-icone);
+}
+
+.theme-admonition-danger.alert {
+  --alerte-bandeau: var(--alerte-erreur-fond);
+  --alerte-icone: var(--alerte-erreur-icone);
+}
+
+.theme-admonition [class*='admonitionHeading'] {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+/* Docusaurus écrit ses titres par défaut en minuscules (« remarque ») */
+.theme-admonition [class*='admonitionHeading']::first-letter {
+  text-transform: uppercase;
+}
+
+.theme-admonition [class*='admonitionIcon'] {
+  position: absolute;
+  top: 1rem;
+  left: 9.5px;
+  margin: 0;
+  line-height: 0;
+}
+
+.theme-admonition [class*='admonitionIcon'] svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--alerte-icone);
+}
+
+/* Les bandeaux ne se distinguent que par leur fond */
+@media (forced-colors: active) {
+  .theme-admonition.alert::before {
+    border-inline-end: 1px solid CanvasText;
+  }
 }
 
 

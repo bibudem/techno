@@ -8,9 +8,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Espaces',
-      collapsed: true, 
-      collapsible: true,
-      link: { type: 'doc', id: 'espaces/index' }, 
+      collapsible: false,
+      link: { type: 'doc', id: 'espaces/index' },
       items: [
         {
           type: 'category',
@@ -95,8 +94,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Ressources informatiques',
-      collapsed: true, 
-      collapsible: true,
+      collapsible: false,
       link: { type: 'doc', id: 'informatique/index' }, 
       items: [
         'informatique/authentification',
@@ -240,7 +238,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Technologies créatives',
-      link: { type: 'doc', id: 'creatives/index' }, 
+      collapsible: false,
+      link: { type: 'doc', id: 'creatives/index' },
       items: [
         {
           type: "category",
@@ -320,6 +319,7 @@ const sidebars = {
   {
     type: "category",
     label: "Productions médias",
+    collapsible: false,
     link: { type: "doc", id: "medias/index" },
     items: [
       // 1) Espaces 
@@ -383,7 +383,8 @@ items: [
     {
       type: 'category',
       label: 'À propos',
-      link: { type: 'doc', id: 'a-propos/index' }, 
+      collapsible: false,
+      link: { type: 'doc', id: 'a-propos/index' },
       items: [
         {
           type: 'category',
