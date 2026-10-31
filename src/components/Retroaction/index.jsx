@@ -126,43 +126,43 @@ const Retroaction = () => {
 
   if (status === 'submitted') {
     return (
-      <div ref={merciRef} tabIndex={-1} className={styles.feedbackBox}>
-        <CheckCircle size={20} weight="fill" className={styles.feedbackIcon} aria-hidden="true" />
-        <p className={styles.feedbackText}>
-          Merci, votre retour a été envoyé. Il nous aide à améliorer le site.
-        </p>
-      </div>
+      <aside className={styles.wrapper} aria-label="Rétroaction sur la page">
+        <div ref={merciRef} tabIndex={-1} className={styles.feedbackBox}>
+          <CheckCircle size={20} weight="fill" className={styles.feedbackIcon} aria-hidden="true" />
+          <p className={styles.feedbackText}>
+            Merci, votre retour a été envoyé. Il nous aide à améliorer le site.
+          </p>
+        </div>
+      </aside>
     );
   }
 
   const isSubmitting = status === 'submitting';
   return (
-    <form onSubmit={handleFormSubmit} className={styles.wrapper}>
-      {/* Section à part entière en fin de page : toujours un h2 */}
-      <h2 className={styles.title}>L’information sur cette page vous a-t-elle été utile?</h2>
-      <p className={styles.subtitle}>
-        Votre réponse nous aide à améliorer le site. Si vous choisissez non, vous pourrez
-        préciser le problème.
-      </p>
+    <aside className={styles.wrapper} aria-label="Rétroaction sur la page">
+    <form onSubmit={handleFormSubmit}>
+      <p id="retroaction-titre" className={styles.title}>Cette page vous a été utile?</p>
 
-      <div className={styles.buttons} role="group" aria-label="Votre réponse">
+      <div className={styles.buttons} role="group" aria-labelledby="retroaction-titre">
         <button
           type="button"
           onClick={handleOuiClick}
           disabled={isSubmitting}
           aria-pressed={vote === 'oui'}
-          className={clsx('button button--secondary', styles.button, vote === 'oui' && styles.selected)}
+          aria-label="Oui"
+          className={clsx(styles.button, vote === 'oui' && styles.selected)}
         >
-          <ThumbsUp size={20} /> Oui
+          <ThumbsUp size={24} aria-hidden="true" />
         </button>
         <button
           type="button"
           onClick={handleNonClick}
           disabled={isSubmitting}
           aria-pressed={vote === 'non'}
-          className={clsx('button button--secondary', styles.button, vote === 'non' && styles.selected)}
+          aria-label="Non"
+          className={clsx(styles.button, vote === 'non' && styles.selected)}
         >
-          <ThumbsDown size={20} /> Non
+          <ThumbsDown size={24} aria-hidden="true" />
         </button>
       </div>
 
@@ -218,6 +218,7 @@ const Retroaction = () => {
         </p>
       )}
     </form>
+    </aside>
   );
 };
 

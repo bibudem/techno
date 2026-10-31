@@ -1,49 +1,54 @@
-/* Style sobre : cadre neutre, boutons Infima du site (button--secondary). */
+/* Apparence de la rétroaction de bibweb : discrète, sans cadre, centrée sous
+   le contenu, avec les pouces en icônes. */
 .wrapper {
-  margin-top: 2rem;
-  border: 1px solid var(--gris-100);
-  border-radius: 8px;
-  padding: 1rem 1.1rem 1.1rem;
+  margin-block: 2.5rem 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gris-200);
+  color: var(--theme-text-secondary);
+  font-size: 0.984375rem;
+  line-height: 1.43;
+  text-align: center;
 }
 
 .title {
   margin: 0;
-  color: var(--bleu-700);
-  font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.35;
-}
-
-.subtitle {
-  margin: 0.4rem 0 0.95rem;
-  color: var(--gris-600);
-  font-size: 0.92rem;
+  font-weight: 500;
 }
 
 .buttons {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.7rem;
-}
-
-/* Complète .button.button--secondary (custom.css) : icône + libellé centrés */
-.button {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 2px;
+  margin-top: 0.25rem;
 }
 
-/* Réponse choisie : bouton plein, comme un bouton principal */
-.buttons .button.selected {
+/* Cible de 40 px (WCAG 2.5.8 demande 24 px) */
+.button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  border: 0;
+  border-radius: var(--rayon-plein);
+  background: transparent;
+  color: var(--theme-text);
+  cursor: pointer;
+  transition:
+    background-color var(--duree-courte-4) var(--courbe-standard),
+    color var(--duree-courte-4) var(--courbe-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover:not(:disabled) {
+    background-color: color-mix(in srgb, currentColor 8%, transparent);
+  }
+}
+
+/* Réponse choisie : pastille pleine, avec aria-pressed pour le lecteur d'écran */
+.button.selected,
+.button.selected:hover:not(:disabled) {
   background-color: var(--bleu-500);
-  border-color: var(--bleu-500);
-  color: var(--white);
-}
-
-.buttons .button.selected:hover {
-  background-color: var(--bleu-600);
-  border-color: var(--bleu-600);
   color: var(--white);
 }
 
@@ -52,17 +57,21 @@
   cursor: not-allowed;
 }
 
+@media (forced-colors: active) {
+  .button.selected {
+    outline: 2px solid SelectedItem;
+  }
+}
+
 .commentSection {
-  margin-top: 1rem;
-  border-top: 1px solid var(--gris-100);
-  padding-top: 0.95rem;
+  max-width: 32rem;
+  margin: 1rem auto 0;
+  text-align: start;
 }
 
 .sectionIntro {
   margin: 0 0 0.95rem;
-  color: var(--gris-700);
-  font-size: 0.93rem;
-  line-height: 1.5;
+  text-align: center;
 }
 
 .fieldGroup + .fieldGroup {
@@ -72,20 +81,17 @@
 .commentLabel {
   display: block;
   margin: 0;
-  color: var(--bleu-700);
-  font-size: 0.95rem;
-  font-weight: 600;
+  color: var(--theme-text);
+  font-weight: 500;
 }
 
 .optional {
-  color: var(--gris-600);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .commentHint {
   margin: 0.3rem 0 0.6rem;
-  color: var(--gris-600);
-  font-size: 0.87rem;
+  font-size: 0.875rem;
 }
 
 .textarea {
@@ -93,12 +99,10 @@
   width: 100%;
   min-height: 110px;
   resize: vertical;
-  border: 1px solid var(--gris-300);
-  border-radius: 8px;
+  border: 1px solid var(--gris-400);
+  border-radius: var(--rayon-petit);
   padding: 0.7rem 0.75rem;
   font: inherit;
-  font-size: 0.95rem;
-  line-height: 1.45;
   background: var(--white);
   color: var(--gris-800);
 }
@@ -120,7 +124,6 @@
 }
 
 .counter {
-  color: var(--gris-600);
   font-size: 0.82rem;
 }
 
@@ -129,14 +132,10 @@
 }
 
 .feedbackBox {
-  margin-top: 2rem;
-  border: 1px solid var(--gris-100);
-  border-radius: 8px;
-  padding: 0.95rem 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.6rem;
-  color: var(--bleu-700);
 }
 
 .feedbackIcon {
@@ -146,8 +145,6 @@
 
 .feedbackText {
   margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
 }
 
 .error {
@@ -160,34 +157,8 @@
 }
 
 /* Thème sombre */
-html[data-theme='dark'] .buttons .button.selected,
-html[data-theme='dark'] .buttons .button.selected:hover {
-  background-color: var(--bleu-500);
-  border-color: var(--bleu-500);
-  color: var(--white);
-}
-
-html[data-theme='dark'] .wrapper,
-html[data-theme='dark'] .feedbackBox,
-html[data-theme='dark'] .commentSection {
+html[data-theme='dark'] .wrapper {
   border-color: var(--gris-600);
-}
-
-html[data-theme='dark'] .title,
-html[data-theme='dark'] .commentLabel {
-  color: var(--white);
-}
-
-html[data-theme='dark'] .subtitle,
-html[data-theme='dark'] .sectionIntro,
-html[data-theme='dark'] .feedbackBox {
-  color: var(--bleu-50);
-}
-
-html[data-theme='dark'] .optional,
-html[data-theme='dark'] .commentHint,
-html[data-theme='dark'] .counter {
-  color: var(--gris-200);
 }
 
 html[data-theme='dark'] .feedbackIcon {
@@ -213,14 +184,6 @@ html[data-theme='dark'] .error {
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper {
-    padding: 0.9rem;
-  }
-
-  .buttons {
-    grid-template-columns: 1fr;
-  }
-
   .commentFooter {
     flex-direction: column;
     align-items: stretch;
