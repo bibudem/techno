@@ -19,14 +19,11 @@
   flex-direction: column;
   text-decoration: none;
   color: var(--gris-700);
-  border: 1px solid var(--gris-100);
-  border-radius: 14px;
+  border: 1px solid var(--bleu-100);
+  border-radius: var(--rayon-carte);
   overflow: hidden;
-  background: linear-gradient(180deg, var(--white) 0%, var(--gris-50) 140%);
-  box-shadow: 0 8px 18px rgba(14, 29, 58, 0.05);
-  transition:
-    border-color 0.22s ease,
-    box-shadow 0.22s ease;
+  background: var(--bleu-50);
+  transition: border-color var(--duree-courte-4) var(--courbe-standard);
 }
 
 .card:hover,
@@ -36,7 +33,6 @@
 
 .card:hover {
   border-color: var(--bleu-200);
-  box-shadow: 0 14px 24px rgba(14, 29, 58, 0.12);
 }
 
 .card:focus-visible {
@@ -86,28 +82,6 @@
 .card:hover .mediaShade,
 .card:focus-visible .mediaShade {
   opacity: 0;
-}
-
-.cardNoImage .mediaShade {
-  background: linear-gradient(
-    125deg,
-    rgba(255, 247, 232, 0.12) 0%,
-    rgba(255, 202, 64, 0.28) 100%
-  );
-}
-
-.cardNoImage:hover .mediaShade,
-.cardNoImage:focus-visible .mediaShade {
-  opacity: 1;
-}
-
-.cardNoImage .media {
-  background: linear-gradient(
-    125deg,
-    var(--rose-100) 0%,
-    var(--jaune-pale) 55%,
-    var(--jaune) 100%
-  );
 }
 
 .iconBadge {
@@ -169,22 +143,49 @@
 
 .footer {
   margin-top: auto;
-  border-top: 1px solid var(--gris-100);
-  padding: 0.75rem 1rem 0.8rem;
+  padding: 0 1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 0.5rem;
+}
+
+/* Pastille fléchée de bibweb, qui passe au jaune de Studio·bib au survol */
+.pastille {
+  width: var(--taille-pastille);
+  height: var(--taille-pastille);
+  border-radius: var(--rayon-plein);
+  display: grid;
+  place-items: center;
+  background: var(--white);
   color: var(--bleu-600);
+  transition:
+    background-color var(--duree-courte-4) var(--courbe-standard),
+    color var(--duree-courte-4) var(--courbe-standard);
 }
 
 .arrow {
-  transition: transform 0.22s ease;
+  transition: transform var(--duree-courte-4) var(--courbe-standard-deceleree);
 }
 
-.card:hover .arrow,
+.card:focus-visible .pastille {
+  background: var(--jaune-pale);
+  color: var(--bleu-700);
+}
+
 .card:focus-visible .arrow {
   transform: translateX(3px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .pastille {
+    background: var(--jaune-pale);
+    color: var(--bleu-700);
+  }
+
+  .card:hover .arrow {
+    transform: translateX(3px);
+  }
 }
 
 .petit .media {
@@ -197,7 +198,7 @@
   border-radius: 999px;
   display: grid;
   place-items: center;
-  background: var(--bleu-50);
+  background: var(--white);
   color: var(--bleu-600);
 }
 
@@ -218,12 +219,10 @@
   color: var(--bleu-50);
   border-color: var(--gris-600);
   background: linear-gradient(180deg, var(--gris-700) 0%, var(--gris-800) 140%);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.28);
 }
 
 :global(html[data-theme='dark']) .card:hover {
   border-color: var(--bleu-300);
-  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.4);
 }
 
 .misEnAvant {
@@ -258,23 +257,6 @@
   );
 }
 
-:global(html[data-theme='dark']) .cardNoImage .media {
-  background: linear-gradient(
-    125deg,
-    var(--bleu-700) 0%,
-    var(--bleu-500) 55%,
-    var(--bleu-300) 100%
-  );
-}
-
-:global(html[data-theme='dark']) .cardNoImage .mediaShade {
-  background: linear-gradient(
-    125deg,
-    rgba(11, 17, 58, 0.16) 0%,
-    rgba(122, 148, 169, 0.25) 100%
-  );
-}
-
 :global(html[data-theme='dark']) .iconBadge {
   background: rgba(11, 17, 58, 0.88);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
@@ -292,9 +274,21 @@
   color: var(--gris-200);
 }
 
-:global(html[data-theme='dark']) .footer {
-  border-top-color: var(--gris-600);
+:global(html[data-theme='dark']) .pastille {
+  background: var(--gris-600);
   color: var(--bleu-200);
+}
+
+:global(html[data-theme='dark']) .card:focus-visible .pastille {
+  background: var(--jaune-pale);
+  color: var(--bleu-700);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :global(html[data-theme='dark']) .card:hover .pastille {
+    background: var(--jaune-pale);
+    color: var(--bleu-700);
+  }
 }
 
 @media screen and (max-width: 768px) {

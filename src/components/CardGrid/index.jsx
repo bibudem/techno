@@ -117,20 +117,22 @@ export default function CardGrid({items = [], headingLevel = 2, empile = false})
           <article key={`${item.link || idx}-${idx}`} role="listitem" className={styles.item}>
             <Link
               {...getLinkProps(item.link)}
-              className={clsx(styles.card, item.petit && styles.petit, !hasImage && styles.cardNoImage, item.mention && styles.misEnAvant)}
+              className={clsx(styles.card, item.petit && styles.petit, item.mention && styles.misEnAvant)}
               data-ignore-external="true"
               aria-labelledby={titleId}
               aria-describedby={hasDescription ? descId : undefined}>
               <div className={styles.media} aria-hidden="true">
                 {hasImage && (
-                  <img
-                    className={styles.mediaImage}
-                    src={item.image}
-                    alt=""
-                    loading="lazy"
-                  />
+                  <>
+                    <img
+                      className={styles.mediaImage}
+                      src={item.image}
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div className={styles.mediaShade} />
+                  </>
                 )}
-                <div className={styles.mediaShade} />
                 {Icon && (
                   <span className={styles.iconBadge}>
                     <Icon className={styles.icon} size={20} aria-hidden="true" />
@@ -158,7 +160,9 @@ export default function CardGrid({items = [], headingLevel = 2, empile = false})
               </div>
 
               <div className={styles.footer} aria-hidden="true">
-                <ArrowRight className={styles.arrow} size={20} />
+                <span className={styles.pastille}>
+                  <ArrowRight className={styles.arrow} size={20} />
+                </span>
               </div>
             </Link>
           </article>
