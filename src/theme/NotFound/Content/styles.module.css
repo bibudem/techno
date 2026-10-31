@@ -1,0 +1,225 @@
+/* Valeurs de bibweb, dont la racine fait 17 puis 18 px, contre 16 px ici :
+   voir Footer.module.css pour --rem. */
+.page {
+  --rem: 1.0625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px 48px;
+  font-size: var(--rem);
+  text-align: center;
+}
+
+.illustration {
+  width: min(60vw, 300px);
+  height: auto;
+  margin-bottom: 24px;
+}
+
+/* Le dessin, en traits foncés, disparaîtrait sur le fond sombre */
+html[data-theme='dark'] .illustration {
+  padding: 12px;
+  border-radius: var(--rayon-petit);
+  background-color: var(--white);
+}
+
+.contenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+
+/* Un mot de 2rem tient dans 320 px même avec le texte agrandi */
+.titre {
+  max-width: 40rem;
+  margin: 0 0 16px;
+  font-size: calc(2 * var(--rem));
+  overflow-wrap: anywhere;
+}
+
+.causes {
+  max-width: 36rem;
+  margin: 0 0 32px;
+}
+
+/* Le champ reste aligné à gauche, dans une colonne centrée : un champ de
+   recherche centré se lit mal */
+.recherche {
+  width: min(100%, 36rem);
+  text-align: start;
+}
+
+.etiquette {
+  display: block;
+  margin: 0 0 0.5rem;
+  color: var(--couleur-lien);
+  font-size: calc(0.8125 * var(--rem));
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.champ {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: calc(3.25 * var(--rem));
+  padding: 0 0.25rem 0 1rem;
+  border: 1px solid var(--theme-text-secondary);
+  border-radius: var(--rayon-plein);
+}
+
+.champ:has(.saisie:focus-visible) {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+  box-shadow: var(--focus-ring-shadow);
+}
+
+.saisie {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.5rem 0;
+  border: 0;
+  background: transparent;
+  color: var(--theme-text);
+  font: inherit;
+  font-size: max(1rem, 16px);
+}
+
+/* L'anneau de focus passe sur .champ ; custom.css impose le sien avec !important */
+.saisie:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.saisie::placeholder {
+  color: var(--theme-text-secondary);
+  opacity: 1;
+}
+
+.saisie::-webkit-search-cancel-button {
+  display: none;
+}
+
+.boutonRecherche {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: var(--taille-cible);
+  height: var(--taille-cible);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--bleu-500);
+  color: var(--white);
+  cursor: pointer;
+  transition: background-color var(--duree-courte-4) var(--courbe-standard);
+}
+
+.boutonRecherche:hover {
+  background-color: var(--bleu-600);
+}
+
+.sousTitre {
+  margin: 40px 0 12px;
+  font-size: calc(1.25 * var(--rem));
+}
+
+.liens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  max-width: 44rem;
+  margin: 0 0 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.liens li {
+  margin: 0;
+}
+
+.liens a {
+  display: inline-block;
+  padding-block: 6px;
+}
+
+.signaler {
+  max-width: 36rem;
+  margin: 0 0 32px;
+  color: var(--theme-text-secondary);
+  font-size: calc(0.9375 * var(--rem));
+}
+
+.retour svg {
+  flex: none;
+  transition: transform var(--duree-courte-4) var(--courbe-standard-deceleree);
+}
+
+.retour:focus-visible svg {
+  transform: translateX(-3px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .retour:hover svg {
+    transform: translateX(-3px);
+  }
+}
+
+/* Grand écran : le 404 à gauche, le message et les actions à droite */
+@media (min-width: 900px) {
+  .page {
+    --rem: 1.125rem;
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    align-items: center;
+    gap: 4rem;
+    max-width: 72rem;
+    margin-inline: auto;
+    padding: 64px 32px 80px;
+    text-align: start;
+  }
+
+  .illustration {
+    justify-self: end;
+    width: min(100%, 420px);
+    margin-bottom: 0;
+  }
+
+  .contenu {
+    align-items: flex-start;
+  }
+
+  .titre {
+    font-size: calc(2 * var(--rem));
+  }
+
+  .causes {
+    margin-bottom: 24px;
+  }
+
+  .sousTitre {
+    margin-top: 28px;
+  }
+
+  .liens {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 24px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .signaler {
+    margin-bottom: 20px;
+  }
+
+  .retour {
+    align-self: flex-start;
+  }
+}
