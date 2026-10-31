@@ -1,0 +1,120 @@
+/* Valeurs de RetourHaut.astro (bibweb), sans la barre de liens rapides mobile.
+   L'anneau de focus vient de la règle globale de custom.css. */
+.bouton {
+  /* En rem de bibweb : sa racine fait 17 puis 18 px, contre 16 px ici */
+  --rem: 1.0625rem;
+  --ecart: var(--rem);
+  display: grid;
+  position: fixed;
+  z-index: 900;
+  right: var(--ecart);
+  bottom: calc(var(--ecart) + env(safe-area-inset-bottom, 0px));
+  place-items: center;
+  width: calc(3 * var(--rem));
+  height: calc(3 * var(--rem));
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--bleu-500);
+  box-shadow: 0 3px 5px -1px rgb(11 17 58 / 20%), 0 6px 10px 0 rgb(11 17 58 / 14%), 0 1px 18px 0 rgb(11 17 58 / 12%);
+  color: var(--white);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  translate: 0 0.75rem;
+  transition:
+    opacity var(--duree-courte-4) cubic-bezier(0.3, 0, 1, 1),
+    translate var(--duree-courte-4) cubic-bezier(0.3, 0, 1, 1),
+    visibility 0s linear var(--duree-courte-4),
+    background-color var(--duree-courte-4) var(--courbe-standard);
+}
+
+.bouton[data-visible] {
+  visibility: visible;
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity var(--duree-moyenne-1) var(--courbe-standard-deceleree),
+    translate var(--duree-moyenne-1) var(--courbe-standard-deceleree),
+    visibility 0s,
+    background-color var(--duree-courte-4) var(--courbe-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .bouton:hover {
+    background-color: var(--bleu-700);
+  }
+}
+
+/* ::before relie la bulle au bouton pour le pointeur ; le nom est déjà porté
+   par aria-label, d'où le texte de remplacement vide */
+.bouton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  width: 8px;
+}
+
+.bouton::after {
+  content: 'Retour en haut' / '';
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 8px);
+  padding: 0.25rem 0.625rem;
+  border-radius: 8px;
+  background: var(--bleu-700);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--white) 35%, transparent);
+  color: var(--white);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: nowrap;
+  translate: 0 -50%;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity var(--duree-courte-4) var(--courbe-standard),
+    visibility 0s linear var(--duree-courte-4);
+}
+
+.bouton[data-visible]:hover:not([data-infobulle-fermee])::after,
+.bouton[data-visible]:focus-visible:not([data-infobulle-fermee])::after {
+  visibility: visible;
+  opacity: 1;
+  transition:
+    opacity var(--duree-courte-4) var(--courbe-standard) 80ms,
+    visibility 0s linear 80ms;
+}
+
+.bouton[data-visible]:focus-visible:not([data-infobulle-fermee])::after {
+  transition: none;
+}
+
+.bouton svg {
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .bouton {
+    --rem: 1.125rem;
+    --ecart: calc(1.5 * var(--rem));
+    right: calc(40px + var(--ecart));
+    bottom: var(--ecart);
+  }
+}
+
+@media (forced-colors: active) {
+  .bouton {
+    border: 2px solid ButtonText;
+    background-color: ButtonFace;
+    color: ButtonText;
+  }
+}
+
+@media print {
+  .bouton {
+    display: none;
+  }
+}

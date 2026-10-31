@@ -139,17 +139,6 @@ html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
   width: 100%;
 }
 
-/* Évite le chevauchement avec le widget d'accessibilité (coin inférieur droit). */
-.theme-back-to-top-button {
-  bottom: 7.5rem !important;
-}
-
-@media screen and (max-width: 996px) {
-  .theme-back-to-top-button {
-    bottom: 8.25rem !important;
-  }
-}
-
 .docs-wrapper .navbar .navbar__toggle {
   margin-right: 0.8rem;
 }
