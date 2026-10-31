@@ -50,7 +50,7 @@ var outil_accessibilite = {
         outil_accessibilite.watch_theme_sync();
         outil_accessibilite.show_widget_to_users();
         outil_accessibilite.watch_klaro_visibility();
-        outil_accessibilite.watch_footer_safe_zone();
+        outil_accessibilite.watch_footer_position();
 
       })
       .catch(err => {
@@ -99,35 +99,17 @@ var outil_accessibilite = {
     return !hasKlaroRoot;
   },
 
-  get_footer_overlap_offset: function () {
-    const footer = document.querySelector('[data-site-footer]');
-    if (!footer) return 0;
-
-    const rect = footer.getBoundingClientRect();
-    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-
-    if (rect.top >= viewportHeight || rect.bottom <= 0) {
-      return 0;
-    }
-
-    const overlapHeight = Math.min(viewportHeight, rect.bottom) - Math.max(0, rect.top);
-    return Math.max(0, overlapHeight);
-  },
-
-  sync_widget_bottom_position: function () {
+  // Pose le bas du widget sur le haut du pied de page, ouvert ou fermé.
+  sync_widget_position: function () {
     const el = document.getElementById('readability-widget');
-    const content = document.getElementById("widget-content");
-    if (!el || !content) return;
+    if (!el) return;
 
-    const footerOffset = outil_accessibilite.get_footer_overlap_offset();
-    el.classList.toggle('footer-docked', footerOffset > 0);
+    const footer = document.querySelector('[data-site-footer]');
+    const footerTop = footer
+      ? footer.getBoundingClientRect().top + window.scrollY
+      : document.documentElement.scrollHeight;
 
-    if (el.classList.contains('open')) {
-      el.style.bottom = footerOffset + "px";
-      return;
-    }
-
-    el.style.bottom = (footerOffset - content.offsetHeight) + "px";
+    el.style.top = Math.max(0, footerTop - el.offsetHeight) + "px";
   },
 
   sync_widget_visibility_with_klaro: function () {
@@ -177,26 +159,15 @@ var outil_accessibilite = {
     document.addEventListener('visibilitychange', refresh);
   },
 
-  watch_footer_safe_zone: function () {
-    if (outil_accessibilite._footer_safe_zone_watcher_started) return;
-    outil_accessibilite._footer_safe_zone_watcher_started = true;
+  watch_footer_position: function () {
+    if (outil_accessibilite._footer_watcher_started) return;
+    outil_accessibilite._footer_watcher_started = true;
 
-    const requestSync = function () {
-      if (outil_accessibilite._footer_safe_zone_raf_id) return;
-
-      outil_accessibilite._footer_safe_zone_raf_id = window.requestAnimationFrame(function () {
-        outil_accessibilite._footer_safe_zone_raf_id = null;
-        outil_accessibilite.sync_widget_bottom_position();
-      });
-    };
-
-    window.addEventListener('scroll', requestSync, { passive: true });
-    window.addEventListener('resize', requestSync);
-    window.addEventListener('orientationchange', requestSync);
-    window.addEventListener('focus', requestSync);
-    document.addEventListener('visibilitychange', requestSync);
-
-    requestSync();
+    // Le pied de page bouge quand la hauteur de la page change (navigation,
+    // images, préférences) ; le corps garde height: 100 %, d'où #__docusaurus.
+    const observer = new ResizeObserver(outil_accessibilite.sync_widget_position);
+    observer.observe(document.getElementById('__docusaurus') || document.body);
+    observer.observe(document.getElementById('readability-widget'));
   },
 
   show_widget_to_users: function () {
@@ -224,7 +195,7 @@ var outil_accessibilite = {
       outil_accessibilite.close_widget();
       widget.classList.add('is-ready');
       outil_accessibilite.sync_widget_visibility_with_klaro();
-      outil_accessibilite.sync_widget_bottom_position();
+      outil_accessibilite.sync_widget_position();
     }, 100);
   },
 
@@ -252,7 +223,7 @@ var outil_accessibilite = {
     el.classList.remove('closed', 'widget-hidden');
     el.classList.add('open');
     outil_accessibilite.set_toggle_expanded(true);
-    outil_accessibilite.sync_widget_bottom_position();
+    outil_accessibilite.sync_widget_position();
 
     outil_accessibilite.set_widget_hidden_local_storage('false');
     outil_accessibilite.enable_internal_tabbing();
@@ -270,7 +241,7 @@ var outil_accessibilite = {
     el.classList.add('closed');
     outil_accessibilite.set_toggle_expanded(false);
 
-    outil_accessibilite.sync_widget_bottom_position();
+    outil_accessibilite.sync_widget_position();
 
     outil_accessibilite.disable_internal_tabbing();
 

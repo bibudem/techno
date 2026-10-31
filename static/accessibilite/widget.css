@@ -167,24 +167,20 @@ body.readability-highlight-links-on button:not(#readability-widget *):hover {
 ============================================================ */
 
 #readability-widget {
-  position: fixed;
+  /* Posé sur le haut du pied de page : ne suit pas le défilement (voir widget.js) */
+  position: absolute;
   right: 12px;
   width: 360px;
-  
-  max-width: calc(100vw - 24px);
-  transition: bottom 0.25s;
 
-  /* Le site peut avoir des overlays/toasts */
-  z-index: 2147483646;
+  max-width: calc(100vw - 24px);
+
+  /* Derrière l'onglet LibChat (z-index: 1000) */
+  z-index: 999;
 }
 
 #readability-widget:not(.is-ready) {
   opacity: 0;
   visibility: hidden;
-}
-
-#readability-widget.footer-docked {
-  transition: none;
 }
 
 #readability-widget.klaro-blocked {
