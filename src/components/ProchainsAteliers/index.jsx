@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../PageAccueil/styles.module.css';
-import { CalendarBlank, MapPin, Monitor, ArrowRight } from '@phosphor-icons/react';
+import { CalendarBlank, MapPin, Monitor, ArrowRight, ArrowUpRight } from '@phosphor-icons/react';
 
 function parseDateFr(dateStr) {
   const mois = {
@@ -82,28 +82,26 @@ export default function ProchainsAteliers() {
         ) : formations.length === 0 ? (
           <li>Aucune formation à venir.</li>
         ) : (
-          formations.map(({ date, titre, typeLocalisation, url, lieu }, idx) => (
+          formations.map(({ date, debut, fin, titre, typeLocalisation, url, lieu, imageVedette }, idx) => (
             <li key={idx} className={styles.cardItem}>
+              {imageVedette && (
+                <img
+                  className={styles.cardVignette}
+                  src={imageVedette}
+                  alt=""
+                  width="300"
+                  height="300"
+                  loading="lazy"
+                  decoding="async"
+                  // Image introuvable : on garde l'alignement, sans icône d'image brisée
+                  onError={(e) => { e.currentTarget.style.visibility = 'hidden'; }}
+                />
+              )}
               <div className={styles.cardItemTop}>
-                <div className={styles.cardMeta}>
-                  <span className={styles.cardDate}>
-                    <CalendarBlank size={16} className={styles.icon} />
-                    {date}
-                  </span>
-                  <span className={styles.cardLocation}>
-                    {typeLocalisation === 'en-ligne' ? (
-                      <>
-                        <Monitor size={16} className={styles.icon} />
-                        En ligne
-                      </>
-                    ) : (
-                      <>
-                        <MapPin size={16} className={styles.icon} />
-                        {lieu || 'Lieu non précisé'}
-                      </>
-                    )}
-                  </span>
-                </div>
+                <p className={styles.cardDate}>
+                  <CalendarBlank className={styles.icon} aria-hidden="true" />
+                  {date}{debut && ` · ${debut}${fin ? `–${fin}` : ''}`}
+                </p>
                 <h3 className={styles.cardTitle}>
                   <a href={url} target="_blank" rel="noopener noreferrer">
                     {titre}
@@ -111,7 +109,24 @@ export default function ProchainsAteliers() {
                     <span className="sr-only">, le {date}</span>
                   </a>
                 </h3>
+                {/* Absent de bibweb : ici, le lieu décide souvent de l'inscription */}
+                <p className={styles.cardLocation}>
+                  {typeLocalisation === 'en-ligne' ? (
+                    <>
+                      <Monitor className={styles.icon} aria-hidden="true" />
+                      En ligne
+                    </>
+                  ) : (
+                    <>
+                      <MapPin className={styles.icon} aria-hidden="true" />
+                      {lieu || 'Lieu non précisé'}
+                    </>
+                  )}
+                </p>
               </div>
+              <span className={styles.cardPastille} aria-hidden="true">
+                <ArrowUpRight className={styles.cardFleche} size={24} weight="light" />
+              </span>
             </li>
           ))
         )}

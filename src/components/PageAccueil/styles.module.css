@@ -144,7 +144,12 @@ html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary:hover
 }
 
 .miniHeroesSection {
-  padding: 2rem 0 0;
+  padding: 2rem 0;
+}
+
+.cardsContainer {
+  display: grid;
+  gap: 1rem;
 }
 
 .miniHeroesContainer {
@@ -153,7 +158,39 @@ html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary:hover
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2rem;
+  gap: 1rem;
+}
+
+/* Dernière carte en pleine largeur */
+.miniHeroesRangee {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* Écran moyen : deux cartes côte à côte, la troisième sur toute la largeur */
+.miniHeroesEmpiles > :nth-child(3) {
+  grid-column: 1 / -1;
+}
+
+/* Grand écran : trois cartes empilées à gauche des formations (elles en partagent
+   la hauteur), la dernière en pleine largeur en dessous. */
+@media (min-width: 1200px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .miniHeroesEmpiles {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: 1fr;
+  }
+
+  .miniHeroesEmpiles .miniHeroCard {
+    min-height: 0;
+  }
+
+  .miniHeroesRangee {
+    grid-column: 1 / -1;
+  }
 }
 
 .miniHeroCard {
@@ -250,12 +287,7 @@ html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary:hover
 /* Survol seulement avec une souris : évite les états collés au toucher */
 @media (hover: hover) and (pointer: fine) {
   .miniHeroCard:hover {
-    transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(13, 12, 43, 0.18);
-  }
-
-  .miniHeroCard:active {
-    transform: scale(0.98);
   }
 
   .miniHeroCard:hover .miniHeroArrow {
@@ -266,42 +298,6 @@ html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary:hover
   .spacesButtonLink:hover .spacesButtonIcon {
     transform: translateX(3px);
   }
-}
-
-.cardsSection {
-  padding: 2rem 0;
-}
-
-.cardsContainer {
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-.leftColumn {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-  flex: 1;
-  min-width: 280px;
-}
-
-.leftMiniHeroCard {
-  flex: 1;
-}
-
-.rightColumn {
-  flex: 1;
-  min-width: 280px;
-}
-
-.cardDate, .cardLocation {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--gris-700);
 }
 
 .icon {
@@ -333,45 +329,146 @@ html[data-theme='dark'] .spacesButtonLink:global(.button.button--secondary:hover
   flex-grow: 1;
 }
 
+/* Formations sous les cartes, sur toute la largeur : deux colonnes, comme le bloc
+   formations de bibweb */
+@media (min-width: 900px) and (max-width: 1199.98px) {
+  .cardList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+}
+
+/* Liste reprise de bibweb (mdx/dynamiques/Element.astro). En em : le texte de
+   <main> est déjà à la taille de bibweb, alors que sa racine en rem est plus grande. */
 .cardItem {
-  margin-bottom: 1.5rem;
+  position: relative;
+  display: flex;
+  gap: 1em;
+  padding-block: 1em;
+  border-bottom: 1px solid var(--bleu-200);
+}
+
+.cardVignette {
+  flex-shrink: 0;
+  width: 5.5em;
+  height: 5.5em;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Très petit écran : assez de place pour les mots longs (baladodiffusion) */
+@media (max-width: 480px) {
+  .cardVignette {
+    width: 4em;
+    height: 4em;
+  }
 }
 
 .cardItemTop {
-  font-size: 0.95rem;
-  margin-bottom: 0.25rem;
-}
-
-.cardMeta {
   display: flex;
-  gap: 1rem;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 0.25rem;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5em;
+  min-width: 0;
 }
 
-.cardDate {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.95rem;
-  color: var(--gris-800);
-}
-
+.cardDate,
 .cardLocation {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.95rem;
-  color: var(--rouge-orange-600);
+  gap: 0.5em;
+  margin: 0;
+  font-size: 0.875em;
+  line-height: 1.2;
+}
+
+.cardDate {
+  color: #b33410;
+  letter-spacing: 0.00875rem;
+}
+
+.cardDate .icon {
+  width: 1.4286em;
+  height: 1.4286em;
+  color: var(--rouge-orange-500);
+}
+
+.cardLocation {
+  color: var(--theme-text-secondary);
+}
+
+.cardLocation .icon {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+/* Laisse la place à la pastille, ancrée en bas à droite */
+.cardTitle,
+.cardLocation {
+  padding-right: 3.5rem;
 }
 
 .cardTitle {
-  margin-left: 1.45rem;
-  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
-  font-weight: 400;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+.cardTitle a {
+  color: var(--bleu-700);
   text-decoration: none;
-  line-height: 1.3;
+}
+
+/* Toute la rangée est cliquable */
+.cardTitle a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.cardItem:hover .cardTitle a {
+  color: var(--bleu-500);
+}
+
+.cardPastille {
+  position: absolute;
+  right: 0;
+  bottom: 1em;
+  display: grid;
+  place-items: center;
+  /* Même pastille que .miniHeroArrow */
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--rayon-plein);
+  background-color: var(--jaune);
+  color: var(--black);
+  pointer-events: none;
+  transition: background-color 200ms ease;
+}
+
+.cardItem:has(a:focus-visible) .cardPastille {
+  background-color: var(--jaune-pale);
+}
+
+.cardFleche {
+  transition: transform var(--duree-courte-4) var(--courbe-standard-deceleree);
+}
+
+.cardItem:has(a:focus-visible) .cardFleche {
+  transform: translate(2px, -2px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cardItem:hover .cardPastille {
+    background-color: var(--jaune-pale);
+  }
+
+  .cardItem:hover .cardFleche {
+    transform: translate(2px, -2px);
+  }
 }
 
 .cardFooter {
@@ -396,17 +493,25 @@ html[data-theme='dark'] .cardItemTop {
   color: var(--bleu-50);
 }
 
+html[data-theme='dark'] .cardItem {
+  border-color: var(--gris-600);
+}
+
 html[data-theme='dark'] .cardDate {
-  color: var(--bleu-100);
+  color: #ff9378;
 }
 
 html[data-theme='dark'] .cardLocation {
-  color: var(--jaune-pale);
+  color: var(--bleu-100);
 }
 
 html[data-theme='dark'] .cardTitle,
 html[data-theme='dark'] .cardTitle a {
   color: var(--white);
+}
+
+html[data-theme='dark'] .cardItem:hover .cardTitle a {
+  color: var(--bleu-200);
 }
 
 html[data-theme='dark'] .cardFooter {
@@ -430,32 +535,67 @@ html[data-theme='dark'] .cardFooter :global(.button.button--secondary:hover) {
     border-radius: 0 !important;
   }
 
+  /* Mobile : bloc de tête, raccourcis, formations (urgentes), services, espaces.
+     Tout sauf la tête et les espaces garde une marge, avec de l'air entre les blocs. */
+  .introSection {
+    margin-bottom: 0;
+    padding: 1.25rem 1rem;
+  }
+
+  .introContainer {
+    margin: 0;
+  }
+
+  .introHeader {
+    flex-wrap: nowrap;
+  }
+
+  .introLogo {
+    height: 88px;
+  }
+
+  .introSubtitleRight {
+    margin: 0;
+    font-size: 1.0625rem;
+  }
+
+  .raccourcis {
+    padding: 1rem;
+  }
+
+  .miniHeroesSection {
+    padding: 0.5rem 1rem 2rem;
+  }
+
   .cardsContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: stretch;
-    gap: 0;
-  }
-
-  .cardsSection {
-    padding: 0 0;
-  }
-
-  .leftColumn {
-    row-gap: 0;
+    gap: 0.75rem;
   }
 
   .cardWorkshops {
-    border-radius: 0;
+    order: -1;
+    margin-bottom: 1.25rem;
   }
 
-  .introSection {
-    margin-bottom: 0;
-    padding: 1rem 1rem 1.5rem;
+  .cardHeader {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+
+  .cardList {
+    padding-block: 0;
+  }
+
+  /* Trois formations suffisent ici : le bouton mène au calendrier complet */
+  .cardItem:nth-child(n + 4) {
+    display: none;
+  }
+
+  .cardItem:nth-child(3) {
+    border-bottom: 0;
   }
 
   .spacesSection {
-    padding: 2rem 0;
+    padding: 2.5rem 0;
     border-radius: 0;
   }
 
@@ -467,14 +607,13 @@ html[data-theme='dark'] .cardFooter :global(.button.button--secondary:hover) {
 
   .spacesDescription {
     max-width: 100%;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
   }
 
   .spacesButtonLink {
     display: flex !important;
     width: max-content;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center !important;
   }
 
   .spacesImages {
@@ -484,28 +623,23 @@ html[data-theme='dark'] .cardFooter :global(.button.button--secondary:hover) {
     gap: 0.6rem;
   }
 
-  .miniHeroesSection {
-    padding: 0;
-  }
-
   .miniHeroesContainer {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 0.75rem;
   }
 
   .miniHeroCard {
-    min-height: 180px;
-    border-radius: 0;
+    min-height: 150px;
+    border-radius: 12px;
+  }
+
+  .miniHeroTitle {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
   }
 
   .miniHeroContent {
     max-width: calc(100% - 4rem);
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .cardsSection {
-    padding: 0 0;
   }
 }
 

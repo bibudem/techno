@@ -18,10 +18,10 @@ export default function CardRow({ children, gap = 32, hoverBoost = 1.1 }) {
     <div
       className="card-row"
       style={{
-        display: 'flex',
-        flexDirection: isMobile ? 'column' : 'row',
-        flexWrap: isMobile ? 'nowrap' : 'wrap',
-        gap: isMobile ? '0' : `${gap}px`,
+        display: isMobile ? 'grid' : 'flex',
+        gridTemplateColumns: isMobile ? 'repeat(2, minmax(0, 1fr))' : undefined,
+        flexWrap: 'wrap',
+        gap: isMobile ? '0.75rem' : `${gap}px`,
         alignItems: 'stretch',
       }}
     >
@@ -32,8 +32,8 @@ export default function CardRow({ children, gap = 32, hoverBoost = 1.1 }) {
           style: {
             flexGrow: isHovered ? hoverBoost : 1,
             flexShrink: 1,
-            flexBasis: isMobile ? '100%' : 0,
-            minWidth: isMobile ? '100%' : '250px',
+            flexBasis: 0,
+            minWidth: isMobile ? 0 : '250px',
             transition: 'flex-grow 300ms ease',
             ...child.props.style,
           },

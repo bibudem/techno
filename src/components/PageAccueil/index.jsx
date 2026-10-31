@@ -34,6 +34,18 @@ const slogans = [
 
 const miniHeroes = [
   {
+    title: 'Problème informatique? Pas de panique!',
+    description: 'Notre équipe est là pour vous soutenir.',
+    href: '/a-propos/soutien-informatique/',
+    image: '/img/home-info.webp',
+  },
+  {
+    title: 'Postes Apportez Votre Appareil',
+    description: 'Étendez votre horizon de travail.',
+    href: '/informatique/ava',
+    image: '/img/cover/ordinateurs.webp',
+  },
+  {
     title: 'Postes d’édition',
     description:
       'Montez vos projets vidéo, audio et graphiques avec des logiciels spécialisés.',
@@ -49,20 +61,26 @@ const miniHeroes = [
   },
 ];
 
-const infoHeroes = [
-  {
-    title: 'Problème informatique? Pas de panique!',
-    description: 'Notre équipe est là pour vous soutenir.',
-    href: '/a-propos/soutien-informatique/',
-    image: '/img/home-info.webp',
-  },
-  {
-    title: 'Postes Apportez Votre Appareil',
-    description: 'Étendez votre horizon de travail.',
-    href: '/informatique/ava',
-    image: '/img/cover/ordinateurs.webp',
-  },
-];
+function carteHero(hero) {
+  return (
+    <Link
+      key={hero.href}
+      to={hero.href}
+      className={styles.miniHeroCard}
+      style={{
+        backgroundImage: `url(${hero.image})`,
+      }}
+    >
+      <div className={styles.miniHeroContent}>
+        <h3 className={styles.miniHeroTitle}>{hero.title}</h3>
+        <p className={styles.miniHeroText}>{hero.description}</p>
+      </div>
+      <span className={styles.miniHeroArrow}>
+        <ArrowRight size={24} weight="light" aria-hidden="true" />
+      </span>
+    </Link>
+  );
+}
 
 export default function PageAccueil() {
   // Tirage fait seulement dans le navigateur : le HTML généré au build
@@ -104,7 +122,7 @@ export default function PageAccueil() {
         </div>
       </section>
 
-      <section>
+      <section className={styles.raccourcis}>
         <CardRow>
           <CardBib
             title="Studios balado"
@@ -141,30 +159,14 @@ export default function PageAccueil() {
         </CardRow>
       </section>
 
-      <section className={styles.cardsSection}>
+      <section className={styles.miniHeroesSection}>
         <div className={styles.cardsContainer}>
-          <div className={styles.leftColumn}>
-            {infoHeroes.map((hero) => (
-              <Link
-                key={hero.href}
-                to={hero.href}
-                className={`${styles.miniHeroCard} ${styles.leftMiniHeroCard}`}
-                style={{
-                  backgroundImage: `url(${hero.image})`,
-                }}
-              >
-                <div className={styles.miniHeroContent}>
-                  <h3 className={styles.miniHeroTitle}>{hero.title}</h3>
-                  <p className={styles.miniHeroText}>{hero.description}</p>
-                </div>
-                <span className={styles.miniHeroArrow}>
-                  <ArrowRight size={24} weight="light" aria-hidden="true" />
-                </span>
-              </Link>
-            ))}
+          <div className={`${styles.miniHeroesContainer} ${styles.miniHeroesEmpiles}`}>
+            {miniHeroes.slice(0, 3).map(carteHero)}
           </div>
-          <div className={styles.rightColumn}>
-            <ProchainsAteliers />
+          <ProchainsAteliers />
+          <div className={`${styles.miniHeroesContainer} ${styles.miniHeroesRangee}`}>
+            {miniHeroes.slice(3).map(carteHero)}
           </div>
         </div>
       </section>
@@ -205,28 +207,6 @@ Venez découvrir les outils, développer vos projets et concrétiser vos idées,
         </div>
       </section>
 
-      <section className={styles.miniHeroesSection}>
-        <div className={styles.miniHeroesContainer}>
-          {miniHeroes.map((hero) => (
-            <Link
-              key={hero.href}
-              to={hero.href}
-              className={styles.miniHeroCard}
-              style={{
-                backgroundImage: `url(${hero.image})`,
-              }}
-            >
-              <div className={styles.miniHeroContent}>
-                <h3 className={styles.miniHeroTitle}>{hero.title}</h3>
-                <p className={styles.miniHeroText}>{hero.description}</p>
-              </div>
-              <span className={styles.miniHeroArrow}>
-                <ArrowRight size={24} weight="light" aria-hidden="true" />
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
     </>
   );
 }
