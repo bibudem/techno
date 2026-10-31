@@ -139,6 +139,18 @@ html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
   width: 100%;
 }
 
+/* Texte à la taille de bibweb (17 puis 18 px). La racine reste à 16 px : les
+   titres, le menu et les composants en rem ne bougent pas. */
+main {
+  font-size: 1.0625rem;
+}
+
+@media (min-width: 900px) {
+  main {
+    font-size: 1.125rem;
+  }
+}
+
 /* Menu mobile dans le style du menu de bibweb (Entete.astro, PanneauMenu.astro) :
    rideau pleine largeur qui descend du haut, grands liens séparés par un filet. */
 :root {
@@ -489,13 +501,13 @@ html[data-theme="dark"] {
 
 #__docusaurus .navbar__link {
   font-weight: 500;
-  font-size: 1rem!important;
+  font-size: 1.0625rem!important;
   color: var(--navbar-link-c);
 }
 
 @media screen and (max-width: 1210px) {
   #__docusaurus .navbar__link {
-    font-size: 0.8rem !important;
+    font-size: 0.875rem !important;
   }
 }
 
