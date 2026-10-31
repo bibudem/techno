@@ -1,253 +1,487 @@
-:root {
-  --color-text: var(--gris-50);
-  --color-link: var(--bleu-100);
-  --color-background: var(--bleu-700);
-  --color-background-alt: var(--bleu-500);
-  --color-accent: var(--jaune);
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
+/* Valeurs de bibweb. Sa racine fait 17 puis 18 px, contre 16 px ici : --rem
+   rend les mêmes tailles et suit quand même le texte agrandi par la personne. */
+.pied {
+  --rem: 1.0625rem;
+  --focus-ring: 3px solid var(--white);
+  --focus-ring-shadow: none;
   font-family: var(--ifm-font-family-base);
-  background-color: var(--color-background);
-  color: var(--color-text);
-  min-height: 320px;
-  border-radius: 16px 16px 0 0;
+  font-size: var(--rem);
 }
 
-/* Nouveau titre */
-.footerTitle {
-  display: flex;
-  align-items: flex-start;
-  margin: 0 auto;
-  padding: var(--space-xl) var(--space-xl) 0;
-  font-size: 1.25rem;
-  color: var(--color-link);
-  max-width: 1200px;
-  text-align: center;
+@media (min-width: 900px) {
+  .pied {
+    --rem: 1.125rem;
+  }
 }
 
-/* Contenu principal */
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 6rem;
-  padding: var(--space-xl) var(--space-md);
-  max-width: 1200px;
-  margin: 0 auto;
+.interieur {
+  width: 100%;
+  max-width: var(--largeur-max);
+  margin-inline: auto;
 }
 
-/* Colonne Contact */
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-  min-width: 250px;
-}
-
-.contact h3 {
+.pied ul {
   margin: 0;
-  font-size: 1.25rem;
-  color: var(--color-link);
+  padding: 0;
+  list-style: none;
 }
 
-.contactLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  color: var(--color-link);
-  font-size: 0.975rem;
+.pied a,
+.pied button {
+  color: inherit;
   text-decoration: none;
 }
 
-.contactLink:hover {
-  color: var(--color-accent);
+.pied a:hover,
+.pied button:hover {
+  color: inherit;
   text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
-.contactLink:focus-visible {
-  color: var(--jaune);
-  text-decoration: underline;
+/* ---- Partie locale ---- */
+.local {
+  padding: 32px 24px 24px;
+  background-color: var(--bleu-700);
+  color: var(--white);
 }
 
-/* Séparateur vertical */
-.divider {
-  width: 1px;
-  background-color: rgba(255, 255, 255, 0.2);
-  align-self: stretch;
-}
-
-/* Colonne Liens rapides */
-.linkSection {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-  min-width: 250px;
-}
-
-.linkSection h3 {
-  margin: 0;
-  font-size: 1.25rem;
-  color: var(--color-link);
-}
-
-.linkItem {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--color-link);
-  font-size: 0.975rem;
-  text-decoration: none;
-}
-
-.linkItem:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-
-.linkItem:focus-visible {
-  color: var(--jaune);
-  text-decoration: underline;
-}
-
-/* Logo + icônes sociales */
-.logoContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo {
-  width: 12rem;
-  height: auto;
-  object-fit: contain;
-  transition: filter 0.2s ease;
-}
-
-.logo:hover {
-  filter: brightness(0.85);
-}
-
-.socialBelowLogo {
-  display: flex;
-  gap: var(--space-md);
-  margin-top: var(--space-md);
-}
-
-.socialBelowLogo a {
-  color: var(--color-link);
-}
-
-.socialBelowLogo a:hover {
-  color: var(--color-accent);
-}
-
-.bottomBar {
-  margin-top: auto;
-  background-color: var(--color-background-alt);
-  padding: 0.75rem var(--space-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: var(--space-md);
-  font-size: 0.9rem;
+.titre {
+  margin: 0 0 24px;
+  color: inherit;
+  font-family: inherit;
+  font-size: calc(1.25 * var(--rem));
+  font-weight: 600;
+  line-height: 1.3;
   text-align: center;
 }
 
-.legalItem,
-.licenseNotice {
+.colonnes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.colonne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  text-align: center;
+}
+
+.sousTitre {
+  margin: 0 0 12px;
+  color: inherit;
+  font-family: inherit;
+  font-size: var(--rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Liens resserrés : 36 px de haut, au-dessus des 24 px de WCAG 2.5.8 */
+.colonne a {
   display: inline-flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
+  gap: 10px;
+  min-height: 36px;
+  font-size: calc(0.875 * var(--rem));
+  font-weight: 400;
+  line-height: 1.4;
 }
 
-.licenseNotice {
-  gap: 0.35rem;
-}
-
-.licenseLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-
-.ccBadge {
-  color: var(--color-background-alt);
-  display: block;
-  width: 2.65rem;
-  height: auto;
+.colonne svg {
   flex-shrink: 0;
 }
 
-.bottomBarDivider {
-  color: rgba(255, 255, 255, 0.7);
+/* Sites connexes : des tuiles ; une par ligne, deux dès 1200 px (plus bas) */
+.listeSites {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+  width: 100%;
 }
 
-.bottomBar a {
-  color: var(--white);
-  text-decoration: underline;
-}
-
-.bottomBar a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-
-.bottomBar a:focus-visible {
-  color: var(--jaune);
-  text-decoration: underline;
-}
-
-@media (max-width: 900px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-  }
-  .divider {
-    display: none;
-  }
-  .logoContainer {
-    margin-top: var(--space-lg);
-  }
-  .contact,
-  .linkSection {
-    align-items: center;
-  }
-  .footer {
-    border-radius: 0;
-  }
-  .bottomBar {
-    gap: 0.5rem 0.75rem;
-  }
-  .licenseLink {
-    gap: 0.3rem;
-  }
-  .ccBadge {
-    width: 2.35rem;
-  }
-}
-
-.footerBtn {
-  color: var(--color-link);
-  font-size: 0.875rem;
+.pied .listeSites a {
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  border-radius: var(--rayon-petit);
+  background-color: color-mix(in srgb, var(--white) 7%, transparent);
   font-weight: 500;
   text-decoration: none;
-}
-.footerBtn:hover {
-  text-decoration: underline;
-  color: var(--color-accent);
+  transition: background-color var(--duree-courte-4) var(--courbe-standard);
 }
 
+.listeSites .point {
+  margin-top: 0.3em;
+}
 
-.urgenceInContact {
-  margin-top: 1rem; /* espace sous les 3 liens */
+@media (hover: hover) and (pointer: fine) {
+  .pied .listeSites a:hover {
+    background-color: color-mix(in srgb, var(--white) 14%, transparent);
+  }
+}
+
+.fonction {
+  display: block;
+  color: color-mix(in srgb, currentColor 78%, transparent);
+  margin-top: 2px;
+  font-size: calc(0.8125 * var(--rem));
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* Un liseré clair garde la pastille visible sur le bleu foncé, même pour les
+   teintes sombres (Papyrus) */
+.point {
+  flex-shrink: 0;
+  width: calc(0.75 * var(--rem));
+  height: calc(0.75 * var(--rem));
+  border-radius: 50%;
+  background-color: var(--point);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--white) 45%, transparent);
+}
+
+.urgence {
+  margin: 12px 0 0;
+}
+
+.sirene {
+  display: inline-flex;
+  color: var(--rouge-orange-500);
+}
+
+.pied .reseaux {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* Cibles de 40 px autour des icônes sociales (WCAG 2.5.8 demande 24 px) */
+.pied .reseaux a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+  transition: background-color var(--duree-courte-4) var(--courbe-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pied .reseaux a:hover {
+    background-color: color-mix(in srgb, var(--white) 14%, transparent);
+    text-decoration: none;
+  }
+}
+
+.colonneLogo {
+  order: 5;
+}
+
+.colonneLogo img {
+  display: block;
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+}
+
+.signatureSceau {
+  flex-shrink: 0;
+}
+
+.signatureSceau img {
+  display: block;
+  width: 72px;
+  height: auto;
+}
+
+/* Téléphone : le sceau et le titre en tête, puis tout s'aligne à gauche.
+   display: none retire le second sceau de l'arbre d'accessibilité. */
+@media (width < 900px) {
+  /* Le titre passe sous le sceau s'il ne tient plus à côté (texte agrandi à
+     200 % sur 320 px, WCAG 1.4.4 et 1.4.10) */
+  .signature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .signature .titre {
+    flex: 1 1 10rem;
+    min-width: 0;
+    margin: 0;
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+
+  .colonnes {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .colonne:first-child {
+    margin-bottom: 24px;
+  }
+
+  .colonne.pliable {
+    align-items: stretch;
+    border-top: 1px solid color-mix(in srgb, var(--white) 25%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--white) 25%, transparent);
+  }
+
+  .pliable .sousTitre {
+    margin: 0;
+  }
+
+  /* Tout le titre est la cible (48 px de haut, WCAG 2.5.8) */
+  .pied .bascule {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    min-height: 3rem;
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    text-align: start;
+    cursor: pointer;
+  }
+
+  .chevron {
+    flex-shrink: 0;
+    transition: rotate var(--duree-courte-4) var(--courbe-standard);
+  }
+
+  .bascule[aria-expanded='true'] .chevron {
+    rotate: 180deg;
+  }
+
+  .pliable .liste {
+    padding-bottom: 16px;
+  }
+
+  /* display: flex de .liste l'emporterait sur l'attribut hidden */
+  .pliable .liste[hidden] {
+    display: none;
+  }
+
+  /* Ouverture en hauteur ; display en allow-discrete : la liste reste visible
+     jusqu'à la fin de la fermeture */
+  @supports (interpolate-size: allow-keywords) {
+    .pliable .liste[data-anime] {
+      interpolate-size: allow-keywords;
+      overflow-y: clip;
+      transition:
+        block-size var(--duree-moyenne-1) var(--courbe-emphase),
+        padding-bottom var(--duree-moyenne-1) var(--courbe-emphase),
+        opacity var(--duree-moyenne-1) var(--courbe-emphase),
+        display var(--duree-moyenne-1) allow-discrete;
+    }
+
+    .pliable .liste[data-anime][hidden] {
+      block-size: 0;
+      padding-bottom: 0;
+      opacity: 0;
+    }
+
+    @starting-style {
+      .pliable .liste[data-anime]:not([hidden]) {
+        block-size: 0;
+        padding-bottom: 0;
+        opacity: 0;
+      }
+    }
+  }
+
+  .colonne a {
+    overflow-wrap: anywhere;
+  }
+
+  .colonne {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .colonneLogo {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .signatureSceau {
+    display: none;
+  }
+
+  .local {
+    padding-inline: 64px;
+  }
+
+  .colonnes {
+    display: grid;
+    /* Le sceau fait pendant à « Besoin d'aide? » de part et d'autre des sites */
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 0;
+  }
+
+  .colonne {
+    align-items: flex-start;
+    padding-inline: 32px;
+    text-align: left;
+  }
+
+  .colonne:first-child {
+    padding-left: 0;
+  }
+
+  .colonne ~ .colonne {
+    align-self: stretch;
+    border-left: 1px solid color-mix(in srgb, var(--white) 20%, transparent);
+  }
+
+  .colonneLogo {
+    order: 0;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .colonneLogo img {
+    width: 220px;
+  }
+}
+
+/* La dernière tuile, si elle est seule, prend toute la largeur */
+@media (min-width: 1200px) {
+  .listeSites {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .listeSites li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---- Barre du bas ---- */
+.queue {
+  background-color: var(--bleu-500);
+  color: var(--white);
+}
+
+/* Pas de traits entre les éléments : quand la barre passe à la ligne, un
+   trait se retrouverait seul en bout de ligne */
+.rangeeQueue,
+.groupeQueue {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px 24px;
+}
+
+.rangeeQueue {
+  /* Le bouton « Retour en haut », fixé en bas à droite, ne recouvre jamais le
+     texte de la barre */
+  padding: 12px calc(4.5 * var(--rem));
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 0.14px;
+}
+
+/* Cibles de 24 px de haut au moins (WCAG 2.5.8) */
+.groupeQueue > a,
+.licence a,
+.rangeeQueue button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+}
+
+/* Sur petit écran, « Paramètres des témoins » est une commande : cible de
+   44 px de haut sans changer son apparence */
+.pied .rangeeQueue button {
+  position: relative;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 400;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+
+.rangeeQueue button::after {
+  content: '';
+  position: absolute;
+  inset: calc((24px - var(--taille-cible)) / 2) 0;
+}
+
+.licence {
+  display: inline-flex;
+  align-items: center;
+  font: inherit;
+}
+
+.licence a {
+  padding-block: 4px;
+}
+
+.iconeCc {
+  display: inline-block;
+  flex-shrink: 0;
+  width: calc(0.5 * 1.5 * var(--rem));
+  height: calc(0.5 * 1.5 * var(--rem));
+  margin-right: 4px;
+  fill: currentColor;
+}
+
+@media (width < 900px) {
+  .rangeeQueue,
+  .groupeQueue {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  /* Les liens légaux à la suite, centrés, plutôt qu'un par ligne */
+  .liensQueue {
+    flex-direction: row;
+    gap: 4px 20px;
+  }
+
+  .rangeeQueue {
+    padding-block: 16px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 900px) {
+  /* Même marge que le bloc du dessus ; à droite, 7,5 rem du bord au total,
+     pour le bouton « Retour en haut » */
+  .queue {
+    padding-inline: 64px;
+  }
+
+  .rangeeQueue {
+    justify-content: space-between;
+    padding-inline: 0 calc(7.5 * var(--rem) - 64px);
+  }
+
+  .rangeeQueue button::after {
+    content: none;
+  }
 }
